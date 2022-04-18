@@ -1,0 +1,34 @@
+.view form {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.view fieldset {
+    background: var(--background-accent);
+    border-radius: var(--radius);
+    display: flex;
+}
+
+.view legend {
+    font-weight: bold;
+}
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.groups button {
+    text-decoration: underline;
+}
+
+.groups button:hover {
+    font-weight: bold;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

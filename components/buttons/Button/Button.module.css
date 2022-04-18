@@ -1,0 +1,19 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--height-field);
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background: var(--color-primary);
+    border-radius: var(--radius);
+    color: var(--color-primary-text);
+    font-weight: bold;
+}
+
+
+.button svg {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,29 @@
+.field {
+    display: inline-block;
+    border-radius: var(--radius);
+    border: 1px solid var(--color);
+    background: var(--background);
+    padding: 2px 5px;
+    height: var(--height-field);
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.field + .field,
+.field + button {
+    margin-left: 15px;
+}
+
+
+.field label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.field input {
+    background: none;
+    border: 0;
+    height: 25px;
+    width: 100%;
+}

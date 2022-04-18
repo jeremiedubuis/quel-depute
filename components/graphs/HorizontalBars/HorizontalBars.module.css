@@ -1,0 +1,54 @@
+.percentage {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: var(--color-primary);
+
+}
+
+.percentage .bar  {
+    top: 0;
+    height: 20px;
+    background: var(--color-secondary);
+}
+
+.percentage .bar  + .bar  {
+    background: red;
+}
+.percentage .bar + .bar  + .bar  {
+    background: green;
+}
+
+.multiple {
+    position: relative;
+}
+
+.multiple .bar {
+    position: absolute;
+}
+
+.percentage span {
+    position: absolute;
+    color: var(--color-primary-text);
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tooltip .bar {
+    cursor: pointer;
+}
+
+.tooltip .bar span {
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background: var(--color-primary);
+}
+.tooltip .bar:hover span {
+    display: block;
+    white-space: nowrap;
+    padding: 2px 5px
+}
