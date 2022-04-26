@@ -1,0 +1,41 @@
+.votes.arrows {
+    padding: 20px;
+}
+
+.votes li {
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vote {
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px var(--color-shadow);
+}
+
+.vote header {
+    color: var(--color-status-text);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--font-size-medium-big);
+    padding: 5px;
+}
+
+.vote h3 {
+    padding: 20px;
+    margin: 0;
+}
+
+.for {
+    background: var(--color-success);
+}
+
+.against {
+    background: var(--color-alert);
+}
+
+.abstained {
+    background: var(--color-warning);
+}

@@ -6,6 +6,7 @@ export type BaseDepute = {
     groupShort: string;
     region: string;
     county: string;
+    countyId: number;
     circumscription: number;
 };
 

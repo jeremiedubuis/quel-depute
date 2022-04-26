@@ -1,7 +1,14 @@
+import styles from './ViewDepute.module.css';
+
 import React from 'react';
 import { Depute } from '$types/deputeTypes';
 import Head from 'next/head';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
+import { SearchForm } from '$components/forms/SearchForm/SearchForm';
+import { DeputeVotes } from '$components/depute/DeputeVotes/DeputeVotes';
+import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
+import { Title } from '$components/text/Title/Title';
+import { ProgressCircle } from '$components/graphs/ProgressCircle/ProgressCircle';
 
 export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     const title = `${depute.firstname} ${depute.lastname}`;
@@ -15,7 +22,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     };
 
     return (
-        <main>
+        <main className={styles.view}>
             <Head>
                 <title>{title}</title>
                 <meta property="og:title" content={title} />
@@ -25,30 +32,43 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 <meta property="og:image:width" content={meta.image.width} />
                 <meta property="og:image:height" content={meta.image.height} />
             </Head>
-            <h1>
-                {depute.firstname} {depute.lastname}
-            </h1>
-            <img
-                src={
-                    process.env.NODE_ENV === 'production'
-                        ? `/card/deputes/${depute.slug}.jpg`
-                        : `/api/card/${depute.slug}`
-                }
-                width={504}
-            />
-            <ul>
-                {Object.keys(depute.votes).map((vote) => (
-                    <li key={vote}>
-                        {vote}: {depute.votes[vote].vote} ({depute.votes[vote].weight})
-                    </li>
-                ))}
-            </ul>
+
+            <SearchForm />
+            <section>
+                <div className={styles.content}>
+                    <DeputeBlock depute={depute} TitleTag="h1" />
+                </div>
+            </section>
+            <section>
+                <Title size="big">Position sur des scrutins importants</Title>
+                <DeputeVotes depute={depute} />
+            </section>
+
+            <section className={styles.chances}>
+                <Title size="big">Probabilité de réélection</Title>
+                <div className={styles.content}>
+                    <ProgressCircle percentage={75} />
+                    <div className={styles.text}>
+                        <Title size="big" TitleTag="h3">
+                            Méthodologie
+                        </Title>
+
+                        <p>
+                            Cette information est donnée à titre indicatif selon une méthode prenant
+                            en compte les résultats du premier tour de l'élection présidentielle de
+                            2022 dans la criconscription, les résultats des scrutins intermédiaires
+                            iansi qu'une prime au sortant tout en prenant en compte l'abstention.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             {depute.firstRoundResults && (
                 <>
-                    <h2>
+                    <Title size="big">
                         Résultats du premier tour dans la circonscription: {depute.county} (
                         {depute.circumscription})
-                    </h2>
+                    </Title>
                     <HorizontalBars
                         lines={Object.keys(depute.firstRoundResults.candidates).map((c) => ({
                             title: c,
@@ -61,6 +81,14 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                     />
                 </>
             )}
+            <img
+                src={
+                    process.env.NODE_ENV === 'production'
+                        ? `/card/deputes/${depute.slug}.jpg`
+                        : `/api/card/${depute.slug}`
+                }
+                width={504}
+            />
         </main>
     );
 };

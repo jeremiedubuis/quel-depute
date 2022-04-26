@@ -1,0 +1,57 @@
+.block {
+    display: inline-block;
+    min-width: 300px;
+    color: var(--color-primary);
+    padding: 40px;
+    text-decoration: none;
+}
+
+
+.picture {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.title {
+    font-size: var(--font-size-biggest);
+    margin: 10px 0;
+}
+
+.title span {
+    display: block;
+}
+
+
+.title span:first-of-type {
+    font-weight: 100;
+}
+
+.title span:last-of-type {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.circumscription svg {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.circumscription p {
+    margin: 0;
+    font-size: var(--font-size-medium-big)
+}
+
+.circumscription p:first-of-type {
+    font-weight: bold;
+}
+
+.group {
+    margin-top: 30px;
+}

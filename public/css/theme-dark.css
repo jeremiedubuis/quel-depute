@@ -1,10 +1,19 @@
 :root {
     --background: black;
     --color: white;
+    --color-low: #707070;
     --background-accent: rgba(255,255,255,0.1);
     --color-primary: #1d3058;
     --color-primary-text: white;
+    --color-search-field-bg: rgba(255,255,255,.5);
+    --color-search-field-text: white;
+
     --color-alert: #f34235;
     --color-success: #6dbe70;
-    --color-secondary: #ab4697;
+    --color-warning: #FEBB01;
+    --color-status-text: white;
+
+    --color-secondary: #A23632;
+
+    --color-shadow: rgba(255,255,255,0.3);
 }

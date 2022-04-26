@@ -1,6 +1,7 @@
 import styles from './AutoComplete.module.css';
 import React, { KeyboardEventHandler, SyntheticEvent, useEffect, useState } from 'react';
 import { Field, FieldProps } from '../Field/Field';
+import { cn } from '$helpers/cn';
 
 type AutoCompleteProps = FieldProps & {
     onInput: (e: SyntheticEvent<HTMLInputElement>) => void;
@@ -13,7 +14,8 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
     id,
     onInput,
     list,
-    onListClick
+    onListClick,
+    className
 }) => {
     const [focus, setFocus] = useState(false);
     const [value, setValue] = useState<string>('');
@@ -46,7 +48,7 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
     }, [list, value]);
 
     return (
-        <Field className={styles.autocomplete} label={label} id={id}>
+        <Field className={cn(styles.autocomplete, className)} label={label} id={id}>
             <input
                 id={id}
                 onInput={(e) => {

@@ -1,0 +1,31 @@
+.view section .content {
+    padding: 40px;
+    box-shadow: 0 0 10px var(--color-shadow);
+    border-radius: var(--radius)
+}
+
+.chances .content {
+    display: flex;
+}
+
+.chances .text {
+    position: relative;
+    flex: 1;
+    margin-left: 40px;
+    padding-left: 40px;
+    color: var(--color-low)
+}
+
+.chances .text h3 {
+    color: var(--color-low)
+}
+
+.chances .text:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: var(--color-shadow);
+}

@@ -1,34 +1,56 @@
+@font-face {
+    font-family: Montserrat;
+    font-weight: 100;
+    src: url('/fonts/Montserrat-Light.woff2') format('woff2'),
+    url('/fonts/Montserrat-Light.woff') format('woff');
+}
 
 @font-face {
     font-family: Montserrat;
-    src: url("/fonts/Montserrat-Medium.woff2") format("woff2"),
-    url("/fonts/Montserrat-Medium.woff") format("woff");
+    src: url('/fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('/fonts/Montserrat-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: Montserrat;
     font-weight: bold;
-    src: url("/fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("/fonts/Montserrat-Bold.woff") format("woff");
+    src: url('/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/fonts/Montserrat-Bold.woff') format('woff');
 }
 
 :root {
     --font-main: Montserrat, Arial, sans-serif;
+    --font-size-medium: 1rem;
+    --font-size-medium-big: 1.5rem;
+    --font-size-big: 2rem;
+    --font-size-biggest: 3rem;
     --radius: 10px;
     --height-field: 55px;
+}
+
+#__next {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-size: 15px;
 }
 
 body {
     font-family: var(--font-main);
 }
 
-ul, li {
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-button, input {
+button,
+input {
     padding: 0;
     font-family: var(--font-main);
     background: transparent;
@@ -40,15 +62,91 @@ button, input {
 
 #header {
     width: 100%;
+    margin: 40px 0;
 }
 
 #header img {
     display: block;
-    max-width: 250px;
+    max-width: 260px;
 }
 
 main {
     margin: auto;
     width: 100%;
-    max-width: 1024px;
+}
+.react-i-slider {
+    position: relative;
+}
+
+.react-i-slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.react-i-slider-prev,
+.react-i-slider-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.react-i-slider-prev {
+    left: 0;
+}
+
+.react-i-slider-next {
+    right: 0;
+}
+
+.react-i-slider-list {
+    transition: all ease-in;
+}
+
+.react-i-slider-list > ul {
+    position: relative;
+}
+.react-i-slider-list > ul > li {
+    display: inline-block;
+}
+
+.react-i-slider-pager {
+    text-align: center;
+}
+
+.react-i-slider-pager li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.react-i-slider-pager button {
+    padding: 0;
+    outline: 0;
+    border: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: grey;
+    cursor: pointer;
+}
+
+.react-i-slider-pager .is-active {
+    background: black;
+}
+
+.react-i-slider-prev svg,
+.react-i-slider-next svg{
+    width: 30px;
+    height: 30px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }

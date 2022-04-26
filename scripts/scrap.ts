@@ -98,10 +98,13 @@ export const scrapAll = async () => {
             const slug = slugify(deputes[i].firstname + ' ' + deputes[i].lastname);
             const depute: Depute = {
                 ...deputes[i],
+                countyId: (circumscriptionResults1stRound.find(
+                    (c) => c.county === deputes[i].county
+                )?.countyId || 99) as number,
                 slug,
-                votes: {},
-                firstRoundResults: computeFirstRoundResults(deputes[i])
+                votes: {}
             };
+            depute.firstRoundResults = computeFirstRoundResults(depute);
 
             if (!skipSteps.deputes.picture) {
                 const img = await axios

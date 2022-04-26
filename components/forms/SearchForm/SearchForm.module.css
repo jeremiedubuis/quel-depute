@@ -1,0 +1,47 @@
+.form {
+    border-radius: var(--radius);
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    height: 500px;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.form fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--radius);
+    display: flex;
+    width: 1024px;
+    max-width: 100%;
+}
+
+.form legend {
+    color: var(--color-primary-text);
+    text-transform: uppercase;
+    font-size: var(--font-size-biggest);
+    width: 815px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    font-weight: bold;
+}
+
+.form .field  {
+    background: var(--color-search-field-bg);
+    color: var(--color-search-field-text);
+}
+
+.form .field input {
+    color: var(--color-search-field-text);
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
