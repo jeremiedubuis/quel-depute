@@ -9,3 +9,10 @@ export const slugify = (...args: (string | number)[]): string => {
         .replace(/[^a-z0-9 ]/g, '') // remove all chars not letters, numbers and spaces (to be replaced)
         .replace(/\s+/g, '-'); // separator
 };
+
+export const slugifyNames = (firstname:string , lastname:string) => {
+    if (lastname.endsWith(' (de)')) {
+        lastname =  'de '+lastname.replace(' (de)', '');
+    }
+    return slugify(`${firstname} ${lastname}`)
+}

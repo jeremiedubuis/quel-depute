@@ -1,4 +1,5 @@
 export type BaseDepute = {
+    id: string;
     firstname: string;
     lastname: string;
     group: string;

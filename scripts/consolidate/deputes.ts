@@ -1,11 +1,18 @@
 import axios from 'axios';
-import { slugify } from '$helpers/slugify';
+import {slugifyNames} from '$helpers/slugify';
 import { writeFile } from '$helpers/writeFile';
-import { deputeJSONPath } from '../config';
+import {deputeJSONPath, deputePicturePath} from '../config';
 import { scrapVotes, Scrutin } from '../scrapVotes';
+import {emptyDir} from "$helpers/emptyDir";
 const scrutins = require('../data/scrutins.json');
 
+const skip = {
+    image: false
+}
+
 const consolidate = async () => {
+    await emptyDir(deputeJSONPath);
+    if (!skip.image) await emptyDir(deputePicturePath);
     const raw = await axios
         .get('https://www.nosdeputes.fr/synthese/data/json')
         .then((r) => r.data.deputes);
@@ -13,6 +20,7 @@ const consolidate = async () => {
     const parsed = raw.map(
         ({
             depute: {
+                id_an,
                 nom_de_famille,
                 prenom,
                 sexe,
@@ -40,9 +48,10 @@ const consolidate = async () => {
                 questions_orales
             }
         }) => ({
+            id: id_an,
             lastname: nom_de_famille,
             firstname: prenom,
-            slug: slugify(`${prenom} ${nom_de_famille}`),
+            slug: slugifyNames(prenom,nom_de_famille),
             gender: sexe,
             birthday: date_naissance,
             birthplace: lieu_naissance,
@@ -107,7 +116,7 @@ const consolidate = async () => {
     );
 
     await Promise.all(
-        parsed.map((d) => {
+        parsed.map(async (d) => {
             d.presenceAverages = presenceAverages;
 
             const groupMembers = parsed.filter(
@@ -117,7 +126,6 @@ const consolidate = async () => {
             let totalGroupVotes = 0;
             d.votes.forEach((v) => {
                 const log = d.slug === 'jeanluc-melenchon' && v.name === 'Projet de loi bioéthique';
-                if (log) console.log('JLM', v);
                 if (v.vote !== 'Absent') {
                     totalGroupVotes++;
                     let groupVotes = [];
@@ -130,14 +138,12 @@ const consolidate = async () => {
                         if (gvIndex < 0) groupVotes.push({ vote: groupMemberVote, count: 1 });
                         else groupVotes[gvIndex].count++;
                     });
-                    if (log) console.log(groupVotes);
 
                     const majorityVote = groupVotes.reduce((acc, curr) => {
                         if (acc === null) acc = curr;
                         else if (acc.count < curr.count) acc = curr;
                         return acc;
                     }, null);
-                    if (log) console.log('groupVotes', groupVotes, 'MAJORITY', majorityVote);
                     if (!majorityVote || !groupVotes.length || v.vote === majorityVote.vote)
                         votedAsGroup++;
                 }
@@ -145,9 +151,25 @@ const consolidate = async () => {
 
             d.votedAsGroup = (votedAsGroup / totalGroupVotes) * 100;
 
-            return writeFile(`${deputeJSONPath}${d.slug}.json`, JSON.stringify(d, null, 4));
+            if (!skip.image) {
+                const img = await axios
+                    .get(
+                        'https://www2.assemblee-nationale.fr/static/tribun/15/photos/' +
+                        d.id +
+                        '.jpg',
+                        {
+                            responseType: 'arraybuffer'
+                        }
+                    )
+                    .then((r) => Buffer.from(r.data, 'binary'));
+
+                await writeFile(deputePicturePath + d.slug + '.jpg', img);
+            }
+
+            return await writeFile(`${deputeJSONPath}${d.slug}.json`, JSON.stringify(d, null, 4));
         })
     );
+
 };
 
 consolidate();

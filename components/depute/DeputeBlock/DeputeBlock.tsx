@@ -1,7 +1,7 @@
 import styles from './DeputeBlock.module.css';
 import React from 'react';
 import Link from 'next/link';
-import { slugify } from '$helpers/slugify';
+import { slugifyNames} from '$helpers/slugify';
 import { BaseDepute } from '$types/deputeTypes';
 import { FiMapPin } from 'react-icons/fi';
 
@@ -15,8 +15,8 @@ export const DeputeBlock: React.FC<{
             <div
                 className={styles.picture}
                 style={{
-                    backgroundImage: `url(/img/deputes/${slugify(
-                        depute.firstname + ' ' + depute.lastname
+                    backgroundImage: `url(/img/deputes/${slugifyNames(
+                        depute.firstname,depute.lastname
                     )}.jpg)`
                 }}
             />
@@ -39,7 +39,7 @@ export const DeputeBlock: React.FC<{
     );
 
     return isLink ? (
-        <Link href={`/deputes/${slugify(`${depute.firstname} ${depute.lastname}`)}`}>
+        <Link href={`/deputes/${slugifyNames(depute.firstname,depute.lastname)}`}>
             <a className={styles.block}> {content}</a>
         </Link>
     ) : (

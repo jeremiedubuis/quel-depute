@@ -1,10 +1,11 @@
+//@ts-nocheck
 import axios from 'axios';
 import { JSDOM } from 'jsdom';
 import scrutins from './data/scrutins.json';
 import villages from './data/villages.json';
 import circumscriptionResults1stRound from '../public/json/circumscription_results_1st_round.json';
 import deputes from '../public/json/deputes.json';
-import { slugify } from '$helpers/slugify';
+import {slugify, slugifyNames} from '$helpers/slugify';
 import type { BaseDepute, Depute } from '$types/deputeTypes';
 import { deputeJSONPath, deputePicturePath, villageJSONPath } from './config';
 import { writeFile } from '$helpers/writeFile';
@@ -95,14 +96,13 @@ export const scrapAll = async () => {
         }
 
         for (let i = 0, iLength = deputes.length; i < iLength; i++) {
-            const slug = slugify(deputes[i].firstname + ' ' + deputes[i].lastname);
+            const slug = slugifyNames(deputes[i].firstname, deputes[i].lastname);
             const depute: Depute = {
                 ...deputes[i],
                 countyId: (circumscriptionResults1stRound.find(
                     (c) => c.county === deputes[i].county
                 )?.countyId || 99) as number,
                 slug,
-                votes: {}
             };
             depute.firstRoundResults = computeFirstRoundResults(depute);
 
