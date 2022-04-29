@@ -1,14 +1,16 @@
 import styles from './ViewDepute.module.css';
-
 import React from 'react';
 import { Depute } from '$types/deputeTypes';
 import Head from 'next/head';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
 import { SearchForm } from '$components/forms/SearchForm/SearchForm';
-import { DeputeVotes } from '$components/depute/DeputeVotes/DeputeVotes';
+import { DeputeVotesSlider } from '$components/depute/DeputeVotesSlider/DeputeVotesSlider';
 import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
 import { Title } from '$components/text/Title/Title';
 import { ProgressCircle } from '$components/graphs/ProgressCircle/ProgressCircle';
+import { DeputeVoteCategories } from '$components/depute/DeputeVoteCategories/DeputeVoteCategories';
+import { cn } from '$helpers/cn';
+import { DeputeGroupBehavior } from '$components/depute/DeputeGroupBehavior/DeputeGroupBehavior';
 
 export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     const title = `${depute.firstname} ${depute.lastname}`;
@@ -16,9 +18,9 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
         image: {
             src: `${process.env.HOST}/${depute.slug}?img=1`,
             width: '1200px',
-            height: '630px'
+            height: '630px',
         },
-        title
+        title,
     };
 
     return (
@@ -37,18 +39,24 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
             <section>
                 <div className={styles.content}>
                     <DeputeBlock depute={depute} TitleTag="h1" />
+                    <DeputeVoteCategories className={styles.right} depute={depute} />
                 </div>
             </section>
             <section>
                 <Title size="big">Position sur des scrutins importants</Title>
-                <DeputeVotes depute={depute} />
+                <DeputeVotesSlider depute={depute} />
+            </section>
+
+            <section>
+                <Title size="big">Positionnement politique</Title>
+                <DeputeGroupBehavior className={styles.group} depute={depute} />
             </section>
 
             <section className={styles.chances}>
                 <Title size="big">Probabilité de réélection</Title>
                 <div className={styles.content}>
                     <ProgressCircle percentage={75} />
-                    <div className={styles.text}>
+                    <div className={cn(styles.text, styles.right)}>
                         <Title size="big" TitleTag="h3">
                             Méthodologie
                         </Title>
@@ -76,19 +84,19 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                             total:
                                 depute.firstRoundResults.voted -
                                 depute.firstRoundResults.void -
-                                depute.firstRoundResults.whites
+                                depute.firstRoundResults.whites,
                         }))}
                     />
                 </>
             )}
-            <img
+            {/*<img
                 src={
                     process.env.NODE_ENV === 'production'
                         ? `/card/deputes/${depute.slug}.jpg`
                         : `/api/card/${depute.slug}`
                 }
                 width={504}
-            />
+            />*/}
         </main>
     );
 };

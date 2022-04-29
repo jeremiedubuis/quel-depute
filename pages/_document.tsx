@@ -4,6 +4,7 @@ export default function Document() {
     return (
         <Html>
             <Head>
+                {!process.env.INDEX && <meta name="robots" content="noindex" />}
                 <link rel="shortcut icon" href="/img/favicon.ico" />
                 <link rel="icon" href="/img/favicon.ico" />
                 <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />

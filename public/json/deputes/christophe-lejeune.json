@@ -1,50 +1,106 @@
 {
-    "id": 722320,
-    "firstname": "Christophe",
     "lastname": "Lejeune",
-    "region": "Bourgogne-Franche-Comté",
-    "county": "Haute-Saône",
-    "circumscription": 2,
-    "job": "Courtier en assurances",
-    "group": "La République en Marche",
-    "groupShort": "LaREM",
-    "countyId": 70,
+    "firstname": "Christophe",
     "slug": "christophe-lejeune",
-    "votes": {
-        "Scrutin public sur l'ensemble du projet de loi organique relatif au système universel de retraite (première lecture).": {
-            "weight": 1,
-            "vote": "Absent"
-        },
-        "Scrutin public sur l'ensemble de la proposition de loi pour une sécurité globale préservant les libertés (texte de la commission mixte paritaire).": {
-            "weight": 1,
-            "vote": "Absent"
-        },
-        "Scrutin public sur l'ensemble du projet de loi relatif à la bioéthique (lecture définitive). ": {
-            "weight": 1,
+    "gender": "H",
+    "birthday": "1969-03-22",
+    "birthplace": "Luxeuil-les-Bains (Haute-Saône)",
+    "county": "Haute-Saône",
+    "countyId": "70",
+    "circumscription": 2,
+    "mandateStart": "2017-06-21",
+    "group": "La République en Marche",
+    "groupShort": "LREM",
+    "job": "Courtier en assurances",
+    "votes": [
+        {
+            "name": "L'ensemble du projet de loi autorisant la prorogation de l'état d'urgence sanitaire et portant diverses mesures de gestion de la crise sanitaire",
+            "category": "Droits humains",
             "vote": "Pour"
         },
-        "Scrutin public sur l'ensemble du projet de loi de finances pour 2022 (lecture définitive). ": {
-            "weight": 1,
+        {
+            "name": "Ouvrir le bénéfice du RSA pour les moins de 25 ans jusqu'en décembre 2023",
+            "category": "Pauvreté",
             "vote": "Absent"
+        },
+        {
+            "name": "L'ensemble de la proposition de loi visant à renforcer le droit à l'avortement",
+            "category": "Droits humains",
+            "vote": "Absent"
+        },
+        {
+            "name": "L'ensemble de la proposition de loi visant à combattre le harcèlement scolaire et le cyberharcèlement",
+            "category": "Éducation",
+            "vote": "Absent"
+        },
+        {
+            "name": "L'article 2 du projet de loi pour une école de la confiance",
+            "category": "Éducation",
+            "vote": "Pour"
+        },
+        {
+            "name": "L'ensemble du projet de loi relatif à la prévention d'actes de terrorisme et au renseignement",
+            "category": "Droits humains",
+            "vote": "Absent"
+        },
+        {
+            "name": "L'ensemble du projet de loi confortant le respect des principes de la République",
+            "category": "Droits humains",
+            "vote": "Absent"
+        },
+        {
+            "name": "Projet de loi bioéthique",
+            "category": "Droits humains",
+            "vote": "Pour"
+        },
+        {
+            "name": "L'ensemble de la proposition de loi relative à la sécurité globale",
+            "category": "Droits humains",
+            "vote": "Pour"
+        },
+        {
+            "name": "L'article unique de la proposition de résolution déclarant la nécessité d'une bifurcation écologique et solidaire pour aller vers les jours heureux",
+            "category": "Écologie",
+            "vote": "Contre"
+        },
+        {
+            "name": "Autorisation de l'utilisation des pesticides néonicotinoïdes jusqu'en 2023",
+            "category": "",
+            "vote": "Pour"
         }
+    ],
+    "presence": {
+        "weeksActive": 27,
+        "reports": 1,
+        "proposals": 0,
+        "proposalsSupported": 11,
+        "amendments": 0,
+        "amendmentsSupported": 305,
+        "amendmentsAdopted": 204,
+        "commissionsAttended": 55,
+        "commissionInterventions": 38,
+        "hemicycleInterventions": 0,
+        "hemicycleShortInterventions": 0,
+        "questionsWritten": 1,
+        "questionsOral": 0
     },
-    "firstRoundResults": {
-        "registered": 89596,
-        "voted": 69275,
-        "whites": 1158,
-        "void": 808,
-        "candidates": {
-            "Nathalie Arthaud": 604,
-            "Fabien Roussel": 1488,
-            "Emmanuel Macron": 14194,
-            "Jean Lasalle": 2426,
-            "Marine Le Pen": 24036,
-            "Jean-Luc Mélenchon": 10757,
-            "Anne Hidalgo": 1247,
-            "Yannick Jadot": 2017,
-            "Valérie Pécresse": 3152,
-            "Phillipe Poutou": 650,
-            "Nicolas Dupont-Aignan": 1870
-        }
-    }
+    "opposedGovernment": 0,
+    "supportedGovernment": 5,
+    "governmentLaws": 5,
+    "presenceAverages": {
+        "weeksActive": 20,
+        "reports": 1,
+        "proposals": 1,
+        "proposalsSupported": 22,
+        "amendments": 79,
+        "amendmentsSupported": 889,
+        "amendmentsAdopted": 165,
+        "commissionsAttended": 36,
+        "commissionInterventions": 59,
+        "hemicycleInterventions": 0,
+        "hemicycleShortInterventions": 0,
+        "questionsWritten": 12,
+        "questionsOral": 0
+    },
+    "votedAsGroup": 100
 }

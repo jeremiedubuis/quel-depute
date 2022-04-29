@@ -1,18 +1,21 @@
 .view section .content {
+    display: flex;
+}
+
+.group, .view section .content {
     padding: 40px;
     box-shadow: 0 0 10px var(--color-shadow);
     border-radius: var(--radius)
 }
 
-.chances .content {
-    display: flex;
-}
-
-.chances .text {
+.view section .right {
     position: relative;
     flex: 1;
     margin-left: 40px;
     padding-left: 40px;
+}
+
+.chances .text {
     color: var(--color-low)
 }
 

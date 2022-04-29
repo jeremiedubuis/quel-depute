@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "scrap": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/scrap.ts",
+    "scrap:deputes": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/consolidate/deputes.ts",
     "thumbnails": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/thumbnails.ts",
     "dev": "next dev",
     "build": "npm run thumbnails && next build && next export",
@@ -31,9 +32,11 @@
     "@types/polka": "^0.5.4",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
+    "cross-env": "^7.0.3",
     "jsdom": "^19.0.0",
     "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.14.1",
     "typescript": "^4.6.3"
   }

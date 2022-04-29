@@ -1,36 +1,42 @@
 import styles from './HorizontalBars.module.css';
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { cn } from '$helpers/cn';
 
+type Line = { title: string; amounts: number[]; total: number; colors?: string[] };
 type HorizontalBarsProps = {
-    lines: { title: string; amounts: number[]; total: number }[];
-    colors?: string[];
+    lines: Line[];
+    className?: string;
     tooltip?: boolean;
     labels?: string[];
     after?: (percentages: number[]) => any;
+    colors?: string[];
+    renderLabel?: (data: Line & { i: number; percentage: number }) => ReactNode | ReactNode[];
 };
 
 export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
     lines,
-    colors,
     tooltip,
+    className,
     labels,
-    after
+    renderLabel,
+    after,
+    colors,
 }) => {
     return (
-        <ul>
+        <ul className={cn(styles.bars, className)}>
             {lines
                 .sort((a, b) => (a.amounts[0] < b.amounts[0] ? 1 : -1))
-                .map(({ title, amounts, total }) => {
+                .map((line) => {
+                    const { title, amounts, total, colors: lineColors } = line;
                     const percentages = amounts.map((amount) => (amount / total) * 100);
                     return (
                         <li key={title}>
-                            {title}
+                            {title && <div className={styles.title}>{title}</div>}
                             <div
                                 className={cn(
                                     styles.percentage,
                                     percentages.length > 1 && styles.multiple,
-                                    tooltip && styles.tooltip
+                                    tooltip && styles.tooltip,
                                 )}
                             >
                                 {percentages.map((percentage, i) => (
@@ -38,14 +44,20 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
                                         className={styles.bar}
                                         style={{
                                             width: `${percentage}%`,
-                                            backgroundColor: colors?.[i],
+                                            backgroundColor: lineColors?.[i] || colors?.[i],
                                             left: `${percentages
                                                 .slice(0, i)
-                                                .reduce((acc, curr) => acc + curr, 0)}%`
+                                                .reduce((acc, curr) => acc + curr, 0)}%`,
                                         }}
                                     >
                                         <span>
-                                            {labels?.[i]} ({percentage.toFixed(2)}%)
+                                            {renderLabel ? (
+                                                renderLabel({ ...line, i, percentage })
+                                            ) : (
+                                                <>
+                                                    {labels?.[i]} ({percentage.toFixed(2)}%)
+                                                </>
+                                            )}
                                         </span>
                                     </div>
                                 ))}

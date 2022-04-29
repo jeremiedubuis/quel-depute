@@ -1,0 +1,24 @@
+.nav {
+
+}
+
+.nav  ul {
+    display: flex;
+}
+
+.nav li + li {
+    margin-left: 40px;
+}
+
+.nav a {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: var(--font-size-big)
+}
+
+
+.primary a {
+    color: var(--color-primary-text);
+}

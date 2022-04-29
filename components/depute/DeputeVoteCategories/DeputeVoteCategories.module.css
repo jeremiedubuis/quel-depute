@@ -1,0 +1,38 @@
+.votes {
+    display: flex;
+}
+.square {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: var(--color-low);
+    border-radius: var(--radius);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.details {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 300px;
+    background: var(--color-background);
+    padding: 10px;
+    box-shadow: 5px 5px 10px var(--color-shadow);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.square:hover .details {
+    opacity: 1;
+}
+
+.for {
+    background: var(--color-success)
+}
+
+.against {
+    background: var(--color-alert)
+}
