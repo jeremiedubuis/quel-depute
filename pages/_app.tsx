@@ -2,33 +2,21 @@ import Link from 'next/link';
 import { RecoilRoot } from 'recoil';
 import { SharedData } from '$components/layout/SharedData';
 import { Nav } from '$components/layout/Nav/Nav';
+import Head from 'next/head';
+import {Header} from "$components/layout/Header/Header";
+import {Footer} from "$components/layout/Footer/Footer";
 export default function App({ Component, pageProps }) {
     return (
         <RecoilRoot>
+            <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
             <div id="wrapper">
-                <header id="header">
-                    <Link href="/">
-                        <a>
-                            <img src="/img/logo-light.svg" alt="" />
-                        </a>
-                    </Link>
-                    <Nav />
-                </header>
+                <Header />
                 <SharedData />
                 <Component {...pageProps} />
             </div>
-            <footer id="footer">
-                <Link href="/">
-                    <a>
-                        <img src="/img/logo-dark.svg" alt="" />
-                    </a>
-                </Link>
-                <p>
-                    A falsis, lamia castus pes.Gallus moris, tanquam bi-color hydra.A falsis,
-                    demissio bassus barcas.Fermium de bi-color turpis, perdere lura!
-                </p>
-                <Nav primary />
-            </footer>
+            <Footer />
         </RecoilRoot>
     );
 }

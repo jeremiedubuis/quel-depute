@@ -26,11 +26,11 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
         <ul className={cn(styles.bars, className)}>
             {lines
                 .sort((a, b) => (a.amounts[0] < b.amounts[0] ? 1 : -1))
-                .map((line) => {
+                .map((line, i) => {
                     const { title, amounts, total, colors: lineColors } = line;
                     const percentages = amounts.map((amount) => (amount / total) * 100);
                     return (
-                        <li key={title}>
+                        <li key={title || i}>
                             {title && <div className={styles.title}>{title}</div>}
                             <div
                                 className={cn(
@@ -41,6 +41,7 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
                             >
                                 {percentages.map((percentage, i) => (
                                     <div
+                                        key={i}
                                         className={styles.bar}
                                         style={{
                                             width: `${percentage}%`,

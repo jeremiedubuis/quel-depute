@@ -9,7 +9,7 @@ export const DeputeVotesSlider: React.FC<{ depute: Depute }> = ({ depute }) => {
     const votes = depute.votes.filter((vote) => vote.vote !== 'Absent');
     return (
         <ReactISlider
-            maxSlides={3}
+            maxSlides={typeof window  !== 'undefined' && window.outerWidth > 1023 ? 3 :1}
             className={cn(styles.votes, votes.length > 3 && styles.arrows)}
             prev={<FiChevronLeft />}
             next={<FiChevronRight />}

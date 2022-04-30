@@ -1,5 +1,14 @@
+.view section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 .view section .content {
+    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
 }
 
 .group, .view section .content {
@@ -11,8 +20,6 @@
 .view section .right {
     position: relative;
     flex: 1;
-    margin-left: 40px;
-    padding-left: 40px;
 }
 
 .chances .text {
@@ -23,12 +30,26 @@
     color: var(--color-low)
 }
 
-.chances .text:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    display: block;
-    height: 100%;
-    width: 1px;
-    background: var(--color-shadow);
+
+@media screen and (min-width: 1024px) {
+
+    .chances .text:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        display: block;
+        height: 100%;
+        width: 1px;
+        background: var(--color-shadow);
+    }
+    
+    .view section .content {
+        flex-direction: row;
+    }
+
+    .view section .right {
+
+        margin-left: 40px;
+        padding-left: 40px;
+    }
 }

@@ -39,12 +39,18 @@ html {
     font-size: 15px;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: var(--font-main);
+    width: 100%;
+}
+
+#__next {
+    width: 100%;
 }
 
 ul,
@@ -65,49 +71,12 @@ input {
     vertical-align: top;
 }
 
-#header {
-    width: 100%;
-    margin: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#header img {
-    display: block;
-    width: 260px;
-}
-
 main {
     margin: auto;
     width: 100%;
 }
 
-#footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 300px;
-    background: var(--color-primary);
-    padding: 40px 80px;
-    box-sizing: border-box;
-    margin-top: 40px;
-}
 
-#footer a {
-    display: block;
-}
-
-#footer img {
-    display: block;
-    width: 260px;
-}
-
-#footer p {
-    flex:25vw 0 0;
-    color: var(--color-low);
-    font-size: var(--font-size-small);
-}
 
 .react-i-slider {
     position: relative;

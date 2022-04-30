@@ -1,7 +1,3 @@
-.bars > li {
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
 
 .bars > li + li {
     margin-top: 10px;
@@ -90,4 +86,12 @@
     display: block;
     white-space: nowrap;
     padding: 2px 5px;
+}
+
+@media screen and (min-width:  1024px) {
+    .bars > li {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
 }

@@ -9,9 +9,9 @@ const entries = [
     { label: 'Législatives', href: '/legislatives' }
 ];
 
-export const Nav: React.FC<{ primary?: boolean }> = ({ primary }) => {
+export const Nav: React.FC<{ primary?: boolean; className?: string; }> = ({ primary, className }) => {
     return (
-        <nav className={cn(styles.nav, primary && styles.primary)}>
+        <nav className={cn(styles.nav, primary && styles.primary, className)}>
             <ul>
                 {entries.map((e) => (
                     <li key={e.href}>

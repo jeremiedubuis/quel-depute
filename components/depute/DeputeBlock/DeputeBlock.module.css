@@ -1,9 +1,11 @@
 .block {
     display: inline-block;
-    min-width: 300px;
+    width: 300px;
+    max-width: 100%;
     color: var(--color-primary);
     padding: 40px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 

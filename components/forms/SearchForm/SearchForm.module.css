@@ -1,6 +1,5 @@
 .form {
     border-radius: var(--radius);
-    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
     height: 500px;
     max-height: 40vh;
     display: flex;
@@ -8,6 +7,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    background-size: cover;
+    background: url('/img/search.jpg') center center;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 
