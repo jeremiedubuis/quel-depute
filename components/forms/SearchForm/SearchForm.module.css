@@ -1,7 +1,5 @@
 .form {
     border-radius: var(--radius);
-    height: 500px;
-    max-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +9,7 @@
     background: url('/img/search.jpg') center center;
     overflow: hidden;
     max-width: 100%;
+    padding: 20px;
 }
 
 
@@ -47,4 +46,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .form {
+        height: 500px;
+        max-height: 40vh;
+    }
 }

@@ -1,21 +1,22 @@
 import axios from 'axios';
-import {slugifyNames} from '$helpers/slugify';
+import { slugifyNames } from '$helpers/slugify';
 import { writeFile } from '$helpers/writeFile';
-import {deputeJSONPath, deputePicturePath} from '../config';
-import { scrapVotes, Scrutin } from '../scrapVotes';
-import {emptyDir} from "$helpers/emptyDir";
-const scrutins = require('../data/scrutins.json');
+import { deputeJSONPath, deputePicturePath, scrutinJSONPath } from '../config';
+import { scrapScrutin, Scrutin } from '../scrapScrutin';
+import { emptyDir } from '$helpers/emptyDir';
+import path from 'path';
+import { ScrapQueue } from '../helpers/scrapQueue';
+const scrutins = require('../data/scrutins2.json');
 
+const scrapQueue = new ScrapQueue(500);
 const skip = {
-    image: false
-}
+    image: true,
+};
 
 const consolidate = async () => {
     await emptyDir(deputeJSONPath);
     if (!skip.image) await emptyDir(deputePicturePath);
-    const raw = await axios
-        .get('https://www.nosdeputes.fr/synthese/data/json')
-        .then((r) => r.data.deputes);
+    const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
 
     const parsed = raw.map(
         ({
@@ -45,13 +46,13 @@ const consolidate = async () => {
                 propositions_ecrites,
                 propositions_signees,
                 questions_ecrites,
-                questions_orales
-            }
+                questions_orales,
+            },
         }) => ({
             id: id_an,
             lastname: nom_de_famille,
             firstname: prenom,
-            slug: slugifyNames(prenom,nom_de_famille),
+            slug: slugifyNames(prenom, nom_de_famille),
             gender: sexe,
             birthday: date_naissance,
             birthplace: lieu_naissance,
@@ -76,12 +77,12 @@ const consolidate = async () => {
                 hemicycleInterventions: hemicycle_interventions,
                 hemicycleShortInterventions: hemicycle_interventions_courtes,
                 questionsWritten: questions_ecrites,
-                questionsOral: questions_orales
+                questionsOral: questions_orales,
             },
             opposedGovernment: 0,
             supportedGovernment: 0,
-            governmentLaws: 0
-        })
+            governmentLaws: 0,
+        }),
     );
 
     const presenceTotals = parsed.reduce((acc, curr) => {
@@ -97,44 +98,48 @@ const consolidate = async () => {
         return acc;
     }, {});
 
-    await Promise.all(
-        scrutins.map(async (s: Scrutin) => {
-            const votes = await scrapVotes(s, parsed);
-            parsed.forEach((d) => {
-                if (s.Initiative === 'LREM' || s.Initiative === 'Gouvernement') {
-                    if (votes[d.slug] === 'Pour') d.supportedGovernment++;
-                    if (votes[d.slug] === 'Contre') d.opposedGovernment++;
-                    if (votes[d.slug] !== 'Absent') d.governmentLaws++;
-                }
-                d.votes.push({
-                    name: s['Nom de la loi'],
-                    category: s['Catégorie (écologie, économie...)'],
-                    vote: votes[d.slug]
-                });
+    scrutins.forEach((s: Scrutin) => {
+        const scrutin = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
+        parsed.forEach((d) => {
+            const vote = scrutin.votes.find(
+                ({ firstname, lastname }) => d.firstname === firstname && d.lastname === lastname,
+            );
+            if (
+                vote &&
+                ['La République en Marche', 'LREM', 'LaREM', 'Gouvernement'].includes(
+                    scrutin.initiative,
+                )
+            ) {
+                if (vote.vote === 'Pour') d.supportedGovernment++;
+                if (vote.vote === 'Contre') d.opposedGovernment++;
+                if (vote.vote !== 'Absent') d.governmentLaws++;
+            }
+            d.votes.push({
+                initiative: scrutin.initiative,
+                name: scrutin.title,
+                category: scrutin.category,
+                vote: vote?.vote || 'Absent',
             });
-        })
-    );
+        });
+    });
 
     await Promise.all(
         parsed.map(async (d) => {
             d.presenceAverages = presenceAverages;
 
             const groupMembers = parsed.filter(
-                (i) => i.groupShort === d.groupShort && i.slug !== d.slug
+                (i) => i.groupShort === d.groupShort && i.slug !== d.slug,
             );
             let votedAsGroup = 0;
             let totalGroupVotes = 0;
             d.votes.forEach((v) => {
-                const log = d.slug === 'jeanluc-melenchon' && v.name === 'Projet de loi bioéthique';
                 if (v.vote !== 'Absent') {
                     totalGroupVotes++;
                     let groupVotes = [];
                     groupMembers.forEach((i) => {
                         const groupMemberVote = i.votes.find(({ name }) => name === v.name).vote;
-                        if (log) console.log('groupMember', i.slug, groupMemberVote);
                         if (groupMemberVote === 'Absent') return;
                         const gvIndex = groupVotes.findIndex((gv) => gv.vote === groupMemberVote);
-                        if (log) console.log(gvIndex, { vote: groupMemberVote, count: 1 });
                         if (gvIndex < 0) groupVotes.push({ vote: groupMemberVote, count: 1 });
                         else groupVotes[gvIndex].count++;
                     });
@@ -152,24 +157,23 @@ const consolidate = async () => {
             d.votedAsGroup = (votedAsGroup / totalGroupVotes) * 100;
 
             if (!skip.image) {
-                const img = await axios
-                    .get(
+                const img = await scrapQueue
+                    .fetch(
                         'https://www2.assemblee-nationale.fr/static/tribun/15/photos/' +
-                        d.id +
-                        '.jpg',
+                            d.id +
+                            '.jpg',
                         {
-                            responseType: 'arraybuffer'
-                        }
+                            responseType: 'arraybuffer',
+                        },
                     )
-                    .then((r) => Buffer.from(r.data, 'binary'));
+                    .then((r) => Buffer.from(r, 'binary'));
 
                 await writeFile(deputePicturePath + d.slug + '.jpg', img);
             }
 
             return await writeFile(`${deputeJSONPath}${d.slug}.json`, JSON.stringify(d, null, 4));
-        })
+        }),
     );
-
 };
 
 consolidate();
