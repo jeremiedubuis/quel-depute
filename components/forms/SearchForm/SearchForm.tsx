@@ -20,7 +20,7 @@ export const SearchForm: React.FC = () => {
 
     const setResultsFromCountyAndvillage = async (county: string, village: string) => {
         const villages = await fetch(`/json/villages/${slugify(county)}.json`).then((r) =>
-            r.json()
+            r.json(),
         );
 
         const villageCircumscriptions = villages
@@ -38,9 +38,9 @@ export const SearchForm: React.FC = () => {
                 (d) =>
                     d.county === county &&
                     villageCircumscriptions.find(
-                        ({ circumscriptionNumber }) => d.circumscription === circumscriptionNumber
-                    )
-            )
+                        ({ circumscriptionNumber }) => d.circumscription === circumscriptionNumber,
+                    ),
+            ),
         });
     };
 
@@ -48,15 +48,15 @@ export const SearchForm: React.FC = () => {
         navigator.geolocation.getCurrentPosition(({ coords }) => {
             console.log(coords);
             fetch(
-                `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${coords.latitude}&longitude=${coords.longitude}&localityLanguage=fr`
+                `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${coords.latitude}&longitude=${coords.longitude}&localityLanguage=fr`,
             )
                 .then((r) => r.json())
                 .then(async (r) => {
                     const county = r.localityInfo.administrative.find(
-                        ({ adminLevel }) => adminLevel === 6
+                        ({ adminLevel }) => adminLevel === 6,
                     ).name;
                     const village = r.localityInfo.administrative.find(
-                        ({ adminLevel }) => adminLevel === 8
+                        ({ adminLevel }) => adminLevel === 8,
                     ).name;
 
                     setResultsFromCountyAndvillage(county, village);
@@ -70,12 +70,15 @@ export const SearchForm: React.FC = () => {
                 const f = slugify(firstname);
                 const l = slugify(lastname);
                 const v = slugify(e.currentTarget.value);
+                const vSpacesAsDashes = slugify(e.currentTarget.value.replace(' ', '-'));
                 if (f.includes(v)) return true;
                 if (l.includes(v)) return true;
-                if ((f + ' ' + l).includes(v)) return true;
-                if ((l + ' ' + f).includes(v)) return true;
+                if ((f + ' ' + l).includes(v) || (f + ' ' + l).includes(vSpacesAsDashes))
+                    return true;
+                if ((l + ' ' + f).includes(v) || (l + ' ' + f).includes(vSpacesAsDashes))
+                    return true;
                 return false;
-            })
+            }),
         );
     };
 
@@ -107,7 +110,7 @@ export const SearchForm: React.FC = () => {
                         className={styles.field}
                         onInput={onNameInput}
                         list={deputeMatches.map(
-                            ({ firstname, lastname }) => `${firstname} ${lastname}`
+                            ({ firstname, lastname }) => `${firstname} ${lastname}`,
                         )}
                         onListClick={(e, value) => {
                             const [firstname, lastname] = value.split(' ');
@@ -115,9 +118,9 @@ export const SearchForm: React.FC = () => {
                                 key: value,
                                 results: [
                                     deputes.find(
-                                        (d) => d.firstname === firstname && d.lastname === lastname
-                                    )
-                                ]
+                                        (d) => d.firstname === firstname && d.lastname === lastname,
+                                    ),
+                                ],
                             });
                         }}
                         id="form-name"
@@ -133,7 +136,7 @@ export const SearchForm: React.FC = () => {
                             const city = v.replace(/ \(\d+\)/, '');
                             const countyCode = v.match(/\((\d+)\)/)[1];
                             const { nom, departement } = cities.find(
-                                (c) => c.nom === city && c.departement.code === countyCode
+                                (c) => c.nom === city && c.departement.code === countyCode,
                             );
                             setResultsFromCountyAndvillage(departement.nom, nom);
                         }}
