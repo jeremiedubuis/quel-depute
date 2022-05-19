@@ -154,7 +154,11 @@ export const SearchForm: React.FC = () => {
                     <ul className={styles.results}>
                         {results.results.map((r) => (
                             <li key={r.id}>
-                                <DeputeBlock isLink depute={r} />
+                                <DeputeBlock
+                                    isLink
+                                    depute={r}
+                                    onClick={() => setResults(undefined)}
+                                />
                             </li>
                         ))}
                     </ul>

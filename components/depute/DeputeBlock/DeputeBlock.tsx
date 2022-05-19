@@ -1,7 +1,7 @@
 import styles from './DeputeBlock.module.css';
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
 import Link from 'next/link';
-import { slugifyNames} from '$helpers/slugify';
+import { slugifyNames } from '$helpers/slugify';
 import { BaseDepute } from '$types/deputeTypes';
 import { FiMapPin } from 'react-icons/fi';
 
@@ -9,15 +9,17 @@ export const DeputeBlock: React.FC<{
     depute: BaseDepute;
     isLink?: boolean;
     TitleTag?: keyof JSX.IntrinsicElements;
-}> = ({ depute, isLink, TitleTag = 'h3' }) => {
+    onClick?: MouseEventHandler;
+}> = ({ depute, isLink, TitleTag = 'h3', onClick }) => {
     const content = (
         <>
             <div
                 className={styles.picture}
                 style={{
                     backgroundImage: `url(/img/deputes/${slugifyNames(
-                        depute.firstname,depute.lastname
-                    )}.jpg)`
+                        depute.firstname,
+                        depute.lastname,
+                    )}.jpg)`,
                 }}
             />
             <TitleTag className={styles.title}>
@@ -39,10 +41,15 @@ export const DeputeBlock: React.FC<{
     );
 
     return isLink ? (
-        <Link href={`/deputes/${slugifyNames(depute.firstname,depute.lastname)}`}>
-            <a className={styles.block}> {content}</a>
+        <Link href={`/deputes/${slugifyNames(depute.firstname, depute.lastname)}`}>
+            <a className={styles.block} onClick={onClick}>
+                {' '}
+                {content}
+            </a>
         </Link>
     ) : (
-        <div className={styles.block}>{content}</div>
+        <div className={styles.block} onClick={onClick}>
+            {content}
+        </div>
     );
 };
