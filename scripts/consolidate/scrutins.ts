@@ -12,14 +12,15 @@ export type Scrutin = {
     'Titre loi': string;
     Catégorie: 'Écologie' | 'Droits humains' | 'Éducation' | 'Pauvreté';
     'Description (optionnelle)': string;
-    Impact: 'Positif' | 'Négatif';
+    Impact: string;
 };
 
-const scrapQueue = new ScrapQueue(500);
+const scrapQueue = new ScrapQueue(100);
 
 const parseDosierLegislatif = async (n: number) => {
     const last = 4419;
     const page = Math.floor((last - n) / 100);
+
     let html = await scrapQueue.fetch(
         `https://www2.assemblee-nationale.fr/scrutins/liste/(offset)/${
             page * 100
@@ -54,13 +55,17 @@ const parseDosierLegislatif = async (n: number) => {
     };
 };
 
-const consolidate = async () => {
-    await emptyDir(scrutinJSONPath);
+const consolidate = async (scrutinNumber?: number) => {
+    if (typeof scrutinNumber === 'undefined') await emptyDir(scrutinJSONPath);
 
     const listOutput = [];
     const deputes = require('../../public/json/deputes.json');
+    const missing = new Set();
     for (let i = 0, iLength = scrutins.length; i < iLength; i++) {
         const s: Scrutin = scrutins[i];
+        if (typeof scrutinNumber !== 'undefined' && s['N° Scrutin'] !== scrutinNumber) continue;
+        if (typeof s['N° Scrutin'] !== 'number') continue;
+        console.log('Scrap ', s['N° Scrutin'], '-', s['Titre loi'], i, '/', iLength);
         const { authors, href, slug } = await parseDosierLegislatif(s['N° Scrutin']);
         const _authors = authors.map((a) =>
             deputes.find((d) => d.lastname === a.lastname && d.firstname === a.firstname),
@@ -71,20 +76,26 @@ const consolidate = async () => {
             title: s['Titre loi'],
             category: s['Catégorie'],
             href,
+            scrutinHref: `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s['N° Scrutin']}`,
             slug,
-            impactModifier: s['Impact'] === 'Positif' ? 1 : -1,
+            impactModifier:
+                s['Impact'] === 'Positif'
+                    ? 1
+                    : s['Impact'] === 'Négatif'
+                    ? -1
+                    : parseInt(s['Impact']),
             initiative: _authors.find((a) => a.groupShort)?.groupShort || 'Gouvernement',
+            notes: null,
         };
 
         listOutput.push(base);
 
         const output = { ...base, votes: [], authors };
 
-        const html = await scrapQueue.fetch(
-            `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s['N° Scrutin']}`,
-        );
+        const html = await scrapQueue.fetch(base.scrutinHref);
         const dom = new JSDOM(html);
         const document = dom.window.document;
+        output.notes = document.querySelector('.corps-contenu').textContent;
         const deputesLi = document.querySelectorAll('.deputes li');
         Array.from(deputesLi).forEach((li) => {
             const text = li.innerHTML
@@ -109,7 +120,7 @@ const consolidate = async () => {
                     group,
                     groupShort,
                 };
-                console.log(text, 'is missing');
+                missing.add(text);
             }
             output.votes.push({
                 firstname: depute.firstname,
@@ -133,7 +144,12 @@ const consolidate = async () => {
         );
     }
 
-    await writeFile(path.join(scrutinJSONPath, 'votes.json'), JSON.stringify(listOutput, null, 4));
+    await writeFile(
+        path.join(scrutinJSONPath, 'scrutins.json'),
+        JSON.stringify(listOutput, null, 4),
+    );
+
+    console.log(`Missing députés:`, missing);
 };
 
-consolidate();
+consolidate(typeof process.argv[2] !== 'undefined' ? parseInt(process.argv[2]) : undefined);

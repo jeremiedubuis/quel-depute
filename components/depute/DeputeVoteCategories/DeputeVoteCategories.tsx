@@ -56,16 +56,22 @@ export const DeputeVoteCategories: React.FC<{ depute: Depute; className?: string
                             >
                                 {positives.map((v) => (
                                     <DeputeVoteSquare
+                                        lastname={depute.lastname}
                                         key={v.name}
                                         vote={v}
                                         className={styles.for}
                                     />
                                 ))}
                                 {neutrals.map((v) => (
-                                    <DeputeVoteSquare key={v.name} vote={v} />
+                                    <DeputeVoteSquare
+                                        lastname={depute.lastname}
+                                        key={v.name}
+                                        vote={v}
+                                    />
                                 ))}
                                 {negatives.map((v) => (
                                     <DeputeVoteSquare
+                                        lastname={depute.lastname}
                                         key={v.name}
                                         vote={v}
                                         className={styles.against}

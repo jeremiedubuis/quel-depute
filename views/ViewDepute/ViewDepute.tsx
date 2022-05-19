@@ -51,7 +51,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 <Title size="big">Positionnement politique</Title>
                 <DeputeGroupBehavior className={styles.group} depute={depute} />
             </section>
-
+            {/*
             <section className={styles.chances}>
                 <Title size="big">Probabilité de réélection</Title>
                 <div className={styles.content}>
@@ -69,7 +69,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                         </p>
                     </div>
                 </div>
-            </section>
+            </section>*/}
 
             {depute.firstRoundResults && (
                 <>

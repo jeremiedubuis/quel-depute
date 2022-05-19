@@ -33,7 +33,8 @@ export type DeputeVote = {
     category: string;
     vote: VoteValue;
     weight?: number;
-    impactModifier: 1 | -1;
+    impactModifier: number;
+    notes?: string;
 };
 
 export type Depute = BaseDepute & {

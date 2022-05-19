@@ -106,6 +106,7 @@ const consolidate = async () => {
     }, {});
 
     scrutins.forEach((s: Scrutin) => {
+        if (typeof s['N° Scrutin'] !== 'number') return;
         const scrutin: ScrutinType = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
         parsed.forEach((d) => {
             const vote = scrutin.votes.find(
@@ -127,6 +128,7 @@ const consolidate = async () => {
                 category: scrutin.category,
                 impactModifier: scrutin.impactModifier,
                 vote: vote?.vote || 'Absent',
+                notes: scrutin.notes,
             });
         });
     });

@@ -5,29 +5,49 @@
     grid-template-columns: min-content;
 }
 
-.square {
+.block {
     position: relative;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.square {
     width: 40px;
     height: 40px;
     background: var(--color-low);
     border-radius: var(--radius);
-    margin: 5px;
-    cursor: pointer;
 }
-.square:hover .details {
+
+.square:hover+.details {
     opacity: 1;
 }
 
-.for {
+.for .square {
     background: var(--color-success)
 }
 
-.against {
+.against .square{
     background: var(--color-alert)
 }
 
 .details {
     display: none;
+}
+
+.warning  {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    border-radius: 4px;
+    padding: 0 4px;
+    background: var(--color-warning);
+}
+
+.warning svg {
+    fill: var(--color);
+}
+.warning:hover .details {
+    opacity: 1;
 }
 
 @media screen and (min-width: 1024px) {

@@ -5,9 +5,11 @@ export type BaseScrutin = {
     title: string;
     category: string;
     href: string;
+    scrutinHref: string;
     slug: string;
     initiative: string;
-    impactModifier: 1 | -1;
+    impactModifier: number;
+    notes?: string;
 };
 
 export type ScrutinType = BaseScrutin & {
