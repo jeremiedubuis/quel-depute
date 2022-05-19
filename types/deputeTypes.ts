@@ -28,18 +28,21 @@ export type PresenceType = {
     questionsOral: number;
 };
 
+export type DeputeVote = {
+    name: string;
+    category: string;
+    vote: VoteValue;
+    weight?: number;
+    impactModifier: 1 | -1;
+};
+
 export type Depute = BaseDepute & {
     gender: 'H' | 'F';
     job: string;
     mandateStart: string;
     birthday: string;
     birthPlace: string;
-    votes: {
-        name: string;
-        category: string;
-        vote: VoteValue;
-        weight?: number;
-    }[];
+    votes: DeputeVote[];
     presence: PresenceType;
     presenceAverage: PresenceType;
     firstRoundResults?: {

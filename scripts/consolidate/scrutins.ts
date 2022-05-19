@@ -72,6 +72,7 @@ const consolidate = async () => {
             category: s['Catégorie'],
             href,
             slug,
+            impactModifier: s['Impact'] === 'Positif' ? 1 : -1,
             initiative: _authors.find((a) => a.groupShort)?.groupShort || 'Gouvernement',
         };
 

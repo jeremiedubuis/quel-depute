@@ -1,6 +1,10 @@
 .votes {
-    display: flex;
+    width: auto;
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-template-columns: min-content;
 }
+
 .square {
     position: relative;
     width: 40px;

@@ -1,11 +1,12 @@
 import styles from './DeputeVoteCategories.module.css';
 import React from 'react';
-import { Depute } from '$types/deputeTypes';
+import { Depute, DeputeVote } from '$types/deputeTypes';
 import { cn } from '$helpers/cn';
+import { DeputeVoteSquare } from '$components/depute/DeputeVoteCategories/DeputeVoteSquare';
 
 export const DeputeVoteCategories: React.FC<{ depute: Depute; className?: string }> = ({
     depute,
-    className
+    className,
 }) => {
     const categories = depute.votes.reduce((acc, curr) => {
         if (!curr.category) return acc;
@@ -15,49 +16,65 @@ export const DeputeVoteCategories: React.FC<{ depute: Depute; className?: string
                 acc[
                     acc.push({
                         category: curr.category,
-                        votes: []
+                        votes: [],
                     }) - 1
                 ];
         category.votes.push(curr);
 
         return acc;
     }, []);
+
     return (
         <ul className={cn(className)}>
-            {categories.map((c) => (
-                <li key={c.category}>
-                    <h3>{c.category}</h3>
-                    <ul className={styles.votes}>
-                        {c.votes
-                            .sort((a, b) =>
-                                a.vote === 'Pour' && b.vote !== 'Pour'
-                                    ? -1
-                                    : b.vote === 'Pour' && a.vote !== 'Pour'
-                                    ? 1
-                                    : a.vote === 'Contre' && b.vote !== 'Contre'
-                                    ? 1
-                                    : b.vote === 'Contre' && a.vote !== 'Contre'
-                                    ? -1
-                                    : 0
-                            )
-                            .map((v) => (
-                                <li
-                                    key={v.name}
-                                    className={cn(
-                                        styles.square,
-                                        v.vote === 'Pour' && styles.for,
-                                        v.vote === 'Contre' && styles.against
-                                    )}
-                                >
-                                    <div className={styles.details}>
-                                        <h4>{v.name}</h4>
-                                        {v.vote}
-                                    </div>
-                                </li>
-                            ))}
-                    </ul>
-                </li>
-            ))}
+            {categories
+                .filter((c) => c.votes.length > 5)
+                .map((c) => {
+                    const positives: DeputeVote[] = [];
+                    const negatives: DeputeVote[] = [];
+                    const neutrals: DeputeVote[] = [];
+                    c.votes.forEach((v) => {
+                        if (
+                            (v.impactModifier > 0 && v.vote === 'Pour') ||
+                            (v.impactModifier < 0 && v.vote === 'Contre')
+                        )
+                            return positives.push(v);
+                        if (
+                            (v.impactModifier > 0 && v.vote === 'Contre') ||
+                            (v.impactModifier < 0 && v.vote === 'Pour')
+                        )
+                            return negatives.push(v);
+                        return neutrals.push(v);
+                    });
+                    return (
+                        <li key={c.category}>
+                            <h3>{c.category}</h3>
+                            <ul
+                                className={styles.votes}
+                                style={{
+                                    gridTemplateRows: `repeat(${c.votes.length > 26 ? 3 : 2}, 1fr)`,
+                                }}
+                            >
+                                {positives.map((v) => (
+                                    <DeputeVoteSquare
+                                        key={v.name}
+                                        vote={v}
+                                        className={styles.for}
+                                    />
+                                ))}
+                                {neutrals.map((v) => (
+                                    <DeputeVoteSquare key={v.name} vote={v} />
+                                ))}
+                                {negatives.map((v) => (
+                                    <DeputeVoteSquare
+                                        key={v.name}
+                                        vote={v}
+                                        className={styles.against}
+                                    />
+                                ))}
+                            </ul>
+                        </li>
+                    );
+                })}
         </ul>
     );
 };

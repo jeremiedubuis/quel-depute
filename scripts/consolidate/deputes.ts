@@ -2,12 +2,19 @@ import axios from 'axios';
 import { slugifyNames } from '$helpers/slugify';
 import { writeFile } from '$helpers/writeFile';
 import { deputeJSONPath, deputePicturePath, scrutinJSONPath } from '../config';
-import { scrapScrutin, Scrutin } from '../scrapScrutin';
 import { emptyDir } from '$helpers/emptyDir';
 import path from 'path';
 import { ScrapQueue } from '../helpers/scrapQueue';
+import { ScrutinType } from '$types/scrutinTypes';
 const scrutins = require('../data/scrutins2.json');
 
+export type Scrutin = {
+    'N° Scrutin': number;
+    'Titre loi': string;
+    Catégorie: 'Écologie' | 'Droits humains' | 'Éducation' | 'Pauvreté';
+    'Description (optionnelle)': string;
+    Impact: 'Positif' | 'Négatif';
+};
 const scrapQueue = new ScrapQueue(500);
 const skip = {
     image: true,
@@ -99,7 +106,7 @@ const consolidate = async () => {
     }, {});
 
     scrutins.forEach((s: Scrutin) => {
-        const scrutin = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
+        const scrutin: ScrutinType = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
         parsed.forEach((d) => {
             const vote = scrutin.votes.find(
                 ({ firstname, lastname }) => d.firstname === firstname && d.lastname === lastname,
@@ -112,12 +119,13 @@ const consolidate = async () => {
             ) {
                 if (vote.vote === 'Pour') d.supportedGovernment++;
                 if (vote.vote === 'Contre') d.opposedGovernment++;
-                if (vote.vote !== 'Absent') d.governmentLaws++;
+                if (vote.vote) d.governmentLaws++;
             }
             d.votes.push({
                 initiative: scrutin.initiative,
                 name: scrutin.title,
                 category: scrutin.category,
+                impactModifier: scrutin.impactModifier,
                 vote: vote?.vote || 'Absent',
             });
         });

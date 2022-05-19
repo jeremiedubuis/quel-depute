@@ -7,6 +7,7 @@ export type BaseScrutin = {
     href: string;
     slug: string;
     initiative: string;
+    impactModifier: 1 | -1;
 };
 
 export type ScrutinType = BaseScrutin & {
