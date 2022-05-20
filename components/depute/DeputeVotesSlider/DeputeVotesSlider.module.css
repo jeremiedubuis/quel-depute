@@ -29,14 +29,14 @@
     margin: 0;
 }
 
-.for {
+.positive {
     background: var(--color-success);
 }
 
-.against {
+.negative {
     background: var(--color-alert);
 }
 
-.abstained {
+.neutral {
     background: var(--color-warning);
 }

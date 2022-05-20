@@ -3,6 +3,7 @@ import React from 'react';
 import { Depute, DeputeVote } from '$types/deputeTypes';
 import { cn } from '$helpers/cn';
 import { DeputeVoteSquare } from '$components/depute/DeputeVoteCategories/DeputeVoteSquare';
+import { getVoteImpact } from '$helpers/getVoteImpact';
 
 export const DeputeVoteCategories: React.FC<{ depute: Depute; className?: string }> = ({
     depute,
@@ -33,16 +34,9 @@ export const DeputeVoteCategories: React.FC<{ depute: Depute; className?: string
                     const negatives: DeputeVote[] = [];
                     const neutrals: DeputeVote[] = [];
                     c.votes.forEach((v) => {
-                        if (
-                            (v.impactModifier > 0 && v.vote === 'Pour') ||
-                            (v.impactModifier < 0 && v.vote === 'Contre')
-                        )
-                            return positives.push(v);
-                        if (
-                            (v.impactModifier > 0 && v.vote === 'Contre') ||
-                            (v.impactModifier < 0 && v.vote === 'Pour')
-                        )
-                            return negatives.push(v);
+                        const impact = getVoteImpact(v);
+                        if (impact === 1) return positives.push(v);
+                        if (impact === -1) return negatives.push(v);
                         return neutrals.push(v);
                     });
                     return (
