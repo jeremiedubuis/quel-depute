@@ -19,9 +19,6 @@
     border-radius: var(--radius);
 }
 
-.square:hover + .details {
-    opacity: 1;
-}
 
 .for .square {
     background: var(--color-success);
@@ -42,7 +39,4 @@
 
 .warning svg {
     fill: var(--color);
-}
-.warning:hover .details {
-    opacity: 1;
 }

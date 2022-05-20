@@ -67,3 +67,14 @@
 .scandal {
     color: var(--color-alert);
 }
+
+
+@media screen and (max-width:767px) {
+    .details {
+        order: 3;
+    }
+
+    .details li {
+        font-size: var(--font-size-medium);
+    }
+}

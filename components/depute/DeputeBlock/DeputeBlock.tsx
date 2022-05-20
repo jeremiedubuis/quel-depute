@@ -40,21 +40,25 @@ export const DeputeBlock: React.FC<{
             </div>
 
             <img className={styles.group} src={`/img/groups/${depute.groupShort}.svg`} alt="" />
-
-            {detailed && <DeputeBlockDetails depute={depute as Depute} />}
         </>
     );
 
-    return isLink ? (
-        <Link href={`/deputes/${slugifyNames(depute.firstname, depute.lastname)}`}>
-            <a className={styles.block} onClick={onClick}>
-                {' '}
-                {content}
-            </a>
-        </Link>
-    ) : (
-        <div className={styles.block} onClick={onClick}>
-            {content}
-        </div>
+    return (
+        <>
+            {isLink ? (
+                <Link href={`/deputes/${slugifyNames(depute.firstname, depute.lastname)}`}>
+                    <a className={styles.block} onClick={onClick}>
+                        {' '}
+                        {content}
+                    </a>
+                </Link>
+            ) : (
+                <div className={styles.block} onClick={onClick}>
+                    {content}
+                </div>
+            )}
+
+            {detailed && <DeputeBlockDetails depute={depute as Depute} />}
+        </>
     );
 };

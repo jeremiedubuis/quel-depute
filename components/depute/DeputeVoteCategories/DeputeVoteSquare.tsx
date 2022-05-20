@@ -23,13 +23,17 @@ export const DeputeVoteSquare: React.FC<{
             />
 
             {vote.notes?.includes(lastname) && (
-                <div className={styles.warning}>
+                <Tooltip
+                    className={styles.warning}
+                    content={
+                        <>
+                            <h4>Mises au point</h4>
+                            <div dangerouslySetInnerHTML={{ __html: vote.notes }} />
+                        </>
+                    }
+                >
                     <AiFillWarning />
-                    <div className={styles.details}>
-                        <h4>Mises au point</h4>
-                        <div dangerouslySetInnerHTML={{ __html: vote.notes }} />
-                    </div>
-                </div>
+                </Tooltip>
             )}
         </li>
     );

@@ -27,7 +27,6 @@ export const DeputeBlockDetails: React.FC<{ depute: Depute }> = ({ depute }) => 
     const investigations = depute.scandals.find(({ type }) => type === 'Enquête');
     const prosecutions = depute.scandals.find(({ type }) => type === 'Mise en examen');
     const convictions = depute.scandals.find(({ type }) => type === 'Condamnation');
-    console.log(depute.scandals);
     return (
         <div className={styles.details}>
             {depute.scandals.length && (
@@ -60,7 +59,7 @@ export const DeputeBlockDetails: React.FC<{ depute: Depute }> = ({ depute }) => 
                 </>
             )}
             <Title size="small" TitleTag="h4">
-                Activité depuis 1 an
+                Activité parlementaire
             </Title>
             <ul>
                 <li>{(depute as Depute).presence.amendments} amendements proposés</li>
