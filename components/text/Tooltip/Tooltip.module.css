@@ -1,0 +1,19 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip:hover {
+    text-decoration: underline;
+}
+
+.content {
+    position: absolute;
+    z-index: 3;
+    max-width: 400px;
+    background: var(--color-background);
+    padding: 10px;
+    box-shadow: 5px 5px 10px var(--color-shadow);
+    border-radius: var(--radius);
+}

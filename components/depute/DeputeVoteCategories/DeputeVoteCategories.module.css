@@ -30,10 +30,6 @@
     background: var(--color-alert)
 }
 
-.details {
-    display: none;
-}
-
 .warning  {
     position: absolute;
     top: -8px;
@@ -48,24 +44,4 @@
 }
 .warning:hover .details {
     opacity: 1;
-}
-
-@media screen and (min-width: 1024px) {
-
-
-    .details {
-        display: block;
-        cursor: pointer;
-        opacity: 0;
-        position: absolute;
-        top: 100%;
-        left: 100%;
-        width: 300px;
-        background: var(--color-background);
-        padding: 10px;
-        box-shadow: 5px 5px 10px var(--color-shadow);
-        z-index: 2;
-        pointer-events: none;
-    }
-
 }

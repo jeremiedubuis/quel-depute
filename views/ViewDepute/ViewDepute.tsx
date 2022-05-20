@@ -38,7 +38,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
             <SearchForm />
             <section>
                 <div className={styles.content}>
-                    <DeputeBlock depute={depute} TitleTag="h1" />
+                    <DeputeBlock depute={depute} TitleTag="h1" detailed />
                     <DeputeVoteCategories className={styles.right} depute={depute} />
                 </div>
             </section>

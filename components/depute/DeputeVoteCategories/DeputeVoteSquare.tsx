@@ -3,6 +3,7 @@ import React from 'react';
 import { DeputeVote } from '$types/deputeTypes';
 import { cn } from '$helpers/cn';
 import { AiFillWarning } from 'react-icons/ai';
+import { Tooltip } from '$components/text/Tooltip/Tooltip';
 
 export const DeputeVoteSquare: React.FC<{
     lastname: string;
@@ -11,11 +12,16 @@ export const DeputeVoteSquare: React.FC<{
 }> = ({ lastname, vote, className }) => {
     return (
         <li key={vote.name} className={cn(styles.block, className)}>
-            <div className={styles.square} />
-            <div className={styles.details}>
-                <h4>{vote.name}</h4>
-                {vote.vote}
-            </div>
+            <Tooltip
+                className={styles.square}
+                content={
+                    <div className={styles.details}>
+                        <h4>{vote.name}</h4>
+                        {vote.vote}
+                    </div>
+                }
+            />
+
             {vote.notes?.includes(lastname) && (
                 <div className={styles.warning}>
                     <AiFillWarning />

@@ -37,6 +37,11 @@ export type DeputeVote = {
     notes?: string;
 };
 
+export type Scandal = {
+    type: 'Accusations sans poursuites' | 'Enquête' | 'Mise en examen' | 'Condamnation';
+    subjects: string[];
+};
+
 export type Depute = BaseDepute & {
     gender: 'H' | 'F';
     job: string;
@@ -59,4 +64,5 @@ export type Depute = BaseDepute & {
     supportedGovernment: number;
     opposedGovernment: number;
     governmentLaws: number;
+    scandals: Scandal[];
 };

@@ -7,6 +7,7 @@ import path from 'path';
 import { ScrapQueue } from '../helpers/scrapQueue';
 import { ScrutinType } from '$types/scrutinTypes';
 const scrutins = require('../data/scrutins2.json');
+const scandals = require('../data/scandals.json');
 
 export type Scrutin = {
     'N° Scrutin': number;
@@ -71,6 +72,7 @@ const consolidate = async () => {
             groupShort: groupe_sigle,
             job: profession,
             votes: [],
+            scandals: [],
             presence: {
                 weeksActive: semaines_presence,
                 reports: rapports,
@@ -135,6 +137,37 @@ const consolidate = async () => {
 
     await Promise.all(
         parsed.map(async (d) => {
+            const deputeScandals =
+                scandals.find((s) => s['Députés'] === `${d.lastname} ${d.firstname}`) || {};
+
+            if (deputeScandals['Accusations sans poursuites']) {
+                d.scandals.push({
+                    type: 'Accusations sans poursuites',
+                    subjects: deputeScandals['Sujet__1'].split(/ [-;] /),
+                });
+            }
+
+            if (deputeScandals['Enquête']) {
+                d.scandals.push({
+                    type: 'Enquête',
+                    subjects: deputeScandals['Sujet__2'].split(/ [-;] /),
+                });
+            }
+
+            if (deputeScandals['Mis en examen']) {
+                d.scandals.push({
+                    type: 'Mise en examen',
+                    subjects: deputeScandals['Sujet__3'].split(/ [-;] /),
+                });
+            }
+
+            if (deputeScandals['Condamné.e']) {
+                d.scandals.push({
+                    type: 'Condamnation',
+                    subjects: deputeScandals['Sujet__4'].split(/ [-;] /),
+                });
+            }
+
             d.presenceAverages = presenceAverages;
 
             const groupMembers = parsed.filter(

@@ -3,6 +3,14 @@
     text-transform: uppercase;
 }
 
+.small {
+    font-size: var(--font-size-small);
+}
+
+.medium {
+    font-size: var(--font-size-medium);
+}
+
 .medium-big {
     font-size: var(--font-size-medium-big);
 }

@@ -2,15 +2,18 @@ import styles from './DeputeBlock.module.css';
 import React, { MouseEventHandler } from 'react';
 import Link from 'next/link';
 import { slugifyNames } from '$helpers/slugify';
-import { BaseDepute } from '$types/deputeTypes';
+import { BaseDepute, Depute } from '$types/deputeTypes';
 import { FiMapPin } from 'react-icons/fi';
+import { Title } from '$components/text/Title/Title';
+import { DeputeBlockDetails } from '$components/depute/DeputeBlock/DeputeBlockDetails';
 
 export const DeputeBlock: React.FC<{
-    depute: BaseDepute;
+    depute: BaseDepute | Depute;
     isLink?: boolean;
     TitleTag?: keyof JSX.IntrinsicElements;
     onClick?: MouseEventHandler;
-}> = ({ depute, isLink, TitleTag = 'h3', onClick }) => {
+    detailed?: boolean;
+}> = ({ depute, isLink, TitleTag = 'h3', onClick, detailed }) => {
     const content = (
         <>
             <div
@@ -37,6 +40,8 @@ export const DeputeBlock: React.FC<{
             </div>
 
             <img className={styles.group} src={`/img/groups/${depute.groupShort}.svg`} alt="" />
+
+            {detailed && <DeputeBlockDetails depute={depute as Depute} />}
         </>
     );
 
