@@ -27,7 +27,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
     contentSizedByTrigger,
     content,
     className,
-    contentClassName,
+    contentClassName
 }) => {
     const triggerRef = useRef<HTMLElement>();
     const absoluteRef = useRef<HTMLDivElement>();
@@ -40,7 +40,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
         isVisibleRef.current = isVisible;
         if (isVisible) {
             setStyle(
-                getAbsolutePosition(triggerRef, absoluteRef, direction, contentSizedByTrigger),
+                getAbsolutePosition(triggerRef, absoluteRef, direction, contentSizedByTrigger)
             );
         }
     }, [isVisible]);
@@ -83,7 +83,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
                         className={cn(styles.content, contentClassName)}
                         style={{
                             position: 'absolute',
-                            ...(style || {}),
+                            ...(style || {})
                         }}
                         ref={absoluteRef}
                         onMouseOver={triggersOnHover ? show : undefined}
@@ -91,7 +91,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
                     >
                         {content}
                     </div>,
-                    document.body,
+                    document.body
                 )}
         </>
     );

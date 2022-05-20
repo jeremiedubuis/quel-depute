@@ -21,8 +21,8 @@ export const DeputeBlock: React.FC<{
                 style={{
                     backgroundImage: `url(/img/deputes/${slugifyNames(
                         depute.firstname,
-                        depute.lastname,
-                    )}.jpg)`,
+                        depute.lastname
+                    )}.jpg)`
                 }}
             />
             <TitleTag className={styles.title}>

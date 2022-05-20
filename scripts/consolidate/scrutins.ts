@@ -24,12 +24,12 @@ const parseDosierLegislatif = async (n: number) => {
     let html = await scrapQueue.fetch(
         `https://www2.assemblee-nationale.fr/scrutins/liste/(offset)/${
             page * 100
-        }/(legislature)/15/(type)/TOUS/(idDossier)/TOUS`,
+        }/(legislature)/15/(type)/TOUS/(idDossier)/TOUS`
     );
     let dom = new JSDOM(html);
     let document = dom.window.document;
     const td = Array.from(document.querySelectorAll('.denom')).find(
-        (td) => td.textContent.replace(/\*$/, '') === n.toString(),
+        (td) => td.textContent.replace(/\*$/, '') === n.toString()
     );
     const slug = (td.parentNode.querySelector('.desc a:first-of-type') as HTMLLinkElement).href
         .split('/')
@@ -37,7 +37,7 @@ const parseDosierLegislatif = async (n: number) => {
         .replace(/\.asp$/, '');
     try {
         html = await scrapQueue.fetch(
-            `https://www.assemblee-nationale.fr/dyn/15/dossiers/alt/${slug}`,
+            `https://www.assemblee-nationale.fr/dyn/15/dossiers/alt/${slug}`
         );
         dom = new JSDOM(html);
         document = dom.window.document;
@@ -51,7 +51,7 @@ const parseDosierLegislatif = async (n: number) => {
         authors: Array.from(document.querySelectorAll('.nom-personne a')).map((a) => {
             const names = a.textContent.replace(/M\. |Mme /, '').split(' ');
             return { firstname: names[0], lastname: names.slice(1).join(' ') };
-        }),
+        })
     };
 };
 
@@ -68,7 +68,7 @@ const consolidate = async (scrutinNumber?: number) => {
         console.log('Scrap ', s['N° Scrutin'], '-', s['Titre loi'], i, '/', iLength);
         const { authors, href, slug } = await parseDosierLegislatif(s['N° Scrutin']);
         const _authors = authors.map((a) =>
-            deputes.find((d) => d.lastname === a.lastname && d.firstname === a.firstname),
+            deputes.find((d) => d.lastname === a.lastname && d.firstname === a.firstname)
         );
 
         const base = {
@@ -85,7 +85,7 @@ const consolidate = async (scrutinNumber?: number) => {
                     ? -1
                     : parseInt(s['Impact']),
             initiative: _authors.find((a) => a.groupShort)?.groupShort || 'Gouvernement',
-            notes: null,
+            notes: null
         };
 
         listOutput.push(base);
@@ -104,7 +104,7 @@ const consolidate = async (scrutinNumber?: number) => {
                 .replace(' (par délégation)', '');
 
             let depute = deputes.find((d) =>
-                testNameAndVariation(text, d.firstname + ' ' + d.lastname),
+                testNameAndVariation(text, d.firstname + ' ' + d.lastname)
             );
             if (!depute) {
                 const [firstname, lastname] = text.split(/\s/);
@@ -118,7 +118,7 @@ const consolidate = async (scrutinNumber?: number) => {
                     firstname,
                     lastname,
                     group,
-                    groupShort,
+                    groupShort
                 };
                 missing.add(text);
             }
@@ -134,19 +134,19 @@ const consolidate = async (scrutinNumber?: number) => {
                     ? 'Contre'
                     : li.closest('.Abstention')
                     ? 'Abstention'
-                    : 'Non-votant',
+                    : 'Non-votant'
             });
         });
 
         await writeFile(
             path.join(scrutinJSONPath, output.number + '.json'),
-            JSON.stringify(output, null, 4),
+            JSON.stringify(output, null, 4)
         );
     }
 
     await writeFile(
         path.join(scrutinJSONPath, 'scrutins.json'),
-        JSON.stringify(listOutput, null, 4),
+        JSON.stringify(listOutput, null, 4)
     );
 
     console.log(`Missing députés:`, missing);

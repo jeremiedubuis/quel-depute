@@ -5,7 +5,7 @@ import scrutins from './data/scrutins.json';
 import villages from './data/villages.json';
 import circumscriptionResults1stRound from '../public/json/circumscription_results_1st_round.json';
 import deputes from '../public/json/deputes.json';
-import {slugify, slugifyNames} from '$helpers/slugify';
+import { slugify, slugifyNames } from '$helpers/slugify';
 import type { BaseDepute, Depute } from '$types/deputeTypes';
 import { deputeJSONPath, deputePicturePath, villageJSONPath } from './config';
 import { writeFile } from '$helpers/writeFile';
@@ -102,7 +102,7 @@ export const scrapAll = async () => {
                 countyId: (circumscriptionResults1stRound.find(
                     (c) => c.county === deputes[i].county
                 )?.countyId || 99) as number,
-                slug,
+                slug
             };
             depute.firstRoundResults = computeFirstRoundResults(depute);
 

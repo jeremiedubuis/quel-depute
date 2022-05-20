@@ -18,9 +18,9 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
         image: {
             src: `${process.env.HOST}/${depute.slug}?img=1`,
             width: '1200px',
-            height: '630px',
+            height: '630px'
         },
-        title,
+        title
     };
 
     return (
@@ -84,7 +84,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                             total:
                                 depute.firstRoundResults.voted -
                                 depute.firstRoundResults.void -
-                                depute.firstRoundResults.whites,
+                                depute.firstRoundResults.whites
                         }))}
                     />
                 </>

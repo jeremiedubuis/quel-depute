@@ -1,7 +1,9 @@
 import styles from './AutoComplete.module.css';
-import React, { KeyboardEventHandler, SyntheticEvent, useEffect, useState } from 'react';
+import React, { KeyboardEventHandler, SyntheticEvent, useEffect, useRef, useState } from 'react';
+import ReactDOM from 'react-dom';
 import { Field, FieldProps } from '../Field/Field';
 import { cn } from '$helpers/cn';
+import { DirectionX, DirectionY, getAbsolutePosition } from '$helpers/getAbsolutePosition';
 
 type AutoCompleteProps = FieldProps & {
     onInput: (e: SyntheticEvent<HTMLInputElement>) => void;
@@ -20,6 +22,9 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
     const [focus, setFocus] = useState(false);
     const [value, setValue] = useState<string>('');
     const [selectedValue, setSelectedValue] = useState<string>();
+    const [style, setStyle] = useState(null);
+    const triggerRef = useRef();
+    const absoluteRef = useRef();
 
     const [active, setActive] = useState(true);
 
@@ -47,8 +52,25 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
         setActive(list.length !== 1 || list[0] !== value);
     }, [list, value]);
 
+    useEffect(() => {
+        if (active && focus)
+            setStyle(
+                getAbsolutePosition(
+                    triggerRef,
+                    absoluteRef,
+                    [DirectionX.LeftInner, DirectionY.Bottom],
+                    true
+                )
+            );
+    }, [active, focus]);
+
     return (
-        <Field className={cn(styles.autocomplete, className)} label={label} id={id}>
+        <Field
+            className={cn(styles.autocomplete, className)}
+            label={label}
+            id={id}
+            wrapperRef={triggerRef}
+        >
             <input
                 id={id}
                 onInput={(e) => {
@@ -61,24 +83,26 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
                 value={value}
                 autoComplete="off"
             />
-            {focus && active && (
-                <ul className={styles.list}>
-                    {list.map((v, i) => (
-                        <li key={v} className={selectedValue === v ? styles.selected : null}>
-                            <button
-                                type="button"
-                                onClick={(e) => {
-                                    console.log(v);
-                                    setValue(v);
-                                    onListClick?.(e, v);
-                                }}
-                            >
-                                {v}
-                            </button>
-                        </li>
-                    ))}
-                </ul>
-            )}
+            {focus &&
+                active &&
+                ReactDOM.createPortal(
+                    <ul className={styles.list} ref={absoluteRef} style={style}>
+                        {list.map((v, i) => (
+                            <li key={v} className={selectedValue === v ? styles.selected : null}>
+                                <button
+                                    type="button"
+                                    onClick={(e) => {
+                                        setValue(v);
+                                        onListClick?.(e, v);
+                                    }}
+                                >
+                                    {v}
+                                </button>
+                            </li>
+                        ))}
+                    </ul>,
+                    document.body
+                )}
         </Field>
     );
 };

@@ -12,30 +12,39 @@
     padding: 20px;
 }
 
-
 .form fieldset {
     border: 0;
     padding: 0;
     margin: 0;
     border-radius: var(--radius);
-    display: flex;
-    width: 1024px;
     max-width: 100%;
+    text-align: center;
+}
+
+.form label {
+    text-align: left;
 }
 
 .form legend {
     color: var(--color-primary-text);
     text-transform: uppercase;
     font-size: var(--font-size-biggest);
-    width: 815px;
     max-width: 100%;
     margin: 0 auto 30px;
     font-weight: bold;
 }
 
-.form .field  {
+.form .field {
+    display: block;
+    width: 100%;
     background: var(--color-search-field-bg);
     color: var(--color-search-field-text);
+}
+
+.form .field + .field,
+.form .field + button {
+    margin-left: 0;
+    margin-top: 20px;
 }
 
 .form .field input {
@@ -47,10 +56,32 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+@media screen and (min-width: 768px) {
+    .form .field {
+        display: inline-block;
+        width: auto;
+    }
+
+    .form .field + .field,
+    .form .field + button {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .form {
         height: 500px;
         max-height: 40vh;
+    }
+
+    .form legend {
+        width: 815px;
+    }
+
+    .form fieldset {
+        display: flex;
+        text-align: left;
+        width: 1024px;
     }
 }

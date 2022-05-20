@@ -3,11 +3,12 @@
     display: inline-grid;
     grid-auto-flow: column;
     grid-template-columns: min-content;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
 }
 
 .block {
     position: relative;
-    margin: 5px;
     cursor: pointer;
 }
 
@@ -18,19 +19,19 @@
     border-radius: var(--radius);
 }
 
-.square:hover+.details {
+.square:hover + .details {
     opacity: 1;
 }
 
 .for .square {
-    background: var(--color-success)
+    background: var(--color-success);
 }
 
-.against .square{
-    background: var(--color-alert)
+.against .square {
+    background: var(--color-alert);
 }
 
-.warning  {
+.warning {
     position: absolute;
     top: -8px;
     right: -10px;

@@ -8,14 +8,12 @@
     box-sizing: border-box;
 }
 
-
 .picture {
     border-radius: 50%;
     width: 220px;
     height: 220px;
     background-size: cover;
     background-position: center center;
-
 }
 
 .title {
@@ -26,7 +24,6 @@
 .title span {
     display: block;
 }
-
 
 .title span:first-of-type {
     font-weight: 100;
@@ -47,7 +44,7 @@
 
 .circumscription p {
     margin: 0;
-    font-size: var(--font-size-medium-big)
+    font-size: var(--font-size-medium-big);
 }
 
 .circumscription p:first-of-type {
@@ -58,11 +55,12 @@
     margin-top: 30px;
 }
 
-
 .details li {
     font-size: var(--font-size-small);
 }
-.details h3, .details h4, .details h5 {
+.details h3,
+.details h4,
+.details h5 {
     margin: 15px 0 5px;
 }
 

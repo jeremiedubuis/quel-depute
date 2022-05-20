@@ -10,7 +10,8 @@
     "dev": "next dev",
     "build": "npm run thumbnails && next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npx prettier --write **/*.tsx **/*.ts"
   },
   "author": "Jérémie Dubuis",
   "license": "ISC",

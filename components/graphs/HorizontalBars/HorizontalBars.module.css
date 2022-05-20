@@ -1,8 +1,6 @@
-
 .bars > li + li {
     margin-top: 10px;
 }
-
 
 .percentage {
     position: relative;
@@ -88,10 +86,9 @@
     padding: 2px 5px;
 }
 
-@media screen and (min-width:  1024px) {
+@media screen and (min-width: 1024px) {
     .bars > li {
         display: grid;
         grid-template-columns: 40% 60%;
     }
-
 }

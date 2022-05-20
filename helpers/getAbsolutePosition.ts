@@ -6,13 +6,13 @@ export enum DirectionX {
     LeftInner = 'left-inner',
     Right = 'right',
     RightInner = 'right-inner',
-    Center = 'center',
+    Center = 'center'
 }
 
 export enum DirectionY {
     Top = 'top',
     Middle = 'middle',
-    Bottom = 'bottom',
+    Bottom = 'bottom'
 }
 
 export type Direction = [DirectionX, DirectionY];
@@ -21,7 +21,7 @@ export const getAbsolutePosition = (
     triggerRef: RefObject<HTMLElement>,
     absoluteRef: RefObject<HTMLElement>,
     direction: Direction = [DirectionX.LeftInner, DirectionY.Top],
-    contentSizedByTrigger?: boolean,
+    contentSizedByTrigger?: boolean
 ) => {
     if (!triggerRef.current) return null;
     const button = triggerRef.current;
@@ -63,11 +63,11 @@ export const getAbsolutePosition = (
 
     left = Math.max(
         Math.min(window.innerWidth + window.scrollX - contentWidth, left),
-        window.scrollX,
+        window.scrollX
     );
     top = Math.max(
         Math.min(window.innerHeight + window.scrollY - content.offsetHeight, top),
-        window.scrollY,
+        window.scrollY
     );
 
     let width;
@@ -77,6 +77,6 @@ export const getAbsolutePosition = (
         left: `${left}px`,
         top: `${top}px`,
         width,
-        visibility: 'visible',
+        visibility: 'visible'
     };
 };

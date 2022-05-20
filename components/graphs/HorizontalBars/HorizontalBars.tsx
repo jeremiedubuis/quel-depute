@@ -20,7 +20,7 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
     labels,
     renderLabel,
     after,
-    colors,
+    colors
 }) => {
     return (
         <ul className={cn(styles.bars, className)}>
@@ -36,7 +36,7 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
                                 className={cn(
                                     styles.percentage,
                                     percentages.length > 1 && styles.multiple,
-                                    tooltip && styles.tooltip,
+                                    tooltip && styles.tooltip
                                 )}
                             >
                                 {percentages.map((percentage, i) => (
@@ -48,7 +48,7 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
                                             backgroundColor: lineColors?.[i] || colors?.[i],
                                             left: `${percentages
                                                 .slice(0, i)
-                                                .reduce((acc, curr) => acc + curr, 0)}%`,
+                                                .reduce((acc, curr) => acc + curr, 0)}%`
                                         }}
                                     >
                                         <span>

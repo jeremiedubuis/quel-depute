@@ -1,8 +1,7 @@
 .nav {
-
 }
 
-.nav  ul {
+.nav ul {
     display: flex;
 }
 
@@ -17,7 +16,6 @@
     text-decoration: none;
     font-size: var(--font-size-big);
 }
-
 
 .primary a {
     color: var(--color-primary-text);

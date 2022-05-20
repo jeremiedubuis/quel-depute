@@ -33,7 +33,7 @@ export class ScrapQueue {
                 axios.get(url, options).then((r) => {
                     resolve(r.data);
                     return r.data;
-                }),
+                })
             );
             return await this.call();
         });

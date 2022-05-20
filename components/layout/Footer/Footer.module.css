@@ -31,16 +31,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-
     .footer {
         height: 300px;
         padding: 40px 80px;
-
     }
 
     .footer p {
         display: block;
-        flex:25vw 0 0;
+        flex: 25vw 0 0;
     }
 
     .nav {

@@ -1,6 +1,10 @@
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 .loader {
     width: 100%;
@@ -11,7 +15,7 @@
 }
 
 .loader svg {
-    animation: spin .5s;
+    animation: spin 0.5s;
     width: 50px;
     height: 50px;
 }

@@ -3,7 +3,7 @@ export const offset = (el: HTMLElement, getBoundingClientRect?: boolean) => {
         const rect = el.getBoundingClientRect();
         return {
             top: rect.top + window.scrollY,
-            left: rect.left + window.scrollX,
+            left: rect.left + window.scrollX
         };
     }
     // getBoundingClientRect : weird bugs in scrollable elements

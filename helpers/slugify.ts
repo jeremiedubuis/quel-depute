@@ -10,9 +10,9 @@ export const slugify = (...args: (string | number)[]): string => {
         .replace(/\s+/g, '-'); // separator
 };
 
-export const slugifyNames = (firstname:string , lastname:string) => {
+export const slugifyNames = (firstname: string, lastname: string) => {
     if (lastname.endsWith(' (de)')) {
-        lastname =  'de '+lastname.replace(' (de)', '');
+        lastname = 'de ' + lastname.replace(' (de)', '');
     }
-    return slugify(`${firstname} ${lastname}`)
-}
+    return slugify(`${firstname} ${lastname}`);
+};

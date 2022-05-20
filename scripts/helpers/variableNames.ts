@@ -9,7 +9,7 @@ export const variableNames = [
     ['Laurence Vanceunebrock-Mialon', 'Laurence Vanceunebrock'],
     ['Monica Michel', 'Monica Michel-Brassart'],
     ['Vincent Descœur', 'Vincent Descoeur'],
-    ['Yannick Favennec-B\u00e9cot', 'Yannick Favennec Becot'],
+    ['Yannick Favennec-B\u00e9cot', 'Yannick Favennec Becot']
 ];
 
 export const testNameAndVariation = (name, equalityCheck) => {

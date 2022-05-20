@@ -18,7 +18,7 @@ export type Scrutin = {
 };
 const scrapQueue = new ScrapQueue(500);
 const skip = {
-    image: true,
+    image: true
 };
 
 const consolidate = async () => {
@@ -54,8 +54,8 @@ const consolidate = async () => {
                 propositions_ecrites,
                 propositions_signees,
                 questions_ecrites,
-                questions_orales,
-            },
+                questions_orales
+            }
         }) => ({
             id: id_an,
             lastname: nom_de_famille,
@@ -86,12 +86,12 @@ const consolidate = async () => {
                 hemicycleInterventions: hemicycle_interventions,
                 hemicycleShortInterventions: hemicycle_interventions_courtes,
                 questionsWritten: questions_ecrites,
-                questionsOral: questions_orales,
+                questionsOral: questions_orales
             },
             opposedGovernment: 0,
             supportedGovernment: 0,
-            governmentLaws: 0,
-        }),
+            governmentLaws: 0
+        })
     );
 
     const presenceTotals = parsed.reduce((acc, curr) => {
@@ -112,12 +112,12 @@ const consolidate = async () => {
         const scrutin: ScrutinType = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
         parsed.forEach((d) => {
             const vote = scrutin.votes.find(
-                ({ firstname, lastname }) => d.firstname === firstname && d.lastname === lastname,
+                ({ firstname, lastname }) => d.firstname === firstname && d.lastname === lastname
             );
             if (
                 vote &&
                 ['La République en Marche', 'LREM', 'LaREM', 'Gouvernement'].includes(
-                    scrutin.initiative,
+                    scrutin.initiative
                 )
             ) {
                 if (vote.vote === 'Pour') d.supportedGovernment++;
@@ -130,7 +130,7 @@ const consolidate = async () => {
                 category: scrutin.category,
                 impactModifier: scrutin.impactModifier,
                 vote: vote?.vote || 'Absent',
-                notes: scrutin.notes,
+                notes: scrutin.notes
             });
         });
     });
@@ -143,35 +143,35 @@ const consolidate = async () => {
             if (deputeScandals['Accusations sans poursuites']) {
                 d.scandals.push({
                     type: 'Accusations sans poursuites',
-                    subjects: deputeScandals['Sujet__1'].split(/ [-;] /),
+                    subjects: deputeScandals['Sujet__1'].split(/ [-;] /)
                 });
             }
 
             if (deputeScandals['Enquête']) {
                 d.scandals.push({
                     type: 'Enquête',
-                    subjects: deputeScandals['Sujet__2'].split(/ [-;] /),
+                    subjects: deputeScandals['Sujet__2'].split(/ [-;] /)
                 });
             }
 
             if (deputeScandals['Mis en examen']) {
                 d.scandals.push({
                     type: 'Mise en examen',
-                    subjects: deputeScandals['Sujet__3'].split(/ [-;] /),
+                    subjects: deputeScandals['Sujet__3'].split(/ [-;] /)
                 });
             }
 
             if (deputeScandals['Condamné.e']) {
                 d.scandals.push({
                     type: 'Condamnation',
-                    subjects: deputeScandals['Sujet__4'].split(/ [-;] /),
+                    subjects: deputeScandals['Sujet__4'].split(/ [-;] /)
                 });
             }
 
             d.presenceAverages = presenceAverages;
 
             const groupMembers = parsed.filter(
-                (i) => i.groupShort === d.groupShort && i.slug !== d.slug,
+                (i) => i.groupShort === d.groupShort && i.slug !== d.slug
             );
             let votedAsGroup = 0;
             let totalGroupVotes = 0;
@@ -206,8 +206,8 @@ const consolidate = async () => {
                             d.id +
                             '.jpg',
                         {
-                            responseType: 'arraybuffer',
-                        },
+                            responseType: 'arraybuffer'
+                        }
                     )
                     .then((r) => Buffer.from(r, 'binary'));
 
@@ -215,7 +215,7 @@ const consolidate = async () => {
             }
 
             return await writeFile(`${deputeJSONPath}${d.slug}.json`, JSON.stringify(d, null, 4));
-        }),
+        })
     );
 };
 

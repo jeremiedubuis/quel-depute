@@ -2,10 +2,12 @@ import React, { useEffect } from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { deputesListState } from '../../atoms/deputesListState';
 import { groupsListState } from '../../atoms/groupsListState';
+import { screenSizeState } from '../../atoms/screeSizeState';
 
 export const SharedData = () => {
     const [deputes, setDeputes] = useRecoilState(deputesListState);
     const setGroups = useSetRecoilState(groupsListState);
+    const setSize = useSetRecoilState(screenSizeState);
 
     useEffect(() => {
         if (!deputes.length) {
@@ -21,6 +23,11 @@ export const SharedData = () => {
                     );
                 });
         }
+        const resize = () => setSize(window.innerWidth);
+        window.addEventListener('resize', resize);
+        return () => {
+            window.removeEventListener('resize', resize);
+        };
     }, []);
     return null;
 };

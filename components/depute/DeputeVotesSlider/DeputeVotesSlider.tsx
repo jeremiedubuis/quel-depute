@@ -5,16 +5,20 @@ import { ReactISlider } from 'react-i-slider';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { cn } from '$helpers/cn';
 import { getVoteImpact } from '$helpers/getVoteImpact';
+import { useRecoilValue } from 'recoil';
+import { screenSizeState } from '../../../atoms/screeSizeState';
 
 export const DeputeVotesSlider: React.FC<{ depute: Depute }> = ({ depute }) => {
     const votes = depute.votes.filter((vote) => vote.vote !== 'Absent');
+    const size = useRecoilValue(screenSizeState);
+    const slides = size < 768 ? 1 : 3;
     return (
         <ReactISlider
-            maxSlides={typeof window !== 'undefined' && window.outerWidth > 1023 ? 3 : 1}
-            className={cn(styles.votes, votes.length > 3 && styles.arrows)}
+            maxSlides={slides}
+            className={cn(styles.votes, votes.length > slides && styles.arrows)}
             prev={<FiChevronLeft />}
             next={<FiChevronRight />}
-            arrows={votes.length > 3}
+            arrows={votes.length > slides}
         >
             {votes.map((vote) => {
                 const impact = getVoteImpact(vote);
