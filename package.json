@@ -6,6 +6,7 @@
     "scrap": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/scrap.ts",
     "scrap:scrutins": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/consolidate/scrutins.ts",
     "scrap:deputes": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/consolidate/deputes.ts",
+    "scrap:circonscriptions": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/consolidate/circumscriptions.ts",
     "thumbnails": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/thumbnails.ts",
     "dev": "next dev",
     "build": "npm run thumbnails && next build && next export",

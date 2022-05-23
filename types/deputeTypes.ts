@@ -8,7 +8,17 @@ export type BaseDepute = {
     countyId: number;
     circumscription: number;
     slug: string;
+    noPicture?: boolean;
 };
+
+export type Candidate = {
+    firstname: string;
+    lastname: string;
+    group: string;
+    groupShort: string;
+    gender: 'H' | 'F' | 'N';
+    noPicture?: boolean;
+}
 
 export type VoteValue = 'Absent' | 'Pour' | 'Contre' | 'Abstention' | 'Non-votant';
 
@@ -43,7 +53,13 @@ export type Scandal = {
 };
 
 export type Depute = BaseDepute & {
-    gender: 'H' | 'F';
+    candidate: false | {
+        countyId: string;
+        county: string;
+        circumscription: number;
+        circumscriptionSlug: string;
+    };
+    gender: 'H' | 'F' | 'N';
     job: string;
     mandateStart: string;
     birthday: string;

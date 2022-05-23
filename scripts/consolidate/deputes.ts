@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { slugifyNames } from '$helpers/slugify';
+import {slugify, slugifyNames} from '$helpers/slugify';
 import { writeFile } from '$helpers/writeFile';
 import { deputeJSONPath, deputePicturePath, scrutinJSONPath } from '../config';
 import { emptyDir } from '$helpers/emptyDir';
@@ -8,6 +8,9 @@ import { ScrapQueue } from '../helpers/scrapQueue';
 import { ScrutinType } from '$types/scrutinTypes';
 const scrutins = require('../data/scrutins2.json');
 const scandals = require('../data/scandals.json');
+import candidates from '../data/candidates.json';
+import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
+import {mapNosDeputes} from "../helpers/mapNosDeputes";
 
 export type Scrutin = {
     'N° Scrutin': number;
@@ -25,74 +28,24 @@ const consolidate = async () => {
     await emptyDir(deputeJSONPath);
     if (!skip.image) await emptyDir(deputePicturePath);
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
-
-    const parsed = raw.map(
-        ({
-            depute: {
-                id_an,
-                nom_de_famille,
-                prenom,
-                sexe,
-                date_naissance,
-                lieu_naissance,
-                num_deptmt,
-                nom_circo,
-                num_circo,
-                mandat_debut,
-                groupe_sigle,
-                parti_ratt_financier,
-                profession,
-                semaines_presence,
-                commission_presences,
-                commission_interventions,
-                hemicycle_interventions,
-                hemicycle_interventions_courtes,
-                amendements_proposes,
-                amendements_signes,
-                amendements_adoptes,
-                rapports,
-                propositions_ecrites,
-                propositions_signees,
-                questions_ecrites,
-                questions_orales
+    const parsed = mapNosDeputes(raw)
+    parsed.forEach(d => {
+        const _candidate = candidates.find(({ prenom, nom }: any) => prenom === d.firstname && nom === d.lastname );
+        if (!_candidate) d.candidate = false;
+        else {
+            const _countyId = _candidate.circonscription.replace(/-\d+/, '');
+            const circumscription = parseInt(_candidate.circonscription.replace(/\d+-/, ''));
+            const county = circumscriptionsFirstRound.find(circ =>
+                circ.countyId.toString().replace(/^0+/, '') ===_countyId.replace(/^0+/, '')
+            )?.county;
+            d.candidate = {
+                countyId: _countyId,
+                circumscription,
+                circumscriptionSlug: slugify(`${county} ${circumscription}`),
+                county
             }
-        }) => ({
-            id: id_an,
-            lastname: nom_de_famille,
-            firstname: prenom,
-            slug: slugifyNames(prenom, nom_de_famille),
-            gender: sexe,
-            birthday: date_naissance,
-            birthplace: lieu_naissance,
-            county: nom_circo,
-            countyId: num_deptmt,
-            circumscription: num_circo,
-            mandateStart: mandat_debut,
-            group: parti_ratt_financier,
-            groupShort: groupe_sigle,
-            job: profession,
-            votes: [],
-            scandals: [],
-            presence: {
-                weeksActive: semaines_presence,
-                reports: rapports,
-                proposals: propositions_ecrites,
-                proposalsSupported: propositions_signees,
-                amendments: amendements_proposes,
-                amendmentsSupported: amendements_signes,
-                amendmentsAdopted: amendements_adoptes,
-                commissionsAttended: commission_presences,
-                commissionInterventions: commission_interventions,
-                hemicycleInterventions: hemicycle_interventions,
-                hemicycleShortInterventions: hemicycle_interventions_courtes,
-                questionsWritten: questions_ecrites,
-                questionsOral: questions_orales
-            },
-            opposedGovernment: 0,
-            supportedGovernment: 0,
-            governmentLaws: 0
-        })
-    );
+        }
+    });
 
     const presenceTotals = parsed.reduce((acc, curr) => {
         Object.keys(curr.presence).forEach((key) => {
