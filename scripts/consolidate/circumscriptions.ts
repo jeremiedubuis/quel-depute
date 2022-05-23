@@ -35,7 +35,7 @@ const mapParty = (parti : string) => {
         case 'LRM,Horizons':
             return ['Horizons', 'H', 'Ensemble']
         case 'LR,UDI':
-            return ['Union des Démocrates et Indépendants', 'UDI', 'LR']
+            return ['Union des Démocrates et Indépendants', 'UDI']
         case 'PCF':
             return ['Parti Communiste Français', 'PCF', 'NUPES']
         case 'Nouveaux démocrates':
@@ -45,7 +45,7 @@ const mapParty = (parti : string) => {
         case 'FGR':
             return ['Fédération de la Gauche Républicaine', 'FGR'];
         case 'Les Centristes,LR':
-            return ['Les centristes', 'LC', 'LR']
+            return ['Les centristes', 'LC']
         case 'PRG':
             return ['Parti Radical de Gauche', 'PRG']
         case 'Génération écologie':
@@ -79,6 +79,30 @@ const consolidate = async () => {
             countyId: c.countyId,
             number,
             name: c.county,
+            results: {
+                firstRound: {
+
+                    registered: c.Inscrits,
+                    voted: c.Votants,
+                    whites: c.Blancs,
+                    expressed: c.Exprimes,
+                    void: c.Nuls,
+                    candidates: {
+                        'Nathalie Arthaud': c.ARTHAUD,
+                        'Fabien Roussel': c.ROUSSEL,
+                        'Emmanuel Macron': c.MACRON,
+                        'Jean Lasalle': c.LASSALLE,
+                        'Marine Le Pen': c['LE PEN'],
+                        'Jean-Luc Mélenchon': c['MÉLENCHON'],
+                        'Anne Hidalgo': c.HIDALGO,
+                        'Yannick Jadot': c.JADOT,
+                        'Valérie Pécresse': c['PÉCRESSE'],
+                        'Phillipe Poutou': c.POUTOU,
+                        'Nicolas Dupont-Aignan': c['DUPONT-AIGNAN'],
+                        'Eric Zemmour': c['ZEMMOUR']
+                    }
+                }
+            },
             candidates: candidates.filter(c => c.circonscription === fullId).map(c => {
                 const slug = slugifyNames(c.prenom, c.nom);
                 const [group, groupShort] =  mapParty(c.parti);

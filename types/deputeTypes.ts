@@ -70,6 +70,7 @@ export type Depute = BaseDepute & {
     firstRoundResults?: {
         registered: number;
         voted: number;
+        expressed: number;
         whites: number;
         void: number;
         candidates: {
