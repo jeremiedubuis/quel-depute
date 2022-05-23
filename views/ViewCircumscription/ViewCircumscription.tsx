@@ -1,3 +1,4 @@
+import styles from './ViewCircumscription.module.css'
 import React from 'react';
 import {CircumscriptionType} from "$types/circumscriptionTypes";
 import {Title} from "$components/text/Title/Title";
@@ -34,13 +35,13 @@ const colors = {
 };
 export const ViewCircumscription: React.FC<{circumscription: CircumscriptionType}> = ({ circumscription }) => {
 
-    return <main>
+    return <main className={styles.view}>
         <Title size={'biggest'} TitleTag="h1">Circonscription {circumscription.name} {circumscription.number}</Title>
 
         <section>
         <Title size={'big'}>Candidats</Title>
-            <ul>
-                {circumscription.candidates.map(c => <li key={c.lastname}><DeputeBlock depute={c} noCounty isLink={!c.noPicture}/></li>)}
+            <ul className={styles.candidates}>
+                {circumscription.candidates.sort((a, b) => a.lastname.localeCompare(b.lastname)).map(c => <li key={c.lastname}><DeputeBlock depute={c} noCounty isLink={!c.noPicture}/></li>)}
             </ul>
         </section>
 

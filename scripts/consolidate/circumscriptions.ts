@@ -106,14 +106,15 @@ const consolidate = async () => {
             candidates: candidates.filter(c => c.circonscription === fullId).map(c => {
                 const slug = slugifyNames(c.prenom, c.nom);
                 const [group, groupShort] =  mapParty(c.parti);
-                return deputes.find(d => d.slug === slug) || {
+                const d =  deputes.find(d => d.slug === slug) || {
                     firstname: c.prenom,
                     lastname: c.nom,
-                    group,
-                    groupShort,
                     gender: c.sexe === 'homme' ? 'H' : c.sexe === 'femme' ? 'F' : 'N',
                     noPicture: true
-                }
+                };
+                d.group = group;
+                d.groupShort = groupShort;
+                return d;
             })
         }
 
