@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 671,
                 "Eric Zemmour": 8358
             }
+        },
+        "secondRound": {
+            "registered": 75677,
+            "voted": 59188,
+            "whites": 2928,
+            "expressed": 55509,
+            "void": 751,
+            "candidates": {
+                "Emmanuel Macron": 44374,
+                "Marine Le Pen": 11135
+            }
         }
+    },
+    "current": {
+        "id": "345722",
+        "lastname": "Le Grip",
+        "firstname": "Constance",
+        "slug": "constance-le-grip",
+        "gender": "F",
+        "birthday": "1960-11-14",
+        "birthplace": "Chatou (Yvelines)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Permanent politique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 5,
+            "proposals": 12,
+            "proposalsSupported": 354,
+            "amendments": 441,
+            "amendmentsSupported": 5340,
+            "amendmentsAdopted": 195,
+            "commissionsAttended": 406,
+            "commissionInterventions": 456,
+            "hemicycleInterventions": 522,
+            "hemicycleShortInterventions": 622,
+            "questionsWritten": 127,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julie",
             "lastname": "Barbaux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 6
         },
         {
             "firstname": "Franck",
             "lastname": "Keller",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 6
         },
         {
-            "id": "345722",
-            "lastname": "Le Grip",
             "firstname": "Constance",
-            "slug": "constance-le-grip",
+            "lastname": "Le Grip",
             "gender": "F",
-            "birthday": "1960-11-14",
-            "birthplace": "Chatou (Yvelines)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 92,
             "county": "Hauts-de-Seine",
-            "countyId": "92",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Permanent politique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 5,
-                "proposals": 12,
-                "proposalsSupported": 354,
-                "amendments": 441,
-                "amendmentsSupported": 5340,
-                "amendmentsAdopted": 195,
-                "commissionsAttended": 406,
-                "commissionInterventions": 456,
-                "hemicycleInterventions": 522,
-                "hemicycleShortInterventions": 622,
-                "questionsWritten": 127,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Marie-Caroline",
             "lastname": "Le Pen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 6
         },
         {
             "firstname": "Françoise",
             "lastname": "Marcel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 6
         },
         {
             "firstname": "Denis",
             "lastname": "Marchiset",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 6
         }
     ]
 }

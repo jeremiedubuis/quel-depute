@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 78690,
             "voted": 60189,
-            "whites": 951,
+            "whites": 978,
             "expressed": 58921,
-            "void": 317,
+            "void": 290,
             "candidates": {
                 "Nathalie Arthaud": 440,
                 "Fabien Roussel": 1453,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1406,
                 "Eric Zemmour": 3645
             }
+        },
+        "secondRound": {
+            "registered": 78710,
+            "voted": 60615,
+            "whites": 3602,
+            "expressed": 55858,
+            "void": 1155,
+            "candidates": {
+                "Emmanuel Macron": 27575,
+                "Marine Le Pen": 28283
+            }
         }
+    },
+    "current": {
+        "id": "719330",
+        "lastname": "Gouttefarde",
+        "firstname": "Fabien",
+        "slug": "fabien-gouttefarde",
+        "gender": "H",
+        "birthday": "1978-09-27",
+        "birthplace": "Versailles (Yvelines)",
+        "county": "Eure",
+        "countyId": "27",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 91,
+            "amendments": 53,
+            "amendmentsSupported": 2456,
+            "amendmentsAdopted": 1027,
+            "commissionsAttended": 367,
+            "commissionInterventions": 231,
+            "hemicycleInterventions": 69,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 121,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719330",
-            "lastname": "Gouttefarde",
             "firstname": "Fabien",
-            "slug": "fabien-gouttefarde",
+            "lastname": "Gouttefarde",
             "gender": "H",
-            "birthday": "1978-09-27",
-            "birthplace": "Versailles (Yvelines)",
-            "county": "Eure",
-            "countyId": "27",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 91,
-                "amendments": 53,
-                "amendmentsSupported": 2456,
-                "amendmentsAdopted": 1027,
-                "commissionsAttended": 367,
-                "commissionInterventions": 231,
-                "hemicycleInterventions": 69,
-                "hemicycleShortInterventions": 18,
-                "questionsWritten": 121,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 2
         },
         {
             "firstname": "Francine",
             "lastname": "Maragliano",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 2
         },
         {
             "firstname": "Mélanie",
             "lastname": "Peyraud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 2
         },
         {
             "firstname": "Katiana",
             "lastname": "Picard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 2
         },
         {
             "firstname": "Nathalie",
             "lastname": "Samson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 2
         }
     ]
 }

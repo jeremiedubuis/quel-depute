@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1244,
                 "Eric Zemmour": 5646
             }
+        },
+        "secondRound": {
+            "registered": 103456,
+            "voted": 76846,
+            "whites": 5830,
+            "expressed": 68960,
+            "void": 2056,
+            "candidates": {
+                "Emmanuel Macron": 47217,
+                "Marine Le Pen": 21743
+            }
         }
+    },
+    "current": {
+        "id": "719504",
+        "lastname": "Lagleize",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-lagleize",
+        "gender": "H",
+        "birthday": "1958-09-09",
+        "birthplace": "Tarbes (Hautes-Pyrénées)",
+        "county": "Haute-Garonne",
+        "countyId": "31",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Conseiller patrimonial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 147,
+            "reports": 5,
+            "proposals": 1,
+            "proposalsSupported": 101,
+            "amendments": 261,
+            "amendmentsSupported": 3689,
+            "amendmentsAdopted": 774,
+            "commissionsAttended": 189,
+            "commissionInterventions": 241,
+            "hemicycleInterventions": 126,
+            "hemicycleShortInterventions": 48,
+            "questionsWritten": 222,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Clotilde",
             "lastname": "Barthélémy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Christine",
             "lastname": "Gennaro-Saint",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Gilles",
             "lastname": "Joviado",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Nicolas",
             "lastname": "Karasiak",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
-            "id": "719504",
-            "lastname": "Lagleize",
             "firstname": "Jean-Luc",
-            "slug": "jeanluc-lagleize",
+            "lastname": "Lagleize",
             "gender": "H",
-            "birthday": "1958-09-09",
-            "birthplace": "Tarbes (Hautes-Pyrénées)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 31,
             "county": "Haute-Garonne",
-            "countyId": "31",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Conseiller patrimonial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 147,
-                "reports": 5,
-                "proposals": 1,
-                "proposalsSupported": 101,
-                "amendments": 261,
-                "amendmentsSupported": 3689,
-                "amendmentsAdopted": 774,
-                "commissionsAttended": 189,
-                "commissionInterventions": 241,
-                "hemicycleInterventions": 126,
-                "hemicycleShortInterventions": 48,
-                "questionsWritten": 222,
-                "questionsOral": 25
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Pierre",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Anne",
             "lastname": "Stambach-Terrenoir",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Sonia",
             "lastname": "Teychene",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 2
         }
     ]
 }

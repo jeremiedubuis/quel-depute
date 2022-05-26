@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 2071,
                 "Eric Zemmour": 4171
             }
+        },
+        "secondRound": {
+            "registered": 110685,
+            "voted": 85782,
+            "whites": 5558,
+            "expressed": 78411,
+            "void": 1813,
+            "candidates": {
+                "Emmanuel Macron": 45381,
+                "Marine Le Pen": 33030
+            }
         }
+    },
+    "current": {
+        "id": "720198",
+        "lastname": "Galbadon",
+        "firstname": "Grégory",
+        "slug": "gregory-galbadon",
+        "gender": "H",
+        "birthday": "1973-01-21",
+        "birthplace": "Coutances (Manche)",
+        "county": "Manche",
+        "countyId": "50",
+        "circumscription": 3,
+        "mandateStart": "2017-07-22",
+        "group": "En marche !",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 43,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 14,
+            "amendments": 17,
+            "amendmentsSupported": 712,
+            "amendmentsAdopted": 218,
+            "commissionsAttended": 71,
+            "commissionInterventions": 21,
+            "hemicycleInterventions": 10,
+            "hemicycleShortInterventions": 3,
+            "questionsWritten": 35,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurence",
             "lastname": "Derrey",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 3
         },
         {
             "firstname": "Carmen",
             "lastname": "Masson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 3
         },
         {
             "firstname": "Agnes",
             "lastname": "Ryst",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 3
         },
         {
-            "id": "607395",
-            "lastname": "Travert",
             "firstname": "Stéphane",
-            "slug": "stephane-travert",
+            "lastname": "Travert",
             "gender": "H",
-            "birthday": "1969-10-12",
-            "birthplace": "Carentan (Manche)",
-            "county": "Manche",
-            "countyId": "50",
-            "circumscription": 3,
-            "mandateStart": "2018-11-17",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre commercial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 104,
-                "reports": 5,
-                "proposals": 2,
-                "proposalsSupported": 69,
-                "amendments": 58,
-                "amendmentsSupported": 1981,
-                "amendmentsAdopted": 835,
-                "commissionsAttended": 147,
-                "commissionInterventions": 144,
-                "hemicycleInterventions": 52,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 26,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 3
         },
         {
             "firstname": "Gaëlle",
             "lastname": "Verove",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 3
         }
     ]
 }

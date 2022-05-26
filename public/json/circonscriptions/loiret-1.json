@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 77302,
             "voted": 58353,
-            "whites": 906,
-            "expressed": 57119,
-            "void": 328,
+            "whites": 914,
+            "expressed": 57120,
+            "void": 319,
             "candidates": {
                 "Nathalie Arthaud": 278,
                 "Fabien Roussel": 1229,
-                "Emmanuel Macron": 19325,
+                "Emmanuel Macron": 19326,
                 "Jean Lasalle": 1295,
                 "Marine Le Pen": 10004,
                 "Jean-Luc Mélenchon": 11876,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1107,
                 "Eric Zemmour": 3865
             }
+        },
+        "secondRound": {
+            "registered": 77330,
+            "voted": 58071,
+            "whites": 3693,
+            "expressed": 53257,
+            "void": 1121,
+            "candidates": {
+                "Emmanuel Macron": 36574,
+                "Marine Le Pen": 16683
+            }
         }
+    },
+    "current": {
+        "id": "720066",
+        "lastname": "Rist",
+        "firstname": "Stéphanie",
+        "slug": "stephanie-rist",
+        "gender": "F",
+        "birthday": "1973-08-06",
+        "birthplace": "Athis-Mons (Essonne)",
+        "county": "Loiret",
+        "countyId": "45",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 145,
+            "reports": 5,
+            "proposals": 2,
+            "proposalsSupported": 78,
+            "amendments": 190,
+            "amendmentsSupported": 2142,
+            "amendmentsAdopted": 1293,
+            "commissionsAttended": 203,
+            "commissionInterventions": 383,
+            "hemicycleInterventions": 414,
+            "hemicycleShortInterventions": 140,
+            "questionsWritten": 39,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "François-Valbert",
             "lastname": "François Helie",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 1
         },
         {
             "firstname": "Ghislaine",
             "lastname": "Kounowski",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 1
         },
         {
-            "id": "720066",
-            "lastname": "Rist",
             "firstname": "Stéphanie",
-            "slug": "stephanie-rist",
+            "lastname": "Rist",
             "gender": "F",
-            "birthday": "1973-08-06",
-            "birthplace": "Athis-Mons (Essonne)",
-            "county": "Loiret",
-            "countyId": "45",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 145,
-                "reports": 5,
-                "proposals": 2,
-                "proposalsSupported": 78,
-                "amendments": 190,
-                "amendmentsSupported": 2142,
-                "amendmentsAdopted": 1293,
-                "commissionsAttended": 203,
-                "commissionInterventions": 383,
-                "hemicycleInterventions": 414,
-                "hemicycleShortInterventions": 140,
-                "questionsWritten": 39,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 1
         },
         {
             "firstname": "Claude",
             "lastname": "Trepka",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 1
         }
     ]
 }

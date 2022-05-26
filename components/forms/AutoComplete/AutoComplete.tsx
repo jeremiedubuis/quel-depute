@@ -1,5 +1,12 @@
 import styles from './AutoComplete.module.css';
-import React, { KeyboardEventHandler, SyntheticEvent, useEffect, useRef, useState } from 'react';
+import React, {
+    KeyboardEventHandler,
+    ReactNode,
+    SyntheticEvent,
+    useEffect,
+    useRef,
+    useState
+} from 'react';
 import ReactDOM from 'react-dom';
 import { Field, FieldProps } from '../Field/Field';
 import { cn } from '$helpers/cn';
@@ -7,8 +14,10 @@ import { DirectionX, DirectionY, getAbsolutePosition } from '$helpers/getAbsolut
 
 type AutoCompleteProps = FieldProps & {
     onInput: (e: SyntheticEvent<HTMLInputElement>) => void;
-    list: string[];
-    onListClick?: (e: SyntheticEvent<any>, value: string) => void;
+    list: any[];
+    onListClick?: (e: SyntheticEvent<any>, value: any) => void;
+    renderValue?: (value: any) => string;
+    renderResult?: (value: any) => ReactNode;
 };
 
 export const AutoComplete: React.FC<AutoCompleteProps> = ({
@@ -17,11 +26,13 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
     onInput,
     list,
     onListClick,
-    className
+    className,
+    renderValue = (v) => v,
+    renderResult = (v) => v
 }) => {
     const [focus, setFocus] = useState(false);
     const [value, setValue] = useState<string>('');
-    const [selectedValue, setSelectedValue] = useState<string>();
+    const [selectedValue, setSelectedValue] = useState<any>();
     const [style, setStyle] = useState(null);
     const triggerRef = useRef();
     const absoluteRef = useRef();
@@ -41,7 +52,7 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
 
             if (e.key === 'Enter' || (e.key === 'Tab' && list.length)) {
                 e.preventDefault();
-                setValue(selectedValue);
+                setValue(renderValue(selectedValue));
                 onListClick?.(e, selectedValue);
                 setTimeout(() => setActive(false), 100);
             }
@@ -92,11 +103,11 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
                                 <button
                                     type="button"
                                     onClick={(e) => {
-                                        setValue(v);
+                                        setValue(renderValue(v));
                                         onListClick?.(e, v);
                                     }}
                                 >
-                                    {v}
+                                    {renderResult(v)}
                                 </button>
                             </li>
                         ))}

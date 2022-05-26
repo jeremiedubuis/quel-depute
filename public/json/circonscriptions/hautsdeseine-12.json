@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1105,
                 "Eric Zemmour": 4948
             }
+        },
+        "secondRound": {
+            "registered": 92978,
+            "voted": 69633,
+            "whites": 4062,
+            "expressed": 64383,
+            "void": 1188,
+            "candidates": {
+                "Emmanuel Macron": 49605,
+                "Marine Le Pen": 14778
+            }
         }
+    },
+    "current": {
+        "id": "721608",
+        "lastname": "Bourlanges",
+        "firstname": "Jean-Louis",
+        "slug": "jeanlouis-bourlanges",
+        "gender": "H",
+        "birthday": "1946-07-13",
+        "birthplace": "Neuilly-Sur-Seine (Hauts-de-Seine)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Retraité de la fonction publique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 179,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 52,
+            "amendments": 54,
+            "amendmentsSupported": 3342,
+            "amendmentsAdopted": 736,
+            "commissionsAttended": 478,
+            "commissionInterventions": 1279,
+            "hemicycleInterventions": 371,
+            "hemicycleShortInterventions": 320,
+            "questionsWritten": 2,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Didier",
             "lastname": "Berger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
             "firstname": "Yann",
             "lastname": "Bernard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
-            "id": "721608",
-            "lastname": "Bourlanges",
             "firstname": "Jean-Louis",
-            "slug": "jeanlouis-bourlanges",
+            "lastname": "Bourlanges",
             "gender": "H",
-            "birthday": "1946-07-13",
-            "birthplace": "Neuilly-Sur-Seine (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 92,
             "county": "Hauts-de-Seine",
-            "countyId": "92",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Retraité de la fonction publique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 179,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 52,
-                "amendments": 54,
-                "amendmentsSupported": 3342,
-                "amendmentsAdopted": 736,
-                "commissionsAttended": 478,
-                "commissionInterventions": 1279,
-                "hemicycleInterventions": 371,
-                "hemicycleShortInterventions": 320,
-                "questionsWritten": 2,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 12
         },
         {
             "firstname": "Florent",
             "lastname": "Noblet",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
             "firstname": "Guillaume",
             "lastname": "Prevel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
             "firstname": "Florian",
             "lastname": "Samiez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
             "firstname": "Cathy",
             "lastname": "Thomas",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         },
         {
             "firstname": "Marc",
             "lastname": "Thomas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 12
         }
     ]
 }

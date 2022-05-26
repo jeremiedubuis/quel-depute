@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1673,
                 "Eric Zemmour": 5712
             }
+        },
+        "secondRound": {
+            "registered": 107990,
+            "voted": 82932,
+            "whites": 6886,
+            "expressed": 73833,
+            "void": 2213,
+            "candidates": {
+                "Emmanuel Macron": 40491,
+                "Marine Le Pen": 33342
+            }
         }
+    },
+    "current": {
+        "id": "719918",
+        "lastname": "Lainé",
+        "firstname": "Fabien",
+        "slug": "fabien-laine",
+        "gender": "H",
+        "birthday": "1976-04-15",
+        "birthplace": "Arcachon (Gironde)",
+        "county": "Landes",
+        "countyId": "40",
+        "circumscription": 1,
+        "mandateStart": "2017-07-22",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Commercial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 65,
+            "amendments": 239,
+            "amendmentsSupported": 3820,
+            "amendmentsAdopted": 720,
+            "commissionsAttended": 202,
+            "commissionInterventions": 166,
+            "hemicycleInterventions": 98,
+            "hemicycleShortInterventions": 23,
+            "questionsWritten": 85,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Claude",
             "lastname": "Bon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Geneviève",
             "lastname": "Darrieussecq",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Guy",
             "lastname": "De Barbeyrac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Jwanakan",
             "lastname": "Dobat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Jacques",
             "lastname": "Dubreuil",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Dufay",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Christine",
             "lastname": "Harambat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 1
         }
     ]
 }

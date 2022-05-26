@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 69701,
             "voted": 49166,
-            "whites": 688,
-            "expressed": 48175,
-            "void": 303,
+            "whites": 704,
+            "expressed": 48176,
+            "void": 286,
             "candidates": {
                 "Nathalie Arthaud": 360,
                 "Fabien Roussel": 2138,
                 "Emmanuel Macron": 11130,
                 "Jean Lasalle": 725,
-                "Marine Le Pen": 10159,
+                "Marine Le Pen": 10160,
                 "Jean-Luc Mélenchon": 16382,
                 "Anne Hidalgo": 1101,
                 "Yannick Jadot": 2035,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 669,
                 "Eric Zemmour": 2006
             }
+        },
+        "secondRound": {
+            "registered": 69748,
+            "voted": 47132,
+            "whites": 3852,
+            "expressed": 42126,
+            "void": 1154,
+            "candidates": {
+                "Emmanuel Macron": 26254,
+                "Marine Le Pen": 15872
+            }
         }
+    },
+    "current": {
+        "id": "722110",
+        "lastname": "Wulfranc",
+        "firstname": "Hubert",
+        "slug": "hubert-wulfranc",
+        "gender": "H",
+        "birthday": "1956-12-17",
+        "birthplace": "Rouen (Seine-Maritime)",
+        "county": "Seine-Maritime",
+        "countyId": "76",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 174,
+            "reports": 4,
+            "proposals": 11,
+            "proposalsSupported": 180,
+            "amendments": 1302,
+            "amendmentsSupported": 9444,
+            "amendmentsAdopted": 305,
+            "commissionsAttended": 248,
+            "commissionInterventions": 335,
+            "hemicycleInterventions": 1052,
+            "hemicycleShortInterventions": 627,
+            "questionsWritten": 114,
+            "questionsOral": 48
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Kader",
             "lastname": "Chékhémani",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Delphine",
             "lastname": "Gerday",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Pascal",
             "lastname": "Le Manach",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Renaud",
             "lastname": "Nicolas",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Letycia",
             "lastname": "Ossibi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Salomée",
             "lastname": "Tessier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 3
         },
         {
-            "id": "722110",
-            "lastname": "Wulfranc",
             "firstname": "Hubert",
-            "slug": "hubert-wulfranc",
+            "lastname": "Wulfranc",
             "gender": "H",
-            "birthday": "1956-12-17",
-            "birthplace": "Rouen (Seine-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 76,
             "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Profession rattachée à l'enseignement",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 174,
-                "reports": 4,
-                "proposals": 11,
-                "proposalsSupported": 180,
-                "amendments": 1302,
-                "amendmentsSupported": 9444,
-                "amendmentsAdopted": 305,
-                "commissionsAttended": 248,
-                "commissionInterventions": 335,
-                "hemicycleInterventions": 1052,
-                "hemicycleShortInterventions": 627,
-                "questionsWritten": 114,
-                "questionsOral": 48
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         }
     ]
 }

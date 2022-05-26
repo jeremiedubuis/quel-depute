@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1759,
                 "Eric Zemmour": 4185
             }
+        },
+        "secondRound": {
+            "registered": 72463,
+            "voted": 53550,
+            "whites": 2675,
+            "expressed": 49889,
+            "void": 986,
+            "candidates": {
+                "Emmanuel Macron": 21670,
+                "Marine Le Pen": 28219
+            }
         }
+    },
+    "current": {
+        "id": "720394",
+        "lastname": "Trisse",
+        "firstname": "Nicole",
+        "slug": "nicole-trisse",
+        "gender": "F",
+        "birthday": "1963-06-29",
+        "birthplace": "Sarreguemines (Moselle)",
+        "county": "Moselle",
+        "countyId": "57",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Salariée du secteur médical",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 19,
+            "proposals": 0,
+            "proposalsSupported": 91,
+            "amendments": 13,
+            "amendmentsSupported": 1927,
+            "amendmentsAdopted": 998,
+            "commissionsAttended": 258,
+            "commissionInterventions": 236,
+            "hemicycleInterventions": 49,
+            "hemicycleShortInterventions": 19,
+            "questionsWritten": 50,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sébastien",
             "lastname": "Ollier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 5
         },
         {
             "firstname": "Caroline",
             "lastname": "Racine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 5
         },
         {
             "firstname": "Sabrina",
             "lastname": "Selini",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 5
         },
         {
-            "id": "720394",
-            "lastname": "Trisse",
             "firstname": "Nicole",
-            "slug": "nicole-trisse",
+            "lastname": "Trisse",
             "gender": "F",
-            "birthday": "1963-06-29",
-            "birthplace": "Sarreguemines (Moselle)",
-            "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Salariée du secteur médical",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 19,
-                "proposals": 0,
-                "proposalsSupported": 91,
-                "amendments": 13,
-                "amendmentsSupported": 1927,
-                "amendmentsAdopted": 998,
-                "commissionsAttended": 258,
-                "commissionInterventions": 236,
-                "hemicycleInterventions": 49,
-                "hemicycleShortInterventions": 19,
-                "questionsWritten": 50,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 5
         },
         {
             "firstname": "Marie Claude",
             "lastname": "Voinçon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 5
         }
     ]
 }

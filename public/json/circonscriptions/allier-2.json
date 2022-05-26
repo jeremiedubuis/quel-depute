@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 80780,
             "voted": 61321,
-            "whites": 1210,
+            "whites": 1207,
             "expressed": 59465,
-            "void": 646,
+            "void": 649,
             "candidates": {
                 "Nathalie Arthaud": 446,
                 "Fabien Roussel": 2704,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1291,
                 "Eric Zemmour": 3633
             }
+        },
+        "secondRound": {
+            "registered": 80749,
+            "voted": 59972,
+            "whites": 4581,
+            "expressed": 53009,
+            "void": 2382,
+            "candidates": {
+                "Emmanuel Macron": 27000,
+                "Marine Le Pen": 26009
+            }
         }
+    },
+    "current": {
+        "id": "718728",
+        "lastname": "Vanceunebrock",
+        "firstname": "Laurence",
+        "slug": "laurence-vanceunebrock",
+        "gender": "F",
+        "birthday": "1970-05-06",
+        "birthplace": "Avion (Pas-de-Calais)",
+        "county": "Allier",
+        "countyId": "03",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 3,
+            "proposals": 2,
+            "proposalsSupported": 120,
+            "amendments": 132,
+            "amendmentsSupported": 6397,
+            "amendmentsAdopted": 1645,
+            "commissionsAttended": 311,
+            "commissionInterventions": 168,
+            "hemicycleInterventions": 113,
+            "hemicycleShortInterventions": 16,
+            "questionsWritten": 97,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jorys",
             "lastname": "Bovet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
             "firstname": "Paul",
             "lastname": "Duché",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
             "firstname": "Louise",
             "lastname": "Heritier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Jacques",
             "lastname": "Kegelart",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
             "firstname": "Bernard",
             "lastname": "Lebel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
             "firstname": "Luc",
             "lastname": "Thomas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         },
         {
-            "id": "718728",
-            "lastname": "Vanceunebrock",
             "firstname": "Laurence",
-            "slug": "laurence-vanceunebrock",
+            "lastname": "Vanceunebrock",
             "gender": "F",
-            "birthday": "1970-05-06",
-            "birthplace": "Avion (Pas-de-Calais)",
-            "county": "Allier",
-            "countyId": "03",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 3,
-                "proposals": 2,
-                "proposalsSupported": 120,
-                "amendments": 132,
-                "amendmentsSupported": 6397,
-                "amendmentsAdopted": 1645,
-                "commissionsAttended": 311,
-                "commissionInterventions": 168,
-                "hemicycleInterventions": 113,
-                "hemicycleShortInterventions": 16,
-                "questionsWritten": 97,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 2
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 836,
                 "Eric Zemmour": 5567
             }
+        },
+        "secondRound": {
+            "registered": 79921,
+            "voted": 61792,
+            "whites": 4162,
+            "expressed": 56319,
+            "void": 1311,
+            "candidates": {
+                "Emmanuel Macron": 41810,
+                "Marine Le Pen": 14509
+            }
         }
+    },
+    "current": {
+        "id": "719512",
+        "lastname": "Vignon",
+        "firstname": "Corinne",
+        "slug": "corinne-vignon",
+        "gender": "F",
+        "birthday": "1963-06-10",
+        "birthplace": "Agen (Lot-et-Garonne)",
+        "county": "Haute-Garonne",
+        "countyId": "31",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 101,
+            "amendments": 75,
+            "amendmentsSupported": 2637,
+            "amendmentsAdopted": 1240,
+            "commissionsAttended": 277,
+            "commissionInterventions": 87,
+            "hemicycleInterventions": 94,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 223,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Malena",
             "lastname": "Adrada",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Alarcon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         },
         {
             "firstname": "Laurence",
             "lastname": "Arribagé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         },
         {
             "firstname": "Agathe",
             "lastname": "Roby",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         },
         {
             "firstname": "Clément",
             "lastname": "Sanvisens",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         },
         {
-            "id": "719512",
-            "lastname": "Vignon",
             "firstname": "Corinne",
-            "slug": "corinne-vignon",
+            "lastname": "Vignon",
             "gender": "F",
-            "birthday": "1963-06-10",
-            "birthplace": "Agen (Lot-et-Garonne)",
-            "county": "Haute-Garonne",
-            "countyId": "31",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 101,
-                "amendments": 75,
-                "amendmentsSupported": 2637,
-                "amendmentsAdopted": 1240,
-                "commissionsAttended": 277,
-                "commissionInterventions": 87,
-                "hemicycleInterventions": 94,
-                "hemicycleShortInterventions": 18,
-                "questionsWritten": 223,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 3
         }
     ]
 }

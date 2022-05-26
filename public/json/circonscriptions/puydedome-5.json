@@ -4,15 +4,15 @@
     "name": "Puy-de-Dôme",
     "results": {
         "firstRound": {
-            "registered": 104158,
-            "voted": 81652,
-            "whites": 1462,
-            "expressed": 79376,
-            "void": 814,
+            "registered": 104113,
+            "voted": 81642,
+            "whites": 1570,
+            "expressed": 79368,
+            "void": 704,
             "candidates": {
                 "Nathalie Arthaud": 634,
                 "Fabien Roussel": 3470,
-                "Emmanuel Macron": 20329,
+                "Emmanuel Macron": 20327,
                 "Jean Lasalle": 4053,
                 "Marine Le Pen": 21326,
                 "Jean-Luc Mélenchon": 14816,
@@ -20,87 +20,130 @@
                 "Yannick Jadot": 2786,
                 "Valérie Pécresse": 3486,
                 "Phillipe Poutou": 709,
-                "Nicolas Dupont-Aignan": 1715,
+                "Nicolas Dupont-Aignan": 1709,
                 "Eric Zemmour": 4499
             }
+        },
+        "secondRound": {
+            "registered": 104096,
+            "voted": 79024,
+            "whites": 6091,
+            "expressed": 70206,
+            "void": 2727,
+            "candidates": {
+                "Emmanuel Macron": 37250,
+                "Marine Le Pen": 32956
+            }
         }
+    },
+    "current": {
+        "id": "267306",
+        "lastname": "Chassaigne",
+        "firstname": "André",
+        "slug": "andre-chassaigne",
+        "gender": "H",
+        "birthday": "1950-07-02",
+        "birthplace": "Clermont-Ferrand (Puy-de-Dôme)",
+        "county": "Puy-de-Dôme",
+        "countyId": "63",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Retraité de l'éducation nationale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 12,
+            "proposals": 28,
+            "proposalsSupported": 191,
+            "amendments": 1588,
+            "amendmentsSupported": 9537,
+            "amendmentsAdopted": 326,
+            "commissionsAttended": 504,
+            "commissionInterventions": 687,
+            "hemicycleInterventions": 1728,
+            "hemicycleShortInterventions": 1599,
+            "questionsWritten": 250,
+            "questionsOral": 45
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gabrielle",
             "lastname": "Capron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 5
         },
         {
             "firstname": "Brigitte",
             "lastname": "Carletto",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 5
         },
         {
-            "id": "267306",
-            "lastname": "Chassaigne",
             "firstname": "André",
-            "slug": "andre-chassaigne",
+            "lastname": "Chassaigne",
             "gender": "H",
-            "birthday": "1950-07-02",
-            "birthplace": "Clermont-Ferrand (Puy-de-Dôme)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 63,
             "county": "Puy-de-Dôme",
-            "countyId": "63",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Retraité de l'éducation nationale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 12,
-                "proposals": 28,
-                "proposalsSupported": 191,
-                "amendments": 1588,
-                "amendmentsSupported": 9537,
-                "amendmentsAdopted": 326,
-                "commissionsAttended": 504,
-                "commissionInterventions": 687,
-                "hemicycleInterventions": 1728,
-                "hemicycleShortInterventions": 1599,
-                "questionsWritten": 246,
-                "questionsOral": 45
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Yves",
             "lastname": "Courthaliac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 5
         },
         {
             "firstname": "Philippe",
             "lastname": "Le Pont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 5
         },
         {
             "firstname": "Karine",
             "lastname": "Legrand",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 5
         }
     ]
 }

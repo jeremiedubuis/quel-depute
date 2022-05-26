@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 492,
                 "Eric Zemmour": 2115
             }
+        },
+        "secondRound": {
+            "registered": 79866,
+            "voted": 51929,
+            "whites": 4057,
+            "expressed": 47101,
+            "void": 771,
+            "candidates": {
+                "Emmanuel Macron": 38932,
+                "Marine Le Pen": 8169
+            }
         }
+    },
+    "current": {
+        "id": "721210",
+        "lastname": "Corbière",
+        "firstname": "Alexis",
+        "slug": "alexis-corbiere",
+        "gender": "H",
+        "birthday": "1968-08-17",
+        "birthplace": "Béziers (Hérault)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Professeur de lycée professionnel",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 176,
+            "reports": 3,
+            "proposals": 12,
+            "proposalsSupported": 170,
+            "amendments": 3043,
+            "amendmentsSupported": 18889,
+            "amendmentsAdopted": 218,
+            "commissionsAttended": 232,
+            "commissionInterventions": 541,
+            "hemicycleInterventions": 1828,
+            "hemicycleShortInterventions": 2005,
+            "questionsWritten": 140,
+            "questionsOral": 42
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Laure",
             "lastname": "Brossier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 7
         },
         {
-            "id": "721210",
-            "lastname": "Corbière",
             "firstname": "Alexis",
-            "slug": "alexis-corbiere",
+            "lastname": "Corbiere",
             "gender": "H",
-            "birthday": "1968-08-17",
-            "birthplace": "Béziers (Hérault)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Professeur de lycée professionnel",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 176,
-                "reports": 3,
-                "proposals": 12,
-                "proposalsSupported": 170,
-                "amendments": 3043,
-                "amendmentsSupported": 18889,
-                "amendmentsAdopted": 218,
-                "commissionsAttended": 232,
-                "commissionInterventions": 541,
-                "hemicycleInterventions": 1828,
-                "hemicycleShortInterventions": 2005,
-                "questionsWritten": 140,
-                "questionsOral": 42
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 7
         },
         {
             "firstname": "Catherine",
             "lastname": "Dehay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 7
         },
         {
             "firstname": "Julien",
             "lastname": "Guillot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 7
         },
         {
             "firstname": "Aurélie",
             "lastname": "Jochaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 7
         }
     ]
 }

@@ -7,100 +7,143 @@
             "registered": 104900,
             "voted": 81854,
             "whites": 1199,
-            "expressed": 80091,
-            "void": 564,
+            "expressed": 80061,
+            "void": 594,
             "candidates": {
                 "Nathalie Arthaud": 661,
                 "Fabien Roussel": 2190,
-                "Emmanuel Macron": 20432,
-                "Jean Lasalle": 2173,
-                "Marine Le Pen": 31776,
-                "Jean-Luc Mélenchon": 9612,
+                "Emmanuel Macron": 20427,
+                "Jean Lasalle": 2172,
+                "Marine Le Pen": 31760,
+                "Jean-Luc Mélenchon": 9611,
                 "Anne Hidalgo": 1079,
-                "Yannick Jadot": 1783,
-                "Valérie Pécresse": 3451,
+                "Yannick Jadot": 1781,
+                "Valérie Pécresse": 3450,
                 "Phillipe Poutou": 499,
                 "Nicolas Dupont-Aignan": 1646,
-                "Eric Zemmour": 4789
+                "Eric Zemmour": 4785
+            }
+        },
+        "secondRound": {
+            "registered": 104878,
+            "voted": 83539,
+            "whites": 3933,
+            "expressed": 77785,
+            "void": 1821,
+            "candidates": {
+                "Emmanuel Macron": 32094,
+                "Marine Le Pen": 45691
             }
         }
+    },
+    "current": {
+        "id": "720652",
+        "lastname": "Duvergé",
+        "firstname": "Bruno",
+        "slug": "bruno-duverge",
+        "gender": "H",
+        "birthday": "1957-04-03",
+        "birthplace": "Cambrai (Nord)",
+        "county": "Pas-de-Calais",
+        "countyId": "62",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 48,
+            "amendments": 114,
+            "amendmentsSupported": 3488,
+            "amendmentsAdopted": 767,
+            "commissionsAttended": 283,
+            "commissionInterventions": 366,
+            "hemicycleInterventions": 178,
+            "hemicycleShortInterventions": 223,
+            "questionsWritten": 45,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie",
             "lastname": "Bernard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 1
         },
         {
             "firstname": "Marie",
             "lastname": "Berthoud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 1
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Blairy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 1
         },
         {
             "firstname": "Eric",
             "lastname": "Cagnache",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 1
         },
         {
-            "id": "720652",
-            "lastname": "Duvergé",
             "firstname": "Bruno",
-            "slug": "bruno-duverge",
+            "lastname": "Duvergé",
             "gender": "H",
-            "birthday": "1957-04-03",
-            "birthplace": "Cambrai (Nord)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 5,
-                "proposals": 0,
-                "proposalsSupported": 48,
-                "amendments": 114,
-                "amendmentsSupported": 3488,
-                "amendmentsAdopted": 767,
-                "commissionsAttended": 283,
-                "commissionInterventions": 366,
-                "hemicycleInterventions": 178,
-                "hemicycleShortInterventions": 223,
-                "questionsWritten": 45,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Wielgosz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 1
         }
     ]
 }

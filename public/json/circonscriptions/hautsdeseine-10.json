@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 811,
                 "Eric Zemmour": 4699
             }
+        },
+        "secondRound": {
+            "registered": 79169,
+            "voted": 60135,
+            "whites": 4218,
+            "expressed": 55610,
+            "void": 307,
+            "candidates": {
+                "Emmanuel Macron": 45506,
+                "Marine Le Pen": 10104
+            }
         }
+    },
+    "current": {
+        "id": "722190",
+        "lastname": "Attal",
+        "firstname": "Gabriel",
+        "slug": "gabriel-attal",
+        "gender": "H",
+        "birthday": "1989-03-16",
+        "birthplace": "Clamart (Hauts-de-Seine)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "En marche !",
+        "groupShort": "LREM",
+        "job": "Consultant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 49,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 10,
+            "amendments": 42,
+            "amendmentsSupported": 368,
+            "amendmentsAdopted": 233,
+            "commissionsAttended": 80,
+            "commissionInterventions": 162,
+            "hemicycleInterventions": 227,
+            "hemicycleShortInterventions": 73,
+            "questionsWritten": 10,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722190",
-            "lastname": "Attal",
             "firstname": "Gabriel",
-            "slug": "gabriel-attal",
+            "lastname": "Attal",
             "gender": "H",
-            "birthday": "1989-03-16",
-            "birthplace": "Clamart (Hauts-de-Seine)",
-            "county": "Hauts-de-Seine",
-            "countyId": "92",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
-            "group": "En marche !",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Consultant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 49,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 10,
-                "amendments": 42,
-                "amendmentsSupported": 368,
-                "amendmentsAdopted": 233,
-                "commissionsAttended": 80,
-                "commissionInterventions": 162,
-                "hemicycleInterventions": 227,
-                "hemicycleShortInterventions": 73,
-                "questionsWritten": 10,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         },
         {
             "firstname": "Sandrine",
             "lastname": "Bourg",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         },
         {
             "firstname": "Alexis",
             "lastname": "Escale",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         },
         {
             "firstname": "Hadrien",
             "lastname": "Petit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         },
         {
             "firstname": "Cécile",
             "lastname": "Soubelet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         },
         {
             "firstname": "Laurence",
             "lastname": "Viguié",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 10
         }
     ]
 }

@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 1434,
                 "Eric Zemmour": 4011
             }
+        },
+        "secondRound": {
+            "registered": 76953,
+            "voted": 54875,
+            "whites": 3937,
+            "expressed": 49796,
+            "void": 1142,
+            "candidates": {
+                "Emmanuel Macron": 25748,
+                "Marine Le Pen": 24048
+            }
         }
+    },
+    "current": {
+        "id": "267801",
+        "lastname": "Jégo",
+        "firstname": "Yves",
+        "slug": "yves-jego",
+        "gender": "H",
+        "birthday": "1961-04-17",
+        "birthplace": "Besançon (Doubs)",
+        "county": "Seine-et-Marne",
+        "countyId": "77",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UAI",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 31,
+            "reports": 0,
+            "proposals": 4,
+            "proposalsSupported": 13,
+            "amendments": 17,
+            "amendmentsSupported": 687,
+            "amendmentsAdopted": 38,
+            "commissionsAttended": 33,
+            "commissionInterventions": 11,
+            "hemicycleInterventions": 672,
+            "hemicycleShortInterventions": 2953,
+            "questionsWritten": 18,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Elodie",
             "lastname": "Gérôme-Delgado",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Camille",
             "lastname": "Leguillon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Dominique",
             "lastname": "Lioret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Catherine",
             "lastname": "Van Cauteren",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 3
         }
     ]
 }

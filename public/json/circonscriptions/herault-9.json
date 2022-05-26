@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 88880,
             "voted": 67401,
-            "whites": 860,
+            "whites": 859,
             "expressed": 66146,
-            "void": 395,
+            "void": 396,
             "candidates": {
-                "Nathalie Arthaud": 251,
+                "Nathalie Arthaud": 250,
                 "Fabien Roussel": 1178,
-                "Emmanuel Macron": 15906,
+                "Emmanuel Macron": 15910,
                 "Jean Lasalle": 1997,
-                "Marine Le Pen": 16556,
-                "Jean-Luc Mélenchon": 15687,
-                "Anne Hidalgo": 1226,
+                "Marine Le Pen": 16561,
+                "Jean-Luc Mélenchon": 15683,
+                "Anne Hidalgo": 1221,
                 "Yannick Jadot": 2975,
-                "Valérie Pécresse": 2546,
+                "Valérie Pécresse": 2542,
                 "Phillipe Poutou": 456,
-                "Nicolas Dupont-Aignan": 1234,
-                "Eric Zemmour": 6134
+                "Nicolas Dupont-Aignan": 1235,
+                "Eric Zemmour": 6138
+            }
+        },
+        "secondRound": {
+            "registered": 88892,
+            "voted": 64231,
+            "whites": 3787,
+            "expressed": 59048,
+            "void": 1396,
+            "candidates": {
+                "Emmanuel Macron": 32282,
+                "Marine Le Pen": 26766
             }
         }
+    },
+    "current": {
+        "id": "606639",
+        "lastname": "Vignal",
+        "firstname": "Patrick",
+        "slug": "patrick-vignal",
+        "gender": "H",
+        "birthday": "1958-01-22",
+        "birthplace": "Montpellier (Hérault)",
+        "county": "Hérault",
+        "countyId": "34",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 99,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 110,
+            "amendments": 120,
+            "amendmentsSupported": 5759,
+            "amendmentsAdopted": 1320,
+            "commissionsAttended": 100,
+            "commissionInterventions": 47,
+            "hemicycleInterventions": 49,
+            "hemicycleShortInterventions": 63,
+            "questionsWritten": 143,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nadia",
             "lastname": "Belaouni",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         },
         {
             "firstname": "Frédéric",
             "lastname": "Bort",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         },
         {
             "firstname": "Maurice",
             "lastname": "Chaynes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         },
         {
             "firstname": "Valérie",
             "lastname": "Garnier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         },
         {
             "firstname": "Virginie",
             "lastname": "Rage-Andrieu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         },
         {
-            "id": "606639",
-            "lastname": "Vignal",
             "firstname": "Patrick",
-            "slug": "patrick-vignal",
+            "lastname": "Vignal",
             "gender": "H",
-            "birthday": "1958-01-22",
-            "birthplace": "Montpellier (Hérault)",
-            "county": "Hérault",
-            "countyId": "34",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 99,
-                "reports": 4,
-                "proposals": 2,
-                "proposalsSupported": 110,
-                "amendments": 120,
-                "amendmentsSupported": 5759,
-                "amendmentsAdopted": 1320,
-                "commissionsAttended": 100,
-                "commissionInterventions": 47,
-                "hemicycleInterventions": 49,
-                "hemicycleShortInterventions": 63,
-                "questionsWritten": 143,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 9
         }
     ]
 }

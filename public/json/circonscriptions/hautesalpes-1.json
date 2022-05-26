@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 59486,
             "voted": 45885,
-            "whites": 704,
+            "whites": 731,
             "expressed": 44867,
-            "void": 314,
+            "void": 287,
             "candidates": {
                 "Nathalie Arthaud": 234,
                 "Fabien Roussel": 1035,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1147,
                 "Eric Zemmour": 3367
             }
+        },
+        "secondRound": {
+            "registered": 59505,
+            "voted": 45144,
+            "whites": 3636,
+            "expressed": 40293,
+            "void": 1215,
+            "candidates": {
+                "Emmanuel Macron": 21467,
+                "Marine Le Pen": 18826
+            }
         }
+    },
+    "current": {
+        "id": "718710",
+        "lastname": "Boyer",
+        "firstname": "Pascale",
+        "slug": "pascale-boyer",
+        "gender": "F",
+        "birthday": "1965-09-28",
+        "birthplace": "Saint Mandé (Val-de-Marne)",
+        "county": "Hautes-Alpes",
+        "countyId": "05",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 99,
+            "amendments": 279,
+            "amendmentsSupported": 3784,
+            "amendmentsAdopted": 1271,
+            "commissionsAttended": 243,
+            "commissionInterventions": 194,
+            "hemicycleInterventions": 117,
+            "hemicycleShortInterventions": 31,
+            "questionsWritten": 51,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "718710",
-            "lastname": "Boyer",
             "firstname": "Pascale",
-            "slug": "pascale-boyer",
+            "lastname": "Boyer",
             "gender": "F",
-            "birthday": "1965-09-28",
-            "birthplace": "Saint Mandé (Val-de-Marne)",
-            "county": "Hautes-Alpes",
-            "countyId": "05",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 165,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 99,
-                "amendments": 279,
-                "amendmentsSupported": 3784,
-                "amendmentsAdopted": 1271,
-                "commissionsAttended": 243,
-                "commissionInterventions": 194,
-                "hemicycleInterventions": 117,
-                "hemicycleShortInterventions": 31,
-                "questionsWritten": 51,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Véronique",
             "lastname": "Buisson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Kevin",
             "lastname": "Para",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Philippo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Fabienne",
             "lastname": "Pratali",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Lise",
             "lastname": "Recotillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         },
         {
             "firstname": "Éric",
             "lastname": "Sarlin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 1
         }
     ]
 }

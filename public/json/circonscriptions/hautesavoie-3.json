@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 87640,
             "voted": 69008,
-            "whites": 1169,
+            "whites": 1176,
             "expressed": 67470,
-            "void": 369,
+            "void": 362,
             "candidates": {
                 "Nathalie Arthaud": 286,
                 "Fabien Roussel": 978,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 2483,
                 "Eric Zemmour": 5385
             }
+        },
+        "secondRound": {
+            "registered": 87661,
+            "voted": 66109,
+            "whites": 4236,
+            "expressed": 60648,
+            "void": 1225,
+            "candidates": {
+                "Emmanuel Macron": 33982,
+                "Marine Le Pen": 26666
+            }
         }
+    },
+    "current": {
+        "id": "721442",
+        "lastname": "Petex-Levet",
+        "firstname": "Christelle",
+        "slug": "christelle-petexlevet",
+        "gender": "F",
+        "birthday": "1980-09-02",
+        "birthplace": "Annecy (Haute-Savoie)",
+        "county": "Haute-Savoie",
+        "countyId": "74",
+        "circumscription": 3,
+        "mandateStart": "2021-08-01",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 13,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 7,
+            "amendments": 11,
+            "amendmentsSupported": 387,
+            "amendmentsAdopted": 4,
+            "commissionsAttended": 15,
+            "commissionInterventions": 1,
+            "hemicycleInterventions": 5,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 3,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anis",
             "lastname": "Bouvard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Albert",
             "lastname": "Cohen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Valérie",
             "lastname": "Ferrarini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Joseph",
             "lastname": "Jaccaz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Jocelyne",
             "lastname": "Legouhy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Fabienne",
             "lastname": "Tassa",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 3
         }
     ]
 }

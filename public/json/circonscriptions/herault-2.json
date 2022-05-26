@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 507,
                 "Eric Zemmour": 2810
             }
+        },
+        "secondRound": {
+            "registered": 64919,
+            "voted": 41696,
+            "whites": 2837,
+            "expressed": 38019,
+            "void": 840,
+            "candidates": {
+                "Emmanuel Macron": 29005,
+                "Marine Le Pen": 9014
+            }
         }
+    },
+    "current": {
+        "id": "719676",
+        "lastname": "Ressiguier",
+        "firstname": "Muriel",
+        "slug": "muriel-ressiguier",
+        "gender": "F",
+        "birthday": "1977-12-21",
+        "birthplace": "Châteauroux (Indre)",
+        "county": "Hérault",
+        "countyId": "34",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Employée (autres entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 131,
+            "reports": 0,
+            "proposals": 3,
+            "proposalsSupported": 171,
+            "amendments": 3070,
+            "amendmentsSupported": 18856,
+            "amendmentsAdopted": 219,
+            "commissionsAttended": 145,
+            "commissionInterventions": 346,
+            "hemicycleInterventions": 233,
+            "hemicycleShortInterventions": 202,
+            "questionsWritten": 56,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Philippe",
             "lastname": "Lechat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         },
         {
             "firstname": "Flavia",
             "lastname": "Mangano",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         },
         {
             "firstname": "Didier",
             "lastname": "Michel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         },
         {
             "firstname": "William",
             "lastname": "Olhasque",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         },
         {
             "firstname": "Nathalie",
             "lastname": "Oziol",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         },
         {
             "firstname": "Annie",
             "lastname": "Yague",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 2
         }
     ]
 }

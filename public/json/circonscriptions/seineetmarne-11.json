@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1059,
                 "Eric Zemmour": 2470
             }
+        },
+        "secondRound": {
+            "registered": 66138,
+            "voted": 44091,
+            "whites": 3815,
+            "expressed": 39661,
+            "void": 615,
+            "candidates": {
+                "Emmanuel Macron": 24831,
+                "Marine Le Pen": 14830
+            }
         }
+    },
+    "current": {
+        "id": "609332",
+        "lastname": "Faure",
+        "firstname": "Olivier",
+        "slug": "olivier-faure",
+        "gender": "H",
+        "birthday": "1968-08-18",
+        "birthplace": "La Tronche (Isère)",
+        "county": "Seine-et-Marne",
+        "countyId": "77",
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 141,
+            "reports": 0,
+            "proposals": 7,
+            "proposalsSupported": 81,
+            "amendments": 87,
+            "amendmentsSupported": 14487,
+            "amendmentsAdopted": 763,
+            "commissionsAttended": 73,
+            "commissionInterventions": 19,
+            "hemicycleInterventions": 563,
+            "hemicycleShortInterventions": 514,
+            "questionsWritten": 44,
+            "questionsOral": 20
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alain",
             "lastname": "Auzet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 11
         },
         {
             "firstname": "Anne",
             "lastname": "De La Torre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 11
         },
         {
             "firstname": "Martine",
             "lastname": "Demonchy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 11
         },
         {
-            "id": "609332",
-            "lastname": "Faure",
             "firstname": "Olivier",
-            "slug": "olivier-faure",
+            "lastname": "Faure",
             "gender": "H",
-            "birthday": "1968-08-18",
-            "birthplace": "La Tronche (Isère)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 77,
             "county": "Seine-et-Marne",
-            "countyId": "77",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 141,
-                "reports": 0,
-                "proposals": 7,
-                "proposalsSupported": 81,
-                "amendments": 87,
-                "amendmentsSupported": 14487,
-                "amendmentsAdopted": 763,
-                "commissionsAttended": 73,
-                "commissionInterventions": 19,
-                "hemicycleInterventions": 563,
-                "hemicycleShortInterventions": 514,
-                "questionsWritten": 44,
-                "questionsOral": 20
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 11
         },
         {
             "firstname": "Charlyne",
             "lastname": "Péculier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 11
         }
     ]
 }

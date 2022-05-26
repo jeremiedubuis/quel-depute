@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 89879,
-            "voted": 71321,
+            "voted": 71320,
             "whites": 1204,
-            "expressed": 69476,
-            "void": 641,
+            "expressed": 69474,
+            "void": 642,
             "candidates": {
                 "Nathalie Arthaud": 520,
                 "Fabien Roussel": 1574,
-                "Emmanuel Macron": 24282,
+                "Emmanuel Macron": 24280,
                 "Jean Lasalle": 2044,
                 "Marine Le Pen": 15741,
                 "Jean-Luc Mélenchon": 12251,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1455,
                 "Eric Zemmour": 2874
             }
+        },
+        "secondRound": {
+            "registered": 89908,
+            "voted": 71506,
+            "whites": 4497,
+            "expressed": 65163,
+            "void": 1846,
+            "candidates": {
+                "Emmanuel Macron": 41487,
+                "Marine Le Pen": 23676
+            }
         }
+    },
+    "current": {
+        "id": "332228",
+        "lastname": "Benoit",
+        "firstname": "Thierry",
+        "slug": "thierry-benoit",
+        "gender": "H",
+        "birthday": "1966-09-13",
+        "birthplace": "Fougères (Ille-et-Vilaine)",
+        "county": "Ille-et-Vilaine",
+        "countyId": "35",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Représentant de commerce",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 188,
+            "reports": 4,
+            "proposals": 6,
+            "proposalsSupported": 110,
+            "amendments": 554,
+            "amendmentsSupported": 7260,
+            "amendmentsAdopted": 331,
+            "commissionsAttended": 313,
+            "commissionInterventions": 1246,
+            "hemicycleInterventions": 1183,
+            "hemicycleShortInterventions": 1604,
+            "questionsWritten": 123,
+            "questionsOral": 41
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Adrien",
             "lastname": "Aubrée",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         },
         {
-            "id": "332228",
-            "lastname": "Benoit",
             "firstname": "Thierry",
-            "slug": "thierry-benoit",
+            "lastname": "Benoit",
             "gender": "H",
-            "birthday": "1966-09-13",
-            "birthplace": "Fougères (Ille-et-Vilaine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 35,
             "county": "Ille-et-Vilaine",
-            "countyId": "35",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "UDI",
-            "job": "Représentant de commerce",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 188,
-                "reports": 4,
-                "proposals": 6,
-                "proposalsSupported": 110,
-                "amendments": 554,
-                "amendmentsSupported": 7260,
-                "amendmentsAdopted": 331,
-                "commissionsAttended": 313,
-                "commissionInterventions": 1246,
-                "hemicycleInterventions": 1183,
-                "hemicycleShortInterventions": 1604,
-                "questionsWritten": 123,
-                "questionsOral": 41
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Nolwenn",
             "lastname": "Floch",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         },
         {
             "firstname": "Ludovic",
             "lastname": "Hubert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         },
         {
             "firstname": "Hélène",
             "lastname": "Mocquard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         },
         {
             "firstname": "Maricela",
             "lastname": "Murgeanu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         },
         {
             "firstname": "Gilles",
             "lastname": "Pennelle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 6
         }
     ]
 }

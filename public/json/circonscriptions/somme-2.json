@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 854,
                 "Eric Zemmour": 3171
             }
+        },
+        "secondRound": {
+            "registered": 77409,
+            "voted": 56415,
+            "whites": 3294,
+            "expressed": 51963,
+            "void": 1158,
+            "candidates": {
+                "Emmanuel Macron": 34678,
+                "Marine Le Pen": 17285
+            }
         }
+    },
+    "current": {
+        "id": "722218",
+        "lastname": "Delpirou",
+        "firstname": "Cécile",
+        "slug": "cecile-delpirou",
+        "gender": "F",
+        "birthday": "1964-03-23",
+        "birthplace": "Saint-Maur-des-Fossés (Val-de-Marne)",
+        "county": "Somme",
+        "countyId": "80",
+        "circumscription": 2,
+        "mandateStart": "2020-08-07",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieure mécanicienne",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 52,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 29,
+            "amendments": 21,
+            "amendmentsSupported": 889,
+            "amendmentsAdopted": 465,
+            "commissionsAttended": 62,
+            "commissionInterventions": 15,
+            "hemicycleInterventions": 9,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 10,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Aurélien",
             "lastname": "Caron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         },
         {
             "firstname": "Zahia",
             "lastname": "Hamdane",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         },
         {
             "firstname": "Nadia",
             "lastname": "Hermans",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         },
         {
             "firstname": "Sandrine",
             "lastname": "L'Aminot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         },
         {
             "firstname": "Bruno",
             "lastname": "Paleni",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         },
         {
-            "id": "609520",
-            "lastname": "Pompili",
             "firstname": "Barbara",
-            "slug": "barbara-pompili",
+            "lastname": "Pompili",
             "gender": "F",
-            "birthday": "1975-06-13",
-            "birthplace": "Bois-Bernard (Pas-de-Calais)",
-            "county": "Somme",
-            "countyId": "80",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Non rattaché",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Assistante parlementaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 119,
-                "reports": 15,
-                "proposals": 2,
-                "proposalsSupported": 43,
-                "amendments": 282,
-                "amendmentsSupported": 2668,
-                "amendmentsAdopted": 879,
-                "commissionsAttended": 357,
-                "commissionInterventions": 2038,
-                "hemicycleInterventions": 357,
-                "hemicycleShortInterventions": 305,
-                "questionsWritten": 71,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 2
         }
     ]
 }

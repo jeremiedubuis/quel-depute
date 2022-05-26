@@ -4,59 +4,122 @@
     "name": "Ardennes",
     "results": {
         "firstRound": {
-            "registered": 70586,
+            "registered": 70589,
             "voted": 53020,
-            "whites": 829,
-            "expressed": 51830,
-            "void": 361,
+            "whites": 828,
+            "expressed": 51839,
+            "void": 353,
             "candidates": {
                 "Nathalie Arthaud": 391,
                 "Fabien Roussel": 1139,
-                "Emmanuel Macron": 13048,
+                "Emmanuel Macron": 13051,
                 "Jean Lasalle": 1576,
-                "Marine Le Pen": 18272,
-                "Jean-Luc Mélenchon": 7876,
+                "Marine Le Pen": 18275,
+                "Jean-Luc Mélenchon": 7878,
                 "Anne Hidalgo": 647,
                 "Yannick Jadot": 1505,
                 "Valérie Pécresse": 2337,
                 "Phillipe Poutou": 409,
                 "Nicolas Dupont-Aignan": 1166,
-                "Eric Zemmour": 3464
+                "Eric Zemmour": 3465
+            }
+        },
+        "secondRound": {
+            "registered": 70511,
+            "voted": 53861,
+            "whites": 2891,
+            "expressed": 49682,
+            "void": 1288,
+            "candidates": {
+                "Emmanuel Macron": 22447,
+                "Marine Le Pen": 27235
             }
         }
+    },
+    "current": {
+        "id": "267260",
+        "lastname": "Poletti",
+        "firstname": "Bérengère",
+        "slug": "berengere-poletti",
+        "gender": "F",
+        "birthday": "1959-10-14",
+        "birthplace": "Biencourt-sur-Orge (Meuse)",
+        "county": "Ardennes",
+        "countyId": "08",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Sage-femme",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 7,
+            "proposals": 27,
+            "proposalsSupported": 723,
+            "amendments": 203,
+            "amendmentsSupported": 13855,
+            "amendmentsAdopted": 394,
+            "commissionsAttended": 236,
+            "commissionInterventions": 226,
+            "hemicycleInterventions": 138,
+            "hemicycleShortInterventions": 117,
+            "questionsWritten": 257,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julien",
             "lastname": "Duruisseau",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 1
         },
         {
             "firstname": "Nadia",
             "lastname": "Octave",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Richard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 1
         },
         {
             "firstname": "Lionel",
             "lastname": "Vuibert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 1
         }
     ]
 }

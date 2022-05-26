@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 1258,
                 "Eric Zemmour": 4139
             }
+        },
+        "secondRound": {
+            "registered": 90914,
+            "voted": 66569,
+            "whites": 3107,
+            "expressed": 62080,
+            "void": 1382,
+            "candidates": {
+                "Emmanuel Macron": 24228,
+                "Marine Le Pen": 37852
+            }
         }
+    },
+    "current": {
+        "id": "267766",
+        "lastname": "Bricout",
+        "firstname": "Guy",
+        "slug": "guy-bricout",
+        "gender": "H",
+        "birthday": "1944-02-18",
+        "birthplace": "Caudry (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 18,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Retraité fonction publique (hors enseignement)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 2,
+            "proposals": 9,
+            "proposalsSupported": 255,
+            "amendments": 898,
+            "amendmentsSupported": 7746,
+            "amendmentsAdopted": 317,
+            "commissionsAttended": 244,
+            "commissionInterventions": 265,
+            "hemicycleInterventions": 211,
+            "hemicycleShortInterventions": 47,
+            "questionsWritten": 139,
+            "questionsOral": 20
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Mélanie",
             "lastname": "Ethuin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 18
         },
         {
             "firstname": "Philippe",
             "lastname": "Loyez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 18
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Maréchal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 18
         },
         {
             "firstname": "Nadine",
             "lastname": "Reynaert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 18
         }
     ]
 }

@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 850,
                 "Eric Zemmour": 5416
             }
+        },
+        "secondRound": {
+            "registered": 82233,
+            "voted": 62073,
+            "whites": 3883,
+            "expressed": 57842,
+            "void": 348,
+            "candidates": {
+                "Emmanuel Macron": 46591,
+                "Marine Le Pen": 11251
+            }
         }
+    },
+    "current": {
+        "id": "722094",
+        "lastname": "Hennion",
+        "firstname": "Christine",
+        "slug": "christine-hennion",
+        "gender": "F",
+        "birthday": "1955-08-23",
+        "birthplace": "Roubaix (Nord)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 10,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 128,
+            "amendmentsSupported": 2317,
+            "amendmentsAdopted": 1156,
+            "commissionsAttended": 335,
+            "commissionInterventions": 257,
+            "hemicycleInterventions": 116,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 15,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cécile",
             "lastname": "Derieux",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Philippe",
             "lastname": "Juvin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Agnès",
             "lastname": "Laffite",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Vincent",
             "lastname": "Manresa",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-Marie",
             "lastname": "Parry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Aurélie",
             "lastname": "Taquillain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         },
         {
             "firstname": "Sara",
             "lastname": "Tij",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 3
         }
     ]
 }

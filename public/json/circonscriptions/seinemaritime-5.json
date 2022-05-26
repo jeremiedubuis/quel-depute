@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 94939,
             "voted": 72829,
-            "whites": 1211,
-            "expressed": 71170,
-            "void": 448,
+            "whites": 1217,
+            "expressed": 71173,
+            "void": 439,
             "candidates": {
                 "Nathalie Arthaud": 584,
                 "Fabien Roussel": 1940,
-                "Emmanuel Macron": 19388,
+                "Emmanuel Macron": 19390,
                 "Jean Lasalle": 1615,
                 "Marine Le Pen": 22375,
-                "Jean-Luc Mélenchon": 13350,
+                "Jean-Luc Mélenchon": 13351,
                 "Anne Hidalgo": 1286,
                 "Yannick Jadot": 2469,
                 "Valérie Pécresse": 2504,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1524,
                 "Eric Zemmour": 3482
             }
+        },
+        "secondRound": {
+            "registered": 94948,
+            "voted": 73876,
+            "whites": 4798,
+            "expressed": 67598,
+            "void": 1480,
+            "candidates": {
+                "Emmanuel Macron": 34326,
+                "Marine Le Pen": 33272
+            }
         }
+    },
+    "current": {
+        "id": "267233",
+        "lastname": "Bouillon",
+        "firstname": "Christophe",
+        "slug": "christophe-bouillon",
+        "gender": "H",
+        "birthday": "1969-03-04",
+        "birthplace": "Rouen (Seine-Maritime)",
+        "county": "Seine-Maritime",
+        "countyId": "76",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "SOC",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 108,
+            "reports": 5,
+            "proposals": 11,
+            "proposalsSupported": 51,
+            "amendments": 435,
+            "amendmentsSupported": 9183,
+            "amendmentsAdopted": 505,
+            "commissionsAttended": 193,
+            "commissionInterventions": 449,
+            "hemicycleInterventions": 351,
+            "hemicycleShortInterventions": 67,
+            "questionsWritten": 80,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean",
             "lastname": "Delalandre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Alain",
             "lastname": "Guillotte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Eddy",
             "lastname": "Lefaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         },
         {
-            "id": "774958",
-            "lastname": "Leseul",
             "firstname": "Gérard",
-            "slug": "gerard-leseul",
+            "lastname": "Leseul",
             "gender": "H",
-            "birthday": "1960-08-15",
-            "birthplace": "Mesnil-Esnard (Seine-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 76,
             "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 5,
-            "mandateStart": "2020-09-28",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre d'entreprise / enseignant universitaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 63,
-                "reports": 8,
-                "proposals": 2,
-                "proposalsSupported": 29,
-                "amendments": 477,
-                "amendmentsSupported": 5688,
-                "amendmentsAdopted": 264,
-                "commissionsAttended": 148,
-                "commissionInterventions": 733,
-                "hemicycleInterventions": 443,
-                "hemicycleShortInterventions": 95,
-                "questionsWritten": 30,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Frédéric",
             "lastname": "Mazier",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Jean-Cyril",
             "lastname": "Montier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Simon",
             "lastname": "Sulkowski",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 5
         }
     ]
 }

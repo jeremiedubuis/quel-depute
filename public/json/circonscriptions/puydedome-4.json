@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 100895,
-            "voted": 80370,
-            "whites": 1560,
+            "voted": 80369,
+            "whites": 1642,
             "expressed": 78177,
-            "void": 633,
+            "void": 550,
             "candidates": {
                 "Nathalie Arthaud": 575,
                 "Fabien Roussel": 2860,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1598,
                 "Eric Zemmour": 4393
             }
+        },
+        "secondRound": {
+            "registered": 100918,
+            "voted": 76665,
+            "whites": 6268,
+            "expressed": 67954,
+            "void": 2443,
+            "candidates": {
+                "Emmanuel Macron": 40571,
+                "Marine Le Pen": 27383
+            }
         }
+    },
+    "current": {
+        "id": "1276",
+        "lastname": "Fanget",
+        "firstname": "Michel",
+        "slug": "michel-fanget",
+        "gender": "H",
+        "birthday": "1950-05-03",
+        "birthplace": "Clermont-Ferrand (Puy-de-Dôme)",
+        "county": "Puy-de-Dôme",
+        "countyId": "63",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Cardiologue",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 59,
+            "amendments": 9,
+            "amendmentsSupported": 3168,
+            "amendmentsAdopted": 688,
+            "commissionsAttended": 260,
+            "commissionInterventions": 136,
+            "hemicycleInterventions": 41,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 12,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Didier",
             "lastname": "Brulé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         },
         {
             "firstname": "Dominique",
             "lastname": "Château-Annaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         },
         {
             "firstname": "Florence",
             "lastname": "Dubessy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         },
         {
             "firstname": "Valérie",
             "lastname": "Goléo",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         },
         {
             "firstname": "Delphine",
             "lastname": "Lingemann",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         },
         {
             "firstname": "François",
             "lastname": "Marotte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 4
         }
     ]
 }

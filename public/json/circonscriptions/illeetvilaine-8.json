@@ -4,15 +4,15 @@
     "name": "Ille-et-Vilaine",
     "results": {
         "firstRound": {
-            "registered": 90265,
-            "voted": 70888,
+            "registered": 90268,
+            "voted": 70881,
             "whites": 908,
-            "expressed": 69684,
+            "expressed": 69677,
             "void": 296,
             "candidates": {
                 "Nathalie Arthaud": 291,
                 "Fabien Roussel": 1455,
-                "Emmanuel Macron": 22326,
+                "Emmanuel Macron": 22319,
                 "Jean Lasalle": 1038,
                 "Marine Le Pen": 6537,
                 "Jean-Luc Mélenchon": 22299,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 798,
                 "Eric Zemmour": 3110
             }
+        },
+        "secondRound": {
+            "registered": 90283,
+            "voted": 68511,
+            "whites": 4497,
+            "expressed": 62737,
+            "void": 1277,
+            "candidates": {
+                "Emmanuel Macron": 51230,
+                "Marine Le Pen": 11507
+            }
         }
+    },
+    "current": {
+        "id": "719770",
+        "lastname": "Bachelier",
+        "firstname": "Florian",
+        "slug": "florian-bachelier",
+        "gender": "H",
+        "birthday": "1979-04-05",
+        "birthplace": "Thionville (Moselle)",
+        "county": "Ille-et-Vilaine",
+        "countyId": "35",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 55,
+            "amendments": 3,
+            "amendmentsSupported": 1348,
+            "amendmentsAdopted": 896,
+            "commissionsAttended": 175,
+            "commissionInterventions": 2,
+            "hemicycleInterventions": 25,
+            "hemicycleShortInterventions": 128,
+            "questionsWritten": 20,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719770",
-            "lastname": "Bachelier",
             "firstname": "Florian",
-            "slug": "florian-bachelier",
+            "lastname": "Bachelier",
             "gender": "H",
-            "birthday": "1979-04-05",
-            "birthplace": "Thionville (Moselle)",
-            "county": "Ille-et-Vilaine",
-            "countyId": "35",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 55,
-                "amendments": 3,
-                "amendmentsSupported": 1348,
-                "amendmentsAdopted": 896,
-                "commissionsAttended": 175,
-                "commissionInterventions": 2,
-                "hemicycleInterventions": 25,
-                "hemicycleShortInterventions": 128,
-                "questionsWritten": 20,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Mickaël",
             "lastname": "Bouloux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Karol",
             "lastname": "Dolu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Guillaume",
             "lastname": "Gomez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Joël",
             "lastname": "Le Gall",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Rodolphe",
             "lastname": "Llavori",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Marianne",
             "lastname": "Looten",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         },
         {
             "firstname": "Fabrice",
             "lastname": "Lucas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 8
         }
     ]
 }

@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 75745,
-            "voted": 60245,
-            "whites": 457,
-            "expressed": 59600,
-            "void": 188,
+            "voted": 60254,
+            "whites": 466,
+            "expressed": 59602,
+            "void": 186,
             "candidates": {
                 "Nathalie Arthaud": 57,
                 "Fabien Roussel": 368,
-                "Emmanuel Macron": 27807,
+                "Emmanuel Macron": 27809,
                 "Jean Lasalle": 633,
                 "Marine Le Pen": 3497,
                 "Jean-Luc Mélenchon": 5656,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 519,
                 "Eric Zemmour": 9747
             }
+        },
+        "secondRound": {
+            "registered": 75794,
+            "voted": 58032,
+            "whites": 2287,
+            "expressed": 55068,
+            "void": 677,
+            "candidates": {
+                "Emmanuel Macron": 45014,
+                "Marine Le Pen": 10054
+            }
         }
+    },
+    "current": {
+        "id": "721832",
+        "lastname": "Boëlle",
+        "firstname": "Sandra",
+        "slug": "sandra-boelle",
+        "gender": "F",
+        "birthday": "1961-05-26",
+        "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 14,
+        "mandateStart": "2020-05-28",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 61,
+            "reports": 2,
+            "proposals": 5,
+            "proposalsSupported": 109,
+            "amendments": 74,
+            "amendmentsSupported": 9235,
+            "amendmentsAdopted": 177,
+            "commissionsAttended": 58,
+            "commissionInterventions": 10,
+            "hemicycleInterventions": 35,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 63,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie",
             "lastname": "Bourdy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         },
         {
             "firstname": "Anne",
             "lastname": "de la Brélie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         },
         {
             "firstname": "Serge",
             "lastname": "Dordoigne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         },
         {
             "firstname": "Benjamin",
             "lastname": "Haddad",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         },
         {
             "firstname": "Julie",
             "lastname": "Maury",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         },
         {
             "firstname": "Francis",
             "lastname": "Szpiner",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 14
         }
     ]
 }

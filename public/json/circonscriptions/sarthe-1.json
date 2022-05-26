@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 73093,
             "voted": 55351,
-            "whites": 1196,
+            "whites": 1201,
             "expressed": 53851,
-            "void": 304,
+            "void": 299,
             "candidates": {
                 "Nathalie Arthaud": 355,
                 "Fabien Roussel": 1117,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1130,
                 "Eric Zemmour": 3299
             }
+        },
+        "secondRound": {
+            "registered": 73076,
+            "voted": 55430,
+            "whites": 4218,
+            "expressed": 50456,
+            "void": 756,
+            "candidates": {
+                "Emmanuel Macron": 30710,
+                "Marine Le Pen": 19746
+            }
         }
+    },
+    "current": {
+        "id": "721372",
+        "lastname": "Pichereau",
+        "firstname": "Damien",
+        "slug": "damien-pichereau",
+        "gender": "H",
+        "birthday": "1988-01-28",
+        "birthplace": "Mamers (Sarthe)",
+        "county": "Sarthe",
+        "countyId": "72",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employé (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 139,
+            "reports": 13,
+            "proposals": 3,
+            "proposalsSupported": 69,
+            "amendments": 172,
+            "amendmentsSupported": 2191,
+            "amendmentsAdopted": 1205,
+            "commissionsAttended": 222,
+            "commissionInterventions": 215,
+            "hemicycleInterventions": 119,
+            "hemicycleShortInterventions": 64,
+            "questionsWritten": 125,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Ghislaine",
             "lastname": "Bonnet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Julie",
             "lastname": "Delpech",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Brigitte",
             "lastname": "Dujardin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Stéphane",
             "lastname": "Fouéré",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Fabienne",
             "lastname": "Labrette-Menager",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Sylvie",
             "lastname": "Maillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         },
         {
             "firstname": "Edwige",
             "lastname": "Picouleau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 1
         }
     ]
 }

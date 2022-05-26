@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 90956,
             "voted": 64349,
-            "whites": 786,
+            "whites": 789,
             "expressed": 63218,
-            "void": 345,
+            "void": 342,
             "candidates": {
                 "Nathalie Arthaud": 206,
                 "Fabien Roussel": 1160,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1231,
                 "Eric Zemmour": 8519
             }
+        },
+        "secondRound": {
+            "registered": 90960,
+            "voted": 62286,
+            "whites": 3377,
+            "expressed": 57770,
+            "void": 1139,
+            "candidates": {
+                "Emmanuel Macron": 31203,
+                "Marine Le Pen": 26567
+            }
         }
+    },
+    "current": {
+        "id": "718902",
+        "lastname": "Roussel",
+        "firstname": "Cédric",
+        "slug": "cedric-roussel",
+        "gender": "H",
+        "birthday": "1972-10-10",
+        "birthplace": "Brest (Finistère)",
+        "county": "Alpes-Maritimes",
+        "countyId": "06",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Conseiller en gestion de patrimoine indépendant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 79,
+            "amendments": 176,
+            "amendmentsSupported": 2391,
+            "amendmentsAdopted": 1122,
+            "commissionsAttended": 185,
+            "commissionInterventions": 129,
+            "hemicycleInterventions": 128,
+            "hemicycleShortInterventions": 38,
+            "questionsWritten": 27,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Castillo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         },
         {
             "firstname": "Enzo",
             "lastname": "Giusti",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         },
         {
             "firstname": "Estelle",
             "lastname": "Jaquet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         },
         {
             "firstname": "Benoit",
             "lastname": "Kandel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         },
         {
             "firstname": "Gabriel-Kayne",
             "lastname": "Mercier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         },
         {
             "firstname": "Philippe",
             "lastname": "Pradal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 3
         }
     ]
 }

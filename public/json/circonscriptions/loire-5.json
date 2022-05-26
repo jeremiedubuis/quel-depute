@@ -5,102 +5,145 @@
     "results": {
         "firstRound": {
             "registered": 101872,
-            "voted": 79806,
-            "whites": 1503,
-            "expressed": 77743,
-            "void": 560,
+            "voted": 79807,
+            "whites": 1493,
+            "expressed": 77418,
+            "void": 896,
             "candidates": {
-                "Nathalie Arthaud": 469,
-                "Fabien Roussel": 2006,
-                "Emmanuel Macron": 22243,
-                "Jean Lasalle": 3013,
-                "Marine Le Pen": 21016,
-                "Jean-Luc Mélenchon": 12833,
-                "Anne Hidalgo": 1377,
-                "Yannick Jadot": 2863,
-                "Valérie Pécresse": 3803,
-                "Phillipe Poutou": 539,
-                "Nicolas Dupont-Aignan": 2019,
-                "Eric Zemmour": 5562
+                "Nathalie Arthaud": 468,
+                "Fabien Roussel": 2005,
+                "Emmanuel Macron": 22150,
+                "Jean Lasalle": 2997,
+                "Marine Le Pen": 20934,
+                "Jean-Luc Mélenchon": 12780,
+                "Anne Hidalgo": 1374,
+                "Yannick Jadot": 2847,
+                "Valérie Pécresse": 3784,
+                "Phillipe Poutou": 534,
+                "Nicolas Dupont-Aignan": 2005,
+                "Eric Zemmour": 5540
+            }
+        },
+        "secondRound": {
+            "registered": 101890,
+            "voted": 77883,
+            "whites": 5328,
+            "expressed": 70710,
+            "void": 1845,
+            "candidates": {
+                "Emmanuel Macron": 38344,
+                "Marine Le Pen": 32366
             }
         }
+    },
+    "current": {
+        "id": "719972",
+        "lastname": "Sarles",
+        "firstname": "Nathalie",
+        "slug": "nathalie-sarles",
+        "gender": "F",
+        "birthday": "1962-04-17",
+        "birthplace": "Valence (Drôme)",
+        "county": "Loire",
+        "countyId": "42",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Salariée du secteur médical",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 5,
+            "proposals": 1,
+            "proposalsSupported": 91,
+            "amendments": 210,
+            "amendmentsSupported": 4621,
+            "amendmentsAdopted": 1372,
+            "commissionsAttended": 335,
+            "commissionInterventions": 333,
+            "hemicycleInterventions": 112,
+            "hemicycleShortInterventions": 25,
+            "questionsWritten": 93,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Philippe",
             "lastname": "Granchamp",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Sandrine",
             "lastname": "Granger",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Édith",
             "lastname": "Roche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         },
         {
-            "id": "719972",
-            "lastname": "Sarles",
             "firstname": "Nathalie",
-            "slug": "nathalie-sarles",
+            "lastname": "Sarles",
             "gender": "F",
-            "birthday": "1962-04-17",
-            "birthplace": "Valence (Drôme)",
-            "county": "Loire",
-            "countyId": "42",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Salariée du secteur médical",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 164,
-                "reports": 5,
-                "proposals": 1,
-                "proposalsSupported": 91,
-                "amendments": 210,
-                "amendmentsSupported": 4621,
-                "amendmentsAdopted": 1372,
-                "commissionsAttended": 335,
-                "commissionInterventions": 333,
-                "hemicycleInterventions": 112,
-                "hemicycleShortInterventions": 25,
-                "questionsWritten": 93,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Ismael",
             "lastname": "Stevenson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Antoine",
             "lastname": "Vermorel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 5
         }
     ]
 }

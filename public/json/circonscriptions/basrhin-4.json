@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1984,
                 "Eric Zemmour": 5645
             }
+        },
+        "secondRound": {
+            "registered": 97296,
+            "voted": 74614,
+            "whites": 3566,
+            "expressed": 69916,
+            "void": 1132,
+            "candidates": {
+                "Emmanuel Macron": 44660,
+                "Marine Le Pen": 25256
+            }
         }
+    },
+    "current": {
+        "id": "722268",
+        "lastname": "Wonner",
+        "firstname": "Martine",
+        "slug": "martine-wonner",
+        "gender": "F",
+        "birthday": "1964-03-27",
+        "birthplace": "Hayange (Moselle)",
+        "county": "Bas-Rhin",
+        "countyId": "67",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "NI",
+        "job": "Directrice médicale et directrice de développement en entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 1,
+            "proposals": 4,
+            "proposalsSupported": 103,
+            "amendments": 712,
+            "amendmentsSupported": 5453,
+            "amendmentsAdopted": 865,
+            "commissionsAttended": 268,
+            "commissionInterventions": 306,
+            "hemicycleInterventions": 677,
+            "hemicycleShortInterventions": 143,
+            "questionsWritten": 47,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Eric",
             "lastname": "Amiet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Mehdi",
             "lastname": "Benhlal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Françoise",
             "lastname": "Buffet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Virginie",
             "lastname": "Joron Piedimonte",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Imane",
             "lastname": "Lahmeur",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Alain",
             "lastname": "North",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 4
         }
     ]
 }

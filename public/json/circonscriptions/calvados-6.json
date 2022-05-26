@@ -5,9 +5,9 @@
     "results": {
         "firstRound": {
             "registered": 95726,
-            "voted": 74276,
+            "voted": 74256,
             "whites": 1179,
-            "expressed": 72508,
+            "expressed": 72488,
             "void": 589,
             "candidates": {
                 "Nathalie Arthaud": 581,
@@ -17,54 +17,121 @@
                 "Marine Le Pen": 19416,
                 "Jean-Luc Mélenchon": 12798,
                 "Anne Hidalgo": 1325,
-                "Yannick Jadot": 3448,
+                "Yannick Jadot": 3428,
                 "Valérie Pécresse": 3077,
                 "Phillipe Poutou": 765,
                 "Nicolas Dupont-Aignan": 1754,
                 "Eric Zemmour": 3462
             }
+        },
+        "secondRound": {
+            "registered": 95740,
+            "voted": 75381,
+            "whites": 4449,
+            "expressed": 69049,
+            "void": 1883,
+            "candidates": {
+                "Emmanuel Macron": 39303,
+                "Marine Le Pen": 29746
+            }
         }
+    },
+    "current": {
+        "id": "2828",
+        "lastname": "Tourret",
+        "firstname": "Alain",
+        "slug": "alain-tourret",
+        "gender": "H",
+        "birthday": "1947-12-25",
+        "birthplace": "Boppard (Allemagne)",
+        "county": "Calvados",
+        "countyId": "14",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 127,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 69,
+            "amendments": 53,
+            "amendmentsSupported": 1801,
+            "amendmentsAdopted": 1159,
+            "commissionsAttended": 131,
+            "commissionInterventions": 131,
+            "hemicycleInterventions": 86,
+            "hemicycleShortInterventions": 53,
+            "questionsWritten": 22,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Bruno",
             "lastname": "Battail",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 6
         },
         {
             "firstname": "Élisabeth",
             "lastname": "Borne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 6
         },
         {
             "firstname": "Noé",
             "lastname": "Gauchard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 6
         },
         {
             "firstname": "Pascale",
             "lastname": "Georget",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Philippe",
             "lastname": "Roy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 6
         }
     ]
 }

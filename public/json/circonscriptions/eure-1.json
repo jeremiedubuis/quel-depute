@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 86341,
             "voted": 63998,
-            "whites": 911,
+            "whites": 929,
             "expressed": 62713,
-            "void": 374,
+            "void": 356,
             "candidates": {
                 "Nathalie Arthaud": 434,
                 "Fabien Roussel": 1176,
-                "Emmanuel Macron": 16412,
+                "Emmanuel Macron": 16411,
                 "Jean Lasalle": 1533,
                 "Marine Le Pen": 20101,
-                "Jean-Luc Mélenchon": 11026,
+                "Jean-Luc Mélenchon": 11027,
                 "Anne Hidalgo": 675,
                 "Yannick Jadot": 2138,
                 "Valérie Pécresse": 2683,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1489,
                 "Eric Zemmour": 4550
             }
+        },
+        "secondRound": {
+            "registered": 86369,
+            "voted": 64136,
+            "whites": 3564,
+            "expressed": 59319,
+            "void": 1253,
+            "candidates": {
+                "Emmanuel Macron": 28981,
+                "Marine Le Pen": 30338
+            }
         }
+    },
+    "current": {
+        "id": "719326",
+        "lastname": "Gipson",
+        "firstname": "Séverine",
+        "slug": "severine-gipson",
+        "gender": "F",
+        "birthday": "1970-12-13",
+        "birthplace": "Évreux (Eure)",
+        "county": "Eure",
+        "countyId": "27",
+        "circumscription": 1,
+        "mandateStart": "2017-07-22",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre en certification",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 173,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 77,
+            "amendmentsSupported": 2637,
+            "amendmentsAdopted": 1010,
+            "commissionsAttended": 298,
+            "commissionInterventions": 236,
+            "hemicycleInterventions": 39,
+            "hemicycleShortInterventions": 3,
+            "questionsWritten": 150,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Alory",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         },
         {
             "firstname": "Christophe",
             "lastname": "Ancelin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         },
         {
             "firstname": "Christine",
             "lastname": "Briand",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         },
         {
             "firstname": "Anne",
             "lastname": "Ducamp",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         },
         {
-            "id": "719326",
-            "lastname": "Gipson",
             "firstname": "Séverine",
-            "slug": "severine-gipson",
+            "lastname": "Gipson",
             "gender": "F",
-            "birthday": "1970-12-13",
-            "birthplace": "Évreux (Eure)",
-            "county": "Eure",
-            "countyId": "27",
-            "circumscription": 1,
-            "mandateStart": "2017-07-22",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre en certification",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 173,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 71,
-                "amendments": 77,
-                "amendmentsSupported": 2637,
-                "amendmentsAdopted": 1010,
-                "commissionsAttended": 298,
-                "commissionInterventions": 236,
-                "hemicycleInterventions": 39,
-                "hemicycleShortInterventions": 3,
-                "questionsWritten": 150,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         },
         {
             "firstname": "Catherine",
             "lastname": "Hélayel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 1
         }
     ]
 }

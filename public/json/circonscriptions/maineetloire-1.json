@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1129,
                 "Eric Zemmour": 3724
             }
+        },
+        "secondRound": {
+            "registered": 87675,
+            "voted": 65533,
+            "whites": 4258,
+            "expressed": 59967,
+            "void": 1308,
+            "candidates": {
+                "Emmanuel Macron": 42999,
+                "Marine Le Pen": 16968
+            }
         }
+    },
+    "current": {
+        "id": "720278",
+        "lastname": "Orphelin",
+        "firstname": "Matthieu",
+        "slug": "matthieu-orphelin",
+        "gender": "H",
+        "birthday": "1972-12-03",
+        "birthplace": "Saint-Nazaire (Loire-Atlantique)",
+        "county": "Maine-et-Loire",
+        "countyId": "49",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Cadre supérieur (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 1,
+            "proposals": 11,
+            "proposalsSupported": 86,
+            "amendments": 1947,
+            "amendmentsSupported": 7103,
+            "amendmentsAdopted": 655,
+            "commissionsAttended": 347,
+            "commissionInterventions": 820,
+            "hemicycleInterventions": 408,
+            "hemicycleShortInterventions": 106,
+            "questionsWritten": 119,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Roch",
             "lastname": "Brancour",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Gabriel",
             "lastname": "De Chabot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Louise",
             "lastname": "Dupas",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "François",
             "lastname": "Gernigon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Arash",
             "lastname": "Saeidi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 1
         }
     ]
 }

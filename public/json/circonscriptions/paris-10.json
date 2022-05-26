@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 69820,
-            "voted": 53975,
-            "whites": 638,
+            "voted": 53974,
+            "whites": 641,
             "expressed": 53100,
-            "void": 237,
+            "void": 233,
             "candidates": {
                 "Nathalie Arthaud": 206,
                 "Fabien Roussel": 1116,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 594,
                 "Eric Zemmour": 3369
             }
+        },
+        "secondRound": {
+            "registered": 69843,
+            "voted": 50663,
+            "whites": 2982,
+            "expressed": 46826,
+            "void": 855,
+            "candidates": {
+                "Emmanuel Macron": 38607,
+                "Marine Le Pen": 8219
+            }
         }
+    },
+    "current": {
+        "id": "643205",
+        "lastname": "Lang",
+        "firstname": "Anne-Christine",
+        "slug": "annechristine-lang",
+        "gender": "F",
+        "birthday": "1961-08-10",
+        "birthplace": "Mont-de-Marsan (Landes)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 62,
+            "amendmentsSupported": 1697,
+            "amendmentsAdopted": 1079,
+            "commissionsAttended": 189,
+            "commissionInterventions": 279,
+            "hemicycleInterventions": 298,
+            "hemicycleShortInterventions": 122,
+            "questionsWritten": 6,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Rodrigo",
             "lastname": "Arenas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
             "firstname": "Olivia",
             "lastname": "Baille",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
             "firstname": "Wallerand",
             "lastname": "De Saint Just",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
-            "id": "643205",
-            "lastname": "Lang",
             "firstname": "Anne-Christine",
-            "slug": "annechristine-lang",
+            "lastname": "Lang",
             "gender": "F",
-            "birthday": "1961-08-10",
-            "birthplace": "Mont-de-Marsan (Landes)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 144,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 61,
-                "amendments": 62,
-                "amendmentsSupported": 1697,
-                "amendmentsAdopted": 1079,
-                "commissionsAttended": 189,
-                "commissionInterventions": 279,
-                "hemicycleInterventions": 298,
-                "hemicycleShortInterventions": 122,
-                "questionsWritten": 6,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
             "firstname": "Simon",
             "lastname": "Nordmann",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
             "firstname": "Thomas",
             "lastname": "Sellier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         },
         {
             "firstname": "Habib",
             "lastname": "Shoukry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 10
         }
     ]
 }

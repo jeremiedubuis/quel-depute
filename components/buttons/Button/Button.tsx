@@ -3,18 +3,32 @@ import React from 'react';
 import type { ReactNode } from 'react';
 import { cn } from '$helpers/cn';
 import type { IconType } from 'react-icons/lib';
+import Link from 'next/link';
 
-export const Button: React.FC<
-    React.HTMLProps<HTMLButtonElement> & {
-        children?: ReactNode | ReactNode[];
-        icon?: IconType;
-        type?: 'button' | 'reset' | 'submit';
-    }
-> = ({ children, type, icon: Icon, ...props }) => {
-    return (
-        <button type={type} className={cn(styles.button)} {...props}>
+type AuthorizedElements = HTMLButtonElement | HTMLLinkElement;
+
+type ButtonProps<T extends AuthorizedElements> = React.HTMLProps<T> & {
+    children?: ReactNode | ReactNode[];
+    icon?: IconType;
+    type?: 'button' | 'reset' | 'submit';
+};
+
+export const Button = <T extends AuthorizedElements = HTMLButtonElement>({
+    children,
+    type,
+    icon: Icon,
+    href,
+    ...props
+}: ButtonProps<T>) => {
+    const Tag = href ? 'a' : 'button';
+
+    const content = (
+        //@ts-ignore
+        <Tag type={type} className={cn(styles.button)} {...props}>
             {Icon && <Icon />}
             {children}
-        </button>
+        </Tag>
     );
+
+    return href ? <Link href={href}>{content}</Link> : content;
 };

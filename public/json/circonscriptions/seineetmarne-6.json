@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1242,
                 "Eric Zemmour": 4089
             }
+        },
+        "secondRound": {
+            "registered": 81219,
+            "voted": 56061,
+            "whites": 3951,
+            "expressed": 51139,
+            "void": 971,
+            "candidates": {
+                "Emmanuel Macron": 25835,
+                "Marine Le Pen": 25304
+            }
         }
+    },
+    "current": {
+        "id": "721636",
+        "lastname": "Parigi",
+        "firstname": "Jean-François",
+        "slug": "jeanfrancois-parigi",
+        "gender": "H",
+        "birthday": "1960-01-25",
+        "birthplace": "Châtenay-Malabry (Hauts-de-Seine)",
+        "county": "Seine-et-Marne",
+        "countyId": "77",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 127,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 277,
+            "amendments": 53,
+            "amendmentsSupported": 5970,
+            "amendmentsAdopted": 154,
+            "commissionsAttended": 126,
+            "commissionInterventions": 20,
+            "hemicycleInterventions": 15,
+            "hemicycleShortInterventions": 30,
+            "questionsWritten": 65,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Valérie",
             "lastname": "Delage",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Dragan",
             "lastname": "Klisaric",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Fatna",
             "lastname": "Mekidiche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Hamida",
             "lastname": "Rezeg",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Annie",
             "lastname": "Rieupet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Béatrice",
             "lastname": "Roullaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 6
         }
     ]
 }

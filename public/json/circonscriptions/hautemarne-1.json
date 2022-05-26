@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1503,
                 "Eric Zemmour": 3352
             }
+        },
+        "secondRound": {
+            "registered": 69935,
+            "voted": 52747,
+            "whites": 3252,
+            "expressed": 47994,
+            "void": 1501,
+            "candidates": {
+                "Emmanuel Macron": 22619,
+                "Marine Le Pen": 25375
+            }
         }
+    },
+    "current": {
+        "id": "720242",
+        "lastname": "Abba",
+        "firstname": "Bérangère",
+        "slug": "berangere-abba",
+        "gender": "F",
+        "birthday": "1976-10-22",
+        "birthplace": "Chaumont (Haute-Marne)",
+        "county": "Haute-Marne",
+        "countyId": "52",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Responsable de commerce",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 111,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 41,
+            "amendments": 90,
+            "amendmentsSupported": 1583,
+            "amendmentsAdopted": 694,
+            "commissionsAttended": 219,
+            "commissionInterventions": 333,
+            "hemicycleInterventions": 194,
+            "hemicycleShortInterventions": 69,
+            "questionsWritten": 17,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720242",
-            "lastname": "Abba",
             "firstname": "Bérangère",
-            "slug": "berangere-abba",
+            "lastname": "Abba",
             "gender": "F",
-            "birthday": "1976-10-22",
-            "birthplace": "Chaumont (Haute-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 52,
             "county": "Haute-Marne",
-            "countyId": "52",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Responsable de commerce",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 111,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 41,
-                "amendments": 90,
-                "amendmentsSupported": 1583,
-                "amendmentsAdopted": 694,
-                "commissionsAttended": 219,
-                "commissionInterventions": 333,
-                "hemicycleInterventions": 194,
-                "hemicycleShortInterventions": 69,
-                "questionsWritten": 17,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Christophe",
             "lastname": "Benz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 52,
+            "county": "Haute-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Sylvain",
             "lastname": "Demay",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 52,
+            "county": "Haute-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Michèle",
             "lastname": "Leclerc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 52,
+            "county": "Haute-Marne",
+            "circumscription": 1
         }
     ]
 }

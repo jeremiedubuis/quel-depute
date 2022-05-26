@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1601,
                 "Eric Zemmour": 5941
             }
+        },
+        "secondRound": {
+            "registered": 105980,
+            "voted": 80529,
+            "whites": 5876,
+            "expressed": 72305,
+            "void": 2348,
+            "candidates": {
+                "Emmanuel Macron": 39564,
+                "Marine Le Pen": 32741
+            }
         }
+    },
+    "current": {
+        "id": "719540",
+        "lastname": "Toutut-Picard",
+        "firstname": "Élisabeth",
+        "slug": "elisabeth-toututpicard",
+        "gender": "F",
+        "birthday": "1954-12-17",
+        "birthplace": "Blida (Algérie)",
+        "county": "Haute-Garonne",
+        "countyId": "31",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 100,
+            "amendments": 204,
+            "amendmentsSupported": 3476,
+            "amendmentsAdopted": 1218,
+            "commissionsAttended": 271,
+            "commissionInterventions": 715,
+            "hemicycleInterventions": 63,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 139,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Michel",
             "lastname": "Ajoulat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Malika",
             "lastname": "Bencouisi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Hervé",
             "lastname": "Bergnes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Christophe",
             "lastname": "Bex",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Sophie",
             "lastname": "Etcheverry",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Pinatel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
-            "id": "719540",
-            "lastname": "Toutut-Picard",
             "firstname": "Élisabeth",
-            "slug": "elisabeth-toututpicard",
+            "lastname": "Toutut-Picard",
             "gender": "F",
-            "birthday": "1954-12-17",
-            "birthplace": "Blida (Algérie)",
-            "county": "Haute-Garonne",
-            "countyId": "31",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 100,
-                "amendments": 204,
-                "amendmentsSupported": 3476,
-                "amendmentsAdopted": 1218,
-                "commissionsAttended": 271,
-                "commissionInterventions": 715,
-                "hemicycleInterventions": 63,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 139,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         },
         {
             "firstname": "Romain",
             "lastname": "Von Deyen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 7
         }
     ]
 }

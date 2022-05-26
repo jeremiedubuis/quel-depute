@@ -5,110 +5,157 @@
     "results": {
         "firstRound": {
             "registered": 99213,
-            "voted": 76498,
-            "whites": 1276,
-            "expressed": 74696,
-            "void": 526,
+            "voted": 76511,
+            "whites": 1289,
+            "expressed": 74699,
+            "void": 523,
             "candidates": {
                 "Nathalie Arthaud": 563,
-                "Fabien Roussel": 2020,
+                "Fabien Roussel": 2022,
                 "Emmanuel Macron": 23737,
                 "Jean Lasalle": 2118,
                 "Marine Le Pen": 16846,
                 "Jean-Luc Mélenchon": 14292,
                 "Anne Hidalgo": 1398,
-                "Yannick Jadot": 3403,
+                "Yannick Jadot": 3404,
                 "Valérie Pécresse": 3588,
                 "Phillipe Poutou": 657,
                 "Nicolas Dupont-Aignan": 1823,
                 "Eric Zemmour": 4251
             }
+        },
+        "secondRound": {
+            "registered": 99276,
+            "voted": 75992,
+            "whites": 5165,
+            "expressed": 69064,
+            "void": 1763,
+            "candidates": {
+                "Emmanuel Macron": 42539,
+                "Marine Le Pen": 26525
+            }
         }
+    },
+    "current": {
+        "id": "719806",
+        "lastname": "Auconie",
+        "firstname": "Sophie",
+        "slug": "sophie-auconie",
+        "gender": "F",
+        "birthday": "1963-08-19",
+        "birthplace": "Dugny (Seine-Saint-Denis)",
+        "county": "Indre-et-Loire",
+        "countyId": "37",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 138,
+            "reports": 5,
+            "proposals": 2,
+            "proposalsSupported": 161,
+            "amendments": 311,
+            "amendmentsSupported": 6830,
+            "amendmentsAdopted": 317,
+            "commissionsAttended": 320,
+            "commissionInterventions": 432,
+            "hemicycleInterventions": 569,
+            "hemicycleShortInterventions": 247,
+            "questionsWritten": 68,
+            "questionsOral": 27
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Henri",
             "lastname": "Alfandari",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons,LRM",
             "groupShort": "Horizons,LRM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Morgane",
             "lastname": "Lechevalier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Legendre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
-            "id": "783463",
-            "lastname": "Métadier",
             "firstname": "Sophie",
-            "slug": "sophie-metadier",
+            "lastname": "Métadier",
             "gender": "F",
-            "birthday": "1961-04-26",
-            "birthplace": "Paris (France)",
-            "county": "Indre-et-Loire",
-            "countyId": "37",
-            "circumscription": 3,
-            "mandateStart": "2021-06-07",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Urbaniste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 27,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 25,
-                "amendments": 20,
-                "amendmentsSupported": 879,
-                "amendmentsAdopted": 35,
-                "commissionsAttended": 32,
-                "commissionInterventions": 38,
-                "hemicycleInterventions": 23,
-                "hemicycleShortInterventions": 3,
-                "questionsWritten": 11,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Sylvie",
             "lastname": "Patte",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Irène",
             "lastname": "Protin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Roxane",
             "lastname": "Sirven",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 3
         }
     ]
 }

@@ -4,6 +4,7 @@ import { DeputeVote } from '$types/deputeTypes';
 import { cn } from '$helpers/cn';
 import { AiFillWarning } from 'react-icons/ai';
 import { Tooltip } from '$components/text/Tooltip/Tooltip';
+import { Button } from '$components/buttons/Button/Button';
 
 export const DeputeVoteSquare: React.FC<{
     lastname: string;
@@ -17,7 +18,8 @@ export const DeputeVoteSquare: React.FC<{
                 content={
                     <div className={styles.details}>
                         <h4>{vote.name}</h4>
-                        {vote.vote}
+                        <p>{vote.vote}</p>
+                        <Button href={`/votes/${vote.number}`}>En savoir plus</Button>
                     </div>
                 }
             />

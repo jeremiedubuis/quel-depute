@@ -23,108 +23,163 @@
                 "Nicolas Dupont-Aignan": 1407,
                 "Eric Zemmour": 5183
             }
+        },
+        "secondRound": {
+            "registered": 104823,
+            "voted": 80674,
+            "whites": 5097,
+            "expressed": 73703,
+            "void": 1874,
+            "candidates": {
+                "Emmanuel Macron": 48822,
+                "Marine Le Pen": 24881
+            }
         }
+    },
+    "current": {
+        "id": "342240",
+        "lastname": "Bourgeaux",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-bourgeaux",
+        "gender": "H",
+        "birthday": "1963-04-10",
+        "birthplace": "Paramé-Saint-Malo (Ille-et-Vilaine)",
+        "county": "Ille-et-Vilaine",
+        "countyId": "35",
+        "circumscription": 7,
+        "mandateStart": "2020-08-01",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 49,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 149,
+            "amendments": 131,
+            "amendmentsSupported": 6485,
+            "amendmentsAdopted": 130,
+            "commissionsAttended": 50,
+            "commissionInterventions": 14,
+            "hemicycleInterventions": 15,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 70,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "342240",
-            "lastname": "Bourgeaux",
             "firstname": "Jean-Luc",
-            "slug": "jeanluc-bourgeaux",
+            "lastname": "Bourgeaux",
             "gender": "H",
-            "birthday": "1963-04-10",
-            "birthplace": "Paramé-Saint-Malo (Ille-et-Vilaine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 35,
             "county": "Ille-et-Vilaine",
-            "countyId": "35",
-            "circumscription": 7,
-            "mandateStart": "2020-08-01",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Agriculteur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 49,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 149,
-                "amendments": 131,
-                "amendmentsSupported": 6485,
-                "amendmentsAdopted": 130,
-                "commissionsAttended": 50,
-                "commissionInterventions": 14,
-                "hemicycleInterventions": 15,
-                "hemicycleShortInterventions": 8,
-                "questionsWritten": 70,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Julien",
             "lastname": "Delcourt",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Edouard",
             "lastname": "Descottes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Marie-Thérèse",
             "lastname": "Drelon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Etienne",
             "lastname": "Gruenais",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Nicolas",
             "lastname": "Guivarc'h",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Anne",
             "lastname": "Le Gagne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Éliane",
             "lastname": "Leclercq",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         },
         {
             "firstname": "Dylan",
             "lastname": "Lemoine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 7
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 927,
                 "Eric Zemmour": 2912
             }
+        },
+        "secondRound": {
+            "registered": 74223,
+            "voted": 48539,
+            "whites": 3064,
+            "expressed": 44470,
+            "void": 1005,
+            "candidates": {
+                "Emmanuel Macron": 27797,
+                "Marine Le Pen": 16673
+            }
         }
+    },
+    "current": {
+        "id": "721968",
+        "lastname": "Vialay",
+        "firstname": "Michel",
+        "slug": "michel-vialay",
+        "gender": "H",
+        "birthday": "1960-01-06",
+        "birthplace": "Paris 20ème (Paris)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 135,
+            "reports": 1,
+            "proposals": 16,
+            "proposalsSupported": 634,
+            "amendments": 279,
+            "amendmentsSupported": 10744,
+            "amendmentsAdopted": 263,
+            "commissionsAttended": 140,
+            "commissionInterventions": 68,
+            "hemicycleInterventions": 108,
+            "hemicycleShortInterventions": 19,
+            "questionsWritten": 33,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "François",
             "lastname": "Blaise",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 8
         },
         {
             "firstname": "Thierry",
             "lastname": "Gonnot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 8
         },
         {
             "firstname": "Edwige",
             "lastname": "Hervieux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 8
         },
         {
             "firstname": "Benjamin",
             "lastname": "Lucas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 8
         },
         {
             "firstname": "Cyril",
             "lastname": "Nauth",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 8
         },
         {
-            "id": "721968",
-            "lastname": "Vialay",
             "firstname": "Michel",
-            "slug": "michel-vialay",
+            "lastname": "Vialay",
             "gender": "H",
-            "birthday": "1960-01-06",
-            "birthplace": "Paris 20ème (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 78,
             "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 135,
-                "reports": 1,
-                "proposals": 16,
-                "proposalsSupported": 634,
-                "amendments": 279,
-                "amendmentsSupported": 10744,
-                "amendmentsAdopted": 263,
-                "commissionsAttended": 140,
-                "commissionInterventions": 68,
-                "hemicycleInterventions": 108,
-                "hemicycleShortInterventions": 19,
-                "questionsWritten": 33,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         }
     ]
 }

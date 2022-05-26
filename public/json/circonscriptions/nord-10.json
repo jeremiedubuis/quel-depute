@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 865,
                 "Eric Zemmour": 3199
             }
+        },
+        "secondRound": {
+            "registered": 82061,
+            "voted": 53920,
+            "whites": 2625,
+            "expressed": 50331,
+            "void": 964,
+            "candidates": {
+                "Emmanuel Macron": 28791,
+                "Marine Le Pen": 21540
+            }
         }
+    },
+    "current": {
+        "id": "712014",
+        "lastname": "Ledoux",
+        "firstname": "Vincent",
+        "slug": "vincent-ledoux",
+        "gender": "H",
+        "birthday": "1966-06-21",
+        "birthplace": "Watermael-Boitsfort (Belgique)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Enseignant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 147,
+            "reports": 9,
+            "proposals": 11,
+            "proposalsSupported": 154,
+            "amendments": 233,
+            "amendmentsSupported": 7252,
+            "amendmentsAdopted": 495,
+            "commissionsAttended": 170,
+            "commissionInterventions": 156,
+            "hemicycleInterventions": 277,
+            "hemicycleShortInterventions": 60,
+            "questionsWritten": 147,
+            "questionsOral": 28
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Charlon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         },
         {
             "firstname": "Gérald",
             "lastname": "Darmanin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         },
         {
             "firstname": "Mélanie",
             "lastname": "Doutreligne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         },
         {
             "firstname": "Claudine",
             "lastname": "Hue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         },
         {
             "firstname": "Leslie",
             "lastname": "Mortreux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         },
         {
             "firstname": "Romain",
             "lastname": "Van Gansen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 10
         }
     ]
 }

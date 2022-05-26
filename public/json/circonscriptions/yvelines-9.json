@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 92669,
-            "voted": 71187,
-            "whites": 1022,
-            "expressed": 69804,
+            "voted": 71188,
+            "whites": 1021,
+            "expressed": 69806,
             "void": 361,
             "candidates": {
                 "Nathalie Arthaud": 366,
                 "Fabien Roussel": 1217,
-                "Emmanuel Macron": 19040,
+                "Emmanuel Macron": 19041,
                 "Jean Lasalle": 1528,
-                "Marine Le Pen": 15122,
+                "Marine Le Pen": 15123,
                 "Jean-Luc Mélenchon": 17810,
                 "Anne Hidalgo": 719,
                 "Yannick Jadot": 2713,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1400,
                 "Eric Zemmour": 5125
             }
+        },
+        "secondRound": {
+            "registered": 92693,
+            "voted": 67098,
+            "whites": 4170,
+            "expressed": 61689,
+            "void": 1239,
+            "candidates": {
+                "Emmanuel Macron": 37349,
+                "Marine Le Pen": 24340
+            }
         }
+    },
+    "current": {
+        "id": "721976",
+        "lastname": "Millienne",
+        "firstname": "Bruno",
+        "slug": "bruno-millienne",
+        "gender": "H",
+        "birthday": "1959-11-28",
+        "birthplace": "Argenteuil (Val-d'Oise)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 362,
+            "amendmentsSupported": 3906,
+            "amendmentsAdopted": 950,
+            "commissionsAttended": 278,
+            "commissionInterventions": 630,
+            "hemicycleInterventions": 935,
+            "hemicycleShortInterventions": 2351,
+            "questionsWritten": 17,
+            "questionsOral": 24
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Aïda",
             "lastname": "Czap",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 9
         },
         {
             "firstname": "Philippe",
             "lastname": "Gommard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 9
         },
         {
-            "id": "721976",
-            "lastname": "Millienne",
             "firstname": "Bruno",
-            "slug": "bruno-millienne",
+            "lastname": "Millienne",
             "gender": "H",
-            "birthday": "1959-11-28",
-            "birthplace": "Argenteuil (Val-d'Oise)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 78,
             "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 61,
-                "amendments": 362,
-                "amendmentsSupported": 3906,
-                "amendmentsAdopted": 950,
-                "commissionsAttended": 278,
-                "commissionInterventions": 630,
-                "hemicycleInterventions": 935,
-                "hemicycleShortInterventions": 2351,
-                "questionsWritten": 17,
-                "questionsOral": 24
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         },
         {
             "firstname": "Laurent",
             "lastname": "Morin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 9
         },
         {
             "firstname": "Victor",
             "lastname": "Pailhac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Révolution Ecologique pour le Vivant",
             "groupShort": "REV",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 9
         },
         {
             "firstname": "Pauline",
             "lastname": "Winocour-Lefèvre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 9
         }
     ]
 }

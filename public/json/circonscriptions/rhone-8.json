@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 104503,
             "voted": 84332,
-            "whites": 1312,
-            "expressed": 82628,
-            "void": 392,
+            "whites": 1316,
+            "expressed": 82629,
+            "void": 387,
             "candidates": {
                 "Nathalie Arthaud": 367,
                 "Fabien Roussel": 1321,
                 "Emmanuel Macron": 26290,
                 "Jean Lasalle": 2308,
-                "Marine Le Pen": 17934,
+                "Marine Le Pen": 17935,
                 "Jean-Luc Mélenchon": 13694,
                 "Anne Hidalgo": 1203,
                 "Yannick Jadot": 4110,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 2004,
                 "Eric Zemmour": 7430
             }
+        },
+        "secondRound": {
+            "registered": 104552,
+            "voted": 80852,
+            "whites": 4744,
+            "expressed": 74731,
+            "void": 1377,
+            "candidates": {
+                "Emmanuel Macron": 45585,
+                "Marine Le Pen": 29146
+            }
         }
+    },
+    "current": {
+        "id": "722308",
+        "lastname": "Serre",
+        "firstname": "Nathalie",
+        "slug": "nathalie-serre",
+        "gender": "F",
+        "birthday": "1968-08-17",
+        "birthplace": "Besançon (Doubs)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 8,
+        "mandateStart": "2020-06-18",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Mère au foyer",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 54,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 157,
+            "amendments": 65,
+            "amendmentsSupported": 3416,
+            "amendmentsAdopted": 79,
+            "commissionsAttended": 93,
+            "commissionInterventions": 56,
+            "hemicycleInterventions": 19,
+            "hemicycleShortInterventions": 7,
+            "questionsWritten": 30,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cécile",
             "lastname": "Bulin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 8
         },
         {
             "firstname": "Dominique",
             "lastname": "Despras",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 8
         },
         {
             "firstname": "Antoine",
             "lastname": "Dubois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 8
         },
         {
             "firstname": "Noëlle",
             "lastname": "Pelerins",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 8
         },
         {
             "firstname": "Tristan",
             "lastname": "Teyssier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 8
         }
     ]
 }

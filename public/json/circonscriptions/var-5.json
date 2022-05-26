@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1829,
                 "Eric Zemmour": 10067
             }
+        },
+        "secondRound": {
+            "registered": 101210,
+            "voted": 75662,
+            "whites": 3560,
+            "expressed": 70719,
+            "void": 1383,
+            "candidates": {
+                "Emmanuel Macron": 31709,
+                "Marine Le Pen": 39010
+            }
         }
+    },
+    "current": {
+        "id": "721734",
+        "lastname": "Michel-Kleisbauer",
+        "firstname": "Philippe",
+        "slug": "philippe-michelkleisbauer",
+        "gender": "H",
+        "birthday": "1969-03-06",
+        "birthplace": "Draguignan (Var)",
+        "county": "Var",
+        "countyId": "83",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Conseiller juridique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 8,
+            "proposals": 3,
+            "proposalsSupported": 57,
+            "amendments": 10,
+            "amendmentsSupported": 3239,
+            "amendmentsAdopted": 702,
+            "commissionsAttended": 321,
+            "commissionInterventions": 276,
+            "hemicycleInterventions": 89,
+            "hemicycleShortInterventions": 55,
+            "questionsWritten": 8,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sylvie",
             "lastname": "Bourgeois Harel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 5
         },
         {
             "firstname": "Yann",
             "lastname": "Caraguel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 5
         },
         {
             "firstname": "Rémi",
             "lastname": "Kranzer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 5
         },
         {
             "firstname": "Julie",
             "lastname": "Lechanteux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 5
         },
         {
-            "id": "721734",
-            "lastname": "Michel-Kleisbauer",
             "firstname": "Philippe",
-            "slug": "philippe-michelkleisbauer",
+            "lastname": "Michel-Kleisbauer",
             "gender": "H",
-            "birthday": "1969-03-06",
-            "birthplace": "Draguignan (Var)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 83,
             "county": "Var",
-            "countyId": "83",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Conseiller juridique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 165,
-                "reports": 8,
-                "proposals": 3,
-                "proposalsSupported": 57,
-                "amendments": 10,
-                "amendmentsSupported": 3239,
-                "amendmentsAdopted": 702,
-                "commissionsAttended": 321,
-                "commissionInterventions": 276,
-                "hemicycleInterventions": 89,
-                "hemicycleShortInterventions": 55,
-                "questionsWritten": 8,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         }
     ]
 }

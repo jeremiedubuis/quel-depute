@@ -4,103 +4,146 @@
     "name": "Gers",
     "results": {
         "firstRound": {
-            "registered": 73597,
-            "voted": 59372,
+            "registered": 73596,
+            "voted": 59374,
             "whites": 888,
-            "expressed": 58052,
-            "void": 432,
+            "expressed": 58057,
+            "void": 429,
             "candidates": {
                 "Nathalie Arthaud": 260,
                 "Fabien Roussel": 1696,
                 "Emmanuel Macron": 14360,
                 "Jean Lasalle": 6102,
-                "Marine Le Pen": 12595,
+                "Marine Le Pen": 12597,
                 "Jean-Luc Mélenchon": 11275,
                 "Anne Hidalgo": 2009,
-                "Yannick Jadot": 1961,
+                "Yannick Jadot": 1962,
                 "Valérie Pécresse": 2466,
                 "Phillipe Poutou": 425,
                 "Nicolas Dupont-Aignan": 1177,
-                "Eric Zemmour": 3726
+                "Eric Zemmour": 3728
+            }
+        },
+        "secondRound": {
+            "registered": 73590,
+            "voted": 57765,
+            "whites": 5125,
+            "expressed": 50609,
+            "void": 2031,
+            "candidates": {
+                "Emmanuel Macron": 28794,
+                "Marine Le Pen": 21815
             }
         }
     },
+    "current": {
+        "id": "719472",
+        "lastname": "Cazeneuve",
+        "firstname": "Jean-René",
+        "slug": "jeanrene-cazeneuve",
+        "gender": "H",
+        "birthday": "1958-06-09",
+        "birthplace": "Paris (Paris)",
+        "county": "Gers",
+        "countyId": "32",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 24,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 230,
+            "amendmentsSupported": 2019,
+            "amendmentsAdopted": 1170,
+            "commissionsAttended": 458,
+            "commissionInterventions": 653,
+            "hemicycleInterventions": 754,
+            "hemicycleShortInterventions": 607,
+            "questionsWritten": 13,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "719472",
-            "lastname": "Cazeneuve",
             "firstname": "Jean-René",
-            "slug": "jeanrene-cazeneuve",
+            "lastname": "Cazeneuve",
             "gender": "H",
-            "birthday": "1958-06-09",
-            "birthplace": "Paris (Paris)",
-            "county": "Gers",
-            "countyId": "32",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 24,
-                "proposals": 0,
-                "proposalsSupported": 61,
-                "amendments": 230,
-                "amendmentsSupported": 2019,
-                "amendmentsAdopted": 1170,
-                "commissionsAttended": 458,
-                "commissionInterventions": 653,
-                "hemicycleInterventions": 754,
-                "hemicycleShortInterventions": 607,
-                "questionsWritten": 13,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Louis",
             "lastname": "Chareton",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         },
         {
             "firstname": "Bernadette",
             "lastname": "Del Castillo",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         },
         {
             "firstname": "Pascal",
             "lastname": "Levieux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         },
         {
             "firstname": "Sylvie",
             "lastname": "Thers",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Luc",
             "lastname": "Yelma",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 1
         }
     ]
 }

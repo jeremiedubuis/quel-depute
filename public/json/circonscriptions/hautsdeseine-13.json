@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 934,
                 "Eric Zemmour": 4824
             }
+        },
+        "secondRound": {
+            "registered": 89643,
+            "voted": 67522,
+            "whites": 4990,
+            "expressed": 62245,
+            "void": 287,
+            "candidates": {
+                "Emmanuel Macron": 50304,
+                "Marine Le Pen": 11941
+            }
         }
+    },
+    "current": {
+        "id": "721194",
+        "lastname": "Dumas",
+        "firstname": "Frédérique",
+        "slug": "frederique-dumas",
+        "gender": "F",
+        "birthday": "1963-05-18",
+        "birthplace": "Paris 20ème (Paris)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 13,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "LT",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 5,
+            "proposals": 12,
+            "proposalsSupported": 155,
+            "amendments": 365,
+            "amendmentsSupported": 7991,
+            "amendmentsAdopted": 413,
+            "commissionsAttended": 242,
+            "commissionInterventions": 515,
+            "hemicycleInterventions": 517,
+            "hemicycleShortInterventions": 71,
+            "questionsWritten": 23,
+            "questionsOral": 27
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "David",
             "lastname": "Benoist",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Maud",
             "lastname": "Brégeon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Henri",
             "lastname": "de Beauregard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Brice",
             "lastname": "Gaillard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Agathe",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Alexis",
             "lastname": "Toyane",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         },
         {
             "firstname": "Patrick",
             "lastname": "Yvars",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 13
         }
     ]
 }

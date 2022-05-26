@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1243,
                 "Eric Zemmour": 3874
             }
+        },
+        "secondRound": {
+            "registered": 77345,
+            "voted": 58604,
+            "whites": 4581,
+            "expressed": 51620,
+            "void": 2403,
+            "candidates": {
+                "Emmanuel Macron": 27239,
+                "Marine Le Pen": 24381
+            }
         }
+    },
+    "current": {
+        "id": "719250",
+        "lastname": "Chassaing",
+        "firstname": "Philippe",
+        "slug": "philippe-chassaing",
+        "gender": "H",
+        "birthday": "1972-05-18",
+        "birthplace": "Albi (Tarn)",
+        "county": "Dordogne",
+        "countyId": "24",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur du secondaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 62,
+            "amendments": 111,
+            "amendmentsSupported": 1853,
+            "amendmentsAdopted": 1098,
+            "commissionsAttended": 257,
+            "commissionInterventions": 120,
+            "hemicycleInterventions": 69,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 13,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Williams",
             "lastname": "Ambroise",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         },
         {
-            "id": "719250",
-            "lastname": "Chassaing",
             "firstname": "Philippe",
-            "slug": "philippe-chassaing",
+            "lastname": "Chassaing",
             "gender": "H",
-            "birthday": "1972-05-18",
-            "birthplace": "Albi (Tarn)",
-            "county": "Dordogne",
-            "countyId": "24",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur du secondaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 62,
-                "amendments": 111,
-                "amendmentsSupported": 1853,
-                "amendmentsAdopted": 1098,
-                "commissionsAttended": 257,
-                "commissionInterventions": 120,
-                "hemicycleInterventions": 69,
-                "hemicycleShortInterventions": 8,
-                "questionsWritten": 13,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Jean",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         },
         {
             "firstname": "Lise",
             "lastname": "Khelfaoui",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         },
         {
             "firstname": "Pascale",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         },
         {
             "firstname": "Elisabeth",
             "lastname": "Marty",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 1
         }
     ]
 }

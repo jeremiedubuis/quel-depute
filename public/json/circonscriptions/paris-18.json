@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 70071,
             "voted": 54845,
-            "whites": 579,
-            "expressed": 54095,
-            "void": 171,
+            "whites": 580,
+            "expressed": 54096,
+            "void": 169,
             "candidates": {
                 "Nathalie Arthaud": 144,
                 "Fabien Roussel": 1007,
-                "Emmanuel Macron": 18074,
+                "Emmanuel Macron": 18075,
                 "Jean Lasalle": 552,
                 "Marine Le Pen": 2435,
                 "Jean-Luc Mélenchon": 19476,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 429,
                 "Eric Zemmour": 2763
             }
+        },
+        "secondRound": {
+            "registered": 70103,
+            "voted": 52476,
+            "whites": 2465,
+            "expressed": 49364,
+            "void": 647,
+            "candidates": {
+                "Emmanuel Macron": 43600,
+                "Marine Le Pen": 5764
+            }
         }
+    },
+    "current": {
+        "id": "722030",
+        "lastname": "Bournazel",
+        "firstname": "Pierre-Yves",
+        "slug": "pierreyves-bournazel",
+        "gender": "H",
+        "birthday": "1977-08-31",
+        "birthplace": "Riom-Ès-Montagne (Cantal)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 18,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Ancien auto-entrepreneur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 179,
+            "reports": 3,
+            "proposals": 5,
+            "proposalsSupported": 121,
+            "amendments": 417,
+            "amendmentsSupported": 5687,
+            "amendmentsAdopted": 428,
+            "commissionsAttended": 259,
+            "commissionInterventions": 305,
+            "hemicycleInterventions": 474,
+            "hemicycleShortInterventions": 48,
+            "questionsWritten": 130,
+            "questionsOral": 28
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Annie",
             "lastname": "Boubault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 18
         },
         {
-            "id": "722030",
-            "lastname": "Bournazel",
             "firstname": "Pierre-Yves",
-            "slug": "pierreyves-bournazel",
+            "lastname": "Bournazel",
             "gender": "H",
-            "birthday": "1977-08-31",
-            "birthplace": "Riom-Ès-Montagne (Cantal)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons,LRM",
+            "groupShort": "Horizons,LRM",
+            "countyId": 75,
             "county": "Paris",
-            "countyId": "75",
-            "circumscription": 18,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "Ancien auto-entrepreneur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 179,
-                "reports": 3,
-                "proposals": 5,
-                "proposalsSupported": 121,
-                "amendments": 417,
-                "amendmentsSupported": 5687,
-                "amendmentsAdopted": 428,
-                "commissionsAttended": 259,
-                "commissionInterventions": 305,
-                "hemicycleInterventions": 474,
-                "hemicycleShortInterventions": 48,
-                "questionsWritten": 130,
-                "questionsOral": 28
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 18
         },
         {
             "firstname": "Aymeric",
             "lastname": "Caron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Révolution Ecologique pour le Vivant",
             "groupShort": "REV",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 18
         },
         {
             "firstname": "Julia",
             "lastname": "Carrasco",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 18
         },
         {
             "firstname": "Rudolph",
             "lastname": "Granier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 18
         }
     ]
 }

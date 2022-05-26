@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1817,
                 "Eric Zemmour": 3387
             }
+        },
+        "secondRound": {
+            "registered": 109362,
+            "voted": 87158,
+            "whites": 5049,
+            "expressed": 80264,
+            "void": 1845,
+            "candidates": {
+                "Emmanuel Macron": 55352,
+                "Marine Le Pen": 24912
+            }
         }
+    },
+    "current": {
+        "id": "719756",
+        "lastname": "Cloarec-Le Nabour",
+        "firstname": "Christine",
+        "slug": "christine-cloarecle-nabour",
+        "gender": "F",
+        "birthday": "1964-10-28",
+        "birthplace": "Noisy-le-Sec (Seine-Saint-Denis)",
+        "county": "Ille-et-Vilaine",
+        "countyId": "35",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employée (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 174,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 65,
+            "amendments": 68,
+            "amendmentsSupported": 2220,
+            "amendmentsAdopted": 1319,
+            "commissionsAttended": 256,
+            "commissionInterventions": 119,
+            "hemicycleInterventions": 145,
+            "hemicycleShortInterventions": 46,
+            "questionsWritten": 7,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Françoise",
             "lastname": "Gilois",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 5
         },
         {
             "firstname": "Christelle",
             "lastname": "Jarny",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 5
         },
         {
             "firstname": "Christine",
             "lastname": "Le Nabour-Cloarec",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 5
         },
         {
             "firstname": "Gilles",
             "lastname": "Renault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 5
         },
         {
             "firstname": "Marion",
             "lastname": "Stubert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 5
         }
     ]
 }

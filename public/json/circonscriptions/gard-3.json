@@ -4,119 +4,170 @@
     "name": "Gard",
     "results": {
         "firstRound": {
-            "registered": 95104,
-            "voted": 74500,
-            "whites": 1027,
-            "expressed": 73017,
-            "void": 456,
+            "registered": 95154,
+            "voted": 74502,
+            "whites": 1031,
+            "expressed": 73020,
+            "void": 451,
             "candidates": {
                 "Nathalie Arthaud": 304,
                 "Fabien Roussel": 1696,
-                "Emmanuel Macron": 17077,
+                "Emmanuel Macron": 17078,
                 "Jean Lasalle": 2663,
-                "Marine Le Pen": 21779,
+                "Marine Le Pen": 21780,
                 "Jean-Luc Mélenchon": 12953,
-                "Anne Hidalgo": 1159,
-                "Yannick Jadot": 2986,
-                "Valérie Pécresse": 3041,
-                "Phillipe Poutou": 500,
-                "Nicolas Dupont-Aignan": 1524,
+                "Anne Hidalgo": 1120,
+                "Yannick Jadot": 2966,
+                "Valérie Pécresse": 3106,
+                "Phillipe Poutou": 490,
+                "Nicolas Dupont-Aignan": 1529,
                 "Eric Zemmour": 7335
             }
+        },
+        "secondRound": {
+            "registered": 95194,
+            "voted": 72755,
+            "whites": 4518,
+            "expressed": 66583,
+            "void": 1654,
+            "candidates": {
+                "Emmanuel Macron": 31839,
+                "Marine Le Pen": 34744
+            }
         }
+    },
+    "current": {
+        "id": "719440",
+        "lastname": "Cellier",
+        "firstname": "Anthony",
+        "slug": "anthony-cellier",
+        "gender": "H",
+        "birthday": "1975-06-01",
+        "birthplace": "Pierrelatte (Drôme)",
+        "county": "Gard",
+        "countyId": "30",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 138,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 298,
+            "amendmentsSupported": 2602,
+            "amendmentsAdopted": 1313,
+            "commissionsAttended": 235,
+            "commissionInterventions": 339,
+            "hemicycleInterventions": 236,
+            "hemicycleShortInterventions": 66,
+            "questionsWritten": 28,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Blandine",
             "lastname": "Arnaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Pascale",
             "lastname": "Bordes",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
-            "id": "719440",
-            "lastname": "Cellier",
             "firstname": "Anthony",
-            "slug": "anthony-cellier",
+            "lastname": "Cellier",
             "gender": "H",
-            "birthday": "1975-06-01",
-            "birthplace": "Pierrelatte (Drôme)",
-            "county": "Gard",
-            "countyId": "30",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 138,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 67,
-                "amendments": 298,
-                "amendmentsSupported": 2602,
-                "amendmentsAdopted": 1313,
-                "commissionsAttended": 235,
-                "commissionInterventions": 339,
-                "hemicycleInterventions": 236,
-                "hemicycleShortInterventions": 66,
-                "questionsWritten": 28,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Jean",
             "lastname": "Egéa",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Catherine",
             "lastname": "Michon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-Marie",
             "lastname": "Moulin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Monique",
             "lastname": "Novaretti",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         },
         {
             "firstname": "Sabine",
             "lastname": "Oromi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 3
         }
     ]
 }

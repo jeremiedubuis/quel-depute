@@ -6,73 +6,144 @@
         "firstRound": {
             "registered": 89785,
             "voted": 68808,
-            "whites": 1018,
-            "expressed": 67274,
-            "void": 516,
+            "whites": 1014,
+            "expressed": 67104,
+            "void": 690,
             "candidates": {
-                "Nathalie Arthaud": 502,
-                "Fabien Roussel": 1591,
-                "Emmanuel Macron": 22410,
-                "Jean Lasalle": 1828,
-                "Marine Le Pen": 21174,
-                "Jean-Luc Mélenchon": 7984,
+                "Nathalie Arthaud": 498,
+                "Fabien Roussel": 1585,
+                "Emmanuel Macron": 22376,
+                "Jean Lasalle": 1820,
+                "Marine Le Pen": 21106,
+                "Jean-Luc Mélenchon": 7967,
                 "Anne Hidalgo": 875,
-                "Yannick Jadot": 1463,
-                "Valérie Pécresse": 3630,
-                "Phillipe Poutou": 488,
-                "Nicolas Dupont-Aignan": 1271,
-                "Eric Zemmour": 4058
+                "Yannick Jadot": 1458,
+                "Valérie Pécresse": 3618,
+                "Phillipe Poutou": 485,
+                "Nicolas Dupont-Aignan": 1266,
+                "Eric Zemmour": 4050
+            }
+        },
+        "secondRound": {
+            "registered": 89784,
+            "voted": 70082,
+            "whites": 3110,
+            "expressed": 65412,
+            "void": 1560,
+            "candidates": {
+                "Emmanuel Macron": 33610,
+                "Marine Le Pen": 31802
             }
         }
+    },
+    "current": {
+        "id": "334149",
+        "lastname": "Fasquelle",
+        "firstname": "Daniel",
+        "slug": "daniel-fasquelle",
+        "gender": "H",
+        "birthday": "1963-01-16",
+        "birthplace": "Saint-Omer (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": "62",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "LR",
+        "job": "Professeur des Universités",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 111,
+            "reports": 8,
+            "proposals": 29,
+            "proposalsSupported": 378,
+            "amendments": 922,
+            "amendmentsSupported": 4364,
+            "amendmentsAdopted": 116,
+            "commissionsAttended": 186,
+            "commissionInterventions": 463,
+            "hemicycleInterventions": 539,
+            "hemicycleShortInterventions": 598,
+            "questionsWritten": 75,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Evelyne",
             "lastname": "Ameye",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         },
         {
             "firstname": "Mary",
             "lastname": "Bonvoisin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         },
         {
             "firstname": "Blandine",
             "lastname": "Drain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         },
         {
             "firstname": "Philippe",
             "lastname": "Fait",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         },
         {
             "firstname": "Dominique",
             "lastname": "Hericourt",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         },
         {
             "firstname": "Françoise",
             "lastname": "Vanpeene",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 4
         }
     ]
 }

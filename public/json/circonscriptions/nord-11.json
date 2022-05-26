@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 916,
                 "Eric Zemmour": 3621
             }
+        },
+        "secondRound": {
+            "registered": 93915,
+            "voted": 65324,
+            "whites": 3513,
+            "expressed": 60325,
+            "void": 1486,
+            "candidates": {
+                "Emmanuel Macron": 37625,
+                "Marine Le Pen": 22700
+            }
         }
+    },
+    "current": {
+        "id": "720516",
+        "lastname": "Morlighem",
+        "firstname": "Florence",
+        "slug": "florence-morlighem",
+        "gender": "F",
+        "birthday": "1970-04-10",
+        "birthplace": "Roubaix (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 11,
+        "mandateStart": "2020-01-18",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Gestionnaire de copropriété",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 86,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 27,
+            "amendments": 2,
+            "amendmentsSupported": 823,
+            "amendmentsAdopted": 495,
+            "commissionsAttended": 155,
+            "commissionInterventions": 148,
+            "hemicycleInterventions": 9,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 8,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Carole",
             "lastname": "Bailleul",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         },
         {
             "firstname": "Sophie",
             "lastname": "Goudenhooft",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         },
         {
             "firstname": "Maxime",
             "lastname": "Moulin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         },
         {
-            "id": "720512",
-            "lastname": "Pietraszewski",
             "firstname": "Laurent",
-            "slug": "laurent-pietraszewski",
+            "lastname": "Pietraszewski",
             "gender": "H",
-            "birthday": "1966-11-19",
-            "birthplace": "Saint-Denis (Seine-Saint-Denis)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 99,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 31,
-                "amendments": 48,
-                "amendmentsSupported": 1053,
-                "amendmentsAdopted": 735,
-                "commissionsAttended": 193,
-                "commissionInterventions": 336,
-                "hemicycleInterventions": 619,
-                "hemicycleShortInterventions": 173,
-                "questionsWritten": 0,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         },
         {
             "firstname": "Michel",
             "lastname": "Plouy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         },
         {
             "firstname": "Roger",
             "lastname": "Vicot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 11
         }
     ]
 }

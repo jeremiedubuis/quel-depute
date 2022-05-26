@@ -4,11 +4,11 @@
     "name": "Ardèche",
     "results": {
         "firstRound": {
-            "registered": 96257,
-            "voted": 76670,
-            "whites": 1323,
-            "expressed": 74780,
-            "void": 567,
+            "registered": 96207,
+            "voted": 76672,
+            "whites": 1343,
+            "expressed": 74781,
+            "void": 548,
             "candidates": {
                 "Nathalie Arthaud": 505,
                 "Fabien Roussel": 1758,
@@ -20,59 +20,130 @@
                 "Yannick Jadot": 3449,
                 "Valérie Pécresse": 4057,
                 "Phillipe Poutou": 626,
-                "Nicolas Dupont-Aignan": 1980,
+                "Nicolas Dupont-Aignan": 1981,
                 "Eric Zemmour": 5236
             }
+        },
+        "secondRound": {
+            "registered": 96225,
+            "voted": 74233,
+            "whites": 5472,
+            "expressed": 66968,
+            "void": 1793,
+            "candidates": {
+                "Emmanuel Macron": 36404,
+                "Marine Le Pen": 30564
+            }
         }
+    },
+    "current": {
+        "id": "340357",
+        "lastname": "Victory",
+        "firstname": "Michèle",
+        "slug": "michele-victory",
+        "gender": "F",
+        "birthday": "1958-10-28",
+        "birthplace": "Bône (Algérie)",
+        "county": "Ardèche",
+        "countyId": "07",
+        "circumscription": 2,
+        "mandateStart": "2017-12-25",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Professeur de lettres-anglais en lycée professionnel",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 0,
+            "proposals": 3,
+            "proposalsSupported": 101,
+            "amendments": 430,
+            "amendmentsSupported": 13945,
+            "amendmentsAdopted": 731,
+            "commissionsAttended": 328,
+            "commissionInterventions": 520,
+            "hemicycleInterventions": 522,
+            "hemicycleShortInterventions": 52,
+            "questionsWritten": 51,
+            "questionsOral": 33
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martin",
             "lastname": "Chaize",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         },
         {
             "firstname": "Olivier",
             "lastname": "Dussopt",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         },
         {
             "firstname": "Michèle",
             "lastname": "Gaillard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         },
         {
             "firstname": "Christophe",
             "lastname": "Goulouzelle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         },
         {
             "firstname": "Cyrille",
             "lastname": "Grangier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         },
         {
             "firstname": "Marc-Antoine",
             "lastname": "Quenette",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 2
         }
     ]
 }

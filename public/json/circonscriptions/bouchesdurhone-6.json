@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 917,
                 "Eric Zemmour": 7172
             }
+        },
+        "secondRound": {
+            "registered": 78042,
+            "voted": 52394,
+            "whites": 2597,
+            "expressed": 49000,
+            "void": 797,
+            "candidates": {
+                "Emmanuel Macron": 26900,
+                "Marine Le Pen": 22100
+            }
         }
+    },
+    "current": {
+        "id": "2796",
+        "lastname": "Teissier",
+        "firstname": "Guy",
+        "slug": "guy-teissier",
+        "gender": "H",
+        "birthday": "1945-04-04",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Bouches-du-Rhône",
+        "countyId": "13",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Retraité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 116,
+            "reports": 5,
+            "proposals": 8,
+            "proposalsSupported": 164,
+            "amendments": 106,
+            "amendmentsSupported": 3810,
+            "amendmentsAdopted": 98,
+            "commissionsAttended": 91,
+            "commissionInterventions": 88,
+            "hemicycleInterventions": 42,
+            "hemicycleShortInterventions": 135,
+            "questionsWritten": 103,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Éléonore",
             "lastname": "Bez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Angélique",
             "lastname": "Collette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Sophia",
             "lastname": "Hocini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Magali",
             "lastname": "Holagne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Corinne",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Didier",
             "lastname": "Réault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Lionel",
             "lastname": "Royer-Perreaut",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 6
         }
     ]
 }

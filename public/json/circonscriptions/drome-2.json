@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1983,
                 "Eric Zemmour": 5881
             }
+        },
+        "secondRound": {
+            "registered": 95601,
+            "voted": 70598,
+            "whites": 4526,
+            "expressed": 64361,
+            "void": 1711,
+            "candidates": {
+                "Emmanuel Macron": 32485,
+                "Marine Le Pen": 31876
+            }
         }
+    },
+    "current": {
+        "id": "719302",
+        "lastname": "Thourot",
+        "firstname": "Alice",
+        "slug": "alice-thourot",
+        "gender": "F",
+        "birthday": "1985-10-12",
+        "birthplace": "Bar-le-Duc (Meuse)",
+        "county": "Drôme",
+        "countyId": "26",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 119,
+            "reports": 6,
+            "proposals": 1,
+            "proposalsSupported": 72,
+            "amendments": 131,
+            "amendmentsSupported": 2461,
+            "amendmentsAdopted": 1311,
+            "commissionsAttended": 170,
+            "commissionInterventions": 313,
+            "hemicycleInterventions": 319,
+            "hemicycleShortInterventions": 105,
+            "questionsWritten": 30,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Rémy",
             "lastname": "Lazarowicz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 2
         },
         {
             "firstname": "Benoît",
             "lastname": "Maclin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 2
         },
         {
             "firstname": "Lisette",
             "lastname": "Pollet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 2
         },
         {
             "firstname": "Guy",
             "lastname": "Rat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 2
         },
         {
             "firstname": "Gilles",
             "lastname": "Reynaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 2
         }
     ]
 }

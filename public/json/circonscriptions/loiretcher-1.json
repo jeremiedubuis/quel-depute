@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 82628,
             "voted": 61500,
-            "whites": 987,
+            "whites": 1008,
             "expressed": 60068,
-            "void": 445,
+            "void": 424,
             "candidates": {
                 "Nathalie Arthaud": 386,
                 "Fabien Roussel": 1444,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1342,
                 "Eric Zemmour": 3945
             }
+        },
+        "secondRound": {
+            "registered": 82551,
+            "voted": 61119,
+            "whites": 4116,
+            "expressed": 55517,
+            "void": 1486,
+            "candidates": {
+                "Emmanuel Macron": 33008,
+                "Marine Le Pen": 22509
+            }
         }
+    },
+    "current": {
+        "id": "719942",
+        "lastname": "Baudu",
+        "firstname": "Stéphane",
+        "slug": "stephane-baudu",
+        "gender": "H",
+        "birthday": "1965-05-01",
+        "birthplace": "Blois (Loir-et-Cher)",
+        "county": "Loir-et-Cher",
+        "countyId": "41",
+        "circumscription": 1,
+        "mandateStart": "2018-11-17",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Chargé d'affaire en informatique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 100,
+            "reports": 2,
+            "proposals": 3,
+            "proposalsSupported": 33,
+            "amendments": 111,
+            "amendmentsSupported": 2382,
+            "amendmentsAdopted": 515,
+            "commissionsAttended": 160,
+            "commissionInterventions": 100,
+            "hemicycleInterventions": 86,
+            "hemicycleShortInterventions": 56,
+            "questionsWritten": 7,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Reda",
             "lastname": "Belkadi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 1
         },
         {
             "firstname": "Malik",
             "lastname": "Benakcha",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Chassier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 1
         },
         {
-            "id": "719938",
-            "lastname": "Fesneau",
             "firstname": "Marc",
-            "slug": "marc-fesneau",
+            "lastname": "Fesneau",
             "gender": "H",
-            "birthday": "1971-01-11",
-            "birthplace": "Paris 15ème (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 41,
             "county": "Loir-et-Cher",
-            "countyId": "41",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Directeur d'un institut de formation",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 52,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 13,
-                "amendments": 65,
-                "amendmentsSupported": 809,
-                "amendmentsAdopted": 168,
-                "commissionsAttended": 64,
-                "commissionInterventions": 226,
-                "hemicycleInterventions": 464,
-                "hemicycleShortInterventions": 242,
-                "questionsWritten": 3,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Alain",
             "lastname": "Lombard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 1
         },
         {
             "firstname": "Fabienne",
             "lastname": "Pomi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 1
         }
     ]
 }

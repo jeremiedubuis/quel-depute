@@ -4,11 +4,11 @@
     "name": "Rhône",
     "results": {
         "firstRound": {
-            "registered": 96068,
+            "registered": 96067,
             "voted": 76319,
-            "whites": 1193,
+            "whites": 1226,
             "expressed": 74696,
-            "void": 430,
+            "void": 397,
             "candidates": {
                 "Nathalie Arthaud": 359,
                 "Fabien Roussel": 1554,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1663,
                 "Eric Zemmour": 6101
             }
+        },
+        "secondRound": {
+            "registered": 96107,
+            "voted": 72269,
+            "whites": 4374,
+            "expressed": 66639,
+            "void": 1256,
+            "candidates": {
+                "Emmanuel Macron": 39004,
+                "Marine Le Pen": 27635
+            }
         }
+    },
+    "current": {
+        "id": "722366",
+        "lastname": "Fugit",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-fugit",
+        "gender": "H",
+        "birthday": "1969-11-27",
+        "birthplace": "Rodez (Aveyron)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur de faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 9,
+            "proposals": 1,
+            "proposalsSupported": 77,
+            "amendments": 305,
+            "amendmentsSupported": 3487,
+            "amendmentsAdopted": 1416,
+            "commissionsAttended": 307,
+            "commissionInterventions": 632,
+            "hemicycleInterventions": 404,
+            "hemicycleShortInterventions": 115,
+            "questionsWritten": 26,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Isabelle",
             "lastname": "Browning",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Michel",
             "lastname": "Dulac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         },
         {
-            "id": "722366",
-            "lastname": "Fugit",
             "firstname": "Jean-Luc",
-            "slug": "jeanluc-fugit",
+            "lastname": "Fugit",
             "gender": "H",
-            "birthday": "1969-11-27",
-            "birthplace": "Rodez (Aveyron)",
-            "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur de faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 9,
-                "proposals": 1,
-                "proposalsSupported": 77,
-                "amendments": 305,
-                "amendmentsSupported": 3487,
-                "amendmentsAdopted": 1416,
-                "commissionsAttended": 307,
-                "commissionInterventions": 632,
-                "hemicycleInterventions": 404,
-                "hemicycleShortInterventions": 115,
-                "questionsWritten": 26,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Alexis",
             "lastname": "Martinon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Paul",
             "lastname": "Vidal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Abdel",
             "lastname": "Yousfi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 11
         }
     ]
 }

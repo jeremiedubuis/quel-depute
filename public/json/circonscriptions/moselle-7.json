@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1588,
                 "Eric Zemmour": 5104
             }
+        },
+        "secondRound": {
+            "registered": 89320,
+            "voted": 65215,
+            "whites": 3522,
+            "expressed": 60627,
+            "void": 1066,
+            "candidates": {
+                "Emmanuel Macron": 25609,
+                "Marine Le Pen": 35018
+            }
         }
+    },
+    "current": {
+        "id": "720318",
+        "lastname": "Zannier",
+        "firstname": "Hélène",
+        "slug": "helene-zannier",
+        "gender": "F",
+        "birthday": "1972-09-19",
+        "birthplace": "Saint-Avold (Moselle)",
+        "county": "Moselle",
+        "countyId": "57",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 139,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 85,
+            "amendments": 65,
+            "amendmentsSupported": 2433,
+            "amendmentsAdopted": 1277,
+            "commissionsAttended": 205,
+            "commissionInterventions": 81,
+            "hemicycleInterventions": 143,
+            "hemicycleShortInterventions": 54,
+            "questionsWritten": 47,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Diane",
             "lastname": "Bousset",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 7
         },
         {
             "firstname": "Clément",
             "lastname": "Galante",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 7
         },
         {
             "firstname": "Alexandre",
             "lastname": "Loubet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 7
         },
         {
             "firstname": "Luc",
             "lastname": "Muller",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 7
         },
         {
-            "id": "720318",
-            "lastname": "Zannier",
             "firstname": "Hélène",
-            "slug": "helene-zannier",
+            "lastname": "Zannier",
             "gender": "F",
-            "birthday": "1972-09-19",
-            "birthplace": "Saint-Avold (Moselle)",
-            "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 139,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 85,
-                "amendments": 65,
-                "amendmentsSupported": 2433,
-                "amendmentsAdopted": 1277,
-                "commissionsAttended": 205,
-                "commissionInterventions": 81,
-                "hemicycleInterventions": 143,
-                "hemicycleShortInterventions": 54,
-                "questionsWritten": 47,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 7
         }
     ]
 }

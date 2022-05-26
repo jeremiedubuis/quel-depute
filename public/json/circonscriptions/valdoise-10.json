@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 781,
                 "Eric Zemmour": 2363
             }
+        },
+        "secondRound": {
+            "registered": 67586,
+            "voted": 45096,
+            "whites": 3234,
+            "expressed": 41168,
+            "void": 694,
+            "candidates": {
+                "Emmanuel Macron": 28941,
+                "Marine Le Pen": 12227
+            }
         }
+    },
+    "current": {
+        "id": "720952",
+        "lastname": "Taché",
+        "firstname": "Aurélien",
+        "slug": "aurelien-tache",
+        "gender": "H",
+        "birthday": "1984-05-26",
+        "birthplace": "Niort (Deux-Sèvres)",
+        "county": "Val-d'Oise",
+        "countyId": "95",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 97,
+            "reports": 3,
+            "proposals": 3,
+            "proposalsSupported": 91,
+            "amendments": 625,
+            "amendmentsSupported": 3809,
+            "amendmentsAdopted": 725,
+            "commissionsAttended": 100,
+            "commissionInterventions": 189,
+            "hemicycleInterventions": 261,
+            "hemicycleShortInterventions": 49,
+            "questionsWritten": 23,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Augustin",
             "lastname": "Belloc",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
             "firstname": "Richard",
             "lastname": "Durand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
             "firstname": "Christophe",
             "lastname": "Flaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
             "firstname": "Patricia",
             "lastname": "José",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
             "firstname": "Victorien",
             "lastname": "Lachas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
             "firstname": "Evelyne",
             "lastname": "Ollivier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 10
         },
         {
-            "id": "720952",
-            "lastname": "Taché",
             "firstname": "Aurélien",
-            "slug": "aurelien-tache",
+            "lastname": "Taché",
             "gender": "H",
-            "birthday": "1984-05-26",
-            "birthplace": "Niort (Deux-Sèvres)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Nouveaux démocrates",
+            "groupShort": "ND",
+            "countyId": 95,
             "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "NI",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 97,
-                "reports": 3,
-                "proposals": 3,
-                "proposalsSupported": 91,
-                "amendments": 625,
-                "amendmentsSupported": 3809,
-                "amendmentsAdopted": 725,
-                "commissionsAttended": 100,
-                "commissionInterventions": 189,
-                "hemicycleInterventions": 261,
-                "hemicycleShortInterventions": 49,
-                "questionsWritten": 23,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 10
         }
     ]
 }

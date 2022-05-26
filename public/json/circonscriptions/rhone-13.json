@@ -4,9 +4,9 @@
     "name": "Rhône",
     "results": {
         "firstRound": {
-            "registered": 88157,
-            "voted": 67421,
-            "whites": 966,
+            "registered": 88159,
+            "voted": 67422,
+            "whites": 967,
             "expressed": 66145,
             "void": 310,
             "candidates": {
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1238,
                 "Eric Zemmour": 6109
             }
+        },
+        "secondRound": {
+            "registered": 88196,
+            "voted": 63769,
+            "whites": 3284,
+            "expressed": 59490,
+            "void": 995,
+            "candidates": {
+                "Emmanuel Macron": 35197,
+                "Marine Le Pen": 24293
+            }
         }
+    },
+    "current": {
+        "id": "721352",
+        "lastname": "Cazarian",
+        "firstname": "Danièle",
+        "slug": "daniele-cazarian",
+        "gender": "F",
+        "birthday": "1965-08-31",
+        "birthplace": "Lyon 7ème (Rhône)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 13,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Administratrice de sociétés",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 136,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 85,
+            "amendments": 23,
+            "amendmentsSupported": 2621,
+            "amendmentsAdopted": 1093,
+            "commissionsAttended": 191,
+            "commissionInterventions": 141,
+            "hemicycleInterventions": 24,
+            "hemicycleShortInterventions": 5,
+            "questionsWritten": 68,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gilles",
             "lastname": "Gascon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 13
         },
         {
             "firstname": "Alain",
             "lastname": "Pechereau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 13
         },
         {
             "firstname": "Michel",
             "lastname": "Piot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 13
         },
         {
             "firstname": "Victor",
             "lastname": "Prandt",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Révolution Ecologique pour le Vivant",
             "groupShort": "REV",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 13
         },
         {
             "firstname": "Sarah",
             "lastname": "Tanzilli",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 13
         }
     ]
 }

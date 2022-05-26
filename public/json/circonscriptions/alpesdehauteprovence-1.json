@@ -4,11 +4,11 @@
     "name": "Alpes-de-Haute-Provence",
     "results": {
         "firstRound": {
-            "registered": 61691,
+            "registered": 61692,
             "voted": 47942,
-            "whites": 669,
-            "expressed": 46935,
-            "void": 338,
+            "whites": 691,
+            "expressed": 46936,
+            "void": 315,
             "candidates": {
                 "Nathalie Arthaud": 275,
                 "Fabien Roussel": 1374,
@@ -21,86 +21,129 @@
                 "Valérie Pécresse": 1787,
                 "Phillipe Poutou": 439,
                 "Nicolas Dupont-Aignan": 1205,
-                "Eric Zemmour": 4019
+                "Eric Zemmour": 4020
+            }
+        },
+        "secondRound": {
+            "registered": 61687,
+            "voted": 46784,
+            "whites": 3798,
+            "expressed": 41596,
+            "void": 1390,
+            "candidates": {
+                "Emmanuel Macron": 19262,
+                "Marine Le Pen": 22334
             }
         }
+    },
+    "current": {
+        "id": "718744",
+        "lastname": "Bagarry",
+        "firstname": "Delphine",
+        "slug": "delphine-bagarry",
+        "gender": "F",
+        "birthday": "1970-01-09",
+        "birthplace": "Lyon (Rhône)",
+        "county": "Alpes-de-Haute-Provence",
+        "countyId": "04",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 2,
+            "proposals": 4,
+            "proposalsSupported": 115,
+            "amendments": 420,
+            "amendmentsSupported": 6787,
+            "amendmentsAdopted": 914,
+            "commissionsAttended": 298,
+            "commissionInterventions": 255,
+            "hemicycleInterventions": 292,
+            "hemicycleShortInterventions": 36,
+            "questionsWritten": 49,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Paul",
             "lastname": "Audan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 1
         },
         {
-            "id": "718744",
-            "lastname": "Bagarry",
             "firstname": "Delphine",
-            "slug": "delphine-bagarry",
+            "lastname": "Bagarry",
             "gender": "F",
-            "birthday": "1970-01-09",
-            "birthplace": "Lyon (Rhône)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Nouveaux démocrates",
+            "groupShort": "ND",
+            "countyId": 4,
             "county": "Alpes-de-Haute-Provence",
-            "countyId": "04",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "NI",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 2,
-                "proposals": 4,
-                "proposalsSupported": 115,
-                "amendments": 420,
-                "amendmentsSupported": 6787,
-                "amendmentsAdopted": 914,
-                "commissionsAttended": 298,
-                "commissionInterventions": 255,
-                "hemicycleInterventions": 292,
-                "hemicycleShortInterventions": 36,
-                "questionsWritten": 49,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Christian",
             "lastname": "Girard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 1
         },
         {
             "firstname": "Sandra",
             "lastname": "Raponi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 1
         },
         {
             "firstname": "Pascal",
             "lastname": "Recotillet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 1
         },
         {
             "firstname": "Annabel",
             "lastname": "Ros",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 1
         }
     ]
 }

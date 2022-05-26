@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1185,
                 "Eric Zemmour": 3698
             }
+        },
+        "secondRound": {
+            "registered": 71129,
+            "voted": 52187,
+            "whites": 4166,
+            "expressed": 47119,
+            "void": 902,
+            "candidates": {
+                "Emmanuel Macron": 26458,
+                "Marine Le Pen": 20661
+            }
         }
+    },
+    "current": {
+        "id": "719118",
+        "lastname": "Cormier-Bouligeon",
+        "firstname": "François",
+        "slug": "francois-cormierbouligeon",
+        "gender": "H",
+        "birthday": "1972-11-19",
+        "birthplace": "Bourges (Cher)",
+        "county": "Cher",
+        "countyId": "18",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Conseiller ministériel",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 80,
+            "amendments": 167,
+            "amendmentsSupported": 2629,
+            "amendmentsAdopted": 1090,
+            "commissionsAttended": 205,
+            "commissionInterventions": 150,
+            "hemicycleInterventions": 128,
+            "hemicycleShortInterventions": 298,
+            "questionsWritten": 36,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julie",
             "lastname": "Apricena",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 1
         },
         {
             "firstname": "Sylvie",
             "lastname": "Cerveau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 1
         },
         {
-            "id": "719118",
-            "lastname": "Cormier-Bouligeon",
             "firstname": "François",
-            "slug": "francois-cormierbouligeon",
+            "lastname": "Cormier-Bouligeon",
             "gender": "H",
-            "birthday": "1972-11-19",
-            "birthplace": "Bourges (Cher)",
-            "county": "Cher",
-            "countyId": "18",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Conseiller ministériel",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 166,
-                "reports": 0,
-                "proposals": 2,
-                "proposalsSupported": 80,
-                "amendments": 167,
-                "amendmentsSupported": 2629,
-                "amendmentsAdopted": 1090,
-                "commissionsAttended": 205,
-                "commissionInterventions": 150,
-                "hemicycleInterventions": 128,
-                "hemicycleShortInterventions": 298,
-                "questionsWritten": 36,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 1
         },
         {
             "firstname": "David",
             "lastname": "Dallois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 1
         }
     ]
 }

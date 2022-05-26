@@ -6,93 +6,132 @@
         "firstRound": {
             "registered": 55574,
             "voted": 42917,
-            "whites": 797,
-            "expressed": 41818,
-            "void": 302,
+            "whites": 812,
+            "expressed": 41820,
+            "void": 285,
             "candidates": {
                 "Nathalie Arthaud": 284,
                 "Fabien Roussel": 800,
-                "Emmanuel Macron": 10359,
+                "Emmanuel Macron": 10360,
                 "Jean Lasalle": 2107,
                 "Marine Le Pen": 10020,
                 "Jean-Luc Mélenchon": 8605,
                 "Anne Hidalgo": 716,
                 "Yannick Jadot": 1999,
                 "Valérie Pécresse": 2213,
-                "Phillipe Poutou": 410,
+                "Phillipe Poutou": 411,
                 "Nicolas Dupont-Aignan": 1411,
                 "Eric Zemmour": 2894
             }
+        },
+        "secondRound": {
+            "registered": 55597,
+            "voted": 41715,
+            "whites": 3196,
+            "expressed": 37463,
+            "void": 1056,
+            "candidates": {
+                "Emmanuel Macron": 20826,
+                "Marine Le Pen": 16637
+            }
         }
+    },
+    "current": {
+        "id": "332523",
+        "lastname": "Dalloz",
+        "firstname": "Marie-Christine",
+        "slug": "mariechristine-dalloz",
+        "gender": "F",
+        "birthday": "1958-01-10",
+        "birthplace": "Saint-Claude (Jura)",
+        "county": "Jura",
+        "countyId": "39",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 9,
+            "proposals": 6,
+            "proposalsSupported": 414,
+            "amendments": 1999,
+            "amendmentsSupported": 13070,
+            "amendmentsAdopted": 388,
+            "commissionsAttended": 356,
+            "commissionInterventions": 899,
+            "hemicycleInterventions": 1264,
+            "hemicycleShortInterventions": 1551,
+            "questionsWritten": 160,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "332523",
-            "lastname": "Dalloz",
             "firstname": "Marie-Christine",
-            "slug": "mariechristine-dalloz",
+            "lastname": "Dalloz",
             "gender": "F",
-            "birthday": "1958-01-10",
-            "birthplace": "Saint-Claude (Jura)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 39,
             "county": "Jura",
-            "countyId": "39",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Autre profession",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 166,
-                "reports": 9,
-                "proposals": 6,
-                "proposalsSupported": 414,
-                "amendments": 1999,
-                "amendmentsSupported": 13070,
-                "amendmentsAdopted": 388,
-                "commissionsAttended": 356,
-                "commissionInterventions": 899,
-                "hemicycleInterventions": 1264,
-                "hemicycleShortInterventions": 1551,
-                "questionsWritten": 160,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Delphine",
             "lastname": "Gallois",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 2
         },
         {
             "firstname": "Garance",
             "lastname": "Houthoofd",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 2
         },
         {
             "firstname": "Christian",
             "lastname": "Marchet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 2
         },
         {
             "firstname": "Evelyne",
             "lastname": "Ternant",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 2
         }
     ]
 }

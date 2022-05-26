@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1384,
                 "Eric Zemmour": 3175
             }
+        },
+        "secondRound": {
+            "registered": 71158,
+            "voted": 52923,
+            "whites": 3265,
+            "expressed": 48414,
+            "void": 1244,
+            "candidates": {
+                "Emmanuel Macron": 25279,
+                "Marine Le Pen": 23135
+            }
         }
+    },
+    "current": {
+        "id": "331567",
+        "lastname": "La Raudière (de)",
+        "firstname": "Laure",
+        "slug": "laure-de-la-raudiere",
+        "gender": "F",
+        "birthday": "1965-02-12",
+        "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+        "county": "Eure-et-Loir",
+        "countyId": "28",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "AE",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 124,
+            "reports": 5,
+            "proposals": 10,
+            "proposalsSupported": 88,
+            "amendments": 570,
+            "amendmentsSupported": 5027,
+            "amendmentsAdopted": 295,
+            "commissionsAttended": 224,
+            "commissionInterventions": 605,
+            "hemicycleInterventions": 472,
+            "hemicycleShortInterventions": 337,
+            "questionsWritten": 85,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Claire",
             "lastname": "Barbier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 3
         },
         {
             "firstname": "Vincent",
             "lastname": "Chevrollier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 3
         },
         {
             "firstname": "Valéria",
             "lastname": "Dos Santos Orfila",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Révolution Ecologique pour le Vivant",
             "groupShort": "REV",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 3
         },
         {
             "firstname": "Régine",
             "lastname": "Flaunet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 3
         },
         {
-            "id": "719382",
-            "lastname": "Lamirault",
             "firstname": "Luc",
-            "slug": "luc-lamirault",
+            "lastname": "Lamirault",
             "gender": "H",
-            "birthday": "1962-05-12",
-            "birthplace": "nc",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons,LRM",
+            "groupShort": "Horizons,LRM",
+            "countyId": 28,
             "county": "Eure-et-Loir",
-            "countyId": "28",
-            "circumscription": 3,
-            "mandateStart": "2021-01-22",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 39,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 38,
-                "amendments": 81,
-                "amendmentsSupported": 1119,
-                "amendmentsAdopted": 158,
-                "commissionsAttended": 56,
-                "commissionInterventions": 47,
-                "hemicycleInterventions": 41,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 5,
-                "questionsOral": 1
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         }
     ]
 }

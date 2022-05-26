@@ -7,100 +7,143 @@
             "registered": 91213,
             "voted": 73051,
             "whites": 1049,
-            "expressed": 71693,
-            "void": 309,
+            "expressed": 71697,
+            "void": 305,
             "candidates": {
                 "Nathalie Arthaud": 261,
                 "Fabien Roussel": 1327,
-                "Emmanuel Macron": 23584,
+                "Emmanuel Macron": 23587,
                 "Jean Lasalle": 1647,
                 "Marine Le Pen": 11605,
-                "Jean-Luc Mélenchon": 13686,
+                "Jean-Luc Mélenchon": 13688,
                 "Anne Hidalgo": 947,
                 "Yannick Jadot": 4169,
-                "Valérie Pécresse": 5759,
+                "Valérie Pécresse": 5758,
                 "Phillipe Poutou": 442,
                 "Nicolas Dupont-Aignan": 1610,
                 "Eric Zemmour": 6656
             }
+        },
+        "secondRound": {
+            "registered": 91238,
+            "voted": 69902,
+            "whites": 4365,
+            "expressed": 64387,
+            "void": 1150,
+            "candidates": {
+                "Emmanuel Macron": 43139,
+                "Marine Le Pen": 21248
+            }
         }
+    },
+    "current": {
+        "id": "722046",
+        "lastname": "Bergé",
+        "firstname": "Aurore",
+        "slug": "aurore-berge",
+        "gender": "F",
+        "birthday": "1986-11-13",
+        "birthplace": "Paris (Paris)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 16,
+            "proposals": 1,
+            "proposalsSupported": 76,
+            "amendments": 622,
+            "amendmentsSupported": 2791,
+            "amendmentsAdopted": 1458,
+            "commissionsAttended": 272,
+            "commissionInterventions": 1011,
+            "hemicycleInterventions": 779,
+            "hemicycleShortInterventions": 272,
+            "questionsWritten": 39,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722046",
-            "lastname": "Bergé",
             "firstname": "Aurore",
-            "slug": "aurore-berge",
+            "lastname": "Bergé",
             "gender": "F",
-            "birthday": "1986-11-13",
-            "birthplace": "Paris (Paris)",
-            "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 16,
-                "proposals": 1,
-                "proposalsSupported": 76,
-                "amendments": 622,
-                "amendmentsSupported": 2791,
-                "amendmentsAdopted": 1458,
-                "commissionsAttended": 272,
-                "commissionInterventions": 1011,
-                "hemicycleInterventions": 779,
-                "hemicycleShortInterventions": 272,
-                "questionsWritten": 39,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         },
         {
             "firstname": "Sylvie",
             "lastname": "Bogaers",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         },
         {
             "firstname": "Cédric",
             "lastname": "Briolais",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         },
         {
             "firstname": "Anne",
             "lastname": "Cabrit",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         },
         {
             "firstname": "Thomas",
             "lastname": "du Chalard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         },
         {
             "firstname": "Marielle",
             "lastname": "Saulnier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 10
         }
     ]
 }

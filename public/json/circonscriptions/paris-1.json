@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 97799,
             "voted": 78367,
-            "whites": 895,
-            "expressed": 77050,
-            "void": 422,
+            "whites": 898,
+            "expressed": 77053,
+            "void": 416,
             "candidates": {
                 "Nathalie Arthaud": 183,
                 "Fabien Roussel": 872,
                 "Emmanuel Macron": 31799,
                 "Jean Lasalle": 943,
                 "Marine Le Pen": 5258,
-                "Jean-Luc Mélenchon": 17781,
+                "Jean-Luc Mélenchon": 17783,
                 "Anne Hidalgo": 1351,
                 "Yannick Jadot": 5286,
                 "Valérie Pécresse": 5556,
                 "Phillipe Poutou": 389,
                 "Nicolas Dupont-Aignan": 602,
-                "Eric Zemmour": 7030
+                "Eric Zemmour": 7031
+            }
+        },
+        "secondRound": {
+            "registered": 97845,
+            "voted": 75545,
+            "whites": 3182,
+            "expressed": 71529,
+            "void": 834,
+            "candidates": {
+                "Emmanuel Macron": 59970,
+                "Marine Le Pen": 11559
             }
         }
+    },
+    "current": {
+        "id": "717379",
+        "lastname": "Maillard",
+        "firstname": "Sylvain",
+        "slug": "sylvain-maillard",
+        "gender": "H",
+        "birthday": "1974-04-28",
+        "birthplace": "saint maur des fossés (Val-de-Marne)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 182,
+            "reports": 2,
+            "proposals": 3,
+            "proposalsSupported": 73,
+            "amendments": 238,
+            "amendmentsSupported": 2337,
+            "amendmentsAdopted": 1328,
+            "commissionsAttended": 237,
+            "commissionInterventions": 223,
+            "hemicycleInterventions": 236,
+            "hemicycleShortInterventions": 1708,
+            "questionsWritten": 27,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Vincent",
             "lastname": "Baladi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         },
         {
             "firstname": "Laurence",
             "lastname": "Boulinier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         },
         {
             "firstname": "Morgane",
             "lastname": "Chedhomme",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         },
         {
             "firstname": "Liliane",
             "lastname": "Delwasse",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         },
         {
             "firstname": "Thomas",
             "lastname": "Luquet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         },
         {
-            "id": "717379",
-            "lastname": "Maillard",
             "firstname": "Sylvain",
-            "slug": "sylvain-maillard",
+            "lastname": "Maillard",
             "gender": "H",
-            "birthday": "1974-04-28",
-            "birthplace": "saint maur des fossés (Val-de-Marne)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 182,
-                "reports": 2,
-                "proposals": 3,
-                "proposalsSupported": 73,
-                "amendments": 238,
-                "amendmentsSupported": 2337,
-                "amendmentsAdopted": 1328,
-                "commissionsAttended": 237,
-                "commissionInterventions": 223,
-                "hemicycleInterventions": 236,
-                "hemicycleShortInterventions": 1708,
-                "questionsWritten": 27,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 1
         }
     ]
 }

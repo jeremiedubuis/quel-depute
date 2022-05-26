@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 797,
                 "Eric Zemmour": 2718
             }
+        },
+        "secondRound": {
+            "registered": 62900,
+            "voted": 48915,
+            "whites": 3750,
+            "expressed": 43532,
+            "void": 1633,
+            "candidates": {
+                "Emmanuel Macron": 25778,
+                "Marine Le Pen": 17754
+            }
         }
+    },
+    "current": {
+        "id": "330909",
+        "lastname": "Descoeur",
+        "firstname": "Vincent",
+        "slug": "vincent-descoeur",
+        "gender": "H",
+        "birthday": "1962-12-13",
+        "birthplace": "Aurillac (Cantal)",
+        "county": "Cantal",
+        "countyId": "15",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Professeur agrégé de biologie",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 5,
+            "proposals": 7,
+            "proposalsSupported": 334,
+            "amendments": 3271,
+            "amendmentsSupported": 14069,
+            "amendmentsAdopted": 366,
+            "commissionsAttended": 314,
+            "commissionInterventions": 812,
+            "hemicycleInterventions": 918,
+            "hemicycleShortInterventions": 1304,
+            "questionsWritten": 178,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Rémy",
             "lastname": "Dauvillier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 1
         },
         {
-            "id": "330909",
-            "lastname": "Descoeur",
             "firstname": "Vincent",
-            "slug": "vincent-descoeur",
+            "lastname": "Descoeur",
             "gender": "H",
-            "birthday": "1962-12-13",
-            "birthplace": "Aurillac (Cantal)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 15,
             "county": "Cantal",
-            "countyId": "15",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Professeur agrégé de biologie",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 5,
-                "proposals": 7,
-                "proposalsSupported": 334,
-                "amendments": 3271,
-                "amendmentsSupported": 14069,
-                "amendmentsAdopted": 366,
-                "commissionsAttended": 314,
-                "commissionInterventions": 812,
-                "hemicycleInterventions": 918,
-                "hemicycleShortInterventions": 1304,
-                "questionsWritten": 178,
-                "questionsOral": 15
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Dorothée",
             "lastname": "Gallais",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Maciazek",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Teyssedou",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 1
         }
     ]
 }

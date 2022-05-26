@@ -7,64 +7,131 @@
             "registered": 66252,
             "voted": 48115,
             "whites": 710,
-            "expressed": 47025,
-            "void": 380,
+            "expressed": 47033,
+            "void": 372,
             "candidates": {
                 "Nathalie Arthaud": 286,
                 "Fabien Roussel": 1088,
-                "Emmanuel Macron": 11705,
+                "Emmanuel Macron": 11706,
                 "Jean Lasalle": 1114,
-                "Marine Le Pen": 14239,
+                "Marine Le Pen": 14244,
                 "Jean-Luc Mélenchon": 8833,
                 "Anne Hidalgo": 591,
                 "Yannick Jadot": 1480,
-                "Valérie Pécresse": 2645,
-                "Phillipe Poutou": 368,
+                "Valérie Pécresse": 2646,
+                "Phillipe Poutou": 369,
                 "Nicolas Dupont-Aignan": 1195,
                 "Eric Zemmour": 3481
             }
+        },
+        "secondRound": {
+            "registered": 66266,
+            "voted": 47784,
+            "whites": 2728,
+            "expressed": 43997,
+            "void": 1059,
+            "candidates": {
+                "Emmanuel Macron": 22441,
+                "Marine Le Pen": 21556
+            }
         }
+    },
+    "current": {
+        "id": "2155",
+        "lastname": "Menuel",
+        "firstname": "Gérard",
+        "slug": "gerard-menuel",
+        "gender": "H",
+        "birthday": "1952-05-07",
+        "birthplace": "Jasseines (Aube)",
+        "county": "Aube",
+        "countyId": "10",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 3,
+            "proposals": 2,
+            "proposalsSupported": 215,
+            "amendments": 265,
+            "amendmentsSupported": 9494,
+            "amendmentsAdopted": 260,
+            "commissionsAttended": 266,
+            "commissionInterventions": 236,
+            "hemicycleInterventions": 132,
+            "hemicycleShortInterventions": 108,
+            "questionsWritten": 81,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascal",
             "lastname": "Andrieux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 3
         },
         {
             "firstname": "Laëtitia",
             "lastname": "Beury-Carougeat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 3
         },
         {
             "firstname": "Baptiste",
             "lastname": "Gatouillat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 3
         },
         {
             "firstname": "Angélique",
             "lastname": "Ranc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 3
         },
         {
             "firstname": "Gaetan",
             "lastname": "Seffals",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 3
         }
     ]
 }

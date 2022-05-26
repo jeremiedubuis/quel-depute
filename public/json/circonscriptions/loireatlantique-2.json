@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 766,
                 "Eric Zemmour": 4527
             }
+        },
+        "secondRound": {
+            "registered": 90746,
+            "voted": 65894,
+            "whites": 4479,
+            "expressed": 60333,
+            "void": 1082,
+            "candidates": {
+                "Emmanuel Macron": 49793,
+                "Marine Le Pen": 10540
+            }
         }
+    },
+    "current": {
+        "id": "720108",
+        "lastname": "Oppelt",
+        "firstname": "Valérie",
+        "slug": "valerie-oppelt",
+        "gender": "F",
+        "birthday": "1973-12-10",
+        "birthplace": "Nantes (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": "44",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Administrateur de sociétés",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 65,
+            "amendments": 97,
+            "amendmentsSupported": 2397,
+            "amendmentsAdopted": 1303,
+            "commissionsAttended": 242,
+            "commissionInterventions": 85,
+            "hemicycleInterventions": 37,
+            "hemicycleShortInterventions": 7,
+            "questionsWritten": 68,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nicolas",
             "lastname": "Bazille",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
             "firstname": "Foulques",
             "lastname": "Chombart de Lauwe",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
             "firstname": "Nicolas",
             "lastname": "Gasnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
             "firstname": "Andy",
             "lastname": "Kerbrat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
             "firstname": "Sébastien",
             "lastname": "Milbeo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
-            "id": "720108",
-            "lastname": "Oppelt",
             "firstname": "Valérie",
-            "slug": "valerie-oppelt",
+            "lastname": "Oppelt",
             "gender": "F",
-            "birthday": "1973-12-10",
-            "birthplace": "Nantes (Loire-Atlantique)",
-            "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Administrateur de sociétés",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 65,
-                "amendments": 97,
-                "amendmentsSupported": 2397,
-                "amendmentsAdopted": 1303,
-                "commissionsAttended": 242,
-                "commissionInterventions": 85,
-                "hemicycleInterventions": 37,
-                "hemicycleShortInterventions": 7,
-                "questionsWritten": 68,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         },
         {
             "firstname": "Elisa",
             "lastname": "Priollaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 2
         }
     ]
 }

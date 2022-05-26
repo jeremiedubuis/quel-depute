@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 2130,
                 "Eric Zemmour": 5291
             }
+        },
+        "secondRound": {
+            "registered": 94012,
+            "voted": 66489,
+            "whites": 3812,
+            "expressed": 61815,
+            "void": 862,
+            "candidates": {
+                "Emmanuel Macron": 32635,
+                "Marine Le Pen": 29180
+            }
         }
+    },
+    "current": {
+        "id": "722284",
+        "lastname": "Fuchs",
+        "firstname": "Bruno",
+        "slug": "bruno-fuchs",
+        "gender": "H",
+        "birthday": "1959-04-07",
+        "birthplace": "Colmar (Haut-Rhin)",
+        "county": "Haut-Rhin",
+        "countyId": "68",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 8,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 482,
+            "amendmentsSupported": 4242,
+            "amendmentsAdopted": 772,
+            "commissionsAttended": 333,
+            "commissionInterventions": 466,
+            "hemicycleInterventions": 492,
+            "hemicycleShortInterventions": 122,
+            "questionsWritten": 83,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dimitri",
             "lastname": "Breiner",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 6
         },
         {
-            "id": "722284",
-            "lastname": "Fuchs",
             "firstname": "Bruno",
-            "slug": "bruno-fuchs",
+            "lastname": "Fuchs",
             "gender": "H",
-            "birthday": "1959-04-07",
-            "birthplace": "Colmar (Haut-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 68,
             "county": "Haut-Rhin",
-            "countyId": "68",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 177,
-                "reports": 8,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 482,
-                "amendmentsSupported": 4242,
-                "amendmentsAdopted": 772,
-                "commissionsAttended": 333,
-                "commissionInterventions": 466,
-                "hemicycleInterventions": 492,
-                "hemicycleShortInterventions": 122,
-                "questionsWritten": 83,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Léonie",
             "lastname": "Hebert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 6
         },
         {
             "firstname": "Nathalie",
             "lastname": "Mulot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 6
         },
         {
             "firstname": "Christelle",
             "lastname": "Ritz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 6
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 101647,
             "voted": 78319,
-            "whites": 1013,
-            "expressed": 76626,
-            "void": 680,
+            "whites": 1014,
+            "expressed": 76627,
+            "void": 678,
             "candidates": {
                 "Nathalie Arthaud": 375,
                 "Fabien Roussel": 2028,
@@ -16,83 +16,122 @@
                 "Jean Lasalle": 3625,
                 "Marine Le Pen": 24672,
                 "Jean-Luc Mélenchon": 14006,
-                "Anne Hidalgo": 1505,
+                "Anne Hidalgo": 1506,
                 "Yannick Jadot": 2591,
                 "Valérie Pécresse": 2515,
                 "Phillipe Poutou": 639,
                 "Nicolas Dupont-Aignan": 1624,
                 "Eric Zemmour": 6990
             }
+        },
+        "secondRound": {
+            "registered": 101676,
+            "voted": 76509,
+            "whites": 5078,
+            "expressed": 69225,
+            "void": 2206,
+            "candidates": {
+                "Emmanuel Macron": 29983,
+                "Marine Le Pen": 39242
+            }
         }
+    },
+    "current": {
+        "id": "720814",
+        "lastname": "Cazenove",
+        "firstname": "Sébastien",
+        "slug": "sebastien-cazenove",
+        "gender": "H",
+        "birthday": "1976-12-28",
+        "birthplace": "Perpignan (Pyrénées-Orientales)",
+        "county": "Pyrénées-Orientales",
+        "countyId": "66",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 145,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 75,
+            "amendments": 260,
+            "amendmentsSupported": 3267,
+            "amendmentsAdopted": 1154,
+            "commissionsAttended": 204,
+            "commissionInterventions": 69,
+            "hemicycleInterventions": 22,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 203,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720814",
-            "lastname": "Cazenove",
             "firstname": "Sébastien",
-            "slug": "sebastien-cazenove",
+            "lastname": "Cazenove",
             "gender": "H",
-            "birthday": "1976-12-28",
-            "birthplace": "Perpignan (Pyrénées-Orientales)",
-            "county": "Pyrénées-Orientales",
-            "countyId": "66",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 145,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 75,
-                "amendments": 260,
-                "amendmentsSupported": 3267,
-                "amendmentsAdopted": 1154,
-                "commissionsAttended": 204,
-                "commissionInterventions": 69,
-                "hemicycleInterventions": 22,
-                "hemicycleShortInterventions": 4,
-                "questionsWritten": 203,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 4
         },
         {
             "firstname": "Bruno",
             "lastname": "Galan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 4
         },
         {
             "firstname": "Michèle",
             "lastname": "Martinez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 4
         },
         {
             "firstname": "Caroline",
             "lastname": "Poupard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 4
         },
         {
             "firstname": "Jérôme",
             "lastname": "Pous",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 4
         }
     ]
 }

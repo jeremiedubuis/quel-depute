@@ -4,9 +4,9 @@
     "name": "Aude",
     "results": {
         "firstRound": {
-            "registered": 89373,
-            "voted": 70995,
-            "whites": 982,
+            "registered": 89374,
+            "voted": 70994,
+            "whites": 981,
             "expressed": 69472,
             "void": 541,
             "candidates": {
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1567,
                 "Eric Zemmour": 5715
             }
+        },
+        "secondRound": {
+            "registered": 89369,
+            "voted": 69110,
+            "whites": 5465,
+            "expressed": 61158,
+            "void": 2487,
+            "candidates": {
+                "Emmanuel Macron": 28303,
+                "Marine Le Pen": 32855
+            }
         }
+    },
+    "current": {
+        "id": "718810",
+        "lastname": "Robert",
+        "firstname": "Mireille",
+        "slug": "mireille-robert",
+        "gender": "F",
+        "birthday": "1962-03-01",
+        "birthplace": "Orthez (Pyrénées-Atlantiques)",
+        "county": "Aude",
+        "countyId": "11",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Enseignante 1er degré-directrice d'école",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 95,
+            "amendments": 39,
+            "amendmentsSupported": 3248,
+            "amendmentsAdopted": 1393,
+            "commissionsAttended": 256,
+            "commissionInterventions": 99,
+            "hemicycleInterventions": 64,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 65,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Johanna",
             "lastname": "Adda-Netter",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
             "firstname": "Dominique",
             "lastname": "Galonnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
             "firstname": "Frédéric",
             "lastname": "Garrigue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
             "firstname": "Pierre",
             "lastname": "Martinez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
             "firstname": "Julien",
             "lastname": "Rancoule",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
-            "id": "718810",
-            "lastname": "Robert",
             "firstname": "Mireille",
-            "slug": "mireille-robert",
+            "lastname": "Robert",
             "gender": "F",
-            "birthday": "1962-03-01",
-            "birthplace": "Orthez (Pyrénées-Atlantiques)",
-            "county": "Aude",
-            "countyId": "11",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Enseignante 1er degré-directrice d'école",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 152,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 95,
-                "amendments": 39,
-                "amendmentsSupported": 3248,
-                "amendmentsAdopted": 1393,
-                "commissionsAttended": 256,
-                "commissionInterventions": 99,
-                "hemicycleInterventions": 64,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 65,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         },
         {
             "firstname": "Aurélien",
             "lastname": "Turquetto",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 3
         }
     ]
 }

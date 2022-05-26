@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1544,
                 "Eric Zemmour": 3080
             }
+        },
+        "secondRound": {
+            "registered": 65229,
+            "voted": 50460,
+            "whites": 2994,
+            "expressed": 46160,
+            "void": 1306,
+            "candidates": {
+                "Emmanuel Macron": 20095,
+                "Marine Le Pen": 26065
+            }
         }
+    },
+    "current": {
+        "id": "267324",
+        "lastname": "Gaultier",
+        "firstname": "Jean-Jacques",
+        "slug": "jeanjacques-gaultier",
+        "gender": "H",
+        "birthday": "1963-07-13",
+        "birthplace": "Épinal (Vosges)",
+        "county": "Vosges",
+        "countyId": "88",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Médecin biologiste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 0,
+            "proposals": 4,
+            "proposalsSupported": 271,
+            "amendments": 234,
+            "amendmentsSupported": 2727,
+            "amendmentsAdopted": 116,
+            "commissionsAttended": 216,
+            "commissionInterventions": 226,
+            "hemicycleInterventions": 117,
+            "hemicycleShortInterventions": 43,
+            "questionsWritten": 159,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Camille",
             "lastname": "Bailly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 4
         },
         {
-            "id": "267324",
-            "lastname": "Gaultier",
             "firstname": "Jean-Jacques",
-            "slug": "jeanjacques-gaultier",
+            "lastname": "Gaultier",
             "gender": "H",
-            "birthday": "1963-07-13",
-            "birthplace": "Épinal (Vosges)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 88,
             "county": "Vosges",
-            "countyId": "88",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Médecin biologiste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 144,
-                "reports": 0,
-                "proposals": 4,
-                "proposalsSupported": 271,
-                "amendments": 234,
-                "amendmentsSupported": 2727,
-                "amendmentsAdopted": 116,
-                "commissionsAttended": 216,
-                "commissionInterventions": 226,
-                "hemicycleInterventions": 117,
-                "hemicycleShortInterventions": 43,
-                "questionsWritten": 159,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Sébastien",
             "lastname": "Humbert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 4
         },
         {
             "firstname": "Christophe",
             "lastname": "Laurent",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 4
         },
         {
             "firstname": "Thierry",
             "lastname": "Morales",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 4
         },
         {
             "firstname": "François-Xavier",
             "lastname": "Wein",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 4
         }
     ]
 }

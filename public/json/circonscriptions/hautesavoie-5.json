@@ -7,8 +7,8 @@
             "registered": 101119,
             "voted": 76857,
             "whites": 1163,
-            "expressed": 75250,
-            "void": 444,
+            "expressed": 75251,
+            "void": 443,
             "candidates": {
                 "Nathalie Arthaud": 400,
                 "Fabien Roussel": 1147,
@@ -20,59 +20,130 @@
                 "Yannick Jadot": 4857,
                 "Valérie Pécresse": 3669,
                 "Phillipe Poutou": 637,
-                "Nicolas Dupont-Aignan": 2937,
+                "Nicolas Dupont-Aignan": 2938,
                 "Eric Zemmour": 6017
             }
+        },
+        "secondRound": {
+            "registered": 101173,
+            "voted": 74096,
+            "whites": 4820,
+            "expressed": 67923,
+            "void": 1353,
+            "candidates": {
+                "Emmanuel Macron": 40613,
+                "Marine Le Pen": 27310
+            }
         }
+    },
+    "current": {
+        "id": "721450",
+        "lastname": "Lenne",
+        "firstname": "Marion",
+        "slug": "marion-lenne",
+        "gender": "F",
+        "birthday": "1974-11-20",
+        "birthplace": "Gardanne (Bouches-du-Rhône)",
+        "county": "Haute-Savoie",
+        "countyId": "74",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cheffe de projet",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 88,
+            "amendments": 23,
+            "amendmentsSupported": 3361,
+            "amendmentsAdopted": 1101,
+            "commissionsAttended": 281,
+            "commissionInterventions": 180,
+            "hemicycleInterventions": 23,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 42,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Michelle",
             "lastname": "Bally",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         },
         {
             "firstname": "Audrey",
             "lastname": "Capelli",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         },
         {
             "firstname": "Sophie",
             "lastname": "Dion",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         },
         {
             "firstname": "Odile",
             "lastname": "Martin-Cocher",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         },
         {
             "firstname": "Jessica",
             "lastname": "Terreni",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         },
         {
             "firstname": "Anne-Cécile",
             "lastname": "Violland",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 5
         }
     ]
 }

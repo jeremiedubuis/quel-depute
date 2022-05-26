@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 851,
                 "Eric Zemmour": 2320
             }
+        },
+        "secondRound": {
+            "registered": 71929,
+            "voted": 44306,
+            "whites": 3066,
+            "expressed": 40216,
+            "void": 1024,
+            "candidates": {
+                "Emmanuel Macron": 26740,
+                "Marine Le Pen": 13476
+            }
         }
+    },
+    "current": {
+        "id": "760658",
+        "lastname": "Chouat",
+        "firstname": "Francis",
+        "slug": "francis-chouat",
+        "gender": "H",
+        "birthday": "1948-12-20",
+        "birthplace": "Argenteuil (Val-d'Oise)",
+        "county": "Essonne",
+        "countyId": "91",
+        "circumscription": 1,
+        "mandateStart": "2018-11-26",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 117,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 55,
+            "amendments": 64,
+            "amendmentsSupported": 1371,
+            "amendmentsAdopted": 830,
+            "commissionsAttended": 200,
+            "commissionInterventions": 114,
+            "hemicycleInterventions": 158,
+            "hemicycleShortInterventions": 92,
+            "questionsWritten": 2,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Farida",
             "lastname": "Amrani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Géraldine",
             "lastname": "Bailleul",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Jean",
             "lastname": "Camonin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Antoine",
             "lastname": "De Scorraille",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Samira",
             "lastname": "Ketfi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Thiebauld",
             "lastname": "Vega",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         },
         {
             "firstname": "Medhy",
             "lastname": "Zeghouf",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 1
         }
     ]
 }

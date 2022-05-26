@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1313,
                 "Eric Zemmour": 3728
             }
+        },
+        "secondRound": {
+            "registered": 84906,
+            "voted": 66974,
+            "whites": 3805,
+            "expressed": 61771,
+            "void": 1398,
+            "candidates": {
+                "Emmanuel Macron": 28756,
+                "Marine Le Pen": 33015
+            }
         }
+    },
+    "current": {
+        "id": "722228",
+        "lastname": "Leclabart",
+        "firstname": "Jean-Claude",
+        "slug": "jeanclaude-leclabart",
+        "gender": "H",
+        "birthday": "1954-12-04",
+        "birthplace": "Lawarde-Mauger-l'Hortoy (Somme)",
+        "county": "Somme",
+        "countyId": "80",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraité agricole",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 69,
+            "amendments": 109,
+            "amendmentsSupported": 2828,
+            "amendmentsAdopted": 1349,
+            "commissionsAttended": 393,
+            "commissionInterventions": 143,
+            "hemicycleInterventions": 75,
+            "hemicycleShortInterventions": 28,
+            "questionsWritten": 14,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martin",
             "lastname": "Domise",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         },
         {
             "firstname": "Elodie",
             "lastname": "Heren",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         },
         {
-            "id": "722228",
-            "lastname": "Leclabart",
             "firstname": "Jean-Claude",
-            "slug": "jeanclaude-leclabart",
+            "lastname": "Leclabart",
             "gender": "H",
-            "birthday": "1954-12-04",
-            "birthplace": "Lawarde-Mauger-l'Hortoy (Somme)",
-            "county": "Somme",
-            "countyId": "80",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Retraité agricole",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 69,
-                "amendments": 109,
-                "amendmentsSupported": 2828,
-                "amendmentsAdopted": 1349,
-                "commissionsAttended": 393,
-                "commissionInterventions": 143,
-                "hemicycleInterventions": 75,
-                "hemicycleShortInterventions": 28,
-                "questionsWritten": 14,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         },
         {
             "firstname": "Dany",
             "lastname": "Serreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         },
         {
             "firstname": "Jean-Philippe",
             "lastname": "Tanguy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         },
         {
             "firstname": "Guy",
             "lastname": "Vitoux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 4
         }
     ]
 }

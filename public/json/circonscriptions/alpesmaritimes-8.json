@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 83755,
             "voted": 60589,
-            "whites": 829,
+            "whites": 804,
             "expressed": 59509,
-            "void": 251,
+            "void": 276,
             "candidates": {
                 "Nathalie Arthaud": 148,
                 "Fabien Roussel": 663,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1297,
                 "Eric Zemmour": 9867
             }
+        },
+        "secondRound": {
+            "registered": 83745,
+            "voted": 59328,
+            "whites": 3112,
+            "expressed": 55474,
+            "void": 742,
+            "candidates": {
+                "Emmanuel Macron": 27857,
+                "Marine Le Pen": 27617
+            }
         }
+    },
+    "current": {
+        "id": "223837",
+        "lastname": "Brochand",
+        "firstname": "Bernard",
+        "slug": "bernard-brochand",
+        "gender": "H",
+        "birthday": "1938-06-05",
+        "birthplace": "Nice (Alpes-Maritimes)",
+        "county": "Alpes-Maritimes",
+        "countyId": "06",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre du secteur privé retraité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 50,
+            "reports": 0,
+            "proposals": 23,
+            "proposalsSupported": 455,
+            "amendments": 5,
+            "amendmentsSupported": 2983,
+            "amendmentsAdopted": 101,
+            "commissionsAttended": 40,
+            "commissionInterventions": 5,
+            "hemicycleInterventions": 11,
+            "hemicycleShortInterventions": 11,
+            "questionsWritten": 110,
+            "questionsOral": 0
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Valéry",
             "lastname": "Desens",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 8
         },
         {
             "firstname": "Dorette",
             "lastname": "Landerer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 8
         },
         {
             "firstname": "Alexandra",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 8
         },
         {
             "firstname": "Marie-José",
             "lastname": "Pereira",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 8
         },
         {
             "firstname": "Lucia",
             "lastname": "Soudant",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 8
         }
     ]
 }

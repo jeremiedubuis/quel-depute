@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 64927,
-            "voted": 45169,
-            "whites": 603,
+            "voted": 45168,
+            "whites": 606,
             "expressed": 44303,
-            "void": 263,
+            "void": 259,
             "candidates": {
                 "Nathalie Arthaud": 178,
                 "Fabien Roussel": 787,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 673,
                 "Eric Zemmour": 3429
             }
+        },
+        "secondRound": {
+            "registered": 64967,
+            "voted": 40388,
+            "whites": 2277,
+            "expressed": 37034,
+            "void": 1077,
+            "candidates": {
+                "Emmanuel Macron": 23987,
+                "Marine Le Pen": 13047
+            }
         }
+    },
+    "current": {
+        "id": "720854",
+        "lastname": "Testé",
+        "firstname": "Stéphane",
+        "slug": "stephane-teste",
+        "gender": "H",
+        "birthday": "1968-05-10",
+        "birthplace": "Aulnay-sous-Bois (Seine-Saint-Denis)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Enseignant du 1er dégré-Directeur d'école",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 118,
+            "amendments": 249,
+            "amendmentsSupported": 4576,
+            "amendmentsAdopted": 1310,
+            "commissionsAttended": 248,
+            "commissionInterventions": 265,
+            "hemicycleInterventions": 178,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 196,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Amal",
             "lastname": "Aissaoui",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         },
         {
             "firstname": "Franck",
             "lastname": "Barth",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         },
         {
             "firstname": "Malik",
             "lastname": "Houha",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         },
         {
             "firstname": "Jérôme",
             "lastname": "Legavre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         },
         {
             "firstname": "Pierre-Marie",
             "lastname": "Salle",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         },
         {
-            "id": "720854",
-            "lastname": "Testé",
             "firstname": "Stéphane",
-            "slug": "stephane-teste",
+            "lastname": "Testé",
             "gender": "H",
-            "birthday": "1968-05-10",
-            "birthplace": "Aulnay-sous-Bois (Seine-Saint-Denis)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Enseignant du 1er dégré-Directeur d'école",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 168,
-                "reports": 2,
-                "proposals": 1,
-                "proposalsSupported": 118,
-                "amendments": 249,
-                "amendmentsSupported": 4576,
-                "amendmentsAdopted": 1310,
-                "commissionsAttended": 248,
-                "commissionInterventions": 265,
-                "hemicycleInterventions": 178,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 196,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 12
         }
     ]
 }

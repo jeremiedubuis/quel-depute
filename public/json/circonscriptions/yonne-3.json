@@ -4,18 +4,18 @@
     "name": "Yonne",
     "results": {
         "firstRound": {
-            "registered": 89576,
+            "registered": 89580,
             "voted": 66371,
-            "whites": 984,
-            "expressed": 64936,
-            "void": 451,
+            "whites": 1001,
+            "expressed": 64940,
+            "void": 430,
             "candidates": {
                 "Nathalie Arthaud": 425,
-                "Fabien Roussel": 1370,
+                "Fabien Roussel": 1371,
                 "Emmanuel Macron": 14435,
-                "Jean Lasalle": 1810,
+                "Jean Lasalle": 1811,
                 "Marine Le Pen": 21850,
-                "Jean-Luc Mélenchon": 11789,
+                "Jean-Luc Mélenchon": 11791,
                 "Anne Hidalgo": 739,
                 "Yannick Jadot": 2020,
                 "Valérie Pécresse": 3216,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1722,
                 "Eric Zemmour": 5020
             }
+        },
+        "secondRound": {
+            "registered": 89553,
+            "voted": 64576,
+            "whites": 3830,
+            "expressed": 59353,
+            "void": 1393,
+            "candidates": {
+                "Emmanuel Macron": 26607,
+                "Marine Le Pen": 32746
+            }
         }
+    },
+    "current": {
+        "id": "721808",
+        "lastname": "Crouzet",
+        "firstname": "Michèle",
+        "slug": "michele-crouzet",
+        "gender": "F",
+        "birthday": "1967-08-31",
+        "birthplace": "Lormes (Nièvre)",
+        "county": "Yonne",
+        "countyId": "89",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Co-gérante d'entreprise en disponibilité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 25,
+            "amendmentsSupported": 2619,
+            "amendmentsAdopted": 1017,
+            "commissionsAttended": 322,
+            "commissionInterventions": 230,
+            "hemicycleInterventions": 50,
+            "hemicycleShortInterventions": 3,
+            "questionsWritten": 25,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "721808",
-            "lastname": "Crouzet",
             "firstname": "Michèle",
-            "slug": "michele-crouzet",
+            "lastname": "Crouzet",
             "gender": "F",
-            "birthday": "1967-08-31",
-            "birthplace": "Lormes (Nièvre)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 89,
             "county": "Yonne",
-            "countyId": "89",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Co-gérante d'entreprise en disponibilité",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 71,
-                "amendments": 25,
-                "amendmentsSupported": 2619,
-                "amendmentsAdopted": 1017,
-                "commissionsAttended": 322,
-                "commissionInterventions": 230,
-                "hemicycleInterventions": 50,
-                "hemicycleShortInterventions": 3,
-                "questionsWritten": 25,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Manon",
             "lastname": "Dene",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 3
         },
         {
             "firstname": "Julien",
             "lastname": "Odoul",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 3
         },
         {
             "firstname": "Simonne",
             "lastname": "Pallant",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 3
         },
         {
             "firstname": "Gilles",
             "lastname": "Pirman",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 3
         },
         {
             "firstname": "Agnès",
             "lastname": "Vignier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 3
         }
     ]
 }

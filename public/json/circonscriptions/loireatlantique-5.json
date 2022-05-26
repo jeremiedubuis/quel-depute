@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1764,
                 "Eric Zemmour": 4868
             }
+        },
+        "secondRound": {
+            "registered": 125403,
+            "voted": 97863,
+            "whites": 6717,
+            "expressed": 89159,
+            "void": 1987,
+            "candidates": {
+                "Emmanuel Macron": 64965,
+                "Marine Le Pen": 24194
+            }
         }
+    },
+    "current": {
+        "id": "720002",
+        "lastname": "El Haïry",
+        "firstname": "Sarah",
+        "slug": "sarah-el-hairy",
+        "gender": "F",
+        "birthday": "1989-03-16",
+        "birthplace": "(Loir-et-Cher)",
+        "county": "Loire-Atlantique",
+        "countyId": "44",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 118,
+            "reports": 10,
+            "proposals": 3,
+            "proposalsSupported": 51,
+            "amendments": 365,
+            "amendmentsSupported": 2638,
+            "amendmentsAdopted": 452,
+            "commissionsAttended": 296,
+            "commissionInterventions": 331,
+            "hemicycleInterventions": 385,
+            "hemicycleShortInterventions": 87,
+            "questionsWritten": 76,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Emmanuelle",
             "lastname": "Clopeau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 5
         },
         {
-            "id": "720002",
-            "lastname": "El Haïry",
             "firstname": "Sarah",
-            "slug": "sarah-el-hairy",
+            "lastname": "El Haïry",
             "gender": "F",
-            "birthday": "1989-03-16",
-            "birthplace": "(Loir-et-Cher)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 44,
             "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 118,
-                "reports": 10,
-                "proposals": 3,
-                "proposalsSupported": 51,
-                "amendments": 365,
-                "amendmentsSupported": 2638,
-                "amendmentsAdopted": 452,
-                "commissionsAttended": 296,
-                "commissionInterventions": 331,
-                "hemicycleInterventions": 385,
-                "hemicycleShortInterventions": 87,
-                "questionsWritten": 76,
-                "questionsOral": 22
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Millà",
             "lastname": "Karcher",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 5
         },
         {
             "firstname": "Sabine",
             "lastname": "Lalande",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 5
         },
         {
             "firstname": "Maelig",
             "lastname": "Tredan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 5
         }
     ]
 }

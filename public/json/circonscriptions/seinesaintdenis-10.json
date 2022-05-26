@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 68904,
             "voted": 47599,
-            "whites": 633,
-            "expressed": 46701,
-            "void": 265,
+            "whites": 637,
+            "expressed": 46702,
+            "void": 260,
             "candidates": {
                 "Nathalie Arthaud": 231,
                 "Fabien Roussel": 753,
@@ -18,81 +18,120 @@
                 "Jean-Luc Mélenchon": 22480,
                 "Anne Hidalgo": 396,
                 "Yannick Jadot": 1194,
-                "Valérie Pécresse": 1911,
+                "Valérie Pécresse": 1912,
                 "Phillipe Poutou": 247,
                 "Nicolas Dupont-Aignan": 600,
                 "Eric Zemmour": 2655
             }
+        },
+        "secondRound": {
+            "registered": 68941,
+            "voted": 41130,
+            "whites": 2974,
+            "expressed": 37348,
+            "void": 808,
+            "candidates": {
+                "Emmanuel Macron": 26444,
+                "Marine Le Pen": 10904
+            }
         }
+    },
+    "current": {
+        "id": "721286",
+        "lastname": "Ramadier",
+        "firstname": "Alain",
+        "slug": "alain-ramadier",
+        "gender": "H",
+        "birthday": "1958-07-08",
+        "birthplace": "Paris (Paris)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre bancaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 185,
+            "reports": 0,
+            "proposals": 7,
+            "proposalsSupported": 438,
+            "amendments": 318,
+            "amendmentsSupported": 11709,
+            "amendmentsAdopted": 304,
+            "commissionsAttended": 350,
+            "commissionInterventions": 342,
+            "hemicycleInterventions": 312,
+            "hemicycleShortInterventions": 239,
+            "questionsWritten": 58,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nadège",
             "lastname": "Abomangoli",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 10
         },
         {
             "firstname": "Sonia",
             "lastname": "Bakhti-Alout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 10
         },
         {
             "firstname": "Jean-Ludwig",
             "lastname": "Malard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 10
         },
         {
             "firstname": "Gaëtan",
             "lastname": "Minardi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 10
         },
         {
-            "id": "721286",
-            "lastname": "Ramadier",
             "firstname": "Alain",
-            "slug": "alain-ramadier",
+            "lastname": "Ramadier",
             "gender": "H",
-            "birthday": "1958-07-08",
-            "birthplace": "Paris (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 93,
             "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre bancaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 185,
-                "reports": 0,
-                "proposals": 7,
-                "proposalsSupported": 438,
-                "amendments": 318,
-                "amendmentsSupported": 11709,
-                "amendmentsAdopted": 304,
-                "commissionsAttended": 350,
-                "commissionInterventions": 342,
-                "hemicycleInterventions": 312,
-                "hemicycleShortInterventions": 239,
-                "questionsWritten": 58,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 10
         }
     ]
 }

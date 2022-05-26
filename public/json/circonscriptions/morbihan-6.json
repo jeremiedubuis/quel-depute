@@ -23,108 +23,163 @@
                 "Nicolas Dupont-Aignan": 1494,
                 "Eric Zemmour": 3602
             }
+        },
+        "secondRound": {
+            "registered": 93485,
+            "voted": 72373,
+            "whites": 5091,
+            "expressed": 65055,
+            "void": 2227,
+            "candidates": {
+                "Emmanuel Macron": 38102,
+                "Marine Le Pen": 26953
+            }
         }
+    },
+    "current": {
+        "id": "720354",
+        "lastname": "Jacques",
+        "firstname": "Jean-Michel",
+        "slug": "jeanmichel-jacques",
+        "gender": "H",
+        "birthday": "1968-02-29",
+        "birthplace": "Metz (Moselle)",
+        "county": "Morbihan",
+        "countyId": "56",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Infirmier des forces spéciales",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 86,
+            "amendmentsSupported": 1716,
+            "amendmentsAdopted": 941,
+            "commissionsAttended": 281,
+            "commissionInterventions": 256,
+            "hemicycleInterventions": 28,
+            "hemicycleShortInterventions": 189,
+            "questionsWritten": 125,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Michel",
             "lastname": "Baudry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Anne",
             "lastname": "Bernard",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
-            "id": "720354",
-            "lastname": "Jacques",
             "firstname": "Jean-Michel",
-            "slug": "jeanmichel-jacques",
+            "lastname": "Jacques",
             "gender": "H",
-            "birthday": "1968-02-29",
-            "birthplace": "Metz (Moselle)",
-            "county": "Morbihan",
-            "countyId": "56",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Infirmier des forces spéciales",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 158,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 86,
-                "amendmentsSupported": 1716,
-                "amendmentsAdopted": 941,
-                "commissionsAttended": 281,
-                "commissionInterventions": 256,
-                "hemicycleInterventions": 28,
-                "hemicycleShortInterventions": 189,
-                "questionsWritten": 125,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Guillaume",
             "lastname": "Kiefer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Kelig",
             "lastname": "Lagree",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Aurélie",
             "lastname": "Le Goff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Matilda",
             "lastname": "Parrat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Christelle",
             "lastname": "Rosconval",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         },
         {
             "firstname": "Tiphaine",
             "lastname": "Siret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 6
         }
     ]
 }

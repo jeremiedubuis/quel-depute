@@ -7,14 +7,14 @@
             "registered": 79851,
             "voted": 63607,
             "whites": 737,
-            "expressed": 62635,
-            "void": 235,
+            "expressed": 62636,
+            "void": 234,
             "candidates": {
                 "Nathalie Arthaud": 193,
                 "Fabien Roussel": 881,
                 "Emmanuel Macron": 24827,
                 "Jean Lasalle": 1069,
-                "Marine Le Pen": 6507,
+                "Marine Le Pen": 6508,
                 "Jean-Luc Mélenchon": 11896,
                 "Anne Hidalgo": 827,
                 "Yannick Jadot": 4222,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1011,
                 "Eric Zemmour": 5222
             }
+        },
+        "secondRound": {
+            "registered": 79895,
+            "voted": 60603,
+            "whites": 3015,
+            "expressed": 56732,
+            "void": 856,
+            "candidates": {
+                "Emmanuel Macron": 43852,
+                "Marine Le Pen": 12880
+            }
         }
+    },
+    "current": {
+        "id": "721852",
+        "lastname": "Lebec",
+        "firstname": "Marie",
+        "slug": "marie-lebec",
+        "gender": "F",
+        "birthday": "1990-12-17",
+        "birthplace": "Vernon (Eure)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Consultante en affaires publiques",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 171,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 57,
+            "amendments": 192,
+            "amendmentsSupported": 1918,
+            "amendmentsAdopted": 1186,
+            "commissionsAttended": 332,
+            "commissionInterventions": 303,
+            "hemicycleInterventions": 307,
+            "hemicycleShortInterventions": 115,
+            "questionsWritten": 8,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Céline",
             "lastname": "Bourdon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 4
         },
         {
-            "id": "721852",
-            "lastname": "Lebec",
             "firstname": "Marie",
-            "slug": "marie-lebec",
+            "lastname": "Lebec",
             "gender": "F",
-            "birthday": "1990-12-17",
-            "birthplace": "Vernon (Eure)",
-            "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Consultante en affaires publiques",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 171,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 57,
-                "amendments": 192,
-                "amendmentsSupported": 1918,
-                "amendmentsAdopted": 1186,
-                "commissionsAttended": 332,
-                "commissionInterventions": 303,
-                "hemicycleInterventions": 307,
-                "hemicycleShortInterventions": 115,
-                "questionsWritten": 8,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 4
         },
         {
             "firstname": "Franck",
             "lastname": "Maurel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 4
         },
         {
             "firstname": "Chloë",
             "lastname": "Richard-Desoubeaux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 4
         },
         {
             "firstname": "Sophie",
             "lastname": "Tarot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 4
         }
     ]
 }

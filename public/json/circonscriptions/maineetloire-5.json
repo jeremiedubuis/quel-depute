@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 79259,
             "voted": 60271,
-            "whites": 1073,
+            "whites": 1100,
             "expressed": 58728,
-            "void": 470,
+            "void": 443,
             "candidates": {
                 "Nathalie Arthaud": 408,
                 "Fabien Roussel": 1052,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1322,
                 "Eric Zemmour": 2657
             }
+        },
+        "secondRound": {
+            "registered": 79313,
+            "voted": 60293,
+            "whites": 3475,
+            "expressed": 55524,
+            "void": 1294,
+            "candidates": {
+                "Emmanuel Macron": 38901,
+                "Marine Le Pen": 16623
+            }
         }
+    },
+    "current": {
+        "id": "720146",
+        "lastname": "Masséglia",
+        "firstname": "Denis",
+        "slug": "denis-masseglia",
+        "gender": "H",
+        "birthday": "1981-04-11",
+        "birthplace": "Nice (Alpes-Maritimes)",
+        "county": "Maine-et-Loire",
+        "countyId": "49",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieur Arts et métiers",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 83,
+            "amendments": 108,
+            "amendmentsSupported": 2084,
+            "amendmentsAdopted": 1002,
+            "commissionsAttended": 272,
+            "commissionInterventions": 149,
+            "hemicycleInterventions": 62,
+            "hemicycleShortInterventions": 48,
+            "questionsWritten": 32,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Airaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Hervé",
             "lastname": "Fusil",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Pie-Louis",
             "lastname": "Lecluse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 5
         },
         {
-            "id": "720146",
-            "lastname": "Masséglia",
             "firstname": "Denis",
-            "slug": "denis-masseglia",
+            "lastname": "Masseglia",
             "gender": "H",
-            "birthday": "1981-04-11",
-            "birthplace": "Nice (Alpes-Maritimes)",
-            "county": "Maine-et-Loire",
-            "countyId": "49",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur Arts et métiers",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 165,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 83,
-                "amendments": 108,
-                "amendmentsSupported": 2084,
-                "amendmentsAdopted": 1002,
-                "commissionsAttended": 272,
-                "commissionInterventions": 149,
-                "hemicycleInterventions": 62,
-                "hemicycleShortInterventions": 48,
-                "questionsWritten": 32,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Didier",
             "lastname": "Testu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 5
         }
     ]
 }

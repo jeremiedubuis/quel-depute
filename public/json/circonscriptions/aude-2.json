@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1239,
                 "Eric Zemmour": 6186
             }
+        },
+        "secondRound": {
+            "registered": 92283,
+            "voted": 67600,
+            "whites": 4650,
+            "expressed": 61106,
+            "void": 1844,
+            "candidates": {
+                "Emmanuel Macron": 27113,
+                "Marine Le Pen": 33993
+            }
         }
+    },
+    "current": {
+        "id": "718802",
+        "lastname": "Perea",
+        "firstname": "Alain",
+        "slug": "alain-perea",
+        "gender": "H",
+        "birthday": "1971-06-05",
+        "birthplace": "Béziers (Hérault)",
+        "county": "Aude",
+        "countyId": "11",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 141,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 297,
+            "amendmentsSupported": 3414,
+            "amendmentsAdopted": 1261,
+            "commissionsAttended": 203,
+            "commissionInterventions": 272,
+            "hemicycleInterventions": 207,
+            "hemicycleShortInterventions": 128,
+            "questionsWritten": 26,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cyril",
             "lastname": "Cambon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
             "firstname": "Quentin",
             "lastname": "Estrade",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les centristes",
             "groupShort": "LC",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
             "firstname": "Frédéric",
             "lastname": "Falcon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
-            "id": "718802",
-            "lastname": "Perea",
             "firstname": "Alain",
-            "slug": "alain-perea",
+            "lastname": "Perea",
             "gender": "H",
-            "birthday": "1971-06-05",
-            "birthplace": "Béziers (Hérault)",
-            "county": "Aude",
-            "countyId": "11",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 141,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 76,
-                "amendments": 297,
-                "amendmentsSupported": 3414,
-                "amendmentsAdopted": 1261,
-                "commissionsAttended": 203,
-                "commissionInterventions": 272,
-                "hemicycleInterventions": 207,
-                "hemicycleShortInterventions": 128,
-                "questionsWritten": 26,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
             "firstname": "Edouard",
             "lastname": "Rocher",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
             "firstname": "Viviane",
             "lastname": "Thivent",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         },
         {
             "firstname": "Annette",
             "lastname": "Vigier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 11,
+            "county": "Aude",
+            "circumscription": 2
         }
     ]
 }

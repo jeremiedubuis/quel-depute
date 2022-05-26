@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 570,
                 "Eric Zemmour": 5680
             }
+        },
+        "secondRound": {
+            "registered": 63137,
+            "voted": 49445,
+            "whites": 3068,
+            "expressed": 46377,
+            "void": 0,
+            "candidates": {
+                "Emmanuel Macron": 38624,
+                "Marine Le Pen": 7753
+            }
         }
+    },
+    "current": {
+        "id": "346876",
+        "lastname": "Solère",
+        "firstname": "Thierry",
+        "slug": "thierry-solere",
+        "gender": "H",
+        "birthday": "1971-08-17",
+        "birthplace": "Nantes (Loire-Atlantique)",
+        "county": "Hauts-de-Seine",
+        "countyId": "92",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 93,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 0,
+            "amendmentsSupported": 1517,
+            "amendmentsAdopted": 892,
+            "commissionsAttended": 41,
+            "commissionInterventions": 2,
+            "hemicycleInterventions": 6,
+            "hemicycleShortInterventions": 14,
+            "questionsWritten": 18,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Guillaume",
             "lastname": "Bessières",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Anne-Laure",
             "lastname": "Chaudon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Léopold",
             "lastname": "Chesneau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Nathalie",
             "lastname": "Gaude",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Marie-Laure",
             "lastname": "Godin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Pellerin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         },
         {
             "firstname": "Pauline",
             "lastname": "Rapilly Ferniot",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 9
         }
     ]
 }

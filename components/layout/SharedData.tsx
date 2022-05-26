@@ -11,7 +11,7 @@ export const SharedData = () => {
 
     useEffect(() => {
         if (!deputes.length) {
-            fetch('/json/deputes.json')
+            fetch('/json/deputes/deputes.json')
                 .then((r) => r.json())
                 .then((d) => {
                     setDeputes(d);

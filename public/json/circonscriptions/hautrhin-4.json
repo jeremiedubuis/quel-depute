@@ -7,56 +7,119 @@
             "registered": 103815,
             "voted": 78657,
             "whites": 1253,
-            "expressed": 76819,
-            "void": 585,
+            "expressed": 76835,
+            "void": 569,
             "candidates": {
                 "Nathalie Arthaud": 497,
                 "Fabien Roussel": 1041,
-                "Emmanuel Macron": 18940,
-                "Jean Lasalle": 2341,
-                "Marine Le Pen": 25602,
-                "Jean-Luc Mélenchon": 11327,
+                "Emmanuel Macron": 18942,
+                "Jean Lasalle": 2344,
+                "Marine Le Pen": 25609,
+                "Jean-Luc Mélenchon": 11330,
                 "Anne Hidalgo": 1034,
                 "Yannick Jadot": 3472,
-                "Valérie Pécresse": 2844,
+                "Valérie Pécresse": 2845,
                 "Phillipe Poutou": 651,
                 "Nicolas Dupont-Aignan": 2840,
                 "Eric Zemmour": 6230
             }
+        },
+        "secondRound": {
+            "registered": 103839,
+            "voted": 78593,
+            "whites": 4251,
+            "expressed": 72939,
+            "void": 1403,
+            "candidates": {
+                "Emmanuel Macron": 33183,
+                "Marine Le Pen": 39756
+            }
         }
+    },
+    "current": {
+        "id": "721314",
+        "lastname": "Schellenberger",
+        "firstname": "Raphaël",
+        "slug": "raphael-schellenberger",
+        "gender": "H",
+        "birthday": "1990-02-14",
+        "birthplace": "Mulhouse (Haut-Rhin)",
+        "county": "Haut-Rhin",
+        "countyId": "68",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Attaché Parlementaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 178,
+            "reports": 5,
+            "proposals": 10,
+            "proposalsSupported": 462,
+            "amendments": 751,
+            "amendmentsSupported": 8027,
+            "amendmentsAdopted": 200,
+            "commissionsAttended": 331,
+            "commissionInterventions": 899,
+            "hemicycleInterventions": 1378,
+            "hemicycleShortInterventions": 2121,
+            "questionsWritten": 84,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Chrystelle",
             "lastname": "Garel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Sandrine",
             "lastname": "Meyer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Aimé",
             "lastname": "Sense",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 4
         },
         {
             "firstname": "Marion",
             "lastname": "Simon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 4
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1248,
                 "Eric Zemmour": 4025
             }
+        },
+        "secondRound": {
+            "registered": 73163,
+            "voted": 54353,
+            "whites": 3201,
+            "expressed": 50040,
+            "void": 1112,
+            "candidates": {
+                "Emmanuel Macron": 24441,
+                "Marine Le Pen": 25599
+            }
         }
+    },
+    "current": {
+        "id": "720586",
+        "lastname": "Vatin",
+        "firstname": "Pierre",
+        "slug": "pierre-vatin",
+        "gender": "H",
+        "birthday": "1967-08-21",
+        "birthplace": "Saint-Quentin (Aisne)",
+        "county": "Oise",
+        "countyId": "60",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Permanent politique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 1,
+            "proposals": 9,
+            "proposalsSupported": 452,
+            "amendments": 697,
+            "amendmentsSupported": 9015,
+            "amendmentsAdopted": 227,
+            "commissionsAttended": 183,
+            "commissionInterventions": 82,
+            "hemicycleInterventions": 236,
+            "hemicycleShortInterventions": 171,
+            "questionsWritten": 150,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hélène",
             "lastname": "Becherini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         },
         {
             "firstname": "Luc",
             "lastname": "Blanchard",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         },
         {
             "firstname": "Étienne",
             "lastname": "Diot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         },
         {
             "firstname": "Régine",
             "lastname": "Harray Cohen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         },
         {
             "firstname": "Myriam",
             "lastname": "Lamzoudi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         },
         {
-            "id": "720586",
-            "lastname": "Vatin",
             "firstname": "Pierre",
-            "slug": "pierre-vatin",
+            "lastname": "Vatin",
             "gender": "H",
-            "birthday": "1967-08-21",
-            "birthplace": "Saint-Quentin (Aisne)",
-            "county": "Oise",
-            "countyId": "60",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Permanent politique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 1,
-                "proposals": 9,
-                "proposalsSupported": 452,
-                "amendments": 697,
-                "amendmentsSupported": 9015,
-                "amendmentsAdopted": 227,
-                "commissionsAttended": 183,
-                "commissionInterventions": 82,
-                "hemicycleInterventions": 236,
-                "hemicycleShortInterventions": 171,
-                "questionsWritten": 150,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 5
         }
     ]
 }

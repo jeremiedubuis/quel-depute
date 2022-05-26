@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1482,
                 "Eric Zemmour": 4190
             }
+        },
+        "secondRound": {
+            "registered": 82961,
+            "voted": 61676,
+            "whites": 3483,
+            "expressed": 57000,
+            "void": 1193,
+            "candidates": {
+                "Emmanuel Macron": 23615,
+                "Marine Le Pen": 33385
+            }
         }
+    },
+    "current": {
+        "id": "605084",
+        "lastname": "Krabal",
+        "firstname": "Jacques",
+        "slug": "jacques-krabal",
+        "gender": "H",
+        "birthday": "1948-04-10",
+        "birthplace": "Epieds (Aisne)",
+        "county": "Aisne",
+        "countyId": "02",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraité de l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 133,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 0,
+            "amendmentsSupported": 2592,
+            "amendmentsAdopted": 1194,
+            "commissionsAttended": 169,
+            "commissionInterventions": 113,
+            "hemicycleInterventions": 36,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 50,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jocelyn",
             "lastname": "Dessigny",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         },
         {
             "firstname": "Jeanne",
             "lastname": "Doyez-Roussel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         },
         {
             "firstname": "Stéphane",
             "lastname": "Frère",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         },
         {
             "firstname": "Francis",
             "lastname": "Garcia",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         },
         {
             "firstname": "Jade",
             "lastname": "Gilquin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         },
         {
             "firstname": "Françoise",
             "lastname": "Vacca",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 5
         }
     ]
 }

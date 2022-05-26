@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 86732,
-            "voted": 67081,
-            "whites": 1097,
+            "voted": 67079,
+            "whites": 1105,
             "expressed": 65620,
-            "void": 364,
+            "void": 354,
             "candidates": {
                 "Nathalie Arthaud": 421,
                 "Fabien Roussel": 1454,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1472,
                 "Eric Zemmour": 4473
             }
+        },
+        "secondRound": {
+            "registered": 86768,
+            "voted": 66890,
+            "whites": 4292,
+            "expressed": 61066,
+            "void": 1532,
+            "candidates": {
+                "Emmanuel Macron": 36738,
+                "Marine Le Pen": 24328
+            }
         }
+    },
+    "current": {
+        "id": "719822",
+        "lastname": "Thillaye",
+        "firstname": "Sabine",
+        "slug": "sabine-thillaye",
+        "gender": "F",
+        "birthday": "1959-05-18",
+        "birthplace": "Remscheid (Allemagne)",
+        "county": "Indre-et-Loire",
+        "countyId": "37",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 184,
+            "reports": 5,
+            "proposals": 3,
+            "proposalsSupported": 82,
+            "amendments": 55,
+            "amendmentsSupported": 2933,
+            "amendmentsAdopted": 858,
+            "commissionsAttended": 500,
+            "commissionInterventions": 1038,
+            "hemicycleInterventions": 62,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 35,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Fabrice",
             "lastname": "Boigard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Émilien",
             "lastname": "Cousin Hamelal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Christine",
             "lastname": "Delarue",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Bruno",
             "lastname": "Julien",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Françoise",
             "lastname": "Langlade",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Ambre",
             "lastname": "Louisin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 5
         },
         {
-            "id": "719822",
-            "lastname": "Thillaye",
             "firstname": "Sabine",
-            "slug": "sabine-thillaye",
+            "lastname": "Thillaye",
             "gender": "F",
-            "birthday": "1959-05-18",
-            "birthplace": "Remscheid (Allemagne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 37,
             "county": "Indre-et-Loire",
-            "countyId": "37",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 184,
-                "reports": 5,
-                "proposals": 3,
-                "proposalsSupported": 82,
-                "amendments": 55,
-                "amendmentsSupported": 2933,
-                "amendmentsAdopted": 858,
-                "commissionsAttended": 500,
-                "commissionInterventions": 1038,
-                "hemicycleInterventions": 62,
-                "hemicycleShortInterventions": 4,
-                "questionsWritten": 35,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         }
     ]
 }

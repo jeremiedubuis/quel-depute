@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1636,
                 "Eric Zemmour": 4725
             }
+        },
+        "secondRound": {
+            "registered": 85906,
+            "voted": 60411,
+            "whites": 3971,
+            "expressed": 55381,
+            "void": 1059,
+            "candidates": {
+                "Emmanuel Macron": 32430,
+                "Marine Le Pen": 22951
+            }
         }
+    },
+    "current": {
+        "id": "721710",
+        "lastname": "Peyron",
+        "firstname": "Michèle",
+        "slug": "michele-peyron",
+        "gender": "F",
+        "birthday": "1961-07-22",
+        "birthplace": "Nîmes (Gard)",
+        "county": "Seine-et-Marne",
+        "countyId": "77",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 83,
+            "amendments": 42,
+            "amendmentsSupported": 2217,
+            "amendmentsAdopted": 1297,
+            "commissionsAttended": 265,
+            "commissionInterventions": 156,
+            "hemicycleInterventions": 126,
+            "hemicycleShortInterventions": 151,
+            "questionsWritten": 14,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Guy",
             "lastname": "Geoffroy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Pascal",
             "lastname": "Novais",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         },
         {
-            "id": "721710",
-            "lastname": "Peyron",
             "firstname": "Michèle",
-            "slug": "michele-peyron",
+            "lastname": "Peyron",
             "gender": "F",
-            "birthday": "1961-07-22",
-            "birthplace": "Nîmes (Gard)",
-            "county": "Seine-et-Marne",
-            "countyId": "77",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 83,
-                "amendments": 42,
-                "amendmentsSupported": 2217,
-                "amendmentsAdopted": 1297,
-                "commissionsAttended": 265,
-                "commissionInterventions": 156,
-                "hemicycleInterventions": 126,
-                "hemicycleShortInterventions": 151,
-                "questionsWritten": 14,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Laurent",
             "lastname": "Simonpietri",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Morgann",
             "lastname": "Vanacker",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Florence",
             "lastname": "Woods",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 9
         }
     ]
 }

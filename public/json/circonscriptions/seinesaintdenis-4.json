@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 64751,
-            "voted": 42452,
-            "whites": 684,
-            "expressed": 41548,
-            "void": 220,
+            "voted": 42448,
+            "whites": 698,
+            "expressed": 41549,
+            "void": 201,
             "candidates": {
                 "Nathalie Arthaud": 199,
                 "Fabien Roussel": 859,
-                "Emmanuel Macron": 6504,
+                "Emmanuel Macron": 6505,
                 "Jean Lasalle": 396,
                 "Marine Le Pen": 5262,
                 "Jean-Luc Mélenchon": 24075,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 391,
                 "Eric Zemmour": 1772
             }
+        },
+        "secondRound": {
+            "registered": 64803,
+            "voted": 35812,
+            "whites": 2917,
+            "expressed": 32370,
+            "void": 525,
+            "candidates": {
+                "Emmanuel Macron": 22846,
+                "Marine Le Pen": 9524
+            }
         }
+    },
+    "current": {
+        "id": "689",
+        "lastname": "Buffet",
+        "firstname": "Marie-George",
+        "slug": "mariegeorge-buffet",
+        "gender": "F",
+        "birthday": "1949-05-07",
+        "birthplace": "Sceaux (Hauts-de-Seine)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Employée",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 150,
+            "reports": 6,
+            "proposals": 18,
+            "proposalsSupported": 200,
+            "amendments": 1399,
+            "amendmentsSupported": 9441,
+            "amendmentsAdopted": 316,
+            "commissionsAttended": 234,
+            "commissionInterventions": 443,
+            "hemicycleInterventions": 455,
+            "hemicycleShortInterventions": 463,
+            "questionsWritten": 78,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Soumya",
             "lastname": "Bourouaha",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 4
         },
         {
             "firstname": "Marie-Claude",
             "lastname": "Goureau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 4
         },
         {
             "firstname": "Marlène",
             "lastname": "Ley",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 4
         },
         {
             "firstname": "Lova",
             "lastname": "Rinel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 4
         },
         {
             "firstname": "Stéphane",
             "lastname": "Sourdillat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 4
         }
     ]
 }

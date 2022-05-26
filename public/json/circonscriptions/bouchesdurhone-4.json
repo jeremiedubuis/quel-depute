@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 356,
                 "Eric Zemmour": 2278
             }
+        },
+        "secondRound": {
+            "registered": 64346,
+            "voted": 37175,
+            "whites": 2476,
+            "expressed": 34009,
+            "void": 690,
+            "candidates": {
+                "Emmanuel Macron": 26044,
+                "Marine Le Pen": 7965
+            }
         }
+    },
+    "current": {
+        "id": "2150",
+        "lastname": "Mélenchon",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-melenchon",
+        "gender": "H",
+        "birthday": "1951-08-19",
+        "birthplace": "Tanger (Maroc)",
+        "county": "Bouches-du-Rhône",
+        "countyId": "13",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Professeur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 5,
+            "proposals": 30,
+            "proposalsSupported": 166,
+            "amendments": 2857,
+            "amendmentsSupported": 18861,
+            "amendmentsAdopted": 218,
+            "commissionsAttended": 120,
+            "commissionInterventions": 284,
+            "hemicycleInterventions": 2416,
+            "hemicycleShortInterventions": 2362,
+            "questionsWritten": 115,
+            "questionsOral": 20
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Najat",
             "lastname": "Akodad",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 4
         },
         {
             "firstname": "Solange",
             "lastname": "Biaggi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 4
         },
         {
             "firstname": "Isabelle",
             "lastname": "Bonnet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 4
         },
         {
             "firstname": "Mathilde",
             "lastname": "Heuguet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 4
         },
         {
             "firstname": "Julien",
             "lastname": "Tellier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 4
         }
     ]
 }

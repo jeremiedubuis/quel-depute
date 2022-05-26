@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1117,
                 "Eric Zemmour": 3533
             }
+        },
+        "secondRound": {
+            "registered": 73044,
+            "voted": 49519,
+            "whites": 3316,
+            "expressed": 45189,
+            "void": 1014,
+            "candidates": {
+                "Emmanuel Macron": 29477,
+                "Marine Le Pen": 15712
+            }
         }
+    },
+    "current": {
+        "id": "721678",
+        "lastname": "Reda",
+        "firstname": "Robin",
+        "slug": "robin-reda",
+        "gender": "H",
+        "birthday": "1991-05-10",
+        "birthplace": "Savigny-sur-Orge (Essonne)",
+        "county": "Essonne",
+        "countyId": "91",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autres",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 2,
+            "proposals": 11,
+            "proposalsSupported": 525,
+            "amendments": 850,
+            "amendmentsSupported": 12911,
+            "amendmentsAdopted": 358,
+            "commissionsAttended": 347,
+            "commissionInterventions": 491,
+            "hemicycleInterventions": 280,
+            "hemicycleShortInterventions": 174,
+            "questionsWritten": 98,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Audrey",
             "lastname": "Guibert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 7
         },
         {
             "firstname": "Marc",
             "lastname": "Hoquet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 7
         },
         {
             "firstname": "Paul",
             "lastname": "Le Cornec",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 7
         },
         {
             "firstname": "Claire",
             "lastname": "Lejeune",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 7
         },
         {
             "firstname": "Florie",
             "lastname": "Marie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 7
         },
         {
-            "id": "721678",
-            "lastname": "Reda",
             "firstname": "Robin",
-            "slug": "robin-reda",
+            "lastname": "Reda",
             "gender": "H",
-            "birthday": "1991-05-10",
-            "birthplace": "Savigny-sur-Orge (Essonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 91,
             "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Autres",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 165,
-                "reports": 2,
-                "proposals": 11,
-                "proposalsSupported": 525,
-                "amendments": 850,
-                "amendmentsSupported": 12911,
-                "amendmentsAdopted": 358,
-                "commissionsAttended": 347,
-                "commissionInterventions": 491,
-                "hemicycleInterventions": 280,
-                "hemicycleShortInterventions": 174,
-                "questionsWritten": 96,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         }
     ]
 }

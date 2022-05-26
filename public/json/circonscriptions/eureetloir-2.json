@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1223,
                 "Eric Zemmour": 3464
             }
+        },
+        "secondRound": {
+            "registered": 74897,
+            "voted": 52522,
+            "whites": 3168,
+            "expressed": 48245,
+            "void": 1109,
+            "candidates": {
+                "Emmanuel Macron": 25252,
+                "Marine Le Pen": 22993
+            }
         }
+    },
+    "current": {
+        "id": "606098",
+        "lastname": "Marleix",
+        "firstname": "Olivier",
+        "slug": "olivier-marleix",
+        "gender": "H",
+        "birthday": "1971-02-06",
+        "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+        "county": "Eure-et-Loir",
+        "countyId": "28",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 5,
+            "proposals": 14,
+            "proposalsSupported": 192,
+            "amendments": 361,
+            "amendmentsSupported": 4881,
+            "amendmentsAdopted": 132,
+            "commissionsAttended": 236,
+            "commissionInterventions": 745,
+            "hemicycleInterventions": 355,
+            "hemicycleShortInterventions": 197,
+            "questionsWritten": 19,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Kevin",
             "lastname": "Boete",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 2
         },
         {
             "firstname": "Maxime",
             "lastname": "David",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 2
         },
         {
             "firstname": "Adrien",
             "lastname": "Denis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 2
         },
         {
-            "id": "606098",
-            "lastname": "Marleix",
             "firstname": "Olivier",
-            "slug": "olivier-marleix",
+            "lastname": "Marleix",
             "gender": "H",
-            "birthday": "1971-02-06",
-            "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 28,
             "county": "Eure-et-Loir",
-            "countyId": "28",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 161,
-                "reports": 5,
-                "proposals": 14,
-                "proposalsSupported": 192,
-                "amendments": 361,
-                "amendmentsSupported": 4881,
-                "amendmentsAdopted": 132,
-                "commissionsAttended": 236,
-                "commissionInterventions": 745,
-                "hemicycleInterventions": 355,
-                "hemicycleShortInterventions": 197,
-                "questionsWritten": 19,
-                "questionsOral": 17
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Aleksandar",
             "lastname": "Nikolic",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 2
         },
         {
             "firstname": "Pierre-Marcel",
             "lastname": "Reignier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 2
         }
     ]
 }

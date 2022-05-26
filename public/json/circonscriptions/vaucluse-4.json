@@ -5,17 +5,17 @@
     "results": {
         "firstRound": {
             "registered": 90080,
-            "voted": 68969,
-            "whites": 1113,
-            "expressed": 67497,
+            "voted": 68970,
+            "whites": 1110,
+            "expressed": 67501,
             "void": 359,
             "candidates": {
                 "Nathalie Arthaud": 274,
                 "Fabien Roussel": 1408,
-                "Emmanuel Macron": 14589,
+                "Emmanuel Macron": 14590,
                 "Jean Lasalle": 2389,
                 "Marine Le Pen": 21907,
-                "Jean-Luc Mélenchon": 11511,
+                "Jean-Luc Mélenchon": 11514,
                 "Anne Hidalgo": 778,
                 "Yannick Jadot": 2196,
                 "Valérie Pécresse": 2827,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1555,
                 "Eric Zemmour": 7614
             }
+        },
+        "secondRound": {
+            "registered": 90092,
+            "voted": 68480,
+            "whites": 4018,
+            "expressed": 63181,
+            "void": 1281,
+            "candidates": {
+                "Emmanuel Macron": 27849,
+                "Marine Le Pen": 35332
+            }
         }
+    },
+    "current": {
+        "id": "721932",
+        "lastname": "Lorho",
+        "firstname": "Marie-France",
+        "slug": "mariefrance-lorho",
+        "gender": "F",
+        "birthday": "1964-12-15",
+        "birthplace": "Colmar (Haut-Rhin)",
+        "county": "Vaucluse",
+        "countyId": "84",
+        "circumscription": 4,
+        "mandateStart": "2017-08-22",
+        "group": "Debout la France",
+        "groupShort": "NI",
+        "job": "Déléguée médicale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 140,
+            "reports": 0,
+            "proposals": 37,
+            "proposalsSupported": 110,
+            "amendments": 3224,
+            "amendmentsSupported": 3791,
+            "amendmentsAdopted": 20,
+            "commissionsAttended": 182,
+            "commissionInterventions": 177,
+            "hemicycleInterventions": 206,
+            "hemicycleShortInterventions": 31,
+            "questionsWritten": 227,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Monia",
             "lastname": "Galvez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         },
         {
             "firstname": "Anne-Marie",
             "lastname": "Hautant",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         },
         {
-            "id": "721932",
-            "lastname": "Lorho",
             "firstname": "Marie-France",
-            "slug": "mariefrance-lorho",
+            "lastname": "Lorho",
             "gender": "F",
-            "birthday": "1964-12-15",
-            "birthplace": "Colmar (Haut-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 84,
             "county": "Vaucluse",
-            "countyId": "84",
-            "circumscription": 4,
-            "mandateStart": "2017-08-22",
-            "group": "Debout la France",
-            "groupShort": "NI",
-            "job": "Déléguée médicale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 140,
-                "reports": 0,
-                "proposals": 37,
-                "proposalsSupported": 110,
-                "amendments": 3224,
-                "amendmentsSupported": 3791,
-                "amendmentsAdopted": 20,
-                "commissionsAttended": 182,
-                "commissionInterventions": 177,
-                "hemicycleInterventions": 206,
-                "hemicycleShortInterventions": 31,
-                "questionsWritten": 227,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Nicolas",
             "lastname": "Petillot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         },
         {
             "firstname": "Violaine",
             "lastname": "Richard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         },
         {
             "firstname": "Alexandre",
             "lastname": "Rigord",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         },
         {
             "firstname": "Roger",
             "lastname": "Rossin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 4
         }
     ]
 }

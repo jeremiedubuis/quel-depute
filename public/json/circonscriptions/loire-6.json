@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2459,
                 "Eric Zemmour": 6318
             }
+        },
+        "secondRound": {
+            "registered": 110692,
+            "voted": 85380,
+            "whites": 5536,
+            "expressed": 78072,
+            "void": 1772,
+            "candidates": {
+                "Emmanuel Macron": 42520,
+                "Marine Le Pen": 35552
+            }
         }
+    },
+    "current": {
+        "id": "719980",
+        "lastname": "Borowczyk",
+        "firstname": "Julien",
+        "slug": "julien-borowczyk",
+        "gender": "H",
+        "birthday": "1979-05-02",
+        "birthplace": "Montbrison (Loire)",
+        "county": "Loire",
+        "countyId": "42",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 4,
+            "proposals": 11,
+            "proposalsSupported": 76,
+            "amendments": 185,
+            "amendmentsSupported": 2403,
+            "amendmentsAdopted": 1311,
+            "commissionsAttended": 299,
+            "commissionInterventions": 482,
+            "hemicycleInterventions": 261,
+            "hemicycleShortInterventions": 113,
+            "questionsWritten": 118,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719980",
-            "lastname": "Borowczyk",
             "firstname": "Julien",
-            "slug": "julien-borowczyk",
+            "lastname": "Borowczyk",
             "gender": "H",
-            "birthday": "1979-05-02",
-            "birthplace": "Montbrison (Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 42,
             "county": "Loire",
-            "countyId": "42",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 158,
-                "reports": 4,
-                "proposals": 11,
-                "proposalsSupported": 76,
-                "amendments": 185,
-                "amendmentsSupported": 2403,
-                "amendmentsAdopted": 1311,
-                "commissionsAttended": 299,
-                "commissionInterventions": 482,
-                "hemicycleInterventions": 261,
-                "hemicycleShortInterventions": 113,
-                "questionsWritten": 118,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Catherine",
             "lastname": "Briaut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Grégoire",
             "lastname": "Granger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Marie Paule",
             "lastname": "Olive",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Yves",
             "lastname": "Petiot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Taite",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 6
         }
     ]
 }

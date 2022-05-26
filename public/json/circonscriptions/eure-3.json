@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 85486,
             "voted": 65299,
-            "whites": 982,
+            "whites": 1008,
             "expressed": 63920,
-            "void": 397,
+            "void": 371,
             "candidates": {
                 "Nathalie Arthaud": 468,
                 "Fabien Roussel": 1371,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1665,
                 "Eric Zemmour": 3929
             }
+        },
+        "secondRound": {
+            "registered": 85497,
+            "voted": 66490,
+            "whites": 3795,
+            "expressed": 61415,
+            "void": 1280,
+            "candidates": {
+                "Emmanuel Macron": 28274,
+                "Marine Le Pen": 33141
+            }
         }
+    },
+    "current": {
+        "id": "719350",
+        "lastname": "Tamarelle-Verhaeghe",
+        "firstname": "Marie",
+        "slug": "marie-tamarelleverhaeghe",
+        "gender": "F",
+        "birthday": "1962-09-27",
+        "birthplace": "Petit-Quevilly (Seine-Maritime)",
+        "county": "Eure",
+        "countyId": "27",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 313,
+            "amendmentsSupported": 2785,
+            "amendmentsAdopted": 1337,
+            "commissionsAttended": 365,
+            "commissionInterventions": 335,
+            "hemicycleInterventions": 262,
+            "hemicycleShortInterventions": 22,
+            "questionsWritten": 117,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Thomas",
             "lastname": "Elexhauser",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les centristes",
             "groupShort": "LC",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Noëlle",
             "lastname": "Huard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         },
         {
             "firstname": "Dorine",
             "lastname": "Le Pêcheur",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         },
         {
             "firstname": "Kévin",
             "lastname": "Mauvieux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         },
         {
             "firstname": "Marie",
             "lastname": "Tamarelle-Verhaghe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         },
         {
             "firstname": "Annaïck",
             "lastname": "Wayolle",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 3
         }
     ]
 }

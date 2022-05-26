@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 66497,
-            "voted": 46305,
-            "whites": 515,
+            "voted": 46297,
+            "whites": 503,
             "expressed": 45451,
-            "void": 339,
+            "void": 343,
             "candidates": {
                 "Nathalie Arthaud": 232,
                 "Fabien Roussel": 877,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 421,
                 "Eric Zemmour": 1826
             }
+        },
+        "secondRound": {
+            "registered": 66519,
+            "voted": 40287,
+            "whites": 2656,
+            "expressed": 36839,
+            "void": 792,
+            "candidates": {
+                "Emmanuel Macron": 29361,
+                "Marine Le Pen": 7478
+            }
         }
+    },
+    "current": {
+        "id": "721202",
+        "lastname": "Coquerel",
+        "firstname": "Éric",
+        "slug": "eric-coquerel",
+        "gender": "H",
+        "birthday": "1958-12-30",
+        "birthplace": "Courbevoie (Hauts-de-Seine)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 185,
+            "reports": 12,
+            "proposals": 6,
+            "proposalsSupported": 182,
+            "amendments": 4193,
+            "amendmentsSupported": 18913,
+            "amendmentsAdopted": 223,
+            "commissionsAttended": 338,
+            "commissionInterventions": 1034,
+            "hemicycleInterventions": 2845,
+            "hemicycleShortInterventions": 1818,
+            "questionsWritten": 71,
+            "questionsOral": 41
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alain",
             "lastname": "Aubry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 1
         },
         {
             "firstname": "Sophia",
             "lastname": "Bahri",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 1
         },
         {
-            "id": "721202",
+            "firstname": "Eric",
             "lastname": "Coquerel",
-            "firstname": "Éric",
-            "slug": "eric-coquerel",
             "gender": "H",
-            "birthday": "1958-12-30",
-            "birthplace": "Courbevoie (Hauts-de-Seine)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 185,
-                "reports": 12,
-                "proposals": 6,
-                "proposalsSupported": 182,
-                "amendments": 4193,
-                "amendmentsSupported": 18913,
-                "amendmentsAdopted": 223,
-                "commissionsAttended": 338,
-                "commissionInterventions": 1034,
-                "hemicycleInterventions": 2845,
-                "hemicycleShortInterventions": 1818,
-                "questionsWritten": 71,
-                "questionsOral": 41
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 1
         },
         {
             "firstname": "Jeanne",
             "lastname": "Dromard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 1
         },
         {
             "firstname": "Jerome",
             "lastname": "Hirigoyen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 1
         }
     ]
 }

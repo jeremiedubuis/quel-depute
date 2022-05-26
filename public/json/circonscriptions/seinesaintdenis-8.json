@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 61152,
-            "voted": 44428,
-            "whites": 842,
+            "voted": 44418,
+            "whites": 834,
             "expressed": 43416,
-            "void": 170,
+            "void": 168,
             "candidates": {
                 "Nathalie Arthaud": 173,
                 "Fabien Roussel": 879,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 656,
                 "Eric Zemmour": 3148
             }
+        },
+        "secondRound": {
+            "registered": 61193,
+            "voted": 40423,
+            "whites": 3284,
+            "expressed": 36592,
+            "void": 547,
+            "candidates": {
+                "Emmanuel Macron": 25264,
+                "Marine Le Pen": 11328
+            }
         }
+    },
+    "current": {
+        "id": "721218",
+        "lastname": "Charrière",
+        "firstname": "Sylvie",
+        "slug": "sylvie-charriere",
+        "gender": "F",
+        "birthday": "1961-05-15",
+        "birthplace": "Montreuil-sous-Bois (Seine-Saint-Denis)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 156,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 86,
+            "amendments": 117,
+            "amendmentsSupported": 2514,
+            "amendmentsAdopted": 1136,
+            "commissionsAttended": 225,
+            "commissionInterventions": 252,
+            "hemicycleInterventions": 119,
+            "hemicycleShortInterventions": 39,
+            "questionsWritten": 17,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Geoffrey",
             "lastname": "Carvalhinho",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 8
         },
         {
-            "id": "721218",
-            "lastname": "Charrière",
             "firstname": "Sylvie",
-            "slug": "sylvie-charriere",
+            "lastname": "Charrière",
             "gender": "F",
-            "birthday": "1961-05-15",
-            "birthplace": "Montreuil-sous-Bois (Seine-Saint-Denis)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 156,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 86,
-                "amendments": 117,
-                "amendmentsSupported": 2514,
-                "amendmentsAdopted": 1136,
-                "commissionsAttended": 225,
-                "commissionInterventions": 252,
-                "hemicycleInterventions": 119,
-                "hemicycleShortInterventions": 39,
-                "questionsWritten": 17,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 8
         },
         {
             "firstname": "Corinne",
             "lastname": "Fournier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 8
         },
         {
             "firstname": "Fatiha",
             "lastname": "Hachi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 8
         },
         {
             "firstname": "Grégory",
             "lastname": "Tobeilem",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 8
         }
     ]
 }

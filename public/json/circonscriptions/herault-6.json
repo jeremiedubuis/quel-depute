@@ -4,7 +4,7 @@
     "name": "Hérault",
     "results": {
         "firstRound": {
-            "registered": 93299,
+            "registered": 93302,
             "voted": 69812,
             "whites": 1021,
             "expressed": 68394,
@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 1168,
                 "Eric Zemmour": 7085
             }
+        },
+        "secondRound": {
+            "registered": 93296,
+            "voted": 68057,
+            "whites": 4087,
+            "expressed": 62556,
+            "void": 1414,
+            "candidates": {
+                "Emmanuel Macron": 25824,
+                "Marine Le Pen": 36732
+            }
         }
+    },
+    "current": {
+        "id": "719608",
+        "lastname": "Ménard",
+        "firstname": "Emmanuelle",
+        "slug": "emmanuelle-menard",
+        "gender": "F",
+        "birthday": "1968-08-15",
+        "birthplace": "Lille (Nord)",
+        "county": "Hérault",
+        "countyId": "34",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": "Journaliste et autre média",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 0,
+            "proposals": 27,
+            "proposalsSupported": 113,
+            "amendments": 7454,
+            "amendmentsSupported": 8241,
+            "amendmentsAdopted": 73,
+            "commissionsAttended": 292,
+            "commissionInterventions": 1018,
+            "hemicycleInterventions": 3487,
+            "hemicycleShortInterventions": 695,
+            "questionsWritten": 187,
+            "questionsOral": 23
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Florence",
             "lastname": "Brutus",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Magali",
             "lastname": "Crozier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Henri",
             "lastname": "Fabre-Luce",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Sylvie",
             "lastname": "Ferrand",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Laurent",
             "lastname": "Gilhodes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Stéphane",
             "lastname": "Karges",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Florence",
             "lastname": "Taillade",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         },
         {
             "firstname": "Mathilde",
             "lastname": "Tastavy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 6
         }
     ]
 }

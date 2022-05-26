@@ -5,17 +5,17 @@
     "results": {
         "firstRound": {
             "registered": 69988,
-            "voted": 55647,
-            "whites": 762,
-            "expressed": 54615,
+            "voted": 55644,
+            "whites": 763,
+            "expressed": 54611,
             "void": 270,
             "candidates": {
                 "Nathalie Arthaud": 273,
                 "Fabien Roussel": 1009,
-                "Emmanuel Macron": 18286,
+                "Emmanuel Macron": 18282,
                 "Jean Lasalle": 1068,
-                "Marine Le Pen": 8531,
-                "Jean-Luc Mélenchon": 11681,
+                "Marine Le Pen": 8532,
+                "Jean-Luc Mélenchon": 11680,
                 "Anne Hidalgo": 1085,
                 "Yannick Jadot": 3442,
                 "Valérie Pécresse": 3234,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 996,
                 "Eric Zemmour": 4575
             }
+        },
+        "secondRound": {
+            "registered": 70013,
+            "voted": 52373,
+            "whites": 3651,
+            "expressed": 47747,
+            "void": 975,
+            "candidates": {
+                "Emmanuel Macron": 33003,
+                "Marine Le Pen": 14744
+            }
         }
+    },
+    "current": {
+        "id": "719154",
+        "lastname": "Martin",
+        "firstname": "Didier",
+        "slug": "didier-martin",
+        "gender": "H",
+        "birthday": "1956-08-20",
+        "birthplace": "Clichy (Hauts-de-Seine)",
+        "county": "Côte-d'Or",
+        "countyId": "21",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Neuroradiologue",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 83,
+            "amendments": 364,
+            "amendmentsSupported": 3617,
+            "amendmentsAdopted": 1407,
+            "commissionsAttended": 425,
+            "commissionInterventions": 444,
+            "hemicycleInterventions": 182,
+            "hemicycleShortInterventions": 69,
+            "questionsWritten": 53,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "François-Xavier",
             "lastname": "Dugourd",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 1
         },
         {
-            "id": "719154",
-            "lastname": "Martin",
             "firstname": "Didier",
-            "slug": "didier-martin",
+            "lastname": "Martin",
             "gender": "H",
-            "birthday": "1956-08-20",
-            "birthplace": "Clichy (Hauts-de-Seine)",
-            "county": "Côte-d'Or",
-            "countyId": "21",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Neuroradiologue",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 7,
-                "proposals": 1,
-                "proposalsSupported": 83,
-                "amendments": 364,
-                "amendmentsSupported": 3617,
-                "amendmentsAdopted": 1407,
-                "commissionsAttended": 425,
-                "commissionInterventions": 444,
-                "hemicycleInterventions": 182,
-                "hemicycleShortInterventions": 69,
-                "questionsWritten": 53,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 1
         },
         {
             "firstname": "Antoine",
             "lastname": "Peillon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 1
         },
         {
             "firstname": "Julien",
             "lastname": "Thévenin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 1
         }
     ]
 }

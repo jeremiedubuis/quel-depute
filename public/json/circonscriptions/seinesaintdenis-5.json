@@ -5,102 +5,145 @@
     "results": {
         "firstRound": {
             "registered": 64548,
-            "voted": 42282,
+            "voted": 42283,
             "whites": 604,
-            "expressed": 41353,
-            "void": 325,
+            "expressed": 41355,
+            "void": 324,
             "candidates": {
                 "Nathalie Arthaud": 207,
                 "Fabien Roussel": 890,
                 "Emmanuel Macron": 7789,
                 "Jean Lasalle": 473,
                 "Marine Le Pen": 6088,
-                "Jean-Luc Mélenchon": 20892,
+                "Jean-Luc Mélenchon": 20893,
                 "Anne Hidalgo": 280,
                 "Yannick Jadot": 721,
-                "Valérie Pécresse": 1228,
+                "Valérie Pécresse": 1229,
                 "Phillipe Poutou": 230,
                 "Nicolas Dupont-Aignan": 482,
                 "Eric Zemmour": 2073
             }
+        },
+        "secondRound": {
+            "registered": 64590,
+            "voted": 37228,
+            "whites": 2607,
+            "expressed": 33863,
+            "void": 758,
+            "candidates": {
+                "Emmanuel Macron": 23276,
+                "Marine Le Pen": 10587
+            }
         }
+    },
+    "current": {
+        "id": "268019",
+        "lastname": "Lagarde",
+        "firstname": "Jean-Christophe",
+        "slug": "jeanchristophe-lagarde",
+        "gender": "H",
+        "birthday": "1967-10-24",
+        "birthplace": "Châtellerault (Vienne)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Attaché de direction",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 1,
+            "proposals": 29,
+            "proposalsSupported": 199,
+            "amendments": 636,
+            "amendmentsSupported": 7092,
+            "amendmentsAdopted": 316,
+            "commissionsAttended": 182,
+            "commissionInterventions": 215,
+            "hemicycleInterventions": 1168,
+            "hemicycleShortInterventions": 582,
+            "questionsWritten": 112,
+            "questionsOral": 36
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nabil",
             "lastname": "Aït Akkache",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         },
         {
             "firstname": "Nao",
             "lastname": "Argouse",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         },
         {
             "firstname": "Geoffroy",
             "lastname": "Desbois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         },
         {
             "firstname": "Rodolphe",
             "lastname": "Feger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         },
         {
             "firstname": "Raquel",
             "lastname": "Garrido",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         },
         {
-            "id": "268019",
-            "lastname": "Lagarde",
             "firstname": "Jean-Christophe",
-            "slug": "jeanchristophe-lagarde",
+            "lastname": "Lagarde",
             "gender": "H",
-            "birthday": "1967-10-24",
-            "birthplace": "Châtellerault (Vienne)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Attaché de direction",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 1,
-                "proposals": 29,
-                "proposalsSupported": 199,
-                "amendments": 636,
-                "amendmentsSupported": 7092,
-                "amendmentsAdopted": 316,
-                "commissionsAttended": 182,
-                "commissionInterventions": 215,
-                "hemicycleInterventions": 1168,
-                "hemicycleShortInterventions": 582,
-                "questionsWritten": 111,
-                "questionsOral": 36
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 5
         }
     ]
 }

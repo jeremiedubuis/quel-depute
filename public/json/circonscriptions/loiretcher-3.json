@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 81782,
             "voted": 63094,
-            "whites": 1124,
+            "whites": 1126,
             "expressed": 61490,
-            "void": 480,
+            "void": 478,
             "candidates": {
                 "Nathalie Arthaud": 469,
                 "Fabien Roussel": 1556,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1623,
                 "Eric Zemmour": 4014
             }
+        },
+        "secondRound": {
+            "registered": 81798,
+            "voted": 63750,
+            "whites": 4124,
+            "expressed": 58072,
+            "void": 1554,
+            "candidates": {
+                "Emmanuel Macron": 30767,
+                "Marine Le Pen": 27305
+            }
         }
+    },
+    "current": {
+        "id": "342601",
+        "lastname": "Brindeau",
+        "firstname": "Pascal",
+        "slug": "pascal-brindeau",
+        "gender": "H",
+        "birthday": "1974-06-20",
+        "birthplace": "Vendôme (Loir-et-Cher)",
+        "county": "Loir-et-Cher",
+        "countyId": "41",
+        "circumscription": 3,
+        "mandateStart": "2019-01-10",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Juriste consultant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 111,
+            "reports": 9,
+            "proposals": 6,
+            "proposalsSupported": 79,
+            "amendments": 784,
+            "amendmentsSupported": 5224,
+            "amendmentsAdopted": 206,
+            "commissionsAttended": 174,
+            "commissionInterventions": 473,
+            "hemicycleInterventions": 1247,
+            "hemicycleShortInterventions": 323,
+            "questionsWritten": 162,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marine",
             "lastname": "Bardet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 3
         },
         {
-            "id": "342601",
-            "lastname": "Brindeau",
             "firstname": "Pascal",
-            "slug": "pascal-brindeau",
+            "lastname": "Brindeau",
             "gender": "H",
-            "birthday": "1974-06-20",
-            "birthplace": "Vendôme (Loir-et-Cher)",
-            "county": "Loir-et-Cher",
-            "countyId": "41",
-            "circumscription": 3,
-            "mandateStart": "2019-01-10",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Juriste consultant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 111,
-                "reports": 9,
-                "proposals": 6,
-                "proposalsSupported": 79,
-                "amendments": 784,
-                "amendmentsSupported": 5224,
-                "amendmentsAdopted": 206,
-                "commissionsAttended": 174,
-                "commissionInterventions": 473,
-                "hemicycleInterventions": 1247,
-                "hemicycleShortInterventions": 323,
-                "questionsWritten": 162,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Amélie",
             "lastname": "Buellet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Claude",
             "lastname": "Lamy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Marion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 3
         }
     ]
 }

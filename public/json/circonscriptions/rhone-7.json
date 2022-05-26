@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 70364,
-            "voted": 48899,
-            "whites": 599,
+            "voted": 48900,
+            "whites": 605,
             "expressed": 48021,
-            "void": 279,
+            "void": 274,
             "candidates": {
                 "Nathalie Arthaud": 233,
                 "Fabien Roussel": 876,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 718,
                 "Eric Zemmour": 3269
             }
+        },
+        "secondRound": {
+            "registered": 70485,
+            "voted": 44016,
+            "whites": 2588,
+            "expressed": 40554,
+            "void": 874,
+            "candidates": {
+                "Emmanuel Macron": 27948,
+                "Marine Le Pen": 12606
+            }
         }
+    },
+    "current": {
+        "id": "722300",
+        "lastname": "Khedher",
+        "firstname": "Anissa",
+        "slug": "anissa-khedher",
+        "gender": "F",
+        "birthday": "1980-04-01",
+        "birthplace": "Vénissieux (Rhône)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre hospitalier",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 136,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 82,
+            "amendments": 45,
+            "amendmentsSupported": 3102,
+            "amendmentsAdopted": 1033,
+            "commissionsAttended": 186,
+            "commissionInterventions": 65,
+            "hemicycleInterventions": 53,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 47,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Charlotte",
             "lastname": "Bouhila",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Tiffany",
             "lastname": "Joncour",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Anissa",
             "lastname": "Kheder",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Kader",
             "lastname": "Lahmar",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Thomas",
             "lastname": "Spreux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Alexandre",
             "lastname": "Vincendet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 7
         }
     ]
 }

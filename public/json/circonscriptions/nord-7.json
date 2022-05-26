@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 871,
                 "Eric Zemmour": 3087
             }
+        },
+        "secondRound": {
+            "registered": 73391,
+            "voted": 51195,
+            "whites": 2742,
+            "expressed": 47445,
+            "void": 1008,
+            "candidates": {
+                "Emmanuel Macron": 31186,
+                "Marine Le Pen": 16259
+            }
         }
+    },
+    "current": {
+        "id": "720488",
+        "lastname": "Six",
+        "firstname": "Valérie",
+        "slug": "valerie-six",
+        "gender": "F",
+        "birthday": "1963-01-11",
+        "birthplace": "Séclin (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 7,
+        "mandateStart": "2020-06-23",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Pharmacienne",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 66,
+            "reports": 3,
+            "proposals": 7,
+            "proposalsSupported": 60,
+            "amendments": 472,
+            "amendmentsSupported": 2806,
+            "amendmentsAdopted": 116,
+            "commissionsAttended": 139,
+            "commissionInterventions": 248,
+            "hemicycleInterventions": 341,
+            "hemicycleShortInterventions": 22,
+            "questionsWritten": 18,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jeyan",
             "lastname": "Bichon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
             "firstname": "Karima",
             "lastname": "Chouia",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
             "firstname": "Magali",
             "lastname": "Druon",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
             "firstname": "Félicie",
             "lastname": "Gérard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
             "firstname": "Nicolas",
             "lastname": "Schuurman",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
-            "id": "720488",
-            "lastname": "Six",
             "firstname": "Valérie",
-            "slug": "valerie-six",
+            "lastname": "Six",
             "gender": "F",
-            "birthday": "1963-01-11",
-            "birthplace": "Séclin (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 7,
-            "mandateStart": "2020-06-23",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Pharmacienne",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 66,
-                "reports": 3,
-                "proposals": 7,
-                "proposalsSupported": 60,
-                "amendments": 472,
-                "amendmentsSupported": 2806,
-                "amendmentsAdopted": 116,
-                "commissionsAttended": 139,
-                "commissionInterventions": 248,
-                "hemicycleInterventions": 341,
-                "hemicycleShortInterventions": 22,
-                "questionsWritten": 18,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         },
         {
             "firstname": "Jean-Sébastien",
             "lastname": "Willem",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 7
         }
     ]
 }

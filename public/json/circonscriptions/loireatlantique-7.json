@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1978,
                 "Eric Zemmour": 6404
             }
+        },
+        "secondRound": {
+            "registered": 117003,
+            "voted": 91542,
+            "whites": 6630,
+            "expressed": 83042,
+            "void": 1870,
+            "candidates": {
+                "Emmanuel Macron": 52052,
+                "Marine Le Pen": 30990
+            }
         }
+    },
+    "current": {
+        "id": "720038",
+        "lastname": "Josso",
+        "firstname": "Sandrine",
+        "slug": "sandrine-josso",
+        "gender": "F",
+        "birthday": "1975-09-19",
+        "birthplace": "Guérande (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": "44",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "MODEM",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 125,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 109,
+            "amendments": 73,
+            "amendmentsSupported": 5686,
+            "amendmentsAdopted": 967,
+            "commissionsAttended": 211,
+            "commissionInterventions": 214,
+            "hemicycleInterventions": 41,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 88,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-France",
             "lastname": "Belin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 7
         },
         {
             "firstname": "Donatienne",
             "lastname": "Jossic",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 7
         },
         {
-            "id": "720038",
-            "lastname": "Josso",
             "firstname": "Sandrine",
-            "slug": "sandrine-josso",
+            "lastname": "Josso",
             "gender": "F",
-            "birthday": "1975-09-19",
-            "birthplace": "Guérande (Loire-Atlantique)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 44,
             "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "MODEM",
-            "job": "Autre profession libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 125,
-                "reports": 4,
-                "proposals": 1,
-                "proposalsSupported": 109,
-                "amendments": 73,
-                "amendmentsSupported": 5686,
-                "amendmentsAdopted": 967,
-                "commissionsAttended": 211,
-                "commissionInterventions": 214,
-                "hemicycleInterventions": 41,
-                "hemicycleShortInterventions": 2,
-                "questionsWritten": 88,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Laurence",
             "lastname": "Le Page",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 7
         },
         {
             "firstname": "Véronique",
             "lastname": "Mahe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 7
         },
         {
             "firstname": "Bertrand",
             "lastname": "Plouvier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 7
         }
     ]
 }

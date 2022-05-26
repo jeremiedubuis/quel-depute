@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 57253,
             "voted": 45374,
-            "whites": 733,
-            "expressed": 44275,
-            "void": 366,
+            "whites": 745,
+            "expressed": 44277,
+            "void": 352,
             "candidates": {
                 "Nathalie Arthaud": 218,
                 "Fabien Roussel": 1419,
-                "Emmanuel Macron": 8644,
+                "Emmanuel Macron": 8645,
                 "Jean Lasalle": 3544,
                 "Marine Le Pen": 10152,
                 "Jean-Luc Mélenchon": 12129,
@@ -21,78 +21,117 @@
                 "Valérie Pécresse": 1218,
                 "Phillipe Poutou": 379,
                 "Nicolas Dupont-Aignan": 750,
-                "Eric Zemmour": 2644
+                "Eric Zemmour": 2645
+            }
+        },
+        "secondRound": {
+            "registered": 57252,
+            "voted": 42959,
+            "whites": 4372,
+            "expressed": 36743,
+            "void": 1844,
+            "candidates": {
+                "Emmanuel Macron": 19439,
+                "Marine Le Pen": 17304
             }
         }
+    },
+    "current": {
+        "id": "718860",
+        "lastname": "Taurine",
+        "firstname": "Bénédicte",
+        "slug": "benedicte-taurine",
+        "gender": "F",
+        "birthday": "1976-06-18",
+        "birthplace": "Lavelanet (Ariège)",
+        "county": "Ariège",
+        "countyId": "09",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 140,
+            "reports": 8,
+            "proposals": 6,
+            "proposalsSupported": 177,
+            "amendments": 3189,
+            "amendmentsSupported": 18901,
+            "amendmentsAdopted": 222,
+            "commissionsAttended": 202,
+            "commissionInterventions": 344,
+            "hemicycleInterventions": 486,
+            "hemicycleShortInterventions": 127,
+            "questionsWritten": 54,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Renaud",
             "lastname": "Fabart",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 9,
+            "county": "Ariège",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Garnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 9,
+            "county": "Ariège",
+            "circumscription": 1
         },
         {
             "firstname": "Gisèle",
             "lastname": "Lapeyre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 9,
+            "county": "Ariège",
+            "circumscription": 1
         },
         {
-            "id": "718860",
-            "lastname": "Taurine",
             "firstname": "Bénédicte",
-            "slug": "benedicte-taurine",
+            "lastname": "Taurine",
             "gender": "F",
-            "birthday": "1976-06-18",
-            "birthplace": "Lavelanet (Ariège)",
-            "county": "Ariège",
-            "countyId": "09",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Professeur du secondaire et technique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 140,
-                "reports": 8,
-                "proposals": 6,
-                "proposalsSupported": 177,
-                "amendments": 3189,
-                "amendmentsSupported": 18901,
-                "amendmentsAdopted": 222,
-                "commissionsAttended": 202,
-                "commissionInterventions": 344,
-                "hemicycleInterventions": 486,
-                "hemicycleShortInterventions": 127,
-                "questionsWritten": 54,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 9,
+            "county": "Ariège",
+            "circumscription": 1
         },
         {
             "firstname": "Anne-Sophie",
             "lastname": "Tribout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 9,
+            "county": "Ariège",
+            "circumscription": 1
         }
     ]
 }

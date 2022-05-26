@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1331,
                 "Eric Zemmour": 4002
             }
+        },
+        "secondRound": {
+            "registered": 92892,
+            "voted": 68353,
+            "whites": 3441,
+            "expressed": 63421,
+            "void": 1491,
+            "candidates": {
+                "Emmanuel Macron": 24868,
+                "Marine Le Pen": 38553
+            }
         }
+    },
+    "current": {
+        "id": "720520",
+        "lastname": "Cattelot",
+        "firstname": "Anne-Laure",
+        "slug": "annelaure-cattelot",
+        "gender": "F",
+        "birthday": "1988-10-25",
+        "birthplace": "Maubeuge (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Conseillère Développement économique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 150,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 218,
+            "amendmentsSupported": 2510,
+            "amendmentsAdopted": 1214,
+            "commissionsAttended": 230,
+            "commissionInterventions": 227,
+            "hemicycleInterventions": 222,
+            "hemicycleShortInterventions": 92,
+            "questionsWritten": 36,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720520",
-            "lastname": "Cattelot",
             "firstname": "Anne-Laure",
-            "slug": "annelaure-cattelot",
+            "lastname": "Cattelot",
             "gender": "F",
-            "birthday": "1988-10-25",
-            "birthplace": "Maubeuge (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Conseillère Développement économique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 150,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 76,
-                "amendments": 218,
-                "amendmentsSupported": 2510,
-                "amendmentsAdopted": 1214,
-                "commissionsAttended": 230,
-                "commissionInterventions": 227,
-                "hemicycleInterventions": 222,
-                "hemicycleShortInterventions": 92,
-                "questionsWritten": 36,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 12
         },
         {
             "firstname": "Claude",
             "lastname": "Dupont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 12
         },
         {
             "firstname": "Laurent",
             "lastname": "Lehrhaupt",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 12
         },
         {
             "firstname": "Michaël",
             "lastname": "Taverne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 12
         },
         {
             "firstname": "Malik",
             "lastname": "Yahiatène",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 12
         }
     ]
 }

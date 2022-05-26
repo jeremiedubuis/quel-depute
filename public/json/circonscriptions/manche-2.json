@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 2016,
                 "Eric Zemmour": 3586
             }
+        },
+        "secondRound": {
+            "registered": 96984,
+            "voted": 75023,
+            "whites": 4389,
+            "expressed": 68885,
+            "void": 1749,
+            "candidates": {
+                "Emmanuel Macron": 42715,
+                "Marine Le Pen": 26170
+            }
         }
+    },
+    "current": {
+        "id": "720190",
+        "lastname": "Sorre",
+        "firstname": "Bertrand",
+        "slug": "bertrand-sorre",
+        "gender": "H",
+        "birthday": "1965-05-08",
+        "birthplace": "Cherbourg (Manche)",
+        "county": "Manche",
+        "countyId": "50",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Enseignant 1er degré-directeur d'école (en disponibilité)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 91,
+            "amendments": 105,
+            "amendmentsSupported": 2955,
+            "amendmentsAdopted": 1132,
+            "commissionsAttended": 187,
+            "commissionInterventions": 180,
+            "hemicycleInterventions": 101,
+            "hemicycleShortInterventions": 51,
+            "questionsWritten": 230,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Valérie",
             "lastname": "Gouzien",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 2
         },
         {
             "firstname": "Patrick",
             "lastname": "Grimbert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 2
         },
         {
             "firstname": "Marie-Françoise",
             "lastname": "Kurdziel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 2
         },
         {
-            "id": "720190",
-            "lastname": "Sorre",
             "firstname": "Bertrand",
-            "slug": "bertrand-sorre",
+            "lastname": "Sorre",
             "gender": "H",
-            "birthday": "1965-05-08",
-            "birthplace": "Cherbourg (Manche)",
-            "county": "Manche",
-            "countyId": "50",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Enseignant 1er degré-directeur d'école (en disponibilité)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 91,
-                "amendments": 105,
-                "amendmentsSupported": 2955,
-                "amendmentsAdopted": 1132,
-                "commissionsAttended": 187,
-                "commissionInterventions": 180,
-                "hemicycleInterventions": 101,
-                "hemicycleShortInterventions": 51,
-                "questionsWritten": 230,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 2
         },
         {
             "firstname": "Mai",
             "lastname": "Tran",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 2
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 71683,
             "voted": 58123,
-            "whites": 686,
+            "whites": 690,
             "expressed": 57237,
-            "void": 200,
+            "void": 196,
             "candidates": {
                 "Nathalie Arthaud": 232,
                 "Fabien Roussel": 1013,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 648,
                 "Eric Zemmour": 3700
             }
+        },
+        "secondRound": {
+            "registered": 71727,
+            "voted": 53436,
+            "whites": 3090,
+            "expressed": 49554,
+            "void": 792,
+            "candidates": {
+                "Emmanuel Macron": 39946,
+                "Marine Le Pen": 9608
+            }
         }
+    },
+    "current": {
+        "id": "334768",
+        "lastname": "Touraine",
+        "firstname": "Jean-Louis",
+        "slug": "jeanlouis-touraine",
+        "gender": "H",
+        "birthday": "1945-10-08",
+        "birthplace": "Lyon (3ème arrondissement) (Rhône)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur de médecine",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 8,
+            "proposals": 3,
+            "proposalsSupported": 101,
+            "amendments": 480,
+            "amendmentsSupported": 3094,
+            "amendmentsAdopted": 1434,
+            "commissionsAttended": 350,
+            "commissionInterventions": 986,
+            "hemicycleInterventions": 706,
+            "hemicycleShortInterventions": 180,
+            "questionsWritten": 76,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Béatrice",
             "lastname": "de Montille",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-Noël",
             "lastname": "Dudukdjian",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Charlotte",
             "lastname": "Garin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 3
         },
         {
             "firstname": "Sarah",
             "lastname": "Peillon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 3
         },
         {
             "firstname": "Gérard",
             "lastname": "Vollory",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 3
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 80563,
             "voted": 55558,
-            "whites": 726,
+            "whites": 741,
             "expressed": 54463,
-            "void": 369,
+            "void": 354,
             "candidates": {
                 "Nathalie Arthaud": 374,
                 "Fabien Roussel": 1717,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1237,
                 "Eric Zemmour": 3515
             }
+        },
+        "secondRound": {
+            "registered": 80563,
+            "voted": 54706,
+            "whites": 3333,
+            "expressed": 50137,
+            "void": 1236,
+            "candidates": {
+                "Emmanuel Macron": 24680,
+                "Marine Le Pen": 25457
+            }
         }
+    },
+    "current": {
+        "id": "720402",
+        "lastname": "Paluszkiewicz",
+        "firstname": "Xavier",
+        "slug": "xavier-paluszkiewicz",
+        "gender": "H",
+        "birthday": "1972-12-13",
+        "birthplace": "Villerupt (Meurthe-et-Moselle)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": "54",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employé (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 172,
+            "reports": 10,
+            "proposals": 2,
+            "proposalsSupported": 78,
+            "amendments": 357,
+            "amendmentsSupported": 2933,
+            "amendmentsAdopted": 1138,
+            "commissionsAttended": 384,
+            "commissionInterventions": 188,
+            "hemicycleInterventions": 144,
+            "hemicycleShortInterventions": 46,
+            "questionsWritten": 138,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Xavier",
             "lastname": "Beaudouin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Xavier",
             "lastname": "Boury",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Muriel",
             "lastname": "Di Rezze",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Martine",
             "lastname": "Etienne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 3
         },
         {
-            "id": "720402",
-            "lastname": "Paluszkiewicz",
             "firstname": "Xavier",
-            "slug": "xavier-paluszkiewicz",
+            "lastname": "Paluszkiewicz",
             "gender": "H",
-            "birthday": "1972-12-13",
-            "birthplace": "Villerupt (Meurthe-et-Moselle)",
-            "county": "Meurthe-et-Moselle",
-            "countyId": "54",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Employé (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 172,
-                "reports": 10,
-                "proposals": 2,
-                "proposalsSupported": 78,
-                "amendments": 357,
-                "amendmentsSupported": 2933,
-                "amendmentsAdopted": 1138,
-                "commissionsAttended": 384,
-                "commissionInterventions": 188,
-                "hemicycleInterventions": 144,
-                "hemicycleShortInterventions": 46,
-                "questionsWritten": 138,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 3
         }
     ]
 }

@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 59812,
-            "voted": 48133,
-            "whites": 728,
-            "expressed": 46995,
-            "void": 410,
+            "voted": 48132,
+            "whites": 741,
+            "expressed": 46996,
+            "void": 395,
             "candidates": {
                 "Nathalie Arthaud": 235,
                 "Fabien Roussel": 1343,
@@ -18,89 +18,132 @@
                 "Jean-Luc Mélenchon": 9153,
                 "Anne Hidalgo": 1045,
                 "Yannick Jadot": 1736,
-                "Valérie Pécresse": 3038,
+                "Valérie Pécresse": 3039,
                 "Phillipe Poutou": 426,
                 "Nicolas Dupont-Aignan": 913,
                 "Eric Zemmour": 3148
             }
+        },
+        "secondRound": {
+            "registered": 59800,
+            "voted": 46702,
+            "whites": 3950,
+            "expressed": 40708,
+            "void": 2044,
+            "candidates": {
+                "Emmanuel Macron": 22064,
+                "Marine Le Pen": 18644
+            }
         }
+    },
+    "current": {
+        "id": "266788",
+        "lastname": "Morel-À-L'Huissier",
+        "firstname": "Pierre",
+        "slug": "pierre-morelalhuissier",
+        "gender": "H",
+        "birthday": "1958-12-21",
+        "birthplace": "Strasbourg (Bas-Rhin)",
+        "county": "Lozère",
+        "countyId": "48",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "UDI",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 154,
+            "reports": 6,
+            "proposals": 85,
+            "proposalsSupported": 283,
+            "amendments": 766,
+            "amendmentsSupported": 7515,
+            "amendmentsAdopted": 321,
+            "commissionsAttended": 223,
+            "commissionInterventions": 205,
+            "hemicycleInterventions": 202,
+            "hemicycleShortInterventions": 92,
+            "questionsWritten": 224,
+            "questionsOral": 20
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dorian",
             "lastname": "Blayac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         },
         {
             "firstname": "Sandrine",
             "lastname": "Descaves",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         },
         {
-            "id": "266788",
-            "lastname": "Morel-À-L'Huissier",
             "firstname": "Pierre",
-            "slug": "pierre-morelalhuissier",
+            "lastname": "Morel-à-l’Huissier",
             "gender": "H",
-            "birthday": "1958-12-21",
-            "birthplace": "Strasbourg (Bas-Rhin)",
-            "county": "Lozère",
-            "countyId": "48",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 154,
-                "reports": 6,
-                "proposals": 85,
-                "proposalsSupported": 283,
-                "amendments": 766,
-                "amendmentsSupported": 7515,
-                "amendmentsAdopted": 321,
-                "commissionsAttended": 223,
-                "commissionInterventions": 205,
-                "hemicycleInterventions": 202,
-                "hemicycleShortInterventions": 92,
-                "questionsWritten": 224,
-                "questionsOral": 20
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-François",
             "lastname": "Pardigon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         },
         {
             "firstname": "Annie",
             "lastname": "Souchon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Suau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 48,
+            "county": "Lozère",
+            "circumscription": 1
         }
     ]
 }

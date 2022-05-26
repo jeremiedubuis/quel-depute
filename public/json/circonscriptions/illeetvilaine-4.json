@@ -4,15 +4,15 @@
     "name": "Ille-et-Vilaine",
     "results": {
         "firstRound": {
-            "registered": 95385,
-            "voted": 76104,
-            "whites": 1322,
-            "expressed": 74267,
-            "void": 515,
+            "registered": 95367,
+            "voted": 76103,
+            "whites": 1339,
+            "expressed": 74266,
+            "void": 498,
             "candidates": {
                 "Nathalie Arthaud": 539,
                 "Fabien Roussel": 1621,
-                "Emmanuel Macron": 23245,
+                "Emmanuel Macron": 23244,
                 "Jean Lasalle": 2082,
                 "Marine Le Pen": 16439,
                 "Jean-Luc Mélenchon": 15763,
@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 1694,
                 "Eric Zemmour": 3259
             }
+        },
+        "secondRound": {
+            "registered": 95439,
+            "voted": 75082,
+            "whites": 5380,
+            "expressed": 67965,
+            "void": 1737,
+            "candidates": {
+                "Emmanuel Macron": 42721,
+                "Marine Le Pen": 25244
+            }
         }
+    },
+    "current": {
+        "id": "719728",
+        "lastname": "Le Bohec",
+        "firstname": "Gaël",
+        "slug": "gael-le-bohec",
+        "gender": "H",
+        "birthday": "1977-11-04",
+        "birthplace": "Saint-Brieuc (Côtes-d'Armor)",
+        "county": "Ille-et-Vilaine",
+        "countyId": "35",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Entrepreneur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 210,
+            "amendmentsSupported": 2835,
+            "amendmentsAdopted": 1192,
+            "commissionsAttended": 319,
+            "commissionInterventions": 255,
+            "hemicycleInterventions": 129,
+            "hemicycleShortInterventions": 55,
+            "questionsWritten": 32,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Céline",
             "lastname": "Blatéron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Sandra",
             "lastname": "Chirazi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Jocelyne",
             "lastname": "Devriendt",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Ludovic",
             "lastname": "Hautier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Mathilde",
             "lastname": "Hignet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Gabriel",
             "lastname": "Orain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Anne",
             "lastname": "Patault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         },
         {
             "firstname": "Sarah",
             "lastname": "Tetaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 4
         }
     ]
 }

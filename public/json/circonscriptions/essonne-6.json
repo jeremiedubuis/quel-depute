@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1084,
                 "Eric Zemmour": 3842
             }
+        },
+        "secondRound": {
+            "registered": 82770,
+            "voted": 59478,
+            "whites": 3598,
+            "expressed": 54704,
+            "void": 1176,
+            "candidates": {
+                "Emmanuel Macron": 39975,
+                "Marine Le Pen": 14729
+            }
         }
+    },
+    "current": {
+        "id": "721674",
+        "lastname": "Atger",
+        "firstname": "Stéphanie",
+        "slug": "stephanie-atger",
+        "gender": "F",
+        "birthday": "1975-10-11",
+        "birthplace": "Sarcelles (Val-d'Oise)",
+        "county": "Essonne",
+        "countyId": "91",
+        "circumscription": 6,
+        "mandateStart": "2019-05-01",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ecrivain public",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 110,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 52,
+            "amendments": 43,
+            "amendmentsSupported": 1871,
+            "amendmentsAdopted": 893,
+            "commissionsAttended": 189,
+            "commissionInterventions": 65,
+            "hemicycleInterventions": 59,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 29,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Esther",
             "lastname": "Bommelaer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
-            "id": "721670",
-            "lastname": "Montchalin (de)",
             "firstname": "Amélie",
-            "slug": "amelie-de-montchalin",
+            "lastname": "de Montchalin",
             "gender": "F",
-            "birthday": "1985-06-19",
-            "birthplace": "Lyon 08 (Rhône)",
-            "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 71,
-                "reports": 13,
-                "proposals": 1,
-                "proposalsSupported": 20,
-                "amendments": 180,
-                "amendmentsSupported": 707,
-                "amendmentsAdopted": 430,
-                "commissionsAttended": 186,
-                "commissionInterventions": 363,
-                "hemicycleInterventions": 452,
-                "hemicycleShortInterventions": 352,
-                "questionsWritten": 2,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
             "firstname": "Jérôme",
             "lastname": "Guedj",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
             "firstname": "Chantal",
             "lastname": "Lacarrière",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
             "firstname": "Brigitte",
             "lastname": "Leuliet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
             "firstname": "Elisabeth",
             "lastname": "Piotelat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         },
         {
             "firstname": "Bastien",
             "lastname": "Vayssière",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 6
         }
     ]
 }

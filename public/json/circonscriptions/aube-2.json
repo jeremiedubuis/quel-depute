@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 74910,
             "voted": 56434,
-            "whites": 839,
-            "expressed": 55201,
-            "void": 394,
+            "whites": 838,
+            "expressed": 55203,
+            "void": 393,
             "candidates": {
                 "Nathalie Arthaud": 388,
                 "Fabien Roussel": 1122,
                 "Emmanuel Macron": 14529,
                 "Jean Lasalle": 1374,
-                "Marine Le Pen": 17874,
+                "Marine Le Pen": 17875,
                 "Jean-Luc Mélenchon": 7858,
                 "Anne Hidalgo": 638,
                 "Yannick Jadot": 1873,
                 "Valérie Pécresse": 3311,
                 "Phillipe Poutou": 357,
-                "Nicolas Dupont-Aignan": 1456,
+                "Nicolas Dupont-Aignan": 1457,
                 "Eric Zemmour": 4421
+            }
+        },
+        "secondRound": {
+            "registered": 74941,
+            "voted": 57060,
+            "whites": 3294,
+            "expressed": 52657,
+            "void": 1109,
+            "candidates": {
+                "Emmanuel Macron": 25655,
+                "Marine Le Pen": 27002
             }
         }
     },
+    "current": {
+        "id": "718884",
+        "lastname": "Bazin-Malgras",
+        "firstname": "Valérie",
+        "slug": "valerie-bazinmalgras",
+        "gender": "F",
+        "birthday": "1969-10-31",
+        "birthplace": "Romilly-sur-Seine (Aube)",
+        "county": "Aube",
+        "countyId": "10",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Commerçante",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 3,
+            "proposals": 30,
+            "proposalsSupported": 628,
+            "amendments": 1579,
+            "amendmentsSupported": 29813,
+            "amendmentsAdopted": 680,
+            "commissionsAttended": 212,
+            "commissionInterventions": 194,
+            "hemicycleInterventions": 232,
+            "hemicycleShortInterventions": 81,
+            "questionsWritten": 249,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "718884",
-            "lastname": "Bazin-Malgras",
             "firstname": "Valérie",
-            "slug": "valerie-bazinmalgras",
+            "lastname": "Bazin-Malgras",
             "gender": "F",
-            "birthday": "1969-10-31",
-            "birthplace": "Romilly-sur-Seine (Aube)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 10,
             "county": "Aube",
-            "countyId": "10",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Commerçante",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 3,
-                "proposals": 30,
-                "proposalsSupported": 628,
-                "amendments": 1579,
-                "amendmentsSupported": 29813,
-                "amendmentsAdopted": 680,
-                "commissionsAttended": 212,
-                "commissionInterventions": 194,
-                "hemicycleInterventions": 232,
-                "hemicycleShortInterventions": 81,
-                "questionsWritten": 249,
-                "questionsOral": 15
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Sébastien",
             "lastname": "Beaufumé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 2
         },
         {
             "firstname": "Salomé",
             "lastname": "Fontaine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 2
         },
         {
             "firstname": "Sarah",
             "lastname": "Fraincart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 2
         },
         {
             "firstname": "Evelyne",
             "lastname": "Henry",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 2
         },
         {
             "firstname": "Romain",
             "lastname": "Vallée",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 2
         }
     ]
 }

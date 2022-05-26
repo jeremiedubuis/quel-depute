@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1452,
                 "Eric Zemmour": 3555
             }
+        },
+        "secondRound": {
+            "registered": 76587,
+            "voted": 56647,
+            "whites": 3245,
+            "expressed": 52151,
+            "void": 1251,
+            "candidates": {
+                "Emmanuel Macron": 27044,
+                "Marine Le Pen": 25107
+            }
         }
+    },
+    "current": {
+        "id": "721474",
+        "lastname": "Viry",
+        "firstname": "Stéphane",
+        "slug": "stephane-viry",
+        "gender": "H",
+        "birthday": "1969-10-14",
+        "birthplace": "Épinal (Vosges)",
+        "county": "Vosges",
+        "countyId": "88",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 173,
+            "reports": 8,
+            "proposals": 54,
+            "proposalsSupported": 741,
+            "amendments": 1438,
+            "amendmentsSupported": 14837,
+            "amendmentsAdopted": 377,
+            "commissionsAttended": 342,
+            "commissionInterventions": 568,
+            "hemicycleInterventions": 712,
+            "hemicycleShortInterventions": 144,
+            "questionsWritten": 199,
+            "questionsOral": 23
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Evelyne",
             "lastname": "Abbot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         },
         {
             "firstname": "Jules",
             "lastname": "Fetet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         },
         {
             "firstname": "Anne-Sophie",
             "lastname": "Monange",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         },
         {
             "firstname": "Emmie",
             "lastname": "Moons",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         },
         {
             "firstname": "Elisabetta",
             "lastname": "Rossato",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         },
         {
-            "id": "721474",
-            "lastname": "Viry",
             "firstname": "Stéphane",
-            "slug": "stephane-viry",
+            "lastname": "Viry",
             "gender": "H",
-            "birthday": "1969-10-14",
-            "birthplace": "Épinal (Vosges)",
-            "county": "Vosges",
-            "countyId": "88",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 173,
-                "reports": 8,
-                "proposals": 54,
-                "proposalsSupported": 741,
-                "amendments": 1438,
-                "amendmentsSupported": 14837,
-                "amendmentsAdopted": 377,
-                "commissionsAttended": 342,
-                "commissionInterventions": 568,
-                "hemicycleInterventions": 712,
-                "hemicycleShortInterventions": 144,
-                "questionsWritten": 199,
-                "questionsOral": 23
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 1
         }
     ]
 }

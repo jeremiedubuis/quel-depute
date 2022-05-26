@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1372,
                 "Eric Zemmour": 3346
             }
+        },
+        "secondRound": {
+            "registered": 79616,
+            "voted": 60710,
+            "whites": 3522,
+            "expressed": 55648,
+            "void": 1540,
+            "candidates": {
+                "Emmanuel Macron": 27811,
+                "Marine Le Pen": 27837
+            }
         }
+    },
+    "current": {
+        "id": "340853",
+        "lastname": "Leclerc",
+        "firstname": "Sébastien",
+        "slug": "sebastien-leclerc",
+        "gender": "H",
+        "birthday": "1970-03-28",
+        "birthplace": "Lisieux (Calvados)",
+        "county": "Calvados",
+        "countyId": "14",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 104,
+            "reports": 0,
+            "proposals": 14,
+            "proposalsSupported": 330,
+            "amendments": 294,
+            "amendmentsSupported": 11195,
+            "amendmentsAdopted": 309,
+            "commissionsAttended": 135,
+            "commissionInterventions": 52,
+            "hemicycleInterventions": 189,
+            "hemicycleShortInterventions": 210,
+            "questionsWritten": 130,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Didier",
             "lastname": "Canu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 3
         },
         {
             "firstname": "Johann",
             "lastname": "Guzman Vélez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 3
         },
         {
             "firstname": "Michel",
             "lastname": "Langevin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 3
         },
         {
             "firstname": "Jérémie",
             "lastname": "Patrier-Leitus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 3
         },
         {
             "firstname": "Martine",
             "lastname": "Vilmet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 3
         }
     ]
 }

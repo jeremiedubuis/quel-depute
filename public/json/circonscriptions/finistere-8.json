@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 90828,
-            "voted": 70537,
+            "voted": 70539,
             "whites": 1091,
-            "expressed": 68881,
+            "expressed": 68883,
             "void": 565,
             "candidates": {
                 "Nathalie Arthaud": 543,
                 "Fabien Roussel": 2119,
-                "Emmanuel Macron": 20287,
+                "Emmanuel Macron": 20289,
                 "Jean Lasalle": 2592,
                 "Marine Le Pen": 14376,
                 "Jean-Luc Mélenchon": 14688,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1281,
                 "Eric Zemmour": 3507
             }
+        },
+        "secondRound": {
+            "registered": 90854,
+            "voted": 69425,
+            "whites": 5559,
+            "expressed": 61746,
+            "void": 2120,
+            "candidates": {
+                "Emmanuel Macron": 38832,
+                "Marine Le Pen": 22914
+            }
         }
+    },
+    "current": {
+        "id": "719558",
+        "lastname": "Balanant",
+        "firstname": "Erwan",
+        "slug": "erwan-balanant",
+        "gender": "H",
+        "birthday": "1971-02-21",
+        "birthplace": "Lorient (Morbihan)",
+        "county": "Finistère",
+        "countyId": "29",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Photographe et réalisateur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 192,
+            "reports": 18,
+            "proposals": 7,
+            "proposalsSupported": 85,
+            "amendments": 538,
+            "amendmentsSupported": 4443,
+            "amendmentsAdopted": 925,
+            "commissionsAttended": 370,
+            "commissionInterventions": 974,
+            "hemicycleInterventions": 1223,
+            "hemicycleShortInterventions": 2470,
+            "questionsWritten": 32,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719558",
-            "lastname": "Balanant",
             "firstname": "Erwan",
-            "slug": "erwan-balanant",
+            "lastname": "Balanant",
             "gender": "H",
-            "birthday": "1971-02-21",
-            "birthplace": "Lorient (Morbihan)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 29,
             "county": "Finistère",
-            "countyId": "29",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Photographe et réalisateur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 192,
-                "reports": 18,
-                "proposals": 7,
-                "proposalsSupported": 85,
-                "amendments": 538,
-                "amendmentsSupported": 4443,
-                "amendmentsAdopted": 925,
-                "commissionsAttended": 370,
-                "commissionInterventions": 974,
-                "hemicycleInterventions": 1223,
-                "hemicycleShortInterventions": 2470,
-                "questionsWritten": 32,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Claire",
             "lastname": "Gourlaouen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 8
         },
         {
             "firstname": "Youenn",
             "lastname": "Le Flao",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 8
         },
         {
             "firstname": "Anne",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 8
         },
         {
             "firstname": "Claire",
             "lastname": "Paingault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 8
         },
         {
             "firstname": "Christian",
             "lastname": "Perez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 8
         }
     ]
 }

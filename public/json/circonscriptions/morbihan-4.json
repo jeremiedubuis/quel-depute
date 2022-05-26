@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 2041,
                 "Eric Zemmour": 4590
             }
+        },
+        "secondRound": {
+            "registered": 111310,
+            "voted": 87934,
+            "whites": 6166,
+            "expressed": 79899,
+            "void": 1869,
+            "candidates": {
+                "Emmanuel Macron": 46582,
+                "Marine Le Pen": 33317
+            }
         }
+    },
+    "current": {
+        "id": "607619",
+        "lastname": "Molac",
+        "firstname": "Paul",
+        "slug": "paul-molac",
+        "gender": "H",
+        "birthday": "1962-05-21",
+        "birthplace": "Ploërmel (Morbihan)",
+        "county": "Morbihan",
+        "countyId": "56",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Professeur du secondaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 184,
+            "reports": 9,
+            "proposals": 2,
+            "proposalsSupported": 102,
+            "amendments": 909,
+            "amendmentsSupported": 9027,
+            "amendmentsAdopted": 526,
+            "commissionsAttended": 366,
+            "commissionInterventions": 668,
+            "hemicycleInterventions": 851,
+            "hemicycleShortInterventions": 236,
+            "questionsWritten": 223,
+            "questionsOral": 31
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patrice",
             "lastname": "Crunil",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
             "firstname": "Florent",
             "lastname": "De Kersauzon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
             "firstname": "Lhéa Le",
             "lastname": "Flecher",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
             "firstname": "Rozenn",
             "lastname": "Guégan",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
             "firstname": "Beatrice",
             "lastname": "Laigre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
             "firstname": "Béatrice",
             "lastname": "Marin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         },
         {
-            "id": "607619",
-            "lastname": "Molac",
             "firstname": "Paul",
-            "slug": "paul-molac",
+            "lastname": "Molac",
             "gender": "H",
-            "birthday": "1962-05-21",
-            "birthplace": "Ploërmel (Morbihan)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "",
+            "groupShort": "",
+            "countyId": 56,
             "county": "Morbihan",
-            "countyId": "56",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Régions et peuples solidaires",
-            "groupShort": "LT",
-            "job": "Professeur du secondaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 184,
-                "reports": 9,
-                "proposals": 2,
-                "proposalsSupported": 102,
-                "amendments": 909,
-                "amendmentsSupported": 9027,
-                "amendmentsAdopted": 526,
-                "commissionsAttended": 366,
-                "commissionInterventions": 668,
-                "hemicycleInterventions": 851,
-                "hemicycleShortInterventions": 236,
-                "questionsWritten": 222,
-                "questionsOral": 31
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Sophie",
             "lastname": "Régnier",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 4
         }
     ]
 }

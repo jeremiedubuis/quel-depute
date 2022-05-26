@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1745,
                 "Eric Zemmour": 5417
             }
+        },
+        "secondRound": {
+            "registered": 98272,
+            "voted": 73513,
+            "whites": 4729,
+            "expressed": 67426,
+            "void": 1358,
+            "candidates": {
+                "Emmanuel Macron": 43923,
+                "Marine Le Pen": 23503
+            }
         }
+    },
+    "current": {
+        "id": "722252",
+        "lastname": "Rixain",
+        "firstname": "Marie-Pierre",
+        "slug": "mariepierre-rixain",
+        "gender": "F",
+        "birthday": "1977-01-18",
+        "birthplace": "Saint-Cyr-l'Ecole (Yvelines)",
+        "county": "Essonne",
+        "countyId": "91",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Consultante en communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 15,
+            "proposals": 6,
+            "proposalsSupported": 70,
+            "amendments": 291,
+            "amendmentsSupported": 2441,
+            "amendmentsAdopted": 1251,
+            "commissionsAttended": 213,
+            "commissionInterventions": 547,
+            "hemicycleInterventions": 159,
+            "hemicycleShortInterventions": 63,
+            "questionsWritten": 78,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alain",
             "lastname": "Boutaleb",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Coquelet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         },
         {
             "firstname": "Amadou",
             "lastname": "Deme",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         },
         {
             "firstname": "Jérémy",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         },
         {
             "firstname": "Juliette",
             "lastname": "Plouin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         },
         {
-            "id": "722252",
-            "lastname": "Rixain",
             "firstname": "Marie-Pierre",
-            "slug": "mariepierre-rixain",
-            "gender": "F",
-            "birthday": "1977-01-18",
-            "birthplace": "Saint-Cyr-l'Ecole (Yvelines)",
-            "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "lastname": "Rixain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Consultante en communication",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 149,
-                "reports": 15,
-                "proposals": 6,
-                "proposalsSupported": 70,
-                "amendments": 291,
-                "amendmentsSupported": 2441,
-                "amendmentsAdopted": 1251,
-                "commissionsAttended": 213,
-                "commissionInterventions": 547,
-                "hemicycleInterventions": 159,
-                "hemicycleShortInterventions": 63,
-                "questionsWritten": 78,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 4
         }
     ]
 }

@@ -4,11 +4,11 @@
     "name": "Loir-et-Cher",
     "results": {
         "firstRound": {
-            "registered": 80304,
+            "registered": 80308,
             "voted": 60774,
-            "whites": 1040,
+            "whites": 1047,
             "expressed": 59252,
-            "void": 482,
+            "void": 475,
             "candidates": {
                 "Nathalie Arthaud": 391,
                 "Fabien Roussel": 1507,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1462,
                 "Eric Zemmour": 4744
             }
+        },
+        "secondRound": {
+            "registered": 80291,
+            "voted": 61358,
+            "whites": 3639,
+            "expressed": 56203,
+            "void": 1516,
+            "candidates": {
+                "Emmanuel Macron": 27584,
+                "Marine Le Pen": 28619
+            }
         }
+    },
+    "current": {
+        "id": "719946",
+        "lastname": "Peltier",
+        "firstname": "Guillaume",
+        "slug": "guillaume-peltier",
+        "gender": "H",
+        "birthday": "1976-08-27",
+        "birthplace": "Paris 14 (Paris)",
+        "county": "Loir-et-Cher",
+        "countyId": "41",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "NI",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 96,
+            "reports": 2,
+            "proposals": 96,
+            "proposalsSupported": 450,
+            "amendments": 14,
+            "amendmentsSupported": 2796,
+            "amendmentsAdopted": 97,
+            "commissionsAttended": 76,
+            "commissionInterventions": 13,
+            "hemicycleInterventions": 56,
+            "hemicycleShortInterventions": 13,
+            "questionsWritten": 76,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascal",
             "lastname": "Bioulac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 2
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Chaplaut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 2
         },
         {
             "firstname": "Roger",
             "lastname": "Chudeau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 2
         },
         {
             "firstname": "Jérémie",
             "lastname": "Demaline",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 2
         },
         {
             "firstname": "Caroline",
             "lastname": "Maidon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 41,
+            "county": "Loir-et-Cher",
+            "circumscription": 2
         },
         {
-            "id": "719946",
-            "lastname": "Peltier",
             "firstname": "Guillaume",
-            "slug": "guillaume-peltier",
+            "lastname": "Peltier",
             "gender": "H",
-            "birthday": "1976-08-27",
-            "birthplace": "Paris 14 (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 41,
             "county": "Loir-et-Cher",
-            "countyId": "41",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "NI",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 96,
-                "reports": 2,
-                "proposals": 96,
-                "proposalsSupported": 450,
-                "amendments": 14,
-                "amendmentsSupported": 2796,
-                "amendmentsAdopted": 97,
-                "commissionsAttended": 76,
-                "commissionInterventions": 13,
-                "hemicycleInterventions": 56,
-                "hemicycleShortInterventions": 13,
-                "questionsWritten": 76,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         }
     ]
 }

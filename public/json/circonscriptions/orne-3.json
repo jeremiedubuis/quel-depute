@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 1312,
                 "Eric Zemmour": 2768
             }
+        },
+        "secondRound": {
+            "registered": 71091,
+            "voted": 54222,
+            "whites": 3448,
+            "expressed": 49494,
+            "void": 1280,
+            "candidates": {
+                "Emmanuel Macron": 27726,
+                "Marine Le Pen": 21768
+            }
         }
+    },
+    "current": {
+        "id": "720644",
+        "lastname": "Nury",
+        "firstname": "Jérôme",
+        "slug": "jerome-nury",
+        "gender": "H",
+        "birthday": "1972-08-25",
+        "birthplace": "Valence (Drôme)",
+        "county": "Orne",
+        "countyId": "61",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre de la fonction publique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 3,
+            "proposals": 6,
+            "proposalsSupported": 207,
+            "amendments": 659,
+            "amendmentsSupported": 7739,
+            "amendmentsAdopted": 212,
+            "commissionsAttended": 163,
+            "commissionInterventions": 146,
+            "hemicycleInterventions": 319,
+            "hemicycleShortInterventions": 107,
+            "questionsWritten": 123,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anthony",
             "lastname": "Fremont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 3
         },
         {
             "firstname": "Arnaud",
             "lastname": "Gautier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 3
         },
         {
             "firstname": "Solène",
             "lastname": "Gibault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 3
         },
         {
             "firstname": "Mehdi",
             "lastname": "Khemari",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 3
         }
     ]
 }

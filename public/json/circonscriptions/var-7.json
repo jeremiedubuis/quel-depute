@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1747,
                 "Eric Zemmour": 10229
             }
+        },
+        "secondRound": {
+            "registered": 104729,
+            "voted": 75537,
+            "whites": 4328,
+            "expressed": 70053,
+            "void": 1156,
+            "candidates": {
+                "Emmanuel Macron": 33121,
+                "Marine Le Pen": 36932
+            }
         }
+    },
+    "current": {
+        "id": "721792",
+        "lastname": "Guerel",
+        "firstname": "Émilie",
+        "slug": "emilie-guerel",
+        "gender": "F",
+        "birthday": "1983-12-18",
+        "birthplace": "Carpentras (Vaucluse)",
+        "county": "Var",
+        "countyId": "83",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur du secondaire et techn.",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 127,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 88,
+            "amendments": 24,
+            "amendmentsSupported": 2459,
+            "amendmentsAdopted": 1179,
+            "commissionsAttended": 174,
+            "commissionInterventions": 65,
+            "hemicycleInterventions": 61,
+            "hemicycleShortInterventions": 13,
+            "questionsWritten": 100,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Frédéric",
             "lastname": "Boccaletti",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 7
         },
         {
             "firstname": "Ricardo",
             "lastname": "Candido Da Silva",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 7
         },
         {
             "firstname": "Louis",
             "lastname": "Monnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 7
         },
         {
-            "id": "721656",
-            "lastname": "Muschotti",
             "firstname": "Cécile",
-            "slug": "cecile-muschotti",
+            "lastname": "Muschotti",
             "gender": "F",
-            "birthday": "1987-10-30",
-            "birthplace": "Toulon (Var)",
-            "county": "Var",
-            "countyId": "83",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Directrice d’un centre de formation des apprentis",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 110,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 33,
-                "amendmentsSupported": 2193,
-                "amendmentsAdopted": 1114,
-                "commissionsAttended": 119,
-                "commissionInterventions": 53,
-                "hemicycleInterventions": 36,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 90,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 7
         }
     ]
 }

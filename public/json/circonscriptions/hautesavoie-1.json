@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 108221,
             "voted": 86263,
-            "whites": 1403,
+            "whites": 1409,
             "expressed": 84401,
-            "void": 459,
+            "void": 453,
             "candidates": {
                 "Nathalie Arthaud": 324,
                 "Fabien Roussel": 1144,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2630,
                 "Eric Zemmour": 6210
             }
+        },
+        "secondRound": {
+            "registered": 108261,
+            "voted": 83006,
+            "whites": 5022,
+            "expressed": 76434,
+            "void": 1550,
+            "candidates": {
+                "Emmanuel Macron": 49353,
+                "Marine Le Pen": 27081
+            }
         }
+    },
+    "current": {
+        "id": "721426",
+        "lastname": "Riotton",
+        "firstname": "Véronique",
+        "slug": "veronique-riotton",
+        "gender": "F",
+        "birthday": "1969-11-02",
+        "birthplace": "Bonneville (Haute-Savoie)",
+        "county": "Haute-Savoie",
+        "countyId": "74",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Consultante-Coach en Ressources Humaines",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 84,
+            "amendments": 299,
+            "amendmentsSupported": 3886,
+            "amendmentsAdopted": 1353,
+            "commissionsAttended": 313,
+            "commissionInterventions": 593,
+            "hemicycleInterventions": 374,
+            "hemicycleShortInterventions": 106,
+            "questionsWritten": 33,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Sophie",
             "lastname": "Bata",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Anne-Valérie",
             "lastname": "Duval",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Aurélia",
             "lastname": "Gomila",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Didier",
             "lastname": "Jouffrey",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Jacques",
             "lastname": "Mattei",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         },
         {
-            "id": "721426",
-            "lastname": "Riotton",
             "firstname": "Véronique",
-            "slug": "veronique-riotton",
+            "lastname": "Riotton",
             "gender": "F",
-            "birthday": "1969-11-02",
-            "birthplace": "Bonneville (Haute-Savoie)",
-            "county": "Haute-Savoie",
-            "countyId": "74",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Consultante-Coach en Ressources Humaines",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 84,
-                "amendments": 299,
-                "amendmentsSupported": 3886,
-                "amendmentsAdopted": 1353,
-                "commissionsAttended": 313,
-                "commissionInterventions": 593,
-                "hemicycleInterventions": 374,
-                "hemicycleShortInterventions": 106,
-                "questionsWritten": 33,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 1
         }
     ]
 }

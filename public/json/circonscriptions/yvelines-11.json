@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 861,
                 "Eric Zemmour": 3307
             }
+        },
+        "secondRound": {
+            "registered": 68860,
+            "voted": 47972,
+            "whites": 3059,
+            "expressed": 44025,
+            "void": 888,
+            "candidates": {
+                "Emmanuel Macron": 31541,
+                "Marine Le Pen": 12484
+            }
         }
+    },
+    "current": {
+        "id": "774952",
+        "lastname": "Benassaya",
+        "firstname": "Philippe",
+        "slug": "philippe-benassaya",
+        "gender": "H",
+        "birthday": "1964-08-04",
+        "birthplace": "Pantin (Seine-Saint-Denis)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 11,
+        "mandateStart": "2020-09-28",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Conseiller en communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 46,
+            "reports": 1,
+            "proposals": 9,
+            "proposalsSupported": 149,
+            "amendments": 189,
+            "amendmentsSupported": 4735,
+            "amendmentsAdopted": 86,
+            "commissionsAttended": 64,
+            "commissionInterventions": 210,
+            "hemicycleInterventions": 67,
+            "hemicycleShortInterventions": 79,
+            "questionsWritten": 28,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Aubin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         },
         {
-            "id": "774952",
-            "lastname": "Benassaya",
             "firstname": "Philippe",
-            "slug": "philippe-benassaya",
+            "lastname": "Benassaya",
             "gender": "H",
-            "birthday": "1964-08-04",
-            "birthplace": "Pantin (Seine-Saint-Denis)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 78,
             "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 11,
-            "mandateStart": "2020-09-28",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Conseiller en communication",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 46,
-                "reports": 1,
-                "proposals": 9,
-                "proposalsSupported": 149,
-                "amendments": 189,
-                "amendmentsSupported": 4735,
-                "amendmentsAdopted": 86,
-                "commissionsAttended": 64,
-                "commissionInterventions": 210,
-                "hemicycleInterventions": 67,
-                "hemicycleShortInterventions": 79,
-                "questionsWritten": 28,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 11
         },
         {
             "firstname": "Aymeric",
             "lastname": "Delefosse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         },
         {
             "firstname": "Sophie",
             "lastname": "Heraud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         },
         {
             "firstname": "William",
             "lastname": "Martinet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         },
         {
             "firstname": "Aurélie",
             "lastname": "Piacenza",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         },
         {
             "firstname": "Patrick",
             "lastname": "Planque",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 11
         }
     ]
 }

@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 69126,
             "voted": 54928,
-            "whites": 992,
-            "expressed": 53339,
-            "void": 597,
+            "whites": 1005,
+            "expressed": 53343,
+            "void": 580,
             "candidates": {
                 "Nathalie Arthaud": 308,
                 "Fabien Roussel": 1688,
                 "Emmanuel Macron": 13763,
                 "Jean Lasalle": 4701,
-                "Marine Le Pen": 10740,
-                "Jean-Luc Mélenchon": 11453,
+                "Marine Le Pen": 10743,
+                "Jean-Luc Mélenchon": 11454,
                 "Anne Hidalgo": 1498,
                 "Yannick Jadot": 1838,
                 "Valérie Pécresse": 2763,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1219,
                 "Eric Zemmour": 2912
             }
+        },
+        "secondRound": {
+            "registered": 69106,
+            "voted": 53154,
+            "whites": 4657,
+            "expressed": 46199,
+            "void": 2298,
+            "candidates": {
+                "Emmanuel Macron": 26886,
+                "Marine Le Pen": 19313
+            }
         }
+    },
+    "current": {
+        "id": "718990",
+        "lastname": "Blanc",
+        "firstname": "Anne",
+        "slug": "anne-blanc",
+        "gender": "F",
+        "birthday": "1966-07-20",
+        "birthplace": "Rodez (Aveyron)",
+        "county": "Aveyron",
+        "countyId": "12",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Infirmière diplômée d'Etat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 137,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 82,
+            "amendments": 49,
+            "amendmentsSupported": 2300,
+            "amendmentsAdopted": 1135,
+            "commissionsAttended": 194,
+            "commissionInterventions": 85,
+            "hemicycleInterventions": 35,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 65,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Alexandre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "André",
             "lastname": "At",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "Eric",
             "lastname": "Cantournet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "Dominique",
             "lastname": "Clergue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "Samuel",
             "lastname": "Deguara",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "Lucile",
             "lastname": "El Hedri",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         },
         {
             "firstname": "Bruno",
             "lastname": "Leleu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 2
         }
     ]
 }

@@ -7,64 +7,131 @@
             "registered": 59450,
             "voted": 43610,
             "whites": 669,
-            "expressed": 42678,
-            "void": 263,
+            "expressed": 42684,
+            "void": 257,
             "candidates": {
                 "Nathalie Arthaud": 306,
                 "Fabien Roussel": 904,
                 "Emmanuel Macron": 10733,
                 "Jean Lasalle": 1535,
-                "Marine Le Pen": 15276,
-                "Jean-Luc Mélenchon": 5587,
+                "Marine Le Pen": 15279,
+                "Jean-Luc Mélenchon": 5589,
                 "Anne Hidalgo": 638,
                 "Yannick Jadot": 1231,
-                "Valérie Pécresse": 1949,
+                "Valérie Pécresse": 1950,
                 "Phillipe Poutou": 410,
                 "Nicolas Dupont-Aignan": 977,
                 "Eric Zemmour": 3132
             }
+        },
+        "secondRound": {
+            "registered": 59418,
+            "voted": 44535,
+            "whites": 2382,
+            "expressed": 41189,
+            "void": 964,
+            "candidates": {
+                "Emmanuel Macron": 18194,
+                "Marine Le Pen": 22995
+            }
         }
+    },
+    "current": {
+        "id": "720298",
+        "lastname": "Cariou",
+        "firstname": "Émilie",
+        "slug": "emilie-cariou",
+        "gender": "F",
+        "birthday": "1971-10-14",
+        "birthplace": "VERDUN (Meuse)",
+        "county": "Meuse",
+        "countyId": "55",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 11,
+            "proposals": 2,
+            "proposalsSupported": 75,
+            "amendments": 613,
+            "amendmentsSupported": 4443,
+            "amendmentsAdopted": 834,
+            "commissionsAttended": 486,
+            "commissionInterventions": 839,
+            "hemicycleInterventions": 883,
+            "hemicycleShortInterventions": 327,
+            "questionsWritten": 59,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patrick",
             "lastname": "Francois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 55,
+            "county": "Meuse",
+            "circumscription": 2
         },
         {
             "firstname": "Florence",
             "lastname": "Goulet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 55,
+            "county": "Meuse",
+            "circumscription": 2
         },
         {
             "firstname": "Johan",
             "lastname": "Laflotte",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 55,
+            "county": "Meuse",
+            "circumscription": 2
         },
         {
             "firstname": "Pierre",
             "lastname": "Nordemann",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 55,
+            "county": "Meuse",
+            "circumscription": 2
         },
         {
             "firstname": "Michel",
             "lastname": "Testi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 55,
+            "county": "Meuse",
+            "circumscription": 2
         }
     ]
 }

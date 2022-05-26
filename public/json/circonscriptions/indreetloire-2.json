@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 91935,
-            "voted": 71333,
-            "whites": 1246,
+            "voted": 71335,
+            "whites": 1249,
             "expressed": 69653,
-            "void": 434,
+            "void": 433,
             "candidates": {
                 "Nathalie Arthaud": 498,
                 "Fabien Roussel": 1641,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1646,
                 "Eric Zemmour": 4092
             }
+        },
+        "secondRound": {
+            "registered": 91984,
+            "voted": 71462,
+            "whites": 4777,
+            "expressed": 65092,
+            "void": 1593,
+            "candidates": {
+                "Emmanuel Macron": 38734,
+                "Marine Le Pen": 26358
+            }
         }
+    },
+    "current": {
+        "id": "719798",
+        "lastname": "Labaronne",
+        "firstname": "Daniel",
+        "slug": "daniel-labaronne",
+        "gender": "H",
+        "birthday": "1955-07-16",
+        "birthplace": "Paris (Paris)",
+        "county": "Indre-et-Loire",
+        "countyId": "37",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Maître de conférences",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 171,
+            "reports": 10,
+            "proposals": 4,
+            "proposalsSupported": 78,
+            "amendments": 248,
+            "amendmentsSupported": 2298,
+            "amendmentsAdopted": 1171,
+            "commissionsAttended": 378,
+            "commissionInterventions": 375,
+            "hemicycleInterventions": 373,
+            "hemicycleShortInterventions": 190,
+            "questionsWritten": 75,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne",
             "lastname": "Brunet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Dominique",
             "lastname": "Daillet",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Christelle",
             "lastname": "Gobert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Christophe",
             "lastname": "Guestault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         },
         {
-            "id": "719798",
-            "lastname": "Labaronne",
             "firstname": "Daniel",
-            "slug": "daniel-labaronne",
+            "lastname": "Labaronne",
             "gender": "H",
-            "birthday": "1955-07-16",
-            "birthplace": "Paris (Paris)",
-            "county": "Indre-et-Loire",
-            "countyId": "37",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Maître de conférences",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 171,
-                "reports": 10,
-                "proposals": 4,
-                "proposalsSupported": 78,
-                "amendments": 248,
-                "amendmentsSupported": 2298,
-                "amendmentsAdopted": 1171,
-                "commissionsAttended": 378,
-                "commissionInterventions": 375,
-                "hemicycleInterventions": 373,
-                "hemicycleShortInterventions": 190,
-                "questionsWritten": 75,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Sveltana",
             "lastname": "Nicolaeff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 2
         }
     ]
 }

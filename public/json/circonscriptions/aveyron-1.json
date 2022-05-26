@@ -4,11 +4,11 @@
     "name": "Aveyron",
     "results": {
         "firstRound": {
-            "registered": 77959,
+            "registered": 77960,
             "voted": 62592,
-            "whites": 1072,
+            "whites": 1077,
             "expressed": 60968,
-            "void": 552,
+            "void": 547,
             "candidates": {
                 "Nathalie Arthaud": 261,
                 "Fabien Roussel": 1320,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1199,
                 "Eric Zemmour": 3801
             }
+        },
+        "secondRound": {
+            "registered": 77976,
+            "voted": 60546,
+            "whites": 4647,
+            "expressed": 54091,
+            "void": 1808,
+            "candidates": {
+                "Emmanuel Macron": 34354,
+                "Marine Le Pen": 19737
+            }
         }
+    },
+    "current": {
+        "id": "677483",
+        "lastname": "Mazars",
+        "firstname": "Stéphane",
+        "slug": "stephane-mazars",
+        "gender": "H",
+        "birthday": "1969-03-25",
+        "birthplace": "Saint-Yriex-la-Perche (Haute-Vienne)",
+        "county": "Aveyron",
+        "countyId": "12",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 14,
+            "proposals": 0,
+            "proposalsSupported": 68,
+            "amendments": 416,
+            "amendmentsSupported": 2772,
+            "amendmentsAdopted": 1438,
+            "commissionsAttended": 284,
+            "commissionInterventions": 433,
+            "hemicycleInterventions": 352,
+            "hemicycleShortInterventions": 99,
+            "questionsWritten": 39,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Magali",
             "lastname": "Bessaou",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Françoise",
             "lastname": "Dumay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         },
         {
-            "id": "677483",
-            "lastname": "Mazars",
             "firstname": "Stéphane",
-            "slug": "stephane-mazars",
+            "lastname": "Mazars",
             "gender": "H",
-            "birthday": "1969-03-25",
-            "birthplace": "Saint-Yriex-la-Perche (Haute-Vienne)",
-            "county": "Aveyron",
-            "countyId": "12",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 14,
-                "proposals": 0,
-                "proposalsSupported": 68,
-                "amendments": 416,
-                "amendmentsSupported": 2772,
-                "amendmentsAdopted": 1438,
-                "commissionsAttended": 284,
-                "commissionInterventions": 433,
-                "hemicycleInterventions": 352,
-                "hemicycleShortInterventions": 99,
-                "questionsWritten": 39,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         },
         {
             "firstname": "Julia",
             "lastname": "Plane-Vouzellaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         },
         {
             "firstname": "Arlette",
             "lastname": "Saint-Avit",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         },
         {
             "firstname": "Léon",
             "lastname": "Thebault",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 1
         }
     ]
 }

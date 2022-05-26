@@ -7,100 +7,143 @@
             "registered": 89596,
             "voted": 69275,
             "whites": 1158,
-            "expressed": 67309,
-            "void": 808,
+            "expressed": 67312,
+            "void": 805,
             "candidates": {
                 "Nathalie Arthaud": 604,
                 "Fabien Roussel": 1488,
                 "Emmanuel Macron": 14194,
                 "Jean Lasalle": 2426,
-                "Marine Le Pen": 24036,
+                "Marine Le Pen": 24037,
                 "Jean-Luc Mélenchon": 10757,
                 "Anne Hidalgo": 1247,
-                "Yannick Jadot": 2017,
+                "Yannick Jadot": 2018,
                 "Valérie Pécresse": 3152,
                 "Phillipe Poutou": 650,
                 "Nicolas Dupont-Aignan": 1870,
-                "Eric Zemmour": 4868
+                "Eric Zemmour": 4869
+            }
+        },
+        "secondRound": {
+            "registered": 89601,
+            "voted": 68732,
+            "whites": 4019,
+            "expressed": 62308,
+            "void": 2405,
+            "candidates": {
+                "Emmanuel Macron": 25667,
+                "Marine Le Pen": 36641
             }
         }
+    },
+    "current": {
+        "id": "722320",
+        "lastname": "Lejeune",
+        "firstname": "Christophe",
+        "slug": "christophe-lejeune",
+        "gender": "H",
+        "birthday": "1969-03-22",
+        "birthplace": "Luxeuil-les-Bains (Haute-Saône)",
+        "county": "Haute-Saône",
+        "countyId": "70",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Courtier en assurances",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 58,
+            "amendmentsSupported": 1958,
+            "amendmentsAdopted": 945,
+            "commissionsAttended": 315,
+            "commissionInterventions": 249,
+            "hemicycleInterventions": 35,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 52,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Isabelle",
             "lastname": "Apro",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         },
         {
             "firstname": "Patrice",
             "lastname": "Guérain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         },
         {
-            "id": "722320",
-            "lastname": "Lejeune",
             "firstname": "Christophe",
-            "slug": "christophe-lejeune",
+            "lastname": "Lejeune",
             "gender": "H",
-            "birthday": "1969-03-22",
-            "birthplace": "Luxeuil-les-Bains (Haute-Saône)",
-            "county": "Haute-Saône",
-            "countyId": "70",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Courtier en assurances",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 158,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 67,
-                "amendments": 58,
-                "amendmentsSupported": 1958,
-                "amendmentsAdopted": 945,
-                "commissionsAttended": 315,
-                "commissionInterventions": 249,
-                "hemicycleInterventions": 35,
-                "hemicycleShortInterventions": 2,
-                "questionsWritten": 52,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         },
         {
             "firstname": "Maurice",
             "lastname": "Monnier",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         },
         {
             "firstname": "Sophie",
             "lastname": "Rochon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         },
         {
             "firstname": "Emeric",
             "lastname": "Salmon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 2
         }
     ]
 }

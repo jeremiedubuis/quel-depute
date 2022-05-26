@@ -6,8 +6,8 @@
         "firstRound": {
             "registered": 52845,
             "voted": 41014,
-            "whites": 759,
-            "expressed": 39913,
+            "whites": 758,
+            "expressed": 39914,
             "void": 342,
             "candidates": {
                 "Nathalie Arthaud": 273,
@@ -15,7 +15,7 @@
                 "Emmanuel Macron": 10747,
                 "Jean Lasalle": 3535,
                 "Marine Le Pen": 10452,
-                "Jean-Luc Mélenchon": 5520,
+                "Jean-Luc Mélenchon": 5521,
                 "Anne Hidalgo": 664,
                 "Yannick Jadot": 1011,
                 "Valérie Pécresse": 3556,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 750,
                 "Eric Zemmour": 2188
             }
+        },
+        "secondRound": {
+            "registered": 52841,
+            "voted": 41011,
+            "whites": 2990,
+            "expressed": 36823,
+            "void": 1198,
+            "candidates": {
+                "Emmanuel Macron": 19276,
+                "Marine Le Pen": 17547
+            }
         }
+    },
+    "current": {
+        "id": "266793",
+        "lastname": "Bony",
+        "firstname": "Jean-Yves",
+        "slug": "jeanyves-bony",
+        "gender": "H",
+        "birthday": "1955-03-11",
+        "birthplace": "Aurillac (Cantal)",
+        "county": "Cantal",
+        "countyId": "15",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Exploitant agricole",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 0,
+            "proposals": 1,
+            "proposalsSupported": 404,
+            "amendments": 616,
+            "amendmentsSupported": 18402,
+            "amendmentsAdopted": 456,
+            "commissionsAttended": 217,
+            "commissionInterventions": 190,
+            "hemicycleInterventions": 163,
+            "hemicycleShortInterventions": 325,
+            "questionsWritten": 78,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "266793",
-            "lastname": "Bony",
             "firstname": "Jean-Yves",
-            "slug": "jeanyves-bony",
+            "lastname": "Bony",
             "gender": "H",
-            "birthday": "1955-03-11",
-            "birthplace": "Aurillac (Cantal)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 15,
             "county": "Cantal",
-            "countyId": "15",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Exploitant agricole",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 0,
-                "proposals": 1,
-                "proposalsSupported": 404,
-                "amendments": 616,
-                "amendmentsSupported": 18402,
-                "amendmentsAdopted": 456,
-                "commissionsAttended": 217,
-                "commissionInterventions": 190,
-                "hemicycleInterventions": 163,
-                "hemicycleShortInterventions": 325,
-                "questionsWritten": 78,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Mona",
             "lastname": "Cheikhi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 2
         },
         {
             "firstname": "Martine",
             "lastname": "Guibert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 2
         },
         {
             "firstname": "Gilles",
             "lastname": "Lacroix",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 2
         },
         {
             "firstname": "Melody",
             "lastname": "Morille",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 15,
+            "county": "Cantal",
+            "circumscription": 2
         }
     ]
 }

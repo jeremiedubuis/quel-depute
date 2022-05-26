@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 964,
                 "Eric Zemmour": 3496
             }
+        },
+        "secondRound": {
+            "registered": 81604,
+            "voted": 59496,
+            "whites": 4726,
+            "expressed": 53541,
+            "void": 1229,
+            "candidates": {
+                "Emmanuel Macron": 36443,
+                "Marine Le Pen": 17098
+            }
         }
+    },
+    "current": {
+        "id": "343493",
+        "lastname": "Rouillard",
+        "firstname": "Gwendal",
+        "slug": "gwendal-rouillard",
+        "gender": "H",
+        "birthday": "1976-04-20",
+        "birthplace": "Pontivy (Morbihan)",
+        "county": "Morbihan",
+        "countyId": "56",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre du secteur public",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 115,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 63,
+            "amendments": 2,
+            "amendmentsSupported": 1631,
+            "amendmentsAdopted": 922,
+            "commissionsAttended": 180,
+            "commissionInterventions": 47,
+            "hemicycleInterventions": 4,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 34,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gael",
             "lastname": "Briand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Damien",
             "lastname": "Girard",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "David",
             "lastname": "Megel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Lysiane",
             "lastname": "Metayer-Noël",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Ghislaine",
             "lastname": "Paoli",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Thibault",
             "lastname": "Perrin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Blandine",
             "lastname": "Pierron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         },
         {
             "firstname": "Jean-Louis",
             "lastname": "Questiaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 5
         }
     ]
 }

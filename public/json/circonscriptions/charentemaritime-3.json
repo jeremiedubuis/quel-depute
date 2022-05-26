@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1558,
                 "Eric Zemmour": 3682
             }
+        },
+        "secondRound": {
+            "registered": 84000,
+            "voted": 63101,
+            "whites": 4496,
+            "expressed": 56865,
+            "void": 1740,
+            "candidates": {
+                "Emmanuel Macron": 29755,
+                "Marine Le Pen": 27110
+            }
         }
+    },
+    "current": {
+        "id": "719100",
+        "lastname": "Ardouin",
+        "firstname": "Jean-Philippe",
+        "slug": "jeanphilippe-ardouin",
+        "gender": "H",
+        "birthday": "1964-03-05",
+        "birthplace": "Saintes (Charente-Maritime)",
+        "county": "Charente-Maritime",
+        "countyId": "17",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 83,
+            "amendments": 85,
+            "amendmentsSupported": 3078,
+            "amendmentsAdopted": 1021,
+            "commissionsAttended": 181,
+            "commissionInterventions": 64,
+            "hemicycleInterventions": 56,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 104,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719100",
-            "lastname": "Ardouin",
             "firstname": "Jean-Philippe",
-            "slug": "jeanphilippe-ardouin",
+            "lastname": "Ardouin",
             "gender": "H",
-            "birthday": "1964-03-05",
-            "birthplace": "Saintes (Charente-Maritime)",
-            "county": "Charente-Maritime",
-            "countyId": "17",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 83,
-                "amendments": 85,
-                "amendmentsSupported": 3078,
-                "amendmentsAdopted": 1021,
-                "commissionsAttended": 181,
-                "commissionInterventions": 64,
-                "hemicycleInterventions": 56,
-                "hemicycleShortInterventions": 4,
-                "questionsWritten": 104,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Nathalie",
             "lastname": "Collard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Gérald",
             "lastname": "Dahan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Françoise",
             "lastname": "de Roffignac",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Pierre",
             "lastname": "Noëlle",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Khamssa",
             "lastname": "Rahmani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         },
         {
             "firstname": "Christian",
             "lastname": "Wong",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 3
         }
     ]
 }

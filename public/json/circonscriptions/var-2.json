@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1622,
                 "Eric Zemmour": 8338
             }
+        },
+        "secondRound": {
+            "registered": 91822,
+            "voted": 66439,
+            "whites": 3817,
+            "expressed": 61493,
+            "void": 1129,
+            "candidates": {
+                "Emmanuel Macron": 27654,
+                "Marine Le Pen": 33839
+            }
         }
+    },
+    "current": {
+        "id": "721656",
+        "lastname": "Muschotti",
+        "firstname": "Cécile",
+        "slug": "cecile-muschotti",
+        "gender": "F",
+        "birthday": "1987-10-30",
+        "birthplace": "Toulon (Var)",
+        "county": "Var",
+        "countyId": "83",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directrice d’un centre de formation des apprentis",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 110,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 33,
+            "amendmentsSupported": 2193,
+            "amendmentsAdopted": 1114,
+            "commissionsAttended": 119,
+            "commissionInterventions": 53,
+            "hemicycleInterventions": 36,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 90,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Isaline",
             "lastname": "Cornil",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 2
         },
         {
             "firstname": "Claire",
             "lastname": "Gago-Chidaine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Michel",
             "lastname": "Ghiotto",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 2
         },
         {
             "firstname": "Laure",
             "lastname": "Lavalette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 2
         },
         {
             "firstname": "Ange",
             "lastname": "Musso",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 2
         }
     ]
 }

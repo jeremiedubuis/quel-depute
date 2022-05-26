@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 65374,
             "voted": 48467,
-            "whites": 800,
+            "whites": 798,
             "expressed": 47241,
-            "void": 426,
+            "void": 428,
             "candidates": {
                 "Nathalie Arthaud": 418,
                 "Fabien Roussel": 911,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1289,
                 "Eric Zemmour": 3756
             }
+        },
+        "secondRound": {
+            "registered": 65390,
+            "voted": 46403,
+            "whites": 2730,
+            "expressed": 42342,
+            "void": 1331,
+            "candidates": {
+                "Emmanuel Macron": 19945,
+                "Marine Le Pen": 22397
+            }
         }
+    },
+    "current": {
+        "id": "642724",
+        "lastname": "Barbier",
+        "firstname": "Frédéric",
+        "slug": "frederic-barbier",
+        "gender": "H",
+        "birthday": "1960-08-30",
+        "birthplace": "Audincourt (Doubs)",
+        "county": "Doubs",
+        "countyId": "25",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre en entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 146,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 93,
+            "amendments": 15,
+            "amendmentsSupported": 2479,
+            "amendmentsAdopted": 1000,
+            "commissionsAttended": 193,
+            "commissionInterventions": 76,
+            "hemicycleInterventions": 37,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 96,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "642724",
-            "lastname": "Barbier",
             "firstname": "Frédéric",
-            "slug": "frederic-barbier",
+            "lastname": "Barbier",
             "gender": "H",
-            "birthday": "1960-08-30",
-            "birthplace": "Audincourt (Doubs)",
-            "county": "Doubs",
-            "countyId": "25",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre en entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 146,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 93,
-                "amendments": 15,
-                "amendmentsSupported": 2479,
-                "amendmentsAdopted": 1000,
-                "commissionsAttended": 193,
-                "commissionInterventions": 76,
-                "hemicycleInterventions": 37,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 96,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         },
         {
             "firstname": "Mathieu",
             "lastname": "Bloch",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         },
         {
             "firstname": "Brigitte",
             "lastname": "Cottier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         },
         {
             "firstname": "Géraldine",
             "lastname": "Palenciano",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         },
         {
             "firstname": "Michel",
             "lastname": "Treppo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         },
         {
             "firstname": "Philippe",
             "lastname": "Vourron",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 4
         }
     ]
 }

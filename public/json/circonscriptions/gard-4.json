@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 93991,
-            "voted": 72359,
-            "whites": 1037,
-            "expressed": 70900,
+            "voted": 72357,
+            "whites": 1034,
+            "expressed": 70901,
             "void": 422,
             "candidates": {
                 "Nathalie Arthaud": 332,
                 "Fabien Roussel": 2712,
                 "Emmanuel Macron": 13868,
                 "Jean Lasalle": 2958,
-                "Marine Le Pen": 22448,
+                "Marine Le Pen": 22449,
                 "Jean-Luc Mélenchon": 14487,
                 "Anne Hidalgo": 1066,
                 "Yannick Jadot": 2286,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1477,
                 "Eric Zemmour": 6124
             }
+        },
+        "secondRound": {
+            "registered": 94025,
+            "voted": 70189,
+            "whites": 5283,
+            "expressed": 63122,
+            "void": 1784,
+            "candidates": {
+                "Emmanuel Macron": 27655,
+                "Marine Le Pen": 35467
+            }
         }
+    },
+    "current": {
+        "id": "719448",
+        "lastname": "Chapelier",
+        "firstname": "Annie",
+        "slug": "annie-chapelier",
+        "gender": "F",
+        "birthday": "1967-11-07",
+        "birthplace": "Windsor (Canada)",
+        "county": "Gard",
+        "countyId": "30",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattachée",
+        "groupShort": "AE",
+        "job": "Infirmière anesthésiste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 6,
+            "proposals": 8,
+            "proposalsSupported": 166,
+            "amendments": 425,
+            "amendmentsSupported": 4738,
+            "amendmentsAdopted": 792,
+            "commissionsAttended": 315,
+            "commissionInterventions": 332,
+            "hemicycleInterventions": 319,
+            "hemicycleShortInterventions": 51,
+            "questionsWritten": 66,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Stéphanie",
             "lastname": "Bienkowski",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Arnaud",
             "lastname": "Bord",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Jérôme",
             "lastname": "Garcia",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Paul",
             "lastname": "Meurin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Philippe",
             "lastname": "Ribot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Max",
             "lastname": "Roustan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         },
         {
             "firstname": "Aurélie",
             "lastname": "Wagner",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 4
         }
     ]
 }

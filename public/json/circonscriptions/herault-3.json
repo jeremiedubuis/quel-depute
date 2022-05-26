@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 91551,
             "voted": 73703,
-            "whites": 1159,
+            "whites": 1165,
             "expressed": 72126,
-            "void": 418,
+            "void": 412,
             "candidates": {
                 "Nathalie Arthaud": 226,
                 "Fabien Roussel": 1312,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1308,
                 "Eric Zemmour": 6297
             }
+        },
+        "secondRound": {
+            "registered": 91583,
+            "voted": 70420,
+            "whites": 4677,
+            "expressed": 64272,
+            "void": 1471,
+            "candidates": {
+                "Emmanuel Macron": 40353,
+                "Marine Le Pen": 23919
+            }
         }
+    },
+    "current": {
+        "id": "719684",
+        "lastname": "Dubost",
+        "firstname": "Coralie",
+        "slug": "coralie-dubost",
+        "gender": "F",
+        "birthday": "1983-03-04",
+        "birthplace": "Montpellier (Hérault)",
+        "county": "Hérault",
+        "countyId": "34",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Conseiller juridique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 15,
+            "proposals": 3,
+            "proposalsSupported": 73,
+            "amendments": 538,
+            "amendmentsSupported": 2550,
+            "amendmentsAdopted": 1626,
+            "commissionsAttended": 356,
+            "commissionInterventions": 895,
+            "hemicycleInterventions": 754,
+            "hemicycleShortInterventions": 292,
+            "questionsWritten": 0,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Denis",
             "lastname": "Carabasse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 3
         },
         {
             "firstname": "Laurence",
             "lastname": "Cristol",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 3
         },
         {
             "firstname": "Serge",
             "lastname": "Gachon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 3
         },
         {
             "firstname": "Johana",
             "lastname": "Maurel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 3
         },
         {
             "firstname": "Julia",
             "lastname": "Mignacca",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 3
         }
     ]
 }

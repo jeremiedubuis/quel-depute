@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 71219,
-            "voted": 55802,
-            "whites": 621,
+            "voted": 55797,
+            "whites": 619,
             "expressed": 54947,
-            "void": 234,
+            "void": 231,
             "candidates": {
                 "Nathalie Arthaud": 148,
                 "Fabien Roussel": 836,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 501,
                 "Eric Zemmour": 3579
             }
+        },
+        "secondRound": {
+            "registered": 71247,
+            "voted": 52971,
+            "whites": 2502,
+            "expressed": 49769,
+            "void": 700,
+            "candidates": {
+                "Emmanuel Macron": 42871,
+                "Marine Le Pen": 6898
+            }
         }
+    },
+    "current": {
+        "id": "721498",
+        "lastname": "Guerini",
+        "firstname": "Stanislas",
+        "slug": "stanislas-guerini",
+        "gender": "H",
+        "birthday": "1982-05-14",
+        "birthplace": "Paris 15ème (Paris)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 59,
+            "amendments": 309,
+            "amendmentsSupported": 1869,
+            "amendmentsAdopted": 1307,
+            "commissionsAttended": 177,
+            "commissionInterventions": 574,
+            "hemicycleInterventions": 563,
+            "hemicycleShortInterventions": 236,
+            "questionsWritten": 5,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Baffie",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         },
         {
             "firstname": "Léa",
             "lastname": "Balage El Mariky",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         },
         {
             "firstname": "Alix",
             "lastname": "Bougeret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         },
         {
             "firstname": "Laurent",
             "lastname": "Burtaire",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Emilie",
             "lastname": "Euphrasie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         },
         {
-            "id": "721498",
-            "lastname": "Guerini",
             "firstname": "Stanislas",
-            "slug": "stanislas-guerini",
+            "lastname": "Guerini",
             "gender": "H",
-            "birthday": "1982-05-14",
-            "birthplace": "Paris 15ème (Paris)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 152,
-                "reports": 7,
-                "proposals": 0,
-                "proposalsSupported": 59,
-                "amendments": 309,
-                "amendmentsSupported": 1869,
-                "amendmentsAdopted": 1307,
-                "commissionsAttended": 177,
-                "commissionInterventions": 574,
-                "hemicycleInterventions": 563,
-                "hemicycleShortInterventions": 236,
-                "questionsWritten": 5,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 3
         }
     ]
 }

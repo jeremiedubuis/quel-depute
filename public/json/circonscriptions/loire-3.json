@@ -6,8 +6,8 @@
         "firstRound": {
             "registered": 83105,
             "voted": 63358,
-            "whites": 1177,
-            "expressed": 61956,
+            "whites": 1176,
+            "expressed": 61957,
             "void": 225,
             "candidates": {
                 "Nathalie Arthaud": 335,
@@ -17,62 +17,133 @@
                 "Marine Le Pen": 16209,
                 "Jean-Luc Mélenchon": 12359,
                 "Anne Hidalgo": 1157,
-                "Yannick Jadot": 2717,
+                "Yannick Jadot": 2718,
                 "Valérie Pécresse": 2800,
                 "Phillipe Poutou": 415,
                 "Nicolas Dupont-Aignan": 1539,
                 "Eric Zemmour": 4905
             }
+        },
+        "secondRound": {
+            "registered": 83126,
+            "voted": 59973,
+            "whites": 4276,
+            "expressed": 54926,
+            "void": 771,
+            "candidates": {
+                "Emmanuel Macron": 30648,
+                "Marine Le Pen": 24278
+            }
         }
+    },
+    "current": {
+        "id": "719960",
+        "lastname": "Faure-Muntian",
+        "firstname": "Valéria",
+        "slug": "valeria-fauremuntian",
+        "gender": "F",
+        "birthday": "1984-09-02",
+        "birthplace": "Kilia (Ukraine)",
+        "county": "Loire",
+        "countyId": "42",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Agent d'assurances",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 139,
+            "reports": 13,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 134,
+            "amendmentsSupported": 2011,
+            "amendmentsAdopted": 1137,
+            "commissionsAttended": 180,
+            "commissionInterventions": 134,
+            "hemicycleInterventions": 75,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 24,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Vincent",
             "lastname": "Bony",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Axel",
             "lastname": "Dugua",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Pauline",
             "lastname": "Husseini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Angélina",
             "lastname": "La Marca",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Mandon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Catherine",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 3
         }
     ]
 }

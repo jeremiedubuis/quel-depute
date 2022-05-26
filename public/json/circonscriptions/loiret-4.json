@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 74595,
-            "voted": 54305,
-            "whites": 826,
+            "voted": 54306,
+            "whites": 825,
             "expressed": 53093,
-            "void": 386,
+            "void": 388,
             "candidates": {
                 "Nathalie Arthaud": 329,
                 "Fabien Roussel": 1237,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1406,
                 "Eric Zemmour": 3861
             }
+        },
+        "secondRound": {
+            "registered": 74627,
+            "voted": 54374,
+            "whites": 2922,
+            "expressed": 50270,
+            "void": 1182,
+            "candidates": {
+                "Emmanuel Macron": 24124,
+                "Marine Le Pen": 26146
+            }
         }
+    },
+    "current": {
+        "id": "267289",
+        "lastname": "Door",
+        "firstname": "Jean-Pierre",
+        "slug": "jeanpierre-door",
+        "gender": "H",
+        "birthday": "1942-04-01",
+        "birthplace": "Sully-sur-Loire (Loiret)",
+        "county": "Loiret",
+        "countyId": "45",
+        "circumscription": 4,
+        "mandateStart": "2018-03-26",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cardiologue",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 145,
+            "reports": 0,
+            "proposals": 7,
+            "proposalsSupported": 415,
+            "amendments": 546,
+            "amendmentsSupported": 8402,
+            "amendmentsAdopted": 238,
+            "commissionsAttended": 235,
+            "commissionInterventions": 489,
+            "hemicycleInterventions": 673,
+            "hemicycleShortInterventions": 338,
+            "questionsWritten": 34,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Michel",
             "lastname": "Blanquer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         },
         {
             "firstname": "Dominique",
             "lastname": "Clergue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         },
         {
             "firstname": "Romain",
             "lastname": "d'Isoard de Chenerilles",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         },
         {
             "firstname": "Ariel",
             "lastname": "Levy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         },
         {
             "firstname": "Thomas",
             "lastname": "Ménagé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         },
         {
             "firstname": "Bruno",
             "lastname": "Nottin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 4
         }
     ]
 }

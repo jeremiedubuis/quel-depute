@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1801,
                 "Eric Zemmour": 5891
             }
+        },
+        "secondRound": {
+            "registered": 103516,
+            "voted": 76551,
+            "whites": 5342,
+            "expressed": 69562,
+            "void": 1647,
+            "candidates": {
+                "Emmanuel Macron": 36837,
+                "Marine Le Pen": 32725
+            }
         }
+    },
+    "current": {
+        "id": "267429",
+        "lastname": "Cinieri",
+        "firstname": "Dino",
+        "slug": "dino-cinieri",
+        "gender": "H",
+        "birthday": "1955-07-09",
+        "birthplace": "Firminy (Loire)",
+        "county": "Loire",
+        "countyId": "42",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Consultant sécurité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 141,
+            "reports": 1,
+            "proposals": 15,
+            "proposalsSupported": 459,
+            "amendments": 2461,
+            "amendmentsSupported": 21475,
+            "amendmentsAdopted": 496,
+            "commissionsAttended": 406,
+            "commissionInterventions": 405,
+            "hemicycleInterventions": 536,
+            "hemicycleShortInterventions": 562,
+            "questionsWritten": 213,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "267429",
-            "lastname": "Cinieri",
             "firstname": "Dino",
-            "slug": "dino-cinieri",
+            "lastname": "Cinieri",
             "gender": "H",
-            "birthday": "1955-07-09",
-            "birthplace": "Firminy (Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 42,
             "county": "Loire",
-            "countyId": "42",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Consultant sécurité",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 141,
-                "reports": 1,
-                "proposals": 15,
-                "proposalsSupported": 459,
-                "amendments": 2461,
-                "amendmentsSupported": 21475,
-                "amendmentsAdopted": 496,
-                "commissionsAttended": 406,
-                "commissionInterventions": 405,
-                "hemicycleInterventions": 536,
-                "hemicycleShortInterventions": 562,
-                "questionsWritten": 213,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Sauveur",
             "lastname": "Cuadros",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Anthony",
             "lastname": "Gibert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Bernard",
             "lastname": "Paemelaere",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Shannon",
             "lastname": "Seban",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Véronique",
             "lastname": "Vidal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 4
         }
     ]
 }

@@ -7,15 +7,15 @@
             "registered": 104420,
             "voted": 80209,
             "whites": 1013,
-            "expressed": 78706,
-            "void": 490,
+            "expressed": 78707,
+            "void": 489,
             "candidates": {
                 "Nathalie Arthaud": 491,
                 "Fabien Roussel": 1850,
                 "Emmanuel Macron": 25692,
                 "Jean Lasalle": 2054,
                 "Marine Le Pen": 19119,
-                "Jean-Luc Mélenchon": 12113,
+                "Jean-Luc Mélenchon": 12114,
                 "Anne Hidalgo": 1094,
                 "Yannick Jadot": 3268,
                 "Valérie Pécresse": 4553,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1745,
                 "Eric Zemmour": 6097
             }
+        },
+        "secondRound": {
+            "registered": 104444,
+            "voted": 80617,
+            "whites": 4796,
+            "expressed": 74131,
+            "void": 1690,
+            "candidates": {
+                "Emmanuel Macron": 43743,
+                "Marine Le Pen": 30388
+            }
         }
+    },
+    "current": {
+        "id": "719024",
+        "lastname": "Blanchet",
+        "firstname": "Christophe",
+        "slug": "christophe-blanchet",
+        "gender": "H",
+        "birthday": "1973-04-09",
+        "birthplace": "Caen (Calvados)",
+        "county": "Calvados",
+        "countyId": "14",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Commerçant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 4,
+            "proposals": 4,
+            "proposalsSupported": 86,
+            "amendments": 517,
+            "amendmentsSupported": 4161,
+            "amendmentsAdopted": 983,
+            "commissionsAttended": 268,
+            "commissionInterventions": 221,
+            "hemicycleInterventions": 270,
+            "hemicycleShortInterventions": 150,
+            "questionsWritten": 179,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patrick",
             "lastname": "Beloncle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 4
         },
         {
-            "id": "719024",
-            "lastname": "Blanchet",
             "firstname": "Christophe",
-            "slug": "christophe-blanchet",
+            "lastname": "Blanchet",
             "gender": "H",
-            "birthday": "1973-04-09",
-            "birthplace": "Caen (Calvados)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 14,
             "county": "Calvados",
-            "countyId": "14",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Commerçant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 4,
-                "proposals": 4,
-                "proposalsSupported": 86,
-                "amendments": 517,
-                "amendmentsSupported": 4161,
-                "amendmentsAdopted": 983,
-                "commissionsAttended": 268,
-                "commissionInterventions": 221,
-                "hemicycleInterventions": 270,
-                "hemicycleShortInterventions": 150,
-                "questionsWritten": 178,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Manuel",
             "lastname": "Lorimier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 4
         },
         {
             "firstname": "Pierre",
             "lastname": "Mouraret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 4
         },
         {
             "firstname": "Patrick",
             "lastname": "Poirot-Bourdain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 4
         }
     ]
 }

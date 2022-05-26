@@ -4,17 +4,17 @@
     "name": "Marne",
     "results": {
         "firstRound": {
-            "registered": 79950,
+            "registered": 79952,
             "voted": 58198,
-            "whites": 838,
-            "expressed": 57021,
-            "void": 339,
+            "whites": 845,
+            "expressed": 57020,
+            "void": 333,
             "candidates": {
                 "Nathalie Arthaud": 392,
                 "Fabien Roussel": 1155,
                 "Emmanuel Macron": 15927,
                 "Jean Lasalle": 1554,
-                "Marine Le Pen": 18259,
+                "Marine Le Pen": 18258,
                 "Jean-Luc Mélenchon": 8482,
                 "Anne Hidalgo": 669,
                 "Yannick Jadot": 1785,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1387,
                 "Eric Zemmour": 3948
             }
+        },
+        "secondRound": {
+            "registered": 79971,
+            "voted": 58443,
+            "whites": 3254,
+            "expressed": 54186,
+            "void": 1003,
+            "candidates": {
+                "Emmanuel Macron": 27093,
+                "Marine Le Pen": 27093
+            }
         }
+    },
+    "current": {
+        "id": "720222",
+        "lastname": "Girardin",
+        "firstname": "Éric",
+        "slug": "eric-girardin",
+        "gender": "H",
+        "birthday": "1962-02-12",
+        "birthplace": "Sézanne (Marne)",
+        "county": "Marne",
+        "countyId": "51",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 137,
+            "amendmentsSupported": 2706,
+            "amendmentsAdopted": 1009,
+            "commissionsAttended": 312,
+            "commissionInterventions": 118,
+            "hemicycleInterventions": 72,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 44,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Chantal",
             "lastname": "Berthelemy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Charlotte",
             "lastname": "Comerais",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Bertrand",
             "lastname": "Debarle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 3
         },
         {
-            "id": "720222",
-            "lastname": "Girardin",
             "firstname": "Éric",
-            "slug": "eric-girardin",
+            "lastname": "Girardin",
             "gender": "H",
-            "birthday": "1962-02-12",
-            "birthplace": "Sézanne (Marne)",
-            "county": "Marne",
-            "countyId": "51",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 76,
-                "amendments": 137,
-                "amendmentsSupported": 2706,
-                "amendmentsAdopted": 1009,
-                "commissionsAttended": 312,
-                "commissionInterventions": 118,
-                "hemicycleInterventions": 72,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 44,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 3
         },
         {
             "firstname": "Jennifer",
             "lastname": "Marc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 3
         }
     ]
 }

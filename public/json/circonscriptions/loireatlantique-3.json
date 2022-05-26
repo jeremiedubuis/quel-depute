@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 971,
                 "Eric Zemmour": 3337
             }
+        },
+        "secondRound": {
+            "registered": 96336,
+            "voted": 68743,
+            "whites": 5589,
+            "expressed": 62077,
+            "void": 1077,
+            "candidates": {
+                "Emmanuel Macron": 46078,
+                "Marine Le Pen": 15999
+            }
         }
+    },
+    "current": {
+        "id": "720116",
+        "lastname": "Brunet",
+        "firstname": "Anne-France",
+        "slug": "annefrance-brunet",
+        "gender": "F",
+        "birthday": "1962-06-12",
+        "birthplace": "Saint-Maur des Fossés (Val-de-Marne)",
+        "county": "Loire-Atlantique",
+        "countyId": "44",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 122,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 271,
+            "amendmentsSupported": 2503,
+            "amendmentsAdopted": 1180,
+            "commissionsAttended": 184,
+            "commissionInterventions": 116,
+            "hemicycleInterventions": 130,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 48,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Ségolène",
             "lastname": "Amiot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
-            "id": "720116",
-            "lastname": "Brunet",
             "firstname": "Anne-France",
-            "slug": "annefrance-brunet",
+            "lastname": "Brunet",
             "gender": "F",
-            "birthday": "1962-06-12",
-            "birthplace": "Saint-Maur des Fossés (Val-de-Marne)",
-            "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 122,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 76,
-                "amendments": 271,
-                "amendmentsSupported": 2503,
-                "amendmentsAdopted": 1180,
-                "commissionsAttended": 184,
-                "commissionInterventions": 116,
-                "hemicycleInterventions": 130,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 48,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Hélène",
             "lastname": "Dolidon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Gwenvael",
             "lastname": "Duret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Ophélie",
             "lastname": "Gueguen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Véronique",
             "lastname": "Jarry",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Gildas",
             "lastname": "Perrot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         },
         {
             "firstname": "Sophie",
             "lastname": "Van Goethem",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 3
         }
     ]
 }

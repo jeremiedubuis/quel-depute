@@ -4,7 +4,7 @@
     "name": "Isère",
     "results": {
         "firstRound": {
-            "registered": 91597,
+            "registered": 91598,
             "voted": 72131,
             "whites": 1138,
             "expressed": 70673,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1382,
                 "Eric Zemmour": 4741
             }
+        },
+        "secondRound": {
+            "registered": 91620,
+            "voted": 68681,
+            "whites": 5187,
+            "expressed": 62244,
+            "void": 1250,
+            "candidates": {
+                "Emmanuel Macron": 38551,
+                "Marine Le Pen": 23693
+            }
         }
+    },
+    "current": {
+        "id": "342415",
+        "lastname": "Battistel",
+        "firstname": "Marie-Noëlle",
+        "slug": "marienoelle-battistel",
+        "gender": "F",
+        "birthday": "1956-08-20",
+        "birthplace": "Grenoble (Isère)",
+        "county": "Isère",
+        "countyId": "38",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 172,
+            "reports": 19,
+            "proposals": 1,
+            "proposalsSupported": 101,
+            "amendments": 756,
+            "amendmentsSupported": 15591,
+            "amendmentsAdopted": 854,
+            "commissionsAttended": 456,
+            "commissionInterventions": 687,
+            "hemicycleInterventions": 721,
+            "hemicycleShortInterventions": 579,
+            "questionsWritten": 134,
+            "questionsOral": 31
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "342415",
-            "lastname": "Battistel",
             "firstname": "Marie-Noëlle",
-            "slug": "marienoelle-battistel",
+            "lastname": "Battistel",
             "gender": "F",
-            "birthday": "1956-08-20",
-            "birthplace": "Grenoble (Isère)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 38,
             "county": "Isère",
-            "countyId": "38",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 172,
-                "reports": 19,
-                "proposals": 1,
-                "proposalsSupported": 101,
-                "amendments": 756,
-                "amendmentsSupported": 15591,
-                "amendmentsAdopted": 854,
-                "commissionsAttended": 456,
-                "commissionInterventions": 687,
-                "hemicycleInterventions": 721,
-                "hemicycleShortInterventions": 579,
-                "questionsWritten": 134,
-                "questionsOral": 31
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Olivier",
             "lastname": "Guyot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 4
         },
         {
             "firstname": "Fanny",
             "lastname": "Lacroix",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 4
         },
         {
             "firstname": "Jean-Alain",
             "lastname": "Ziegler",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 4
         }
     ]
 }

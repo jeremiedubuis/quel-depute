@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 377,
                 "Eric Zemmour": 2288
             }
+        },
+        "secondRound": {
+            "registered": 66676,
+            "voted": 35164,
+            "whites": 1652,
+            "expressed": 32881,
+            "void": 631,
+            "candidates": {
+                "Emmanuel Macron": 19910,
+                "Marine Le Pen": 12971
+            }
         }
+    },
+    "current": {
+        "id": "718954",
+        "lastname": "Ahamada",
+        "firstname": "Saïd",
+        "slug": "said-ahamada",
+        "gender": "H",
+        "birthday": "1972-11-07",
+        "birthplace": "Saint-Denis (Réunion)",
+        "county": "Bouches-du-Rhône",
+        "countyId": "13",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 10,
+            "proposals": 1,
+            "proposalsSupported": 66,
+            "amendments": 133,
+            "amendmentsSupported": 1857,
+            "amendmentsAdopted": 1088,
+            "commissionsAttended": 271,
+            "commissionInterventions": 112,
+            "hemicycleInterventions": 125,
+            "hemicycleShortInterventions": 17,
+            "questionsWritten": 17,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "718954",
-            "lastname": "Ahamada",
             "firstname": "Saïd",
-            "slug": "said-ahamada",
+            "lastname": "Ahamada",
             "gender": "H",
-            "birthday": "1972-11-07",
-            "birthplace": "Saint-Denis (Réunion)",
-            "county": "Bouches-du-Rhône",
-            "countyId": "13",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 10,
-                "proposals": 1,
-                "proposalsSupported": 66,
-                "amendments": 133,
-                "amendmentsSupported": 1857,
-                "amendmentsAdopted": 1088,
-                "commissionsAttended": 271,
-                "commissionInterventions": 112,
-                "hemicycleInterventions": 125,
-                "hemicycleShortInterventions": 17,
-                "questionsWritten": 17,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Sébastien",
             "lastname": "Delogu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Laetitia",
             "lastname": "Leonard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Danièle",
             "lastname": "Pécout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 7
         },
         {
             "firstname": "Mourad Arezki",
             "lastname": "Selloum",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 7
         }
     ]
 }

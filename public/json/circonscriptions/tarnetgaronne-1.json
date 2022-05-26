@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 92727,
             "voted": 72885,
-            "whites": 1067,
+            "whites": 1062,
             "expressed": 71254,
-            "void": 564,
+            "void": 569,
             "candidates": {
                 "Nathalie Arthaud": 341,
                 "Fabien Roussel": 1666,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1641,
                 "Eric Zemmour": 6067
             }
+        },
+        "secondRound": {
+            "registered": 92734,
+            "voted": 70470,
+            "whites": 5247,
+            "expressed": 63042,
+            "void": 2181,
+            "candidates": {
+                "Emmanuel Macron": 32351,
+                "Marine Le Pen": 30691
+            }
         }
+    },
+    "current": {
+        "id": "609590",
+        "lastname": "Rabault",
+        "firstname": "Valérie",
+        "slug": "valerie-rabault",
+        "gender": "F",
+        "birthday": "1973-04-25",
+        "birthplace": "L'hay les Roses (Val-de-Marne)",
+        "county": "Tarn-et-Garonne",
+        "countyId": "82",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Ingénieure",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 187,
+            "reports": 10,
+            "proposals": 16,
+            "proposalsSupported": 89,
+            "amendments": 1464,
+            "amendmentsSupported": 15010,
+            "amendmentsAdopted": 804,
+            "commissionsAttended": 375,
+            "commissionInterventions": 531,
+            "hemicycleInterventions": 2112,
+            "hemicycleShortInterventions": 1559,
+            "questionsWritten": 85,
+            "questionsOral": 47
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Richard",
             "lastname": "Blanco",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 1
         },
         {
             "firstname": "Pierre",
             "lastname": "Poma",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 1
         },
         {
-            "id": "609590",
-            "lastname": "Rabault",
             "firstname": "Valérie",
-            "slug": "valerie-rabault",
+            "lastname": "Rabault",
             "gender": "F",
-            "birthday": "1973-04-25",
-            "birthplace": "L'hay les Roses (Val-de-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 82,
             "county": "Tarn-et-Garonne",
-            "countyId": "82",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Ingénieure",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 187,
-                "reports": 10,
-                "proposals": 16,
-                "proposalsSupported": 89,
-                "amendments": 1464,
-                "amendmentsSupported": 15010,
-                "amendmentsAdopted": 804,
-                "commissionsAttended": 375,
-                "commissionInterventions": 531,
-                "hemicycleInterventions": 2112,
-                "hemicycleShortInterventions": 1559,
-                "questionsWritten": 85,
-                "questionsOral": 47
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Catherine",
             "lastname": "Simonin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 1
         },
         {
             "firstname": "Claude",
             "lastname": "Vigouroux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 1
         }
     ]
 }

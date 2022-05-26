@@ -5,9 +5,9 @@
     "results": {
         "firstRound": {
             "registered": 72300,
-            "voted": 53539,
+            "voted": 53551,
             "whites": 608,
-            "expressed": 52491,
+            "expressed": 52503,
             "void": 440,
             "candidates": {
                 "Nathalie Arthaud": 232,
@@ -20,87 +20,130 @@
                 "Yannick Jadot": 1808,
                 "Valérie Pécresse": 1732,
                 "Phillipe Poutou": 318,
-                "Nicolas Dupont-Aignan": 964,
+                "Nicolas Dupont-Aignan": 976,
                 "Eric Zemmour": 5020
             }
+        },
+        "secondRound": {
+            "registered": 72319,
+            "voted": 51950,
+            "whites": 3034,
+            "expressed": 47636,
+            "void": 1280,
+            "candidates": {
+                "Emmanuel Macron": 22972,
+                "Marine Le Pen": 24664
+            }
         }
+    },
+    "current": {
+        "id": "720790",
+        "lastname": "Grau",
+        "firstname": "Romain",
+        "slug": "romain-grau",
+        "gender": "H",
+        "birthday": "1974-06-21",
+        "birthplace": "Perpignan (Pyrénées-Orientales)",
+        "county": "Pyrénées-Orientales",
+        "countyId": "66",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 135,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 65,
+            "amendments": 85,
+            "amendmentsSupported": 2088,
+            "amendmentsAdopted": 1059,
+            "commissionsAttended": 186,
+            "commissionInterventions": 77,
+            "hemicycleInterventions": 104,
+            "hemicycleShortInterventions": 16,
+            "questionsWritten": 253,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascale",
             "lastname": "Advenard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         },
         {
             "firstname": "Sophie",
             "lastname": "Blanc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         },
         {
             "firstname": "Francis",
             "lastname": "Daspe",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         },
         {
             "firstname": "Christine",
             "lastname": "Gavalda-Moulenat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         },
         {
-            "id": "720790",
-            "lastname": "Grau",
             "firstname": "Romain",
-            "slug": "romain-grau",
+            "lastname": "Grau",
             "gender": "H",
-            "birthday": "1974-06-21",
-            "birthplace": "Perpignan (Pyrénées-Orientales)",
-            "county": "Pyrénées-Orientales",
-            "countyId": "66",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 135,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 65,
-                "amendments": 85,
-                "amendmentsSupported": 2088,
-                "amendmentsAdopted": 1059,
-                "commissionsAttended": 186,
-                "commissionInterventions": 77,
-                "hemicycleInterventions": 104,
-                "hemicycleShortInterventions": 16,
-                "questionsWritten": 253,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         },
         {
             "firstname": "Vanessa",
             "lastname": "Schmitt",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 1
         }
     ]
 }

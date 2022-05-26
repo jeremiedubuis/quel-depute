@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 678,
                 "Eric Zemmour": 3165
             }
+        },
+        "secondRound": {
+            "registered": 78751,
+            "voted": 56524,
+            "whites": 5608,
+            "expressed": 50737,
+            "void": 179,
+            "candidates": {
+                "Emmanuel Macron": 35851,
+                "Marine Le Pen": 14886
+            }
         }
+    },
+    "current": {
+        "id": "719396",
+        "lastname": "Larsonneur",
+        "firstname": "Jean-Charles",
+        "slug": "jeancharles-larsonneur",
+        "gender": "H",
+        "birthday": "1984-01-24",
+        "birthplace": "Brest (Finistère)",
+        "county": "Finistère",
+        "countyId": "29",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "AE",
+        "job": "Diplomate",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 134,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 89,
+            "amendments": 51,
+            "amendmentsSupported": 2264,
+            "amendmentsAdopted": 642,
+            "commissionsAttended": 228,
+            "commissionInterventions": 225,
+            "hemicycleInterventions": 47,
+            "hemicycleShortInterventions": 26,
+            "questionsWritten": 94,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pierre-Yves",
             "lastname": "Cadalen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Marc",
             "lastname": "Coatanea",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Rémy",
             "lastname": "Collard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Jean Yves",
             "lastname": "Le Corre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Sylvia",
             "lastname": "Madec",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Sandrine",
             "lastname": "Migérel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Yvette",
             "lastname": "Poullaouec",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         },
         {
             "firstname": "Alice",
             "lastname": "Vasseur",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 2
         }
     ]
 }

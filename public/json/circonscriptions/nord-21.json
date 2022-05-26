@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 847,
                 "Eric Zemmour": 3777
             }
+        },
+        "secondRound": {
+            "registered": 80829,
+            "voted": 56751,
+            "whites": 2893,
+            "expressed": 52767,
+            "void": 1091,
+            "candidates": {
+                "Emmanuel Macron": 25417,
+                "Marine Le Pen": 27350
+            }
         }
+    },
+    "current": {
+        "id": "720696",
+        "lastname": "Descamps",
+        "firstname": "Béatrice",
+        "slug": "beatrice-descamps",
+        "gender": "F",
+        "birthday": "1961-04-24",
+        "birthplace": "Valenciennes (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 21,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Enseignant 1er deg.-directeur école",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 156,
+            "reports": 8,
+            "proposals": 4,
+            "proposalsSupported": 141,
+            "amendments": 522,
+            "amendmentsSupported": 6880,
+            "amendmentsAdopted": 336,
+            "commissionsAttended": 235,
+            "commissionInterventions": 372,
+            "hemicycleInterventions": 438,
+            "hemicycleShortInterventions": 52,
+            "questionsWritten": 114,
+            "questionsOral": 28
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Ludovic",
             "lastname": "Aubry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 21
         },
         {
-            "id": "720696",
-            "lastname": "Descamps",
             "firstname": "Béatrice",
-            "slug": "beatrice-descamps",
+            "lastname": "Descamps",
             "gender": "F",
-            "birthday": "1961-04-24",
-            "birthplace": "Valenciennes (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 21,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Enseignant 1er deg.-directeur école",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 156,
-                "reports": 8,
-                "proposals": 4,
-                "proposalsSupported": 141,
-                "amendments": 522,
-                "amendmentsSupported": 6880,
-                "amendmentsAdopted": 336,
-                "commissionsAttended": 235,
-                "commissionInterventions": 372,
-                "hemicycleInterventions": 438,
-                "hemicycleShortInterventions": 52,
-                "questionsWritten": 114,
-                "questionsOral": 28
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 21
         },
         {
             "firstname": "Luce",
             "lastname": "Troadec",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 21
         },
         {
             "firstname": "Océane",
             "lastname": "Valentin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 21
         },
         {
             "firstname": "Edith",
             "lastname": "Weisshaupt",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 21
         }
     ]
 }

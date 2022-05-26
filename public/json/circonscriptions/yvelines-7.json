@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 80234,
             "voted": 60822,
-            "whites": 922,
-            "expressed": 59613,
+            "whites": 921,
+            "expressed": 59614,
             "void": 287,
             "candidates": {
                 "Nathalie Arthaud": 275,
                 "Fabien Roussel": 1123,
                 "Emmanuel Macron": 19102,
                 "Jean Lasalle": 1206,
-                "Marine Le Pen": 9497,
+                "Marine Le Pen": 9498,
                 "Jean-Luc Mélenchon": 14768,
                 "Anne Hidalgo": 836,
                 "Yannick Jadot": 3442,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1100,
                 "Eric Zemmour": 4154
             }
+        },
+        "secondRound": {
+            "registered": 80308,
+            "voted": 57016,
+            "whites": 3475,
+            "expressed": 52593,
+            "void": 948,
+            "candidates": {
+                "Emmanuel Macron": 36707,
+                "Marine Le Pen": 15886
+            }
         }
+    },
+    "current": {
+        "id": "721924",
+        "lastname": "Vaucouleurs (de)",
+        "firstname": "Michèle",
+        "slug": "michele-de-vaucouleurs",
+        "gender": "F",
+        "birthday": "1964-02-12",
+        "birthplace": "Albertville (Savoie)",
+        "county": "Yvelines",
+        "countyId": "78",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Conseillère en insertion professionnelle",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 185,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 56,
+            "amendments": 421,
+            "amendmentsSupported": 3995,
+            "amendmentsAdopted": 753,
+            "commissionsAttended": 393,
+            "commissionInterventions": 534,
+            "hemicycleInterventions": 427,
+            "hemicycleShortInterventions": 75,
+            "questionsWritten": 38,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Brosse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
             "firstname": "Michèle",
             "lastname": "Christophoul",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Egron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
-            "id": "722054",
-            "lastname": "Hai",
             "firstname": "Nadia",
-            "slug": "nadia-hai",
+            "lastname": "Hai",
             "gender": "F",
-            "birthday": "1980-03-08",
-            "birthplace": "Trappes (Yvelines)",
-            "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 118,
-                "reports": 11,
-                "proposals": 0,
-                "proposalsSupported": 47,
-                "amendments": 60,
-                "amendmentsSupported": 1324,
-                "amendmentsAdopted": 728,
-                "commissionsAttended": 230,
-                "commissionInterventions": 134,
-                "hemicycleInterventions": 284,
-                "hemicycleShortInterventions": 456,
-                "questionsWritten": 3,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
             "firstname": "Ali",
             "lastname": "Kaya",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
             "firstname": "Pierre",
             "lastname": "Plancoulaine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         },
         {
             "firstname": "Rémi",
             "lastname": "Vincent",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 7
         }
     ]
 }

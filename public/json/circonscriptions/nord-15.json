@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1543,
                 "Eric Zemmour": 4106
             }
+        },
+        "secondRound": {
+            "registered": 97759,
+            "voted": 75283,
+            "whites": 3652,
+            "expressed": 69939,
+            "void": 1692,
+            "candidates": {
+                "Emmanuel Macron": 34145,
+                "Marine Le Pen": 35794
+            }
         }
+    },
+    "current": {
+        "id": "720538",
+        "lastname": "Temmerman (De)",
+        "firstname": "Jennifer",
+        "slug": "jennifer-temmerman-de",
+        "gender": "F",
+        "birthday": "1977-02-16",
+        "birthplace": "Valenciennes (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 15,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 140,
+            "reports": 6,
+            "proposals": 6,
+            "proposalsSupported": 150,
+            "amendments": 321,
+            "amendmentsSupported": 8457,
+            "amendmentsAdopted": 928,
+            "commissionsAttended": 193,
+            "commissionInterventions": 147,
+            "hemicycleInterventions": 183,
+            "hemicycleShortInterventions": 21,
+            "questionsWritten": 73,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pierrick",
             "lastname": "Berteloot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         },
         {
             "firstname": "Benjamin",
             "lastname": "Dubiez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         },
         {
             "firstname": "Émilie",
             "lastname": "Ducourant",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         },
         {
             "firstname": "Gaétan",
             "lastname": "Lamérant",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         },
         {
             "firstname": "Caroline",
             "lastname": "Landtsheere",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         },
         {
             "firstname": "Claude",
             "lastname": "Nicolet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 15
         }
     ]
 }

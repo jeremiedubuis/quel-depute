@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1419,
                 "Eric Zemmour": 4716
             }
+        },
+        "secondRound": {
+            "registered": 84062,
+            "voted": 63882,
+            "whites": 4523,
+            "expressed": 57110,
+            "void": 2249,
+            "candidates": {
+                "Emmanuel Macron": 28428,
+                "Marine Le Pen": 28682
+            }
         }
+    },
+    "current": {
+        "id": "719258",
+        "lastname": "Delpon",
+        "firstname": "Michel",
+        "slug": "michel-delpon",
+        "gender": "H",
+        "birthday": "1949-08-13",
+        "birthplace": "Lafitte (Tarn-et-Garonne)",
+        "county": "Dordogne",
+        "countyId": "24",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraité salarié du privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 146,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 60,
+            "amendments": 76,
+            "amendmentsSupported": 2499,
+            "amendmentsAdopted": 1098,
+            "commissionsAttended": 227,
+            "commissionInterventions": 87,
+            "hemicycleInterventions": 34,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 21,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jonathan",
             "lastname": "Almosnino",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         },
         {
             "firstname": "Aurélien",
             "lastname": "Delfour",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         },
         {
-            "id": "719258",
-            "lastname": "Delpon",
             "firstname": "Michel",
-            "slug": "michel-delpon",
+            "lastname": "Delpon",
             "gender": "H",
-            "birthday": "1949-08-13",
-            "birthplace": "Lafitte (Tarn-et-Garonne)",
-            "county": "Dordogne",
-            "countyId": "24",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Retraité salarié du privé",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 146,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 60,
-                "amendments": 76,
-                "amendmentsSupported": 2499,
-                "amendmentsAdopted": 1098,
-                "commissionsAttended": 227,
-                "commissionInterventions": 87,
-                "hemicycleInterventions": 34,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 21,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         },
         {
             "firstname": "Serge",
             "lastname": "Muller",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         },
         {
             "firstname": "Michèle",
             "lastname": "Roux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         },
         {
             "firstname": "Cédric",
             "lastname": "Ulian",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 24,
+            "county": "Dordogne",
+            "circumscription": 2
         }
     ]
 }

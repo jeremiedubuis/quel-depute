@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 810,
                 "Eric Zemmour": 3025
             }
+        },
+        "secondRound": {
+            "registered": 73487,
+            "voted": 52576,
+            "whites": 2815,
+            "expressed": 48592,
+            "void": 1169,
+            "candidates": {
+                "Emmanuel Macron": 21599,
+                "Marine Le Pen": 26993
+            }
         }
+    },
+    "current": {
+        "id": "720454",
+        "lastname": "Houbron",
+        "firstname": "Dimitri",
+        "slug": "dimitri-houbron",
+        "gender": "H",
+        "birthday": "1991-02-12",
+        "birthplace": "Roubaix (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 17,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "AE",
+        "job": "Conseiller juridique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 4,
+            "proposals": 8,
+            "proposalsSupported": 91,
+            "amendments": 271,
+            "amendmentsSupported": 2184,
+            "amendmentsAdopted": 815,
+            "commissionsAttended": 302,
+            "commissionInterventions": 217,
+            "hemicycleInterventions": 325,
+            "hemicycleShortInterventions": 28,
+            "questionsWritten": 185,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cédric",
             "lastname": "Fluckiger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 17
         },
         {
             "firstname": "Thibaut",
             "lastname": "Francois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 17
         },
         {
             "firstname": "Cyril",
             "lastname": "Grandin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 17
         },
         {
-            "id": "720454",
-            "lastname": "Houbron",
             "firstname": "Dimitri",
-            "slug": "dimitri-houbron",
+            "lastname": "Houbron",
             "gender": "H",
-            "birthday": "1991-02-12",
-            "birthplace": "Roubaix (Nord)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons,LRM",
+            "groupShort": "Horizons,LRM",
+            "countyId": 59,
             "county": "Nord",
-            "countyId": "59",
-            "circumscription": 17,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "AE",
-            "job": "Conseiller juridique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 4,
-                "proposals": 8,
-                "proposalsSupported": 91,
-                "amendments": 271,
-                "amendmentsSupported": 2184,
-                "amendmentsAdopted": 815,
-                "commissionsAttended": 302,
-                "commissionInterventions": 217,
-                "hemicycleInterventions": 325,
-                "hemicycleShortInterventions": 28,
-                "questionsWritten": 185,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 17
         }
     ]
 }

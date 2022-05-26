@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1279,
                 "Eric Zemmour": 3838
             }
+        },
+        "secondRound": {
+            "registered": 93881,
+            "voted": 67434,
+            "whites": 3189,
+            "expressed": 62549,
+            "void": 1696,
+            "candidates": {
+                "Emmanuel Macron": 25162,
+                "Marine Le Pen": 37387
+            }
         }
+    },
+    "current": {
+        "id": "720684",
+        "lastname": "Dumont",
+        "firstname": "Pierre-Henri",
+        "slug": "pierrehenri-dumont",
+        "gender": "H",
+        "birthday": "1987-10-07",
+        "birthplace": "Grande-Synthe (Nord)",
+        "county": "Pas-de-Calais",
+        "countyId": "62",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Collaborateur parlementaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 179,
+            "reports": 12,
+            "proposals": 8,
+            "proposalsSupported": 365,
+            "amendments": 316,
+            "amendmentsSupported": 14042,
+            "amendmentsAdopted": 333,
+            "commissionsAttended": 250,
+            "commissionInterventions": 259,
+            "hemicycleInterventions": 1007,
+            "hemicycleShortInterventions": 662,
+            "questionsWritten": 74,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marc",
             "lastname": "De Fleurian",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 7
         },
         {
-            "id": "720684",
-            "lastname": "Dumont",
             "firstname": "Pierre-Henri",
-            "slug": "pierrehenri-dumont",
+            "lastname": "Dumont",
             "gender": "H",
-            "birthday": "1987-10-07",
-            "birthplace": "Grande-Synthe (Nord)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Collaborateur parlementaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 179,
-                "reports": 12,
-                "proposals": 8,
-                "proposalsSupported": 365,
-                "amendments": 316,
-                "amendmentsSupported": 14042,
-                "amendmentsAdopted": 333,
-                "commissionsAttended": 250,
-                "commissionInterventions": 259,
-                "hemicycleInterventions": 1007,
-                "hemicycleShortInterventions": 662,
-                "questionsWritten": 74,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Françoise",
             "lastname": "Millot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 7
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Moussally",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 7
         },
         {
             "firstname": "Dominique",
             "lastname": "Niszczota",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 7
         },
         {
             "firstname": "Henri",
             "lastname": "Waroczyk",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 7
         }
     ]
 }

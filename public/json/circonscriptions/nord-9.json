@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 950,
                 "Eric Zemmour": 4425
             }
+        },
+        "secondRound": {
+            "registered": 91981,
+            "voted": 64753,
+            "whites": 3158,
+            "expressed": 60474,
+            "void": 1121,
+            "candidates": {
+                "Emmanuel Macron": 44580,
+                "Marine Le Pen": 15894
+            }
         }
+    },
+    "current": {
+        "id": "720500",
+        "lastname": "Petit",
+        "firstname": "Valérie",
+        "slug": "valerie-petit",
+        "gender": "F",
+        "birthday": "1976-06-23",
+        "birthplace": "Meaux (Seine-et-Marne)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Enseignant chercheur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 5,
+            "proposals": 6,
+            "proposalsSupported": 133,
+            "amendments": 228,
+            "amendmentsSupported": 3092,
+            "amendmentsAdopted": 732,
+            "commissionsAttended": 226,
+            "commissionInterventions": 133,
+            "hemicycleInterventions": 167,
+            "hemicycleShortInterventions": 24,
+            "questionsWritten": 115,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christine",
             "lastname": "Landru",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         },
         {
             "firstname": "Laurent",
             "lastname": "Leturque",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         },
         {
             "firstname": "Nicolas",
             "lastname": "Papiachvili",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         },
         {
             "firstname": "Chantal",
             "lastname": "Sarazin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         },
         {
             "firstname": "Violette",
             "lastname": "Spillebout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         },
         {
             "firstname": "Odile",
             "lastname": "Vidal-Sagnier",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 9
         }
     ]
 }

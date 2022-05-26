@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 754,
                 "Eric Zemmour": 2899
             }
+        },
+        "secondRound": {
+            "registered": 65988,
+            "voted": 44467,
+            "whites": 3127,
+            "expressed": 40530,
+            "void": 810,
+            "candidates": {
+                "Emmanuel Macron": 29744,
+                "Marine Le Pen": 10786
+            }
         }
+    },
+    "current": {
+        "id": "672",
+        "lastname": "Bridey",
+        "firstname": "Jean-Jacques",
+        "slug": "jeanjacques-bridey",
+        "gender": "H",
+        "birthday": "1953-05-07",
+        "birthplace": "Nice (Alpes-Maritimes)",
+        "county": "Val-de-Marne",
+        "countyId": "94",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur du secteur privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 155,
+            "amendmentsSupported": 1563,
+            "amendmentsAdopted": 1032,
+            "commissionsAttended": 414,
+            "commissionInterventions": 944,
+            "hemicycleInterventions": 346,
+            "hemicycleShortInterventions": 281,
+            "questionsWritten": 0,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascale",
             "lastname": "Corbin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Gaëlle",
             "lastname": "Debbache",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Ugo",
             "lastname": "Falcon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Vincent",
             "lastname": "Jeanbrun",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Rachel",
             "lastname": "Kéké",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Roxana",
             "lastname": "Maracineanu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Claire",
             "lastname": "Maury",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 7
         }
     ]
 }

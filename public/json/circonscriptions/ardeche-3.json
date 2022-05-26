@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 80561,
-            "voted": 63473,
-            "whites": 928,
-            "expressed": 62104,
-            "void": 441,
+            "voted": 63474,
+            "whites": 952,
+            "expressed": 62106,
+            "void": 416,
             "candidates": {
                 "Nathalie Arthaud": 327,
                 "Fabien Roussel": 2032,
@@ -18,97 +18,144 @@
                 "Jean-Luc Mélenchon": 15623,
                 "Anne Hidalgo": 1256,
                 "Yannick Jadot": 2590,
-                "Valérie Pécresse": 3058,
+                "Valérie Pécresse": 3060,
                 "Phillipe Poutou": 610,
                 "Nicolas Dupont-Aignan": 1401,
                 "Eric Zemmour": 4444
             }
+        },
+        "secondRound": {
+            "registered": 80601,
+            "voted": 60415,
+            "whites": 5526,
+            "expressed": 52840,
+            "void": 2049,
+            "candidates": {
+                "Emmanuel Macron": 27617,
+                "Marine Le Pen": 25223
+            }
         }
+    },
+    "current": {
+        "id": "718838",
+        "lastname": "Brun",
+        "firstname": "Fabrice",
+        "slug": "fabrice-brun",
+        "gender": "H",
+        "birthday": "1968-04-02",
+        "birthplace": "Avignon (Vaucluse)",
+        "county": "Ardèche",
+        "countyId": "07",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 4,
+            "proposals": 54,
+            "proposalsSupported": 619,
+            "amendments": 2409,
+            "amendmentsSupported": 18031,
+            "amendmentsAdopted": 438,
+            "commissionsAttended": 240,
+            "commissionInterventions": 581,
+            "hemicycleInterventions": 772,
+            "hemicycleShortInterventions": 1313,
+            "questionsWritten": 225,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne",
             "lastname": "Alirol",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         },
         {
-            "id": "718838",
-            "lastname": "Brun",
             "firstname": "Fabrice",
-            "slug": "fabrice-brun",
+            "lastname": "Brun",
             "gender": "H",
-            "birthday": "1968-04-02",
-            "birthplace": "Avignon (Vaucluse)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 7,
             "county": "Ardèche",
-            "countyId": "07",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 4,
-                "proposals": 54,
-                "proposalsSupported": 619,
-                "amendments": 2409,
-                "amendmentsSupported": 18031,
-                "amendmentsAdopted": 438,
-                "commissionsAttended": 240,
-                "commissionInterventions": 581,
-                "hemicycleInterventions": 772,
-                "hemicycleShortInterventions": 1313,
-                "questionsWritten": 225,
-                "questionsOral": 18
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Alexandra",
             "lastname": "Cauquil",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Marchisio",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         },
         {
             "firstname": "Florence",
             "lastname": "Pallot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         },
         {
             "firstname": "Audrey",
             "lastname": "Teillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         },
         {
             "firstname": "Johan",
             "lastname": "Verheij",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 3
         }
     ]
 }

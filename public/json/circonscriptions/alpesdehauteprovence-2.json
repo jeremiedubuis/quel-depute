@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 66383,
             "voted": 50843,
-            "whites": 773,
+            "whites": 787,
             "expressed": 49747,
-            "void": 323,
+            "void": 309,
             "candidates": {
                 "Nathalie Arthaud": 230,
                 "Fabien Roussel": 1347,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1299,
                 "Eric Zemmour": 3906
             }
+        },
+        "secondRound": {
+            "registered": 66390,
+            "voted": 49386,
+            "whites": 3850,
+            "expressed": 44200,
+            "void": 1336,
+            "candidates": {
+                "Emmanuel Macron": 22395,
+                "Marine Le Pen": 21805
+            }
         }
+    },
+    "current": {
+        "id": "605131",
+        "lastname": "Castaner",
+        "firstname": "Christophe",
+        "slug": "christophe-castaner",
+        "gender": "H",
+        "birthday": "1966-01-03",
+        "birthplace": "Ollioules (Var)",
+        "county": "Alpes-de-Haute-Provence",
+        "countyId": "04",
+        "circumscription": 2,
+        "mandateStart": "2020-08-04",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 58,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 28,
+            "amendments": 3,
+            "amendmentsSupported": 1130,
+            "amendmentsAdopted": 861,
+            "commissionsAttended": 52,
+            "commissionInterventions": 7,
+            "hemicycleInterventions": 126,
+            "hemicycleShortInterventions": 66,
+            "questionsWritten": 0,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Aurélie",
             "lastname": "Abeille",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         },
         {
             "firstname": "Thierry",
             "lastname": "Begnis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         },
         {
-            "id": "605131",
-            "lastname": "Castaner",
             "firstname": "Christophe",
-            "slug": "christophe-castaner",
+            "lastname": "Castaner",
             "gender": "H",
-            "birthday": "1966-01-03",
-            "birthplace": "Ollioules (Var)",
-            "county": "Alpes-de-Haute-Provence",
-            "countyId": "04",
-            "circumscription": 2,
-            "mandateStart": "2020-08-04",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre profession",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 58,
-                "reports": 4,
-                "proposals": 2,
-                "proposalsSupported": 28,
-                "amendments": 3,
-                "amendmentsSupported": 1130,
-                "amendmentsAdopted": 861,
-                "commissionsAttended": 52,
-                "commissionInterventions": 7,
-                "hemicycleInterventions": 126,
-                "hemicycleShortInterventions": 66,
-                "questionsWritten": 0,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         },
         {
             "firstname": "Hervé",
             "lastname": "Guerrera",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         },
         {
             "firstname": "Frédéric",
             "lastname": "Kechra",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         },
         {
             "firstname": "Léo",
             "lastname": "Walter",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 4,
+            "county": "Alpes-de-Haute-Provence",
+            "circumscription": 2
         }
     ]
 }

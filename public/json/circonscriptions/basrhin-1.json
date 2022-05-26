@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 569,
                 "Eric Zemmour": 2968
             }
+        },
+        "secondRound": {
+            "registered": 61529,
+            "voted": 42995,
+            "whites": 2239,
+            "expressed": 40112,
+            "void": 644,
+            "candidates": {
+                "Emmanuel Macron": 32370,
+                "Marine Le Pen": 7742
+            }
         }
+    },
+    "current": {
+        "id": "720738",
+        "lastname": "Michels",
+        "firstname": "Thierry",
+        "slug": "thierry-michels",
+        "gender": "H",
+        "birthday": "1960-08-27",
+        "birthplace": "Strasbourg (Bas-Rhin)",
+        "county": "Bas-Rhin",
+        "countyId": "67",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 7,
+            "proposals": 3,
+            "proposalsSupported": 72,
+            "amendments": 192,
+            "amendmentsSupported": 2767,
+            "amendmentsAdopted": 1305,
+            "commissionsAttended": 420,
+            "commissionInterventions": 362,
+            "hemicycleInterventions": 110,
+            "hemicycleShortInterventions": 5,
+            "questionsWritten": 8,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Louise",
             "lastname": "Fève",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         },
         {
             "firstname": "Alain",
             "lastname": "Fontanel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         },
         {
             "firstname": "Sandra",
             "lastname": "Regol",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         },
         {
             "firstname": "Audrey",
             "lastname": "Rozenhaft",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         },
         {
             "firstname": "Lionel",
             "lastname": "Sauner",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         },
         {
             "firstname": "Tamara",
             "lastname": "Volokhova",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 1
         }
     ]
 }

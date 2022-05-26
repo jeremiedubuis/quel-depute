@@ -1,5 +1,5 @@
-import axios from 'axios';
-import {slugify, slugifyNames} from '$helpers/slugify';
+import pick from 'lodash/fp/pick';
+import { slugify, slugifyNames } from '$helpers/slugify';
 import { writeFile } from '$helpers/writeFile';
 import { deputeJSONPath, deputePicturePath, scrutinJSONPath } from '../config';
 import { emptyDir } from '$helpers/emptyDir';
@@ -10,7 +10,8 @@ const scrutins = require('../data/scrutins2.json');
 const scandals = require('../data/scandals.json');
 import candidates from '../data/candidates.json';
 import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
-import {mapNosDeputes} from "../helpers/mapNosDeputes";
+import { mapNosDeputes } from '../helpers/mapNosDeputes';
+import { mapCandidate } from '../helpers/mapCandidate';
 
 export type Scrutin = {
     'N° Scrutin': number;
@@ -28,24 +29,55 @@ const consolidate = async () => {
     await emptyDir(deputeJSONPath);
     if (!skip.image) await emptyDir(deputePicturePath);
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
-    const parsed = mapNosDeputes(raw)
-    parsed.forEach(d => {
-        const _candidate = candidates.find(({ prenom, nom }: any) => prenom === d.firstname && nom === d.lastname );
+    const parsed = mapNosDeputes(raw);
+
+    const mappedCandidates = candidates.map(mapCandidate);
+
+    parsed.forEach((d) => {
+        const _candidate = mappedCandidates.find(
+            ({ firstname, lastname }: any) => firstname === d.firstname && lastname === d.lastname
+        );
         if (!_candidate) d.candidate = false;
         else {
-            const _countyId = _candidate.circonscription.replace(/-\d+/, '');
-            const circumscription = parseInt(_candidate.circonscription.replace(/\d+-/, ''));
-            const county = circumscriptionsFirstRound.find(circ =>
-                circ.countyId.toString().replace(/^0+/, '') ===_countyId.replace(/^0+/, '')
-            )?.county;
-            d.candidate = {
-                countyId: _countyId,
-                circumscription,
-                circumscriptionSlug: slugify(`${county} ${circumscription}`),
-                county
-            }
+            d.candidate = pick(['countyId', 'county', 'circumscription'])(_candidate);
         }
     });
+
+    const list = parsed.map((c) => {
+        const r = pick([
+            'firstname',
+            'lastname',
+            'slug',
+            'gender',
+            'countyId',
+            'county',
+            'circumscription',
+            'group',
+            'groupShort'
+        ])(c);
+        r.current = true;
+        return { ...r, current: true };
+    });
+
+    list.push(
+        ...mappedCandidates.filter(
+            (c) => !list.find((l) => l.firstname === c.firstname && l.lastname === c.lastname)
+        )
+    );
+
+    await writeFile(
+        path.join(deputeJSONPath, 'deputes.json'),
+        JSON.stringify(
+            list.map((l) => ({
+                ...l,
+                candidate: !!mappedCandidates.find(
+                    (c) => c.firstname === l.firstname && c.lastname === l.lastname
+                )
+            })),
+            null,
+            4
+        )
+    );
 
     const presenceTotals = parsed.reduce((acc, curr) => {
         Object.keys(curr.presence).forEach((key) => {
@@ -78,6 +110,7 @@ const consolidate = async () => {
                 if (vote.vote) d.governmentLaws++;
             }
             d.votes.push({
+                number: scrutin.number,
                 initiative: scrutin.initiative,
                 name: scrutin.title,
                 category: scrutin.category,

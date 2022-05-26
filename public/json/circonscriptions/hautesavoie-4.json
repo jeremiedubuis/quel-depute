@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 87885,
-            "voted": 64923,
-            "whites": 984,
-            "expressed": 63605,
-            "void": 334,
+            "voted": 64922,
+            "whites": 1008,
+            "expressed": 63604,
+            "void": 310,
             "candidates": {
                 "Nathalie Arthaud": 278,
                 "Fabien Roussel": 765,
                 "Emmanuel Macron": 18844,
                 "Jean Lasalle": 1799,
-                "Marine Le Pen": 12419,
+                "Marine Le Pen": 12418,
                 "Jean-Luc Mélenchon": 13646,
                 "Anne Hidalgo": 901,
                 "Yannick Jadot": 4045,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2191,
                 "Eric Zemmour": 5201
             }
+        },
+        "secondRound": {
+            "registered": 87896,
+            "voted": 61820,
+            "whites": 3669,
+            "expressed": 57201,
+            "void": 950,
+            "candidates": {
+                "Emmanuel Macron": 35625,
+                "Marine Le Pen": 21576
+            }
         }
+    },
+    "current": {
+        "id": "608826",
+        "lastname": "Duby-Muller",
+        "firstname": "Virginie",
+        "slug": "virginie-dubymuller",
+        "gender": "F",
+        "birthday": "1979-08-16",
+        "birthplace": "Bonneville (Haute-Savoie)",
+        "county": "Haute-Savoie",
+        "countyId": "74",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre du secteur privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 1,
+            "proposals": 19,
+            "proposalsSupported": 507,
+            "amendments": 285,
+            "amendmentsSupported": 7802,
+            "amendmentsAdopted": 259,
+            "commissionsAttended": 310,
+            "commissionInterventions": 281,
+            "hemicycleInterventions": 293,
+            "hemicycleShortInterventions": 57,
+            "questionsWritten": 186,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sophie",
             "lastname": "Bédague",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 4
         },
         {
             "firstname": "Zakaria",
             "lastname": "Benmeriouma",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 4
         },
         {
             "firstname": "Vanessa",
             "lastname": "Dahmal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 4
         },
         {
-            "id": "608826",
-            "lastname": "Duby-Muller",
             "firstname": "Virginie",
-            "slug": "virginie-dubymuller",
+            "lastname": "Duby-Muller",
             "gender": "F",
-            "birthday": "1979-08-16",
-            "birthplace": "Bonneville (Haute-Savoie)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 74,
             "county": "Haute-Savoie",
-            "countyId": "74",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre du secteur privé",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 166,
-                "reports": 1,
-                "proposals": 19,
-                "proposalsSupported": 507,
-                "amendments": 285,
-                "amendmentsSupported": 7802,
-                "amendmentsAdopted": 259,
-                "commissionsAttended": 310,
-                "commissionInterventions": 281,
-                "hemicycleInterventions": 293,
-                "hemicycleShortInterventions": 57,
-                "questionsWritten": 186,
-                "questionsOral": 25
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Magalie",
             "lastname": "Luho",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 4
         },
         {
             "firstname": "Antoine",
             "lastname": "Vieillard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 74,
+            "county": "Haute-Savoie",
+            "circumscription": 4
         }
     ]
 }

@@ -6,73 +6,144 @@
         "firstRound": {
             "registered": 95403,
             "voted": 73166,
-            "whites": 1147,
-            "expressed": 71625,
-            "void": 394,
+            "whites": 1167,
+            "expressed": 71631,
+            "void": 368,
             "candidates": {
                 "Nathalie Arthaud": 594,
                 "Fabien Roussel": 2214,
                 "Emmanuel Macron": 19164,
                 "Jean Lasalle": 1965,
-                "Marine Le Pen": 23817,
-                "Jean-Luc Mélenchon": 11941,
-                "Anne Hidalgo": 1073,
+                "Marine Le Pen": 23821,
+                "Jean-Luc Mélenchon": 11942,
+                "Anne Hidalgo": 1074,
                 "Yannick Jadot": 2393,
                 "Valérie Pécresse": 2742,
                 "Phillipe Poutou": 682,
                 "Nicolas Dupont-Aignan": 1645,
                 "Eric Zemmour": 3395
             }
+        },
+        "secondRound": {
+            "registered": 95442,
+            "voted": 74199,
+            "whites": 4582,
+            "expressed": 67956,
+            "void": 1661,
+            "candidates": {
+                "Emmanuel Macron": 32582,
+                "Marine Le Pen": 35374
+            }
         }
+    },
+    "current": {
+        "id": "721514",
+        "lastname": "Kerbarh",
+        "firstname": "Stéphanie",
+        "slug": "stephanie-kerbarh",
+        "gender": "F",
+        "birthday": "1975-07-31",
+        "birthplace": "Orléans (Loiret)",
+        "county": "Seine-Maritime",
+        "countyId": "76",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "LT",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 98,
+            "amendments": 403,
+            "amendmentsSupported": 3636,
+            "amendmentsAdopted": 1431,
+            "commissionsAttended": 287,
+            "commissionInterventions": 493,
+            "hemicycleInterventions": 314,
+            "hemicycleShortInterventions": 171,
+            "questionsWritten": 59,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Victor",
             "lastname": "Balier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Fouani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         },
         {
             "firstname": "Nicolas",
             "lastname": "Goury",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         },
         {
             "firstname": "Jean-Paul",
             "lastname": "Macé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         },
         {
             "firstname": "Marie-Agnès",
             "lastname": "Poussier-Winsback",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         },
         {
             "firstname": "Carole",
             "lastname": "Servais",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 9
         }
     ]
 }

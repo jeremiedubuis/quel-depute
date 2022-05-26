@@ -5,9 +5,9 @@
     "results": {
         "firstRound": {
             "registered": 97574,
-            "voted": 77515,
+            "voted": 77514,
             "whites": 1153,
-            "expressed": 75986,
+            "expressed": 75985,
             "void": 376,
             "candidates": {
                 "Nathalie Arthaud": 512,
@@ -15,7 +15,7 @@
                 "Emmanuel Macron": 27152,
                 "Jean Lasalle": 2395,
                 "Marine Le Pen": 14763,
-                "Jean-Luc Mélenchon": 14091,
+                "Jean-Luc Mélenchon": 14090,
                 "Anne Hidalgo": 1829,
                 "Yannick Jadot": 4726,
                 "Valérie Pécresse": 3968,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1020,
                 "Eric Zemmour": 2958
             }
+        },
+        "secondRound": {
+            "registered": 97566,
+            "voted": 77440,
+            "whites": 5249,
+            "expressed": 70590,
+            "void": 1601,
+            "candidates": {
+                "Emmanuel Macron": 48563,
+                "Marine Le Pen": 22027
+            }
         }
+    },
+    "current": {
+        "id": "719338",
+        "lastname": "Melchior",
+        "firstname": "Graziella",
+        "slug": "graziella-melchior",
+        "gender": "F",
+        "birthday": "1960-04-06",
+        "birthplace": "Brest (Finistère)",
+        "county": "Finistère",
+        "countyId": "29",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeure agrégée du supérieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 81,
+            "amendments": 127,
+            "amendmentsSupported": 2980,
+            "amendmentsAdopted": 1259,
+            "commissionsAttended": 274,
+            "commissionInterventions": 367,
+            "hemicycleInterventions": 68,
+            "hemicycleShortInterventions": 21,
+            "questionsWritten": 91,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Félix",
             "lastname": "Briant",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Christian",
             "lastname": "Cajean",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Angélique",
             "lastname": "De Cecco",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Brigitte",
             "lastname": "Le Ny",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
-            "id": "719338",
-            "lastname": "Melchior",
             "firstname": "Graziella",
-            "slug": "graziella-melchior",
+            "lastname": "Melchior",
             "gender": "F",
-            "birthday": "1960-04-06",
-            "birthplace": "Brest (Finistère)",
-            "county": "Finistère",
-            "countyId": "29",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeure agrégée du supérieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 81,
-                "amendments": 127,
-                "amendmentsSupported": 2980,
-                "amendmentsAdopted": 1259,
-                "commissionsAttended": 274,
-                "commissionInterventions": 367,
-                "hemicycleInterventions": 68,
-                "hemicycleShortInterventions": 21,
-                "questionsWritten": 91,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Muriot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Nathalie",
             "lastname": "Sarrabezolles",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         },
         {
             "firstname": "Renée",
             "lastname": "Thomaïdis",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 5
         }
     ]
 }

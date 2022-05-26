@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1017,
                 "Eric Zemmour": 3243
             }
+        },
+        "secondRound": {
+            "registered": 90510,
+            "voted": 66102,
+            "whites": 3432,
+            "expressed": 61226,
+            "void": 1444,
+            "candidates": {
+                "Emmanuel Macron": 29577,
+                "Marine Le Pen": 31649
+            }
         }
+    },
+    "current": {
+        "id": "2449",
+        "lastname": "Pont",
+        "firstname": "Jean-Pierre",
+        "slug": "jeanpierre-pont",
+        "gender": "H",
+        "birthday": "1950-05-09",
+        "birthplace": "Portel (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": "62",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 182,
+            "reports": 26,
+            "proposals": 1,
+            "proposalsSupported": 87,
+            "amendments": 223,
+            "amendmentsSupported": 2402,
+            "amendmentsAdopted": 1387,
+            "commissionsAttended": 530,
+            "commissionInterventions": 518,
+            "hemicycleInterventions": 525,
+            "hemicycleShortInterventions": 422,
+            "questionsWritten": 28,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nancy",
             "lastname": "Belart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         },
         {
             "firstname": "Christophe",
             "lastname": "Blanckaert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         },
         {
             "firstname": "Olivier",
             "lastname": "Carraud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         },
         {
             "firstname": "Géraldine",
             "lastname": "Delbart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         },
         {
             "firstname": "Antoine",
             "lastname": "Golliot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         },
         {
-            "id": "2449",
-            "lastname": "Pont",
             "firstname": "Jean-Pierre",
-            "slug": "jeanpierre-pont",
+            "lastname": "Pont",
             "gender": "H",
-            "birthday": "1950-05-09",
-            "birthplace": "Portel (Pas-de-Calais)",
-            "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 182,
-                "reports": 26,
-                "proposals": 1,
-                "proposalsSupported": 87,
-                "amendments": 223,
-                "amendmentsSupported": 2402,
-                "amendmentsAdopted": 1387,
-                "commissionsAttended": 530,
-                "commissionInterventions": 518,
-                "hemicycleInterventions": 525,
-                "hemicycleShortInterventions": 422,
-                "questionsWritten": 28,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 5
         }
     ]
 }

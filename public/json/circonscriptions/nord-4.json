@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1087,
                 "Eric Zemmour": 4532
             }
+        },
+        "secondRound": {
+            "registered": 100902,
+            "voted": 74659,
+            "whites": 3697,
+            "expressed": 69608,
+            "void": 1354,
+            "candidates": {
+                "Emmanuel Macron": 48127,
+                "Marine Le Pen": 21481
+            }
         }
+    },
+    "current": {
+        "id": "720446",
+        "lastname": "Liso",
+        "firstname": "Brigitte",
+        "slug": "brigitte-liso",
+        "gender": "F",
+        "birthday": "1959-07-29",
+        "birthplace": "Lille (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Commerçant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 42,
+            "amendmentsSupported": 1784,
+            "amendmentsAdopted": 979,
+            "commissionsAttended": 233,
+            "commissionInterventions": 46,
+            "hemicycleInterventions": 53,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 72,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Fatima",
             "lastname": "Abdellaoui",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
             "firstname": "Gauthier",
             "lastname": "Boullet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
             "firstname": "Octave",
             "lastname": "Delepiere",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
             "firstname": "Ewann",
             "lastname": "Gavard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
             "firstname": "Sébastien",
             "lastname": "Leblanc",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
-            "id": "720446",
-            "lastname": "Liso",
             "firstname": "Brigitte",
-            "slug": "brigitte-liso",
+            "lastname": "Liso",
             "gender": "F",
-            "birthday": "1959-07-29",
-            "birthplace": "Lille (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Commerçant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 67,
-                "amendments": 42,
-                "amendmentsSupported": 1784,
-                "amendmentsAdopted": 979,
-                "commissionsAttended": 233,
-                "commissionInterventions": 46,
-                "hemicycleInterventions": 53,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 72,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         },
         {
             "firstname": "Patricia",
             "lastname": "Plancke",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 4
         }
     ]
 }

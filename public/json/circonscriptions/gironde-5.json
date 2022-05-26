@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1724,
                 "Eric Zemmour": 6262
             }
+        },
+        "secondRound": {
+            "registered": 120526,
+            "voted": 92179,
+            "whites": 5967,
+            "expressed": 83962,
+            "void": 2250,
+            "candidates": {
+                "Emmanuel Macron": 44082,
+                "Marine Le Pen": 39880
+            }
         }
+    },
+    "current": {
+        "id": "719592",
+        "lastname": "Simian",
+        "firstname": "Benoit",
+        "slug": "benoit-simian",
+        "gender": "H",
+        "birthday": "1983-05-27",
+        "birthplace": "Bordeaux (Gironde)",
+        "county": "Gironde",
+        "countyId": "33",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Responsable formation - Cadre en ressources humaines",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 89,
+            "amendments": 425,
+            "amendmentsSupported": 6006,
+            "amendmentsAdopted": 905,
+            "commissionsAttended": 240,
+            "commissionInterventions": 194,
+            "hemicycleInterventions": 276,
+            "hemicycleShortInterventions": 41,
+            "questionsWritten": 89,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Virginie",
             "lastname": "Bastien Delmon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         },
         {
             "firstname": "Viviane",
             "lastname": "Chaine-Ribeiro",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         },
         {
             "firstname": "Grégoire",
             "lastname": "De Fournas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         },
         {
             "firstname": "Thierry",
             "lastname": "Fagegaltier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         },
         {
             "firstname": "Olivier",
             "lastname": "Maneiro",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         },
         {
             "firstname": "Karine",
             "lastname": "Nouette-Gaulain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 5
         }
     ]
 }

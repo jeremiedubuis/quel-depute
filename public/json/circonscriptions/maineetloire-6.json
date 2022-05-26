@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1788,
                 "Eric Zemmour": 3105
             }
+        },
+        "secondRound": {
+            "registered": 98755,
+            "voted": 76473,
+            "whites": 4827,
+            "expressed": 69984,
+            "void": 1662,
+            "candidates": {
+                "Emmanuel Macron": 47892,
+                "Marine Le Pen": 22092
+            }
         }
+    },
+    "current": {
+        "id": "720154",
+        "lastname": "Dubré-Chirat",
+        "firstname": "Nicole",
+        "slug": "nicole-dubrechirat",
+        "gender": "F",
+        "birthday": "1951-12-18",
+        "birthplace": "Felletin (Creuse)",
+        "county": "Maine-et-Loire",
+        "countyId": "49",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraitée de la fonction publique hospitalière et chargée de formation",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 191,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 84,
+            "amendments": 123,
+            "amendmentsSupported": 2361,
+            "amendmentsAdopted": 1263,
+            "commissionsAttended": 467,
+            "commissionInterventions": 242,
+            "hemicycleInterventions": 189,
+            "hemicycleShortInterventions": 43,
+            "questionsWritten": 30,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Tassadit",
             "lastname": "Amghar",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Sigline",
             "lastname": "De Campeau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         },
         {
-            "id": "720154",
-            "lastname": "Dubré-Chirat",
             "firstname": "Nicole",
-            "slug": "nicole-dubrechirat",
+            "lastname": "Dubre-Chirat",
             "gender": "F",
-            "birthday": "1951-12-18",
-            "birthplace": "Felletin (Creuse)",
-            "county": "Maine-et-Loire",
-            "countyId": "49",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Retraitée de la fonction publique hospitalière et chargée de formation",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 191,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 84,
-                "amendments": 123,
-                "amendmentsSupported": 2361,
-                "amendmentsAdopted": 1263,
-                "commissionsAttended": 467,
-                "commissionInterventions": 242,
-                "hemicycleInterventions": 189,
-                "hemicycleShortInterventions": 43,
-                "questionsWritten": 30,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Marine",
             "lastname": "Durand",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Pierre",
             "lastname": "Kaniki",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         },
         {
             "firstname": "Yann",
             "lastname": "Le Diagon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 6
         }
     ]
 }

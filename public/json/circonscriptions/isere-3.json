@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 558,
                 "Eric Zemmour": 2432
             }
+        },
+        "secondRound": {
+            "registered": 60057,
+            "voted": 40728,
+            "whites": 2665,
+            "expressed": 37375,
+            "void": 688,
+            "candidates": {
+                "Emmanuel Macron": 26749,
+                "Marine Le Pen": 10626
+            }
         }
+    },
+    "current": {
+        "id": "719748",
+        "lastname": "Chalas",
+        "firstname": "Émilie",
+        "slug": "emilie-chalas",
+        "gender": "F",
+        "birthday": "1977-10-18",
+        "birthplace": "Échirolles (Isère)",
+        "county": "Isère",
+        "countyId": "38",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 59,
+            "amendments": 294,
+            "amendmentsSupported": 2123,
+            "amendmentsAdopted": 1397,
+            "commissionsAttended": 210,
+            "commissionInterventions": 490,
+            "hemicycleInterventions": 650,
+            "hemicycleShortInterventions": 404,
+            "questionsWritten": 24,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Catherine",
             "lastname": "Brun",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 3
         },
         {
-            "id": "719748",
-            "lastname": "Chalas",
             "firstname": "Émilie",
-            "slug": "emilie-chalas",
+            "lastname": "Chalas",
             "gender": "F",
-            "birthday": "1977-10-18",
-            "birthplace": "Échirolles (Isère)",
-            "county": "Isère",
-            "countyId": "38",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 59,
-                "amendments": 294,
-                "amendmentsSupported": 2123,
-                "amendmentsAdopted": 1397,
-                "commissionsAttended": 210,
-                "commissionInterventions": 490,
-                "hemicycleInterventions": 650,
-                "hemicycleShortInterventions": 404,
-                "questionsWritten": 24,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 3
         },
         {
             "firstname": "Christel",
             "lastname": "Dupré",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 3
         },
         {
             "firstname": "Sandra",
             "lastname": "Krief",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 3
         },
         {
             "firstname": "Elisa",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 3
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1503,
                 "Eric Zemmour": 3068
             }
+        },
+        "secondRound": {
+            "registered": 87713,
+            "voted": 67652,
+            "whites": 4084,
+            "expressed": 62223,
+            "void": 1345,
+            "candidates": {
+                "Emmanuel Macron": 36197,
+                "Marine Le Pen": 26026
+            }
         }
+    },
+    "current": {
+        "id": "266797",
+        "lastname": "Gosselin",
+        "firstname": "Philippe",
+        "slug": "philippe-gosselin",
+        "gender": "H",
+        "birthday": "1966-10-23",
+        "birthplace": "Carentan (Manche)",
+        "county": "Manche",
+        "countyId": "50",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Maître de conférences à Sciences Po",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 184,
+            "reports": 7,
+            "proposals": 23,
+            "proposalsSupported": 489,
+            "amendments": 1490,
+            "amendmentsSupported": 9457,
+            "amendmentsAdopted": 252,
+            "commissionsAttended": 302,
+            "commissionInterventions": 1065,
+            "hemicycleInterventions": 1644,
+            "hemicycleShortInterventions": 2536,
+            "questionsWritten": 171,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "266797",
-            "lastname": "Gosselin",
             "firstname": "Philippe",
-            "slug": "philippe-gosselin",
+            "lastname": "Gosselin",
             "gender": "H",
-            "birthday": "1966-10-23",
-            "birthplace": "Carentan (Manche)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 50,
             "county": "Manche",
-            "countyId": "50",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Maître de conférences à Sciences Po",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 184,
-                "reports": 7,
-                "proposals": 23,
-                "proposalsSupported": 489,
-                "amendments": 1490,
-                "amendmentsSupported": 9457,
-                "amendmentsAdopted": 252,
-                "commissionsAttended": 302,
-                "commissionInterventions": 1065,
-                "hemicycleInterventions": 1644,
-                "hemicycleShortInterventions": 2536,
-                "questionsWritten": 171,
-                "questionsOral": 17
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Guillaume",
             "lastname": "Hedouin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 1
         },
         {
             "firstname": "Olivia",
             "lastname": "Lewi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 1
         },
         {
             "firstname": "Jérôme",
             "lastname": "Louiche",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Pien",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 1
         },
         {
             "firstname": "Franck",
             "lastname": "Simon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 1
         }
     ]
 }

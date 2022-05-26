@@ -4,7 +4,7 @@
     "name": "Hérault",
     "results": {
         "firstRound": {
-            "registered": 89339,
+            "registered": 89342,
             "voted": 67868,
             "whites": 958,
             "expressed": 66559,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1046,
                 "Eric Zemmour": 6528
             }
+        },
+        "secondRound": {
+            "registered": 89378,
+            "voted": 64108,
+            "whites": 4257,
+            "expressed": 58643,
+            "void": 1208,
+            "candidates": {
+                "Emmanuel Macron": 34004,
+                "Marine Le Pen": 24639
+            }
         }
+    },
+    "current": {
+        "id": "719668",
+        "lastname": "Mirallès",
+        "firstname": "Patricia",
+        "slug": "patricia-miralles",
+        "gender": "F",
+        "birthday": "1967-08-22",
+        "birthplace": "Montpellier (Hérault)",
+        "county": "Hérault",
+        "countyId": "34",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie C",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 3,
+            "proposals": 3,
+            "proposalsSupported": 75,
+            "amendments": 230,
+            "amendmentsSupported": 2279,
+            "amendmentsAdopted": 1060,
+            "commissionsAttended": 261,
+            "commissionInterventions": 250,
+            "hemicycleInterventions": 146,
+            "hemicycleShortInterventions": 396,
+            "questionsWritten": 58,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julien",
             "lastname": "Colet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Philippe",
             "lastname": "Cournet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         },
         {
             "firstname": "France",
             "lastname": "Jamet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         },
         {
             "firstname": "Morgane",
             "lastname": "Lachiver",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         },
         {
-            "id": "719668",
-            "lastname": "Mirallès",
             "firstname": "Patricia",
-            "slug": "patricia-miralles",
+            "lastname": "Miralles",
             "gender": "F",
-            "birthday": "1967-08-22",
-            "birthplace": "Montpellier (Hérault)",
-            "county": "Hérault",
-            "countyId": "34",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie C",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 3,
-                "proposals": 3,
-                "proposalsSupported": 75,
-                "amendments": 230,
-                "amendmentsSupported": 2279,
-                "amendmentsAdopted": 1060,
-                "commissionsAttended": 261,
-                "commissionInterventions": 250,
-                "hemicycleInterventions": 146,
-                "hemicycleShortInterventions": 396,
-                "questionsWritten": 58,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         },
         {
             "firstname": "Eva",
             "lastname": "Roussel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 1
         }
     ]
 }

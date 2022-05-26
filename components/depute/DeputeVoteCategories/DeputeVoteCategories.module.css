@@ -40,3 +40,10 @@
 .warning svg {
     fill: var(--color);
 }
+
+.details a {
+    float: left;
+    clear: left;
+    margin-top: 20px;
+    text-decoration: none;
+}

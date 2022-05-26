@@ -6,81 +6,156 @@
         "firstRound": {
             "registered": 80319,
             "voted": 62885,
-            "whites": 679,
-            "expressed": 62011,
-            "void": 195,
+            "whites": 680,
+            "expressed": 62012,
+            "void": 193,
             "candidates": {
                 "Nathalie Arthaud": 220,
                 "Fabien Roussel": 1267,
                 "Emmanuel Macron": 16939,
                 "Jean Lasalle": 610,
-                "Marine Le Pen": 2812,
+                "Marine Le Pen": 2813,
                 "Jean-Luc Mélenchon": 26927,
-                "Anne Hidalgo": 1684,
-                "Yannick Jadot": 5755,
+                "Anne Hidalgo": 1683,
+                "Yannick Jadot": 5756,
                 "Valérie Pécresse": 1974,
                 "Phillipe Poutou": 442,
                 "Nicolas Dupont-Aignan": 488,
                 "Eric Zemmour": 2893
             }
+        },
+        "secondRound": {
+            "registered": 80342,
+            "voted": 58567,
+            "whites": 3093,
+            "expressed": 54620,
+            "void": 854,
+            "candidates": {
+                "Emmanuel Macron": 48415,
+                "Marine Le Pen": 6205
+            }
         }
+    },
+    "current": {
+        "id": "721568",
+        "lastname": "Person",
+        "firstname": "Pierre",
+        "slug": "pierre-person",
+        "gender": "H",
+        "birthday": "1989-01-22",
+        "birthplace": "Nancy (Meurthe-et-Moselle)",
+        "county": "Paris",
+        "countyId": "75",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 117,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 74,
+            "amendments": 90,
+            "amendmentsSupported": 2067,
+            "amendmentsAdopted": 1201,
+            "commissionsAttended": 109,
+            "commissionInterventions": 42,
+            "hemicycleInterventions": 62,
+            "hemicycleShortInterventions": 19,
+            "questionsWritten": 9,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julien",
             "lastname": "Bargeton",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Jennifer",
             "lastname": "Borsellino",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Marie Vang",
             "lastname": "Bozzi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Sophia",
             "lastname": "Chikirou",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Anne-Catherine",
             "lastname": "Godde",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Christophe",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         },
         {
             "firstname": "Romain",
             "lastname": "Van Den Broucke",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 6
         }
     ]
 }

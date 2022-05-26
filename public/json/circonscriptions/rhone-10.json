@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 98838,
             "voted": 80612,
-            "whites": 1148,
+            "whites": 1161,
             "expressed": 79116,
-            "void": 348,
+            "void": 335,
             "candidates": {
                 "Nathalie Arthaud": 315,
                 "Fabien Roussel": 1232,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 2253,
                 "Eric Zemmour": 6533
             }
+        },
+        "secondRound": {
+            "registered": 98894,
+            "voted": 77581,
+            "whites": 4342,
+            "expressed": 72056,
+            "void": 1183,
+            "candidates": {
+                "Emmanuel Macron": 46631,
+                "Marine Le Pen": 25425
+            }
         }
+    },
+    "current": {
+        "id": "722358",
+        "lastname": "Gassilloud",
+        "firstname": "Thomas",
+        "slug": "thomas-gassilloud",
+        "gender": "H",
+        "birthday": "1981-05-21",
+        "birthplace": "Saint-Symphorien-sur-Coise (Rhône)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 75,
+            "amendments": 25,
+            "amendmentsSupported": 1497,
+            "amendmentsAdopted": 498,
+            "commissionsAttended": 308,
+            "commissionInterventions": 644,
+            "hemicycleInterventions": 59,
+            "hemicycleShortInterventions": 3,
+            "questionsWritten": 15,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gilles",
             "lastname": "Bompard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Sophie",
             "lastname": "Cruz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Michèle",
             "lastname": "Edery",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 10
         },
         {
-            "id": "722358",
-            "lastname": "Gassilloud",
             "firstname": "Thomas",
-            "slug": "thomas-gassilloud",
+            "lastname": "Gassilloud",
             "gender": "H",
-            "birthday": "1981-05-21",
-            "birthplace": "Saint-Symphorien-sur-Coise (Rhône)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 69,
             "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 161,
-                "reports": 7,
-                "proposals": 0,
-                "proposalsSupported": 75,
-                "amendments": 25,
-                "amendmentsSupported": 1497,
-                "amendmentsAdopted": 498,
-                "commissionsAttended": 308,
-                "commissionInterventions": 644,
-                "hemicycleInterventions": 59,
-                "hemicycleShortInterventions": 3,
-                "questionsWritten": 15,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 10
         },
         {
             "firstname": "Sébastien",
             "lastname": "Ruiz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 10
         }
     ]
 }

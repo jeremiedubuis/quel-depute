@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1262,
                 "Eric Zemmour": 3038
             }
+        },
+        "secondRound": {
+            "registered": 80879,
+            "voted": 60942,
+            "whites": 4290,
+            "expressed": 55414,
+            "void": 1238,
+            "candidates": {
+                "Emmanuel Macron": 30503,
+                "Marine Le Pen": 24911
+            }
         }
+    },
+    "current": {
+        "id": "588886",
+        "lastname": "Le Foll",
+        "firstname": "Stéphane",
+        "slug": "stephane-le-foll",
+        "gender": "H",
+        "birthday": "1960-02-03",
+        "birthplace": "Mans (Sarthe)",
+        "county": "Sarthe",
+        "countyId": "72",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "NG",
+        "job": "Enseignant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 38,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 9,
+            "amendments": 1,
+            "amendmentsSupported": 2563,
+            "amendmentsAdopted": 177,
+            "commissionsAttended": 39,
+            "commissionInterventions": 26,
+            "hemicycleInterventions": 34,
+            "hemicycleShortInterventions": 110,
+            "questionsWritten": 6,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sébastien",
             "lastname": "Buard",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
             "firstname": "David",
             "lastname": "Dalibert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
             "firstname": "Raymond",
             "lastname": "De Malherbe",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Franco",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
             "firstname": "Joachim",
             "lastname": "Le Floch-Imad",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
             "firstname": "Thierry",
             "lastname": "Nouchy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 4
         },
         {
-            "id": "608741",
-            "lastname": "Tolmont",
             "firstname": "Sylvie",
-            "slug": "sylvie-tolmont",
+            "lastname": "Tolmont",
             "gender": "F",
-            "birthday": "1962-10-09",
-            "birthplace": "Mans (Sarthe)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 72,
             "county": "Sarthe",
-            "countyId": "72",
-            "circumscription": 4,
-            "mandateStart": "2018-07-12",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre de la fonction publique consulaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 120,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 77,
-                "amendments": 234,
-                "amendmentsSupported": 12377,
-                "amendmentsAdopted": 635,
-                "commissionsAttended": 172,
-                "commissionInterventions": 181,
-                "hemicycleInterventions": 199,
-                "hemicycleShortInterventions": 402,
-                "questionsWritten": 148,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         }
     ]
 }

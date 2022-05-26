@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 110154,
             "voted": 84260,
-            "whites": 1129,
-            "expressed": 82671,
-            "void": 460,
+            "whites": 1136,
+            "expressed": 82670,
+            "void": 454,
             "candidates": {
                 "Nathalie Arthaud": 349,
                 "Fabien Roussel": 2017,
                 "Emmanuel Macron": 28349,
                 "Jean Lasalle": 2122,
-                "Marine Le Pen": 12851,
+                "Marine Le Pen": 12850,
                 "Jean-Luc Mélenchon": 18495,
                 "Anne Hidalgo": 1556,
                 "Yannick Jadot": 5905,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1427,
                 "Eric Zemmour": 4757
             }
+        },
+        "secondRound": {
+            "registered": 109900,
+            "voted": 80830,
+            "whites": 5402,
+            "expressed": 73629,
+            "void": 1799,
+            "candidates": {
+                "Emmanuel Macron": 52198,
+                "Marine Le Pen": 21431
+            }
         }
+    },
+    "current": {
+        "id": "605694",
+        "lastname": "Falorni",
+        "firstname": "Olivier",
+        "slug": "olivier-falorni",
+        "gender": "H",
+        "birthday": "1972-03-27",
+        "birthplace": "Rochefort-sur-Mer (Charente-Maritime)",
+        "county": "Charente-Maritime",
+        "countyId": "17",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti radical de gauche",
+        "groupShort": "LT",
+        "job": "Professeur du secondaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 2,
+            "proposals": 6,
+            "proposalsSupported": 84,
+            "amendments": 289,
+            "amendmentsSupported": 7919,
+            "amendmentsAdopted": 306,
+            "commissionsAttended": 220,
+            "commissionInterventions": 192,
+            "hemicycleInterventions": 177,
+            "hemicycleShortInterventions": 119,
+            "questionsWritten": 199,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Agnès",
             "lastname": "Chair",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "Emma",
             "lastname": "Chauveau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "Antoine",
             "lastname": "Colin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "Dina",
             "lastname": "de Hillerin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "David",
             "lastname": "Labiche",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "Martine",
             "lastname": "Madelaine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Soubeste",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 1
         }
     ]
 }

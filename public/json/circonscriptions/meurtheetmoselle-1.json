@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 81726,
-            "voted": 60367,
-            "whites": 812,
+            "voted": 60362,
+            "whites": 817,
             "expressed": 59232,
-            "void": 323,
+            "void": 313,
             "candidates": {
                 "Nathalie Arthaud": 313,
                 "Fabien Roussel": 1106,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1030,
                 "Eric Zemmour": 3899
             }
+        },
+        "secondRound": {
+            "registered": 81759,
+            "voted": 59115,
+            "whites": 3781,
+            "expressed": 54263,
+            "void": 1071,
+            "candidates": {
+                "Emmanuel Macron": 36597,
+                "Marine Le Pen": 17666
+            }
         }
+    },
+    "current": {
+        "id": "720170",
+        "lastname": "Grandjean",
+        "firstname": "Carole",
+        "slug": "carole-grandjean",
+        "gender": "F",
+        "birthday": "1983-05-18",
+        "birthplace": "Suresnes (Hauts-de-Seine)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": "54",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 11,
+            "proposals": 3,
+            "proposalsSupported": 95,
+            "amendments": 263,
+            "amendmentsSupported": 3025,
+            "amendmentsAdopted": 1514,
+            "commissionsAttended": 240,
+            "commissionInterventions": 276,
+            "hemicycleInterventions": 219,
+            "hemicycleShortInterventions": 55,
+            "questionsWritten": 127,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Armand",
             "lastname": "Buchy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         },
         {
-            "id": "720170",
-            "lastname": "Grandjean",
             "firstname": "Carole",
-            "slug": "carole-grandjean",
+            "lastname": "Grandjean",
             "gender": "F",
-            "birthday": "1983-05-18",
-            "birthplace": "Suresnes (Hauts-de-Seine)",
-            "county": "Meurthe-et-Moselle",
-            "countyId": "54",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 158,
-                "reports": 11,
-                "proposals": 3,
-                "proposalsSupported": 95,
-                "amendments": 263,
-                "amendmentsSupported": 3025,
-                "amendmentsAdopted": 1514,
-                "commissionsAttended": 240,
-                "commissionInterventions": 276,
-                "hemicycleInterventions": 219,
-                "hemicycleShortInterventions": 55,
-                "questionsWritten": 127,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Hennequin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Nordine",
             "lastname": "Jouira",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Patricia",
             "lastname": "Melet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Christiane",
             "lastname": "Nimsgern",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 1
         }
     ]
 }

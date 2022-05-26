@@ -7,14 +7,14 @@
             "registered": 60537,
             "voted": 42944,
             "whites": 572,
-            "expressed": 42075,
-            "void": 297,
+            "expressed": 42079,
+            "void": 293,
             "candidates": {
                 "Nathalie Arthaud": 347,
                 "Fabien Roussel": 1054,
                 "Emmanuel Macron": 8923,
                 "Jean Lasalle": 1165,
-                "Marine Le Pen": 15098,
+                "Marine Le Pen": 15102,
                 "Jean-Luc Mélenchon": 8409,
                 "Anne Hidalgo": 612,
                 "Yannick Jadot": 1054,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 841,
                 "Eric Zemmour": 2733
             }
+        },
+        "secondRound": {
+            "registered": 60539,
+            "voted": 42812,
+            "whites": 2569,
+            "expressed": 39237,
+            "void": 1006,
+            "candidates": {
+                "Emmanuel Macron": 16538,
+                "Marine Le Pen": 22699
+            }
         }
+    },
+    "current": {
+        "id": "718850",
+        "lastname": "Cordier",
+        "firstname": "Pierre",
+        "slug": "pierre-cordier",
+        "gender": "H",
+        "birthday": "1972-05-27",
+        "birthplace": "Charleville-Mézières (Ardennes)",
+        "county": "Ardennes",
+        "countyId": "08",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 196,
+            "reports": 7,
+            "proposals": 24,
+            "proposalsSupported": 422,
+            "amendments": 1071,
+            "amendmentsSupported": 14115,
+            "amendmentsAdopted": 349,
+            "commissionsAttended": 385,
+            "commissionInterventions": 296,
+            "hemicycleInterventions": 409,
+            "hemicycleShortInterventions": 6598,
+            "questionsWritten": 241,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Polina",
             "lastname": "Beddelem",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 2
         },
         {
-            "id": "718850",
-            "lastname": "Cordier",
             "firstname": "Pierre",
-            "slug": "pierre-cordier",
+            "lastname": "Cordier",
             "gender": "H",
-            "birthday": "1972-05-27",
-            "birthplace": "Charleville-Mézières (Ardennes)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 8,
             "county": "Ardennes",
-            "countyId": "08",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 196,
-                "reports": 7,
-                "proposals": 24,
-                "proposalsSupported": 422,
-                "amendments": 1071,
-                "amendmentsSupported": 14115,
-                "amendmentsAdopted": 349,
-                "commissionsAttended": 385,
-                "commissionInterventions": 296,
-                "hemicycleInterventions": 409,
-                "hemicycleShortInterventions": 6598,
-                "questionsWritten": 240,
-                "questionsOral": 25
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Christelle",
             "lastname": "Gallet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 2
         },
         {
             "firstname": "Gilles",
             "lastname": "Loyez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 2
         },
         {
             "firstname": "Baptiste",
             "lastname": "Philippo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 2
         },
         {
             "firstname": "Mink",
             "lastname": "Takawé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 2
         }
     ]
 }

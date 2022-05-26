@@ -6,89 +6,168 @@
         "firstRound": {
             "registered": 72321,
             "voted": 54158,
-            "whites": 874,
-            "expressed": 52838,
-            "void": 446,
+            "whites": 873,
+            "expressed": 52676,
+            "void": 609,
             "candidates": {
-                "Nathalie Arthaud": 414,
-                "Fabien Roussel": 1051,
-                "Emmanuel Macron": 12144,
-                "Jean Lasalle": 1807,
-                "Marine Le Pen": 18831,
-                "Jean-Luc Mélenchon": 8157,
-                "Anne Hidalgo": 774,
-                "Yannick Jadot": 1752,
-                "Valérie Pécresse": 2163,
-                "Phillipe Poutou": 512,
-                "Nicolas Dupont-Aignan": 1566,
-                "Eric Zemmour": 3667
+                "Nathalie Arthaud": 411,
+                "Fabien Roussel": 1048,
+                "Emmanuel Macron": 12099,
+                "Jean Lasalle": 1800,
+                "Marine Le Pen": 18801,
+                "Jean-Luc Mélenchon": 8122,
+                "Anne Hidalgo": 773,
+                "Yannick Jadot": 1745,
+                "Valérie Pécresse": 2148,
+                "Phillipe Poutou": 510,
+                "Nicolas Dupont-Aignan": 1563,
+                "Eric Zemmour": 3656
+            }
+        },
+        "secondRound": {
+            "registered": 72337,
+            "voted": 54532,
+            "whites": 3108,
+            "expressed": 50102,
+            "void": 1322,
+            "candidates": {
+                "Emmanuel Macron": 21673,
+                "Marine Le Pen": 28429
             }
         }
+    },
+    "current": {
+        "id": "856",
+        "lastname": "Cherpion",
+        "firstname": "Gérard",
+        "slug": "gerard-cherpion",
+        "gender": "H",
+        "birthday": "1948-03-15",
+        "birthplace": "Dombasle-sur-Meurthe (Meurthe-et-Moselle)",
+        "county": "Vosges",
+        "countyId": "88",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Pharmacien",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 135,
+            "reports": 3,
+            "proposals": 2,
+            "proposalsSupported": 187,
+            "amendments": 438,
+            "amendmentsSupported": 5217,
+            "amendmentsAdopted": 167,
+            "commissionsAttended": 216,
+            "commissionInterventions": 277,
+            "hemicycleInterventions": 312,
+            "hemicycleShortInterventions": 145,
+            "questionsWritten": 39,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gaëtan",
             "lastname": "Dussausaye",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Sudarshan",
             "lastname": "Jugowal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Jeanne-Françoise",
             "lastname": "Langlade",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Régis",
             "lastname": "Lopez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Mouvement réaliste",
             "groupShort": "Mouvement réaliste",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Charlotte",
             "lastname": "Moreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Caroline",
             "lastname": "Privat-Mattoni",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "Pierre-Jean",
             "lastname": "Robinot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "DVD",
             "groupShort": "DVD",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         },
         {
             "firstname": "David",
             "lastname": "Valence",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 2
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 747,
                 "Eric Zemmour": 2817
             }
+        },
+        "secondRound": {
+            "registered": 80141,
+            "voted": 56710,
+            "whites": 2822,
+            "expressed": 52693,
+            "void": 1195,
+            "candidates": {
+                "Emmanuel Macron": 19308,
+                "Marine Le Pen": 33385
+            }
         }
+    },
+    "current": {
+        "id": "720468",
+        "lastname": "Chenu",
+        "firstname": "Sébastien",
+        "slug": "sebastien-chenu",
+        "gender": "H",
+        "birthday": "1973-04-13",
+        "birthplace": "Beauvais (Oise)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 19,
+        "mandateStart": "2017-06-21",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": "Conseiller en communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 0,
+            "proposals": 23,
+            "proposalsSupported": 105,
+            "amendments": 410,
+            "amendmentsSupported": 1876,
+            "amendmentsAdopted": 5,
+            "commissionsAttended": 175,
+            "commissionInterventions": 45,
+            "hemicycleInterventions": 510,
+            "hemicycleShortInterventions": 404,
+            "questionsWritten": 147,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cécile",
             "lastname": "Bourlet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 19
         },
         {
-            "id": "720468",
+            "firstname": "Sebastien",
             "lastname": "Chenu",
-            "firstname": "Sébastien",
-            "slug": "sebastien-chenu",
             "gender": "H",
-            "birthday": "1973-04-13",
-            "birthplace": "Beauvais (Oise)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 59,
             "county": "Nord",
-            "countyId": "59",
-            "circumscription": 19,
-            "mandateStart": "2017-06-21",
-            "group": "Rassemblement national",
-            "groupShort": "NI",
-            "job": "Conseiller en communication",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 164,
-                "reports": 0,
-                "proposals": 23,
-                "proposalsSupported": 105,
-                "amendments": 410,
-                "amendmentsSupported": 1876,
-                "amendmentsAdopted": 5,
-                "commissionsAttended": 175,
-                "commissionInterventions": 45,
-                "hemicycleInterventions": 510,
-                "hemicycleShortInterventions": 404,
-                "questionsWritten": 146,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 19
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Cherrier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 19
         },
         {
             "firstname": "Vincent",
             "lastname": "Duquenne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 19
         },
         {
             "firstname": "Cédric",
             "lastname": "Noulin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 19
         },
         {
             "firstname": "Patrick",
             "lastname": "Soloch",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 19
         }
     ]
 }

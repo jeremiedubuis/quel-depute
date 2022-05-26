@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 65385,
             "voted": 43629,
-            "whites": 934,
-            "expressed": 42652,
-            "void": 43,
+            "whites": 931,
+            "expressed": 42653,
+            "void": 45,
             "candidates": {
                 "Nathalie Arthaud": 250,
                 "Fabien Roussel": 2198,
@@ -17,98 +17,145 @@
                 "Marine Le Pen": 10764,
                 "Jean-Luc Mélenchon": 13577,
                 "Anne Hidalgo": 565,
-                "Yannick Jadot": 1366,
+                "Yannick Jadot": 1367,
                 "Valérie Pécresse": 986,
                 "Phillipe Poutou": 379,
                 "Nicolas Dupont-Aignan": 650,
                 "Eric Zemmour": 1813
             }
+        },
+        "secondRound": {
+            "registered": 65418,
+            "voted": 41923,
+            "whites": 3981,
+            "expressed": 37698,
+            "void": 244,
+            "candidates": {
+                "Emmanuel Macron": 21065,
+                "Marine Le Pen": 16633
+            }
         }
+    },
+    "current": {
+        "id": "335612",
+        "lastname": "Lecoq",
+        "firstname": "Jean-Paul",
+        "slug": "jeanpaul-lecoq",
+        "gender": "H",
+        "birthday": "1958-10-13",
+        "birthplace": "Havre (Seine-Maritime)",
+        "county": "Seine-Maritime",
+        "countyId": "76",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 7,
+            "proposals": 6,
+            "proposalsSupported": 179,
+            "amendments": 1043,
+            "amendmentsSupported": 9335,
+            "amendmentsAdopted": 306,
+            "commissionsAttended": 284,
+            "commissionInterventions": 572,
+            "hemicycleInterventions": 1654,
+            "hemicycleShortInterventions": 3849,
+            "questionsWritten": 58,
+            "questionsOral": 36
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Marc",
             "lastname": "Bled",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         },
         {
             "firstname": "Ambre",
             "lastname": "Boreck",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         },
         {
             "firstname": "Magali",
             "lastname": "Cauchois",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         },
         {
             "firstname": "Wasil",
             "lastname": "Echchenna",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         },
         {
             "firstname": "Isabelle",
             "lastname": "Le Coz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         },
         {
-            "id": "335612",
-            "lastname": "Lecoq",
             "firstname": "Jean-Paul",
-            "slug": "jeanpaul-lecoq",
+            "lastname": "Lecoq",
             "gender": "H",
-            "birthday": "1958-10-13",
-            "birthplace": "Havre (Seine-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 76,
             "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 7,
-                "proposals": 6,
-                "proposalsSupported": 179,
-                "amendments": 1043,
-                "amendmentsSupported": 9335,
-                "amendmentsAdopted": 306,
-                "commissionsAttended": 284,
-                "commissionInterventions": 572,
-                "hemicycleInterventions": 1654,
-                "hemicycleShortInterventions": 3849,
-                "questionsWritten": 58,
-                "questionsOral": 36
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Joachim",
             "lastname": "Legendre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 8
         }
     ]
 }

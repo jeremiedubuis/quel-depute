@@ -7,56 +7,119 @@
             "registered": 94476,
             "voted": 70934,
             "whites": 1156,
-            "expressed": 69266,
-            "void": 512,
+            "expressed": 69268,
+            "void": 510,
             "candidates": {
                 "Nathalie Arthaud": 572,
                 "Fabien Roussel": 710,
                 "Emmanuel Macron": 20077,
                 "Jean Lasalle": 1926,
-                "Marine Le Pen": 24330,
+                "Marine Le Pen": 24331,
                 "Jean-Luc Mélenchon": 6866,
                 "Anne Hidalgo": 855,
-                "Yannick Jadot": 2548,
+                "Yannick Jadot": 2549,
                 "Valérie Pécresse": 3015,
                 "Phillipe Poutou": 500,
                 "Nicolas Dupont-Aignan": 2795,
                 "Eric Zemmour": 5072
             }
+        },
+        "secondRound": {
+            "registered": 94482,
+            "voted": 71884,
+            "whites": 3178,
+            "expressed": 67561,
+            "void": 1145,
+            "candidates": {
+                "Emmanuel Macron": 32433,
+                "Marine Le Pen": 35128
+            }
         }
+    },
+    "current": {
+        "id": "266776",
+        "lastname": "Reiss",
+        "firstname": "Frédéric",
+        "slug": "frederic-reiss",
+        "gender": "H",
+        "birthday": "1949-11-12",
+        "birthplace": "Haguenau (Bas-Rhin)",
+        "county": "Bas-Rhin",
+        "countyId": "67",
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agrégé de mathématiques",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 157,
+            "reports": 1,
+            "proposals": 3,
+            "proposalsSupported": 468,
+            "amendments": 840,
+            "amendmentsSupported": 14803,
+            "amendmentsAdopted": 391,
+            "commissionsAttended": 269,
+            "commissionInterventions": 352,
+            "hemicycleInterventions": 576,
+            "hemicycleShortInterventions": 644,
+            "questionsWritten": 129,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Catherine",
             "lastname": "Gsell",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 8
         },
         {
             "firstname": "Ludwig Steffen Georges",
             "lastname": "Knoepffler Johanssen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 8
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Kochert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 8
         },
         {
             "firstname": "Anne",
             "lastname": "Sander",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 8
         }
     ]
 }

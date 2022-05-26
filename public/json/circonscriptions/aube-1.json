@@ -4,95 +4,134 @@
     "name": "Aube",
     "results": {
         "firstRound": {
-            "registered": 64387,
+            "registered": 64389,
             "voted": 48618,
             "whites": 791,
-            "expressed": 47427,
-            "void": 400,
+            "expressed": 47434,
+            "void": 393,
             "candidates": {
                 "Nathalie Arthaud": 331,
                 "Fabien Roussel": 884,
-                "Emmanuel Macron": 12084,
+                "Emmanuel Macron": 12086,
                 "Jean Lasalle": 1299,
-                "Marine Le Pen": 17195,
-                "Jean-Luc Mélenchon": 5791,
+                "Marine Le Pen": 17197,
+                "Jean-Luc Mélenchon": 5792,
                 "Anne Hidalgo": 491,
                 "Yannick Jadot": 1266,
-                "Valérie Pécresse": 2965,
+                "Valérie Pécresse": 2966,
                 "Phillipe Poutou": 336,
                 "Nicolas Dupont-Aignan": 1314,
-                "Eric Zemmour": 3471
+                "Eric Zemmour": 3472
+            }
+        },
+        "secondRound": {
+            "registered": 64392,
+            "voted": 49457,
+            "whites": 2671,
+            "expressed": 45806,
+            "void": 980,
+            "candidates": {
+                "Emmanuel Macron": 20734,
+                "Marine Le Pen": 25072
             }
         }
     },
+    "current": {
+        "id": "718876",
+        "lastname": "Besson-Moreau",
+        "firstname": "Grégory",
+        "slug": "gregory-bessonmoreau",
+        "gender": "H",
+        "birthday": "1982-07-07",
+        "birthplace": "Brou-sur-Chantereine (Seine-et-Marne)",
+        "county": "Aube",
+        "countyId": "10",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Président de société",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 119,
+            "reports": 9,
+            "proposals": 5,
+            "proposalsSupported": 111,
+            "amendments": 157,
+            "amendmentsSupported": 3307,
+            "amendmentsAdopted": 1218,
+            "commissionsAttended": 216,
+            "commissionInterventions": 906,
+            "hemicycleInterventions": 262,
+            "hemicycleShortInterventions": 203,
+            "questionsWritten": 173,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "718876",
-            "lastname": "Besson-Moreau",
             "firstname": "Grégory",
-            "slug": "gregory-bessonmoreau",
+            "lastname": "Besson-Moreau",
             "gender": "H",
-            "birthday": "1982-07-07",
-            "birthplace": "Brou-sur-Chantereine (Seine-et-Marne)",
-            "county": "Aube",
-            "countyId": "10",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Président de société",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 119,
-                "reports": 9,
-                "proposals": 5,
-                "proposalsSupported": 111,
-                "amendments": 157,
-                "amendmentsSupported": 3307,
-                "amendmentsAdopted": 1218,
-                "commissionsAttended": 216,
-                "commissionInterventions": 906,
-                "hemicycleInterventions": 262,
-                "hemicycleShortInterventions": 203,
-                "questionsWritten": 173,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 1
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Fraenkel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 1
         },
         {
             "firstname": "Jordan",
             "lastname": "Guitton",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 1
         },
         {
             "firstname": "Lionel",
             "lastname": "Paillard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Spagnesi",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 10,
+            "county": "Aube",
+            "circumscription": 1
         }
     ]
 }

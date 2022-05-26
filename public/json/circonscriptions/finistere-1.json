@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1154,
                 "Eric Zemmour": 3745
             }
+        },
+        "secondRound": {
+            "registered": 91841,
+            "voted": 72156,
+            "whites": 5246,
+            "expressed": 65128,
+            "void": 1782,
+            "candidates": {
+                "Emmanuel Macron": 46392,
+                "Marine Le Pen": 18736
+            }
         }
+    },
+    "current": {
+        "id": "719388",
+        "lastname": "Le Meur",
+        "firstname": "Annaïg",
+        "slug": "annaig-le-meur",
+        "gender": "F",
+        "birthday": "1973-04-29",
+        "birthplace": "Brest (Finistère)",
+        "county": "Finistère",
+        "countyId": "29",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 72,
+            "amendmentsSupported": 2218,
+            "amendmentsAdopted": 1100,
+            "commissionsAttended": 238,
+            "commissionInterventions": 137,
+            "hemicycleInterventions": 60,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 93,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Izold",
             "lastname": "Guégan",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
             "firstname": "Christel",
             "lastname": "Henaff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
-            "id": "719388",
-            "lastname": "Le Meur",
             "firstname": "Annaïg",
-            "slug": "annaig-le-meur",
+            "lastname": "Le Meur",
             "gender": "F",
-            "birthday": "1973-04-29",
-            "birthplace": "Brest (Finistère)",
-            "county": "Finistère",
-            "countyId": "29",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre profession libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 4,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 72,
-                "amendmentsSupported": 2218,
-                "amendmentsAdopted": 1100,
-                "commissionsAttended": 238,
-                "commissionInterventions": 137,
-                "hemicycleInterventions": 60,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 93,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
             "firstname": "Bernard",
             "lastname": "Le Rest",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
             "firstname": "Grégory",
             "lastname": "Lebert",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
             "firstname": "Valérie",
             "lastname": "Lecerf-Livet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         },
         {
             "firstname": "Élisabeth",
             "lastname": "Piro",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 1
         }
     ]
 }

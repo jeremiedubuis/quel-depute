@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 869,
                 "Eric Zemmour": 3342
             }
+        },
+        "secondRound": {
+            "registered": 88576,
+            "voted": 62541,
+            "whites": 4877,
+            "expressed": 56247,
+            "void": 1417,
+            "candidates": {
+                "Emmanuel Macron": 41395,
+                "Marine Le Pen": 14852
+            }
         }
+    },
+    "current": {
+        "id": "719578",
+        "lastname": "Prud'homme",
+        "firstname": "Loïc",
+        "slug": "loic-prudhomme",
+        "gender": "H",
+        "birthday": "1969-08-19",
+        "birthplace": "Bègles (Gironde)",
+        "county": "Gironde",
+        "countyId": "33",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 6,
+            "proposals": 12,
+            "proposalsSupported": 180,
+            "amendments": 3625,
+            "amendmentsSupported": 18905,
+            "amendmentsAdopted": 220,
+            "commissionsAttended": 283,
+            "commissionInterventions": 1040,
+            "hemicycleInterventions": 1033,
+            "hemicycleShortInterventions": 1052,
+            "questionsWritten": 128,
+            "questionsOral": 36
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Maryvonne",
             "lastname": "Basteres",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
             "firstname": "Marion",
             "lastname": "Lafuente",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
             "firstname": "Eric",
             "lastname": "Marhadour",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
             "firstname": "Morgan",
             "lastname": "Matho",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
-            "id": "719578",
+            "firstname": "Loic",
             "lastname": "Prud'homme",
-            "firstname": "Loïc",
-            "slug": "loic-prudhomme",
             "gender": "H",
-            "birthday": "1969-08-19",
-            "birthplace": "Bègles (Gironde)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 6,
-                "proposals": 12,
-                "proposalsSupported": 180,
-                "amendments": 3625,
-                "amendmentsSupported": 18905,
-                "amendmentsAdopted": 220,
-                "commissionsAttended": 283,
-                "commissionInterventions": 1040,
-                "hemicycleInterventions": 1033,
-                "hemicycleShortInterventions": 1052,
-                "questionsWritten": 128,
-                "questionsOral": 36
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
             "firstname": "Fabien",
             "lastname": "Robert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         },
         {
             "firstname": "Thierry",
             "lastname": "Vay",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 3
         }
     ]
 }

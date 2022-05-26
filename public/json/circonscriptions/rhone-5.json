@@ -5,8 +5,8 @@
     "results": {
         "firstRound": {
             "registered": 89593,
-            "voted": 71848,
-            "whites": 910,
+            "voted": 71847,
+            "whites": 909,
             "expressed": 70666,
             "void": 272,
             "candidates": {
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1277,
                 "Eric Zemmour": 6885
             }
+        },
+        "secondRound": {
+            "registered": 89622,
+            "voted": 68581,
+            "whites": 3569,
+            "expressed": 64074,
+            "void": 938,
+            "candidates": {
+                "Emmanuel Macron": 45959,
+                "Marine Le Pen": 18115
+            }
         }
+    },
+    "current": {
+        "id": "721336",
+        "lastname": "Brocard",
+        "firstname": "Blandine",
+        "slug": "blandine-brocard",
+        "gender": "F",
+        "birthday": "1981-11-03",
+        "birthplace": "Strasbourg (Bas-Rhin)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Employée (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 63,
+            "amendments": 255,
+            "amendmentsSupported": 3042,
+            "amendmentsAdopted": 1072,
+            "commissionsAttended": 257,
+            "commissionInterventions": 110,
+            "hemicycleInterventions": 214,
+            "hemicycleShortInterventions": 135,
+            "questionsWritten": 20,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "721336",
-            "lastname": "Brocard",
             "firstname": "Blandine",
-            "slug": "blandine-brocard",
+            "lastname": "Brocard",
             "gender": "F",
-            "birthday": "1981-11-03",
-            "birthplace": "Strasbourg (Bas-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 69,
             "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Employée (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 63,
-                "amendments": 255,
-                "amendmentsSupported": 3042,
-                "amendmentsAdopted": 1072,
-                "commissionsAttended": 257,
-                "commissionInterventions": 110,
-                "hemicycleInterventions": 214,
-                "hemicycleShortInterventions": 135,
-                "questionsWritten": 20,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Amaël",
             "lastname": "Doux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         },
         {
             "firstname": "Yves",
             "lastname": "Duigou",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         },
         {
             "firstname": "Bastien",
             "lastname": "Joint",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         },
         {
             "firstname": "Julie",
             "lastname": "Kabil",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         },
         {
             "firstname": "Fabrice",
             "lastname": "Mateucci",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         },
         {
             "firstname": "Hélène",
             "lastname": "Rivière",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 5
         }
     ]
 }

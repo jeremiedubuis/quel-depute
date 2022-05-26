@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 915,
                 "Eric Zemmour": 2867
             }
+        },
+        "secondRound": {
+            "registered": 87039,
+            "voted": 59997,
+            "whites": 3705,
+            "expressed": 54985,
+            "void": 1307,
+            "candidates": {
+                "Emmanuel Macron": 25405,
+                "Marine Le Pen": 29580
+            }
         }
+    },
+    "current": {
+        "id": "333818",
+        "lastname": "Hutin",
+        "firstname": "Christian",
+        "slug": "christian-hutin",
+        "gender": "H",
+        "birthday": "1961-01-18",
+        "birthplace": "Lille (Nord)",
+        "county": "Nord",
+        "countyId": "59",
+        "circumscription": 13,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Médecin généraliste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 124,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 77,
+            "amendments": 33,
+            "amendmentsSupported": 14905,
+            "amendmentsAdopted": 807,
+            "commissionsAttended": 181,
+            "commissionInterventions": 637,
+            "hemicycleInterventions": 303,
+            "hemicycleShortInterventions": 1317,
+            "questionsWritten": 62,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Clément",
             "lastname": "Bézine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 13
         },
         {
             "firstname": "Véronique",
             "lastname": "de Miribel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 13
         },
         {
             "firstname": "Christine",
             "lastname": "Decodts",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 13
         },
         {
             "firstname": "Yohann",
             "lastname": "Duval",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 13
         },
         {
             "firstname": "Damien",
             "lastname": "Lacroix",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 13
         }
     ]
 }

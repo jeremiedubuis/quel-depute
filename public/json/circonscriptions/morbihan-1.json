@@ -23,80 +23,163 @@
                 "Nicolas Dupont-Aignan": 1711,
                 "Eric Zemmour": 6036
             }
+        },
+        "secondRound": {
+            "registered": 114550,
+            "voted": 89698,
+            "whites": 6195,
+            "expressed": 81796,
+            "void": 1707,
+            "candidates": {
+                "Emmanuel Macron": 57346,
+                "Marine Le Pen": 24450
+            }
         }
+    },
+    "current": {
+        "id": "607595",
+        "lastname": "Pellois",
+        "firstname": "Hervé",
+        "slug": "herve-pellois",
+        "gender": "H",
+        "birthday": "1951-04-17",
+        "birthplace": "La Chapelle Blanche (Côtes-d'Armor)",
+        "county": "Morbihan",
+        "countyId": "56",
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur du secteur privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 173,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 82,
+            "amendments": 156,
+            "amendmentsSupported": 3768,
+            "amendmentsAdopted": 1317,
+            "commissionsAttended": 446,
+            "commissionInterventions": 229,
+            "hemicycleInterventions": 158,
+            "hemicycleShortInterventions": 17,
+            "questionsWritten": 62,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "François",
             "lastname": "Ars",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Franck",
             "lastname": "Chevrel",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Magali",
             "lastname": "Croci-Etienne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Luc",
             "lastname": "Foucault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Lydia",
             "lastname": "Lambert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Anne",
             "lastname": "Le Hénanff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Jacques",
             "lastname": "Page",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Marc",
             "lastname": "Peschanski",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         },
         {
             "firstname": "Françoise",
             "lastname": "Ramel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 56,
+            "county": "Morbihan",
+            "circumscription": 1
         }
     ]
 }

@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 96017,
-            "voted": 75393,
-            "whites": 1241,
-            "expressed": 73744,
-            "void": 408,
+            "voted": 75394,
+            "whites": 1300,
+            "expressed": 73745,
+            "void": 349,
             "candidates": {
                 "Nathalie Arthaud": 334,
                 "Fabien Roussel": 1261,
                 "Emmanuel Macron": 21955,
                 "Jean Lasalle": 1994,
-                "Marine Le Pen": 17826,
+                "Marine Le Pen": 17827,
                 "Jean-Luc Mélenchon": 12831,
                 "Anne Hidalgo": 1089,
                 "Yannick Jadot": 3447,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1770,
                 "Eric Zemmour": 6600
             }
+        },
+        "secondRound": {
+            "registered": 96009,
+            "voted": 72367,
+            "whites": 4273,
+            "expressed": 66953,
+            "void": 1141,
+            "candidates": {
+                "Emmanuel Macron": 38911,
+                "Marine Le Pen": 28042
+            }
         }
+    },
+    "current": {
+        "id": "2377",
+        "lastname": "Perrut",
+        "firstname": "Bernard",
+        "slug": "bernard-perrut",
+        "gender": "H",
+        "birthday": "1957-01-24",
+        "birthplace": "Villefranche-sur-Saône (Rhône)",
+        "county": "Rhône",
+        "countyId": "69",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Ancien avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 2,
+            "proposals": 42,
+            "proposalsSupported": 976,
+            "amendments": 1015,
+            "amendmentsSupported": 13856,
+            "amendmentsAdopted": 313,
+            "commissionsAttended": 363,
+            "commissionInterventions": 465,
+            "hemicycleInterventions": 250,
+            "hemicycleShortInterventions": 47,
+            "questionsWritten": 257,
+            "questionsOral": 23
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Rémi",
             "lastname": "Berthoux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 9
         },
         {
             "firstname": "Mylène",
             "lastname": "Dune",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 9
         },
         {
             "firstname": "Chantal",
             "lastname": "Helly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 9
         },
         {
             "firstname": "Ambroise",
             "lastname": "Méjean",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 9
         },
         {
             "firstname": "Alexandre",
             "lastname": "Portier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 9
         }
     ]
 }

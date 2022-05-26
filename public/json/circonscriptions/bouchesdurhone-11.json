@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1515,
                 "Eric Zemmour": 7284
             }
+        },
+        "secondRound": {
+            "registered": 91655,
+            "voted": 68226,
+            "whites": 3813,
+            "expressed": 63200,
+            "void": 1213,
+            "candidates": {
+                "Emmanuel Macron": 36229,
+                "Marine Le Pen": 26971
+            }
         }
+    },
+    "current": {
+        "id": "718978",
+        "lastname": "Laqhila",
+        "firstname": "Mohamed",
+        "slug": "mohamed-laqhila",
+        "gender": "H",
+        "birthday": "1959-08-03",
+        "birthplace": "Oulmès (Maroc)",
+        "county": "Bouches-du-Rhône",
+        "countyId": "13",
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Expert-Comptable-Commissaire aux Comptes",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 9,
+            "proposals": 2,
+            "proposalsSupported": 87,
+            "amendments": 527,
+            "amendmentsSupported": 4902,
+            "amendmentsAdopted": 853,
+            "commissionsAttended": 338,
+            "commissionInterventions": 303,
+            "hemicycleInterventions": 280,
+            "hemicycleShortInterventions": 180,
+            "questionsWritten": 20,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hervé",
             "lastname": "Fabre-Aubrespy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Romain",
             "lastname": "Hadjali",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 11
         },
         {
-            "id": "718978",
-            "lastname": "Laqhila",
             "firstname": "Mohamed",
-            "slug": "mohamed-laqhila",
+            "lastname": "Laqhila",
             "gender": "H",
-            "birthday": "1959-08-03",
-            "birthplace": "Oulmès (Maroc)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 13,
             "county": "Bouches-du-Rhône",
-            "countyId": "13",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Expert-Comptable-Commissaire aux Comptes",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 177,
-                "reports": 9,
-                "proposals": 2,
-                "proposalsSupported": 87,
-                "amendments": 527,
-                "amendmentsSupported": 4902,
-                "amendmentsAdopted": 853,
-                "commissionsAttended": 338,
-                "commissionInterventions": 303,
-                "hemicycleInterventions": 280,
-                "hemicycleShortInterventions": 180,
-                "questionsWritten": 20,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 11
         },
         {
             "firstname": "Charlotte",
             "lastname": "Maria",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 11
         },
         {
             "firstname": "Stéphane",
             "lastname": "Salord",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération écologie",
             "groupShort": "GE",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 11
         }
     ]
 }

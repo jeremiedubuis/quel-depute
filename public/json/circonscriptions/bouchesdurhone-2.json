@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 816,
                 "Eric Zemmour": 8795
             }
+        },
+        "secondRound": {
+            "registered": 82446,
+            "voted": 59027,
+            "whites": 3002,
+            "expressed": 55167,
+            "void": 858,
+            "candidates": {
+                "Emmanuel Macron": 35891,
+                "Marine Le Pen": 19276
+            }
         }
+    },
+    "current": {
+        "id": "718910",
+        "lastname": "Pitollat",
+        "firstname": "Claire",
+        "slug": "claire-pitollat",
+        "gender": "F",
+        "birthday": "1979-09-17",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Bouches-du-Rhône",
+        "countyId": "13",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 134,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 182,
+            "amendmentsSupported": 2958,
+            "amendmentsAdopted": 1384,
+            "commissionsAttended": 262,
+            "commissionInterventions": 108,
+            "hemicycleInterventions": 58,
+            "hemicycleShortInterventions": 7,
+            "questionsWritten": 6,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sabine",
             "lastname": "Bernasconi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Florence",
             "lastname": "Denneval",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Brigitte",
             "lastname": "Espaze",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Clémence",
             "lastname": "Parodi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         },
         {
-            "id": "718910",
-            "lastname": "Pitollat",
             "firstname": "Claire",
-            "slug": "claire-pitollat",
+            "lastname": "Pitollat",
             "gender": "F",
-            "birthday": "1979-09-17",
-            "birthplace": "Marseille (Bouches-du-Rhône)",
-            "county": "Bouches-du-Rhône",
-            "countyId": "13",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 134,
-                "reports": 4,
-                "proposals": 1,
-                "proposalsSupported": 73,
-                "amendments": 182,
-                "amendmentsSupported": 2958,
-                "amendmentsAdopted": 1384,
-                "commissionsAttended": 262,
-                "commissionInterventions": 108,
-                "hemicycleInterventions": 58,
-                "hemicycleShortInterventions": 7,
-                "questionsWritten": 6,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Alexandre",
             "lastname": "Rupnik",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 2
         }
     ]
 }

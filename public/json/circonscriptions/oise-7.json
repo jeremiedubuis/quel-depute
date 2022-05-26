@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1192,
                 "Eric Zemmour": 3775
             }
+        },
+        "secondRound": {
+            "registered": 76589,
+            "voted": 55637,
+            "whites": 3575,
+            "expressed": 50811,
+            "void": 1251,
+            "candidates": {
+                "Emmanuel Macron": 23519,
+                "Marine Le Pen": 27292
+            }
         }
+    },
+    "current": {
+        "id": "720630",
+        "lastname": "Minot",
+        "firstname": "Maxime",
+        "slug": "maxime-minot",
+        "gender": "H",
+        "birthday": "1987-07-20",
+        "birthplace": "Clermont-de-l'Oise (Oise)",
+        "county": "Oise",
+        "countyId": "60",
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Employé (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 2,
+            "proposals": 7,
+            "proposalsSupported": 226,
+            "amendments": 309,
+            "amendmentsSupported": 5942,
+            "amendmentsAdopted": 196,
+            "commissionsAttended": 317,
+            "commissionInterventions": 250,
+            "hemicycleInterventions": 541,
+            "hemicycleShortInterventions": 2570,
+            "questionsWritten": 101,
+            "questionsOral": 29
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Agnès",
             "lastname": "Boillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Agnès",
             "lastname": "Dingival",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 7
         },
         {
-            "id": "720630",
-            "lastname": "Minot",
             "firstname": "Maxime",
-            "slug": "maxime-minot",
+            "lastname": "Minot",
             "gender": "H",
-            "birthday": "1987-07-20",
-            "birthplace": "Clermont-de-l'Oise (Oise)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 60,
             "county": "Oise",
-            "countyId": "60",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Employé (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 180,
-                "reports": 2,
-                "proposals": 7,
-                "proposalsSupported": 226,
-                "amendments": 309,
-                "amendmentsSupported": 5942,
-                "amendmentsAdopted": 196,
-                "commissionsAttended": 317,
-                "commissionInterventions": 250,
-                "hemicycleInterventions": 541,
-                "hemicycleShortInterventions": 2570,
-                "questionsWritten": 101,
-                "questionsOral": 29
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Loïc",
             "lastname": "Pen",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Tristan",
             "lastname": "Szyszka",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Ophélie",
             "lastname": "Van Elsuwe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 7
         }
     ]
 }

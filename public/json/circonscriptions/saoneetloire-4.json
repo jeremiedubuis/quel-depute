@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 82769,
             "voted": 63515,
-            "whites": 1182,
+            "whites": 1209,
             "expressed": 61783,
-            "void": 550,
+            "void": 523,
             "candidates": {
                 "Nathalie Arthaud": 465,
                 "Fabien Roussel": 1471,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1701,
                 "Eric Zemmour": 4131
             }
+        },
+        "secondRound": {
+            "registered": 82776,
+            "voted": 62504,
+            "whites": 4215,
+            "expressed": 56771,
+            "void": 1518,
+            "candidates": {
+                "Emmanuel Macron": 26974,
+                "Marine Le Pen": 29797
+            }
         }
+    },
+    "current": {
+        "id": "608695",
+        "lastname": "Untermaier",
+        "firstname": "Cécile",
+        "slug": "cecile-untermaier",
+        "gender": "F",
+        "birthday": "1951-12-28",
+        "birthplace": "Belley (Ain)",
+        "county": "Saône-et-Loire",
+        "countyId": "71",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Fonctionnaire des grands corps de l'État",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 89,
+            "amendments": 1431,
+            "amendmentsSupported": 15654,
+            "amendmentsAdopted": 829,
+            "commissionsAttended": 412,
+            "commissionInterventions": 1228,
+            "hemicycleInterventions": 1036,
+            "hemicycleShortInterventions": 791,
+            "questionsWritten": 198,
+            "questionsOral": 33
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Claude",
             "lastname": "Couratier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Valérie",
             "lastname": "Deloge",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Élisabeth",
             "lastname": "Roblot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 4
         },
         {
-            "id": "608695",
-            "lastname": "Untermaier",
             "firstname": "Cécile",
-            "slug": "cecile-untermaier",
+            "lastname": "Untermaier",
             "gender": "F",
-            "birthday": "1951-12-28",
-            "birthplace": "Belley (Ain)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 71,
             "county": "Saône-et-Loire",
-            "countyId": "71",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Fonctionnaire des grands corps de l'État",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 180,
-                "reports": 5,
-                "proposals": 4,
-                "proposalsSupported": 89,
-                "amendments": 1431,
-                "amendmentsSupported": 15654,
-                "amendmentsAdopted": 829,
-                "commissionsAttended": 412,
-                "commissionInterventions": 1228,
-                "hemicycleInterventions": 1036,
-                "hemicycleShortInterventions": 791,
-                "questionsWritten": 198,
-                "questionsOral": 33
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         }
     ]
 }

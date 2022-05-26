@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1470,
                 "Eric Zemmour": 5174
             }
+        },
+        "secondRound": {
+            "registered": 107066,
+            "voted": 82747,
+            "whites": 5569,
+            "expressed": 75403,
+            "void": 1775,
+            "candidates": {
+                "Emmanuel Macron": 51526,
+                "Marine Le Pen": 23877
+            }
         }
+    },
+    "current": {
+        "id": "719600",
+        "lastname": "Poulliat",
+        "firstname": "Éric",
+        "slug": "eric-poulliat",
+        "gender": "H",
+        "birthday": "1974-07-09",
+        "birthplace": "Bordeaux (Gironde)",
+        "county": "Gironde",
+        "countyId": "33",
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 172,
+            "amendmentsSupported": 2142,
+            "amendmentsAdopted": 1198,
+            "commissionsAttended": 299,
+            "commissionInterventions": 314,
+            "hemicycleInterventions": 245,
+            "hemicycleShortInterventions": 79,
+            "questionsWritten": 27,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jimmy",
             "lastname": "Bourlieux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         },
         {
             "firstname": "Thomas",
             "lastname": "Dovichi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         },
         {
             "firstname": "Vanessa",
             "lastname": "Fergeau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         },
         {
             "firstname": "Guillaume",
             "lastname": "Perchet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Plouvier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         },
         {
-            "id": "719600",
-            "lastname": "Poulliat",
             "firstname": "Éric",
-            "slug": "eric-poulliat",
+            "lastname": "Poulliat",
             "gender": "H",
-            "birthday": "1974-07-09",
-            "birthplace": "Bordeaux (Gironde)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 7,
-                "proposals": 0,
-                "proposalsSupported": 71,
-                "amendments": 172,
-                "amendmentsSupported": 2142,
-                "amendmentsAdopted": 1198,
-                "commissionsAttended": 299,
-                "commissionInterventions": 314,
-                "hemicycleInterventions": 245,
-                "hemicycleShortInterventions": 79,
-                "questionsWritten": 27,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 6
         }
     ]
 }

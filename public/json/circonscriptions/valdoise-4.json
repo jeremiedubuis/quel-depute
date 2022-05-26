@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 988,
                 "Eric Zemmour": 4026
             }
+        },
+        "secondRound": {
+            "registered": 75244,
+            "voted": 52601,
+            "whites": 3524,
+            "expressed": 48176,
+            "void": 901,
+            "candidates": {
+                "Emmanuel Macron": 33676,
+                "Marine Le Pen": 14500
+            }
         }
+    },
+    "current": {
+        "id": "720908",
+        "lastname": "Moutchou",
+        "firstname": "Naïma",
+        "slug": "naima-moutchou",
+        "gender": "F",
+        "birthday": "1980-11-04",
+        "birthplace": "Ermont (Val-d'Oise)",
+        "county": "Val-d'Oise",
+        "countyId": "95",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 157,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 68,
+            "amendments": 213,
+            "amendmentsSupported": 2019,
+            "amendmentsAdopted": 1298,
+            "commissionsAttended": 306,
+            "commissionInterventions": 345,
+            "hemicycleInterventions": 407,
+            "hemicycleShortInterventions": 219,
+            "questionsWritten": 23,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patrick",
             "lastname": "Boullé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 4
         },
         {
             "firstname": "Marie-Françoise",
             "lastname": "L'Hommedet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 4
         },
         {
             "firstname": "Karine",
             "lastname": "Lacouture",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 4
         },
         {
             "firstname": "Régis",
             "lastname": "Mace",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 4
         },
         {
-            "id": "720908",
-            "lastname": "Moutchou",
             "firstname": "Naïma",
-            "slug": "naima-moutchou",
+            "lastname": "Moutchou",
             "gender": "F",
-            "birthday": "1980-11-04",
-            "birthplace": "Ermont (Val-d'Oise)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 95,
             "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 157,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 68,
-                "amendments": 213,
-                "amendmentsSupported": 2019,
-                "amendmentsAdopted": 1298,
-                "commissionsAttended": 306,
-                "commissionInterventions": 345,
-                "hemicycleInterventions": 407,
-                "hemicycleShortInterventions": 219,
-                "questionsWritten": 23,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Cindy",
             "lastname": "Tucci",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 4
         }
     ]
 }

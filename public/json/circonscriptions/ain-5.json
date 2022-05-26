@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1522,
                 "Eric Zemmour": 4864
             }
+        },
+        "secondRound": {
+            "registered": 77174,
+            "voted": 56148,
+            "whites": 3792,
+            "expressed": 51103,
+            "void": 1253,
+            "candidates": {
+                "Emmanuel Macron": 25957,
+                "Marine Le Pen": 25146
+            }
         }
+    },
+    "current": {
+        "id": "605036",
+        "lastname": "Abad",
+        "firstname": "Damien",
+        "slug": "damien-abad",
+        "gender": "H",
+        "birthday": "1980-04-05",
+        "birthplace": "Nîmes (Gard)",
+        "county": "Ain",
+        "countyId": "01",
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 1,
+            "proposals": 27,
+            "proposalsSupported": 531,
+            "amendments": 857,
+            "amendmentsSupported": 13217,
+            "amendmentsAdopted": 362,
+            "commissionsAttended": 178,
+            "commissionInterventions": 141,
+            "hemicycleInterventions": 739,
+            "hemicycleShortInterventions": 776,
+            "questionsWritten": 191,
+            "questionsOral": 21
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "605036",
-            "lastname": "Abad",
             "firstname": "Damien",
-            "slug": "damien-abad",
+            "lastname": "Abad",
             "gender": "H",
-            "birthday": "1980-04-05",
-            "birthplace": "Nîmes (Gard)",
-            "county": "Ain",
-            "countyId": "01",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 1,
-                "proposals": 27,
-                "proposalsSupported": 531,
-                "amendments": 857,
-                "amendmentsSupported": 13217,
-                "amendmentsAdopted": 362,
-                "commissionsAttended": 178,
-                "commissionInterventions": 141,
-                "hemicycleInterventions": 739,
-                "hemicycleShortInterventions": 776,
-                "questionsWritten": 191,
-                "questionsOral": 21
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 5
         },
         {
             "firstname": "Sylvie",
             "lastname": "Crozet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 5
         },
         {
             "firstname": "Joëlle",
             "lastname": "Nambotin Gobbi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 5
         },
         {
             "firstname": "Florence",
             "lastname": "Pisani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 5
         },
         {
             "firstname": "Philippe",
             "lastname": "Tournier-Billon",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 5
         }
     ]
 }

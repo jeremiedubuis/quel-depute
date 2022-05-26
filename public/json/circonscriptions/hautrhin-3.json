@@ -7,64 +7,131 @@
             "registered": 86827,
             "voted": 64877,
             "whites": 1000,
-            "expressed": 63487,
-            "void": 390,
+            "expressed": 63490,
+            "void": 387,
             "candidates": {
                 "Nathalie Arthaud": 356,
                 "Fabien Roussel": 609,
                 "Emmanuel Macron": 18641,
                 "Jean Lasalle": 2087,
                 "Marine Le Pen": 17626,
-                "Jean-Luc Mélenchon": 8540,
+                "Jean-Luc Mélenchon": 8541,
                 "Anne Hidalgo": 714,
                 "Yannick Jadot": 3011,
                 "Valérie Pécresse": 2958,
                 "Phillipe Poutou": 418,
                 "Nicolas Dupont-Aignan": 2857,
-                "Eric Zemmour": 5670
+                "Eric Zemmour": 5672
+            }
+        },
+        "secondRound": {
+            "registered": 86857,
+            "voted": 65430,
+            "whites": 3440,
+            "expressed": 60949,
+            "void": 1041,
+            "candidates": {
+                "Emmanuel Macron": 31698,
+                "Marine Le Pen": 29251
             }
         }
+    },
+    "current": {
+        "id": "2529",
+        "lastname": "Reitzer",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-reitzer",
+        "gender": "H",
+        "birthday": "1951-12-29",
+        "birthplace": "Altkirch (Haut-Rhin)",
+        "county": "Haut-Rhin",
+        "countyId": "68",
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre d'entreprise chargé des relations sociales",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 102,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 854,
+            "amendments": 1,
+            "amendmentsSupported": 2286,
+            "amendmentsAdopted": 78,
+            "commissionsAttended": 92,
+            "commissionInterventions": 21,
+            "hemicycleInterventions": 38,
+            "hemicycleShortInterventions": 269,
+            "questionsWritten": 64,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Géraud",
             "lastname": "Ferry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 3
         },
         {
             "firstname": "Louise",
             "lastname": "Koenig",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 3
         },
         {
             "firstname": "Didier",
             "lastname": "Lemaire",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons,LRM",
             "groupShort": "Horizons,LRM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 3
         },
         {
             "firstname": "Priscille",
             "lastname": "Silva",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 3
         },
         {
             "firstname": "Christian",
             "lastname": "Zimmermann",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 3
         }
     ]
 }

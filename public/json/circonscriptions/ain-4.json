@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 94359,
             "voted": 74533,
-            "whites": 1300,
+            "whites": 1299,
             "expressed": 72760,
-            "void": 473,
+            "void": 474,
             "candidates": {
                 "Nathalie Arthaud": 376,
                 "Fabien Roussel": 1209,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 2020,
                 "Eric Zemmour": 6136
             }
+        },
+        "secondRound": {
+            "registered": 94396,
+            "voted": 72526,
+            "whites": 4082,
+            "expressed": 67120,
+            "void": 1324,
+            "candidates": {
+                "Emmanuel Macron": 35212,
+                "Marine Le Pen": 31908
+            }
         }
+    },
+    "current": {
+        "id": "718682",
+        "lastname": "Trompille",
+        "firstname": "Stéphane",
+        "slug": "stephane-trompille",
+        "gender": "H",
+        "birthday": "1982-12-01",
+        "birthplace": "Bourg en Bresse (Ain)",
+        "county": "Ain",
+        "countyId": "01",
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employé de banque",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 124,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 81,
+            "amendments": 73,
+            "amendmentsSupported": 2516,
+            "amendmentsAdopted": 1009,
+            "commissionsAttended": 176,
+            "commissionInterventions": 74,
+            "hemicycleInterventions": 16,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 92,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jérôme",
             "lastname": "Buisson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
             "firstname": "Sylvain",
             "lastname": "Cousson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
             "firstname": "Alban",
             "lastname": "Defrasne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
             "firstname": "Philippe",
             "lastname": "Lerda",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
             "firstname": "Aurane",
             "lastname": "Reihanian",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
             "firstname": "Isabelle",
             "lastname": "Séguin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         },
         {
-            "id": "718682",
-            "lastname": "Trompille",
             "firstname": "Stéphane",
-            "slug": "stephane-trompille",
+            "lastname": "Trompille",
             "gender": "H",
-            "birthday": "1982-12-01",
-            "birthplace": "Bourg en Bresse (Ain)",
-            "county": "Ain",
-            "countyId": "01",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Employé de banque",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 124,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 81,
-                "amendments": 73,
-                "amendmentsSupported": 2516,
-                "amendmentsAdopted": 1009,
-                "commissionsAttended": 176,
-                "commissionInterventions": 74,
-                "hemicycleInterventions": 16,
-                "hemicycleShortInterventions": 8,
-                "questionsWritten": 92,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 4
         }
     ]
 }

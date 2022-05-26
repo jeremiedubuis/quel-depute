@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1019,
                 "Eric Zemmour": 3119
             }
+        },
+        "secondRound": {
+            "registered": 96254,
+            "voted": 70689,
+            "whites": 3048,
+            "expressed": 66122,
+            "void": 1519,
+            "candidates": {
+                "Emmanuel Macron": 22922,
+                "Marine Le Pen": 43200
+            }
         }
+    },
+    "current": {
+        "id": "720822",
+        "lastname": "Bilde",
+        "firstname": "Bruno",
+        "slug": "bruno-bilde",
+        "gender": "H",
+        "birthday": "1976-09-22",
+        "birthplace": "Laxou (Meurthe-et-Moselle)",
+        "county": "Pas-de-Calais",
+        "countyId": "62",
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": "Juriste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 0,
+            "proposals": 8,
+            "proposalsSupported": 104,
+            "amendments": 372,
+            "amendmentsSupported": 1868,
+            "amendmentsAdopted": 4,
+            "commissionsAttended": 160,
+            "commissionInterventions": 15,
+            "hemicycleInterventions": 180,
+            "hemicycleShortInterventions": 103,
+            "questionsWritten": 194,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martine",
             "lastname": "Belot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 12
         },
         {
-            "id": "720822",
-            "lastname": "Bilde",
             "firstname": "Bruno",
-            "slug": "bruno-bilde",
+            "lastname": "Bilde",
             "gender": "H",
-            "birthday": "1976-09-22",
-            "birthplace": "Laxou (Meurthe-et-Moselle)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
-            "group": "Rassemblement national",
-            "groupShort": "NI",
-            "job": "Juriste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 144,
-                "reports": 0,
-                "proposals": 8,
-                "proposalsSupported": 104,
-                "amendments": 372,
-                "amendmentsSupported": 1868,
-                "amendmentsAdopted": 4,
-                "commissionsAttended": 160,
-                "commissionInterventions": 15,
-                "hemicycleInterventions": 180,
-                "hemicycleShortInterventions": 103,
-                "questionsWritten": 194,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 12
         },
         {
             "firstname": "Jérôme",
             "lastname": "Darras",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 12
         },
         {
             "firstname": "Patrick",
             "lastname": "Debruyne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 12
         },
         {
             "firstname": "Régis",
             "lastname": "Scheenaerts",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 12
         }
     ]
 }

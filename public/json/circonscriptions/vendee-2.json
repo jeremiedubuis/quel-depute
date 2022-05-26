@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1977,
                 "Eric Zemmour": 5333
             }
+        },
+        "secondRound": {
+            "registered": 111825,
+            "voted": 87440,
+            "whites": 5307,
+            "expressed": 79969,
+            "void": 2164,
+            "candidates": {
+                "Emmanuel Macron": 48600,
+                "Marine Le Pen": 31369
+            }
         }
+    },
+    "current": {
+        "id": "721992",
+        "lastname": "Gallerneau",
+        "firstname": "Patricia",
+        "slug": "patricia-gallerneau",
+        "gender": "F",
+        "birthday": "1954-09-09",
+        "birthplace": "Paris (Paris)",
+        "county": "Vendée",
+        "countyId": "85",
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Retraitée fonction publique (hors enseignement)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 57,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 39,
+            "amendments": 32,
+            "amendmentsSupported": 1639,
+            "amendmentsAdopted": 264,
+            "commissionsAttended": 95,
+            "commissionInterventions": 24,
+            "hemicycleInterventions": 27,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 17,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sophie",
             "lastname": "Barillot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         },
         {
             "firstname": "Béatrice",
             "lastname": "Bellamy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         },
         {
             "firstname": "Célia",
             "lastname": "Ghouali",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         },
         {
             "firstname": "Nicolas",
             "lastname": "Helary",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         },
         {
             "firstname": "Franck",
             "lastname": "Laloue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         },
         {
             "firstname": "Jérôme",
             "lastname": "Marchand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 2
         }
     ]
 }

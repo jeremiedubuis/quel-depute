@@ -5,17 +5,17 @@
     "results": {
         "firstRound": {
             "registered": 73220,
-            "voted": 52787,
-            "whites": 640,
-            "expressed": 51839,
-            "void": 308,
+            "voted": 52776,
+            "whites": 633,
+            "expressed": 51841,
+            "void": 302,
             "candidates": {
                 "Nathalie Arthaud": 311,
                 "Fabien Roussel": 1256,
-                "Emmanuel Macron": 10438,
+                "Emmanuel Macron": 10439,
                 "Jean Lasalle": 631,
                 "Marine Le Pen": 4920,
-                "Jean-Luc Mélenchon": 25603,
+                "Jean-Luc Mélenchon": 25604,
                 "Anne Hidalgo": 747,
                 "Yannick Jadot": 2527,
                 "Valérie Pécresse": 1414,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 535,
                 "Eric Zemmour": 3058
             }
+        },
+        "secondRound": {
+            "registered": 73260,
+            "voted": 46873,
+            "whites": 3237,
+            "expressed": 42682,
+            "void": 954,
+            "candidates": {
+                "Emmanuel Macron": 33372,
+                "Marine Le Pen": 9310
+            }
         }
+    },
+    "current": {
+        "id": "721226",
+        "lastname": "Rubin",
+        "firstname": "Sabine",
+        "slug": "sabine-rubin",
+        "gender": "F",
+        "birthday": "1960-08-13",
+        "birthplace": "Paris (Paris)",
+        "county": "Seine-Saint-Denis",
+        "countyId": "93",
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 174,
+            "reports": 4,
+            "proposals": 6,
+            "proposalsSupported": 187,
+            "amendments": 3846,
+            "amendmentsSupported": 18862,
+            "amendmentsAdopted": 219,
+            "commissionsAttended": 262,
+            "commissionInterventions": 913,
+            "hemicycleInterventions": 1230,
+            "hemicycleShortInterventions": 280,
+            "questionsWritten": 83,
+            "questionsOral": 38
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Paul",
             "lastname": "Burot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         },
         {
             "firstname": "Carole",
             "lastname": "Fitoussi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         },
         {
             "firstname": "Jean-Paul",
             "lastname": "Lefebvre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         },
         {
             "firstname": "Roberson",
             "lastname": "Pierre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         },
         {
             "firstname": "Alexandre",
             "lastname": "Saada",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         },
         {
             "firstname": "Aurélie",
             "lastname": "Trouvé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 9
         }
     ]
 }
