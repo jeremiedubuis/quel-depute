@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 92977,
-            "voted": 72131,
+            "voted": 72130,
             "whites": 1095,
-            "expressed": 70646,
+            "expressed": 70645,
             "void": 390,
             "candidates": {
                 "Nathalie Arthaud": 394,
                 "Fabien Roussel": 1701,
-                "Emmanuel Macron": 23479,
+                "Emmanuel Macron": 23478,
                 "Jean Lasalle": 1255,
                 "Marine Le Pen": 8418,
                 "Jean-Luc Mélenchon": 19910,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1000,
                 "Eric Zemmour": 2778
             }
+        },
+        "secondRound": {
+            "registered": 93001,
+            "voted": 69972,
+            "whites": 4927,
+            "expressed": 63650,
+            "void": 1395,
+            "candidates": {
+                "Emmanuel Macron": 50146,
+                "Marine Le Pen": 13504
+            }
         }
+    },
+    "current": {
+        "id": "719842",
+        "lastname": "Laabid",
+        "firstname": "Mustapha",
+        "slug": "mustapha-laabid",
+        "gender": "H",
+        "birthday": "1969-03-29",
+        "birthplace": "Rennes (Ille-et-Vilaine)",
+        "county": "Ille-et-Vilaine",
+        "countyId": 35,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directeur de fondation",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 137,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 60,
+            "amendments": 562,
+            "amendmentsSupported": 2049,
+            "amendmentsAdopted": 939,
+            "commissionsAttended": 168,
+            "commissionInterventions": 27,
+            "hemicycleInterventions": 20,
+            "hemicycleShortInterventions": 34,
+            "questionsWritten": 9,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gwenola",
             "lastname": "Bouriel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Nadine",
             "lastname": "Desprez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Sebastien",
             "lastname": "Girard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Valérie",
             "lastname": "Hamon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Frédéric",
             "lastname": "Mathieu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-François",
             "lastname": "Monnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         },
         {
             "firstname": "Hind",
             "lastname": "Saoud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 1
         }
     ]
 }

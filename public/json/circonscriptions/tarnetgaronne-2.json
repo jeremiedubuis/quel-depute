@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 95979,
             "voted": 76196,
-            "whites": 1106,
-            "expressed": 74565,
-            "void": 525,
+            "whites": 1107,
+            "expressed": 74566,
+            "void": 523,
             "candidates": {
                 "Nathalie Arthaud": 338,
                 "Fabien Roussel": 1962,
                 "Emmanuel Macron": 15654,
                 "Jean Lasalle": 5271,
-                "Marine Le Pen": 23666,
+                "Marine Le Pen": 23667,
                 "Jean-Luc Mélenchon": 13124,
                 "Anne Hidalgo": 1488,
                 "Yannick Jadot": 2231,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1771,
                 "Eric Zemmour": 5705
             }
+        },
+        "secondRound": {
+            "registered": 95994,
+            "voted": 74451,
+            "whites": 4903,
+            "expressed": 67231,
+            "void": 2317,
+            "candidates": {
+                "Emmanuel Macron": 30152,
+                "Marine Le Pen": 37079
+            }
         }
+    },
+    "current": {
+        "id": "336175",
+        "lastname": "Pinel",
+        "firstname": "Sylvia",
+        "slug": "sylvia-pinel",
+        "gender": "F",
+        "birthday": "1977-09-28",
+        "birthplace": "L'Union (Haute-Garonne)",
+        "county": "Tarn-et-Garonne",
+        "countyId": 82,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti radical de gauche",
+        "groupShort": "LT",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 34,
+            "amendments": 1038,
+            "amendmentsSupported": 8549,
+            "amendmentsAdopted": 330,
+            "commissionsAttended": 241,
+            "commissionInterventions": 217,
+            "hemicycleInterventions": 596,
+            "hemicycleShortInterventions": 247,
+            "questionsWritten": 38,
+            "questionsOral": 21
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christian",
             "lastname": "Astruc",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Marine",
             "lastname": "Aurand",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Cédric",
             "lastname": "Levieux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Nathalie",
             "lastname": "Manchado",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         },
         {
-            "id": "336175",
-            "lastname": "Pinel",
             "firstname": "Sylvia",
-            "slug": "sylvia-pinel",
+            "lastname": "Pinel",
             "gender": "F",
-            "birthday": "1977-09-28",
-            "birthplace": "L'Union (Haute-Garonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Radical de Gauche",
+            "groupShort": "PRG",
+            "countyId": 82,
             "county": "Tarn-et-Garonne",
-            "countyId": "82",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Parti radical de gauche",
-            "groupShort": "LT",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 34,
-                "amendments": 1038,
-                "amendmentsSupported": 8549,
-                "amendmentsAdopted": 330,
-                "commissionsAttended": 241,
-                "commissionInterventions": 217,
-                "hemicycleInterventions": 596,
-                "hemicycleShortInterventions": 247,
-                "questionsWritten": 37,
-                "questionsOral": 21
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Françoise",
             "lastname": "Ratsimba",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Michael",
             "lastname": "Sertain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 82,
+            "county": "Tarn-et-Garonne",
+            "circumscription": 2
         }
     ]
 }

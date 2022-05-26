@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 80018,
-            "voted": 61572,
-            "whites": 1218,
-            "expressed": 59819,
-            "void": 535,
+            "voted": 61577,
+            "whites": 1212,
+            "expressed": 59823,
+            "void": 542,
             "candidates": {
                 "Nathalie Arthaud": 385,
                 "Fabien Roussel": 1917,
-                "Emmanuel Macron": 17077,
-                "Jean Lasalle": 2529,
-                "Marine Le Pen": 15744,
+                "Emmanuel Macron": 17079,
+                "Jean Lasalle": 2530,
+                "Marine Le Pen": 15745,
                 "Jean-Luc Mélenchon": 9092,
                 "Anne Hidalgo": 964,
                 "Yannick Jadot": 2129,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1498,
                 "Eric Zemmour": 4585
             }
+        },
+        "secondRound": {
+            "registered": 80029,
+            "voted": 60276,
+            "whites": 4226,
+            "expressed": 54441,
+            "void": 1609,
+            "candidates": {
+                "Emmanuel Macron": 29202,
+                "Marine Le Pen": 25239
+            }
         }
+    },
+    "current": {
+        "id": "718736",
+        "lastname": "Peyrol",
+        "firstname": "Bénédicte",
+        "slug": "benedicte-peyrol",
+        "gender": "F",
+        "birthday": "1991-03-23",
+        "birthplace": "Vichy (Allier)",
+        "county": "Allier",
+        "countyId": 3,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Conseiller juridique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 13,
+            "proposals": 0,
+            "proposalsSupported": 62,
+            "amendments": 211,
+            "amendmentsSupported": 1842,
+            "amendmentsAdopted": 1109,
+            "commissionsAttended": 345,
+            "commissionInterventions": 329,
+            "hemicycleInterventions": 300,
+            "hemicycleShortInterventions": 85,
+            "questionsWritten": 22,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Elsa",
             "lastname": "Denferd",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 3
         },
         {
             "firstname": "Quentin",
             "lastname": "Julien",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 3
         },
         {
-            "id": "718736",
-            "lastname": "Peyrol",
             "firstname": "Bénédicte",
-            "slug": "benedicte-peyrol",
+            "lastname": "Peyrol",
             "gender": "F",
-            "birthday": "1991-03-23",
-            "birthplace": "Vichy (Allier)",
-            "county": "Allier",
-            "countyId": "03",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Conseiller juridique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 13,
-                "proposals": 0,
-                "proposalsSupported": 62,
-                "amendments": 211,
-                "amendmentsSupported": 1842,
-                "amendmentsAdopted": 1109,
-                "commissionsAttended": 345,
-                "commissionInterventions": 329,
-                "hemicycleInterventions": 300,
-                "hemicycleShortInterventions": 85,
-                "questionsWritten": 22,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-François",
             "lastname": "Rameau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 3
         }
     ]
 }

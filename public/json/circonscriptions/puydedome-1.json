@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 83704,
             "voted": 62536,
-            "whites": 1079,
+            "whites": 1081,
             "expressed": 61032,
-            "void": 425,
+            "void": 423,
             "candidates": {
                 "Nathalie Arthaud": 406,
                 "Fabien Roussel": 1909,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 963,
                 "Eric Zemmour": 3504
             }
+        },
+        "secondRound": {
+            "registered": 83741,
+            "voted": 58724,
+            "whites": 4272,
+            "expressed": 52952,
+            "void": 1500,
+            "candidates": {
+                "Emmanuel Macron": 35080,
+                "Marine Le Pen": 17872
+            }
         }
+    },
+    "current": {
+        "id": "720830",
+        "lastname": "Thomas",
+        "firstname": "Valérie",
+        "slug": "valerie-thomas",
+        "gender": "F",
+        "birthday": "1968-01-21",
+        "birthplace": "Desertines (Allier)",
+        "county": "Puy-de-Dôme",
+        "countyId": 63,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 154,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 79,
+            "amendments": 19,
+            "amendmentsSupported": 1662,
+            "amendmentsAdopted": 959,
+            "commissionsAttended": 223,
+            "commissionInterventions": 161,
+            "hemicycleInterventions": 29,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 14,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne",
             "lastname": "Biscos",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
             "firstname": "Maël",
             "lastname": "Capolino",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
             "firstname": "Aurélie",
             "lastname": "De Francesco",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
             "firstname": "Sébastien",
             "lastname": "Galpier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
             "firstname": "Dominique",
             "lastname": "Leclair",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
             "firstname": "Marianne",
             "lastname": "Maximi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         },
         {
-            "id": "720830",
-            "lastname": "Thomas",
             "firstname": "Valérie",
-            "slug": "valerie-thomas",
+            "lastname": "Thomas",
             "gender": "F",
-            "birthday": "1968-01-21",
-            "birthplace": "Desertines (Allier)",
-            "county": "Puy-de-Dôme",
-            "countyId": "63",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre profession libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 154,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 79,
-                "amendments": 19,
-                "amendmentsSupported": 1662,
-                "amendmentsAdopted": 959,
-                "commissionsAttended": 223,
-                "commissionInterventions": 161,
-                "hemicycleInterventions": 29,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 14,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 1
         }
     ]
 }

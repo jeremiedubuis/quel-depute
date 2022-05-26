@@ -4,111 +4,158 @@
     "name": "Ardèche",
     "results": {
         "firstRound": {
-            "registered": 79090,
+            "registered": 79091,
             "voted": 61599,
-            "whites": 1017,
-            "expressed": 60083,
-            "void": 499,
+            "whites": 1016,
+            "expressed": 60088,
+            "void": 495,
             "candidates": {
                 "Nathalie Arthaud": 387,
                 "Fabien Roussel": 1920,
-                "Emmanuel Macron": 12650,
+                "Emmanuel Macron": 12651,
                 "Jean Lasalle": 2814,
-                "Marine Le Pen": 15962,
-                "Jean-Luc Mélenchon": 13408,
+                "Marine Le Pen": 15964,
+                "Jean-Luc Mélenchon": 13409,
                 "Anne Hidalgo": 1357,
                 "Yannick Jadot": 2505,
                 "Valérie Pécresse": 2436,
                 "Phillipe Poutou": 581,
-                "Nicolas Dupont-Aignan": 1544,
+                "Nicolas Dupont-Aignan": 1545,
                 "Eric Zemmour": 4519
             }
+        },
+        "secondRound": {
+            "registered": 79105,
+            "voted": 59119,
+            "whites": 4799,
+            "expressed": 52447,
+            "void": 1873,
+            "candidates": {
+                "Emmanuel Macron": 26233,
+                "Marine Le Pen": 26214
+            }
         }
+    },
+    "current": {
+        "id": "340343",
+        "lastname": "Saulignac",
+        "firstname": "Hervé",
+        "slug": "herve-saulignac",
+        "gender": "H",
+        "birthday": "1970-11-06",
+        "birthplace": "Privas (Ardèche)",
+        "county": "Ardèche",
+        "countyId": 7,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 85,
+            "amendments": 714,
+            "amendmentsSupported": 15517,
+            "amendmentsAdopted": 853,
+            "commissionsAttended": 260,
+            "commissionInterventions": 398,
+            "hemicycleInterventions": 706,
+            "hemicycleShortInterventions": 310,
+            "questionsWritten": 183,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Séverine",
             "lastname": "Gineys",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         },
         {
             "firstname": "Clara",
             "lastname": "Madeira",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         },
         {
             "firstname": "Céline",
             "lastname": "Porquet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         },
         {
-            "id": "340343",
-            "lastname": "Saulignac",
             "firstname": "Hervé",
-            "slug": "herve-saulignac",
+            "lastname": "Saulignac",
             "gender": "H",
-            "birthday": "1970-11-06",
-            "birthplace": "Privas (Ardèche)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 7,
             "county": "Ardèche",
-            "countyId": "07",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre (entreprises publiques)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 5,
-                "proposals": 4,
-                "proposalsSupported": 85,
-                "amendments": 714,
-                "amendmentsSupported": 15517,
-                "amendmentsAdopted": 853,
-                "commissionsAttended": 260,
-                "commissionInterventions": 398,
-                "hemicycleInterventions": 706,
-                "hemicycleShortInterventions": 310,
-                "questionsWritten": 183,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Boris",
             "lastname": "Tzaprenko",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Valla",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         },
         {
             "firstname": "Muriel",
             "lastname": "Vander Donckt",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 7,
+            "county": "Ardèche",
+            "circumscription": 1
         }
     ]
 }

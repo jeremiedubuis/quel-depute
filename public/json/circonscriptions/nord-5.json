@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1269,
                 "Eric Zemmour": 4372
             }
+        },
+        "secondRound": {
+            "registered": 101274,
+            "voted": 77130,
+            "whites": 4371,
+            "expressed": 71284,
+            "void": 1475,
+            "candidates": {
+                "Emmanuel Macron": 39335,
+                "Marine Le Pen": 31949
+            }
         }
+    },
+    "current": {
+        "id": "267200",
+        "lastname": "Huyghe",
+        "firstname": "Sébastien",
+        "slug": "sebastien-huyghe",
+        "gender": "H",
+        "birthday": "1969-10-25",
+        "birthplace": "Béthune (Pas-de-Calais)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Notaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 147,
+            "reports": 1,
+            "proposals": 8,
+            "proposalsSupported": 91,
+            "amendments": 179,
+            "amendmentsSupported": 3114,
+            "amendmentsAdopted": 123,
+            "commissionsAttended": 173,
+            "commissionInterventions": 113,
+            "hemicycleInterventions": 297,
+            "hemicycleShortInterventions": 107,
+            "questionsWritten": 74,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Victor",
             "lastname": "Catteau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         },
         {
             "firstname": "Frédéric",
             "lastname": "Cauderlier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         },
         {
             "firstname": "Ophélie",
             "lastname": "Delneste",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         },
         {
             "firstname": "Luc",
             "lastname": "Dubois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         },
         {
-            "id": "267200",
-            "lastname": "Huyghe",
             "firstname": "Sébastien",
-            "slug": "sebastien-huyghe",
+            "lastname": "Huyghe",
             "gender": "H",
-            "birthday": "1969-10-25",
-            "birthplace": "Béthune (Pas-de-Calais)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Notaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 147,
-                "reports": 1,
-                "proposals": 8,
-                "proposalsSupported": 91,
-                "amendments": 179,
-                "amendmentsSupported": 3114,
-                "amendmentsAdopted": 123,
-                "commissionsAttended": 173,
-                "commissionInterventions": 113,
-                "hemicycleInterventions": 297,
-                "hemicycleShortInterventions": 107,
-                "questionsWritten": 74,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         },
         {
             "firstname": "Manon",
             "lastname": "Stoffel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 5
         }
     ]
 }

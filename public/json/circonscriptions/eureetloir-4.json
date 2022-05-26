@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1384,
                 "Eric Zemmour": 3429
             }
+        },
+        "secondRound": {
+            "registered": 67166,
+            "voted": 51073,
+            "whites": 2927,
+            "expressed": 47022,
+            "void": 1124,
+            "candidates": {
+                "Emmanuel Macron": 22034,
+                "Marine Le Pen": 24988
+            }
         }
+    },
+    "current": {
+        "id": "331582",
+        "lastname": "Vigier",
+        "firstname": "Philippe",
+        "slug": "philippe-vigier",
+        "gender": "H",
+        "birthday": "1958-02-03",
+        "birthplace": "Valence (Drôme)",
+        "county": "Eure-et-Loir",
+        "countyId": 28,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "MODEM",
+        "job": "Biologiste A.I.H.P.",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 7,
+            "proposals": 7,
+            "proposalsSupported": 125,
+            "amendments": 859,
+            "amendmentsSupported": 7928,
+            "amendmentsAdopted": 628,
+            "commissionsAttended": 423,
+            "commissionInterventions": 843,
+            "hemicycleInterventions": 1348,
+            "hemicycleShortInterventions": 1128,
+            "questionsWritten": 29,
+            "questionsOral": 34
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Laure",
             "lastname": "Assayag",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 4
         },
         {
             "firstname": "Virginia",
             "lastname": "De Oliveira",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 4
         },
         {
             "firstname": "Mathieu",
             "lastname": "Gaston",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 4
         },
         {
             "firstname": "Pierre",
             "lastname": "Mioque",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 4
         },
         {
-            "id": "331582",
-            "lastname": "Vigier",
             "firstname": "Philippe",
-            "slug": "philippe-vigier",
+            "lastname": "Vigier",
             "gender": "H",
-            "birthday": "1958-02-03",
-            "birthplace": "Valence (Drôme)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 28,
             "county": "Eure-et-Loir",
-            "countyId": "28",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "MODEM",
-            "job": "Biologiste A.I.H.P.",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 7,
-                "proposals": 7,
-                "proposalsSupported": 125,
-                "amendments": 859,
-                "amendmentsSupported": 7928,
-                "amendmentsAdopted": 628,
-                "commissionsAttended": 423,
-                "commissionInterventions": 843,
-                "hemicycleInterventions": 1348,
-                "hemicycleShortInterventions": 1128,
-                "questionsWritten": 29,
-                "questionsOral": 34
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         }
     ]
 }

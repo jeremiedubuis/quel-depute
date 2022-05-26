@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 84147,
             "voted": 62017,
-            "whites": 808,
+            "whites": 816,
             "expressed": 60851,
-            "void": 358,
+            "void": 350,
             "candidates": {
                 "Nathalie Arthaud": 254,
                 "Fabien Roussel": 1619,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1162,
                 "Eric Zemmour": 6238
             }
+        },
+        "secondRound": {
+            "registered": 84196,
+            "voted": 59794,
+            "whites": 3726,
+            "expressed": 54728,
+            "void": 1340,
+            "candidates": {
+                "Emmanuel Macron": 28599,
+                "Marine Le Pen": 26129
+            }
         }
+    },
+    "current": {
+        "id": "719488",
+        "lastname": "Berta",
+        "firstname": "Philippe",
+        "slug": "philippe-berta",
+        "gender": "H",
+        "birthday": "1960-04-11",
+        "birthplace": "Besançon (Doubs)",
+        "county": "Gard",
+        "countyId": 30,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Professeur de faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 16,
+            "proposals": 3,
+            "proposalsSupported": 68,
+            "amendments": 349,
+            "amendmentsSupported": 3921,
+            "amendmentsAdopted": 984,
+            "commissionsAttended": 334,
+            "commissionInterventions": 694,
+            "hemicycleInterventions": 374,
+            "hemicycleShortInterventions": 168,
+            "questionsWritten": 139,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719488",
-            "lastname": "Berta",
             "firstname": "Philippe",
-            "slug": "philippe-berta",
+            "lastname": "Berta",
             "gender": "H",
-            "birthday": "1960-04-11",
-            "birthplace": "Besançon (Doubs)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 30,
             "county": "Gard",
-            "countyId": "30",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Professeur de faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 16,
-                "proposals": 3,
-                "proposalsSupported": 68,
-                "amendments": 349,
-                "amendmentsSupported": 3921,
-                "amendmentsAdopted": 984,
-                "commissionsAttended": 334,
-                "commissionInterventions": 694,
-                "hemicycleInterventions": 374,
-                "hemicycleShortInterventions": 168,
-                "questionsWritten": 139,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Nicolas",
             "lastname": "Cadène",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 6
         },
         {
             "firstname": "François",
             "lastname": "Courdil",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 6
         },
         {
             "firstname": "Laurence",
             "lastname": "Gardet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 6
         },
         {
             "firstname": "Stéphane",
             "lastname": "Guillemin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 6
         },
         {
             "firstname": "Aïcha",
             "lastname": "Terbeche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 6
         }
     ]
 }

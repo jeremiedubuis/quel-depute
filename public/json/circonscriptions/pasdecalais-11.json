@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 849,
                 "Eric Zemmour": 2779
             }
+        },
+        "secondRound": {
+            "registered": 93974,
+            "voted": 66897,
+            "whites": 2860,
+            "expressed": 62488,
+            "void": 1549,
+            "candidates": {
+                "Emmanuel Macron": 22866,
+                "Marine Le Pen": 39622
+            }
         }
+    },
+    "current": {
+        "id": "720614",
+        "lastname": "Le Pen",
+        "firstname": "Marine",
+        "slug": "marine-le-pen",
+        "gender": "F",
+        "birthday": "1968-08-05",
+        "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": "Avocate",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 130,
+            "reports": 0,
+            "proposals": 17,
+            "proposalsSupported": 57,
+            "amendments": 576,
+            "amendmentsSupported": 1815,
+            "amendmentsAdopted": 4,
+            "commissionsAttended": 130,
+            "commissionInterventions": 137,
+            "hemicycleInterventions": 403,
+            "hemicycleShortInterventions": 273,
+            "questionsWritten": 79,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dominique",
             "lastname": "Gai",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 11
         },
         {
             "firstname": "Denis",
             "lastname": "Hocquet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 11
         },
         {
-            "id": "720614",
-            "lastname": "Le Pen",
             "firstname": "Marine",
-            "slug": "marine-le-pen",
+            "lastname": "Le Pen",
             "gender": "F",
-            "birthday": "1968-08-05",
-            "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
-            "group": "Rassemblement national",
-            "groupShort": "NI",
-            "job": "Avocate",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 130,
-                "reports": 0,
-                "proposals": 17,
-                "proposalsSupported": 57,
-                "amendments": 576,
-                "amendmentsSupported": 1815,
-                "amendmentsAdopted": 4,
-                "commissionsAttended": 130,
-                "commissionInterventions": 137,
-                "hemicycleInterventions": 403,
-                "hemicycleShortInterventions": 273,
-                "questionsWritten": 79,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 11
         },
         {
             "firstname": "Alexandrine",
             "lastname": "Pintus",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 11
         },
         {
             "firstname": "Marine",
             "lastname": "Tondelier",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 11
         }
     ]
 }

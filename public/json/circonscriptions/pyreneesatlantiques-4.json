@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 951,
                 "Eric Zemmour": 3109
             }
+        },
+        "secondRound": {
+            "registered": 80665,
+            "voted": 62075,
+            "whites": 6627,
+            "expressed": 52950,
+            "void": 2498,
+            "candidates": {
+                "Emmanuel Macron": 31820,
+                "Marine Le Pen": 21130
+            }
         }
+    },
+    "current": {
+        "id": "1838",
+        "lastname": "Lassalle",
+        "firstname": "Jean",
+        "slug": "jean-lassalle",
+        "gender": "H",
+        "birthday": "1955-05-03",
+        "birthplace": "Lourdios-Ichère (Pyrénées-Atlantiques)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Technicien agricole",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 1,
+            "proposals": 4,
+            "proposalsSupported": 50,
+            "amendments": 323,
+            "amendmentsSupported": 4410,
+            "amendmentsAdopted": 142,
+            "commissionsAttended": 189,
+            "commissionInterventions": 152,
+            "hemicycleInterventions": 725,
+            "hemicycleShortInterventions": 729,
+            "questionsWritten": 84,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sylviane",
             "lastname": "Buttigieg",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Iñaki",
             "lastname": "Echaniz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Didier",
             "lastname": "Irigoin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Xavier",
             "lastname": "Laffont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Carlos",
             "lastname": "Ribeiro",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Margaux",
             "lastname": "Taillefer",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         },
         {
             "firstname": "Annick",
             "lastname": "Trounday",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 4
         }
     ]
 }

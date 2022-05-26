@@ -4,18 +4,18 @@
     "name": "Rhône",
     "results": {
         "firstRound": {
-            "registered": 71973,
-            "voted": 59805,
+            "registered": 71975,
+            "voted": 59804,
             "whites": 674,
             "expressed": 58937,
-            "void": 194,
+            "void": 193,
             "candidates": {
                 "Nathalie Arthaud": 198,
                 "Fabien Roussel": 883,
-                "Emmanuel Macron": 18152,
+                "Emmanuel Macron": 18153,
                 "Jean Lasalle": 809,
-                "Marine Le Pen": 4262,
-                "Jean-Luc Mélenchon": 20055,
+                "Marine Le Pen": 4260,
+                "Jean-Luc Mélenchon": 20056,
                 "Anne Hidalgo": 1187,
                 "Yannick Jadot": 4726,
                 "Valérie Pécresse": 3144,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 570,
                 "Eric Zemmour": 4561
             }
+        },
+        "secondRound": {
+            "registered": 72002,
+            "voted": 55298,
+            "whites": 3185,
+            "expressed": 51275,
+            "void": 838,
+            "candidates": {
+                "Emmanuel Macron": 42044,
+                "Marine Le Pen": 9231
+            }
         }
+    },
+    "current": {
+        "id": "722344",
+        "lastname": "Julien-Laferrière",
+        "firstname": "Hubert",
+        "slug": "hubert-julienlaferriere",
+        "gender": "H",
+        "birthday": "1966-02-27",
+        "birthplace": "Boulogne Billancourt (Hauts-de-Seine)",
+        "county": "Rhône",
+        "countyId": 69,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Professeur certifié de SES",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 95,
+            "amendments": 191,
+            "amendmentsSupported": 4409,
+            "amendmentsAdopted": 594,
+            "commissionsAttended": 225,
+            "commissionInterventions": 154,
+            "hemicycleInterventions": 139,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 29,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Delphine",
             "lastname": "Briday",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Myriam",
             "lastname": "Fogel-Jedidi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 2
         },
         {
-            "id": "722344",
-            "lastname": "Julien-Laferrière",
             "firstname": "Hubert",
-            "slug": "hubert-julienlaferriere",
+            "lastname": "Julien-Laferrière",
             "gender": "H",
-            "birthday": "1966-02-27",
-            "birthplace": "Boulogne Billancourt (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Génération écologie",
+            "groupShort": "GE",
+            "countyId": 69,
             "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "NI",
-            "job": "Professeur certifié de SES",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 152,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 95,
-                "amendments": 191,
-                "amendmentsSupported": 4409,
-                "amendmentsAdopted": 594,
-                "commissionsAttended": 225,
-                "commissionInterventions": 154,
-                "hemicycleInterventions": 139,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 29,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Sylviane",
             "lastname": "Sintes",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Loïc",
             "lastname": "Terrenes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 2
         },
         {
             "firstname": "Claire",
             "lastname": "Velicitat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 2
         }
     ]
 }

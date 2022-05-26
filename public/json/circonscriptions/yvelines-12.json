@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1020,
                 "Eric Zemmour": 3995
             }
+        },
+        "secondRound": {
+            "registered": 70871,
+            "voted": 52538,
+            "whites": 3169,
+            "expressed": 48581,
+            "void": 788,
+            "candidates": {
+                "Emmanuel Macron": 34992,
+                "Marine Le Pen": 13589
+            }
         }
+    },
+    "current": {
+        "id": "722062",
+        "lastname": "Granjus",
+        "firstname": "Florence",
+        "slug": "florence-granjus",
+        "gender": "F",
+        "birthday": "1962-05-17",
+        "birthplace": "Nanterre (Hauts-de-Seine)",
+        "county": "Yvelines",
+        "countyId": 78,
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 77,
+            "amendments": 100,
+            "amendmentsSupported": 2486,
+            "amendmentsAdopted": 1182,
+            "commissionsAttended": 245,
+            "commissionInterventions": 76,
+            "hemicycleInterventions": 55,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 96,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Pierre",
             "lastname": "Mercier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 12
         },
         {
             "firstname": "Gilles / Jean-Louis",
             "lastname": "Mettelet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 12
         },
         {
             "firstname": "François",
             "lastname": "Moutot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 12
         },
         {
             "firstname": "Karl",
             "lastname": "Olive",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 12
         },
         {
             "firstname": "Mathieu",
             "lastname": "Paranthoën",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 12
         }
     ]
 }

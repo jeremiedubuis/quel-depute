@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 81158,
             "voted": 62067,
-            "whites": 1192,
-            "expressed": 60354,
-            "void": 521,
+            "whites": 1211,
+            "expressed": 60355,
+            "void": 501,
             "candidates": {
                 "Nathalie Arthaud": 394,
                 "Fabien Roussel": 1455,
                 "Emmanuel Macron": 16420,
                 "Jean Lasalle": 2153,
-                "Marine Le Pen": 17020,
+                "Marine Le Pen": 17021,
                 "Jean-Luc Mélenchon": 9889,
                 "Anne Hidalgo": 1433,
                 "Yannick Jadot": 2114,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1427,
                 "Eric Zemmour": 4530
             }
+        },
+        "secondRound": {
+            "registered": 81160,
+            "voted": 61056,
+            "whites": 4217,
+            "expressed": 55123,
+            "void": 1716,
+            "candidates": {
+                "Emmanuel Macron": 28710,
+                "Marine Le Pen": 26413
+            }
         }
+    },
+    "current": {
+        "id": "722398",
+        "lastname": "Rebeyrotte",
+        "firstname": "Rémy",
+        "slug": "remy-rebeyrotte",
+        "gender": "H",
+        "birthday": "1966-03-27",
+        "birthplace": "Autun (Saône-et-Loire)",
+        "county": "Saône-et-Loire",
+        "countyId": 71,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur d'économie",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 188,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 76,
+            "amendments": 451,
+            "amendmentsSupported": 2936,
+            "amendmentsAdopted": 1339,
+            "commissionsAttended": 373,
+            "commissionInterventions": 554,
+            "hemicycleInterventions": 501,
+            "hemicycleShortInterventions": 1132,
+            "questionsWritten": 109,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sandrine",
             "lastname": "Baroin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Richard",
             "lastname": "Beninger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Charles",
             "lastname": "Landre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 3
         },
         {
             "firstname": "Julie",
             "lastname": "Lucotte",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 3
         },
         {
-            "id": "722398",
-            "lastname": "Rebeyrotte",
             "firstname": "Rémy",
-            "slug": "remy-rebeyrotte",
+            "lastname": "Rebeyrotte",
             "gender": "H",
-            "birthday": "1966-03-27",
-            "birthplace": "Autun (Saône-et-Loire)",
-            "county": "Saône-et-Loire",
-            "countyId": "71",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur d'économie",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 188,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 76,
-                "amendments": 451,
-                "amendmentsSupported": 2936,
-                "amendmentsAdopted": 1339,
-                "commissionsAttended": 373,
-                "commissionInterventions": 554,
-                "hemicycleInterventions": 501,
-                "hemicycleShortInterventions": 1132,
-                "questionsWritten": 108,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 3
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1907,
                 "Eric Zemmour": 8034
             }
+        },
+        "secondRound": {
+            "registered": 118703,
+            "voted": 91104,
+            "whites": 7045,
+            "expressed": 81753,
+            "void": 2306,
+            "candidates": {
+                "Emmanuel Macron": 42802,
+                "Marine Le Pen": 38951
+            }
         }
+    },
+    "current": {
+        "id": "719692",
+        "lastname": "Eliaou",
+        "firstname": "Jean-François",
+        "slug": "jeanfrancois-eliaou",
+        "gender": "H",
+        "birthday": "1956-08-13",
+        "birthplace": "Nice (Alpes-Maritimes)",
+        "county": "Hérault",
+        "countyId": 34,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 16,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 312,
+            "amendmentsSupported": 2279,
+            "amendmentsAdopted": 1304,
+            "commissionsAttended": 348,
+            "commissionInterventions": 683,
+            "hemicycleInterventions": 275,
+            "hemicycleShortInterventions": 74,
+            "questionsWritten": 32,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Manon",
             "lastname": "Bouquin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         },
         {
-            "id": "719692",
-            "lastname": "Eliaou",
             "firstname": "Jean-François",
-            "slug": "jeanfrancois-eliaou",
+            "lastname": "Eliaou",
             "gender": "H",
-            "birthday": "1956-08-13",
-            "birthplace": "Nice (Alpes-Maritimes)",
-            "county": "Hérault",
-            "countyId": "34",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 161,
-                "reports": 16,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 312,
-                "amendmentsSupported": 2279,
-                "amendmentsAdopted": 1304,
-                "commissionsAttended": 348,
-                "commissionInterventions": 683,
-                "hemicycleInterventions": 275,
-                "hemicycleShortInterventions": 74,
-                "questionsWritten": 32,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         },
         {
             "firstname": "Michel",
             "lastname": "Garcia",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         },
         {
             "firstname": "Sébastien",
             "lastname": "Giai Gianetto",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         },
         {
             "firstname": "Florence",
             "lastname": "Larue",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         },
         {
             "firstname": "Sébastien",
             "lastname": "Rome",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 4
         }
     ]
 }

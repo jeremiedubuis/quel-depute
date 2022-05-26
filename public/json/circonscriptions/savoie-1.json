@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 1991,
                 "Eric Zemmour": 5830
             }
+        },
+        "secondRound": {
+            "registered": 92966,
+            "voted": 70806,
+            "whites": 4676,
+            "expressed": 64639,
+            "void": 1491,
+            "candidates": {
+                "Emmanuel Macron": 37548,
+                "Marine Le Pen": 27091
+            }
         }
+    },
+    "current": {
+        "id": "721398",
+        "lastname": "Degois",
+        "firstname": "Typhanie",
+        "slug": "typhanie-degois",
+        "gender": "F",
+        "birthday": "1993-01-06",
+        "birthplace": "Fourmies (Nord)",
+        "county": "Savoie",
+        "countyId": 73,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Juriste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 130,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 105,
+            "amendments": 338,
+            "amendmentsSupported": 4294,
+            "amendmentsAdopted": 1263,
+            "commissionsAttended": 189,
+            "commissionInterventions": 123,
+            "hemicycleInterventions": 94,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 218,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Adrien",
             "lastname": "Casejuane",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Manon",
             "lastname": "Deruem",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Marina",
             "lastname": "Ferrari",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 1
         },
         {
             "firstname": "Christel",
             "lastname": "Granata",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 1
         }
     ]
 }

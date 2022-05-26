@@ -1,5 +1,5 @@
 {
-    "countyId": "ZC",
+    "countyId": 973,
     "number": 1,
     "name": "Guyane",
     "results": {
@@ -23,7 +23,67 @@
                 "Nicolas Dupont-Aignan": 460,
                 "Eric Zemmour": 1008
             }
+        },
+        "secondRound": {
+            "registered": 56674,
+            "voted": 25135,
+            "whites": 2037,
+            "expressed": 22350,
+            "void": 748,
+            "candidates": {
+                "Emmanuel Macron": 8486,
+                "Marine Le Pen": 13864
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "610667",
+        "lastname": "Serville",
+        "firstname": "Gabriel",
+        "slug": "gabriel-serville",
+        "gender": "H",
+        "birthday": "1959-09-27",
+        "birthplace": "Cayenne (Guyane)",
+        "county": "Guyane",
+        "countyId": 973,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "GDR",
+        "job": "Professeur de Mathématiques - Proviseur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 105,
+            "reports": 3,
+            "proposals": 5,
+            "proposalsSupported": 133,
+            "amendments": 1209,
+            "amendmentsSupported": 8749,
+            "amendmentsAdopted": 290,
+            "commissionsAttended": 186,
+            "commissionInterventions": 198,
+            "hemicycleInterventions": 379,
+            "hemicycleShortInterventions": 40,
+            "questionsWritten": 71,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Jerome",
+            "lastname": "Harbourg",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 973,
+            "county": "Guyane",
+            "circumscription": 1
+        }
+    ]
 }

@@ -5,17 +5,17 @@
     "results": {
         "firstRound": {
             "registered": 72033,
-            "voted": 56543,
-            "whites": 941,
-            "expressed": 55295,
-            "void": 307,
+            "voted": 56541,
+            "whites": 942,
+            "expressed": 55294,
+            "void": 305,
             "candidates": {
                 "Nathalie Arthaud": 375,
                 "Fabien Roussel": 1202,
-                "Emmanuel Macron": 15160,
+                "Emmanuel Macron": 15159,
                 "Jean Lasalle": 1262,
-                "Marine Le Pen": 13394,
-                "Jean-Luc Mélenchon": 12777,
+                "Marine Le Pen": 13395,
+                "Jean-Luc Mélenchon": 12776,
                 "Anne Hidalgo": 1103,
                 "Yannick Jadot": 2516,
                 "Valérie Pécresse": 2239,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1168,
                 "Eric Zemmour": 3688
             }
+        },
+        "secondRound": {
+            "registered": 72063,
+            "voted": 53523,
+            "whites": 3673,
+            "expressed": 48783,
+            "void": 1067,
+            "candidates": {
+                "Emmanuel Macron": 28609,
+                "Marine Le Pen": 20174
+            }
         }
+    },
+    "current": {
+        "id": "719186",
+        "lastname": "Khattabi",
+        "firstname": "Fadila",
+        "slug": "fadila-khattabi",
+        "gender": "F",
+        "birthday": "1962-02-23",
+        "birthplace": "Montbéliard (Doubs)",
+        "county": "Côte-d'Or",
+        "countyId": 21,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur d'anglais CFA",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 3,
+            "proposals": 2,
+            "proposalsSupported": 72,
+            "amendments": 109,
+            "amendmentsSupported": 2646,
+            "amendmentsAdopted": 1375,
+            "commissionsAttended": 458,
+            "commissionInterventions": 603,
+            "hemicycleInterventions": 165,
+            "hemicycleShortInterventions": 39,
+            "questionsWritten": 25,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "François",
             "lastname": "Benredjem",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Dominique-Alexandre",
             "lastname": "Bourgois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Fabienne",
             "lastname": "Delorme",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Tarja",
             "lastname": "Fauvet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Valérie",
             "lastname": "Grandet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
-            "id": "719186",
-            "lastname": "Khattabi",
             "firstname": "Fadila",
-            "slug": "fadila-khattabi",
+            "lastname": "Khattabi",
             "gender": "F",
-            "birthday": "1962-02-23",
-            "birthplace": "Montbéliard (Doubs)",
-            "county": "Côte-d'Or",
-            "countyId": "21",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur d'anglais CFA",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 3,
-                "proposals": 2,
-                "proposalsSupported": 72,
-                "amendments": 109,
-                "amendmentsSupported": 2646,
-                "amendmentsAdopted": 1375,
-                "commissionsAttended": 458,
-                "commissionInterventions": 603,
-                "hemicycleInterventions": 165,
-                "hemicycleShortInterventions": 39,
-                "questionsWritten": 25,
-                "questionsOral": 15
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Patricia",
             "lastname": "Marc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         },
         {
             "firstname": "Clément",
             "lastname": "Van Melckebeke",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Fédération de la Gauche Républicaine",
             "groupShort": "FGR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 3
         }
     ]
 }

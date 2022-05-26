@@ -7,12 +7,12 @@
             "registered": 86008,
             "voted": 67037,
             "whites": 923,
-            "expressed": 65596,
-            "void": 518,
+            "expressed": 65598,
+            "void": 516,
             "candidates": {
                 "Nathalie Arthaud": 340,
                 "Fabien Roussel": 1625,
-                "Emmanuel Macron": 13831,
+                "Emmanuel Macron": 13833,
                 "Jean Lasalle": 6808,
                 "Marine Le Pen": 16962,
                 "Jean-Luc Mélenchon": 13313,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1310,
                 "Eric Zemmour": 4636
             }
+        },
+        "secondRound": {
+            "registered": 86024,
+            "voted": 65371,
+            "whites": 5342,
+            "expressed": 57472,
+            "void": 2557,
+            "candidates": {
+                "Emmanuel Macron": 28393,
+                "Marine Le Pen": 29079
+            }
         }
+    },
+    "current": {
+        "id": "642764",
+        "lastname": "Aviragnet",
+        "firstname": "Joël",
+        "slug": "joel-aviragnet",
+        "gender": "H",
+        "birthday": "1956-06-16",
+        "birthplace": "Encausse-les-Thermes (Haute-Garonne)",
+        "county": "Haute-Garonne",
+        "countyId": 31,
+        "circumscription": 8,
+        "mandateStart": "2018-03-19",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Directeur d'un établissement pour l'enfance handicapée",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 140,
+            "reports": 1,
+            "proposals": 2,
+            "proposalsSupported": 74,
+            "amendments": 1229,
+            "amendmentsSupported": 14815,
+            "amendmentsAdopted": 784,
+            "commissionsAttended": 192,
+            "commissionInterventions": 379,
+            "hemicycleInterventions": 659,
+            "hemicycleShortInterventions": 233,
+            "questionsWritten": 72,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "642764",
-            "lastname": "Aviragnet",
             "firstname": "Joël",
-            "slug": "joel-aviragnet",
+            "lastname": "Aviragnet",
             "gender": "H",
-            "birthday": "1956-06-16",
-            "birthplace": "Encausse-les-Thermes (Haute-Garonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 31,
             "county": "Haute-Garonne",
-            "countyId": "31",
-            "circumscription": 8,
-            "mandateStart": "2018-03-19",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Directeur d'un établissement pour l'enfance handicapée",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 140,
-                "reports": 1,
-                "proposals": 2,
-                "proposalsSupported": 74,
-                "amendments": 1229,
-                "amendmentsSupported": 14815,
-                "amendmentsAdopted": 784,
-                "commissionsAttended": 192,
-                "commissionInterventions": 379,
-                "hemicycleInterventions": 659,
-                "hemicycleShortInterventions": 233,
-                "questionsWritten": 72,
-                "questionsOral": 25
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Polina",
             "lastname": "Baules",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 8
         },
         {
             "firstname": "Loic",
             "lastname": "Delchard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 8
         },
         {
             "firstname": "Martine",
             "lastname": "Guiraud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 8
         },
         {
             "firstname": "Céline",
             "lastname": "Laurenties-Barrere",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 8
         },
         {
             "firstname": "Simon",
             "lastname": "Moncasi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 8
         }
     ]
 }

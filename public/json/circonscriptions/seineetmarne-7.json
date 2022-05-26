@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1230,
                 "Eric Zemmour": 4897
             }
+        },
+        "secondRound": {
+            "registered": 87185,
+            "voted": 61645,
+            "whites": 4071,
+            "expressed": 56460,
+            "void": 1114,
+            "candidates": {
+                "Emmanuel Macron": 32075,
+                "Marine Le Pen": 24385
+            }
         }
+    },
+    "current": {
+        "id": "721644",
+        "lastname": "Kokouendo",
+        "firstname": "Rodrigue",
+        "slug": "rodrigue-kokouendo",
+        "gender": "H",
+        "birthday": "1974-03-08",
+        "birthplace": "Bangui (Centrafrique)",
+        "county": "Seine-et-Marne",
+        "countyId": 77,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 79,
+            "amendments": 27,
+            "amendmentsSupported": 2439,
+            "amendmentsAdopted": 990,
+            "commissionsAttended": 295,
+            "commissionInterventions": 151,
+            "hemicycleInterventions": 52,
+            "hemicycleShortInterventions": 7,
+            "questionsWritten": 32,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Didier",
             "lastname": "Bernard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Gabrielle",
             "lastname": "Frija",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Laetitia",
             "lastname": "Guillard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Patrick",
             "lastname": "Jahier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         },
         {
-            "id": "721644",
-            "lastname": "Kokouendo",
             "firstname": "Rodrigue",
-            "slug": "rodrigue-kokouendo",
+            "lastname": "Kokouendo",
             "gender": "H",
-            "birthday": "1974-03-08",
-            "birthplace": "Bangui (Centrafrique)",
-            "county": "Seine-et-Marne",
-            "countyId": "77",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 177,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 79,
-                "amendments": 27,
-                "amendmentsSupported": 2439,
-                "amendmentsAdopted": 990,
-                "commissionsAttended": 295,
-                "commissionInterventions": 151,
-                "hemicycleInterventions": 52,
-                "hemicycleShortInterventions": 7,
-                "questionsWritten": 32,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         },
         {
             "firstname": "Ersilia",
             "lastname": "Soudais",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 7
         }
     ]
 }

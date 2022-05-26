@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 79551,
             "voted": 63633,
-            "whites": 633,
-            "expressed": 62820,
-            "void": 180,
+            "whites": 635,
+            "expressed": 62821,
+            "void": 177,
             "candidates": {
                 "Nathalie Arthaud": 145,
                 "Fabien Roussel": 1192,
                 "Emmanuel Macron": 22884,
                 "Jean Lasalle": 644,
                 "Marine Le Pen": 2739,
-                "Jean-Luc Mélenchon": 19658,
+                "Jean-Luc Mélenchon": 19659,
                 "Anne Hidalgo": 1795,
                 "Yannick Jadot": 6193,
                 "Valérie Pécresse": 2911,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 490,
                 "Eric Zemmour": 3776
             }
+        },
+        "secondRound": {
+            "registered": 79577,
+            "voted": 61181,
+            "whites": 2603,
+            "expressed": 57779,
+            "void": 799,
+            "candidates": {
+                "Emmanuel Macron": 51284,
+                "Marine Le Pen": 6495
+            }
         }
+    },
+    "current": {
+        "id": "721616",
+        "lastname": "Rupin",
+        "firstname": "Pacôme",
+        "slug": "pacome-rupin",
+        "gender": "H",
+        "birthday": "1985-01-25",
+        "birthplace": "Chambray-lès-Tours (Indre-et-Loire)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Entrepreneur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 173,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 61,
+            "amendments": 264,
+            "amendmentsSupported": 2103,
+            "amendmentsAdopted": 1218,
+            "commissionsAttended": 247,
+            "commissionInterventions": 237,
+            "hemicycleInterventions": 278,
+            "hemicycleShortInterventions": 466,
+            "questionsWritten": 5,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Clément",
             "lastname": "Beaune",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Anne",
             "lastname": "Daguenel Nguyen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Constance",
             "lastname": "Delétang",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Caroline",
             "lastname": "Mécary",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Thomas",
             "lastname": "Moulins",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Aurélia",
             "lastname": "Petit",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         },
         {
             "firstname": "Aurélien",
             "lastname": "Véron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 7
         }
     ]
 }

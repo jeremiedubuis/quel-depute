@@ -6,8 +6,8 @@
         "firstRound": {
             "registered": 93612,
             "voted": 72316,
-            "whites": 1272,
-            "expressed": 70610,
+            "whites": 1271,
+            "expressed": 70611,
             "void": 434,
             "candidates": {
                 "Nathalie Arthaud": 520,
@@ -17,82 +17,121 @@
                 "Marine Le Pen": 11853,
                 "Jean-Luc Mélenchon": 15326,
                 "Anne Hidalgo": 1566,
-                "Yannick Jadot": 4857,
+                "Yannick Jadot": 4858,
                 "Valérie Pécresse": 3293,
                 "Phillipe Poutou": 591,
                 "Nicolas Dupont-Aignan": 1425,
                 "Eric Zemmour": 3327
             }
+        },
+        "secondRound": {
+            "registered": 93668,
+            "voted": 71162,
+            "whites": 4904,
+            "expressed": 64574,
+            "void": 1684,
+            "candidates": {
+                "Emmanuel Macron": 45695,
+                "Marine Le Pen": 18879
+            }
         }
+    },
+    "current": {
+        "id": "643175",
+        "lastname": "Dupont",
+        "firstname": "Stella",
+        "slug": "stella-dupont",
+        "gender": "F",
+        "birthday": "1973-11-03",
+        "birthplace": "Angers (Maine-et-Loire)",
+        "county": "Maine-et-Loire",
+        "countyId": 49,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Comptable",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 16,
+            "proposals": 0,
+            "proposalsSupported": 83,
+            "amendments": 291,
+            "amendmentsSupported": 3428,
+            "amendmentsAdopted": 1235,
+            "commissionsAttended": 389,
+            "commissionInterventions": 278,
+            "hemicycleInterventions": 425,
+            "hemicycleShortInterventions": 207,
+            "questionsWritten": 50,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Caroline",
             "lastname": "Bessat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 2
         },
         {
-            "id": "643175",
-            "lastname": "Dupont",
             "firstname": "Stella",
-            "slug": "stella-dupont",
+            "lastname": "Dupont",
             "gender": "F",
-            "birthday": "1973-11-03",
-            "birthplace": "Angers (Maine-et-Loire)",
-            "county": "Maine-et-Loire",
-            "countyId": "49",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Comptable",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 16,
-                "proposals": 0,
-                "proposalsSupported": 83,
-                "amendments": 291,
-                "amendmentsSupported": 3428,
-                "amendmentsAdopted": 1235,
-                "commissionsAttended": 389,
-                "commissionInterventions": 278,
-                "hemicycleInterventions": 425,
-                "hemicycleShortInterventions": 207,
-                "questionsWritten": 50,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Maxence",
             "lastname": "Henry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Anne-Sophie",
             "lastname": "Le Menac'H",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Philippe",
             "lastname": "Lebrun",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 2
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 100145,
             "voted": 78341,
-            "whites": 1444,
+            "whites": 1448,
             "expressed": 76527,
-            "void": 370,
+            "void": 366,
             "candidates": {
                 "Nathalie Arthaud": 461,
                 "Fabien Roussel": 1673,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1852,
                 "Eric Zemmour": 4997
             }
+        },
+        "secondRound": {
+            "registered": 100151,
+            "voted": 75200,
+            "whites": 5572,
+            "expressed": 68359,
+            "void": 1269,
+            "candidates": {
+                "Emmanuel Macron": 40961,
+                "Marine Le Pen": 27398
+            }
         }
+    },
+    "current": {
+        "id": "719874",
+        "lastname": "Jacquier-Laforge",
+        "firstname": "Élodie",
+        "slug": "elodie-jacquierlaforge",
+        "gender": "F",
+        "birthday": "1978-04-15",
+        "birthplace": "Grenoble (Isère)",
+        "county": "Isère",
+        "countyId": 38,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 13,
+            "proposals": 2,
+            "proposalsSupported": 55,
+            "amendments": 426,
+            "amendmentsSupported": 4202,
+            "amendmentsAdopted": 1145,
+            "commissionsAttended": 257,
+            "commissionInterventions": 392,
+            "hemicycleInterventions": 313,
+            "hemicycleShortInterventions": 98,
+            "questionsWritten": 120,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cécile",
             "lastname": "Bene",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 9
         },
         {
             "firstname": "Claude",
             "lastname": "Detroyat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 9
         },
         {
-            "id": "719874",
+            "firstname": "Elodie",
             "lastname": "Jacquier-Laforge",
-            "firstname": "Élodie",
-            "slug": "elodie-jacquierlaforge",
             "gender": "F",
-            "birthday": "1978-04-15",
-            "birthplace": "Grenoble (Isère)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 38,
             "county": "Isère",
-            "countyId": "38",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 168,
-                "reports": 13,
-                "proposals": 2,
-                "proposalsSupported": 55,
-                "amendments": 426,
-                "amendmentsSupported": 4202,
-                "amendmentsAdopted": 1145,
-                "commissionsAttended": 257,
-                "commissionInterventions": 392,
-                "hemicycleInterventions": 313,
-                "hemicycleShortInterventions": 98,
-                "questionsWritten": 120,
-                "questionsOral": 17
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         },
         {
             "firstname": "Sandrine",
             "lastname": "Nosbe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 9
         },
         {
             "firstname": "Guillaume",
             "lastname": "Roure",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 9
         },
         {
             "firstname": "Anaëlle",
             "lastname": "Taddei",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 9
         }
     ]
 }

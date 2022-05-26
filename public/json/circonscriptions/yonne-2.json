@@ -4,17 +4,17 @@
     "name": "Yonne",
     "results": {
         "firstRound": {
-            "registered": 73407,
+            "registered": 73405,
             "voted": 55898,
-            "whites": 841,
-            "expressed": 54642,
-            "void": 415,
+            "whites": 854,
+            "expressed": 54645,
+            "void": 399,
             "candidates": {
                 "Nathalie Arthaud": 410,
                 "Fabien Roussel": 1355,
-                "Emmanuel Macron": 13211,
+                "Emmanuel Macron": 13212,
                 "Jean Lasalle": 1844,
-                "Marine Le Pen": 17552,
+                "Marine Le Pen": 17554,
                 "Jean-Luc Mélenchon": 9356,
                 "Anne Hidalgo": 718,
                 "Yannick Jadot": 1603,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1480,
                 "Eric Zemmour": 3769
             }
+        },
+        "secondRound": {
+            "registered": 73396,
+            "voted": 55089,
+            "whites": 3456,
+            "expressed": 50316,
+            "void": 1317,
+            "candidates": {
+                "Emmanuel Macron": 23986,
+                "Marine Le Pen": 26330
+            }
         }
+    },
+    "current": {
+        "id": "421348",
+        "lastname": "Villiers",
+        "firstname": "André",
+        "slug": "andre-villiers",
+        "gender": "H",
+        "birthday": "1954-12-13",
+        "birthplace": "Avallon (Yonne)",
+        "county": "Yonne",
+        "countyId": 89,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Agriculteur-propriétaire exploitant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 0,
+            "proposals": 1,
+            "proposalsSupported": 32,
+            "amendments": 11,
+            "amendmentsSupported": 5712,
+            "amendmentsAdopted": 252,
+            "commissionsAttended": 160,
+            "commissionInterventions": 101,
+            "hemicycleInterventions": 46,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 87,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anita",
             "lastname": "Carrasco",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 2
         },
         {
             "firstname": "Audrey",
             "lastname": "Lopez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 2
         },
         {
             "firstname": "Patrice",
             "lastname": "Pressard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 2
         },
         {
             "firstname": "Philippe",
             "lastname": "Veyssiere",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 2
         },
         {
-            "id": "421348",
-            "lastname": "Villiers",
             "firstname": "André",
-            "slug": "andre-villiers",
+            "lastname": "Villiers",
             "gender": "H",
-            "birthday": "1954-12-13",
-            "birthplace": "Avallon (Yonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 89,
             "county": "Yonne",
-            "countyId": "89",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "UDI",
-            "job": "Agriculteur-propriétaire exploitant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 0,
-                "proposals": 1,
-                "proposalsSupported": 32,
-                "amendments": 11,
-                "amendmentsSupported": 5712,
-                "amendmentsAdopted": 252,
-                "commissionsAttended": 160,
-                "commissionInterventions": 101,
-                "hemicycleInterventions": 46,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 87,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         }
     ]
 }

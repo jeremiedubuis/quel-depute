@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1105,
                 "Eric Zemmour": 2969
             }
+        },
+        "secondRound": {
+            "registered": 92962,
+            "voted": 69077,
+            "whites": 5274,
+            "expressed": 62135,
+            "void": 1668,
+            "candidates": {
+                "Emmanuel Macron": 46430,
+                "Marine Le Pen": 15705
+            }
         }
+    },
+    "current": {
+        "id": "720124",
+        "lastname": "Amadou",
+        "firstname": "Aude",
+        "slug": "aude-amadou",
+        "gender": "F",
+        "birthday": "1980-02-29",
+        "birthplace": "Coutances (Manche)",
+        "county": "Loire-Atlantique",
+        "countyId": 44,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ex-sportive de haut niveau",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 60,
+            "amendments": 99,
+            "amendmentsSupported": 1846,
+            "amendmentsAdopted": 979,
+            "commissionsAttended": 156,
+            "commissionInterventions": 88,
+            "hemicycleInterventions": 104,
+            "hemicycleShortInterventions": 43,
+            "questionsWritten": 9,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720124",
-            "lastname": "Amadou",
             "firstname": "Aude",
-            "slug": "aude-amadou",
+            "lastname": "Amadou",
             "gender": "F",
-            "birthday": "1980-02-29",
-            "birthplace": "Coutances (Manche)",
-            "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ex-sportive de haut niveau",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 151,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 60,
-                "amendments": 99,
-                "amendmentsSupported": 1846,
-                "amendmentsAdopted": 979,
-                "commissionsAttended": 156,
-                "commissionInterventions": 88,
-                "hemicycleInterventions": 104,
-                "hemicycleShortInterventions": 43,
-                "questionsWritten": 9,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Alexandre",
             "lastname": "Basque",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Julie",
             "lastname": "Laernoes",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Frédéric",
             "lastname": "Mesguich",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Sophie",
             "lastname": "Pavageau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Stéphane",
             "lastname": "Pellegrini",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         },
         {
             "firstname": "Gaëlle",
             "lastname": "Pineau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 4
         }
     ]
 }

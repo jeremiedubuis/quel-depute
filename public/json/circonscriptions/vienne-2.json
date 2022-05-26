@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1129,
                 "Eric Zemmour": 3286
             }
+        },
+        "secondRound": {
+            "registered": 79070,
+            "voted": 59809,
+            "whites": 4303,
+            "expressed": 54059,
+            "void": 1447,
+            "candidates": {
+                "Emmanuel Macron": 37602,
+                "Marine Le Pen": 16457
+            }
         }
+    },
+    "current": {
+        "id": "722150",
+        "lastname": "Houlié",
+        "firstname": "Sacha",
+        "slug": "sacha-houlie",
+        "gender": "H",
+        "birthday": "1988-10-08",
+        "birthplace": "Bressuire (Deux-Sèvres)",
+        "county": "Vienne",
+        "countyId": 86,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 8,
+            "proposals": 4,
+            "proposalsSupported": 74,
+            "amendments": 382,
+            "amendmentsSupported": 2213,
+            "amendmentsAdopted": 1250,
+            "commissionsAttended": 356,
+            "commissionInterventions": 459,
+            "hemicycleInterventions": 953,
+            "hemicycleShortInterventions": 3171,
+            "questionsWritten": 62,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Agnès",
             "lastname": "Chauvin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
-            "id": "722150",
-            "lastname": "Houlié",
             "firstname": "Sacha",
-            "slug": "sacha-houlie",
+            "lastname": "Houlié",
             "gender": "H",
-            "birthday": "1988-10-08",
-            "birthplace": "Bressuire (Deux-Sèvres)",
-            "county": "Vienne",
-            "countyId": "86",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 8,
-                "proposals": 4,
-                "proposalsSupported": 74,
-                "amendments": 382,
-                "amendmentsSupported": 2213,
-                "amendmentsAdopted": 1250,
-                "commissionsAttended": 356,
-                "commissionInterventions": 459,
-                "hemicycleInterventions": 953,
-                "hemicycleShortInterventions": 3171,
-                "questionsWritten": 62,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
             "firstname": "Anthony",
             "lastname": "Lhermitte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
             "firstname": "Carridy",
             "lastname": "Mayenga",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
             "firstname": "Céline",
             "lastname": "Philippe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
             "firstname": "Marie-Dolorès",
             "lastname": "Prost",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         },
         {
             "firstname": "Valérie",
             "lastname": "Soumaille",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 2
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 75834,
             "voted": 58763,
-            "whites": 1083,
+            "whites": 1082,
             "expressed": 57302,
-            "void": 378,
+            "void": 379,
             "candidates": {
                 "Nathalie Arthaud": 403,
                 "Fabien Roussel": 1105,
@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 1248,
                 "Eric Zemmour": 3681
             }
+        },
+        "secondRound": {
+            "registered": 75860,
+            "voted": 55616,
+            "whites": 4007,
+            "expressed": 50384,
+            "void": 1225,
+            "candidates": {
+                "Emmanuel Macron": 31757,
+                "Marine Le Pen": 18627
+            }
         }
+    },
+    "current": {
+        "id": "719170",
+        "lastname": "Charvier",
+        "firstname": "Fannette",
+        "slug": "fannette-charvier",
+        "gender": "F",
+        "birthday": "1984-12-31",
+        "birthplace": "Annecy (Haute-Savoie)",
+        "county": "Doubs",
+        "countyId": 25,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employée (autres entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 148,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 135,
+            "amendmentsSupported": 2328,
+            "amendmentsAdopted": 1084,
+            "commissionsAttended": 203,
+            "commissionInterventions": 199,
+            "hemicycleInterventions": 126,
+            "hemicycleShortInterventions": 48,
+            "questionsWritten": 33,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Croizier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Nicole",
             "lastname": "Friess",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Fabrice",
             "lastname": "Galpin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Thomas",
             "lastname": "Lutz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Candice",
             "lastname": "Mallol",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Pauline",
             "lastname": "Tournier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Séverine",
             "lastname": "Vezies",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         },
         {
             "firstname": "Michel",
             "lastname": "Vienet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 1
         }
     ]
 }

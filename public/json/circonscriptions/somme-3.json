@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1305,
                 "Eric Zemmour": 3544
             }
+        },
+        "secondRound": {
+            "registered": 82565,
+            "voted": 65309,
+            "whites": 3560,
+            "expressed": 60123,
+            "void": 1626,
+            "candidates": {
+                "Emmanuel Macron": 26056,
+                "Marine Le Pen": 34067
+            }
         }
+    },
+    "current": {
+        "id": "346054",
+        "lastname": "Maquet",
+        "firstname": "Emmanuel",
+        "slug": "emmanuel-maquet",
+        "gender": "H",
+        "birthday": "1968-06-02",
+        "birthplace": "Dieppe (Seine-Maritime)",
+        "county": "Somme",
+        "countyId": 80,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agent général d'assurances",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 0,
+            "proposals": 10,
+            "proposalsSupported": 253,
+            "amendments": 645,
+            "amendmentsSupported": 7901,
+            "amendmentsAdopted": 212,
+            "commissionsAttended": 249,
+            "commissionInterventions": 212,
+            "hemicycleInterventions": 144,
+            "hemicycleShortInterventions": 25,
+            "questionsWritten": 80,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Albane",
             "lastname": "Branlant",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         },
         {
             "firstname": "Frédéric",
             "lastname": "Devaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         },
         {
             "firstname": "Nicolas",
             "lastname": "Lottin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Maquet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         },
         {
             "firstname": "Arnaud",
             "lastname": "Petit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         },
         {
             "firstname": "Michel",
             "lastname": "Valet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 80,
+            "county": "Somme",
+            "circumscription": 3
         }
     ]
 }

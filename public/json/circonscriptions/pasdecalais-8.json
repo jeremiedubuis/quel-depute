@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1320,
                 "Eric Zemmour": 3193
             }
+        },
+        "secondRound": {
+            "registered": 92057,
+            "voted": 69746,
+            "whites": 3261,
+            "expressed": 64586,
+            "void": 1899,
+            "candidates": {
+                "Emmanuel Macron": 27909,
+                "Marine Le Pen": 36677
+            }
         }
+    },
+    "current": {
+        "id": "720590",
+        "lastname": "Potterie",
+        "firstname": "Benoit",
+        "slug": "benoit-potterie",
+        "gender": "H",
+        "birthday": "1967-07-23",
+        "birthplace": "Calais (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "AE",
+        "job": "Opticien audioprothésiste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 174,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 95,
+            "amendments": 284,
+            "amendmentsSupported": 2446,
+            "amendmentsAdopted": 798,
+            "commissionsAttended": 266,
+            "commissionInterventions": 103,
+            "hemicycleInterventions": 108,
+            "hemicycleShortInterventions": 32,
+            "questionsWritten": 71,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Auguste",
             "lastname": "Evrard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 8
         },
         {
-            "id": "720590",
-            "lastname": "Potterie",
             "firstname": "Benoit",
-            "slug": "benoit-potterie",
+            "lastname": "Potterie",
             "gender": "H",
-            "birthday": "1967-07-23",
-            "birthplace": "Calais (Pas-de-Calais)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "AE",
-            "job": "Opticien audioprothésiste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 174,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 95,
-                "amendments": 284,
-                "amendmentsSupported": 2446,
-                "amendmentsAdopted": 798,
-                "commissionsAttended": 266,
-                "commissionInterventions": 103,
-                "hemicycleInterventions": 108,
-                "hemicycleShortInterventions": 32,
-                "questionsWritten": 71,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Simon",
             "lastname": "Roussel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 8
         },
         {
             "firstname": "Jonathan",
             "lastname": "Truant",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 8
         },
         {
             "firstname": "Laura",
             "lastname": "Vandomme",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 8
         },
         {
             "firstname": "Etienne",
             "lastname": "Zannis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 8
         }
     ]
 }

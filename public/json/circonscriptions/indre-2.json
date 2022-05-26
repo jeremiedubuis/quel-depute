@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 88374,
             "voted": 67930,
-            "whites": 1371,
-            "expressed": 65849,
-            "void": 710,
+            "whites": 1388,
+            "expressed": 65854,
+            "void": 688,
             "candidates": {
                 "Nathalie Arthaud": 629,
                 "Fabien Roussel": 2004,
-                "Emmanuel Macron": 16621,
-                "Jean Lasalle": 2901,
+                "Emmanuel Macron": 16622,
+                "Jean Lasalle": 2902,
                 "Marine Le Pen": 19575,
-                "Jean-Luc Mélenchon": 10785,
-                "Anne Hidalgo": 1398,
+                "Jean-Luc Mélenchon": 10786,
+                "Anne Hidalgo": 1399,
                 "Yannick Jadot": 1918,
-                "Valérie Pécresse": 3720,
+                "Valérie Pécresse": 3721,
                 "Phillipe Poutou": 680,
                 "Nicolas Dupont-Aignan": 1702,
                 "Eric Zemmour": 3916
             }
+        },
+        "secondRound": {
+            "registered": 88418,
+            "voted": 68088,
+            "whites": 4961,
+            "expressed": 60796,
+            "void": 2331,
+            "candidates": {
+                "Emmanuel Macron": 30016,
+                "Marine Le Pen": 30780
+            }
         }
+    },
+    "current": {
+        "id": "1327",
+        "lastname": "Forissier",
+        "firstname": "Nicolas",
+        "slug": "nicolas-forissier",
+        "gender": "H",
+        "birthday": "1961-02-17",
+        "birthplace": "Paris (Paris)",
+        "county": "Indre",
+        "countyId": 36,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 138,
+            "reports": 8,
+            "proposals": 16,
+            "proposalsSupported": 451,
+            "amendments": 515,
+            "amendmentsSupported": 7105,
+            "amendmentsAdopted": 201,
+            "commissionsAttended": 163,
+            "commissionInterventions": 132,
+            "hemicycleInterventions": 185,
+            "hemicycleShortInterventions": 334,
+            "questionsWritten": 173,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Roland",
             "lastname": "Cash",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         },
         {
             "firstname": "Aymeric",
             "lastname": "Compain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         },
         {
-            "id": "1327",
-            "lastname": "Forissier",
             "firstname": "Nicolas",
-            "slug": "nicolas-forissier",
+            "lastname": "Forissier",
             "gender": "H",
-            "birthday": "1961-02-17",
-            "birthplace": "Paris (Paris)",
-            "county": "Indre",
-            "countyId": "36",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 138,
-                "reports": 8,
-                "proposals": 16,
-                "proposalsSupported": 451,
-                "amendments": 515,
-                "amendmentsSupported": 7105,
-                "amendmentsAdopted": 201,
-                "commissionsAttended": 163,
-                "commissionInterventions": 132,
-                "hemicycleInterventions": 185,
-                "hemicycleShortInterventions": 334,
-                "questionsWritten": 173,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         },
         {
             "firstname": "Sophie",
             "lastname": "Guérin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         },
         {
             "firstname": "Damien",
             "lastname": "Mercier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         },
         {
             "firstname": "Fabien",
             "lastname": "Thirion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 36,
+            "county": "Indre",
+            "circumscription": 2
         }
     ]
 }

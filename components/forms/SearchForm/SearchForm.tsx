@@ -3,27 +3,30 @@ import React, { SyntheticEvent, useState } from 'react';
 import { AutoComplete } from '$components/forms/AutoComplete/AutoComplete';
 import { Button } from '$components/buttons/Button/Button';
 import { FiMapPin } from 'react-icons/fi';
-import { slugify } from '$helpers/slugify';
+import { slugify, slugifyNames } from '$helpers/slugify';
 import debounce from 'lodash/debounce';
-import { BaseDepute } from '$types/deputeTypes';
-import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
 import { useRecoilValue } from 'recoil';
 import { deputesListState } from '../../../atoms/deputesListState';
+import { useRouter } from 'next/router';
+import { ModalCityCircumscriptions } from '$components/modals/ModalCityCircumscriptions';
+import {cn} from "$helpers/cn";
 
-export const SearchForm: React.FC = () => {
+export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
+
     const deputes = useRecoilValue(deputesListState);
     const [cities, setCities] = useState([]);
-    const [cityValue, setCityValue] = useState<string>('');
-    const [nameValue, setNameValue] = useState<string>('');
     const [deputeMatches, setDeputeMatches] = useState([]);
-    const [results, setResults] = useState<{ results: BaseDepute[]; key: string }>();
+    const { push } = useRouter();
 
-    const setResultsFromCountyAndvillage = async (county: string, village: string) => {
-        const villages = await fetch(`/json/villages/${slugify(county)}.json`).then((r) =>
-            r.json()
-        );
+    const [villageCircumscriptions, setVillageCircumscriptions] = useState<
+        { countyId: number; countyName: string; circumscriptionNumber: number }[] | null
+    >(null);
 
-        const villageCircumscriptions = villages
+    const selectVillage = async (county: string, village: string) => {
+        const countySlug = slugify(county);
+        const villages = await fetch(`/json/villages/${countySlug}.json`).then((r) => r.json());
+
+        const circumscriptions = villages
             .filter(({ villageName }) => villageName === village)
             .reduce((acc, curr) => {
                 if (acc.find((v) => v.circumscriptionNumber === curr.circumscriptionNumber))
@@ -31,17 +34,13 @@ export const SearchForm: React.FC = () => {
                 acc.push(curr);
                 return acc;
             }, []);
-
-        setResults({
-            key: village,
-            results: deputes.filter(
-                (d) =>
-                    d.county === county &&
-                    villageCircumscriptions.find(
-                        ({ circumscriptionNumber }) => d.circumscription === circumscriptionNumber
-                    )
-            )
-        });
+        if (circumscriptions.length === 1)
+            push(
+                `/circonscriptions/${slugify(
+                    `${countySlug} ${circumscriptions[0].circumscriptionNumber}`
+                )}`
+            );
+        else setVillageCircumscriptions(circumscriptions);
     };
 
     const getCity = () => {
@@ -57,8 +56,7 @@ export const SearchForm: React.FC = () => {
                     const village = r.localityInfo.administrative.find(
                         ({ adminLevel }) => adminLevel === 8
                     ).name;
-
-                    setResultsFromCountyAndvillage(county, village);
+                    return selectVillage(county, village);
                 });
         });
     };
@@ -98,29 +96,42 @@ export const SearchForm: React.FC = () => {
 
     return (
         <>
-            <form className={styles.form}>
+            <form className={cn(styles.form, small && styles.small)}>
                 <fieldset>
-                    <legend>
+                    {!small && <legend>
                         Quel député lorem ipsum ?<br />
                         Dolor sit amet, consectetuer
-                    </legend>
+                    </legend>}
 
                     <AutoComplete
                         className={styles.field}
                         onInput={onNameInput}
-                        list={deputeMatches.map(
-                            ({ firstname, lastname }) => `${firstname} ${lastname}`
-                        )}
+                        list={deputeMatches}
+                        renderValue={({ firstname, lastname }) => `${firstname} ${lastname}`}
+                        renderResult={({
+                            firstname,
+                            lastname,
+                            current,
+                            candidate,
+                            county,
+                            circumscription
+                        }) =>
+                            `${firstname} ${lastname} ${
+                                candidate
+                                    ? `Candidat${
+                                          current ? ' et député sortant' : ''
+                                      } de la criconscription ${county} (${circumscription})`
+                                    : current
+                                    ? `Député sortant de la circonscription ${county} (${circumscription})`
+                                    : ''
+                            }`
+                        }
                         onListClick={(e, value) => {
-                            const [firstname, lastname] = value.split(' ');
-                            setResults({
-                                key: value,
-                                results: [
-                                    deputes.find(
-                                        (d) => d.firstname === firstname && d.lastname === lastname
-                                    )
-                                ]
-                            });
+                            push(
+                                `/circonscriptions/${slugify(
+                                    `${value.county} ${value.circumscription}`
+                                )}`
+                            );
                         }}
                         id="form-name"
                         label="Nom"
@@ -131,37 +142,31 @@ export const SearchForm: React.FC = () => {
                         onInput={onCityInput}
                         id="form-commune"
                         label="Commune"
-                        onListClick={(e, v) => {
-                            const city = v.replace(/ \(\d+\)/, '');
-                            const countyCode = v.match(/\((\d+)\)/)[1];
-                            const { nom, departement } = cities.find(
-                                (c) => c.nom === city && c.departement.code === countyCode
-                            );
-                            setResultsFromCountyAndvillage(departement.nom, nom);
-                        }}
-                        list={cities.map(({ nom, departement }) => `${nom} (${departement?.code})`)}
+                        renderResult={(city) => `${city.nom} (${city.departement.code})`}
+                        renderValue={({ nom }) => nom}
+                        list={cities}
+                        onListClick={(e, city) => selectVillage(city.departement.nom, city.nom)}
                     />
                     <Button icon={FiMapPin} onClick={() => getCity()} type="button">
                         Gélocalisez moi !
                     </Button>
                 </fieldset>
             </form>
-
-            {results && (
-                <>
-                    <h2>Résulat de recherche: {results.key}</h2>
-                    <ul className={styles.results}>
-                        {results.results.map((r) => (
-                            <li key={r.id}>
-                                <DeputeBlock
-                                    isLink
-                                    depute={r}
-                                    onClick={() => setResults(undefined)}
-                                />
-                            </li>
-                        ))}
-                    </ul>
-                </>
+            {villageCircumscriptions && (
+                <ModalCityCircumscriptions
+                    close={() => setVillageCircumscriptions(null)}
+                    circumscriptions={villageCircumscriptions}
+                    deputes={deputes.filter(
+                        (d) =>
+                            d.current &&
+                            villageCircumscriptions.find(
+                                (v) =>
+                                    v.countyId === d.countyId &&
+                                    v.circumscriptionNumber === d.circumscription
+                            )
+                    )}
+                    isVisible={true}
+                />
             )}
         </>
     );

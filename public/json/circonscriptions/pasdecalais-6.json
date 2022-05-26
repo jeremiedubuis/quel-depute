@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1585,
                 "Eric Zemmour": 3935
             }
+        },
+        "secondRound": {
+            "registered": 93562,
+            "voted": 75227,
+            "whites": 3409,
+            "expressed": 69885,
+            "void": 1933,
+            "candidates": {
+                "Emmanuel Macron": 29554,
+                "Marine Le Pen": 40331
+            }
         }
+    },
+    "current": {
+        "id": "608083",
+        "lastname": "Bourguignon",
+        "firstname": "Brigitte",
+        "slug": "brigitte-bourguignon",
+        "gender": "F",
+        "birthday": "1959-03-21",
+        "birthplace": "Boulogne-sur-Mer (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 6,
+        "mandateStart": "2021-06-07",
+        "group": "Non rattaché",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 127,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 43,
+            "amendments": 19,
+            "amendmentsSupported": 1075,
+            "amendmentsAdopted": 645,
+            "commissionsAttended": 382,
+            "commissionInterventions": 1117,
+            "hemicycleInterventions": 172,
+            "hemicycleShortInterventions": 504,
+            "questionsWritten": 3,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Vanessa",
             "lastname": "Bourel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         },
         {
             "firstname": "Laure",
             "lastname": "Bourel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         },
         {
-            "id": "608083",
-            "lastname": "Bourguignon",
             "firstname": "Brigitte",
-            "slug": "brigitte-bourguignon",
+            "lastname": "Bourguignon",
             "gender": "F",
-            "birthday": "1959-03-21",
-            "birthplace": "Boulogne-sur-Mer (Pas-de-Calais)",
-            "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 6,
-            "mandateStart": "2021-06-07",
-            "group": "Non rattaché",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 127,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 43,
-                "amendments": 19,
-                "amendmentsSupported": 1075,
-                "amendmentsAdopted": 645,
-                "commissionsAttended": 382,
-                "commissionInterventions": 1117,
-                "hemicycleInterventions": 172,
-                "hemicycleShortInterventions": 504,
-                "questionsWritten": 3,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         },
         {
             "firstname": "Christine",
             "lastname": "Deloison",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         },
         {
             "firstname": "Pascal",
             "lastname": "Lebecq",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         },
         {
             "firstname": "Faustine",
             "lastname": "Maliar",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 6
         }
     ]
 }

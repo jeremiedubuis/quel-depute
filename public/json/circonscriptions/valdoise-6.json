@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 833,
                 "Eric Zemmour": 4289
             }
+        },
+        "secondRound": {
+            "registered": 75030,
+            "voted": 51032,
+            "whites": 3260,
+            "expressed": 46980,
+            "void": 792,
+            "candidates": {
+                "Emmanuel Macron": 33943,
+                "Marine Le Pen": 13037
+            }
         }
+    },
+    "current": {
+        "id": "720928",
+        "lastname": "Corceiro",
+        "firstname": "David",
+        "slug": "david-corceiro",
+        "gender": "H",
+        "birthday": "1977-08-03",
+        "birthplace": "Saint-Denis (Seine-Saint-Denis)",
+        "county": "Val-d'Oise",
+        "countyId": 95,
+        "circumscription": 6,
+        "mandateStart": "2020-08-27",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Responsable commercial (santé dentaire)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 60,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 41,
+            "amendments": 18,
+            "amendmentsSupported": 1444,
+            "amendmentsAdopted": 359,
+            "commissionsAttended": 59,
+            "commissionInterventions": 48,
+            "hemicycleInterventions": 44,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 15,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Annika",
             "lastname": "Bruna",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Gabrielle",
             "lastname": "Cathala",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Philippe",
             "lastname": "Demarquez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         },
         {
-            "id": "720924",
-            "lastname": "Elimas",
             "firstname": "Nathalie",
-            "slug": "nathalie-elimas",
+            "lastname": "Élimas",
             "gender": "F",
-            "birthday": "1973-06-05",
-            "birthplace": "Beauvais (Oise)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 95,
             "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 6,
-            "mandateStart": "2022-04-06",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Enseignante 1er degré",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 122,
-                "reports": 6,
-                "proposals": 1,
-                "proposalsSupported": 27,
-                "amendments": 323,
-                "amendmentsSupported": 2276,
-                "amendmentsAdopted": 478,
-                "commissionsAttended": 243,
-                "commissionInterventions": 318,
-                "hemicycleInterventions": 344,
-                "hemicycleShortInterventions": 152,
-                "questionsWritten": 25,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Nicolas",
             "lastname": "Flament",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Estelle",
             "lastname": "Folest",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Agnès",
             "lastname": "Reinmann",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 6
         }
     ]
 }

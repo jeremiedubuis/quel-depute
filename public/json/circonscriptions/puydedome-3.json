@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 89550,
             "voted": 71043,
-            "whites": 1158,
-            "expressed": 69419,
-            "void": 466,
+            "whites": 1206,
+            "expressed": 69422,
+            "void": 415,
             "candidates": {
                 "Nathalie Arthaud": 380,
                 "Fabien Roussel": 1915,
-                "Emmanuel Macron": 22205,
+                "Emmanuel Macron": 22208,
                 "Jean Lasalle": 3150,
                 "Marine Le Pen": 11243,
                 "Jean-Luc Mélenchon": 14116,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1182,
                 "Eric Zemmour": 4310
             }
+        },
+        "secondRound": {
+            "registered": 89541,
+            "voted": 67895,
+            "whites": 5275,
+            "expressed": 60744,
+            "void": 1876,
+            "candidates": {
+                "Emmanuel Macron": 41499,
+                "Marine Le Pen": 19245
+            }
         }
+    },
+    "current": {
+        "id": "720704",
+        "lastname": "Vichnievsky",
+        "firstname": "Laurence",
+        "slug": "laurence-vichnievsky",
+        "gender": "F",
+        "birthday": "1955-02-05",
+        "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+        "county": "Puy-de-Dôme",
+        "countyId": 63,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Magistrat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 6,
+            "proposals": 2,
+            "proposalsSupported": 54,
+            "amendments": 301,
+            "amendmentsSupported": 3568,
+            "amendmentsAdopted": 763,
+            "commissionsAttended": 263,
+            "commissionInterventions": 489,
+            "hemicycleInterventions": 495,
+            "hemicycleShortInterventions": 65,
+            "questionsWritten": 3,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Françoise",
             "lastname": "Batisson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 3
         },
         {
             "firstname": "Nicolas",
             "lastname": "Bonnet",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Anne",
             "lastname": "Marchis",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 3
         },
         {
             "firstname": "Cédric",
             "lastname": "Othily",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 3
         },
         {
             "firstname": "Marie",
             "lastname": "Savre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 63,
+            "county": "Puy-de-Dôme",
+            "circumscription": 3
         },
         {
-            "id": "720704",
-            "lastname": "Vichnievsky",
             "firstname": "Laurence",
-            "slug": "laurence-vichnievsky",
+            "lastname": "Vichnievsky",
             "gender": "F",
-            "birthday": "1955-02-05",
-            "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 63,
             "county": "Puy-de-Dôme",
-            "countyId": "63",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Magistrat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 151,
-                "reports": 6,
-                "proposals": 2,
-                "proposalsSupported": 54,
-                "amendments": 301,
-                "amendmentsSupported": 3568,
-                "amendmentsAdopted": 763,
-                "commissionsAttended": 263,
-                "commissionInterventions": 489,
-                "hemicycleInterventions": 495,
-                "hemicycleShortInterventions": 65,
-                "questionsWritten": 3,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         }
     ]
 }

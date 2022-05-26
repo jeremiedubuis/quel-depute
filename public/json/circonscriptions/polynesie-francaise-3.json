@@ -1,7 +1,7 @@
 {
-    "countyId": "ZP",
+    "countyId": 987,
     "number": 3,
-    "name": "Polynésie Française",
+    "name": "Polynésie française",
     "results": {
         "firstRound": {
             "registered": 66609,
@@ -23,7 +23,67 @@
                 "Nicolas Dupont-Aignan": 651,
                 "Eric Zemmour": 1650
             }
+        },
+        "secondRound": {
+            "registered": 66632,
+            "voted": 26674,
+            "whites": 858,
+            "expressed": 25292,
+            "void": 524,
+            "candidates": {
+                "Emmanuel Macron": 12273,
+                "Marine Le Pen": 13019
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "721118",
+        "lastname": "Brotherson",
+        "firstname": "Moetai",
+        "slug": "moetai-brotherson",
+        "gender": "H",
+        "birthday": "1969-10-22",
+        "birthplace": "Papeete (Polynésie Française)",
+        "county": "Polynésie Française",
+        "countyId": 987,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Tavini Huiraatira No Te Ao Ma'ohi - Front de libération de Polynésie",
+        "groupShort": "GDR",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 73,
+            "reports": 3,
+            "proposals": 5,
+            "proposalsSupported": 174,
+            "amendments": 887,
+            "amendmentsSupported": 9389,
+            "amendmentsAdopted": 307,
+            "commissionsAttended": 86,
+            "commissionInterventions": 73,
+            "hemicycleInterventions": 140,
+            "hemicycleShortInterventions": 36,
+            "questionsWritten": 0,
+            "questionsOral": 21
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Tuterai",
+            "lastname": "Tumahai",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 987,
+            "county": "Polynésie française",
+            "circumscription": 3
+        }
+    ]
 }

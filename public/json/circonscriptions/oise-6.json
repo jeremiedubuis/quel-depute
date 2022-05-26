@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1335,
                 "Eric Zemmour": 4180
             }
+        },
+        "secondRound": {
+            "registered": 75644,
+            "voted": 57205,
+            "whites": 3286,
+            "expressed": 52871,
+            "void": 1048,
+            "candidates": {
+                "Emmanuel Macron": 24786,
+                "Marine Le Pen": 28085
+            }
         }
+    },
+    "current": {
+        "id": "720622",
+        "lastname": "Bureau-Bonnard",
+        "firstname": "Carole",
+        "slug": "carole-bureaubonnard",
+        "gender": "F",
+        "birthday": "1965-08-09",
+        "birthplace": "La Fère (Aisne)",
+        "county": "Oise",
+        "countyId": 60,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Masseur-kinésithérapeute",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 172,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 97,
+            "amendments": 145,
+            "amendmentsSupported": 5072,
+            "amendmentsAdopted": 1232,
+            "commissionsAttended": 331,
+            "commissionInterventions": 143,
+            "hemicycleInterventions": 3012,
+            "hemicycleShortInterventions": 17137,
+            "questionsWritten": 31,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720622",
-            "lastname": "Bureau-Bonnard",
             "firstname": "Carole",
-            "slug": "carole-bureaubonnard",
+            "lastname": "Bureau-Bonnard",
             "gender": "F",
-            "birthday": "1965-08-09",
-            "birthplace": "La Fère (Aisne)",
-            "county": "Oise",
-            "countyId": "60",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Masseur-kinésithérapeute",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 172,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 97,
-                "amendments": 145,
-                "amendmentsSupported": 5072,
-                "amendmentsAdopted": 1232,
-                "commissionsAttended": 331,
-                "commissionInterventions": 143,
-                "hemicycleInterventions": 3012,
-                "hemicycleShortInterventions": 17137,
-                "questionsWritten": 31,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Florian",
             "lastname": "Dumoulin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Anne-Sophie",
             "lastname": "Fontaine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Michel",
             "lastname": "Guiniot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Iskin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         },
         {
             "firstname": "Nicole",
             "lastname": "Iung",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 6
         }
     ]
 }

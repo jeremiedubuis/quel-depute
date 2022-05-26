@@ -7,8 +7,8 @@
             "registered": 105134,
             "voted": 81377,
             "whites": 1110,
-            "expressed": 79797,
-            "void": 470,
+            "expressed": 79798,
+            "void": 469,
             "candidates": {
                 "Nathalie Arthaud": 345,
                 "Fabien Roussel": 1798,
@@ -19,80 +19,119 @@
                 "Anne Hidalgo": 1455,
                 "Yannick Jadot": 4538,
                 "Valérie Pécresse": 4439,
-                "Phillipe Poutou": 1596,
+                "Phillipe Poutou": 1597,
                 "Nicolas Dupont-Aignan": 1274,
                 "Eric Zemmour": 5929
             }
+        },
+        "secondRound": {
+            "registered": 105130,
+            "voted": 78385,
+            "whites": 6679,
+            "expressed": 69582,
+            "void": 2124,
+            "candidates": {
+                "Emmanuel Macron": 46650,
+                "Marine Le Pen": 22932
+            }
         }
+    },
+    "current": {
+        "id": "720772",
+        "lastname": "Bru",
+        "firstname": "Vincent",
+        "slug": "vincent-bru",
+        "gender": "H",
+        "birthday": "1955-04-29",
+        "birthplace": "Bayonne (Pyrénées-Atlantiques)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Professeur de faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 157,
+            "reports": 5,
+            "proposals": 2,
+            "proposalsSupported": 51,
+            "amendments": 149,
+            "amendmentsSupported": 3718,
+            "amendmentsAdopted": 808,
+            "commissionsAttended": 284,
+            "commissionInterventions": 247,
+            "hemicycleInterventions": 116,
+            "hemicycleShortInterventions": 55,
+            "questionsWritten": 22,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Fabrice-Sébastien",
             "lastname": "Bach",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 6
         },
         {
             "firstname": "Monique",
             "lastname": "Becker",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 6
         },
         {
-            "id": "720772",
-            "lastname": "Bru",
             "firstname": "Vincent",
-            "slug": "vincent-bru",
+            "lastname": "Bru",
             "gender": "H",
-            "birthday": "1955-04-29",
-            "birthplace": "Bayonne (Pyrénées-Atlantiques)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 64,
             "county": "Pyrénées-Atlantiques",
-            "countyId": "64",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Professeur de faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 157,
-                "reports": 5,
-                "proposals": 2,
-                "proposalsSupported": 51,
-                "amendments": 149,
-                "amendmentsSupported": 3718,
-                "amendmentsAdopted": 808,
-                "commissionsAttended": 284,
-                "commissionInterventions": 247,
-                "hemicycleInterventions": 116,
-                "hemicycleShortInterventions": 55,
-                "questionsWritten": 22,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Tom",
             "lastname": "Dubois-Robin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 6
         },
         {
             "firstname": "Jacqueline",
             "lastname": "Uhart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 6
         }
     ]
 }

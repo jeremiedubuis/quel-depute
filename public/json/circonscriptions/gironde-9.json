@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1680,
                 "Eric Zemmour": 4976
             }
+        },
+        "secondRound": {
+            "registered": 101619,
+            "voted": 79320,
+            "whites": 6215,
+            "expressed": 70983,
+            "void": 2122,
+            "candidates": {
+                "Emmanuel Macron": 39085,
+                "Marine Le Pen": 31898
+            }
         }
+    },
+    "current": {
+        "id": "719640",
+        "lastname": "Mette",
+        "firstname": "Sophie",
+        "slug": "sophie-mette",
+        "gender": "F",
+        "birthday": "1959-09-13",
+        "birthplace": "Montauban (Tarn-et-Garonne)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 10,
+            "proposals": 0,
+            "proposalsSupported": 58,
+            "amendments": 371,
+            "amendmentsSupported": 4042,
+            "amendmentsAdopted": 847,
+            "commissionsAttended": 252,
+            "commissionInterventions": 326,
+            "hemicycleInterventions": 172,
+            "hemicycleShortInterventions": 32,
+            "questionsWritten": 93,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "René",
             "lastname": "Cardoit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 9
         },
         {
             "firstname": "Jean-Philippe",
             "lastname": "Delcamp",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 9
         },
         {
-            "id": "719640",
-            "lastname": "Mette",
             "firstname": "Sophie",
-            "slug": "sophie-mette",
+            "lastname": "Mette",
             "gender": "F",
-            "birthday": "1959-09-13",
-            "birthplace": "Montauban (Tarn-et-Garonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 33,
             "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 10,
-                "proposals": 0,
-                "proposalsSupported": 58,
-                "amendments": 371,
-                "amendmentsSupported": 4042,
-                "amendmentsAdopted": 847,
-                "commissionsAttended": 252,
-                "commissionInterventions": 326,
-                "hemicycleInterventions": 172,
-                "hemicycleShortInterventions": 32,
-                "questionsWritten": 93,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         },
         {
             "firstname": "Damien",
             "lastname": "Obrador",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 9
         },
         {
             "firstname": "Valérie",
             "lastname": "Viltet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 9
         }
     ]
 }

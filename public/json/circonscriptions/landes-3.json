@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1412,
                 "Eric Zemmour": 4446
             }
+        },
+        "secondRound": {
+            "registered": 99148,
+            "voted": 79284,
+            "whites": 6233,
+            "expressed": 70196,
+            "void": 2855,
+            "candidates": {
+                "Emmanuel Macron": 38090,
+                "Marine Le Pen": 32106
+            }
         }
+    },
+    "current": {
+        "id": "719930",
+        "lastname": "Vallaud",
+        "firstname": "Boris",
+        "slug": "boris-vallaud",
+        "gender": "H",
+        "birthday": "1975-07-25",
+        "birthplace": "Beyrouth (Liban)",
+        "county": "Landes",
+        "countyId": 40,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 185,
+            "reports": 4,
+            "proposals": 6,
+            "proposalsSupported": 86,
+            "amendments": 1691,
+            "amendmentsSupported": 14675,
+            "amendmentsAdopted": 779,
+            "commissionsAttended": 416,
+            "commissionInterventions": 1024,
+            "hemicycleInterventions": 1237,
+            "hemicycleShortInterventions": 1307,
+            "questionsWritten": 159,
+            "questionsOral": 29
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marion",
             "lastname": "Berginiat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-François",
             "lastname": "Broqueres",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 3
         },
         {
             "firstname": "Véronique",
             "lastname": "Fossey",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 3
         },
         {
             "firstname": "Matèu",
             "lastname": "Richard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 3
         },
         {
-            "id": "719930",
-            "lastname": "Vallaud",
             "firstname": "Boris",
-            "slug": "boris-vallaud",
+            "lastname": "Vallaud",
             "gender": "H",
-            "birthday": "1975-07-25",
-            "birthplace": "Beyrouth (Liban)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 40,
             "county": "Landes",
-            "countyId": "40",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 185,
-                "reports": 4,
-                "proposals": 6,
-                "proposalsSupported": 86,
-                "amendments": 1691,
-                "amendmentsSupported": 14675,
-                "amendmentsAdopted": 779,
-                "commissionsAttended": 416,
-                "commissionInterventions": 1024,
-                "hemicycleInterventions": 1237,
-                "hemicycleShortInterventions": 1307,
-                "questionsWritten": 159,
-                "questionsOral": 29
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Carole",
             "lastname": "Voutaz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 40,
+            "county": "Landes",
+            "circumscription": 3
         }
     ]
 }

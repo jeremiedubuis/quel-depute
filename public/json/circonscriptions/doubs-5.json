@@ -6,93 +6,132 @@
         "firstRound": {
             "registered": 84419,
             "voted": 66111,
-            "whites": 1234,
-            "expressed": 64342,
-            "void": 535,
+            "whites": 1212,
+            "expressed": 64344,
+            "void": 555,
             "candidates": {
                 "Nathalie Arthaud": 400,
                 "Fabien Roussel": 854,
-                "Emmanuel Macron": 19887,
+                "Emmanuel Macron": 19888,
                 "Jean Lasalle": 2742,
                 "Marine Le Pen": 14965,
                 "Jean-Luc Mélenchon": 8985,
                 "Anne Hidalgo": 1035,
                 "Yannick Jadot": 3253,
-                "Valérie Pécresse": 4896,
+                "Valérie Pécresse": 4897,
                 "Phillipe Poutou": 555,
                 "Nicolas Dupont-Aignan": 2451,
                 "Eric Zemmour": 4319
             }
+        },
+        "secondRound": {
+            "registered": 84419,
+            "voted": 64731,
+            "whites": 3961,
+            "expressed": 59197,
+            "void": 1573,
+            "candidates": {
+                "Emmanuel Macron": 34261,
+                "Marine Le Pen": 24936
+            }
         }
+    },
+    "current": {
+        "id": "605991",
+        "lastname": "Genevard",
+        "firstname": "Annie",
+        "slug": "annie-genevard",
+        "gender": "F",
+        "birthday": "1956-09-07",
+        "birthplace": "Audincourt (Doubs)",
+        "county": "Doubs",
+        "countyId": 25,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Professeur du secondaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 188,
+            "reports": 1,
+            "proposals": 8,
+            "proposalsSupported": 523,
+            "amendments": 872,
+            "amendmentsSupported": 7429,
+            "amendmentsAdopted": 228,
+            "commissionsAttended": 376,
+            "commissionInterventions": 373,
+            "hemicycleInterventions": 6588,
+            "hemicycleShortInterventions": 27745,
+            "questionsWritten": 146,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Philippe",
             "lastname": "Alpy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 5
         },
         {
-            "id": "605991",
-            "lastname": "Genevard",
             "firstname": "Annie",
-            "slug": "annie-genevard",
+            "lastname": "Genevard",
             "gender": "F",
-            "birthday": "1956-09-07",
-            "birthplace": "Audincourt (Doubs)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 25,
             "county": "Doubs",
-            "countyId": "25",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Professeur du secondaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 188,
-                "reports": 1,
-                "proposals": 8,
-                "proposalsSupported": 523,
-                "amendments": 872,
-                "amendmentsSupported": 7429,
-                "amendmentsAdopted": 228,
-                "commissionsAttended": 376,
-                "commissionInterventions": 373,
-                "hemicycleInterventions": 6588,
-                "hemicycleShortInterventions": 27745,
-                "questionsWritten": 146,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Martine",
             "lastname": "Ludi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 5
         },
         {
             "firstname": "Sonya",
             "lastname": "Morrison",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 5
         },
         {
             "firstname": "Martine Mathilde",
             "lastname": "Soulier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 5
         }
     ]
 }

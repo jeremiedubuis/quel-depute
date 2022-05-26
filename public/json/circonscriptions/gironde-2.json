@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 528,
                 "Eric Zemmour": 3773
             }
+        },
+        "secondRound": {
+            "registered": 71745,
+            "voted": 51456,
+            "whites": 3136,
+            "expressed": 47506,
+            "void": 814,
+            "candidates": {
+                "Emmanuel Macron": 39199,
+                "Marine Le Pen": 8307
+            }
         }
+    },
+    "current": {
+        "id": "719570",
+        "lastname": "Fabre",
+        "firstname": "Catherine",
+        "slug": "catherine-fabre",
+        "gender": "F",
+        "birthday": "1978-09-19",
+        "birthplace": "Toulouse (Haute-Garonne)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Maître de conférences des Universités",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 69,
+            "amendments": 431,
+            "amendmentsSupported": 2303,
+            "amendmentsAdopted": 1479,
+            "commissionsAttended": 276,
+            "commissionInterventions": 735,
+            "hemicycleInterventions": 584,
+            "hemicycleShortInterventions": 318,
+            "questionsWritten": 19,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Emmanuelle",
             "lastname": "Cuny",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
             "firstname": "Rémi",
             "lastname": "Delassus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
             "firstname": "Guy",
             "lastname": "Dupont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
-            "id": "719570",
-            "lastname": "Fabre",
             "firstname": "Catherine",
-            "slug": "catherine-fabre",
+            "lastname": "Fabre",
             "gender": "F",
-            "birthday": "1978-09-19",
-            "birthplace": "Toulouse (Haute-Garonne)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Maître de conférences des Universités",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 69,
-                "amendments": 431,
-                "amendmentsSupported": 2303,
-                "amendmentsAdopted": 1479,
-                "commissionsAttended": 276,
-                "commissionInterventions": 735,
-                "hemicycleInterventions": 584,
-                "hemicycleShortInterventions": 318,
-                "questionsWritten": 19,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
             "firstname": "Honorine",
             "lastname": "Laurent",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
             "firstname": "Pierre",
             "lastname": "Le Camus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         },
         {
             "firstname": "Nicolas",
             "lastname": "Thierry",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 2
         }
     ]
 }

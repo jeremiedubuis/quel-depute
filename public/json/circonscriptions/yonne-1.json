@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 74972,
             "voted": 58139,
-            "whites": 861,
+            "whites": 860,
             "expressed": 56926,
-            "void": 352,
+            "void": 353,
             "candidates": {
                 "Nathalie Arthaud": 368,
                 "Fabien Roussel": 1297,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1392,
                 "Eric Zemmour": 4152
             }
+        },
+        "secondRound": {
+            "registered": 75020,
+            "voted": 56579,
+            "whites": 3813,
+            "expressed": 51538,
+            "void": 1228,
+            "candidates": {
+                "Emmanuel Macron": 27445,
+                "Marine Le Pen": 24093
+            }
         }
+    },
+    "current": {
+        "id": "267785",
+        "lastname": "Larrivé",
+        "firstname": "Guillaume",
+        "slug": "guillaume-larrive",
+        "gender": "H",
+        "birthday": "1977-01-24",
+        "birthplace": "Mulhouse (Haut-Rhin)",
+        "county": "Yonne",
+        "countyId": 89,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Maître des requêtes au Conseil d'État-Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 1,
+            "proposals": 15,
+            "proposalsSupported": 110,
+            "amendments": 222,
+            "amendmentsSupported": 3033,
+            "amendmentsAdopted": 111,
+            "commissionsAttended": 283,
+            "commissionInterventions": 359,
+            "hemicycleInterventions": 545,
+            "hemicycleShortInterventions": 176,
+            "questionsWritten": 114,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Victor",
             "lastname": "Albrecht",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 1
         },
         {
             "firstname": "Daniel",
             "lastname": "Daniel Grenon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 1
         },
         {
             "firstname": "Elsa",
             "lastname": "Guyot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 1
         },
         {
             "firstname": "Florence",
             "lastname": "Loury",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 1
         },
         {
             "firstname": "Sylvie",
             "lastname": "Manigaut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 89,
+            "county": "Yonne",
+            "circumscription": 1
         }
     ]
 }

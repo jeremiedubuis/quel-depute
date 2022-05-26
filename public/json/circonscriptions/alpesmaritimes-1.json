@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 81800,
             "voted": 57069,
-            "whites": 597,
+            "whites": 603,
             "expressed": 56112,
-            "void": 360,
+            "void": 354,
             "candidates": {
                 "Nathalie Arthaud": 166,
                 "Fabien Roussel": 972,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1052,
                 "Eric Zemmour": 8204
             }
+        },
+        "secondRound": {
+            "registered": 81797,
+            "voted": 55054,
+            "whites": 2862,
+            "expressed": 51150,
+            "void": 1042,
+            "candidates": {
+                "Emmanuel Macron": 29109,
+                "Marine Le Pen": 22041
+            }
         }
+    },
+    "current": {
+        "id": "330240",
+        "lastname": "Ciotti",
+        "firstname": "Éric",
+        "slug": "eric-ciotti",
+        "gender": "H",
+        "birthday": "1965-09-28",
+        "birthplace": "Nice (Alpes-Maritimes)",
+        "county": "Alpes-Maritimes",
+        "countyId": 6,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 4,
+            "proposals": 33,
+            "proposalsSupported": 248,
+            "amendments": 1220,
+            "amendmentsSupported": 4189,
+            "amendmentsAdopted": 125,
+            "commissionsAttended": 510,
+            "commissionInterventions": 1090,
+            "hemicycleInterventions": 956,
+            "hemicycleShortInterventions": 618,
+            "questionsWritten": 155,
+            "questionsOral": 23
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Laure",
             "lastname": "Chaintron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         },
         {
-            "id": "330240",
+            "firstname": "Eric",
             "lastname": "Ciotti",
-            "firstname": "Éric",
-            "slug": "eric-ciotti",
             "gender": "H",
-            "birthday": "1965-09-28",
-            "birthplace": "Nice (Alpes-Maritimes)",
-            "county": "Alpes-Maritimes",
-            "countyId": "06",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Autre profession",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 189,
-                "reports": 4,
-                "proposals": 33,
-                "proposalsSupported": 248,
-                "amendments": 1220,
-                "amendmentsSupported": 4189,
-                "amendmentsAdopted": 125,
-                "commissionsAttended": 510,
-                "commissionInterventions": 1090,
-                "hemicycleInterventions": 956,
-                "hemicycleShortInterventions": 618,
-                "questionsWritten": 155,
-                "questionsOral": 23
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         },
         {
             "firstname": "Florent",
             "lastname": "Imbert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         },
         {
             "firstname": "Loïc",
             "lastname": "Lalande",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         },
         {
             "firstname": "Graig",
             "lastname": "Monetti",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         },
         {
             "firstname": "Muriel",
             "lastname": "Vitetti",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 1
         }
     ]
 }

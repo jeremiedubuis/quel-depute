@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 85093,
             "voted": 62493,
-            "whites": 799,
+            "whites": 800,
             "expressed": 61346,
-            "void": 348,
+            "void": 347,
             "candidates": {
                 "Nathalie Arthaud": 213,
                 "Fabien Roussel": 1389,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1662,
                 "Eric Zemmour": 8912
             }
+        },
+        "secondRound": {
+            "registered": 85102,
+            "voted": 62302,
+            "whites": 3144,
+            "expressed": 57963,
+            "void": 1195,
+            "candidates": {
+                "Emmanuel Macron": 24665,
+                "Marine Le Pen": 33298
+            }
         }
+    },
+    "current": {
+        "id": "718768",
+        "lastname": "Valetta Ardisson",
+        "firstname": "Alexandra",
+        "slug": "alexandra-valetta-ardisson",
+        "gender": "F",
+        "birthday": "1976-06-07",
+        "birthplace": "Cannes (Alpes-Maritimes)",
+        "county": "Alpes-Maritimes",
+        "countyId": 6,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Coordinatrice aménagement numérique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 123,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 72,
+            "amendments": 162,
+            "amendmentsSupported": 2424,
+            "amendmentsAdopted": 972,
+            "commissionsAttended": 176,
+            "commissionInterventions": 34,
+            "hemicycleInterventions": 35,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 218,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "David",
             "lastname": "Bieder",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Sophie",
             "lastname": "Bournot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Joseph",
             "lastname": "Markiel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Alexandra",
             "lastname": "Masson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Damien",
             "lastname": "Rieu",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Roger",
             "lastname": "Roux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         },
         {
             "firstname": "Alexandre",
             "lastname": "Valetta Ardisson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 4
         }
     ]
 }

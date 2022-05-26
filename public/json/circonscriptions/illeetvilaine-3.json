@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1283,
                 "Eric Zemmour": 3020
             }
+        },
+        "secondRound": {
+            "registered": 91540,
+            "voted": 72332,
+            "whites": 4962,
+            "expressed": 65754,
+            "void": 1616,
+            "candidates": {
+                "Emmanuel Macron": 44647,
+                "Marine Le Pen": 21107
+            }
         }
+    },
+    "current": {
+        "id": "606675",
+        "lastname": "André",
+        "firstname": "François",
+        "slug": "francois-andre",
+        "gender": "H",
+        "birthday": "1967-07-19",
+        "birthplace": "Pontivy (Morbihan)",
+        "county": "Ille-et-Vilaine",
+        "countyId": 35,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 64,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 37,
+            "amendments": 2,
+            "amendmentsSupported": 840,
+            "amendmentsAdopted": 480,
+            "commissionsAttended": 99,
+            "commissionInterventions": 45,
+            "hemicycleInterventions": 30,
+            "hemicycleShortInterventions": 49,
+            "questionsWritten": 12,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Louis",
             "lastname": "Amisse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Céline",
             "lastname": "Bretel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Mathieu",
             "lastname": "Guihard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Martins",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Mélina",
             "lastname": "Parmentier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Matthieu",
             "lastname": "Ploquin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
             "firstname": "Astrid",
             "lastname": "Prunier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 3
         },
         {
-            "id": "342196",
-            "lastname": "Rouaux",
             "firstname": "Claudia",
-            "slug": "claudia-rouaux",
+            "lastname": "Rouaux",
             "gender": "F",
-            "birthday": "1963-10-13",
-            "birthplace": "Sainte-Gemmes-d'Andigné (Maine-et-Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 35,
             "county": "Ille-et-Vilaine",
-            "countyId": "35",
-            "circumscription": 3,
-            "mandateStart": "2020-02-12",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Gestionnaire à l'INRAE",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 63,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 41,
-                "amendments": 41,
-                "amendmentsSupported": 6610,
-                "amendmentsAdopted": 318,
-                "commissionsAttended": 76,
-                "commissionInterventions": 72,
-                "hemicycleInterventions": 110,
-                "hemicycleShortInterventions": 32,
-                "questionsWritten": 21,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         }
     ]
 }

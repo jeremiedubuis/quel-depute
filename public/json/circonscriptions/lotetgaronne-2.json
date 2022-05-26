@@ -4,103 +4,146 @@
     "name": "Lot-et-Garonne",
     "results": {
         "firstRound": {
-            "registered": 77277,
+            "registered": 77282,
             "voted": 60086,
-            "whites": 839,
-            "expressed": 58734,
-            "void": 513,
+            "whites": 855,
+            "expressed": 58737,
+            "void": 494,
             "candidates": {
                 "Nathalie Arthaud": 297,
                 "Fabien Roussel": 1687,
-                "Emmanuel Macron": 13103,
+                "Emmanuel Macron": 13104,
                 "Jean Lasalle": 4485,
-                "Marine Le Pen": 17191,
+                "Marine Le Pen": 17192,
                 "Jean-Luc Mélenchon": 10201,
                 "Anne Hidalgo": 1078,
                 "Yannick Jadot": 1493,
                 "Valérie Pécresse": 2458,
-                "Phillipe Poutou": 456,
+                "Phillipe Poutou": 457,
                 "Nicolas Dupont-Aignan": 1342,
                 "Eric Zemmour": 4943
             }
+        },
+        "secondRound": {
+            "registered": 77280,
+            "voted": 58993,
+            "whites": 3964,
+            "expressed": 52927,
+            "void": 2102,
+            "candidates": {
+                "Emmanuel Macron": 24670,
+                "Marine Le Pen": 28257
+            }
         }
+    },
+    "current": {
+        "id": "720030",
+        "lastname": "Freschi",
+        "firstname": "Alexandre",
+        "slug": "alexandre-freschi",
+        "gender": "H",
+        "birthday": "1979-05-17",
+        "birthplace": "Marmande (Lot-et-Garonne)",
+        "county": "Lot-et-Garonne",
+        "countyId": 47,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Dirigeant de société",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 67,
+            "amendments": 106,
+            "amendmentsSupported": 2035,
+            "amendmentsAdopted": 1027,
+            "commissionsAttended": 244,
+            "commissionInterventions": 379,
+            "hemicycleInterventions": 52,
+            "hemicycleShortInterventions": 14,
+            "questionsWritten": 31,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martine",
             "lastname": "Calzavara",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Christophe",
             "lastname": "Courrègelongue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         },
         {
-            "id": "720030",
-            "lastname": "Freschi",
             "firstname": "Alexandre",
-            "slug": "alexandre-freschi",
+            "lastname": "Freschi",
             "gender": "H",
-            "birthday": "1979-05-17",
-            "birthplace": "Marmande (Lot-et-Garonne)",
-            "county": "Lot-et-Garonne",
-            "countyId": "47",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Dirigeant de société",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 2,
-                "proposals": 2,
-                "proposalsSupported": 67,
-                "amendments": 106,
-                "amendmentsSupported": 2035,
-                "amendmentsAdopted": 1027,
-                "commissionsAttended": 244,
-                "commissionInterventions": 379,
-                "hemicycleInterventions": 52,
-                "hemicycleShortInterventions": 14,
-                "questionsWritten": 31,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Hélène",
             "lastname": "Laporte",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Laetitia",
             "lastname": "Redoulez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         },
         {
             "firstname": "Michel",
             "lastname": "Vendège",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 2
         }
     ]
 }

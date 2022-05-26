@@ -5,8 +5,8 @@
     "results": {
         "firstRound": {
             "registered": 74549,
-            "voted": 60440,
-            "whites": 557,
+            "voted": 60439,
+            "whites": 556,
             "expressed": 59727,
             "void": 156,
             "candidates": {
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 521,
                 "Eric Zemmour": 6170
             }
+        },
+        "secondRound": {
+            "registered": 74596,
+            "voted": 58509,
+            "whites": 2368,
+            "expressed": 55407,
+            "void": 734,
+            "candidates": {
+                "Emmanuel Macron": 47316,
+                "Marine Le Pen": 8091
+            }
         }
+    },
+    "current": {
+        "id": "721466",
+        "lastname": "Le Gendre",
+        "firstname": "Gilles",
+        "slug": "gilles-le-gendre",
+        "gender": "H",
+        "birthday": "1958-05-13",
+        "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 2,
+            "proposals": 6,
+            "proposalsSupported": 66,
+            "amendments": 1,
+            "amendmentsSupported": 1869,
+            "amendmentsAdopted": 1239,
+            "commissionsAttended": 232,
+            "commissionInterventions": 29,
+            "hemicycleInterventions": 496,
+            "hemicycleShortInterventions": 238,
+            "questionsWritten": 5,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Daniel",
             "lastname": "Assayag",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "Quitterie",
             "lastname": "de Villepin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "",
             "groupShort": "",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "Karine",
             "lastname": "Dreyfuss",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "Charline",
             "lastname": "Joliveau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
-            "id": "721466",
-            "lastname": "Le Gendre",
             "firstname": "Gilles",
-            "slug": "gilles-le-gendre",
+            "lastname": "Le Gendre",
             "gender": "H",
-            "birthday": "1958-05-13",
-            "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 2,
-                "proposals": 6,
-                "proposalsSupported": 66,
-                "amendments": 1,
-                "amendmentsSupported": 1869,
-                "amendmentsAdopted": 1239,
-                "commissionsAttended": 232,
-                "commissionInterventions": 29,
-                "hemicycleInterventions": 496,
-                "hemicycleShortInterventions": 238,
-                "questionsWritten": 5,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Lecoq",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "Marine",
             "lastname": "Rosset",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         },
         {
             "firstname": "André",
             "lastname": "Rougé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 2
         }
     ]
 }

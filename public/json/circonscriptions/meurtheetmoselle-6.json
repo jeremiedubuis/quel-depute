@@ -5,94 +5,133 @@
     "results": {
         "firstRound": {
             "registered": 87034,
-            "voted": 63244,
-            "whites": 914,
-            "expressed": 61899,
-            "void": 431,
+            "voted": 63108,
+            "whites": 916,
+            "expressed": 61760,
+            "void": 432,
             "candidates": {
-                "Nathalie Arthaud": 471,
-                "Fabien Roussel": 1588,
-                "Emmanuel Macron": 14597,
-                "Jean Lasalle": 1619,
-                "Marine Le Pen": 20039,
-                "Jean-Luc Mélenchon": 12990,
-                "Anne Hidalgo": 971,
-                "Yannick Jadot": 2119,
-                "Valérie Pécresse": 1715,
+                "Nathalie Arthaud": 468,
+                "Fabien Roussel": 1587,
+                "Emmanuel Macron": 14574,
+                "Jean Lasalle": 1609,
+                "Marine Le Pen": 19999,
+                "Jean-Luc Mélenchon": 12965,
+                "Anne Hidalgo": 975,
+                "Yannick Jadot": 2113,
+                "Valérie Pécresse": 1712,
                 "Phillipe Poutou": 594,
-                "Nicolas Dupont-Aignan": 1247,
-                "Eric Zemmour": 3949
+                "Nicolas Dupont-Aignan": 1236,
+                "Eric Zemmour": 3928
+            }
+        },
+        "secondRound": {
+            "registered": 87066,
+            "voted": 62829,
+            "whites": 4180,
+            "expressed": 57338,
+            "void": 1311,
+            "candidates": {
+                "Emmanuel Macron": 27086,
+                "Marine Le Pen": 30252
             }
         }
+    },
+    "current": {
+        "id": "720286",
+        "lastname": "Fiat",
+        "firstname": "Caroline",
+        "slug": "caroline-fiat",
+        "gender": "F",
+        "birthday": "1977-01-28",
+        "birthplace": "VERDUN (Meuse)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": 54,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Salariée du secteur médical",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 145,
+            "reports": 6,
+            "proposals": 10,
+            "proposalsSupported": 197,
+            "amendments": 3946,
+            "amendmentsSupported": 18870,
+            "amendmentsAdopted": 220,
+            "commissionsAttended": 185,
+            "commissionInterventions": 767,
+            "hemicycleInterventions": 2133,
+            "hemicycleShortInterventions": 2009,
+            "questionsWritten": 171,
+            "questionsOral": 35
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dominique",
             "lastname": "Barbin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 6
         },
         {
             "firstname": "Anthony",
             "lastname": "Boulogne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 6
         },
         {
             "firstname": "Xavier",
             "lastname": "Coupaye",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 6
         },
         {
-            "id": "720286",
-            "lastname": "Fiat",
             "firstname": "Caroline",
-            "slug": "caroline-fiat",
+            "lastname": "Fiat",
             "gender": "F",
-            "birthday": "1977-01-28",
-            "birthplace": "VERDUN (Meuse)",
-            "county": "Meurthe-et-Moselle",
-            "countyId": "54",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Salariée du secteur médical",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 145,
-                "reports": 6,
-                "proposals": 10,
-                "proposalsSupported": 197,
-                "amendments": 3946,
-                "amendmentsSupported": 18870,
-                "amendmentsAdopted": 220,
-                "commissionsAttended": 185,
-                "commissionInterventions": 767,
-                "hemicycleInterventions": 2133,
-                "hemicycleShortInterventions": 2009,
-                "questionsWritten": 171,
-                "questionsOral": 35
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 6
         },
         {
             "firstname": "Ergün",
             "lastname": "Toparslan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 6
         }
     ]
 }

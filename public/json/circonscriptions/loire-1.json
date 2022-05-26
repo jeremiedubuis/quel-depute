@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 755,
                 "Eric Zemmour": 3415
             }
+        },
+        "secondRound": {
+            "registered": 64109,
+            "voted": 44147,
+            "whites": 2754,
+            "expressed": 40460,
+            "void": 933,
+            "candidates": {
+                "Emmanuel Macron": 25781,
+                "Marine Le Pen": 14679
+            }
         }
+    },
+    "current": {
+        "id": "332614",
+        "lastname": "Juanico",
+        "firstname": "Régis",
+        "slug": "regis-juanico",
+        "gender": "H",
+        "birthday": "1972-02-05",
+        "birthplace": "Saint-Rémy (Saône-et-Loire)",
+        "county": "Loire",
+        "countyId": 42,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "SOC",
+        "job": "Fonctionnaire territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 8,
+            "proposals": 4,
+            "proposalsSupported": 113,
+            "amendments": 467,
+            "amendmentsSupported": 15468,
+            "amendmentsAdopted": 811,
+            "commissionsAttended": 362,
+            "commissionInterventions": 507,
+            "hemicycleInterventions": 613,
+            "hemicycleShortInterventions": 526,
+            "questionsWritten": 195,
+            "questionsOral": 24
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Quentin",
             "lastname": "Bataillon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Romain",
             "lastname": "Brossard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Laëtitia",
             "lastname": "Copin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Victoria",
             "lastname": "Decousus",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Camille",
             "lastname": "Rey",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Marie",
             "lastname": "Simon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 1
         }
     ]
 }

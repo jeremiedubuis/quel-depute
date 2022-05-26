@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 2001,
                 "Eric Zemmour": 8023
             }
+        },
+        "secondRound": {
+            "registered": 119423,
+            "voted": 91467,
+            "whites": 5818,
+            "expressed": 83675,
+            "void": 1974,
+            "candidates": {
+                "Emmanuel Macron": 48395,
+                "Marine Le Pen": 35280
+            }
         }
+    },
+    "current": {
+        "id": "719632",
+        "lastname": "Panonacle",
+        "firstname": "Sophie",
+        "slug": "sophie-panonacle",
+        "gender": "F",
+        "birthday": "1968-12-16",
+        "birthplace": "Bordeaux (Gironde)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 5,
+            "proposals": 1,
+            "proposalsSupported": 77,
+            "amendments": 116,
+            "amendmentsSupported": 2659,
+            "amendmentsAdopted": 1224,
+            "commissionsAttended": 233,
+            "commissionInterventions": 200,
+            "hemicycleInterventions": 72,
+            "hemicycleShortInterventions": 12,
+            "questionsWritten": 144,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hans",
             "lastname": "Brustle Santini",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 8
         },
         {
             "firstname": "Rémy",
             "lastname": "Coste",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 8
         },
         {
             "firstname": "Marylène",
             "lastname": "Faure",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 8
         },
         {
             "firstname": "Laurent",
             "lastname": "Lamara",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 8
         },
         {
-            "id": "719632",
-            "lastname": "Panonacle",
             "firstname": "Sophie",
-            "slug": "sophie-panonacle",
+            "lastname": "Panonacle",
             "gender": "F",
-            "birthday": "1968-12-16",
-            "birthplace": "Bordeaux (Gironde)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 149,
-                "reports": 5,
-                "proposals": 1,
-                "proposalsSupported": 77,
-                "amendments": 116,
-                "amendmentsSupported": 2659,
-                "amendmentsAdopted": 1224,
-                "commissionsAttended": 233,
-                "commissionInterventions": 200,
-                "hemicycleInterventions": 72,
-                "hemicycleShortInterventions": 12,
-                "questionsWritten": 144,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 8
         }
     ]
 }

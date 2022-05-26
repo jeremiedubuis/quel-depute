@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 632,
                 "Eric Zemmour": 2365
             }
+        },
+        "secondRound": {
+            "registered": 83141,
+            "voted": 57445,
+            "whites": 2627,
+            "expressed": 53504,
+            "void": 1314,
+            "candidates": {
+                "Emmanuel Macron": 19544,
+                "Marine Le Pen": 33960
+            }
         }
+    },
+    "current": {
+        "id": "720664",
+        "lastname": "Evrard",
+        "firstname": "José",
+        "slug": "jose-evrard",
+        "gender": "H",
+        "birthday": "1945-07-17",
+        "birthplace": "Cauchy-à-la-Tour (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Debout la France",
+        "groupShort": "NI",
+        "job": "Retraité de la fonction publique (hors enseignement)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 115,
+            "reports": 0,
+            "proposals": 3,
+            "proposalsSupported": 17,
+            "amendments": 5,
+            "amendmentsSupported": 364,
+            "amendmentsAdopted": 0,
+            "commissionsAttended": 110,
+            "commissionInterventions": 44,
+            "hemicycleInterventions": 27,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 172,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nicolas",
             "lastname": "Bays",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         },
         {
             "firstname": "Bruno",
             "lastname": "Clavet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         },
         {
             "firstname": "Michel",
             "lastname": "Darras",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         },
         {
             "firstname": "Claudine",
             "lastname": "Lambre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         },
         {
             "firstname": "Elodie",
             "lastname": "Mocydlarz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Tellier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 3
         }
     ]
 }

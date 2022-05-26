@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1118,
                 "Eric Zemmour": 3978
             }
+        },
+        "secondRound": {
+            "registered": 75612,
+            "voted": 53807,
+            "whites": 3282,
+            "expressed": 49636,
+            "void": 889,
+            "candidates": {
+                "Emmanuel Macron": 30152,
+                "Marine Le Pen": 19484
+            }
         }
+    },
+    "current": {
+        "id": "720378",
+        "lastname": "Lioger",
+        "firstname": "Richard",
+        "slug": "richard-lioger",
+        "gender": "H",
+        "birthday": "1957-09-18",
+        "birthplace": "Paris 10 (Paris)",
+        "county": "Moselle",
+        "countyId": 57,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur des Universités",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 150,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 328,
+            "amendmentsSupported": 2106,
+            "amendmentsAdopted": 1300,
+            "commissionsAttended": 217,
+            "commissionInterventions": 528,
+            "hemicycleInterventions": 342,
+            "hemicycleShortInterventions": 202,
+            "questionsWritten": 0,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nathalie",
             "lastname": "Colin-Oesterlé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les centristes",
             "groupShort": "LC",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Françoise",
             "lastname": "Grolet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Etienne",
             "lastname": "Hodara",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Roxane",
             "lastname": "Jurion",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Charlotte",
             "lastname": "Leduc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
             "firstname": "Anne-Catherine",
             "lastname": "Leucart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti radical",
             "groupShort": "Parti radical",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         },
         {
-            "id": "720378",
-            "lastname": "Lioger",
             "firstname": "Richard",
-            "slug": "richard-lioger",
+            "lastname": "Lioger",
             "gender": "H",
-            "birthday": "1957-09-18",
-            "birthplace": "Paris 10 (Paris)",
-            "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur des Universités",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 150,
-                "reports": 9,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 328,
-                "amendmentsSupported": 2106,
-                "amendmentsAdopted": 1300,
-                "commissionsAttended": 217,
-                "commissionInterventions": 528,
-                "hemicycleInterventions": 342,
-                "hemicycleShortInterventions": 202,
-                "questionsWritten": 0,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 3
         }
     ]
 }

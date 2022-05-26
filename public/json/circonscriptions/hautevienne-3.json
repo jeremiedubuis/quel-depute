@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1123,
                 "Eric Zemmour": 3319
             }
+        },
+        "secondRound": {
+            "registered": 81868,
+            "voted": 61318,
+            "whites": 4638,
+            "expressed": 54011,
+            "void": 2669,
+            "candidates": {
+                "Emmanuel Macron": 32076,
+                "Marine Le Pen": 21935
+            }
         }
+    },
+    "current": {
+        "id": "722244",
+        "lastname": "Magne",
+        "firstname": "Marie-Ange",
+        "slug": "marieange-magne",
+        "gender": "F",
+        "birthday": "1987-11-20",
+        "birthplace": "Limoges (Haute-Vienne)",
+        "county": "Haute-Vienne",
+        "countyId": 87,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Contractuelle de la fonction publique territoriale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 11,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 50,
+            "amendmentsSupported": 1719,
+            "amendmentsAdopted": 1077,
+            "commissionsAttended": 249,
+            "commissionInterventions": 89,
+            "hemicycleInterventions": 116,
+            "hemicycleShortInterventions": 20,
+            "questionsWritten": 77,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Albin",
             "lastname": "Freychet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Manon",
             "lastname": "Meunier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Daniel",
             "lastname": "Mournetas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Nelly",
             "lastname": "Rassat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Geoffroy",
             "lastname": "Sardin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Gilles",
             "lastname": "Toulza",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 87,
+            "county": "Haute-Vienne",
+            "circumscription": 3
         }
     ]
 }

@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 73360,
             "voted": 51797,
-            "whites": 652,
-            "expressed": 50883,
-            "void": 262,
+            "whites": 658,
+            "expressed": 50884,
+            "void": 255,
             "candidates": {
                 "Nathalie Arthaud": 218,
                 "Fabien Roussel": 1069,
                 "Emmanuel Macron": 10403,
                 "Jean Lasalle": 1209,
                 "Marine Le Pen": 11448,
-                "Jean-Luc Mélenchon": 16823,
+                "Jean-Luc Mélenchon": 16824,
                 "Anne Hidalgo": 710,
                 "Yannick Jadot": 2115,
                 "Valérie Pécresse": 1619,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 836,
                 "Eric Zemmour": 4125
             }
+        },
+        "secondRound": {
+            "registered": 73400,
+            "voted": 49059,
+            "whites": 3168,
+            "expressed": 44861,
+            "void": 1030,
+            "candidates": {
+                "Emmanuel Macron": 26043,
+                "Marine Le Pen": 18818
+            }
         }
+    },
+    "current": {
+        "id": "721860",
+        "lastname": "Cesarini",
+        "firstname": "Jean-François",
+        "slug": "jeanfrancois-cesarini",
+        "gender": "H",
+        "birthday": "1970-09-30",
+        "birthplace": "Avignon (Vaucluse)",
+        "county": "Vaucluse",
+        "countyId": 84,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 93,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 45,
+            "amendments": 305,
+            "amendmentsSupported": 2385,
+            "amendmentsAdopted": 748,
+            "commissionsAttended": 134,
+            "commissionInterventions": 105,
+            "hemicycleInterventions": 47,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 0,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dominique",
             "lastname": "Brogi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
             "firstname": "Christine",
             "lastname": "Chatenay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
             "firstname": "Farid",
             "lastname": "Faryssy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
             "firstname": "Joris",
             "lastname": "Hébrard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
             "firstname": "Salvator",
             "lastname": "Rizza",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
             "firstname": "Denis",
             "lastname": "Schmid",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         },
         {
-            "id": "721864",
-            "lastname": "Zitouni",
             "firstname": "Souad",
-            "slug": "souad-zitouni",
+            "lastname": "Zitouni",
             "gender": "F",
-            "birthday": "1974-04-23",
-            "birthplace": "Boukadir (Algérie)",
-            "county": "Vaucluse",
-            "countyId": "84",
-            "circumscription": 1,
-            "mandateStart": "2020-03-30",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Avocate",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 50,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 49,
-                "amendments": 143,
-                "amendmentsSupported": 1644,
-                "amendmentsAdopted": 590,
-                "commissionsAttended": 68,
-                "commissionInterventions": 63,
-                "hemicycleInterventions": 38,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 4,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 1
         }
     ]
 }

@@ -7,8 +7,8 @@
             "registered": 98767,
             "voted": 76927,
             "whites": 1334,
-            "expressed": 75138,
-            "void": 455,
+            "expressed": 75140,
+            "void": 453,
             "candidates": {
                 "Nathalie Arthaud": 838,
                 "Fabien Roussel": 1625,
@@ -16,83 +16,122 @@
                 "Jean Lasalle": 2384,
                 "Marine Le Pen": 20101,
                 "Jean-Luc Mélenchon": 14663,
-                "Anne Hidalgo": 1457,
+                "Anne Hidalgo": 1458,
                 "Yannick Jadot": 3450,
                 "Valérie Pécresse": 3349,
                 "Phillipe Poutou": 520,
                 "Nicolas Dupont-Aignan": 2155,
-                "Eric Zemmour": 5867
+                "Eric Zemmour": 5868
+            }
+        },
+        "secondRound": {
+            "registered": 98789,
+            "voted": 74337,
+            "whites": 5154,
+            "expressed": 67676,
+            "void": 1507,
+            "candidates": {
+                "Emmanuel Macron": 35936,
+                "Marine Le Pen": 31740
             }
         }
     },
+    "current": {
+        "id": "719318",
+        "lastname": "Anthoine",
+        "firstname": "Emmanuelle",
+        "slug": "emmanuelle-anthoine",
+        "gender": "F",
+        "birthday": "1964-07-02",
+        "birthplace": "Saint-Vallier (Drôme)",
+        "county": "Drôme",
+        "countyId": 26,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Avocate",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 1,
+            "proposals": 20,
+            "proposalsSupported": 626,
+            "amendments": 1884,
+            "amendmentsSupported": 30112,
+            "amendmentsAdopted": 709,
+            "commissionsAttended": 319,
+            "commissionInterventions": 281,
+            "hemicycleInterventions": 372,
+            "hemicycleShortInterventions": 296,
+            "questionsWritten": 185,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "719318",
-            "lastname": "Anthoine",
             "firstname": "Emmanuelle",
-            "slug": "emmanuelle-anthoine",
+            "lastname": "Anthoine",
             "gender": "F",
-            "birthday": "1964-07-02",
-            "birthplace": "Saint-Vallier (Drôme)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 26,
             "county": "Drôme",
-            "countyId": "26",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Avocate",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 1,
-                "proposals": 20,
-                "proposalsSupported": 626,
-                "amendments": 1884,
-                "amendmentsSupported": 30112,
-                "amendmentsAdopted": 709,
-                "commissionsAttended": 319,
-                "commissionInterventions": 281,
-                "hemicycleInterventions": 372,
-                "hemicycleShortInterventions": 296,
-                "questionsWritten": 185,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Monique",
             "lastname": "Bernard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 4
         },
         {
             "firstname": "Olivier",
             "lastname": "Gafa",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 4
         },
         {
             "firstname": "Pierre",
             "lastname": "Jouvet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 4
         },
         {
             "firstname": "Véronique",
             "lastname": "Stin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 4
         }
     ]
 }

@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1758,
                 "Eric Zemmour": 10197
             }
+        },
+        "secondRound": {
+            "registered": 103740,
+            "voted": 78251,
+            "whites": 4456,
+            "expressed": 72305,
+            "void": 1490,
+            "candidates": {
+                "Emmanuel Macron": 35206,
+                "Marine Le Pen": 37099
+            }
         }
+    },
+    "current": {
+        "id": "721666",
+        "lastname": "Audibert",
+        "firstname": "Edith",
+        "slug": "edith-audibert",
+        "gender": "F",
+        "birthday": "1948-03-07",
+        "birthplace": "Hyères (Var)",
+        "county": "Var",
+        "countyId": 83,
+        "circumscription": 3,
+        "mandateStart": "2020-08-03",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Retraitée",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 26,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 206,
+            "amendments": 1,
+            "amendmentsSupported": 9883,
+            "amendmentsAdopted": 222,
+            "commissionsAttended": 18,
+            "commissionInterventions": 0,
+            "hemicycleInterventions": 4,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 42,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pierre",
             "lastname": "Deidon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         },
         {
             "firstname": "Isabelle",
             "lastname": "Montfort",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         },
         {
             "firstname": "Julia",
             "lastname": "Peironet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         },
         {
             "firstname": "Stéphane",
             "lastname": "Rambaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         },
         {
             "firstname": "Delphine",
             "lastname": "Rolland",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         },
         {
             "firstname": "Magalie",
             "lastname": "Stortz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 3
         }
     ]
 }

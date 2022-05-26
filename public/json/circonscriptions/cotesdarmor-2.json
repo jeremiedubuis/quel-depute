@@ -7,8 +7,8 @@
             "registered": 103154,
             "voted": 83268,
             "whites": 1277,
-            "expressed": 81329,
-            "void": 662,
+            "expressed": 81330,
+            "void": 661,
             "candidates": {
                 "Nathalie Arthaud": 571,
                 "Fabien Roussel": 2113,
@@ -18,81 +18,120 @@
                 "Jean-Luc Mélenchon": 15104,
                 "Anne Hidalgo": 1627,
                 "Yannick Jadot": 4060,
-                "Valérie Pécresse": 4124,
+                "Valérie Pécresse": 4125,
                 "Phillipe Poutou": 813,
                 "Nicolas Dupont-Aignan": 1607,
                 "Eric Zemmour": 4649
             }
+        },
+        "secondRound": {
+            "registered": 103130,
+            "voted": 82721,
+            "whites": 5659,
+            "expressed": 74867,
+            "void": 2195,
+            "candidates": {
+                "Emmanuel Macron": 46146,
+                "Marine Le Pen": 28721
+            }
         }
+    },
+    "current": {
+        "id": "719218",
+        "lastname": "Berville",
+        "firstname": "Hervé",
+        "slug": "herve-berville",
+        "gender": "H",
+        "birthday": "1990-01-15",
+        "birthplace": "Madanzh-Buhimga (Rwanda)",
+        "county": "Côtes-d'Armor",
+        "countyId": 22,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 73,
+            "amendments": 152,
+            "amendmentsSupported": 1586,
+            "amendmentsAdopted": 990,
+            "commissionsAttended": 161,
+            "commissionInterventions": 415,
+            "hemicycleInterventions": 233,
+            "hemicycleShortInterventions": 327,
+            "questionsWritten": 21,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719218",
-            "lastname": "Berville",
             "firstname": "Hervé",
-            "slug": "herve-berville",
+            "lastname": "Berville",
             "gender": "H",
-            "birthday": "1990-01-15",
-            "birthplace": "Madanzh-Buhimga (Rwanda)",
-            "county": "Côtes-d'Armor",
-            "countyId": "22",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 149,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 73,
-                "amendments": 152,
-                "amendmentsSupported": 1586,
-                "amendmentsAdopted": 990,
-                "commissionsAttended": 161,
-                "commissionInterventions": 415,
-                "hemicycleInterventions": 233,
-                "hemicycleShortInterventions": 327,
-                "questionsWritten": 21,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 2
         },
         {
             "firstname": "Raphaël",
             "lastname": "Drouillet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 2
         },
         {
             "firstname": "Lucie",
             "lastname": "Herblin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 2
         },
         {
             "firstname": "Antoine",
             "lastname": "Kieffer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 2
         },
         {
             "firstname": "Héléna",
             "lastname": "Marie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 2
         }
     ]
 }

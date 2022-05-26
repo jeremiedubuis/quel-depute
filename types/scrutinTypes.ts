@@ -3,6 +3,7 @@ import { Depute } from '$types/deputeTypes';
 export type BaseScrutin = {
     number: number;
     title: string;
+    description?: string;
     category: string;
     href: string;
     scrutinHref: string;
@@ -10,6 +11,7 @@ export type BaseScrutin = {
     initiative: string;
     impactModifier: number;
     notes?: string;
+    sources: string[];
 };
 
 export type ScrutinType = BaseScrutin & {

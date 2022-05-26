@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2630,
                 "Eric Zemmour": 11615
             }
+        },
+        "secondRound": {
+            "registered": 126948,
+            "voted": 96163,
+            "whites": 5299,
+            "expressed": 89109,
+            "void": 1755,
+            "candidates": {
+                "Emmanuel Macron": 36680,
+                "Marine Le Pen": 52429
+            }
         }
+    },
+    "current": {
+        "id": "721784",
+        "lastname": "Gomez-Bassac",
+        "firstname": "Valérie",
+        "slug": "valerie-gomezbassac",
+        "gender": "F",
+        "birthday": "1969-07-16",
+        "birthplace": "Valenciennes (Nord)",
+        "county": "Var",
+        "countyId": 83,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Maître de conférences",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 145,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 120,
+            "amendmentsSupported": 2705,
+            "amendmentsAdopted": 1233,
+            "commissionsAttended": 213,
+            "commissionInterventions": 105,
+            "hemicycleInterventions": 83,
+            "hemicycleShortInterventions": 13,
+            "questionsWritten": 104,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alain",
             "lastname": "Bolla",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         },
         {
             "firstname": "Dider",
             "lastname": "Cade",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         },
         {
             "firstname": "Frank",
             "lastname": "Giletti",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         },
         {
-            "id": "721784",
-            "lastname": "Gomez-Bassac",
             "firstname": "Valérie",
-            "slug": "valerie-gomezbassac",
+            "lastname": "Gomez-Bassac",
             "gender": "F",
-            "birthday": "1969-07-16",
-            "birthplace": "Valenciennes (Nord)",
-            "county": "Var",
-            "countyId": "83",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Maître de conférences",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 145,
-                "reports": 5,
-                "proposals": 0,
-                "proposalsSupported": 71,
-                "amendments": 120,
-                "amendmentsSupported": 2705,
-                "amendmentsAdopted": 1233,
-                "commissionsAttended": 213,
-                "commissionInterventions": 105,
-                "hemicycleInterventions": 83,
-                "hemicycleShortInterventions": 13,
-                "questionsWritten": 104,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         },
         {
             "firstname": "Louis",
             "lastname": "Gueyrard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         },
         {
             "firstname": "Herve",
             "lastname": "Rigaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 6
         }
     ]
 }

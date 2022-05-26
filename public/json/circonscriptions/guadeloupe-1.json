@@ -1,5 +1,5 @@
 {
-    "countyId": "ZA",
+    "countyId": 971,
     "number": 1,
     "name": "Guadeloupe",
     "results": {
@@ -23,7 +23,79 @@
                 "Nicolas Dupont-Aignan": 402,
                 "Eric Zemmour": 473
             }
+        },
+        "secondRound": {
+            "registered": 75952,
+            "voted": 34037,
+            "whites": 2025,
+            "expressed": 29954,
+            "void": 2058,
+            "candidates": {
+                "Emmanuel Macron": 8311,
+                "Marine Le Pen": 21643
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "720960",
+        "lastname": "Serva",
+        "firstname": "Olivier",
+        "slug": "olivier-serva",
+        "gender": "H",
+        "birthday": "1974-06-21",
+        "birthplace": "Pointe-à-Pitre (Guadeloupe)",
+        "county": "Guadeloupe",
+        "countyId": 971,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Expert comptable",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 115,
+            "reports": 16,
+            "proposals": 4,
+            "proposalsSupported": 78,
+            "amendments": 324,
+            "amendmentsSupported": 2483,
+            "amendmentsAdopted": 1150,
+            "commissionsAttended": 240,
+            "commissionInterventions": 1482,
+            "hemicycleInterventions": 246,
+            "hemicycleShortInterventions": 69,
+            "questionsWritten": 25,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Raphaël",
+            "lastname": "Cécé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Thierry",
+            "lastname": "Fabulas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 1
+        }
+    ]
 }

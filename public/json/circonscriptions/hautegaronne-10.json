@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1538,
                 "Eric Zemmour": 5606
             }
+        },
+        "secondRound": {
+            "registered": 102780,
+            "voted": 83138,
+            "whites": 6319,
+            "expressed": 74750,
+            "void": 2069,
+            "candidates": {
+                "Emmanuel Macron": 48517,
+                "Marine Le Pen": 26233
+            }
         }
+    },
+    "current": {
+        "id": "719464",
+        "lastname": "Nadot",
+        "firstname": "Sébastien",
+        "slug": "sebastien-nadot",
+        "gender": "H",
+        "birthday": "1972-07-08",
+        "birthplace": "Fleurance (Gers)",
+        "county": "Haute-Garonne",
+        "countyId": 31,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 150,
+            "reports": 2,
+            "proposals": 9,
+            "proposalsSupported": 94,
+            "amendments": 183,
+            "amendmentsSupported": 4277,
+            "amendmentsAdopted": 418,
+            "commissionsAttended": 223,
+            "commissionInterventions": 357,
+            "hemicycleInterventions": 116,
+            "hemicycleShortInterventions": 20,
+            "questionsWritten": 131,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascale",
             "lastname": "Ajac",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         },
         {
             "firstname": "Alice",
             "lastname": "Assier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         },
         {
             "firstname": "Sandrine",
             "lastname": "Conte Margail",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         },
         {
             "firstname": "Dominique",
             "lastname": "Faure",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Respaud-Hezard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         },
         {
             "firstname": "Lucile",
             "lastname": "Souche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 10
         }
     ]
 }

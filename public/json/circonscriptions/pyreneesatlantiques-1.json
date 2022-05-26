@@ -7,13 +7,13 @@
             "registered": 68649,
             "voted": 54048,
             "whites": 765,
-            "expressed": 52953,
-            "void": 330,
+            "expressed": 52954,
+            "void": 329,
             "candidates": {
                 "Nathalie Arthaud": 194,
                 "Fabien Roussel": 1291,
                 "Emmanuel Macron": 15767,
-                "Jean Lasalle": 4273,
+                "Jean Lasalle": 4274,
                 "Marine Le Pen": 9245,
                 "Jean-Luc Mélenchon": 10997,
                 "Anne Hidalgo": 1341,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 950,
                 "Eric Zemmour": 3505
             }
+        },
+        "secondRound": {
+            "registered": 68672,
+            "voted": 51844,
+            "whites": 4223,
+            "expressed": 46221,
+            "void": 1400,
+            "candidates": {
+                "Emmanuel Macron": 30271,
+                "Marine Le Pen": 15950
+            }
         }
+    },
+    "current": {
+        "id": "720720",
+        "lastname": "Poueyto",
+        "firstname": "Josy",
+        "slug": "josy-poueyto",
+        "gender": "F",
+        "birthday": "1954-01-13",
+        "birthplace": "Paris 4ème (Paris)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Retraitée de la fonction publique (hors enseignement)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 57,
+            "amendments": 44,
+            "amendmentsSupported": 3534,
+            "amendmentsAdopted": 720,
+            "commissionsAttended": 227,
+            "commissionInterventions": 106,
+            "hemicycleInterventions": 77,
+            "hemicycleShortInterventions": 39,
+            "questionsWritten": 4,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Agnès",
             "lastname": "Hegoburu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 1
         },
         {
             "firstname": "Sandrine",
             "lastname": "Lafargue",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Yves",
             "lastname": "Lalanne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 1
         },
         {
-            "id": "720720",
-            "lastname": "Poueyto",
             "firstname": "Josy",
-            "slug": "josy-poueyto",
+            "lastname": "Poueyto",
             "gender": "F",
-            "birthday": "1954-01-13",
-            "birthplace": "Paris 4ème (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 64,
             "county": "Pyrénées-Atlantiques",
-            "countyId": "64",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Retraitée de la fonction publique (hors enseignement)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 57,
-                "amendments": 44,
-                "amendmentsSupported": 3534,
-                "amendmentsAdopted": 720,
-                "commissionsAttended": 227,
-                "commissionInterventions": 106,
-                "hemicycleInterventions": 77,
-                "hemicycleShortInterventions": 39,
-                "questionsWritten": 4,
-                "questionsOral": 17
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Francois",
             "lastname": "Verriere",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 1
         }
     ]
 }

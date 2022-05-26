@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1096,
                 "Eric Zemmour": 3725
             }
+        },
+        "secondRound": {
+            "registered": 92286,
+            "voted": 62872,
+            "whites": 2992,
+            "expressed": 58595,
+            "void": 1285,
+            "candidates": {
+                "Emmanuel Macron": 23663,
+                "Marine Le Pen": 34932
+            }
         }
+    },
+    "current": {
+        "id": "720438",
+        "lastname": "Di Pompeo",
+        "firstname": "Christophe",
+        "slug": "christophe-di-pompeo",
+        "gender": "H",
+        "birthday": "1964-07-15",
+        "birthplace": "Hautmont (Nord)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur de faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 129,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 64,
+            "amendments": 15,
+            "amendmentsSupported": 1455,
+            "amendmentsAdopted": 910,
+            "commissionsAttended": 148,
+            "commissionInterventions": 54,
+            "hemicycleInterventions": 26,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 17,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sandra",
             "lastname": "Delannoy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 3
         },
         {
-            "id": "720438",
-            "lastname": "Di Pompeo",
             "firstname": "Christophe",
-            "slug": "christophe-di-pompeo",
+            "lastname": "Di Pompeo",
             "gender": "H",
-            "birthday": "1964-07-15",
-            "birthplace": "Hautmont (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur de faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 129,
-                "reports": 9,
-                "proposals": 0,
-                "proposalsSupported": 64,
-                "amendments": 15,
-                "amendmentsSupported": 1455,
-                "amendmentsAdopted": 910,
-                "commissionsAttended": 148,
-                "commissionInterventions": 54,
-                "hemicycleInterventions": 26,
-                "hemicycleShortInterventions": 1,
-                "questionsWritten": 17,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 3
         },
         {
             "firstname": "Nicolas",
             "lastname": "Leblanc",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 3
         },
         {
             "firstname": "Marie-Claude",
             "lastname": "Rondeaux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 3
         },
         {
             "firstname": "Sophie",
             "lastname": "Vilette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 3
         }
     ]
 }

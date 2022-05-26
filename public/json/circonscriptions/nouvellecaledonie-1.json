@@ -1,5 +1,5 @@
 {
-    "countyId": "ZN",
+    "countyId": 988,
     "number": 1,
     "name": "Nouvelle-Calédonie",
     "results": {
@@ -23,7 +23,79 @@
                 "Nicolas Dupont-Aignan": 1328,
                 "Eric Zemmour": 3603
             }
+        },
+        "secondRound": {
+            "registered": 96748,
+            "voted": 35716,
+            "whites": 1418,
+            "expressed": 33794,
+            "void": 504,
+            "candidates": {
+                "Emmanuel Macron": 21575,
+                "Marine Le Pen": 12219
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "721094",
+        "lastname": "Dunoyer",
+        "firstname": "Philippe",
+        "slug": "philippe-dunoyer",
+        "gender": "H",
+        "birthday": "1968-01-11",
+        "birthplace": "Nouméa (Nouvelle-Calédonie)",
+        "county": "Nouvelle-Calédonie",
+        "countyId": 988,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Calédonie Ensemble",
+        "groupShort": "UDI",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 65,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 57,
+            "amendments": 348,
+            "amendmentsSupported": 6796,
+            "amendmentsAdopted": 329,
+            "commissionsAttended": 109,
+            "commissionInterventions": 131,
+            "hemicycleInterventions": 240,
+            "hemicycleShortInterventions": 26,
+            "questionsWritten": 21,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Béatrice",
+            "lastname": "Caze",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 988,
+            "county": "Nouvelle-Calédonie",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Philippe",
+            "lastname": "Dunoyer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 988,
+            "county": "Nouvelle-Calédonie",
+            "circumscription": 1
+        }
+    ]
 }

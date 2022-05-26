@@ -54,27 +54,3 @@
 .group {
     margin-top: 30px;
 }
-
-.details li {
-    font-size: var(--font-size-small);
-}
-.details h3,
-.details h4,
-.details h5 {
-    margin: 15px 0 5px;
-}
-
-.scandal {
-    color: var(--color-alert);
-}
-
-
-@media screen and (max-width:767px) {
-    .details {
-        order: 3;
-    }
-
-    .details li {
-        font-size: var(--font-size-medium);
-    }
-}

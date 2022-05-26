@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1821,
                 "Eric Zemmour": 5446
             }
+        },
+        "secondRound": {
+            "registered": 109399,
+            "voted": 82492,
+            "whites": 6621,
+            "expressed": 72567,
+            "void": 3304,
+            "candidates": {
+                "Emmanuel Macron": 38582,
+                "Marine Le Pen": 33985
+            }
         }
+    },
+    "current": {
+        "id": "721542",
+        "lastname": "Verdier-Jouclas",
+        "firstname": "Marie-Christine",
+        "slug": "mariechristine-verdierjouclas",
+        "gender": "F",
+        "birthday": "1965-03-19",
+        "birthplace": "Albi (Tarn)",
+        "county": "Tarn",
+        "countyId": 81,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directrice d'agence bancaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 12,
+            "proposals": 3,
+            "proposalsSupported": 78,
+            "amendments": 300,
+            "amendmentsSupported": 2539,
+            "amendmentsAdopted": 1330,
+            "commissionsAttended": 317,
+            "commissionInterventions": 214,
+            "hemicycleInterventions": 596,
+            "hemicycleShortInterventions": 728,
+            "questionsWritten": 39,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Julien",
             "lastname": "Bacou",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         },
         {
             "firstname": "Joël",
             "lastname": "Encontre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         },
         {
             "firstname": "Karen",
             "lastname": "Erodi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         },
         {
             "firstname": "Boris",
             "lastname": "Gimenez Sastre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         },
         {
-            "id": "721542",
-            "lastname": "Verdier-Jouclas",
             "firstname": "Marie-Christine",
-            "slug": "mariechristine-verdierjouclas",
+            "lastname": "Verdier-Jouclas",
             "gender": "F",
-            "birthday": "1965-03-19",
-            "birthplace": "Albi (Tarn)",
-            "county": "Tarn",
-            "countyId": "81",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Directrice d'agence bancaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 12,
-                "proposals": 3,
-                "proposalsSupported": 78,
-                "amendments": 300,
-                "amendmentsSupported": 2539,
-                "amendmentsAdopted": 1330,
-                "commissionsAttended": 317,
-                "commissionInterventions": 214,
-                "hemicycleInterventions": 596,
-                "hemicycleShortInterventions": 728,
-                "questionsWritten": 39,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         },
         {
             "firstname": "Karl-Henri",
             "lastname": "Voizard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 2
         }
     ]
 }

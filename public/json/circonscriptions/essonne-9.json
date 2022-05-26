@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1576,
                 "Eric Zemmour": 4040
             }
+        },
+        "secondRound": {
+            "registered": 78437,
+            "voted": 54808,
+            "whites": 3688,
+            "expressed": 50007,
+            "void": 1113,
+            "candidates": {
+                "Emmanuel Macron": 32320,
+                "Marine Le Pen": 17687
+            }
         }
+    },
+    "current": {
+        "id": "721880",
+        "lastname": "Guévenoux",
+        "firstname": "Marie",
+        "slug": "marie-guevenoux",
+        "gender": "F",
+        "birthday": "1976-11-02",
+        "birthplace": "Amiens (Somme)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Collaborateur politique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 8,
+            "proposals": 0,
+            "proposalsSupported": 58,
+            "amendments": 120,
+            "amendmentsSupported": 1764,
+            "amendmentsAdopted": 1135,
+            "commissionsAttended": 266,
+            "commissionInterventions": 335,
+            "hemicycleInterventions": 396,
+            "hemicycleShortInterventions": 164,
+            "questionsWritten": 13,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nadhéra",
             "lastname": "Beletreche",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         },
         {
             "firstname": "Antonin",
             "lastname": "Bernard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         },
         {
             "firstname": "Véronique",
             "lastname": "Carantois",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         },
         {
             "firstname": "Benoit",
             "lastname": "Grisaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         },
         {
-            "id": "721880",
-            "lastname": "Guévenoux",
             "firstname": "Marie",
-            "slug": "marie-guevenoux",
+            "lastname": "Guévenoux",
             "gender": "F",
-            "birthday": "1976-11-02",
-            "birthplace": "Amiens (Somme)",
-            "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Collaborateur politique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 151,
-                "reports": 8,
-                "proposals": 0,
-                "proposalsSupported": 58,
-                "amendments": 120,
-                "amendmentsSupported": 1764,
-                "amendmentsAdopted": 1135,
-                "commissionsAttended": 266,
-                "commissionInterventions": 335,
-                "hemicycleInterventions": 396,
-                "hemicycleShortInterventions": 164,
-                "questionsWritten": 13,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         },
         {
             "firstname": "Philippe",
             "lastname": "Steens",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 9
         }
     ]
 }

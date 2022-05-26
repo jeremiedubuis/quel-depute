@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 76591,
-            "voted": 56323,
-            "whites": 760,
+            "voted": 56324,
+            "whites": 759,
             "expressed": 55179,
-            "void": 384,
+            "void": 386,
             "candidates": {
                 "Nathalie Arthaud": 360,
                 "Fabien Roussel": 1256,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1303,
                 "Eric Zemmour": 3889
             }
+        },
+        "secondRound": {
+            "registered": 76627,
+            "voted": 56513,
+            "whites": 3008,
+            "expressed": 52259,
+            "void": 1246,
+            "candidates": {
+                "Emmanuel Macron": 26677,
+                "Marine Le Pen": 25582
+            }
         }
+    },
+    "current": {
+        "id": "720230",
+        "lastname": "Magnier",
+        "firstname": "Lise",
+        "slug": "lise-magnier",
+        "gender": "F",
+        "birthday": "1984-12-31",
+        "birthplace": "Châlons-sur-Marne (Marne)",
+        "county": "Marne",
+        "countyId": 51,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "cadre territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 165,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 154,
+            "amendments": 1436,
+            "amendmentsSupported": 7062,
+            "amendmentsAdopted": 544,
+            "commissionsAttended": 269,
+            "commissionInterventions": 315,
+            "hemicycleInterventions": 580,
+            "hemicycleShortInterventions": 131,
+            "questionsWritten": 157,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Thierry",
             "lastname": "Besson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Remy",
             "lastname": "Cruz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Laurent",
             "lastname": "Gosseau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 4
         },
         {
-            "id": "720230",
-            "lastname": "Magnier",
             "firstname": "Lise",
-            "slug": "lise-magnier",
+            "lastname": "Magnier",
             "gender": "F",
-            "birthday": "1984-12-31",
-            "birthplace": "Châlons-sur-Marne (Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 51,
             "county": "Marne",
-            "countyId": "51",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "cadre territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 165,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 154,
-                "amendments": 1436,
-                "amendmentsSupported": 7062,
-                "amendmentsAdopted": 544,
-                "commissionsAttended": 269,
-                "commissionInterventions": 315,
-                "hemicycleInterventions": 580,
-                "hemicycleShortInterventions": 131,
-                "questionsWritten": 157,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Anthony",
             "lastname": "Smith",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 4
         }
     ]
 }

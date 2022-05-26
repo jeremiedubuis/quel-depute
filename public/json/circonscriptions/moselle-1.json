@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1134,
                 "Eric Zemmour": 4665
             }
+        },
+        "secondRound": {
+            "registered": 92626,
+            "voted": 64823,
+            "whites": 3883,
+            "expressed": 59926,
+            "void": 1014,
+            "candidates": {
+                "Emmanuel Macron": 32771,
+                "Marine Le Pen": 27155
+            }
         }
+    },
+    "current": {
+        "id": "720362",
+        "lastname": "Belhaddad",
+        "firstname": "Belkhir",
+        "slug": "belkhir-belhaddad",
+        "gender": "H",
+        "birthday": "1969-07-09",
+        "birthplace": "Timgad (Algérie)",
+        "county": "Moselle",
+        "countyId": 57,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 191,
+            "amendmentsSupported": 2743,
+            "amendmentsAdopted": 1346,
+            "commissionsAttended": 375,
+            "commissionInterventions": 216,
+            "hemicycleInterventions": 168,
+            "hemicycleShortInterventions": 31,
+            "questionsWritten": 65,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720362",
-            "lastname": "Belhaddad",
             "firstname": "Belkhir",
-            "slug": "belkhir-belhaddad",
+            "lastname": "Belhaddad",
             "gender": "H",
-            "birthday": "1969-07-09",
-            "birthplace": "Timgad (Algérie)",
-            "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 191,
-                "amendmentsSupported": 2743,
-                "amendmentsAdopted": 1346,
-                "commissionsAttended": 375,
-                "commissionInterventions": 216,
-                "hemicycleInterventions": 168,
-                "hemicycleShortInterventions": 31,
-                "questionsWritten": 65,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Didier",
             "lastname": "Georget",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Louise",
             "lastname": "Kuntz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Grégoire",
             "lastname": "Laloux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 1
         },
         {
             "firstname": "Esther",
             "lastname": "Leick",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 1
         }
     ]
 }

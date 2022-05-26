@@ -7,14 +7,14 @@
             "registered": 105914,
             "voted": 80963,
             "whites": 1230,
-            "expressed": 79157,
-            "void": 576,
+            "expressed": 79159,
+            "void": 574,
             "candidates": {
                 "Nathalie Arthaud": 629,
                 "Fabien Roussel": 972,
-                "Emmanuel Macron": 23942,
+                "Emmanuel Macron": 23943,
                 "Jean Lasalle": 2520,
-                "Marine Le Pen": 23108,
+                "Marine Le Pen": 23109,
                 "Jean-Luc Mélenchon": 11015,
                 "Anne Hidalgo": 1052,
                 "Yannick Jadot": 3965,
@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 2739,
                 "Eric Zemmour": 5389
             }
+        },
+        "secondRound": {
+            "registered": 105940,
+            "voted": 80651,
+            "whites": 4205,
+            "expressed": 75146,
+            "void": 1300,
+            "candidates": {
+                "Emmanuel Macron": 40340,
+                "Marine Le Pen": 34806
+            }
         }
+    },
+    "current": {
+        "id": "267355",
+        "lastname": "Herth",
+        "firstname": "Antoine",
+        "slug": "antoine-herth",
+        "gender": "H",
+        "birthday": "1963-02-14",
+        "birthplace": "Sélestat (Bas-Rhin)",
+        "county": "Bas-Rhin",
+        "countyId": 67,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 4,
+            "proposals": 3,
+            "proposalsSupported": 122,
+            "amendments": 264,
+            "amendmentsSupported": 5958,
+            "amendmentsAdopted": 432,
+            "commissionsAttended": 261,
+            "commissionInterventions": 351,
+            "hemicycleInterventions": 191,
+            "hemicycleShortInterventions": 55,
+            "questionsWritten": 65,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patrick",
             "lastname": "Dutter",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Charles",
             "lastname": "Sitzenstuhl",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Véronique",
             "lastname": "Toulza",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Marc",
             "lastname": "Wolff",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 5
         }
     ]
 }

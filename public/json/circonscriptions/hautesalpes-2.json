@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 54033,
             "voted": 42277,
-            "whites": 661,
+            "whites": 664,
             "expressed": 41368,
-            "void": 248,
+            "void": 245,
             "candidates": {
                 "Nathalie Arthaud": 194,
                 "Fabien Roussel": 890,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 995,
                 "Eric Zemmour": 2797
             }
+        },
+        "secondRound": {
+            "registered": 54035,
+            "voted": 41101,
+            "whites": 3723,
+            "expressed": 36362,
+            "void": 1016,
+            "candidates": {
+                "Emmanuel Macron": 20742,
+                "Marine Le Pen": 15620
+            }
         }
+    },
+    "current": {
+        "id": "267337",
+        "lastname": "Bouchet",
+        "firstname": "Claire",
+        "slug": "claire-bouchet",
+        "gender": "F",
+        "birthday": "1954-01-09",
+        "birthplace": "Gap (Hautes-Alpes)",
+        "county": "Hautes-Alpes",
+        "countyId": 5,
+        "circumscription": 2,
+        "mandateStart": "2020-08-27",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Employée de la fonction publique retraitée",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 32,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 49,
+            "amendments": 8,
+            "amendmentsSupported": 1026,
+            "amendmentsAdopted": 507,
+            "commissionsAttended": 15,
+            "commissionInterventions": 7,
+            "hemicycleInterventions": 8,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 6,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Louis",
             "lastname": "Albrand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         },
         {
             "firstname": "Carole",
             "lastname": "Chauvet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         },
         {
             "firstname": "Capucine",
             "lastname": "Gambier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         },
         {
-            "id": "267336",
-            "lastname": "Giraud",
             "firstname": "Joël",
-            "slug": "joel-giraud",
+            "lastname": "Giraud",
             "gender": "H",
-            "birthday": "1959-10-14",
-            "birthplace": "Gap (Hautes-Alpes)",
-            "county": "Hautes-Alpes",
-            "countyId": "05",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Non rattaché",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Administrateur civil hors-classe",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 121,
-                "reports": 48,
-                "proposals": 0,
-                "proposalsSupported": 55,
-                "amendments": 1630,
-                "amendmentsSupported": 3770,
-                "amendmentsAdopted": 2712,
-                "commissionsAttended": 369,
-                "commissionInterventions": 3404,
-                "hemicycleInterventions": 2632,
-                "hemicycleShortInterventions": 1945,
-                "questionsWritten": 64,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         },
         {
             "firstname": "Boris",
             "lastname": "Guignard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         },
         {
             "firstname": "Yann",
             "lastname": "Passereau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 5,
+            "county": "Hautes-Alpes",
+            "circumscription": 2
         }
     ]
 }

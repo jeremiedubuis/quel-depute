@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1121,
                 "Eric Zemmour": 3998
             }
+        },
+        "secondRound": {
+            "registered": 70771,
+            "voted": 47667,
+            "whites": 3138,
+            "expressed": 43614,
+            "void": 915,
+            "candidates": {
+                "Emmanuel Macron": 26295,
+                "Marine Le Pen": 17319
+            }
         }
+    },
+    "current": {
+        "id": "721530",
+        "lastname": "Luquet",
+        "firstname": "Aude",
+        "slug": "aude-luquet",
+        "gender": "F",
+        "birthday": "1967-08-18",
+        "birthplace": "Melun (Seine-et-Marne)",
+        "county": "Seine-et-Marne",
+        "countyId": 77,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 53,
+            "amendments": 294,
+            "amendmentsSupported": 3620,
+            "amendmentsAdopted": 767,
+            "commissionsAttended": 210,
+            "commissionInterventions": 180,
+            "hemicycleInterventions": 182,
+            "hemicycleShortInterventions": 13,
+            "questionsWritten": 51,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Louis",
             "lastname": "Guerrier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Denis",
             "lastname": "Jullemier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 1
         },
         {
-            "id": "721530",
-            "lastname": "Luquet",
             "firstname": "Aude",
-            "slug": "aude-luquet",
+            "lastname": "Luquet",
             "gender": "F",
-            "birthday": "1967-08-18",
-            "birthplace": "Melun (Seine-et-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 77,
             "county": "Seine-et-Marne",
-            "countyId": "77",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Autre profession",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 168,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 53,
-                "amendments": 294,
-                "amendmentsSupported": 3620,
-                "amendmentsAdopted": 767,
-                "commissionsAttended": 210,
-                "commissionInterventions": 180,
-                "hemicycleInterventions": 182,
-                "hemicycleShortInterventions": 13,
-                "questionsWritten": 51,
-                "questionsOral": 22
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "François",
             "lastname": "Paradol",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Arnaud",
             "lastname": "Saint-Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Caroline",
             "lastname": "Sauget",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 1
         }
     ]
 }

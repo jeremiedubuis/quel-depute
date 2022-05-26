@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1826,
                 "Eric Zemmour": 5152
             }
+        },
+        "secondRound": {
+            "registered": 98309,
+            "voted": 72696,
+            "whites": 5165,
+            "expressed": 65991,
+            "void": 1540,
+            "candidates": {
+                "Emmanuel Macron": 39831,
+                "Marine Le Pen": 26160
+            }
         }
+    },
+    "current": {
+        "id": "722022",
+        "lastname": "Romeiro Dias",
+        "firstname": "Laëtitia",
+        "slug": "laetitia-romeiro-dias",
+        "gender": "F",
+        "birthday": "1981-01-15",
+        "birthplace": "Paris 13ème (Paris)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Juriste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 7,
+            "proposals": 4,
+            "proposalsSupported": 81,
+            "amendments": 110,
+            "amendmentsSupported": 2602,
+            "amendmentsAdopted": 1414,
+            "commissionsAttended": 255,
+            "commissionInterventions": 219,
+            "hemicycleInterventions": 178,
+            "hemicycleShortInterventions": 68,
+            "questionsWritten": 11,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Steevy",
             "lastname": "Gustave",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         },
         {
             "firstname": "Alexis",
             "lastname": "Izard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         },
         {
             "firstname": "Gérard",
             "lastname": "Lemoigne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         },
         {
             "firstname": "Joëlle",
             "lastname": "Lopès-Venot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         },
         {
             "firstname": "Gilbert",
             "lastname": "Mousnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         },
         {
             "firstname": "Isabelle",
             "lastname": "Perdereau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 3
         }
     ]
 }

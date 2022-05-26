@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 71473,
             "voted": 57220,
-            "whites": 704,
-            "expressed": 56302,
-            "void": 214,
+            "whites": 705,
+            "expressed": 56303,
+            "void": 212,
             "candidates": {
                 "Nathalie Arthaud": 205,
                 "Fabien Roussel": 975,
                 "Emmanuel Macron": 17388,
                 "Jean Lasalle": 925,
                 "Marine Le Pen": 6059,
-                "Jean-Luc Mélenchon": 17757,
+                "Jean-Luc Mélenchon": 17758,
                 "Anne Hidalgo": 1086,
                 "Yannick Jadot": 4002,
                 "Valérie Pécresse": 2753,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 824,
                 "Eric Zemmour": 3985
             }
+        },
+        "secondRound": {
+            "registered": 71509,
+            "voted": 52765,
+            "whites": 2979,
+            "expressed": 48888,
+            "void": 898,
+            "candidates": {
+                "Emmanuel Macron": 37725,
+                "Marine Le Pen": 11163
+            }
         }
+    },
+    "current": {
+        "id": "722292",
+        "lastname": "Rudigoz",
+        "firstname": "Thomas",
+        "slug": "thomas-rudigoz",
+        "gender": "H",
+        "birthday": "1971-01-11",
+        "birthplace": "Lyon (Rhône)",
+        "county": "Rhône",
+        "countyId": 69,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 65,
+            "amendments": 136,
+            "amendmentsSupported": 1769,
+            "amendmentsAdopted": 652,
+            "commissionsAttended": 248,
+            "commissionInterventions": 126,
+            "hemicycleInterventions": 167,
+            "hemicycleShortInterventions": 63,
+            "questionsWritten": 61,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jim",
             "lastname": "Bugni",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Patrick",
             "lastname": "Charron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Voliara",
             "lastname": "Gagarine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Aurélie",
             "lastname": "Gries",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Anne",
             "lastname": "Prost",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         },
         {
-            "id": "722292",
-            "lastname": "Rudigoz",
             "firstname": "Thomas",
-            "slug": "thomas-rudigoz",
+            "lastname": "Rudigoz",
             "gender": "H",
-            "birthday": "1971-01-11",
-            "birthplace": "Lyon (Rhône)",
-            "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 164,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 65,
-                "amendments": 136,
-                "amendmentsSupported": 1769,
-                "amendmentsAdopted": 652,
-                "commissionsAttended": 248,
-                "commissionInterventions": 126,
-                "hemicycleInterventions": 167,
-                "hemicycleShortInterventions": 63,
-                "questionsWritten": 61,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 1
         }
     ]
 }

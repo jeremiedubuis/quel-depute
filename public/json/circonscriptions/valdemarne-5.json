@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1014,
                 "Eric Zemmour": 5544
             }
+        },
+        "secondRound": {
+            "registered": 89882,
+            "voted": 62150,
+            "whites": 3787,
+            "expressed": 57453,
+            "void": 910,
+            "candidates": {
+                "Emmanuel Macron": 43297,
+                "Marine Le Pen": 14156
+            }
         }
+    },
+    "current": {
+        "id": "746",
+        "lastname": "Carrez",
+        "firstname": "Gilles",
+        "slug": "gilles-carrez",
+        "gender": "H",
+        "birthday": "1948-08-29",
+        "birthplace": "Paris (Paris)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Fonctionnaire de l'État retraité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 137,
+            "reports": 9,
+            "proposals": 1,
+            "proposalsSupported": 31,
+            "amendments": 84,
+            "amendmentsSupported": 2277,
+            "amendmentsAdopted": 113,
+            "commissionsAttended": 192,
+            "commissionInterventions": 331,
+            "hemicycleInterventions": 561,
+            "hemicycleShortInterventions": 418,
+            "questionsWritten": 2,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Paul",
             "lastname": "Bazin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Frédéric",
             "lastname": "Duboucher",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Maxime",
             "lastname": "Henry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Isabelle",
             "lastname": "Huguenin-Richard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "François",
             "lastname": "Joslin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Mathieu",
             "lastname": "Lefevre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Julien",
             "lastname": "Léger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 5
         }
     ]
 }

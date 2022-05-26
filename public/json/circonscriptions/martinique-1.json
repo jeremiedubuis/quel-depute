@@ -1,5 +1,5 @@
 {
-    "countyId": "ZB",
+    "countyId": 972,
     "number": 1,
     "name": "Martinique",
     "results": {
@@ -23,7 +23,103 @@
                 "Nicolas Dupont-Aignan": 787,
                 "Eric Zemmour": 1033
             }
+        },
+        "secondRound": {
+            "registered": 80071,
+            "voted": 37285,
+            "whites": 2998,
+            "expressed": 32316,
+            "void": 1971,
+            "candidates": {
+                "Emmanuel Macron": 11899,
+                "Marine Le Pen": 20417
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "720988",
+        "lastname": "Manin",
+        "firstname": "Josette",
+        "slug": "josette-manin",
+        "gender": "F",
+        "birthday": "1950-03-16",
+        "birthplace": "Lamentin (Martinique)",
+        "county": "Martinique",
+        "countyId": 972,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti progressiste martiniquais",
+        "groupShort": "SOC",
+        "job": "Retraitée salariée (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 96,
+            "reports": 2,
+            "proposals": 3,
+            "proposalsSupported": 70,
+            "amendments": 410,
+            "amendmentsSupported": 15538,
+            "amendmentsAdopted": 810,
+            "commissionsAttended": 147,
+            "commissionInterventions": 173,
+            "hemicycleInterventions": 203,
+            "hemicycleShortInterventions": 40,
+            "questionsWritten": 58,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Charles",
+            "lastname": "Belimont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Béatrice",
+            "lastname": "Bellay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Marie Hellen",
+            "lastname": "Marthe Dite Surelly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Jonathan",
+            "lastname": "Tabar",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 1
+        }
+    ]
 }

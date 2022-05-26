@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 781,
                 "Eric Zemmour": 3828
             }
+        },
+        "secondRound": {
+            "registered": 76934,
+            "voted": 56621,
+            "whites": 3943,
+            "expressed": 51980,
+            "void": 698,
+            "candidates": {
+                "Emmanuel Macron": 41332,
+                "Marine Le Pen": 10648
+            }
         }
+    },
+    "current": {
+        "id": "719910",
+        "lastname": "Belhamiti",
+        "firstname": "Mounir",
+        "slug": "mounir-belhamiti",
+        "gender": "H",
+        "birthday": "1985-03-08",
+        "birthplace": "Nantes (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": 44,
+        "circumscription": 1,
+        "mandateStart": "2018-10-05",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieur chef de projet digital",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 31,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 13,
+            "amendments": 19,
+            "amendmentsSupported": 604,
+            "amendmentsAdopted": 269,
+            "commissionsAttended": 33,
+            "commissionInterventions": 25,
+            "hemicycleInterventions": 7,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 17,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719910",
-            "lastname": "Belhamiti",
             "firstname": "Mounir",
-            "slug": "mounir-belhamiti",
+            "lastname": "Belhamiti",
             "gender": "H",
-            "birthday": "1985-03-08",
-            "birthplace": "Nantes (Loire-Atlantique)",
-            "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 1,
-            "mandateStart": "2018-10-05",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur chef de projet digital",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 31,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 13,
-                "amendments": 19,
-                "amendmentsSupported": 604,
-                "amendmentsAdopted": 269,
-                "commissionsAttended": 33,
-                "commissionInterventions": 25,
-                "hemicycleInterventions": 7,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 17,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Karim",
             "lastname": "Benbrahim",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Anthony",
             "lastname": "Béraud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Hélène",
             "lastname": "Defrance",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Carol",
             "lastname": "Godon",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Vincent",
             "lastname": "Menant",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Nicolas",
             "lastname": "Patard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         },
         {
             "firstname": "Bryan",
             "lastname": "Pecqueur",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 1
         }
     ]
 }

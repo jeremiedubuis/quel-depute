@@ -4,17 +4,17 @@
     "name": "Côte-d'Or",
     "results": {
         "firstRound": {
-            "registered": 85482,
-            "voted": 67076,
-            "whites": 1110,
-            "expressed": 65581,
-            "void": 385,
+            "registered": 85480,
+            "voted": 67074,
+            "whites": 1097,
+            "expressed": 65578,
+            "void": 399,
             "candidates": {
                 "Nathalie Arthaud": 416,
                 "Fabien Roussel": 1269,
-                "Emmanuel Macron": 19041,
+                "Emmanuel Macron": 19039,
                 "Jean Lasalle": 2248,
-                "Marine Le Pen": 18583,
+                "Marine Le Pen": 18582,
                 "Jean-Luc Mélenchon": 9357,
                 "Anne Hidalgo": 1078,
                 "Yannick Jadot": 2796,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1620,
                 "Eric Zemmour": 5175
             }
+        },
+        "secondRound": {
+            "registered": 85499,
+            "voted": 65564,
+            "whites": 4341,
+            "expressed": 59971,
+            "void": 1252,
+            "candidates": {
+                "Emmanuel Macron": 31634,
+                "Marine Le Pen": 28337
+            }
         }
+    },
+    "current": {
+        "id": "719202",
+        "lastname": "Paris",
+        "firstname": "Didier",
+        "slug": "didier-paris",
+        "gender": "H",
+        "birthday": "1954-02-14",
+        "birthplace": "Paris (Paris)",
+        "county": "Côte-d'Or",
+        "countyId": 21,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 15,
+            "proposals": 0,
+            "proposalsSupported": 62,
+            "amendments": 306,
+            "amendmentsSupported": 2100,
+            "amendmentsAdopted": 1368,
+            "commissionsAttended": 327,
+            "commissionInterventions": 964,
+            "hemicycleInterventions": 457,
+            "hemicycleShortInterventions": 238,
+            "questionsWritten": 12,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Isabelle de",
             "lastname": "Almeida",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 5
         },
         {
             "firstname": "René",
             "lastname": "Lioret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 5
         },
         {
-            "id": "719202",
-            "lastname": "Paris",
             "firstname": "Didier",
-            "slug": "didier-paris",
+            "lastname": "Paris",
             "gender": "H",
-            "birthday": "1954-02-14",
-            "birthplace": "Paris (Paris)",
-            "county": "Côte-d'Or",
-            "countyId": "21",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 15,
-                "proposals": 0,
-                "proposalsSupported": 62,
-                "amendments": 306,
-                "amendmentsSupported": 2100,
-                "amendmentsAdopted": 1368,
-                "commissionsAttended": 327,
-                "commissionInterventions": 964,
-                "hemicycleInterventions": 457,
-                "hemicycleShortInterventions": 238,
-                "questionsWritten": 12,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 5
         },
         {
             "firstname": "François",
             "lastname": "Petet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 5
         },
         {
             "firstname": "Françoise",
             "lastname": "Petet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 5
         }
     ]
 }

@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1202,
                 "Eric Zemmour": 4366
             }
+        },
+        "secondRound": {
+            "registered": 77882,
+            "voted": 54978,
+            "whites": 3570,
+            "expressed": 50294,
+            "void": 1114,
+            "candidates": {
+                "Emmanuel Macron": 31745,
+                "Marine Le Pen": 18549
+            }
         }
+    },
+    "current": {
+        "id": "721262",
+        "lastname": "Vuilletet",
+        "firstname": "Guillaume",
+        "slug": "guillaume-vuilletet",
+        "gender": "H",
+        "birthday": "1967-06-20",
+        "birthplace": "Beauvais (Oise)",
+        "county": "Val-d'Oise",
+        "countyId": 95,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 17,
+            "proposals": 3,
+            "proposalsSupported": 64,
+            "amendments": 201,
+            "amendmentsSupported": 2169,
+            "amendmentsAdopted": 1302,
+            "commissionsAttended": 385,
+            "commissionInterventions": 398,
+            "hemicycleInterventions": 336,
+            "hemicycleShortInterventions": 79,
+            "questionsWritten": 74,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Caroline",
             "lastname": "Berdou",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
             "firstname": "Éric",
             "lastname": "Cassan",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
             "firstname": "Morgane",
             "lastname": "Frappa",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
             "firstname": "Sylvie",
             "lastname": "Geoffroy-Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
             "firstname": "Jérôme",
             "lastname": "Nicolle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
             "firstname": "Nadejda",
             "lastname": "Remy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         },
         {
-            "id": "721262",
-            "lastname": "Vuilletet",
             "firstname": "Guillaume",
-            "slug": "guillaume-vuilletet",
+            "lastname": "Vuilletet",
             "gender": "H",
-            "birthday": "1967-06-20",
-            "birthplace": "Beauvais (Oise)",
-            "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 181,
-                "reports": 17,
-                "proposals": 3,
-                "proposalsSupported": 64,
-                "amendments": 201,
-                "amendmentsSupported": 2169,
-                "amendmentsAdopted": 1302,
-                "commissionsAttended": 385,
-                "commissionInterventions": 398,
-                "hemicycleInterventions": 336,
-                "hemicycleShortInterventions": 79,
-                "questionsWritten": 74,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 2
         }
     ]
 }

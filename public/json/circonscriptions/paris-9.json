@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 70328,
-            "voted": 54612,
-            "whites": 672,
-            "expressed": 53652,
-            "void": 288,
+            "voted": 54611,
+            "whites": 671,
+            "expressed": 53653,
+            "void": 287,
             "candidates": {
                 "Nathalie Arthaud": 232,
                 "Fabien Roussel": 1248,
-                "Emmanuel Macron": 16009,
+                "Emmanuel Macron": 16010,
                 "Jean Lasalle": 758,
                 "Marine Le Pen": 3678,
                 "Jean-Luc Mélenchon": 19505,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 650,
                 "Eric Zemmour": 3412
             }
+        },
+        "secondRound": {
+            "registered": 70367,
+            "voted": 50683,
+            "whites": 3119,
+            "expressed": 46577,
+            "void": 987,
+            "candidates": {
+                "Emmanuel Macron": 38302,
+                "Marine Le Pen": 8275
+            }
         }
+    },
+    "current": {
+        "id": "721690",
+        "lastname": "Tan",
+        "firstname": "Buon",
+        "slug": "buon-tan",
+        "gender": "H",
+        "birthday": "1967-03-10",
+        "birthplace": "Phnom Penh (Cambodge)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 141,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 68,
+            "amendments": 182,
+            "amendmentsSupported": 1777,
+            "amendmentsAdopted": 973,
+            "commissionsAttended": 198,
+            "commissionInterventions": 171,
+            "hemicycleInterventions": 67,
+            "hemicycleShortInterventions": 8,
+            "questionsWritten": 23,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Florence",
             "lastname": "Bedague",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Pierre",
             "lastname": "Beyssac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Béatrice",
             "lastname": "Cossart",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Mireille",
             "lastname": "Delafond",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Jean-Baptiste",
             "lastname": "Olivier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Sandrine",
             "lastname": "Rousseau",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
             "firstname": "Sandrine",
             "lastname": "Rousseau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "LMR",
             "groupShort": "LMR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         },
         {
-            "id": "721690",
-            "lastname": "Tan",
             "firstname": "Buon",
-            "slug": "buon-tan",
+            "lastname": "Tan",
             "gender": "H",
-            "birthday": "1967-03-10",
-            "birthplace": "Phnom Penh (Cambodge)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 141,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 68,
-                "amendments": 182,
-                "amendmentsSupported": 1777,
-                "amendmentsAdopted": 973,
-                "commissionsAttended": 198,
-                "commissionInterventions": 171,
-                "hemicycleInterventions": 67,
-                "hemicycleShortInterventions": 8,
-                "questionsWritten": 23,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 9
         }
     ]
 }

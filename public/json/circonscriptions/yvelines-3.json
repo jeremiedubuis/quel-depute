@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1018,
                 "Eric Zemmour": 7635
             }
+        },
+        "secondRound": {
+            "registered": 83294,
+            "voted": 63591,
+            "whites": 3380,
+            "expressed": 59375,
+            "void": 836,
+            "candidates": {
+                "Emmanuel Macron": 43890,
+                "Marine Le Pen": 15485
+            }
         }
+    },
+    "current": {
+        "id": "721844",
+        "lastname": "Piron",
+        "firstname": "Béatrice",
+        "slug": "beatrice-piron",
+        "gender": "F",
+        "birthday": "1965-08-30",
+        "birthplace": "Martigues (Bouches-du-Rhône)",
+        "county": "Yvelines",
+        "countyId": 78,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 77,
+            "amendments": 214,
+            "amendmentsSupported": 3737,
+            "amendmentsAdopted": 1252,
+            "commissionsAttended": 257,
+            "commissionInterventions": 309,
+            "hemicycleInterventions": 114,
+            "hemicycleShortInterventions": 24,
+            "questionsWritten": 20,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Olivier",
             "lastname": "Augustin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
             "firstname": "Louise",
             "lastname": "Brody",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
             "firstname": "Bertrand",
             "lastname": "Coquard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-François",
             "lastname": "Cuignet",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
             "firstname": "Lionel",
             "lastname": "Deschamps",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
             "firstname": "Pierre-Yves",
             "lastname": "Pinchaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         },
         {
-            "id": "721844",
-            "lastname": "Piron",
             "firstname": "Béatrice",
-            "slug": "beatrice-piron",
+            "lastname": "Piron",
             "gender": "F",
-            "birthday": "1965-08-30",
-            "birthplace": "Martigues (Bouches-du-Rhône)",
-            "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 5,
-                "proposals": 0,
-                "proposalsSupported": 77,
-                "amendments": 214,
-                "amendmentsSupported": 3737,
-                "amendmentsAdopted": 1252,
-                "commissionsAttended": 257,
-                "commissionInterventions": 309,
-                "hemicycleInterventions": 114,
-                "hemicycleShortInterventions": 24,
-                "questionsWritten": 20,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 3
         }
     ]
 }

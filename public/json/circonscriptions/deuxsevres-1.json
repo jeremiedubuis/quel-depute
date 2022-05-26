@@ -4,11 +4,11 @@
     "name": "Deux-Sèvres",
     "results": {
         "firstRound": {
-            "registered": 90469,
+            "registered": 90470,
             "voted": 71167,
-            "whites": 1259,
+            "whites": 1272,
             "expressed": 69333,
-            "void": 575,
+            "void": 562,
             "candidates": {
                 "Nathalie Arthaud": 475,
                 "Fabien Roussel": 1642,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1315,
                 "Eric Zemmour": 2852
             }
+        },
+        "secondRound": {
+            "registered": 90487,
+            "voted": 68842,
+            "whites": 4803,
+            "expressed": 62140,
+            "void": 1899,
+            "candidates": {
+                "Emmanuel Macron": 42609,
+                "Marine Le Pen": 19531
+            }
         }
+    },
+    "current": {
+        "id": "722126",
+        "lastname": "Chiche",
+        "firstname": "Guillaume",
+        "slug": "guillaume-chiche",
+        "gender": "H",
+        "birthday": "1986-03-30",
+        "birthplace": "Niort (Deux-Sèvres)",
+        "county": "Deux-Sèvres",
+        "countyId": 79,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 150,
+            "reports": 0,
+            "proposals": 3,
+            "proposalsSupported": 92,
+            "amendments": 1226,
+            "amendmentsSupported": 4953,
+            "amendmentsAdopted": 786,
+            "commissionsAttended": 247,
+            "commissionInterventions": 300,
+            "hemicycleInterventions": 337,
+            "hemicycleShortInterventions": 100,
+            "questionsWritten": 39,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dorothée",
             "lastname": "Besseux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 1
         },
         {
             "firstname": "François",
             "lastname": "Charron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 1
         },
         {
             "firstname": "Bastien",
             "lastname": "Marchive",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 1
         },
         {
             "firstname": "Dominique",
             "lastname": "Six",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 1
         },
         {
             "firstname": "Danielle",
             "lastname": "Vauzelle",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 1
         }
     ]
 }

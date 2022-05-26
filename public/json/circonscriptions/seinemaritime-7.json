@@ -4,15 +4,15 @@
     "name": "Seine-Maritime",
     "results": {
         "firstRound": {
-            "registered": 86454,
+            "registered": 86451,
             "voted": 62873,
-            "whites": 1326,
-            "expressed": 61413,
-            "void": 134,
+            "whites": 1336,
+            "expressed": 61414,
+            "void": 123,
             "candidates": {
                 "Nathalie Arthaud": 345,
                 "Fabien Roussel": 2042,
-                "Emmanuel Macron": 19980,
+                "Emmanuel Macron": 19981,
                 "Jean Lasalle": 1204,
                 "Marine Le Pen": 12831,
                 "Jean-Luc Mélenchon": 13855,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1068,
                 "Eric Zemmour": 3431
             }
+        },
+        "secondRound": {
+            "registered": 86475,
+            "voted": 62714,
+            "whites": 5242,
+            "expressed": 57037,
+            "void": 435,
+            "candidates": {
+                "Emmanuel Macron": 36766,
+                "Marine Le Pen": 20271
+            }
         }
+    },
+    "current": {
+        "id": "267780",
+        "lastname": "Firmin Le Bodo",
+        "firstname": "Agnès",
+        "slug": "agnes-firmin-le-bodo",
+        "gender": "F",
+        "birthday": "1968-11-20",
+        "birthplace": "Havre (Seine-Maritime)",
+        "county": "Seine-Maritime",
+        "countyId": 76,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Pharmacien",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 178,
+            "reports": 7,
+            "proposals": 11,
+            "proposalsSupported": 170,
+            "amendments": 1296,
+            "amendmentsSupported": 7197,
+            "amendmentsAdopted": 507,
+            "commissionsAttended": 456,
+            "commissionInterventions": 848,
+            "hemicycleInterventions": 681,
+            "hemicycleShortInterventions": 114,
+            "questionsWritten": 110,
+            "questionsOral": 31
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Béatrice",
             "lastname": "Canel-Depitre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
             "firstname": "Camille",
             "lastname": "Denis",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
             "firstname": "Nancy",
             "lastname": "Duboc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
             "firstname": "Isabelle",
             "lastname": "Ducoeurjoly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
-            "id": "267780",
-            "lastname": "Firmin Le Bodo",
             "firstname": "Agnès",
-            "slug": "agnes-firmin-le-bodo",
+            "lastname": "Firmin Le Bodo",
             "gender": "F",
-            "birthday": "1968-11-20",
-            "birthplace": "Havre (Seine-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 76,
             "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "Pharmacien",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 178,
-                "reports": 7,
-                "proposals": 11,
-                "proposalsSupported": 170,
-                "amendments": 1296,
-                "amendmentsSupported": 7197,
-                "amendmentsAdopted": 507,
-                "commissionsAttended": 456,
-                "commissionInterventions": 848,
-                "hemicycleInterventions": 681,
-                "hemicycleShortInterventions": 114,
-                "questionsWritten": 110,
-                "questionsOral": 31
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Jacques",
             "lastname": "Forestier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
             "firstname": "Frédéric",
             "lastname": "Groussard",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         },
         {
             "firstname": "Virginie",
             "lastname": "Prunier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 7
         }
     ]
 }

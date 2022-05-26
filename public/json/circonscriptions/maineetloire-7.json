@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1189,
                 "Eric Zemmour": 2922
             }
+        },
+        "secondRound": {
+            "registered": 81646,
+            "voted": 63184,
+            "whites": 3992,
+            "expressed": 57947,
+            "void": 1245,
+            "candidates": {
+                "Emmanuel Macron": 39547,
+                "Marine Le Pen": 18400
+            }
         }
+    },
+    "current": {
+        "id": "720162",
+        "lastname": "Bolo",
+        "firstname": "Philippe",
+        "slug": "philippe-bolo",
+        "gender": "H",
+        "birthday": "1967-03-25",
+        "birthplace": "Limoges (Haute-Vienne)",
+        "county": "Maine-et-Loire",
+        "countyId": 49,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 53,
+            "amendments": 147,
+            "amendmentsSupported": 3488,
+            "amendmentsAdopted": 762,
+            "commissionsAttended": 268,
+            "commissionInterventions": 270,
+            "hemicycleInterventions": 108,
+            "hemicycleShortInterventions": 56,
+            "questionsWritten": 14,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720162",
-            "lastname": "Bolo",
             "firstname": "Philippe",
-            "slug": "philippe-bolo",
+            "lastname": "Bolo",
             "gender": "H",
-            "birthday": "1967-03-25",
-            "birthplace": "Limoges (Haute-Vienne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 49,
             "county": "Maine-et-Loire",
-            "countyId": "49",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Ingénieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 7,
-                "proposals": 1,
-                "proposalsSupported": 53,
-                "amendments": 147,
-                "amendmentsSupported": 3488,
-                "amendmentsAdopted": 762,
-                "commissionsAttended": 268,
-                "commissionInterventions": 270,
-                "hemicycleInterventions": 108,
-                "hemicycleShortInterventions": 56,
-                "questionsWritten": 14,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Guillaume",
             "lastname": "Jouanneau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 7
         },
         {
             "firstname": "Céline",
             "lastname": "L'Huillier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 7
         },
         {
             "firstname": "Aurore",
             "lastname": "Lahondès",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 7
         }
     ]
 }

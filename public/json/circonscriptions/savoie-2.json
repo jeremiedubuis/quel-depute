@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1791,
                 "Eric Zemmour": 4109
             }
+        },
+        "secondRound": {
+            "registered": 76055,
+            "voted": 56260,
+            "whites": 4099,
+            "expressed": 51016,
+            "void": 1145,
+            "candidates": {
+                "Emmanuel Macron": 27962,
+                "Marine Le Pen": 23054
+            }
         }
+    },
+    "current": {
+        "id": "266808",
+        "lastname": "Rolland",
+        "firstname": "Vincent",
+        "slug": "vincent-rolland",
+        "gender": "H",
+        "birthday": "1970-02-01",
+        "birthplace": "Moutiers (Savoie)",
+        "county": "Savoie",
+        "countyId": 73,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Collaborateur parlementaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 5,
+            "proposals": 13,
+            "proposalsSupported": 425,
+            "amendments": 1522,
+            "amendmentsSupported": 7993,
+            "amendmentsAdopted": 211,
+            "commissionsAttended": 248,
+            "commissionInterventions": 213,
+            "hemicycleInterventions": 202,
+            "hemicycleShortInterventions": 81,
+            "questionsWritten": 165,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Brice",
             "lastname": "Bernard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 2
         },
         {
             "firstname": "Bertrand",
             "lastname": "Camus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 2
         },
         {
             "firstname": "Arthur",
             "lastname": "Empereur",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 2
         },
         {
             "firstname": "Cédric",
             "lastname": "Morand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 2
         },
         {
             "firstname": "Myriam",
             "lastname": "Rahalia",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 2
         }
     ]
 }

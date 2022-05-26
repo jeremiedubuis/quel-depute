@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 819,
                 "Eric Zemmour": 5447
             }
+        },
+        "secondRound": {
+            "registered": 68940,
+            "voted": 45927,
+            "whites": 2936,
+            "expressed": 42168,
+            "void": 823,
+            "candidates": {
+                "Emmanuel Macron": 27839,
+                "Marine Le Pen": 14329
+            }
         }
+    },
+    "current": {
+        "id": "720932",
+        "lastname": "Da Silva",
+        "firstname": "Dominique",
+        "slug": "dominique-da-silva",
+        "gender": "H",
+        "birthday": "1968-06-30",
+        "birthplace": "L'Isle-Adam (Val-d'Oise)",
+        "county": "Val-d'Oise",
+        "countyId": 95,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 151,
+            "amendmentsSupported": 2314,
+            "amendmentsAdopted": 1352,
+            "commissionsAttended": 246,
+            "commissionInterventions": 175,
+            "hemicycleInterventions": 135,
+            "hemicycleShortInterventions": 11,
+            "questionsWritten": 9,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martine",
             "lastname": "Bidel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         },
         {
-            "id": "720932",
-            "lastname": "Da Silva",
             "firstname": "Dominique",
-            "slug": "dominique-da-silva",
+            "lastname": "Da Silva",
             "gender": "H",
-            "birthday": "1968-06-30",
-            "birthplace": "L'Isle-Adam (Val-d'Oise)",
-            "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 4,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 151,
-                "amendmentsSupported": 2314,
-                "amendmentsAdopted": 1352,
-                "commissionsAttended": 246,
-                "commissionInterventions": 175,
-                "hemicycleInterventions": 135,
-                "hemicycleShortInterventions": 11,
-                "questionsWritten": 9,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Romain",
             "lastname": "Eskenazi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Bruno",
             "lastname": "Marcel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Valérie",
             "lastname": "Suarez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         },
         {
             "firstname": "Camel",
             "lastname": "Zouine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 7
         }
     ]
 }

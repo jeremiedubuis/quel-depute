@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1423,
                 "Eric Zemmour": 4227
             }
+        },
+        "secondRound": {
+            "registered": 76741,
+            "voted": 53095,
+            "whites": 3675,
+            "expressed": 49039,
+            "void": 381,
+            "candidates": {
+                "Emmanuel Macron": 30437,
+                "Marine Le Pen": 18602
+            }
         }
+    },
+    "current": {
+        "id": "642935",
+        "lastname": "Becht",
+        "firstname": "Olivier",
+        "slug": "olivier-becht",
+        "gender": "H",
+        "birthday": "1976-04-28",
+        "birthplace": "Strasbourg (Bas-Rhin)",
+        "county": "Haut-Rhin",
+        "countyId": 68,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Magistrat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 95,
+            "amendments": 133,
+            "amendmentsSupported": 5118,
+            "amendmentsAdopted": 378,
+            "commissionsAttended": 218,
+            "commissionInterventions": 171,
+            "hemicycleInterventions": 456,
+            "hemicycleShortInterventions": 133,
+            "questionsWritten": 58,
+            "questionsOral": 26
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "642935",
-            "lastname": "Becht",
             "firstname": "Olivier",
-            "slug": "olivier-becht",
+            "lastname": "Becht",
             "gender": "H",
-            "birthday": "1976-04-28",
-            "birthplace": "Strasbourg (Bas-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 68,
             "county": "Haut-Rhin",
-            "countyId": "68",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "Magistrat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 2,
-                "proposals": 2,
-                "proposalsSupported": 95,
-                "amendments": 133,
-                "amendmentsSupported": 5118,
-                "amendmentsAdopted": 378,
-                "commissionsAttended": 218,
-                "commissionInterventions": 171,
-                "hemicycleInterventions": 456,
-                "hemicycleShortInterventions": 133,
-                "questionsWritten": 58,
-                "questionsOral": 26
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Nadia",
             "lastname": "El Hajjaji",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Salah",
             "lastname": "Keltoumi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Amalia",
             "lastname": "Nimeskern",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 5
         },
         {
             "firstname": "Pierre",
             "lastname": "Pinto",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 5
         }
     ]
 }

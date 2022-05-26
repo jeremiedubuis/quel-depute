@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1152,
                 "Eric Zemmour": 7256
             }
+        },
+        "secondRound": {
+            "registered": 71869,
+            "voted": 50285,
+            "whites": 3120,
+            "expressed": 46337,
+            "void": 828,
+            "candidates": {
+                "Emmanuel Macron": 23986,
+                "Marine Le Pen": 22351
+            }
         }
+    },
+    "current": {
+        "id": "267378",
+        "lastname": "Levy",
+        "firstname": "Geneviève",
+        "slug": "genevieve-levy",
+        "gender": "F",
+        "birthday": "1948-02-24",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Var",
+        "countyId": 83,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Expert foncier et commercial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 118,
+            "reports": 0,
+            "proposals": 1,
+            "proposalsSupported": 285,
+            "amendments": 45,
+            "amendmentsSupported": 9364,
+            "amendmentsAdopted": 247,
+            "commissionsAttended": 124,
+            "commissionInterventions": 54,
+            "hemicycleInterventions": 71,
+            "hemicycleShortInterventions": 71,
+            "questionsWritten": 32,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Renée",
             "lastname": "Balty",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 1
         },
         {
             "firstname": "Françoise",
             "lastname": "Benoit-Lizon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 1
         },
         {
             "firstname": "Yannick",
             "lastname": "Chenevard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 1
         },
         {
             "firstname": "Eric",
             "lastname": "Habouzit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 1
         },
         {
             "firstname": "Amaury",
             "lastname": "Navarranne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 1
         }
     ]
 }

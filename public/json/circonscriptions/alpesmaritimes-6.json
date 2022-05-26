@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 79455,
             "voted": 60132,
-            "whites": 990,
+            "whites": 992,
             "expressed": 58991,
-            "void": 151,
+            "void": 149,
             "candidates": {
                 "Nathalie Arthaud": 133,
                 "Fabien Roussel": 767,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1506,
                 "Eric Zemmour": 8773
             }
+        },
+        "secondRound": {
+            "registered": 79484,
+            "voted": 59820,
+            "whites": 3605,
+            "expressed": 55765,
+            "void": 450,
+            "candidates": {
+                "Emmanuel Macron": 26277,
+                "Marine Le Pen": 29488
+            }
         }
+    },
+    "current": {
+        "id": "718780",
+        "lastname": "Trastour-Isnart",
+        "firstname": "Laurence",
+        "slug": "laurence-trastourisnart",
+        "gender": "F",
+        "birthday": "1972-03-06",
+        "birthplace": "Cagnes-sur-Mer (Alpes-Maritimes)",
+        "county": "Alpes-Maritimes",
+        "countyId": 6,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Rédacteur territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 3,
+            "proposals": 19,
+            "proposalsSupported": 770,
+            "amendments": 797,
+            "amendmentsSupported": 15531,
+            "amendmentsAdopted": 358,
+            "commissionsAttended": 308,
+            "commissionInterventions": 219,
+            "hemicycleInterventions": 194,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 169,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Danièle",
             "lastname": "Bartoli",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
             "firstname": "Dénis",
             "lastname": "Cieslik",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
             "firstname": "Guillaume",
             "lastname": "Julien",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
             "firstname": "Bryan",
             "lastname": "Masson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
             "firstname": "Nicole",
             "lastname": "Mazella",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Bernard",
             "lastname": "Mion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         },
         {
-            "id": "718780",
-            "lastname": "Trastour-Isnart",
             "firstname": "Laurence",
-            "slug": "laurence-trastourisnart",
+            "lastname": "Trastour-Isnart",
             "gender": "F",
-            "birthday": "1972-03-06",
-            "birthplace": "Cagnes-sur-Mer (Alpes-Maritimes)",
-            "county": "Alpes-Maritimes",
-            "countyId": "06",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Rédacteur territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 3,
-                "proposals": 19,
-                "proposalsSupported": 770,
-                "amendments": 797,
-                "amendmentsSupported": 15531,
-                "amendmentsAdopted": 358,
-                "commissionsAttended": 308,
-                "commissionInterventions": 219,
-                "hemicycleInterventions": 194,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 169,
-                "questionsOral": 22
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 6
         }
     ]
 }

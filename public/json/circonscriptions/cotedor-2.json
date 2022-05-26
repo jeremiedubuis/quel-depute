@@ -7,15 +7,15 @@
             "registered": 70982,
             "voted": 55631,
             "whites": 897,
-            "expressed": 54419,
-            "void": 315,
+            "expressed": 54422,
+            "void": 312,
             "candidates": {
-                "Nathalie Arthaud": 317,
+                "Nathalie Arthaud": 318,
                 "Fabien Roussel": 1016,
-                "Emmanuel Macron": 15256,
+                "Emmanuel Macron": 15257,
                 "Jean Lasalle": 1476,
                 "Marine Le Pen": 12661,
-                "Jean-Luc Mélenchon": 11595,
+                "Jean-Luc Mélenchon": 11596,
                 "Anne Hidalgo": 1011,
                 "Yannick Jadot": 2837,
                 "Valérie Pécresse": 2668,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1146,
                 "Eric Zemmour": 4017
             }
+        },
+        "secondRound": {
+            "registered": 70985,
+            "voted": 52779,
+            "whites": 3660,
+            "expressed": 48062,
+            "void": 1057,
+            "candidates": {
+                "Emmanuel Macron": 28373,
+                "Marine Le Pen": 19689
+            }
         }
+    },
+    "current": {
+        "id": "267450",
+        "lastname": "Delatte",
+        "firstname": "Rémi",
+        "slug": "remi-delatte",
+        "gender": "H",
+        "birthday": "1956-06-09",
+        "birthplace": "Dijon (Côte-d'Or)",
+        "county": "Côte-d'Or",
+        "countyId": 21,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 3,
+            "proposals": 5,
+            "proposalsSupported": 256,
+            "amendments": 96,
+            "amendmentsSupported": 4802,
+            "amendmentsAdopted": 145,
+            "commissionsAttended": 283,
+            "commissionInterventions": 160,
+            "hemicycleInterventions": 59,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 55,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Benoît",
             "lastname": "Bordat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 2
         },
         {
             "firstname": "Mélanie",
             "lastname": "Fortier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 2
         },
         {
             "firstname": "Catherine",
             "lastname": "Hervieu",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 2
         },
         {
             "firstname": "Adrien",
             "lastname": "Huguet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 2
         },
         {
             "firstname": "Claire",
             "lastname": "Rocher",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 2
         }
     ]
 }

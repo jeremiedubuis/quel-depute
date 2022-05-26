@@ -4,95 +4,134 @@
     "name": "Meurthe-et-Moselle",
     "results": {
         "firstRound": {
-            "registered": 78150,
-            "voted": 59751,
-            "whites": 874,
-            "expressed": 58452,
-            "void": 425,
+            "registered": 78151,
+            "voted": 59749,
+            "whites": 889,
+            "expressed": 58454,
+            "void": 406,
             "candidates": {
                 "Nathalie Arthaud": 416,
                 "Fabien Roussel": 1125,
-                "Emmanuel Macron": 15254,
+                "Emmanuel Macron": 15255,
                 "Jean Lasalle": 1707,
                 "Marine Le Pen": 18600,
                 "Jean-Luc Mélenchon": 9625,
                 "Anne Hidalgo": 1078,
-                "Yannick Jadot": 2291,
+                "Yannick Jadot": 2292,
                 "Valérie Pécresse": 2210,
                 "Phillipe Poutou": 544,
                 "Nicolas Dupont-Aignan": 1323,
                 "Eric Zemmour": 4279
             }
+        },
+        "secondRound": {
+            "registered": 78192,
+            "voted": 60376,
+            "whites": 3469,
+            "expressed": 55587,
+            "void": 1320,
+            "candidates": {
+                "Emmanuel Macron": 27236,
+                "Marine Le Pen": 28351
+            }
         }
+    },
+    "current": {
+        "id": "607553",
+        "lastname": "Potier",
+        "firstname": "Dominique",
+        "slug": "dominique-potier",
+        "gender": "H",
+        "birthday": "1964-03-17",
+        "birthplace": "Toul (Meurthe-et-Moselle)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": 54,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 12,
+            "proposals": 11,
+            "proposalsSupported": 116,
+            "amendments": 2456,
+            "amendmentsSupported": 15697,
+            "amendmentsAdopted": 811,
+            "commissionsAttended": 410,
+            "commissionInterventions": 1253,
+            "hemicycleInterventions": 1377,
+            "hemicycleShortInterventions": 742,
+            "questionsWritten": 208,
+            "questionsOral": 30
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Miriam",
             "lastname": "Aubert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 5
         },
         {
             "firstname": "Marika",
             "lastname": "Bret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 5
         },
         {
             "firstname": "Philippe",
             "lastname": "Morenvillier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 5
         },
         {
-            "id": "607553",
-            "lastname": "Potier",
             "firstname": "Dominique",
-            "slug": "dominique-potier",
+            "lastname": "Potier",
             "gender": "H",
-            "birthday": "1964-03-17",
-            "birthplace": "Toul (Meurthe-et-Moselle)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 54,
             "county": "Meurthe-et-Moselle",
-            "countyId": "54",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Agriculteur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 12,
-                "proposals": 11,
-                "proposalsSupported": 116,
-                "amendments": 2456,
-                "amendmentsSupported": 15697,
-                "amendmentsAdopted": 811,
-                "commissionsAttended": 410,
-                "commissionInterventions": 1253,
-                "hemicycleInterventions": 1377,
-                "hemicycleShortInterventions": 742,
-                "questionsWritten": 208,
-                "questionsOral": 30
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Elisabeth",
             "lastname": "Schilder",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 5
         }
     ]
 }

@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1417,
                 "Eric Zemmour": 4590
             }
+        },
+        "secondRound": {
+            "registered": 84943,
+            "voted": 64159,
+            "whites": 4666,
+            "expressed": 57126,
+            "void": 2367,
+            "candidates": {
+                "Emmanuel Macron": 31159,
+                "Marine Le Pen": 25967
+            }
         }
+    },
+    "current": {
+        "id": "267673",
+        "lastname": "Folliot",
+        "firstname": "Philippe",
+        "slug": "philippe-folliot",
+        "gender": "H",
+        "birthday": "1963-07-14",
+        "birthplace": "Albi (Tarn)",
+        "county": "Tarn",
+        "countyId": 81,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "LREM",
+        "job": "Directeur d'un organisme de financement du logement social",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 68,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 45,
+            "amendments": 24,
+            "amendmentsSupported": 1102,
+            "amendmentsAdopted": 516,
+            "commissionsAttended": 86,
+            "commissionInterventions": 54,
+            "hemicycleInterventions": 40,
+            "hemicycleShortInterventions": 9,
+            "questionsWritten": 110,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Frédéric",
             "lastname": "Cabrolier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 1
         },
         {
             "firstname": "Eric",
             "lastname": "Chavegrand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 1
         },
         {
             "firstname": "Rodolphe",
             "lastname": "Pirès",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 1
         },
         {
-            "id": "721538",
-            "lastname": "Roques-Etienne",
             "firstname": "Muriel",
-            "slug": "muriel-roquesetienne",
+            "lastname": "Roques-Etienne",
             "gender": "F",
-            "birthday": "1979-03-05",
-            "birthplace": "Albi (Tarn)",
-            "county": "Tarn",
-            "countyId": "81",
-            "circumscription": 1,
-            "mandateStart": "2020-10-08",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Expert comptable et commissaire aux comptes",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 54,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 27,
-                "amendments": 12,
-                "amendmentsSupported": 608,
-                "amendmentsAdopted": 381,
-                "commissionsAttended": 79,
-                "commissionInterventions": 37,
-                "hemicycleInterventions": 14,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 36,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 81,
+            "county": "Tarn",
+            "circumscription": 1
         }
     ]
 }

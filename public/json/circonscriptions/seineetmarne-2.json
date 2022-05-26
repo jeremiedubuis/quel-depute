@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1498,
                 "Eric Zemmour": 5393
             }
+        },
+        "secondRound": {
+            "registered": 79608,
+            "voted": 58717,
+            "whites": 3872,
+            "expressed": 53773,
+            "void": 1072,
+            "candidates": {
+                "Emmanuel Macron": 30928,
+                "Marine Le Pen": 22845
+            }
         }
+    },
+    "current": {
+        "id": "721576",
+        "lastname": "Bouchet Bellecourt",
+        "firstname": "Sylvie",
+        "slug": "sylvie-bouchet-bellecourt",
+        "gender": "F",
+        "birthday": "1957-07-03",
+        "birthplace": "Bondy (Seine-Inférieure)",
+        "county": "Seine-et-Marne",
+        "countyId": 77,
+        "circumscription": 2,
+        "mandateStart": "2020-06-23",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Infirmière libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 53,
+            "reports": 0,
+            "proposals": 1,
+            "proposalsSupported": 96,
+            "amendments": 83,
+            "amendmentsSupported": 3592,
+            "amendmentsAdopted": 98,
+            "commissionsAttended": 48,
+            "commissionInterventions": 32,
+            "hemicycleInterventions": 36,
+            "hemicycleShortInterventions": 3,
+            "questionsWritten": 9,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Élodie",
             "lastname": "Broch",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Guillaume",
             "lastname": "Cazauran",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Franck",
             "lastname": "Delalande",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Ivanka",
             "lastname": "Estaben",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Isoline",
             "lastname": "Garreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Marie-Pierre",
             "lastname": "Molina",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Frédéric",
             "lastname": "Valletoux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 2
         }
     ]
 }

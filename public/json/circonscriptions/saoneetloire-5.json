@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 87810,
             "voted": 65291,
-            "whites": 1162,
+            "whites": 1161,
             "expressed": 63597,
-            "void": 532,
+            "void": 533,
             "candidates": {
                 "Nathalie Arthaud": 436,
                 "Fabien Roussel": 1734,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1378,
                 "Eric Zemmour": 4186
             }
+        },
+        "secondRound": {
+            "registered": 87825,
+            "voted": 63002,
+            "whites": 4530,
+            "expressed": 56712,
+            "void": 1760,
+            "candidates": {
+                "Emmanuel Macron": 31071,
+                "Marine Le Pen": 25641
+            }
         }
+    },
+    "current": {
+        "id": "721364",
+        "lastname": "Gauvain",
+        "firstname": "Raphaël",
+        "slug": "raphael-gauvain",
+        "gender": "H",
+        "birthday": "1973-04-10",
+        "birthplace": "Paris 14ème (Paris)",
+        "county": "Saône-et-Loire",
+        "countyId": 71,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 10,
+            "proposals": 2,
+            "proposalsSupported": 61,
+            "amendments": 147,
+            "amendmentsSupported": 1919,
+            "amendmentsAdopted": 1322,
+            "commissionsAttended": 222,
+            "commissionInterventions": 305,
+            "hemicycleInterventions": 375,
+            "hemicycleShortInterventions": 166,
+            "questionsWritten": 38,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pascal",
             "lastname": "Dufraigne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Tarja",
             "lastname": "Fauvet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Louis",
             "lastname": "Margueritte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Christine",
             "lastname": "Pelletier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Gilles",
             "lastname": "Platret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Éric",
             "lastname": "Riboulet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         },
         {
             "firstname": "Arnaud",
             "lastname": "Sanvert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 5
         }
     ]
 }

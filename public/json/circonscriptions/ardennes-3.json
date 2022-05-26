@@ -5,58 +5,121 @@
     "results": {
         "firstRound": {
             "registered": 55071,
-            "voted": 40881,
-            "whites": 511,
-            "expressed": 40022,
-            "void": 348,
+            "voted": 40865,
+            "whites": 509,
+            "expressed": 40018,
+            "void": 338,
             "candidates": {
-                "Nathalie Arthaud": 342,
-                "Fabien Roussel": 817,
-                "Emmanuel Macron": 9696,
-                "Jean Lasalle": 1340,
-                "Marine Le Pen": 14857,
-                "Jean-Luc Mélenchon": 6000,
-                "Anne Hidalgo": 479,
-                "Yannick Jadot": 890,
-                "Valérie Pécresse": 1737,
-                "Phillipe Poutou": 338,
-                "Nicolas Dupont-Aignan": 948,
-                "Eric Zemmour": 2578
+                "Nathalie Arthaud": 343,
+                "Fabien Roussel": 816,
+                "Emmanuel Macron": 9682,
+                "Jean Lasalle": 1343,
+                "Marine Le Pen": 14865,
+                "Jean-Luc Mélenchon": 5994,
+                "Anne Hidalgo": 482,
+                "Yannick Jadot": 887,
+                "Valérie Pécresse": 1746,
+                "Phillipe Poutou": 337,
+                "Nicolas Dupont-Aignan": 950,
+                "Eric Zemmour": 2573
+            }
+        },
+        "secondRound": {
+            "registered": 55069,
+            "voted": 41448,
+            "whites": 2278,
+            "expressed": 38192,
+            "void": 978,
+            "candidates": {
+                "Emmanuel Macron": 16100,
+                "Marine Le Pen": 22092
             }
         }
+    },
+    "current": {
+        "id": "2952",
+        "lastname": "Warsmann",
+        "firstname": "Jean-Luc",
+        "slug": "jeanluc-warsmann",
+        "gender": "H",
+        "birthday": "1965-10-22",
+        "birthplace": "Villers-Semeuse (Ardennes)",
+        "county": "Ardennes",
+        "countyId": 8,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Non déclaré(s)",
+        "groupShort": "UDI",
+        "job": "Sans profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 172,
+            "reports": 3,
+            "proposals": 55,
+            "proposalsSupported": 131,
+            "amendments": 138,
+            "amendmentsSupported": 6086,
+            "amendmentsAdopted": 276,
+            "commissionsAttended": 370,
+            "commissionInterventions": 160,
+            "hemicycleInterventions": 83,
+            "hemicycleShortInterventions": 167,
+            "questionsWritten": 210,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laure",
             "lastname": "Augier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 3
         },
         {
             "firstname": "Estelle",
             "lastname": "Drion",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 3
         },
         {
             "firstname": "David",
             "lastname": "Lemoine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 3
         },
         {
             "firstname": "Sophie",
             "lastname": "Perrin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 8,
+            "county": "Ardennes",
+            "circumscription": 3
         }
     ]
 }

@@ -4,103 +4,146 @@
     "name": "Rhône",
     "results": {
         "firstRound": {
-            "registered": 74882,
+            "registered": 74885,
             "voted": 51761,
-            "whites": 725,
-            "expressed": 50746,
-            "void": 290,
+            "whites": 737,
+            "expressed": 50748,
+            "void": 276,
             "candidates": {
                 "Nathalie Arthaud": 295,
                 "Fabien Roussel": 1260,
                 "Emmanuel Macron": 10540,
                 "Jean Lasalle": 839,
                 "Marine Le Pen": 9819,
-                "Jean-Luc Mélenchon": 20387,
+                "Jean-Luc Mélenchon": 20388,
                 "Anne Hidalgo": 764,
                 "Yannick Jadot": 1383,
                 "Valérie Pécresse": 1330,
-                "Phillipe Poutou": 334,
+                "Phillipe Poutou": 335,
                 "Nicolas Dupont-Aignan": 778,
                 "Eric Zemmour": 3017
             }
+        },
+        "secondRound": {
+            "registered": 74938,
+            "voted": 45758,
+            "whites": 2781,
+            "expressed": 41998,
+            "void": 979,
+            "candidates": {
+                "Emmanuel Macron": 26673,
+                "Marine Le Pen": 15325
+            }
         }
+    },
+    "current": {
+        "id": "608641",
+        "lastname": "Blein",
+        "firstname": "Yves",
+        "slug": "yves-blein",
+        "gender": "H",
+        "birthday": "1954-10-12",
+        "birthplace": "Lyon (Rhône)",
+        "county": "Rhône",
+        "countyId": 69,
+        "circumscription": 14,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur du secteur privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 133,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 63,
+            "amendments": 71,
+            "amendmentsSupported": 1897,
+            "amendmentsAdopted": 1121,
+            "commissionsAttended": 145,
+            "commissionInterventions": 75,
+            "hemicycleInterventions": 20,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 34,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "608641",
-            "lastname": "Blein",
             "firstname": "Yves",
-            "slug": "yves-blein",
+            "lastname": "Blein",
             "gender": "H",
-            "birthday": "1954-10-12",
-            "birthplace": "Lyon (Rhône)",
-            "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 14,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur du secteur privé",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 133,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 63,
-                "amendments": 71,
-                "amendmentsSupported": 1897,
-                "amendmentsAdopted": 1121,
-                "commissionsAttended": 145,
-                "commissionInterventions": 75,
-                "hemicycleInterventions": 20,
-                "hemicycleShortInterventions": 4,
-                "questionsWritten": 34,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         },
         {
             "firstname": "Idir",
             "lastname": "Boumertit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         },
         {
             "firstname": "Réjane",
             "lastname": "Cloupet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         },
         {
             "firstname": "Olivier",
             "lastname": "Minoux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         },
         {
             "firstname": "Damien",
             "lastname": "Monchau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         },
         {
             "firstname": "Delphine",
             "lastname": "Palluy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 14
         }
     ]
 }

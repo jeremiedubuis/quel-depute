@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1435,
                 "Eric Zemmour": 2231
             }
+        },
+        "secondRound": {
+            "registered": 72343,
+            "voted": 56016,
+            "whites": 3360,
+            "expressed": 51212,
+            "void": 1444,
+            "candidates": {
+                "Emmanuel Macron": 31404,
+                "Marine Le Pen": 19808
+            }
         }
+    },
+    "current": {
+        "id": "267042",
+        "lastname": "Favennec-Bécot",
+        "firstname": "Yannick",
+        "slug": "yannick-favennecbecot",
+        "gender": "H",
+        "birthday": "1958-08-12",
+        "birthplace": "Chaudron-en-Mauges (Maine-et-Loire)",
+        "county": "Mayenne",
+        "countyId": 53,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Directeur de cabinet",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 1,
+            "proposals": 4,
+            "proposalsSupported": 83,
+            "amendments": 146,
+            "amendmentsSupported": 7409,
+            "amendmentsAdopted": 325,
+            "commissionsAttended": 263,
+            "commissionInterventions": 261,
+            "hemicycleInterventions": 385,
+            "hemicycleShortInterventions": 316,
+            "questionsWritten": 160,
+            "questionsOral": 30
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Martine",
             "lastname": "Amelin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 3
         },
         {
             "firstname": "Annie-Claire",
             "lastname": "Bell",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 3
         },
         {
             "firstname": "Amélie",
             "lastname": "de Grandmaison",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 3
         },
         {
             "firstname": "Marion",
             "lastname": "Détais",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 3
         },
         {
-            "id": "267042",
-            "lastname": "Favennec-Bécot",
             "firstname": "Yannick",
-            "slug": "yannick-favennecbecot",
+            "lastname": "Favennec-Bécot",
             "gender": "H",
-            "birthday": "1958-08-12",
-            "birthplace": "Chaudron-en-Mauges (Maine-et-Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 53,
             "county": "Mayenne",
-            "countyId": "53",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "UDI",
-            "job": "Directeur de cabinet",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 166,
-                "reports": 1,
-                "proposals": 4,
-                "proposalsSupported": 83,
-                "amendments": 146,
-                "amendmentsSupported": 7409,
-                "amendmentsAdopted": 325,
-                "commissionsAttended": 263,
-                "commissionInterventions": 261,
-                "hemicycleInterventions": 385,
-                "hemicycleShortInterventions": 316,
-                "questionsWritten": 160,
-                "questionsOral": 30
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Sonia",
             "lastname": "Garnier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 3
         }
     ]
 }

@@ -4,59 +4,146 @@
     "name": "Corse-du-Sud",
     "results": {
         "firstRound": {
-            "registered": 52151,
+            "registered": 52148,
             "voted": 32630,
-            "whites": 468,
-            "expressed": 31689,
-            "void": 473,
+            "whites": 487,
+            "expressed": 31123,
+            "void": 1020,
             "candidates": {
-                "Nathalie Arthaud": 90,
-                "Fabien Roussel": 862,
-                "Emmanuel Macron": 6019,
-                "Jean Lasalle": 3269,
-                "Marine Le Pen": 9096,
-                "Jean-Luc Mélenchon": 4361,
-                "Anne Hidalgo": 345,
-                "Yannick Jadot": 1119,
-                "Valérie Pécresse": 1539,
-                "Phillipe Poutou": 294,
-                "Nicolas Dupont-Aignan": 541,
-                "Eric Zemmour": 4154
+                "Nathalie Arthaud": 89,
+                "Fabien Roussel": 846,
+                "Emmanuel Macron": 5928,
+                "Jean Lasalle": 3191,
+                "Marine Le Pen": 8950,
+                "Jean-Luc Mélenchon": 4279,
+                "Anne Hidalgo": 339,
+                "Yannick Jadot": 1104,
+                "Valérie Pécresse": 1503,
+                "Phillipe Poutou": 290,
+                "Nicolas Dupont-Aignan": 530,
+                "Eric Zemmour": 4074
+            }
+        },
+        "secondRound": {
+            "registered": 52141,
+            "voted": 31190,
+            "whites": 1902,
+            "expressed": 28269,
+            "void": 1019,
+            "candidates": {
+                "Emmanuel Macron": 11734,
+                "Marine Le Pen": 16535
             }
         }
     },
+    "current": {
+        "id": "718756",
+        "lastname": "Bono-Vandorme",
+        "firstname": "Aude",
+        "slug": "aude-bonovandorme",
+        "gender": "F",
+        "birthday": "1962-08-03",
+        "birthplace": "Soissons (Aisne)",
+        "county": "Aisne",
+        "countyId": 2,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 14,
+            "proposals": 5,
+            "proposalsSupported": 77,
+            "amendments": 231,
+            "amendmentsSupported": 2762,
+            "amendmentsAdopted": 1039,
+            "commissionsAttended": 378,
+            "commissionInterventions": 262,
+            "hemicycleInterventions": 124,
+            "hemicycleShortInterventions": 24,
+            "questionsWritten": 188,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "firstname": "Nathaly",
-            "lastname": "Antona (Nicolai)",
+            "firstname": "Aude",
+            "lastname": "Bono-Vandorme",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Benjamin",
+            "lastname": "Cauchy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Nicolas",
+            "lastname": "Dragon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
         },
         {
-            "firstname": "Claire",
-            "lastname": "Lainez",
+            "firstname": "Olivier",
+            "lastname": "Fenioux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La France Insoumise",
+            "groupShort": "LFI",
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Paul",
+            "lastname": "Mougenot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Jean-Loup",
+            "lastname": "Pernelle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
-        },
-        {
-            "firstname": "Laurent",
-            "lastname": "Marcangeli",
-            "group": "Horizons",
-            "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
-        },
-        {
-            "firstname": "Angélique",
-            "lastname": "Suisini",
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 1
         }
     ]
 }

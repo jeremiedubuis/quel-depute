@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 690,
                 "Eric Zemmour": 2935
             }
+        },
+        "secondRound": {
+            "registered": 70216,
+            "voted": 50447,
+            "whites": 3221,
+            "expressed": 46251,
+            "void": 975,
+            "candidates": {
+                "Emmanuel Macron": 37166,
+                "Marine Le Pen": 9085
+            }
         }
+    },
+    "current": {
+        "id": "721600",
+        "lastname": "Rossi",
+        "firstname": "Laurianne",
+        "slug": "laurianne-rossi",
+        "gender": "F",
+        "birthday": "1984-05-18",
+        "birthplace": "Toulon (Var)",
+        "county": "Hauts-de-Seine",
+        "countyId": 92,
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 184,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 109,
+            "amendments": 483,
+            "amendmentsSupported": 5040,
+            "amendmentsAdopted": 1555,
+            "commissionsAttended": 398,
+            "commissionInterventions": 388,
+            "hemicycleInterventions": 301,
+            "hemicycleShortInterventions": 85,
+            "questionsWritten": 67,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dominique",
             "lastname": "Broussaudier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
             "firstname": "Juliette",
             "lastname": "Chatelain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
             "firstname": "Marie",
             "lastname": "Colavita",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
             "firstname": "Florence",
             "lastname": "Delétang",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
             "firstname": "Franck",
             "lastname": "Rollot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
-            "id": "721600",
-            "lastname": "Rossi",
             "firstname": "Laurianne",
-            "slug": "laurianne-rossi",
+            "lastname": "Rossi",
             "gender": "F",
-            "birthday": "1984-05-18",
-            "birthplace": "Toulon (Var)",
-            "county": "Hauts-de-Seine",
-            "countyId": "92",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre (entreprises publiques)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 184,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 109,
-                "amendments": 483,
-                "amendmentsSupported": 5040,
-                "amendmentsAdopted": 1555,
-                "commissionsAttended": 398,
-                "commissionInterventions": 388,
-                "hemicycleInterventions": 301,
-                "hemicycleShortInterventions": 85,
-                "questionsWritten": 67,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         },
         {
             "firstname": "Aurélien",
             "lastname": "Saintoul",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 11
         }
     ]
 }

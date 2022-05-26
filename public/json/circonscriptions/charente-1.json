@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1111,
                 "Eric Zemmour": 3423
             }
+        },
+        "secondRound": {
+            "registered": 83201,
+            "voted": 60497,
+            "whites": 4625,
+            "expressed": 54170,
+            "void": 1702,
+            "candidates": {
+                "Emmanuel Macron": 33807,
+                "Marine Le Pen": 20363
+            }
         }
+    },
+    "current": {
+        "id": "719072",
+        "lastname": "Mesnier",
+        "firstname": "Thomas",
+        "slug": "thomas-mesnier",
+        "gender": "H",
+        "birthday": "1986-03-04",
+        "birthplace": "Barbezieux-Saint-Hilaire (Charente)",
+        "county": "Charente",
+        "countyId": 16,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 176,
+            "reports": 28,
+            "proposals": 3,
+            "proposalsSupported": 62,
+            "amendments": 831,
+            "amendmentsSupported": 2749,
+            "amendmentsAdopted": 2077,
+            "commissionsAttended": 358,
+            "commissionInterventions": 1153,
+            "hemicycleInterventions": 1129,
+            "hemicycleShortInterventions": 456,
+            "questionsWritten": 32,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alice",
             "lastname": "Clergeau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 1
         },
         {
             "firstname": "Anna",
             "lastname": "Martinese",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 1
         },
         {
-            "id": "719072",
-            "lastname": "Mesnier",
             "firstname": "Thomas",
-            "slug": "thomas-mesnier",
+            "lastname": "Mesnier",
             "gender": "H",
-            "birthday": "1986-03-04",
-            "birthplace": "Barbezieux-Saint-Hilaire (Charente)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 16,
             "county": "Charente",
-            "countyId": "16",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 176,
-                "reports": 28,
-                "proposals": 3,
-                "proposalsSupported": 62,
-                "amendments": 831,
-                "amendmentsSupported": 2749,
-                "amendmentsAdopted": 2077,
-                "commissionsAttended": 358,
-                "commissionInterventions": 1153,
-                "hemicycleInterventions": 1129,
-                "hemicycleShortInterventions": 456,
-                "questionsWritten": 32,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Olivier",
             "lastname": "Nicolas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 1
         },
         {
             "firstname": "René",
             "lastname": "Pilato",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 1
         }
     ]
 }

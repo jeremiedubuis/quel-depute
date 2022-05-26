@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 993,
                 "Eric Zemmour": 5900
             }
+        },
+        "secondRound": {
+            "registered": 84446,
+            "voted": 61513,
+            "whites": 3642,
+            "expressed": 56814,
+            "void": 1057,
+            "candidates": {
+                "Emmanuel Macron": 42964,
+                "Marine Le Pen": 13850
+            }
         }
+    },
+    "current": {
+        "id": "720862",
+        "lastname": "Descrozaille",
+        "firstname": "Frédéric",
+        "slug": "frederic-descrozaille",
+        "gender": "H",
+        "birthday": "1967-04-16",
+        "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 131,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 63,
+            "amendments": 175,
+            "amendmentsSupported": 1891,
+            "amendmentsAdopted": 1011,
+            "commissionsAttended": 122,
+            "commissionInterventions": 143,
+            "hemicycleInterventions": 180,
+            "hemicycleShortInterventions": 33,
+            "questionsWritten": 2,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720862",
-            "lastname": "Descrozaille",
             "firstname": "Frédéric",
-            "slug": "frederic-descrozaille",
+            "lastname": "Descrozaille",
             "gender": "H",
-            "birthday": "1967-04-16",
-            "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
-            "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 131,
-                "reports": 2,
-                "proposals": 2,
-                "proposalsSupported": 63,
-                "amendments": 175,
-                "amendmentsSupported": 1891,
-                "amendmentsAdopted": 1011,
-                "commissionsAttended": 122,
-                "commissionInterventions": 143,
-                "hemicycleInterventions": 180,
-                "hemicycleShortInterventions": 33,
-                "questionsWritten": 2,
-                "questionsOral": 1
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Thierry",
             "lastname": "Guintrand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Laurent",
             "lastname": "Jolly",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Almash",
             "lastname": "Patel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Pierre",
             "lastname": "Robin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Germain",
             "lastname": "Roesch",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 1
         }
     ]
 }

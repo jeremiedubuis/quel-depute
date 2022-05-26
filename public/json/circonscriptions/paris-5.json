@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 78763,
             "voted": 61966,
-            "whites": 564,
+            "whites": 565,
             "expressed": 61202,
-            "void": 200,
+            "void": 199,
             "candidates": {
                 "Nathalie Arthaud": 158,
                 "Fabien Roussel": 1063,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 394,
                 "Eric Zemmour": 3326
             }
+        },
+        "secondRound": {
+            "registered": 78791,
+            "voted": 59408,
+            "whites": 2474,
+            "expressed": 56227,
+            "void": 707,
+            "candidates": {
+                "Emmanuel Macron": 50321,
+                "Marine Le Pen": 5906
+            }
         }
+    },
+    "current": {
+        "id": "721564",
+        "lastname": "Fajgeles",
+        "firstname": "Élise",
+        "slug": "elise-fajgeles",
+        "gender": "F",
+        "birthday": "1970-07-06",
+        "birthplace": "Sartrouville (Yvelines)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 5,
+        "mandateStart": "2017-07-22",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Juriste au ministère de la Culture , Avocate",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 65,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 19,
+            "amendments": 191,
+            "amendmentsSupported": 712,
+            "amendmentsAdopted": 506,
+            "commissionsAttended": 184,
+            "commissionInterventions": 515,
+            "hemicycleInterventions": 622,
+            "hemicycleShortInterventions": 186,
+            "questionsWritten": 0,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean",
             "lastname": "Ballon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         },
         {
             "firstname": "Julien",
             "lastname": "Bayou",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         },
         {
             "firstname": "Monique",
             "lastname": "Dabat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         },
         {
-            "id": "721564",
-            "lastname": "Fajgeles",
             "firstname": "Élise",
-            "slug": "elise-fajgeles",
+            "lastname": "Fajgeles",
             "gender": "F",
-            "birthday": "1970-07-06",
-            "birthplace": "Sartrouville (Yvelines)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 5,
-            "mandateStart": "2017-07-22",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Juriste au ministère de la Culture , Avocate",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 65,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 19,
-                "amendments": 191,
-                "amendmentsSupported": 712,
-                "amendmentsAdopted": 506,
-                "commissionsAttended": 184,
-                "commissionInterventions": 515,
-                "hemicycleInterventions": 622,
-                "hemicycleShortInterventions": 186,
-                "questionsWritten": 0,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         },
         {
             "firstname": "Marie-Jeanne",
             "lastname": "Jouveau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         },
         {
             "firstname": "Margueritte",
             "lastname": "Vogt",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 5
         }
     ]
 }

@@ -4,17 +4,17 @@
     "name": "Marne",
     "results": {
         "firstRound": {
-            "registered": 75836,
-            "voted": 57909,
-            "whites": 866,
-            "expressed": 56644,
-            "void": 399,
+            "registered": 75834,
+            "voted": 57910,
+            "whites": 894,
+            "expressed": 56645,
+            "void": 371,
             "candidates": {
                 "Nathalie Arthaud": 392,
                 "Fabien Roussel": 1011,
                 "Emmanuel Macron": 14399,
                 "Jean Lasalle": 1788,
-                "Marine Le Pen": 21888,
+                "Marine Le Pen": 21889,
                 "Jean-Luc Mélenchon": 6052,
                 "Anne Hidalgo": 602,
                 "Yannick Jadot": 1335,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1540,
                 "Eric Zemmour": 4038
             }
+        },
+        "secondRound": {
+            "registered": 75837,
+            "voted": 59151,
+            "whites": 3068,
+            "expressed": 54950,
+            "void": 1133,
+            "candidates": {
+                "Emmanuel Macron": 23528,
+                "Marine Le Pen": 31422
+            }
         }
+    },
+    "current": {
+        "id": "942",
+        "lastname": "Courson (de)",
+        "firstname": "Charles",
+        "slug": "charles-de-courson",
+        "gender": "H",
+        "birthday": "1952-04-02",
+        "birthplace": "Paris (Paris)",
+        "county": "Marne",
+        "countyId": 51,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "LT",
+        "job": "Ancien magistrat à la Cour des comptes",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 193,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 40,
+            "amendments": 2603,
+            "amendmentsSupported": 10967,
+            "amendmentsAdopted": 429,
+            "commissionsAttended": 581,
+            "commissionInterventions": 3141,
+            "hemicycleInterventions": 3175,
+            "hemicycleShortInterventions": 1480,
+            "questionsWritten": 26,
+            "questionsOral": 32
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Joëlle",
             "lastname": "Bastien",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Camille",
             "lastname": "Brunel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Karine",
             "lastname": "Le Luron",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Isabelle",
             "lastname": "Pestre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 5
         },
         {
             "firstname": "Pierre-Romain",
             "lastname": "Thionnet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 5
         }
     ]
 }

@@ -6,11 +6,11 @@
         "firstRound": {
             "registered": 119237,
             "voted": 93352,
-            "whites": 1358,
-            "expressed": 91324,
-            "void": 670,
+            "whites": 1370,
+            "expressed": 91323,
+            "void": 659,
             "candidates": {
-                "Nathalie Arthaud": 515,
+                "Nathalie Arthaud": 514,
                 "Fabien Roussel": 2187,
                 "Emmanuel Macron": 25079,
                 "Jean Lasalle": 3395,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2369,
                 "Eric Zemmour": 6699
             }
+        },
+        "secondRound": {
+            "registered": 119220,
+            "voted": 91843,
+            "whites": 5666,
+            "expressed": 83929,
+            "void": 2248,
+            "candidates": {
+                "Emmanuel Macron": 42750,
+                "Marine Le Pen": 41179
+            }
         }
+    },
+    "current": {
+        "id": "2492",
+        "lastname": "Quentin",
+        "firstname": "Didier",
+        "slug": "didier-quentin",
+        "gender": "H",
+        "birthday": "1946-12-23",
+        "birthplace": "Royan (Charente-Maritime)",
+        "county": "Charente-Maritime",
+        "countyId": 17,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Diplomate de carrière (ministre plénipotentiaire en retraite)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 11,
+            "proposals": 1,
+            "proposalsSupported": 614,
+            "amendments": 0,
+            "amendmentsSupported": 9659,
+            "amendmentsAdopted": 249,
+            "commissionsAttended": 296,
+            "commissionInterventions": 248,
+            "hemicycleInterventions": 47,
+            "hemicycleShortInterventions": 11,
+            "questionsWritten": 182,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Danièle",
             "lastname": "Cassette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Vincent",
             "lastname": "Marichal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Christophe",
             "lastname": "Plassard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 5
         },
         {
-            "id": "2492",
-            "lastname": "Quentin",
             "firstname": "Didier",
-            "slug": "didier-quentin",
+            "lastname": "Quentin",
             "gender": "H",
-            "birthday": "1946-12-23",
-            "birthplace": "Royan (Charente-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 17,
             "county": "Charente-Maritime",
-            "countyId": "17",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Diplomate de carrière (ministre plénipotentiaire en retraite)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 11,
-                "proposals": 1,
-                "proposalsSupported": 614,
-                "amendments": 0,
-                "amendmentsSupported": 9659,
-                "amendmentsAdopted": 249,
-                "commissionsAttended": 296,
-                "commissionInterventions": 248,
-                "hemicycleInterventions": 47,
-                "hemicycleShortInterventions": 11,
-                "questionsWritten": 182,
-                "questionsOral": 13
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Margarita",
             "lastname": "Sola",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 5
         },
         {
             "firstname": "Séverine",
             "lastname": "Werbrouck",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 5
         }
     ]
 }

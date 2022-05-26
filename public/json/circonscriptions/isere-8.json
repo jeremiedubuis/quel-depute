@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1480,
                 "Eric Zemmour": 5085
             }
+        },
+        "secondRound": {
+            "registered": 82065,
+            "voted": 61263,
+            "whites": 3860,
+            "expressed": 56198,
+            "void": 1205,
+            "candidates": {
+                "Emmanuel Macron": 30416,
+                "Marine Le Pen": 25782
+            }
         }
+    },
+    "current": {
+        "id": "719866",
+        "lastname": "Abadie",
+        "firstname": "Caroline",
+        "slug": "caroline-abadie",
+        "gender": "F",
+        "birthday": "1976-09-07",
+        "birthplace": "Saint-Martin-d'Hères (Isère)",
+        "county": "Isère",
+        "countyId": 38,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 176,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 56,
+            "amendments": 105,
+            "amendmentsSupported": 1864,
+            "amendmentsAdopted": 1197,
+            "commissionsAttended": 449,
+            "commissionInterventions": 540,
+            "hemicycleInterventions": 170,
+            "hemicycleShortInterventions": 105,
+            "questionsWritten": 25,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719866",
-            "lastname": "Abadie",
             "firstname": "Caroline",
-            "slug": "caroline-abadie",
+            "lastname": "Abadie",
             "gender": "F",
-            "birthday": "1976-09-07",
-            "birthplace": "Saint-Martin-d'Hères (Isère)",
-            "county": "Isère",
-            "countyId": "38",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 176,
-                "reports": 7,
-                "proposals": 1,
-                "proposalsSupported": 56,
-                "amendments": 105,
-                "amendmentsSupported": 1864,
-                "amendmentsAdopted": 1197,
-                "commissionsAttended": 449,
-                "commissionInterventions": 540,
-                "hemicycleInterventions": 170,
-                "hemicycleShortInterventions": 105,
-                "questionsWritten": 25,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 8
         },
         {
             "firstname": "Benoît",
             "lastname": "Auguste",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 8
         },
         {
             "firstname": "Quentin",
             "lastname": "Dogon",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 8
         },
         {
             "firstname": "Jacques",
             "lastname": "Lacaille",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 8
         }
     ]
 }

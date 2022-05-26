@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1098,
                 "Eric Zemmour": 2983
             }
+        },
+        "secondRound": {
+            "registered": 91485,
+            "voted": 70777,
+            "whites": 5216,
+            "expressed": 63673,
+            "void": 1888,
+            "candidates": {
+                "Emmanuel Macron": 43620,
+                "Marine Le Pen": 20053
+            }
         }
+    },
+    "current": {
+        "id": "719210",
+        "lastname": "Joncour",
+        "firstname": "Bruno",
+        "slug": "bruno-joncour",
+        "gender": "H",
+        "birthday": "1953-11-25",
+        "birthplace": "Bizerte (Tunisie)",
+        "county": "Côtes-d'Armor",
+        "countyId": 22,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Secrétaire administratif des affaires sanitaires et sociales",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 156,
+            "reports": 4,
+            "proposals": 0,
+            "proposalsSupported": 57,
+            "amendments": 0,
+            "amendmentsSupported": 3188,
+            "amendmentsAdopted": 699,
+            "commissionsAttended": 227,
+            "commissionInterventions": 125,
+            "hemicycleInterventions": 26,
+            "hemicycleShortInterventions": 11,
+            "questionsWritten": 47,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Françoise",
             "lastname": "Billaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Michaël",
             "lastname": "Cosson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Fanny",
             "lastname": "Darras",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Marion",
             "lastname": "Gorgiard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Alain",
             "lastname": "Le Fol",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Joannic",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         },
         {
             "firstname": "Nathalie",
             "lastname": "Sergenton",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 1
         }
     ]
 }

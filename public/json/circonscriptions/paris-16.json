@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 74499,
-            "voted": 54724,
-            "whites": 504,
-            "expressed": 53982,
-            "void": 238,
+            "voted": 54717,
+            "whites": 507,
+            "expressed": 53983,
+            "void": 227,
             "candidates": {
                 "Nathalie Arthaud": 221,
                 "Fabien Roussel": 1068,
@@ -21,58 +21,129 @@
                 "Valérie Pécresse": 1694,
                 "Phillipe Poutou": 381,
                 "Nicolas Dupont-Aignan": 436,
-                "Eric Zemmour": 3616
+                "Eric Zemmour": 3617
+            }
+        },
+        "secondRound": {
+            "registered": 74530,
+            "voted": 49954,
+            "whites": 2814,
+            "expressed": 46296,
+            "void": 844,
+            "candidates": {
+                "Emmanuel Macron": 39834,
+                "Marine Le Pen": 6462
             }
         }
+    },
+    "current": {
+        "id": "717167",
+        "lastname": "Mahjoubi",
+        "firstname": "Mounir",
+        "slug": "mounir-mahjoubi",
+        "gender": "H",
+        "birthday": "1984-03-01",
+        "birthplace": "Paris (Paris)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 16,
+        "mandateStart": "2019-04-28",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 81,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 39,
+            "amendments": 9,
+            "amendmentsSupported": 1008,
+            "amendmentsAdopted": 673,
+            "commissionsAttended": 61,
+            "commissionInterventions": 27,
+            "hemicycleInterventions": 33,
+            "hemicycleShortInterventions": 107,
+            "questionsWritten": 9,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Yanis",
             "lastname": "Bacha",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         },
         {
             "firstname": "Sébastien",
             "lastname": "Coupel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         },
         {
             "firstname": "Nordine",
             "lastname": "El-Marbati",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         },
         {
             "firstname": "Sarah",
             "lastname": "Legrain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         },
         {
             "firstname": "Nathalie",
             "lastname": "Monsauret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         },
         {
             "firstname": "Marie",
             "lastname": "Toubiana",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 16
         }
     ]
 }

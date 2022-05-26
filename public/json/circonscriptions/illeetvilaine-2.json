@@ -5,14 +5,14 @@
     "results": {
         "firstRound": {
             "registered": 97485,
-            "voted": 78699,
+            "voted": 78698,
             "whites": 1168,
-            "expressed": 77137,
+            "expressed": 77136,
             "void": 394,
             "candidates": {
                 "Nathalie Arthaud": 415,
                 "Fabien Roussel": 1580,
-                "Emmanuel Macron": 27921,
+                "Emmanuel Macron": 27920,
                 "Jean Lasalle": 1391,
                 "Marine Le Pen": 8602,
                 "Jean-Luc Mélenchon": 18880,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1106,
                 "Eric Zemmour": 3852
             }
+        },
+        "secondRound": {
+            "registered": 97514,
+            "voted": 77606,
+            "whites": 5080,
+            "expressed": 71026,
+            "void": 1500,
+            "candidates": {
+                "Emmanuel Macron": 55927,
+                "Marine Le Pen": 15099
+            }
         }
+    },
+    "current": {
+        "id": "719718",
+        "lastname": "Maillart-Méhaignerie",
+        "firstname": "Laurence",
+        "slug": "laurence-maillartmehaignerie",
+        "gender": "F",
+        "birthday": "1967-04-05",
+        "birthplace": "Paris (Paris)",
+        "county": "Ille-et-Vilaine",
+        "countyId": 35,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 173,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 72,
+            "amendments": 139,
+            "amendmentsSupported": 2094,
+            "amendmentsAdopted": 1172,
+            "commissionsAttended": 390,
+            "commissionInterventions": 876,
+            "hemicycleInterventions": 149,
+            "hemicycleShortInterventions": 72,
+            "questionsWritten": 22,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Stéphanie",
             "lastname": "Cadiou",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Florence",
             "lastname": "Defrance",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Mael",
             "lastname": "Egron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Anaïs",
             "lastname": "Jéhanno",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Tristan",
             "lastname": "Lahais",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Mathilde",
             "lastname": "Lahogue",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
-            "id": "719718",
-            "lastname": "Maillart-Méhaignerie",
             "firstname": "Laurence",
-            "slug": "laurence-maillartmehaignerie",
+            "lastname": "Maillart-Méhaignerie",
             "gender": "F",
-            "birthday": "1967-04-05",
-            "birthplace": "Paris (Paris)",
-            "county": "Ille-et-Vilaine",
-            "countyId": "35",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 173,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 72,
-                "amendments": 139,
-                "amendmentsSupported": 2094,
-                "amendmentsAdopted": 1172,
-                "commissionsAttended": 390,
-                "commissionInterventions": 876,
-                "hemicycleInterventions": 149,
-                "hemicycleShortInterventions": 72,
-                "questionsWritten": 22,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         },
         {
             "firstname": "Victor",
             "lastname": "Marion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 35,
+            "county": "Ille-et-Vilaine",
+            "circumscription": 2
         }
     ]
 }

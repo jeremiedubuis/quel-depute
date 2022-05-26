@@ -1,0 +1,21 @@
+.top {
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+    .depute {
+        float: left;
+        width: 400px;
+    }
+
+    .details {
+        clear: left;
+        float: left;
+        width: 400px;
+    }
+
+    .votes {
+        float: right;
+        width: calc(100% - 400px);
+    }
+}

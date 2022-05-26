@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 541,
                 "Eric Zemmour": 2118
             }
+        },
+        "secondRound": {
+            "registered": 53643,
+            "voted": 35073,
+            "whites": 2493,
+            "expressed": 31832,
+            "void": 748,
+            "candidates": {
+                "Emmanuel Macron": 23220,
+                "Marine Le Pen": 8612
+            }
         }
+    },
+    "current": {
+        "id": "429893",
+        "lastname": "Carvounas",
+        "firstname": "Luc",
+        "slug": "luc-carvounas",
+        "gender": "H",
+        "birthday": "1971-06-08",
+        "birthplace": "charenton le pont (Val-de-Marne)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 89,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 50,
+            "amendments": 87,
+            "amendmentsSupported": 9310,
+            "amendmentsAdopted": 529,
+            "commissionsAttended": 57,
+            "commissionInterventions": 6,
+            "hemicycleInterventions": 105,
+            "hemicycleShortInterventions": 122,
+            "questionsWritten": 104,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Michèle",
             "lastname": "Bonhomme-Afflatet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Wenqi",
             "lastname": "Ghaye",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Ollivier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Jonathan",
             "lastname": "Rosemblum",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 9
         },
         {
             "firstname": "Sandrine",
             "lastname": "Ruchot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 9
         },
         {
-            "id": "774960",
-            "lastname": "Santiago",
             "firstname": "Isabelle",
-            "slug": "isabelle-santiago",
+            "lastname": "Santiago",
             "gender": "F",
-            "birthday": "1965-09-20",
-            "birthplace": "Neuilly-sur-Seine (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 94,
             "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 9,
-            "mandateStart": "2020-09-28",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 55,
-                "reports": 4,
-                "proposals": 3,
-                "proposalsSupported": 39,
-                "amendments": 194,
-                "amendmentsSupported": 5710,
-                "amendmentsAdopted": 267,
-                "commissionsAttended": 57,
-                "commissionInterventions": 162,
-                "hemicycleInterventions": 161,
-                "hemicycleShortInterventions": 34,
-                "questionsWritten": 39,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         }
     ]
 }

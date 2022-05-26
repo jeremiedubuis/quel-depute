@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1754,
                 "Eric Zemmour": 5220
             }
+        },
+        "secondRound": {
+            "registered": 91553,
+            "voted": 67227,
+            "whites": 4360,
+            "expressed": 61559,
+            "void": 1308,
+            "candidates": {
+                "Emmanuel Macron": 33016,
+                "Marine Le Pen": 28543
+            }
         }
+    },
+    "current": {
+        "id": "604",
+        "lastname": "Bouley",
+        "firstname": "Bernard",
+        "slug": "bernard-bouley",
+        "gender": "H",
+        "birthday": "1950-07-11",
+        "birthplace": "Paris (Paris)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 2,
+        "mandateStart": "2020-08-05",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 38,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 131,
+            "amendments": 16,
+            "amendmentsSupported": 2169,
+            "amendmentsAdopted": 47,
+            "commissionsAttended": 31,
+            "commissionInterventions": 12,
+            "hemicycleInterventions": 23,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 38,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "604",
-            "lastname": "Bouley",
             "firstname": "Bernard",
-            "slug": "bernard-bouley",
+            "lastname": "Bouley",
             "gender": "H",
-            "birthday": "1950-07-11",
-            "birthplace": "Paris (Paris)",
-            "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 2,
-            "mandateStart": "2020-08-05",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 38,
-                "reports": 0,
-                "proposals": 2,
-                "proposalsSupported": 131,
-                "amendments": 16,
-                "amendmentsSupported": 2169,
-                "amendmentsAdopted": 47,
-                "commissionsAttended": 31,
-                "commissionInterventions": 12,
-                "hemicycleInterventions": 23,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 38,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "Nathalie",
             "lastname": "Carvalho",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "Mathieu",
             "lastname": "Hillaire",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "Pascal",
             "lastname": "Lemaire",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "François",
             "lastname": "Parolini",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "",
             "groupShort": "",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "Mathilde",
             "lastname": "Phan Hieu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         },
         {
             "firstname": "Naïma",
             "lastname": "Sifer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons,LRM",
             "groupShort": "Horizons,LRM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 2
         }
     ]
 }

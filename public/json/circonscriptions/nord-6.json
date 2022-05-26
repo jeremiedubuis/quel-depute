@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1354,
                 "Eric Zemmour": 4540
             }
+        },
+        "secondRound": {
+            "registered": 93472,
+            "voted": 74135,
+            "whites": 3948,
+            "expressed": 68830,
+            "void": 1357,
+            "candidates": {
+                "Emmanuel Macron": 42462,
+                "Marine Le Pen": 26368
+            }
         }
+    },
+    "current": {
+        "id": "720480",
+        "lastname": "Parmentier-Lecocq",
+        "firstname": "Charlotte",
+        "slug": "charlotte-parmentierlecocq",
+        "gender": "F",
+        "birthday": "1977-07-17",
+        "birthplace": "Pointe-à-Pitre (Guadeloupe)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 3,
+            "proposals": 3,
+            "proposalsSupported": 72,
+            "amendments": 108,
+            "amendmentsSupported": 2310,
+            "amendmentsAdopted": 1415,
+            "commissionsAttended": 233,
+            "commissionInterventions": 202,
+            "hemicycleInterventions": 155,
+            "hemicycleShortInterventions": 42,
+            "questionsWritten": 58,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Frédéric",
             "lastname": "Barrez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         },
         {
             "firstname": "Virginie",
             "lastname": "Fenain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         },
         {
             "firstname": "Luc",
             "lastname": "Foutry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         },
         {
             "firstname": "Vanessa",
             "lastname": "Labre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         },
         {
-            "id": "720480",
-            "lastname": "Parmentier-Lecocq",
             "firstname": "Charlotte",
-            "slug": "charlotte-parmentierlecocq",
+            "lastname": "Parmentier-Lecocq",
             "gender": "F",
-            "birthday": "1977-07-17",
-            "birthplace": "Pointe-à-Pitre (Guadeloupe)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 3,
-                "proposals": 3,
-                "proposalsSupported": 72,
-                "amendments": 108,
-                "amendmentsSupported": 2310,
-                "amendmentsAdopted": 1415,
-                "commissionsAttended": 233,
-                "commissionInterventions": 202,
-                "hemicycleInterventions": 155,
-                "hemicycleShortInterventions": 42,
-                "questionsWritten": 58,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         },
         {
             "firstname": "Célia",
             "lastname": "Pereira",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 6
         }
     ]
 }

@@ -4,111 +4,158 @@
     "name": "Seine-Maritime",
     "results": {
         "firstRound": {
-            "registered": 95016,
+            "registered": 95009,
             "voted": 75084,
-            "whites": 1120,
-            "expressed": 73550,
-            "void": 414,
+            "whites": 1157,
+            "expressed": 73552,
+            "void": 375,
             "candidates": {
                 "Nathalie Arthaud": 377,
                 "Fabien Roussel": 1615,
                 "Emmanuel Macron": 25119,
                 "Jean Lasalle": 1500,
-                "Marine Le Pen": 17287,
+                "Marine Le Pen": 17288,
                 "Jean-Luc Mélenchon": 12384,
                 "Anne Hidalgo": 1186,
                 "Yannick Jadot": 3646,
                 "Valérie Pécresse": 3880,
                 "Phillipe Poutou": 501,
-                "Nicolas Dupont-Aignan": 1515,
+                "Nicolas Dupont-Aignan": 1516,
                 "Eric Zemmour": 4540
             }
+        },
+        "secondRound": {
+            "registered": 95031,
+            "voted": 75769,
+            "whites": 4582,
+            "expressed": 69848,
+            "void": 1339,
+            "candidates": {
+                "Emmanuel Macron": 43377,
+                "Marine Le Pen": 26471
+            }
         }
+    },
+    "current": {
+        "id": "722102",
+        "lastname": "Vidal",
+        "firstname": "Annie",
+        "slug": "annie-vidal",
+        "gender": "F",
+        "birthday": "1956-09-17",
+        "birthplace": "La Bohalle (Maine-et-Loire)",
+        "county": "Seine-Maritime",
+        "countyId": 76,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chargée de projet",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 171,
+            "reports": 5,
+            "proposals": 2,
+            "proposalsSupported": 84,
+            "amendments": 198,
+            "amendmentsSupported": 2809,
+            "amendmentsAdopted": 1362,
+            "commissionsAttended": 428,
+            "commissionInterventions": 477,
+            "hemicycleInterventions": 136,
+            "hemicycleShortInterventions": 19,
+            "questionsWritten": 21,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Maxence",
             "lastname": "Briquet",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Sébastien",
             "lastname": "Duval",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Claude",
             "lastname": "Garault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Jonas",
             "lastname": "Haddad",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Bastien",
             "lastname": "Holingue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Dorian",
             "lastname": "Le Bay",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         },
         {
-            "id": "722102",
-            "lastname": "Vidal",
             "firstname": "Annie",
-            "slug": "annie-vidal",
+            "lastname": "Vidal",
             "gender": "F",
-            "birthday": "1956-09-17",
-            "birthplace": "La Bohalle (Maine-et-Loire)",
-            "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chargée de projet",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 171,
-                "reports": 5,
-                "proposals": 2,
-                "proposalsSupported": 84,
-                "amendments": 198,
-                "amendmentsSupported": 2809,
-                "amendmentsAdopted": 1362,
-                "commissionsAttended": 428,
-                "commissionInterventions": 477,
-                "hemicycleInterventions": 136,
-                "hemicycleShortInterventions": 19,
-                "questionsWritten": 21,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 2
         }
     ]
 }

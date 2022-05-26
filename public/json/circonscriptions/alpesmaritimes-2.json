@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 88918,
             "voted": 66423,
-            "whites": 932,
-            "expressed": 65132,
-            "void": 359,
+            "whites": 949,
+            "expressed": 65133,
+            "void": 341,
             "candidates": {
                 "Nathalie Arthaud": 216,
                 "Fabien Roussel": 1156,
                 "Emmanuel Macron": 14780,
                 "Jean Lasalle": 2076,
                 "Marine Le Pen": 18956,
-                "Jean-Luc Mélenchon": 11040,
+                "Jean-Luc Mélenchon": 11041,
                 "Anne Hidalgo": 643,
                 "Yannick Jadot": 2954,
                 "Valérie Pécresse": 3263,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1854,
                 "Eric Zemmour": 7771
             }
+        },
+        "secondRound": {
+            "registered": 88958,
+            "voted": 65725,
+            "whites": 3894,
+            "expressed": 60662,
+            "void": 1169,
+            "candidates": {
+                "Emmanuel Macron": 27972,
+                "Marine Le Pen": 32690
+            }
         }
+    },
+    "current": {
+        "id": "718894",
+        "lastname": "Dombreval",
+        "firstname": "Loïc",
+        "slug": "loic-dombreval",
+        "gender": "H",
+        "birthday": "1966-04-16",
+        "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+        "county": "Alpes-Maritimes",
+        "countyId": 6,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 0,
+            "proposals": 9,
+            "proposalsSupported": 108,
+            "amendments": 274,
+            "amendmentsSupported": 3942,
+            "amendmentsAdopted": 1294,
+            "commissionsAttended": 164,
+            "commissionInterventions": 113,
+            "hemicycleInterventions": 121,
+            "hemicycleShortInterventions": 18,
+            "questionsWritten": 90,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Alain",
             "lastname": "Bouilleaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 2
         },
         {
-            "id": "718894",
+            "firstname": "Loic",
             "lastname": "Dombreval",
-            "firstname": "Loïc",
-            "slug": "loic-dombreval",
             "gender": "H",
-            "birthday": "1966-04-16",
-            "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
-            "county": "Alpes-Maritimes",
-            "countyId": "06",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 0,
-                "proposals": 9,
-                "proposalsSupported": 108,
-                "amendments": 274,
-                "amendmentsSupported": 3942,
-                "amendmentsAdopted": 1294,
-                "commissionsAttended": 164,
-                "commissionInterventions": 113,
-                "hemicycleInterventions": 121,
-                "hemicycleShortInterventions": 18,
-                "questionsWritten": 90,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Macario",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 2
         },
         {
             "firstname": "Sonia",
             "lastname": "Naffati",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 2
         },
         {
             "firstname": "Lionel",
             "lastname": "Tivoli",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 6,
+            "county": "Alpes-Maritimes",
+            "circumscription": 2
         }
     ]
 }

@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1962,
                 "Eric Zemmour": 9729
             }
+        },
+        "secondRound": {
+            "registered": 108638,
+            "voted": 83646,
+            "whites": 4836,
+            "expressed": 77257,
+            "void": 1553,
+            "candidates": {
+                "Emmanuel Macron": 35479,
+                "Marine Le Pen": 41778
+            }
         }
+    },
+    "current": {
+        "id": "605518",
+        "lastname": "Lambert",
+        "firstname": "François-Michel",
+        "slug": "francoismichel-lambert",
+        "gender": "H",
+        "birthday": "1966-08-24",
+        "birthplace": "La Havane (Cuba)",
+        "county": "Bouches-du-Rhône",
+        "countyId": 13,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 157,
+            "reports": 2,
+            "proposals": 12,
+            "proposalsSupported": 113,
+            "amendments": 1555,
+            "amendmentsSupported": 9552,
+            "amendmentsAdopted": 504,
+            "commissionsAttended": 197,
+            "commissionInterventions": 671,
+            "hemicycleInterventions": 1140,
+            "hemicycleShortInterventions": 602,
+            "questionsWritten": 97,
+            "questionsOral": 29
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Véronique",
             "lastname": "Bourcet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Celine",
             "lastname": "Colantonio",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "José",
             "lastname": "Gonzalez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Marina",
             "lastname": "Mesure",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Serge",
             "lastname": "Perottino",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         },
         {
             "firstname": "Jean-Claude",
             "lastname": "Valiente",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 10
         }
     ]
 }

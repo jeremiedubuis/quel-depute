@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 73331,
             "voted": 55280,
-            "whites": 874,
+            "whites": 878,
             "expressed": 54054,
-            "void": 352,
+            "void": 348,
             "candidates": {
                 "Nathalie Arthaud": 359,
                 "Fabien Roussel": 1126,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1331,
                 "Eric Zemmour": 3500
             }
+        },
+        "secondRound": {
+            "registered": 73358,
+            "voted": 55339,
+            "whites": 3207,
+            "expressed": 51058,
+            "void": 1074,
+            "candidates": {
+                "Emmanuel Macron": 26012,
+                "Marine Le Pen": 25046
+            }
         }
+    },
+    "current": {
+        "id": "342935",
+        "lastname": "Dubois",
+        "firstname": "Marianne",
+        "slug": "marianne-dubois",
+        "gender": "F",
+        "birthday": "1957-12-17",
+        "birthplace": "Corbeil-Essonnes (Essonne)",
+        "county": "Loiret",
+        "countyId": 45,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 138,
+            "reports": 2,
+            "proposals": 6,
+            "proposalsSupported": 213,
+            "amendments": 17,
+            "amendmentsSupported": 3199,
+            "amendmentsAdopted": 100,
+            "commissionsAttended": 242,
+            "commissionInterventions": 142,
+            "hemicycleInterventions": 55,
+            "hemicycleShortInterventions": 9,
+            "questionsWritten": 90,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anthony",
             "lastname": "Brosse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         },
         {
             "firstname": "Maxime",
             "lastname": "Buizard-Blondeau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         },
         {
             "firstname": "Florence",
             "lastname": "Chabirand",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         },
         {
             "firstname": "Valentin",
             "lastname": "Manent",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         },
         {
             "firstname": "Laurent",
             "lastname": "Mollière",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         },
         {
             "firstname": "Céline",
             "lastname": "Sottejeau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 5
         }
     ]
 }

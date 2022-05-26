@@ -4,11 +4,11 @@
     "name": "Deux-Sèvres",
     "results": {
         "firstRound": {
-            "registered": 84733,
+            "registered": 84737,
             "voted": 65750,
-            "whites": 1201,
+            "whites": 1208,
             "expressed": 63874,
-            "void": 675,
+            "void": 668,
             "candidates": {
                 "Nathalie Arthaud": 514,
                 "Fabien Roussel": 1200,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1597,
                 "Eric Zemmour": 2715
             }
+        },
+        "secondRound": {
+            "registered": 84754,
+            "voted": 64871,
+            "whites": 3678,
+            "expressed": 59611,
+            "void": 1582,
+            "candidates": {
+                "Emmanuel Macron": 35339,
+                "Marine Le Pen": 24272
+            }
         }
+    },
+    "current": {
+        "id": "722134",
+        "lastname": "Fiévet",
+        "firstname": "Jean-Marie",
+        "slug": "jeanmarie-fievet",
+        "gender": "H",
+        "birthday": "1964-06-19",
+        "birthplace": "Bressuire (Deux-Sèvres)",
+        "county": "Deux-Sèvres",
+        "countyId": 79,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 69,
+            "amendmentsSupported": 2825,
+            "amendmentsAdopted": 1041,
+            "commissionsAttended": 235,
+            "commissionInterventions": 98,
+            "hemicycleInterventions": 37,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 132,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722134",
-            "lastname": "Fiévet",
             "firstname": "Jean-Marie",
-            "slug": "jeanmarie-fievet",
+            "lastname": "Fiévet",
             "gender": "H",
-            "birthday": "1964-06-19",
-            "birthplace": "Bressuire (Deux-Sèvres)",
-            "county": "Deux-Sèvres",
-            "countyId": "79",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Fonctionnaire de catégorie B",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 149,
-                "reports": 2,
-                "proposals": 1,
-                "proposalsSupported": 73,
-                "amendments": 69,
-                "amendmentsSupported": 2825,
-                "amendmentsAdopted": 1041,
-                "commissionsAttended": 235,
-                "commissionInterventions": 98,
-                "hemicycleInterventions": 37,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 132,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 3
         },
         {
             "firstname": "Olivier",
             "lastname": "Guibert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 3
         },
         {
             "firstname": "Maryse",
             "lastname": "Vallée",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 3
         },
         {
             "firstname": "Juliette",
             "lastname": "Woillez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 79,
+            "county": "Deux-Sèvres",
+            "circumscription": 3
         }
     ]
 }

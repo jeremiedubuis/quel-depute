@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 470,
                 "Eric Zemmour": 2637
             }
+        },
+        "secondRound": {
+            "registered": 50629,
+            "voted": 33158,
+            "whites": 2146,
+            "expressed": 30322,
+            "void": 690,
+            "candidates": {
+                "Emmanuel Macron": 20748,
+                "Marine Le Pen": 9574
+            }
         }
+    },
+    "current": {
+        "id": "719952",
+        "lastname": "Mis",
+        "firstname": "Jean-Michel",
+        "slug": "jeanmichel-mis",
+        "gender": "H",
+        "birthday": "1967-07-28",
+        "birthplace": "Saint-Étienne (Loire)",
+        "county": "Loire",
+        "countyId": 42,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 6,
+            "proposals": 3,
+            "proposalsSupported": 108,
+            "amendments": 121,
+            "amendmentsSupported": 3364,
+            "amendmentsAdopted": 1450,
+            "commissionsAttended": 275,
+            "commissionInterventions": 118,
+            "hemicycleInterventions": 106,
+            "hemicycleShortInterventions": 23,
+            "questionsWritten": 96,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hervé",
             "lastname": "Breuil",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Laura",
             "lastname": "Cinieri",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Sophie",
             "lastname": "Dieterich",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         },
         {
             "firstname": "David",
             "lastname": "Jacquemard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         },
         {
-            "id": "719952",
-            "lastname": "Mis",
             "firstname": "Jean-Michel",
-            "slug": "jeanmichel-mis",
+            "lastname": "Mis",
             "gender": "H",
-            "birthday": "1967-07-28",
-            "birthplace": "Saint-Étienne (Loire)",
-            "county": "Loire",
-            "countyId": "42",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 6,
-                "proposals": 3,
-                "proposalsSupported": 108,
-                "amendments": 121,
-                "amendmentsSupported": 3364,
-                "amendmentsAdopted": 1450,
-                "commissionsAttended": 275,
-                "commissionInterventions": 118,
-                "hemicycleInterventions": 106,
-                "hemicycleShortInterventions": 23,
-                "questionsWritten": 96,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Andree",
             "lastname": "Taurinya",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 42,
+            "county": "Loire",
+            "circumscription": 2
         }
     ]
 }

@@ -4,67 +4,134 @@
     "name": "Haute-Loire",
     "results": {
         "firstRound": {
-            "registered": 79158,
-            "voted": 62589,
-            "whites": 1169,
-            "expressed": 60837,
-            "void": 583,
+            "registered": 79362,
+            "voted": 62758,
+            "whites": 1186,
+            "expressed": 60997,
+            "void": 575,
             "candidates": {
                 "Nathalie Arthaud": 446,
-                "Fabien Roussel": 1655,
-                "Emmanuel Macron": 14163,
-                "Jean Lasalle": 3989,
-                "Marine Le Pen": 15821,
-                "Jean-Luc Mélenchon": 11192,
-                "Anne Hidalgo": 1087,
-                "Yannick Jadot": 2328,
-                "Valérie Pécresse": 4285,
-                "Phillipe Poutou": 491,
-                "Nicolas Dupont-Aignan": 1404,
-                "Eric Zemmour": 3976
+                "Fabien Roussel": 1645,
+                "Emmanuel Macron": 14178,
+                "Jean Lasalle": 4006,
+                "Marine Le Pen": 15865,
+                "Jean-Luc Mélenchon": 11233,
+                "Anne Hidalgo": 1096,
+                "Yannick Jadot": 2327,
+                "Valérie Pécresse": 4313,
+                "Phillipe Poutou": 493,
+                "Nicolas Dupont-Aignan": 1407,
+                "Eric Zemmour": 3988
+            }
+        },
+        "secondRound": {
+            "registered": 79346,
+            "voted": 61049,
+            "whites": 4959,
+            "expressed": 53978,
+            "void": 2112,
+            "candidates": {
+                "Emmanuel Macron": 27540,
+                "Marine Le Pen": 26438
             }
         }
+    },
+    "current": {
+        "id": "607090",
+        "lastname": "Vigier",
+        "firstname": "Jean-Pierre",
+        "slug": "jeanpierre-vigier",
+        "gender": "H",
+        "birthday": "1969-10-22",
+        "birthplace": "Brioude (Haute-Loire)",
+        "county": "Haute-Loire",
+        "countyId": 43,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 3,
+            "proposals": 5,
+            "proposalsSupported": 311,
+            "amendments": 784,
+            "amendmentsSupported": 11088,
+            "amendmentsAdopted": 272,
+            "commissionsAttended": 328,
+            "commissionInterventions": 273,
+            "hemicycleInterventions": 327,
+            "hemicycleShortInterventions": 522,
+            "questionsWritten": 121,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christian",
             "lastname": "Allègre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Antoine",
             "lastname": "Brebion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Clément",
             "lastname": "Lafont",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Thierry",
             "lastname": "Perez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Azelma",
             "lastname": "Sigaux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Révolution Ecologique pour le Vivant",
             "groupShort": "REV",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 2
         }
     ]
 }

@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 912,
                 "Eric Zemmour": 5229
             }
+        },
+        "secondRound": {
+            "registered": 75628,
+            "voted": 55209,
+            "whites": 2880,
+            "expressed": 51509,
+            "void": 820,
+            "candidates": {
+                "Emmanuel Macron": 38600,
+                "Marine Le Pen": 12909
+            }
         }
+    },
+    "current": {
+        "id": "721916",
+        "lastname": "Pouzyreff",
+        "firstname": "Natalia",
+        "slug": "natalia-pouzyreff",
+        "gender": "F",
+        "birthday": "1961-02-18",
+        "birthplace": "Limoges (Haute-Vienne)",
+        "county": "Yvelines",
+        "countyId": 78,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieure",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 179,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 80,
+            "amendments": 183,
+            "amendmentsSupported": 2327,
+            "amendmentsAdopted": 1007,
+            "commissionsAttended": 330,
+            "commissionInterventions": 317,
+            "hemicycleInterventions": 131,
+            "hemicycleShortInterventions": 58,
+            "questionsWritten": 12,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Thibault",
             "lastname": "de Montbrial",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
             "firstname": "Cécile",
             "lastname": "Perraudin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
-            "id": "721916",
-            "lastname": "Pouzyreff",
             "firstname": "Natalia",
-            "slug": "natalia-pouzyreff",
+            "lastname": "Pouzyreff",
             "gender": "F",
-            "birthday": "1961-02-18",
-            "birthplace": "Limoges (Haute-Vienne)",
-            "county": "Yvelines",
-            "countyId": "78",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieure",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 179,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 80,
-                "amendments": 183,
-                "amendmentsSupported": 2327,
-                "amendmentsAdopted": 1007,
-                "commissionsAttended": 330,
-                "commissionInterventions": 317,
-                "hemicycleInterventions": 131,
-                "hemicycleShortInterventions": 58,
-                "questionsWritten": 12,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
             "firstname": "Mélinda",
             "lastname": "Sauger",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
             "firstname": "Tania",
             "lastname": "Savin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Luc",
             "lastname": "Suzé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         },
         {
             "firstname": "Julian",
             "lastname": "Verilhac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 78,
+            "county": "Yvelines",
+            "circumscription": 6
         }
     ]
 }

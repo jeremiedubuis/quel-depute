@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 826,
                 "Eric Zemmour": 3011
             }
+        },
+        "secondRound": {
+            "registered": 72004,
+            "voted": 55658,
+            "whites": 3640,
+            "expressed": 50757,
+            "void": 1261,
+            "candidates": {
+                "Emmanuel Macron": 36903,
+                "Marine Le Pen": 13854
+            }
         }
+    },
+    "current": {
+        "id": "719006",
+        "lastname": "Le Vigoureux",
+        "firstname": "Fabrice",
+        "slug": "fabrice-le-vigoureux",
+        "gender": "H",
+        "birthday": "1969-08-27",
+        "birthplace": "Caen (Calvados)",
+        "county": "Calvados",
+        "countyId": 14,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur des Universités",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 23,
+            "amendmentsSupported": 1592,
+            "amendmentsAdopted": 1033,
+            "commissionsAttended": 264,
+            "commissionInterventions": 96,
+            "hemicycleInterventions": 131,
+            "hemicycleShortInterventions": 15,
+            "questionsWritten": 23,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pierre",
             "lastname": "Casevitz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         },
         {
             "firstname": "Emma",
             "lastname": "Fourreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         },
         {
             "firstname": "Jérémy",
             "lastname": "Gallois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         },
         {
             "firstname": "Josseline",
             "lastname": "Gerszkourez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         },
         {
-            "id": "719006",
-            "lastname": "Le Vigoureux",
             "firstname": "Fabrice",
-            "slug": "fabrice-le-vigoureux",
+            "lastname": "Le Vigoureux",
             "gender": "H",
-            "birthday": "1969-08-27",
-            "birthplace": "Caen (Calvados)",
-            "county": "Calvados",
-            "countyId": "14",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur des Universités",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 177,
-                "reports": 9,
-                "proposals": 0,
-                "proposalsSupported": 67,
-                "amendments": 23,
-                "amendmentsSupported": 1592,
-                "amendmentsAdopted": 1033,
-                "commissionsAttended": 264,
-                "commissionInterventions": 96,
-                "hemicycleInterventions": 131,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 23,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         },
         {
             "firstname": "Florent",
             "lastname": "Thomas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 1
         }
     ]
 }

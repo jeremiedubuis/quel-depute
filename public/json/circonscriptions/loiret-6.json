@@ -5,8 +5,8 @@
     "results": {
         "firstRound": {
             "registered": 75009,
-            "voted": 56725,
-            "whites": 880,
+            "voted": 56722,
+            "whites": 877,
             "expressed": 55514,
             "void": 331,
             "candidates": {
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1183,
                 "Eric Zemmour": 3720
             }
+        },
+        "secondRound": {
+            "registered": 75036,
+            "voted": 56208,
+            "whites": 3561,
+            "expressed": 51492,
+            "void": 1155,
+            "candidates": {
+                "Emmanuel Macron": 32243,
+                "Marine Le Pen": 19249
+            }
         }
+    },
+    "current": {
+        "id": "720092",
+        "lastname": "Ramos",
+        "firstname": "Richard",
+        "slug": "richard-ramos",
+        "gender": "H",
+        "birthday": "1968-03-23",
+        "birthplace": "Blois (Loir-et-Cher)",
+        "county": "Loiret",
+        "countyId": 45,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 125,
+            "reports": 4,
+            "proposals": 4,
+            "proposalsSupported": 132,
+            "amendments": 229,
+            "amendmentsSupported": 3742,
+            "amendmentsAdopted": 752,
+            "commissionsAttended": 126,
+            "commissionInterventions": 163,
+            "hemicycleInterventions": 208,
+            "hemicycleShortInterventions": 89,
+            "questionsWritten": 91,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Carla",
             "lastname": "Boubekeur",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 6
         },
         {
             "firstname": "David",
             "lastname": "Choquel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 6
         },
         {
             "firstname": "Chrystel",
             "lastname": "de Filippi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 6
         },
         {
             "firstname": "Olivier",
             "lastname": "Hicter",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 6
         },
         {
             "firstname": "Raphaël",
             "lastname": "Legros",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 6
         },
         {
-            "id": "720092",
-            "lastname": "Ramos",
             "firstname": "Richard",
-            "slug": "richard-ramos",
+            "lastname": "Ramos",
             "gender": "H",
-            "birthday": "1968-03-23",
-            "birthplace": "Blois (Loir-et-Cher)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 45,
             "county": "Loiret",
-            "countyId": "45",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 125,
-                "reports": 4,
-                "proposals": 4,
-                "proposalsSupported": 132,
-                "amendments": 229,
-                "amendmentsSupported": 3742,
-                "amendmentsAdopted": 752,
-                "commissionsAttended": 126,
-                "commissionInterventions": 163,
-                "hemicycleInterventions": 208,
-                "hemicycleShortInterventions": 89,
-                "questionsWritten": 91,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         }
     ]
 }

@@ -7,8 +7,8 @@
             "registered": 97315,
             "voted": 74548,
             "whites": 1128,
-            "expressed": 72942,
-            "void": 478,
+            "expressed": 72943,
+            "void": 477,
             "candidates": {
                 "Nathalie Arthaud": 508,
                 "Fabien Roussel": 912,
@@ -21,86 +21,129 @@
                 "Valérie Pécresse": 3184,
                 "Phillipe Poutou": 563,
                 "Nicolas Dupont-Aignan": 2447,
-                "Eric Zemmour": 5248
+                "Eric Zemmour": 5249
+            }
+        },
+        "secondRound": {
+            "registered": 97351,
+            "voted": 74802,
+            "whites": 3806,
+            "expressed": 69727,
+            "void": 1269,
+            "candidates": {
+                "Emmanuel Macron": 37601,
+                "Marine Le Pen": 32126
             }
         }
+    },
+    "current": {
+        "id": "266774",
+        "lastname": "Furst",
+        "firstname": "Laurent",
+        "slug": "laurent-furst",
+        "gender": "H",
+        "birthday": "1965-05-19",
+        "birthplace": "Colmar (Haut-Rhin)",
+        "county": "Bas-Rhin",
+        "countyId": 67,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "LR",
+        "job": "Directeur d'hôpital",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 97,
+            "reports": 1,
+            "proposals": 11,
+            "proposalsSupported": 411,
+            "amendments": 156,
+            "amendmentsSupported": 2925,
+            "amendmentsAdopted": 90,
+            "commissionsAttended": 105,
+            "commissionInterventions": 124,
+            "hemicycleInterventions": 314,
+            "hemicycleShortInterventions": 1003,
+            "questionsWritten": 55,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "René",
             "lastname": "Camus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 6
         },
         {
             "firstname": "Martial",
             "lastname": "Debriffe",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 6
         },
         {
             "firstname": "Carine",
             "lastname": "Mattel",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 6
         },
         {
-            "id": "722280",
-            "lastname": "Meyer",
             "firstname": "Philippe",
-            "slug": "philippe-meyer",
+            "lastname": "Meyer",
             "gender": "H",
-            "birthday": "1969-04-29",
-            "birthplace": "Mulhouse (Haut-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 67,
             "county": "Bas-Rhin",
-            "countyId": "67",
-            "circumscription": 6,
-            "mandateStart": "2020-06-28",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Enseignant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 54,
-                "reports": 1,
-                "proposals": 2,
-                "proposalsSupported": 98,
-                "amendments": 120,
-                "amendmentsSupported": 2437,
-                "amendmentsAdopted": 53,
-                "commissionsAttended": 68,
-                "commissionInterventions": 35,
-                "hemicycleInterventions": 80,
-                "hemicycleShortInterventions": 15,
-                "questionsWritten": 15,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Louise",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Frederic",
             "lastname": "Steinbach",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 6
         }
     ]
 }

@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1753,
                 "Eric Zemmour": 4974
             }
+        },
+        "secondRound": {
+            "registered": 85742,
+            "voted": 65444,
+            "whites": 4020,
+            "expressed": 60195,
+            "void": 1229,
+            "candidates": {
+                "Emmanuel Macron": 32671,
+                "Marine Le Pen": 27524
+            }
         }
+    },
+    "current": {
+        "id": "330008",
+        "lastname": "Breton",
+        "firstname": "Xavier",
+        "slug": "xavier-breton",
+        "gender": "H",
+        "birthday": "1962-11-25",
+        "birthplace": "Darney (Vosges)",
+        "county": "Ain",
+        "countyId": 1,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 3,
+            "proposals": 13,
+            "proposalsSupported": 211,
+            "amendments": 3670,
+            "amendmentsSupported": 8476,
+            "amendmentsAdopted": 179,
+            "commissionsAttended": 458,
+            "commissionInterventions": 1025,
+            "hemicycleInterventions": 1112,
+            "hemicycleShortInterventions": 874,
+            "questionsWritten": 129,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "330008",
-            "lastname": "Breton",
             "firstname": "Xavier",
-            "slug": "xavier-breton",
+            "lastname": "Breton",
             "gender": "H",
-            "birthday": "1962-11-25",
-            "birthplace": "Darney (Vosges)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 1,
             "county": "Ain",
-            "countyId": "01",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 189,
-                "reports": 3,
-                "proposals": 13,
-                "proposalsSupported": 211,
-                "amendments": 3670,
-                "amendmentsSupported": 8476,
-                "amendmentsAdopted": 179,
-                "commissionsAttended": 458,
-                "commissionInterventions": 1025,
-                "hemicycleInterventions": 1112,
-                "hemicycleShortInterventions": 874,
-                "questionsWritten": 129,
-                "questionsOral": 15
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Brigitte",
             "lastname": "Giannotti",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 1
         },
         {
             "firstname": "Sébastien",
             "lastname": "Guéraud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 1
         },
         {
             "firstname": "Vincent",
             "lastname": "Guillermin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 1
         },
         {
             "firstname": "Éric",
             "lastname": "Lahy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 1
         }
     ]
 }

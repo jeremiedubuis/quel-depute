@@ -4,95 +4,134 @@
     "name": "Seine-Saint-Denis",
     "results": {
         "firstRound": {
-            "registered": 57421,
-            "voted": 39462,
-            "whites": 431,
-            "expressed": 38775,
-            "void": 256,
+            "registered": 57423,
+            "voted": 39445,
+            "whites": 432,
+            "expressed": 38777,
+            "void": 236,
             "candidates": {
                 "Nathalie Arthaud": 318,
                 "Fabien Roussel": 850,
                 "Emmanuel Macron": 6799,
                 "Jean Lasalle": 364,
-                "Marine Le Pen": 3060,
+                "Marine Le Pen": 3061,
                 "Jean-Luc Mélenchon": 22042,
                 "Anne Hidalgo": 489,
                 "Yannick Jadot": 1713,
                 "Valérie Pécresse": 879,
                 "Phillipe Poutou": 259,
                 "Nicolas Dupont-Aignan": 323,
-                "Eric Zemmour": 1679
+                "Eric Zemmour": 1680
+            }
+        },
+        "secondRound": {
+            "registered": 57437,
+            "voted": 34317,
+            "whites": 2308,
+            "expressed": 31301,
+            "void": 708,
+            "candidates": {
+                "Emmanuel Macron": 25245,
+                "Marine Le Pen": 6056
             }
         }
+    },
+    "current": {
+        "id": "720846",
+        "lastname": "Lachaud",
+        "firstname": "Bastien",
+        "slug": "bastien-lachaud",
+        "gender": "H",
+        "birthday": "1980-08-05",
+        "birthplace": "Vitry sur Seine (Val-de-Marne)",
+        "county": "Seine-Saint-Denis",
+        "countyId": 93,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 6,
+            "proposals": 32,
+            "proposalsSupported": 203,
+            "amendments": 3136,
+            "amendmentsSupported": 18887,
+            "amendmentsAdopted": 220,
+            "commissionsAttended": 252,
+            "commissionInterventions": 577,
+            "hemicycleInterventions": 1154,
+            "hemicycleShortInterventions": 708,
+            "questionsWritten": 225,
+            "questionsOral": 43
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nathalie",
             "lastname": "Arthaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 6
         },
         {
             "firstname": "Yasmina",
             "lastname": "Baziz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 6
         },
         {
-            "id": "720846",
-            "lastname": "Lachaud",
             "firstname": "Bastien",
-            "slug": "bastien-lachaud",
+            "lastname": "Lachaud",
             "gender": "H",
-            "birthday": "1980-08-05",
-            "birthplace": "Vitry sur Seine (Val-de-Marne)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Professeur du secondaire et technique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 177,
-                "reports": 6,
-                "proposals": 32,
-                "proposalsSupported": 203,
-                "amendments": 3136,
-                "amendmentsSupported": 18887,
-                "amendmentsAdopted": 220,
-                "commissionsAttended": 252,
-                "commissionInterventions": 577,
-                "hemicycleInterventions": 1154,
-                "hemicycleShortInterventions": 708,
-                "questionsWritten": 225,
-                "questionsOral": 43
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 6
         },
         {
             "firstname": "Ling",
             "lastname": "Lenzi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 6
         },
         {
             "firstname": "Aymane",
             "lastname": "Mabiala",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 6
         }
     ]
 }

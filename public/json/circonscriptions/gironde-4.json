@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1230,
                 "Eric Zemmour": 4075
             }
+        },
+        "secondRound": {
+            "registered": 97790,
+            "voted": 69007,
+            "whites": 4862,
+            "expressed": 62391,
+            "void": 1754,
+            "candidates": {
+                "Emmanuel Macron": 37716,
+                "Marine Le Pen": 24675
+            }
         }
+    },
+    "current": {
+        "id": "1008",
+        "lastname": "David",
+        "firstname": "Alain",
+        "slug": "alain-david",
+        "gender": "H",
+        "birthday": "1949-06-02",
+        "birthplace": "Libourne (Gironde)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 186,
+            "reports": 11,
+            "proposals": 2,
+            "proposalsSupported": 88,
+            "amendments": 112,
+            "amendmentsSupported": 15053,
+            "amendmentsAdopted": 790,
+            "commissionsAttended": 363,
+            "commissionInterventions": 455,
+            "hemicycleInterventions": 595,
+            "hemicycleShortInterventions": 172,
+            "questionsWritten": 148,
+            "questionsOral": 37
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Isabelle",
             "lastname": "Brivary",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 4
         },
         {
-            "id": "1008",
-            "lastname": "David",
             "firstname": "Alain",
-            "slug": "alain-david",
+            "lastname": "David",
             "gender": "H",
-            "birthday": "1949-06-02",
-            "birthplace": "Libourne (Gironde)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 33,
             "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Ingénieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 186,
-                "reports": 11,
-                "proposals": 2,
-                "proposalsSupported": 88,
-                "amendments": 112,
-                "amendmentsSupported": 15053,
-                "amendmentsAdopted": 790,
-                "commissionsAttended": 363,
-                "commissionInterventions": 455,
-                "hemicycleInterventions": 595,
-                "hemicycleShortInterventions": 172,
-                "questionsWritten": 147,
-                "questionsOral": 37
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Ambre",
             "lastname": "Destandau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 4
         },
         {
             "firstname": "Mélissa",
             "lastname": "Karaca",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 4
         },
         {
             "firstname": "Julie",
             "lastname": "Rechagneux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 4
         }
     ]
 }

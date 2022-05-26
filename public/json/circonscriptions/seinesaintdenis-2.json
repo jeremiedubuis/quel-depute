@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 54675,
-            "voted": 36119,
-            "whites": 500,
-            "expressed": 35325,
-            "void": 294,
+            "voted": 36109,
+            "whites": 507,
+            "expressed": 35327,
+            "void": 275,
             "candidates": {
                 "Nathalie Arthaud": 199,
                 "Fabien Roussel": 764,
-                "Emmanuel Macron": 5516,
+                "Emmanuel Macron": 5517,
                 "Jean Lasalle": 342,
-                "Marine Le Pen": 3289,
+                "Marine Le Pen": 3290,
                 "Jean-Luc Mélenchon": 21763,
                 "Anne Hidalgo": 355,
                 "Yannick Jadot": 761,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 319,
                 "Eric Zemmour": 1143
             }
+        },
+        "secondRound": {
+            "registered": 54696,
+            "voted": 30259,
+            "whites": 2225,
+            "expressed": 27418,
+            "void": 616,
+            "candidates": {
+                "Emmanuel Macron": 21134,
+                "Marine Le Pen": 6284
+            }
         }
+    },
+    "current": {
+        "id": "721270",
+        "lastname": "Peu",
+        "firstname": "Stéphane",
+        "slug": "stephane-peu",
+        "gender": "H",
+        "birthday": "1962-07-24",
+        "birthplace": "Pau (Pyrénées-Atlantiques)",
+        "county": "Seine-Saint-Denis",
+        "countyId": 93,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Employé administratif",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 2,
+            "proposals": 14,
+            "proposalsSupported": 186,
+            "amendments": 2616,
+            "amendmentsSupported": 9425,
+            "amendmentsAdopted": 318,
+            "commissionsAttended": 282,
+            "commissionInterventions": 901,
+            "hemicycleInterventions": 2065,
+            "hemicycleShortInterventions": 1598,
+            "questionsWritten": 175,
+            "questionsOral": 46
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anaïs",
             "lastname": "Brood",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 2
         },
         {
-            "id": "721270",
-            "lastname": "Peu",
             "firstname": "Stéphane",
-            "slug": "stephane-peu",
+            "lastname": "Peu",
             "gender": "H",
-            "birthday": "1962-07-24",
-            "birthplace": "Pau (Pyrénées-Atlantiques)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 93,
             "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Employé administratif",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 189,
-                "reports": 2,
-                "proposals": 14,
-                "proposalsSupported": 186,
-                "amendments": 2616,
-                "amendmentsSupported": 9425,
-                "amendmentsAdopted": 318,
-                "commissionsAttended": 282,
-                "commissionInterventions": 901,
-                "hemicycleInterventions": 2065,
-                "hemicycleShortInterventions": 1598,
-                "questionsWritten": 175,
-                "questionsOral": 46
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Aurélien",
             "lastname": "Pichard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 2
         },
         {
             "firstname": "Agnès",
             "lastname": "Renaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 2
         },
         {
             "firstname": "Sinaa",
             "lastname": "Thabet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 2
         }
     ]
 }

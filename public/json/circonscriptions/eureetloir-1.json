@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1740,
                 "Eric Zemmour": 4735
             }
+        },
+        "secondRound": {
+            "registered": 90786,
+            "voted": 67884,
+            "whites": 4255,
+            "expressed": 62248,
+            "void": 1381,
+            "candidates": {
+                "Emmanuel Macron": 37179,
+                "Marine Le Pen": 25069
+            }
         }
+    },
+    "current": {
+        "id": "719372",
+        "lastname": "Kasbarian",
+        "firstname": "Guillaume",
+        "slug": "guillaume-kasbarian",
+        "gender": "H",
+        "birthday": "1987-02-28",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Eure-et-Loir",
+        "countyId": 28,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 8,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 327,
+            "amendmentsSupported": 2215,
+            "amendmentsAdopted": 1340,
+            "commissionsAttended": 318,
+            "commissionInterventions": 859,
+            "hemicycleInterventions": 524,
+            "hemicycleShortInterventions": 197,
+            "questionsWritten": 16,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-José",
             "lastname": "Aubert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         },
         {
             "firstname": "David",
             "lastname": "Delorme-Monsarrat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         },
         {
             "firstname": "Quentin",
             "lastname": "Guillemain",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         },
         {
-            "id": "719372",
-            "lastname": "Kasbarian",
             "firstname": "Guillaume",
-            "slug": "guillaume-kasbarian",
+            "lastname": "Kasbarian",
             "gender": "H",
-            "birthday": "1987-02-28",
-            "birthplace": "Marseille (Bouches-du-Rhône)",
-            "county": "Eure-et-Loir",
-            "countyId": "28",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 161,
-                "reports": 8,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 327,
-                "amendmentsSupported": 2215,
-                "amendmentsAdopted": 1340,
-                "commissionsAttended": 318,
-                "commissionInterventions": 859,
-                "hemicycleInterventions": 524,
-                "hemicycleShortInterventions": 197,
-                "questionsWritten": 16,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         },
         {
             "firstname": "Pierre",
             "lastname": "Mazaheri",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         },
         {
             "firstname": "Ladislas",
             "lastname": "Vergne",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 28,
+            "county": "Eure-et-Loir",
+            "circumscription": 1
         }
     ]
 }

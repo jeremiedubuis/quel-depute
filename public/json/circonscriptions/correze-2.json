@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1306,
                 "Eric Zemmour": 4266
             }
+        },
+        "secondRound": {
+            "registered": 93050,
+            "voted": 70810,
+            "whites": 5631,
+            "expressed": 62146,
+            "void": 3033,
+            "candidates": {
+                "Emmanuel Macron": 35000,
+                "Marine Le Pen": 27146
+            }
         }
+    },
+    "current": {
+        "id": "719272",
+        "lastname": "Meunier",
+        "firstname": "Frédérique",
+        "slug": "frederique-meunier",
+        "gender": "F",
+        "birthday": "1960-12-08",
+        "birthplace": "Paris (Paris)",
+        "county": "Corrèze",
+        "countyId": 19,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Avocate",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 1,
+            "proposals": 15,
+            "proposalsSupported": 335,
+            "amendments": 109,
+            "amendmentsSupported": 12199,
+            "amendmentsAdopted": 310,
+            "commissionsAttended": 224,
+            "commissionInterventions": 178,
+            "hemicycleInterventions": 124,
+            "hemicycleShortInterventions": 217,
+            "questionsWritten": 89,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nicolas",
             "lastname": "Brousse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         },
         {
             "firstname": "Valéry",
             "lastname": "Elophe",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         },
         {
             "firstname": "Chloé",
             "lastname": "Herhzaft",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         },
         {
-            "id": "719272",
-            "lastname": "Meunier",
             "firstname": "Frédérique",
-            "slug": "frederique-meunier",
+            "lastname": "Meunier",
             "gender": "F",
-            "birthday": "1960-12-08",
-            "birthplace": "Paris (Paris)",
-            "county": "Corrèze",
-            "countyId": "19",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Avocate",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 149,
-                "reports": 1,
-                "proposals": 15,
-                "proposalsSupported": 335,
-                "amendments": 109,
-                "amendmentsSupported": 12199,
-                "amendmentsAdopted": 310,
-                "commissionsAttended": 224,
-                "commissionInterventions": 178,
-                "hemicycleInterventions": 124,
-                "hemicycleShortInterventions": 217,
-                "questionsWritten": 89,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         },
         {
             "firstname": "Céline",
             "lastname": "Sauviniat",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         },
         {
             "firstname": "Sylvie",
             "lastname": "Sicard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 2
         }
     ]
 }

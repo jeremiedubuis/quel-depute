@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1968,
                 "Eric Zemmour": 3803
             }
+        },
+        "secondRound": {
+            "registered": 115027,
+            "voted": 87773,
+            "whites": 6279,
+            "expressed": 79155,
+            "void": 2339,
+            "candidates": {
+                "Emmanuel Macron": 47866,
+                "Marine Le Pen": 31289
+            }
         }
+    },
+    "current": {
+        "id": "607155",
+        "lastname": "Daniel",
+        "firstname": "Yves",
+        "slug": "yves-daniel",
+        "gender": "H",
+        "birthday": "1954-07-31",
+        "birthplace": "Mouais (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": 44,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Agriculteur-propriétaire retraité",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 133,
+            "amendments": 241,
+            "amendmentsSupported": 3990,
+            "amendmentsAdopted": 1232,
+            "commissionsAttended": 335,
+            "commissionInterventions": 150,
+            "hemicycleInterventions": 83,
+            "hemicycleShortInterventions": 14,
+            "questionsWritten": 48,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Teddy",
             "lastname": "Bougot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "Marie-Paule",
             "lastname": "Catheline",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "Jordan",
             "lastname": "Esnault",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "Jacky",
             "lastname": "Flippot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "François",
             "lastname": "Guyot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "Karine",
             "lastname": "Letellier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         },
         {
             "firstname": "Jean-Paul",
             "lastname": "Raux",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 6
         }
     ]
 }

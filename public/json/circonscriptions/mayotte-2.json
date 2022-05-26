@@ -1,13 +1,13 @@
 {
-    "countyId": "ZM",
+    "countyId": 976,
     "number": 2,
     "name": "Mayotte",
     "results": {
         "firstRound": {
             "registered": 49741,
-            "voted": 20415,
+            "voted": 20414,
             "whites": 495,
-            "expressed": 19284,
+            "expressed": 19283,
             "void": 636,
             "candidates": {
                 "Nathalie Arthaud": 235,
@@ -15,7 +15,7 @@
                 "Emmanuel Macron": 2845,
                 "Jean Lasalle": 219,
                 "Marine Le Pen": 9033,
-                "Jean-Luc Mélenchon": 4059,
+                "Jean-Luc Mélenchon": 4058,
                 "Anne Hidalgo": 151,
                 "Yannick Jadot": 168,
                 "Valérie Pécresse": 1788,
@@ -23,7 +23,91 @@
                 "Nicolas Dupont-Aignan": 288,
                 "Eric Zemmour": 197
             }
+        },
+        "secondRound": {
+            "registered": 49771,
+            "voted": 23305,
+            "whites": 793,
+            "expressed": 21394,
+            "void": 1118,
+            "candidates": {
+                "Emmanuel Macron": 7998,
+                "Marine Le Pen": 13396
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "267901",
+        "lastname": "Kamardine",
+        "firstname": "Mansour",
+        "slug": "mansour-kamardine",
+        "gender": "H",
+        "birthday": "1959-03-23",
+        "birthplace": "Sada (Mayotte)",
+        "county": "Mayotte",
+        "countyId": 976,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 68,
+            "reports": 4,
+            "proposals": 6,
+            "proposalsSupported": 258,
+            "amendments": 239,
+            "amendmentsSupported": 10608,
+            "amendmentsAdopted": 299,
+            "commissionsAttended": 70,
+            "commissionInterventions": 88,
+            "hemicycleInterventions": 283,
+            "hemicycleShortInterventions": 156,
+            "questionsWritten": 148,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Saidali",
+            "lastname": "Hamissi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 976,
+            "county": "Mayotte",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Mansour",
+            "lastname": "Kamardine",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 976,
+            "county": "Mayotte",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Boinami",
+            "lastname": "Madi Mari",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 976,
+            "county": "Mayotte",
+            "circumscription": 2
+        }
+    ]
 }

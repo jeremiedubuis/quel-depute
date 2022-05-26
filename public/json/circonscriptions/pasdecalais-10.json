@@ -23,40 +23,103 @@
                 "Nicolas Dupont-Aignan": 1017,
                 "Eric Zemmour": 2611
             }
+        },
+        "secondRound": {
+            "registered": 88878,
+            "voted": 65569,
+            "whites": 2718,
+            "expressed": 61430,
+            "void": 1421,
+            "candidates": {
+                "Emmanuel Macron": 20851,
+                "Marine Le Pen": 40579
+            }
         }
+    },
+    "current": {
+        "id": "720610",
+        "lastname": "Houplain",
+        "firstname": "Myriane",
+        "slug": "myriane-houplain",
+        "gender": "F",
+        "birthday": "1946-06-05",
+        "birthplace": "Beuvry (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 10,
+        "mandateStart": "2021-04-22",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 24,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 16,
+            "amendments": 57,
+            "amendmentsSupported": 463,
+            "amendmentsAdopted": 1,
+            "commissionsAttended": 17,
+            "commissionInterventions": 0,
+            "hemicycleInterventions": 13,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 21,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sandrine",
             "lastname": "Coquerie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 10
         },
         {
             "firstname": "Michel",
             "lastname": "Dagbert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 10
         },
         {
             "firstname": "Thierry",
             "lastname": "Frappé",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 10
         },
         {
             "firstname": "Geoffrey",
             "lastname": "Laloux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 10
         }
     ]
 }

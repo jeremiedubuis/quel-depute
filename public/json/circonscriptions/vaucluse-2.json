@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 85602,
             "voted": 65348,
-            "whites": 939,
-            "expressed": 64053,
-            "void": 356,
+            "whites": 933,
+            "expressed": 64054,
+            "void": 361,
             "candidates": {
-                "Nathalie Arthaud": 243,
-                "Fabien Roussel": 1235,
-                "Emmanuel Macron": 15217,
+                "Nathalie Arthaud": 230,
+                "Fabien Roussel": 1248,
+                "Emmanuel Macron": 15218,
                 "Jean Lasalle": 1990,
                 "Marine Le Pen": 18571,
                 "Jean-Luc Mélenchon": 11818,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1492,
                 "Eric Zemmour": 6550
             }
+        },
+        "secondRound": {
+            "registered": 85624,
+            "voted": 64924,
+            "whites": 3816,
+            "expressed": 59716,
+            "void": 1392,
+            "candidates": {
+                "Emmanuel Macron": 28945,
+                "Marine Le Pen": 30771
+            }
         }
+    },
+    "current": {
+        "id": "336316",
+        "lastname": "Bouchet",
+        "firstname": "Jean-Claude",
+        "slug": "jeanclaude-bouchet",
+        "gender": "H",
+        "birthday": "1957-05-02",
+        "birthplace": "Cavaillon (Vaucluse)",
+        "county": "Vaucluse",
+        "countyId": 84,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Gérant de société",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 106,
+            "reports": 1,
+            "proposals": 7,
+            "proposalsSupported": 580,
+            "amendments": 196,
+            "amendmentsSupported": 13587,
+            "amendmentsAdopted": 314,
+            "commissionsAttended": 141,
+            "commissionInterventions": 78,
+            "hemicycleInterventions": 92,
+            "hemicycleShortInterventions": 142,
+            "questionsWritten": 142,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sophia",
             "lastname": "Albert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "Elisabeth",
             "lastname": "Amoros",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "Bénédicte",
             "lastname": "Auzanot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "Gérard",
             "lastname": "Mangiavillano",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "Stanislas",
             "lastname": "Rigaud",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "François",
             "lastname": "Sandoz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         },
         {
             "firstname": "Sylvie",
             "lastname": "Viala",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 2
         }
     ]
 }

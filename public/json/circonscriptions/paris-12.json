@@ -5,17 +5,17 @@
     "results": {
         "firstRound": {
             "registered": 76504,
-            "voted": 61222,
-            "whites": 539,
-            "expressed": 60516,
-            "void": 167,
+            "voted": 61220,
+            "whites": 536,
+            "expressed": 60518,
+            "void": 166,
             "candidates": {
                 "Nathalie Arthaud": 103,
                 "Fabien Roussel": 712,
-                "Emmanuel Macron": 25841,
+                "Emmanuel Macron": 25842,
                 "Jean Lasalle": 773,
                 "Marine Le Pen": 3411,
-                "Jean-Luc Mélenchon": 10493,
+                "Jean-Luc Mélenchon": 10494,
                 "Anne Hidalgo": 1010,
                 "Yannick Jadot": 4055,
                 "Valérie Pécresse": 6627,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 655,
                 "Eric Zemmour": 6661
             }
+        },
+        "secondRound": {
+            "registered": 76542,
+            "voted": 59199,
+            "whites": 2659,
+            "expressed": 55826,
+            "void": 714,
+            "candidates": {
+                "Emmanuel Macron": 46118,
+                "Marine Le Pen": 9708
+            }
         }
+    },
+    "current": {
+        "id": "721764",
+        "lastname": "Gregoire",
+        "firstname": "Olivia",
+        "slug": "olivia-gregoire",
+        "gender": "F",
+        "birthday": "1978-09-30",
+        "birthplace": "Paris (Paris)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 115,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 48,
+            "amendments": 78,
+            "amendmentsSupported": 1316,
+            "amendmentsAdopted": 727,
+            "commissionsAttended": 207,
+            "commissionInterventions": 450,
+            "hemicycleInterventions": 220,
+            "hemicycleShortInterventions": 384,
+            "questionsWritten": 5,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Luc",
             "lastname": "Battini",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         },
         {
-            "id": "721764",
-            "lastname": "Gregoire",
             "firstname": "Olivia",
-            "slug": "olivia-gregoire",
+            "lastname": "Gregoire",
             "gender": "F",
-            "birthday": "1978-09-30",
-            "birthplace": "Paris (Paris)",
-            "county": "Paris",
-            "countyId": "75",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 115,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 48,
-                "amendments": 78,
-                "amendmentsSupported": 1316,
-                "amendmentsAdopted": 727,
-                "commissionsAttended": 207,
-                "commissionInterventions": 450,
-                "hemicycleInterventions": 220,
-                "hemicycleShortInterventions": 384,
-                "questionsWritten": 5,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         },
         {
             "firstname": "Jérôme",
             "lastname": "Loriau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         },
         {
             "firstname": "Céline",
             "lastname": "Malaise",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         },
         {
             "firstname": "Muriel",
             "lastname": "Monchal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         },
         {
             "firstname": "Agnès",
             "lastname": "Vandenbroucke",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 12
         }
     ]
 }

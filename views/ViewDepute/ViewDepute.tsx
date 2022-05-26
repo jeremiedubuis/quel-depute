@@ -5,12 +5,11 @@ import Head from 'next/head';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
 import { SearchForm } from '$components/forms/SearchForm/SearchForm';
 import { DeputeVotesSlider } from '$components/depute/DeputeVotesSlider/DeputeVotesSlider';
-import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
 import { Title } from '$components/text/Title/Title';
-import { ProgressCircle } from '$components/graphs/ProgressCircle/ProgressCircle';
-import { DeputeVoteCategories } from '$components/depute/DeputeVoteCategories/DeputeVoteCategories';
-import { cn } from '$helpers/cn';
 import { DeputeGroupBehavior } from '$components/depute/DeputeGroupBehavior/DeputeGroupBehavior';
+import { DeputeTop } from '$components/depute/DeputeTop/DeputeTop';
+import { Breadcrumb } from '$components/text/Breadcrumb/Breadcrumb';
+import { slugify } from '$helpers/slugify';
 
 export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     const title = `${depute.firstname} ${depute.lastname}`;
@@ -34,14 +33,21 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 <meta property="og:image:width" content={meta.image.width} />
                 <meta property="og:image:height" content={meta.image.height} />
             </Head>
+            <SearchForm small />
+            <Breadcrumb
+                items={[
+                    { label: 'Accueil', href: '/' },
+                    {
+                        label: `Circonscription: ${depute.county} (${depute.circumscription})`,
+                        href: `/circonscriptions/${slugify(
+                            `${depute.county} ${depute.circumscription}`
+                        )}`
+                    },
+                    { label: `${depute.firstname} ${depute.lastname}` }
+                ]}
+            />
 
-            <SearchForm />
-            <section>
-                <div className={styles.content}>
-                    <DeputeBlock depute={depute} TitleTag="h1" detailed />
-                    <DeputeVoteCategories className={styles.right} depute={depute} />
-                </div>
-            </section>
+            <DeputeTop className={styles.depute} depute={depute} />
             <section>
                 <Title size="big">Position sur des scrutins importants</Title>
                 <DeputeVotesSlider depute={depute} />

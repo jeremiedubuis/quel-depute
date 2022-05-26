@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 73920,
-            "voted": 53019,
+            "voted": 53017,
             "whites": 659,
-            "expressed": 52057,
+            "expressed": 52055,
             "void": 303,
             "candidates": {
                 "Nathalie Arthaud": 320,
                 "Fabien Roussel": 910,
-                "Emmanuel Macron": 15806,
+                "Emmanuel Macron": 15805,
                 "Jean Lasalle": 1000,
-                "Marine Le Pen": 13373,
+                "Marine Le Pen": 13372,
                 "Jean-Luc Mélenchon": 10089,
                 "Anne Hidalgo": 727,
                 "Yannick Jadot": 2308,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 981,
                 "Eric Zemmour": 3702
             }
+        },
+        "secondRound": {
+            "registered": 73961,
+            "voted": 52897,
+            "whites": 2762,
+            "expressed": 49139,
+            "void": 996,
+            "candidates": {
+                "Emmanuel Macron": 28658,
+                "Marine Le Pen": 20481
+            }
         }
+    },
+    "current": {
+        "id": "720210",
+        "lastname": "Beauvais",
+        "firstname": "Valérie",
+        "slug": "valerie-beauvais",
+        "gender": "F",
+        "birthday": "1963-03-08",
+        "birthplace": "Nevers (Nièvre)",
+        "county": "Marne",
+        "countyId": 51,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 0,
+            "proposals": 14,
+            "proposalsSupported": 536,
+            "amendments": 443,
+            "amendmentsSupported": 12352,
+            "amendmentsAdopted": 321,
+            "commissionsAttended": 243,
+            "commissionInterventions": 167,
+            "hemicycleInterventions": 290,
+            "hemicycleShortInterventions": 405,
+            "questionsWritten": 231,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Xavier",
             "lastname": "Albertini",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 1
         },
         {
-            "id": "720210",
-            "lastname": "Beauvais",
             "firstname": "Valérie",
-            "slug": "valerie-beauvais",
+            "lastname": "Beauvais",
             "gender": "F",
-            "birthday": "1963-03-08",
-            "birthplace": "Nevers (Nièvre)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 51,
             "county": "Marne",
-            "countyId": "51",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": 0,
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 0,
-                "proposals": 14,
-                "proposalsSupported": 536,
-                "amendments": 443,
-                "amendmentsSupported": 12352,
-                "amendmentsAdopted": 321,
-                "commissionsAttended": 243,
-                "commissionInterventions": 167,
-                "hemicycleInterventions": 290,
-                "hemicycleShortInterventions": 405,
-                "questionsWritten": 231,
-                "questionsOral": 17
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Evelyne",
             "lastname": "Bourgoin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Olivier",
             "lastname": "Marechal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Roger",
             "lastname": "Paris",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 1
         },
         {
             "firstname": "Vincent",
             "lastname": "Varlet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 1
         }
     ]
 }

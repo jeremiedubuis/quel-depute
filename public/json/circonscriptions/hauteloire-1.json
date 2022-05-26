@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 101344,
             "voted": 80948,
-            "whites": 1648,
-            "expressed": 78656,
-            "void": 644,
+            "whites": 1651,
+            "expressed": 78658,
+            "void": 639,
             "candidates": {
                 "Nathalie Arthaud": 574,
                 "Fabien Roussel": 1848,
-                "Emmanuel Macron": 18238,
+                "Emmanuel Macron": 18239,
                 "Jean Lasalle": 3811,
                 "Marine Le Pen": 22764,
                 "Jean-Luc Mélenchon": 13099,
                 "Anne Hidalgo": 1395,
-                "Yannick Jadot": 3468,
+                "Yannick Jadot": 3469,
                 "Valérie Pécresse": 5247,
                 "Phillipe Poutou": 712,
                 "Nicolas Dupont-Aignan": 1959,
                 "Eric Zemmour": 5541
             }
+        },
+        "secondRound": {
+            "registered": 101370,
+            "voted": 78528,
+            "whites": 5887,
+            "expressed": 70373,
+            "void": 2268,
+            "candidates": {
+                "Emmanuel Macron": 34832,
+                "Marine Le Pen": 35541
+            }
         }
+    },
+    "current": {
+        "id": "643134",
+        "lastname": "Valentin",
+        "firstname": "Isabelle",
+        "slug": "isabelle-valentin",
+        "gender": "F",
+        "birthday": "1962-01-20",
+        "birthplace": "Puy-en-Velay (Haute-Loire)",
+        "county": "Haute-Loire",
+        "countyId": 43,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Salariée agricole",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 1,
+            "proposals": 22,
+            "proposalsSupported": 563,
+            "amendments": 1025,
+            "amendmentsSupported": 13163,
+            "amendmentsAdopted": 311,
+            "commissionsAttended": 235,
+            "commissionInterventions": 190,
+            "hemicycleInterventions": 324,
+            "hemicycleShortInterventions": 129,
+            "questionsWritten": 153,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Electre",
             "lastname": "Dracos",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Suzanne",
             "lastname": "Fourets",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Céline",
             "lastname": "Gacon",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Cécile",
             "lastname": "Gallien",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Virginie",
             "lastname": "Leger-Portal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 43,
+            "county": "Haute-Loire",
+            "circumscription": 1
         },
         {
-            "id": "643134",
-            "lastname": "Valentin",
             "firstname": "Isabelle",
-            "slug": "isabelle-valentin",
+            "lastname": "Valentin",
             "gender": "F",
-            "birthday": "1962-01-20",
-            "birthplace": "Puy-en-Velay (Haute-Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 43,
             "county": "Haute-Loire",
-            "countyId": "43",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Salariée agricole",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 1,
-                "proposals": 22,
-                "proposalsSupported": 563,
-                "amendments": 1025,
-                "amendmentsSupported": 13163,
-                "amendmentsAdopted": 311,
-                "commissionsAttended": 235,
-                "commissionInterventions": 190,
-                "hemicycleInterventions": 324,
-                "hemicycleShortInterventions": 129,
-                "questionsWritten": 152,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         }
     ]
 }

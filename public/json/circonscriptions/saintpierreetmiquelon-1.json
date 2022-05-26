@@ -1,5 +1,5 @@
 {
-    "countyId": "ZS",
+    "countyId": 975,
     "number": 1,
     "name": "Saint-Pierre-et-Miquelon",
     "results": {
@@ -23,7 +23,54 @@
                 "Nicolas Dupont-Aignan": 82,
                 "Eric Zemmour": 80
             }
+        },
+        "secondRound": {
+            "registered": 5043,
+            "voted": 2879,
+            "whites": 219,
+            "expressed": 2521,
+            "void": 139,
+            "candidates": {
+                "Emmanuel Macron": 1243,
+                "Marine Le Pen": 1278
+            }
         }
+    },
+    "current": {
+        "id": "702054",
+        "lastname": "Claireaux",
+        "firstname": "Stéphane",
+        "slug": "stephane-claireaux",
+        "gender": "H",
+        "birthday": "1964-06-23",
+        "birthplace": "Saint-Pierre-et-Miquelon (Saint-Pierre-et-Miquelon)",
+        "county": "Saint-Pierre-et-Miquelon",
+        "countyId": 975,
+        "circumscription": 1,
+        "mandateStart": "2017-07-22",
+        "group": "Cap sur l'avenir",
+        "groupShort": "LREM",
+        "job": "Infographiste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 99,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 88,
+            "amendments": 49,
+            "amendmentsSupported": 4102,
+            "amendmentsAdopted": 1230,
+            "commissionsAttended": 155,
+            "commissionInterventions": 111,
+            "hemicycleInterventions": 52,
+            "hemicycleShortInterventions": 4,
+            "questionsWritten": 4,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": []
 }

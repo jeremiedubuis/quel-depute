@@ -4,11 +4,11 @@
     "name": "Nièvre",
     "results": {
         "firstRound": {
-            "registered": 79694,
+            "registered": 79695,
             "voted": 60762,
-            "whites": 955,
+            "whites": 954,
             "expressed": 59201,
-            "void": 606,
+            "void": 607,
             "candidates": {
                 "Nathalie Arthaud": 485,
                 "Fabien Roussel": 2173,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1435,
                 "Eric Zemmour": 3992
             }
+        },
+        "secondRound": {
+            "registered": 79720,
+            "voted": 60100,
+            "whites": 4072,
+            "expressed": 53957,
+            "void": 2071,
+            "candidates": {
+                "Emmanuel Macron": 25902,
+                "Marine Le Pen": 28055
+            }
         }
+    },
+    "current": {
+        "id": "720414",
+        "lastname": "Perrot",
+        "firstname": "Patrice",
+        "slug": "patrice-perrot",
+        "gender": "H",
+        "birthday": "1964-02-24",
+        "birthplace": "Decize (Nièvre)",
+        "county": "Nièvre",
+        "countyId": 58,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 93,
+            "amendments": 22,
+            "amendmentsSupported": 4145,
+            "amendmentsAdopted": 1399,
+            "commissionsAttended": 249,
+            "commissionInterventions": 91,
+            "hemicycleInterventions": 26,
+            "hemicycleShortInterventions": 7,
+            "questionsWritten": 60,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Deniaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         },
         {
             "firstname": "Dominique",
             "lastname": "Dupuis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         },
         {
             "firstname": "Julien",
             "lastname": "Guibert",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         },
         {
             "firstname": "Marie Anne",
             "lastname": "Guillemain",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         },
         {
             "firstname": "Héloïse",
             "lastname": "Megy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         },
         {
-            "id": "720414",
-            "lastname": "Perrot",
             "firstname": "Patrice",
-            "slug": "patrice-perrot",
+            "lastname": "Perrot",
             "gender": "H",
-            "birthday": "1964-02-24",
-            "birthplace": "Decize (Nièvre)",
-            "county": "Nièvre",
-            "countyId": "58",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 93,
-                "amendments": 22,
-                "amendmentsSupported": 4145,
-                "amendmentsAdopted": 1399,
-                "commissionsAttended": 249,
-                "commissionInterventions": 91,
-                "hemicycleInterventions": 26,
-                "hemicycleShortInterventions": 7,
-                "questionsWritten": 60,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 58,
+            "county": "Nièvre",
+            "circumscription": 2
         }
     ]
 }

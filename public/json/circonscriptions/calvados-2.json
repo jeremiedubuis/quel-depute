@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 791,
                 "Eric Zemmour": 2131
             }
+        },
+        "secondRound": {
+            "registered": 68046,
+            "voted": 50721,
+            "whites": 3101,
+            "expressed": 46038,
+            "void": 1582,
+            "candidates": {
+                "Emmanuel Macron": 30254,
+                "Marine Le Pen": 15784
+            }
         }
+    },
+    "current": {
+        "id": "1198",
+        "lastname": "Dumont",
+        "firstname": "Laurence",
+        "slug": "laurence-dumont",
+        "gender": "F",
+        "birthday": "1958-06-02",
+        "birthplace": "Vincennes (Val-de-Marne)",
+        "county": "Calvados",
+        "countyId": 14,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Chargée d'études",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 136,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 83,
+            "amendments": 46,
+            "amendmentsSupported": 14754,
+            "amendmentsAdopted": 779,
+            "commissionsAttended": 119,
+            "commissionInterventions": 93,
+            "hemicycleInterventions": 417,
+            "hemicycleShortInterventions": 463,
+            "questionsWritten": 30,
+            "questionsOral": 29
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Arthur",
             "lastname": "Delaporte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         },
         {
             "firstname": "Céline",
             "lastname": "Deslandes",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         },
         {
             "firstname": "Sylvie",
             "lastname": "Dumont-Prieux",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         },
         {
             "firstname": "Christophe",
             "lastname": "Garcia",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         },
         {
             "firstname": "Julien",
             "lastname": "Lerendu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         },
         {
             "firstname": "Vincent",
             "lastname": "Sénétaire",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 2
         }
     ]
 }

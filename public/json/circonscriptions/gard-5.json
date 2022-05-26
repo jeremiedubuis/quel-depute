@@ -4,103 +4,146 @@
     "name": "Gard",
     "results": {
         "firstRound": {
-            "registered": 98196,
-            "voted": 75779,
-            "whites": 1059,
-            "expressed": 74208,
-            "void": 512,
+            "registered": 98195,
+            "voted": 75777,
+            "whites": 1088,
+            "expressed": 74210,
+            "void": 479,
             "candidates": {
                 "Nathalie Arthaud": 381,
                 "Fabien Roussel": 3071,
-                "Emmanuel Macron": 14626,
+                "Emmanuel Macron": 14627,
                 "Jean Lasalle": 3344,
                 "Marine Le Pen": 19980,
                 "Jean-Luc Mélenchon": 18606,
                 "Anne Hidalgo": 1494,
-                "Yannick Jadot": 2723,
+                "Yannick Jadot": 2724,
                 "Valérie Pécresse": 2327,
                 "Phillipe Poutou": 586,
                 "Nicolas Dupont-Aignan": 1443,
                 "Eric Zemmour": 5627
             }
+        },
+        "secondRound": {
+            "registered": 98217,
+            "voted": 72277,
+            "whites": 6127,
+            "expressed": 63990,
+            "void": 2160,
+            "candidates": {
+                "Emmanuel Macron": 31516,
+                "Marine Le Pen": 32474
+            }
         }
+    },
+    "current": {
+        "id": "719484",
+        "lastname": "Daufès-Roux",
+        "firstname": "Catherine",
+        "slug": "catherine-daufesroux",
+        "gender": "F",
+        "birthday": "1963-04-24",
+        "birthplace": "Alès (Gard)",
+        "county": "Gard",
+        "countyId": 30,
+        "circumscription": 5,
+        "mandateStart": "2021-06-28",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Personnel de direction de l'Education nationale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 23,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 10,
+            "amendments": 0,
+            "amendmentsSupported": 300,
+            "amendmentsAdopted": 156,
+            "commissionsAttended": 34,
+            "commissionInterventions": 1,
+            "hemicycleInterventions": 8,
+            "hemicycleShortInterventions": 2,
+            "questionsWritten": 1,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Léa",
             "lastname": "Boyer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         },
         {
             "firstname": "Frédérique",
             "lastname": "Bozec",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         },
         {
-            "id": "719484",
-            "lastname": "Daufès-Roux",
             "firstname": "Catherine",
-            "slug": "catherine-daufesroux",
+            "lastname": "Daufès-Roux",
             "gender": "F",
-            "birthday": "1963-04-24",
-            "birthplace": "Alès (Gard)",
-            "county": "Gard",
-            "countyId": "30",
-            "circumscription": 5,
-            "mandateStart": "2021-06-28",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Personnel de direction de l'Education nationale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 23,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 10,
-                "amendments": 0,
-                "amendmentsSupported": 300,
-                "amendmentsAdopted": 156,
-                "commissionsAttended": 34,
-                "commissionInterventions": 1,
-                "hemicycleInterventions": 8,
-                "hemicycleShortInterventions": 2,
-                "questionsWritten": 1,
-                "questionsOral": 1
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         },
         {
             "firstname": "Jean-Marie",
             "lastname": "Launay",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         },
         {
             "firstname": "Agnès",
             "lastname": "Olinet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         },
         {
             "firstname": "Michel",
             "lastname": "Sala",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 5
         }
     ]
 }

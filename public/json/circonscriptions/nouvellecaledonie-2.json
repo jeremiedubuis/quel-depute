@@ -1,5 +1,5 @@
 {
-    "countyId": "ZN",
+    "countyId": 988,
     "number": 2,
     "name": "Nouvelle-Calédonie",
     "results": {
@@ -23,7 +23,79 @@
                 "Nicolas Dupont-Aignan": 1369,
                 "Eric Zemmour": 2832
             }
+        },
+        "secondRound": {
+            "registered": 121965,
+            "voted": 40406,
+            "whites": 1612,
+            "expressed": 37961,
+            "void": 833,
+            "candidates": {
+                "Emmanuel Macron": 22220,
+                "Marine Le Pen": 15741
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "610775",
+        "lastname": "Gomès",
+        "firstname": "Philippe",
+        "slug": "philippe-gomes",
+        "gender": "H",
+        "birthday": "1958-10-27",
+        "birthplace": "Alger (Algérie)",
+        "county": "Nouvelle-Calédonie",
+        "countyId": 988,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Calédonie Ensemble",
+        "groupShort": "UDI",
+        "job": "Cadre supérieur de la fonction publique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 57,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 53,
+            "amendments": 166,
+            "amendmentsSupported": 6575,
+            "amendmentsAdopted": 304,
+            "commissionsAttended": 49,
+            "commissionInterventions": 40,
+            "hemicycleInterventions": 214,
+            "hemicycleShortInterventions": 29,
+            "questionsWritten": 20,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Alain",
+            "lastname": "Descombels",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 988,
+            "county": "Nouvelle-Calédonie",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Nicolas",
+            "lastname": "Metzdorf",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 988,
+            "county": "Nouvelle-Calédonie",
+            "circumscription": 2
+        }
+    ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 753,
                 "Eric Zemmour": 2691
             }
+        },
+        "secondRound": {
+            "registered": 86310,
+            "voted": 59265,
+            "whites": 3675,
+            "expressed": 54271,
+            "void": 1319,
+            "candidates": {
+                "Emmanuel Macron": 38248,
+                "Marine Le Pen": 16023
+            }
         }
+    },
+    "current": {
+        "id": "720430",
+        "lastname": "Bernalicis",
+        "firstname": "Ugo",
+        "slug": "ugo-bernalicis",
+        "gender": "H",
+        "birthday": "1989-09-25",
+        "birthplace": "Arras (Pas-de-Calais)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 4,
+            "proposals": 9,
+            "proposalsSupported": 178,
+            "amendments": 4626,
+            "amendmentsSupported": 18912,
+            "amendmentsAdopted": 221,
+            "commissionsAttended": 334,
+            "commissionInterventions": 2532,
+            "hemicycleInterventions": 3872,
+            "hemicycleShortInterventions": 3376,
+            "questionsWritten": 69,
+            "questionsOral": 31
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720430",
-            "lastname": "Bernalicis",
             "firstname": "Ugo",
-            "slug": "ugo-bernalicis",
+            "lastname": "Bernalicis",
             "gender": "H",
-            "birthday": "1989-09-25",
-            "birthplace": "Arras (Pas-de-Calais)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Fonctionnaire de catégorie A",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 4,
-                "proposals": 9,
-                "proposalsSupported": 178,
-                "amendments": 4626,
-                "amendmentsSupported": 18912,
-                "amendmentsAdopted": 221,
-                "commissionsAttended": 334,
-                "commissionInterventions": 2532,
-                "hemicycleInterventions": 3872,
-                "hemicycleShortInterventions": 3376,
-                "questionsWritten": 69,
-                "questionsOral": 31
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         },
         {
             "firstname": "Caroline",
             "lastname": "Boisard-Vannier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         },
         {
             "firstname": "Virginie",
             "lastname": "Chauchoy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         },
         {
             "firstname": "Rudy",
             "lastname": "Elegeest",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         },
         {
             "firstname": "Philippe",
             "lastname": "Guérard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         },
         {
             "firstname": "Pascale",
             "lastname": "Rougée",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 2
         }
     ]
 }

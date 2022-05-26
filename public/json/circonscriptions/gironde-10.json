@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1307,
                 "Eric Zemmour": 4607
             }
+        },
+        "secondRound": {
+            "registered": 82865,
+            "voted": 63691,
+            "whites": 4311,
+            "expressed": 57722,
+            "void": 1658,
+            "candidates": {
+                "Emmanuel Macron": 29790,
+                "Marine Le Pen": 27932
+            }
         }
+    },
+    "current": {
+        "id": "606507",
+        "lastname": "Boudié",
+        "firstname": "Florent",
+        "slug": "florent-boudie",
+        "gender": "H",
+        "birthday": "1973-09-22",
+        "birthplace": "Sainte-Foy-la-Grande (Gironde)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur du secteur public",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 157,
+            "reports": 6,
+            "proposals": 1,
+            "proposalsSupported": 61,
+            "amendments": 143,
+            "amendmentsSupported": 1589,
+            "amendmentsAdopted": 956,
+            "commissionsAttended": 316,
+            "commissionInterventions": 314,
+            "hemicycleInterventions": 285,
+            "hemicycleShortInterventions": 339,
+            "questionsWritten": 16,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "606507",
-            "lastname": "Boudié",
             "firstname": "Florent",
-            "slug": "florent-boudie",
+            "lastname": "Boudié",
             "gender": "H",
-            "birthday": "1973-09-22",
-            "birthplace": "Sainte-Foy-la-Grande (Gironde)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur du secteur public",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 157,
-                "reports": 6,
-                "proposals": 1,
-                "proposalsSupported": 61,
-                "amendments": 143,
-                "amendmentsSupported": 1589,
-                "amendmentsAdopted": 956,
-                "commissionsAttended": 316,
-                "commissionInterventions": 314,
-                "hemicycleInterventions": 285,
-                "hemicycleShortInterventions": 339,
-                "questionsWritten": 16,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 10
         },
         {
             "firstname": "Pascal",
             "lastname": "Bourgois",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 10
         },
         {
             "firstname": "Sandrine",
             "lastname": "Chadourne",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 10
         },
         {
             "firstname": "Amélie",
             "lastname": "Guilbert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 10
         },
         {
             "firstname": "Hélène",
             "lastname": "Halbin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 10
         }
     ]
 }

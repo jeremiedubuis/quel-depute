@@ -5,102 +5,145 @@
     "results": {
         "firstRound": {
             "registered": 68376,
-            "voted": 54085,
+            "voted": 54083,
             "whites": 878,
-            "expressed": 52838,
-            "void": 369,
+            "expressed": 52840,
+            "void": 365,
             "candidates": {
                 "Nathalie Arthaud": 393,
                 "Fabien Roussel": 1225,
                 "Emmanuel Macron": 12997,
                 "Jean Lasalle": 2129,
-                "Marine Le Pen": 15939,
+                "Marine Le Pen": 15940,
                 "Jean-Luc Mélenchon": 8466,
                 "Anne Hidalgo": 849,
-                "Yannick Jadot": 1870,
+                "Yannick Jadot": 1871,
                 "Valérie Pécresse": 2729,
                 "Phillipe Poutou": 497,
                 "Nicolas Dupont-Aignan": 1548,
                 "Eric Zemmour": 4196
             }
+        },
+        "secondRound": {
+            "registered": 68361,
+            "voted": 53037,
+            "whites": 3906,
+            "expressed": 47851,
+            "void": 1280,
+            "candidates": {
+                "Emmanuel Macron": 22929,
+                "Marine Le Pen": 24922
+            }
         }
+    },
+    "current": {
+        "id": "719194",
+        "lastname": "Courson (de)",
+        "firstname": "Yolaine",
+        "slug": "yolaine-de-courson",
+        "gender": "F",
+        "birthday": "1954-07-14",
+        "birthplace": "Neuilly sur Seine (Hauts-de-Seine)",
+        "county": "Côte-d'Or",
+        "countyId": 21,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Chef d'entreprise retraitée",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 86,
+            "amendments": 216,
+            "amendmentsSupported": 3842,
+            "amendmentsAdopted": 1047,
+            "commissionsAttended": 350,
+            "commissionInterventions": 321,
+            "hemicycleInterventions": 240,
+            "hemicycleShortInterventions": 139,
+            "questionsWritten": 27,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hubert",
             "lastname": "Brigand",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 4
         },
         {
-            "id": "719194",
-            "lastname": "Courson (de)",
             "firstname": "Yolaine",
-            "slug": "yolaine-de-courson",
+            "lastname": "de Courson",
             "gender": "F",
-            "birthday": "1954-07-14",
-            "birthplace": "Neuilly sur Seine (Hauts-de-Seine)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 21,
             "county": "Côte-d'Or",
-            "countyId": "21",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Chef d'entreprise retraitée",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 168,
-                "reports": 7,
-                "proposals": 1,
-                "proposalsSupported": 86,
-                "amendments": 216,
-                "amendmentsSupported": 3842,
-                "amendmentsAdopted": 1047,
-                "commissionsAttended": 350,
-                "commissionInterventions": 321,
-                "hemicycleInterventions": 240,
-                "hemicycleShortInterventions": 139,
-                "questionsWritten": 27,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Michel",
             "lastname": "Guillet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 4
         },
         {
             "firstname": "Stephane",
             "lastname": "Guinot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 4
         },
         {
             "firstname": "Isabelle",
             "lastname": "Marchal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 4
         },
         {
             "firstname": "Jean Marc",
             "lastname": "Ponelle",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 21,
+            "county": "Côte-d'Or",
+            "circumscription": 4
         }
     ]
 }

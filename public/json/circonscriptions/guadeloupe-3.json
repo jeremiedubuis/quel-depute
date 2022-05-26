@@ -1,5 +1,5 @@
 {
-    "countyId": "ZA",
+    "countyId": 971,
     "number": 3,
     "name": "Guadeloupe",
     "results": {
@@ -23,7 +23,103 @@
                 "Nicolas Dupont-Aignan": 641,
                 "Eric Zemmour": 1039
             }
+        },
+        "secondRound": {
+            "registered": 84232,
+            "voted": 41399,
+            "whites": 2549,
+            "expressed": 36730,
+            "void": 2120,
+            "candidates": {
+                "Emmanuel Macron": 11675,
+                "Marine Le Pen": 25055
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "720976",
+        "lastname": "Mathiasin",
+        "firstname": "Max",
+        "slug": "max-mathiasin",
+        "gender": "H",
+        "birthday": "1956-02-24",
+        "birthplace": "Deshaies (Guadeloupe)",
+        "county": "Guadeloupe",
+        "countyId": 971,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Fonction publique territoriale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 88,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 60,
+            "amendments": 459,
+            "amendmentsSupported": 4726,
+            "amendmentsAdopted": 817,
+            "commissionsAttended": 130,
+            "commissionInterventions": 152,
+            "hemicycleInterventions": 82,
+            "hemicycleShortInterventions": 53,
+            "questionsWritten": 47,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Sylvie",
+            "lastname": "Chammougnon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Sidjie",
+            "lastname": "Esdras",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Ferdy",
+            "lastname": "Louisy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "LRM,GUSR",
+            "groupShort": "LRM,GUSR",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Rody",
+            "lastname": "Tolassy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 3
+        }
+    ]
 }

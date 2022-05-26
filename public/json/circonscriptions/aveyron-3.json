@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 72382,
             "voted": 58115,
-            "whites": 988,
+            "whites": 997,
             "expressed": 56591,
-            "void": 536,
+            "void": 527,
             "candidates": {
                 "Nathalie Arthaud": 325,
                 "Fabien Roussel": 1507,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1059,
                 "Eric Zemmour": 3399
             }
+        },
+        "secondRound": {
+            "registered": 72399,
+            "voted": 56290,
+            "whites": 4634,
+            "expressed": 49452,
+            "void": 2204,
+            "candidates": {
+                "Emmanuel Macron": 28713,
+                "Marine Le Pen": 20739
+            }
         }
+    },
+    "current": {
+        "id": "709315",
+        "lastname": "Viala",
+        "firstname": "Arnaud",
+        "slug": "arnaud-viala",
+        "gender": "H",
+        "birthday": "1974-12-04",
+        "birthplace": "Millau (Aveyron)",
+        "county": "Aveyron",
+        "countyId": 12,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "LR",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 7,
+            "proposals": 19,
+            "proposalsSupported": 618,
+            "amendments": 1144,
+            "amendmentsSupported": 16203,
+            "amendmentsAdopted": 467,
+            "commissionsAttended": 384,
+            "commissionInterventions": 690,
+            "hemicycleInterventions": 837,
+            "hemicycleShortInterventions": 210,
+            "questionsWritten": 145,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Christophe",
             "lastname": "Cazorla",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 3
         },
         {
             "firstname": "Bernard",
             "lastname": "Combes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 3
         },
         {
             "firstname": "Michel",
             "lastname": "Rhin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-François",
             "lastname": "Rousset",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Saint-Pierre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 12,
+            "county": "Aveyron",
+            "circumscription": 3
         }
     ]
 }

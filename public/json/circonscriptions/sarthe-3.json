@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 86479,
-            "voted": 64741,
+            "voted": 64740,
             "whites": 1266,
-            "expressed": 62859,
+            "expressed": 62858,
             "void": 616,
             "candidates": {
                 "Nathalie Arthaud": 492,
                 "Fabien Roussel": 1450,
                 "Emmanuel Macron": 16542,
                 "Jean Lasalle": 1777,
-                "Marine Le Pen": 20075,
+                "Marine Le Pen": 20074,
                 "Jean-Luc Mélenchon": 10293,
                 "Anne Hidalgo": 1081,
                 "Yannick Jadot": 2312,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1547,
                 "Eric Zemmour": 3516
             }
+        },
+        "secondRound": {
+            "registered": 86460,
+            "voted": 65404,
+            "whites": 4173,
+            "expressed": 59593,
+            "void": 1638,
+            "candidates": {
+                "Emmanuel Macron": 29396,
+                "Marine Le Pen": 30197
+            }
         }
+    },
+    "current": {
+        "id": "721384",
+        "lastname": "Fontenel-Personne",
+        "firstname": "Pascale",
+        "slug": "pascale-fontenelpersonne",
+        "gender": "F",
+        "birthday": "1962-05-26",
+        "birthplace": "Mans (Sarthe)",
+        "county": "Sarthe",
+        "countyId": 72,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "MODEM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 124,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 78,
+            "amendments": 166,
+            "amendmentsSupported": 3551,
+            "amendmentsAdopted": 966,
+            "commissionsAttended": 98,
+            "commissionInterventions": 20,
+            "hemicycleInterventions": 58,
+            "hemicycleShortInterventions": 12,
+            "questionsWritten": 37,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Maryse",
             "lastname": "Brutout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         },
         {
             "firstname": "Marie",
             "lastname": "Genevrey",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         },
         {
             "firstname": "Béatrice",
             "lastname": "Latouche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         },
         {
             "firstname": "Dominique",
             "lastname": "Leloup",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         },
         {
             "firstname": "Eric",
             "lastname": "Martineau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         },
         {
             "firstname": "Bruno",
             "lastname": "Pinçon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 72,
+            "county": "Sarthe",
+            "circumscription": 3
         }
     ]
 }

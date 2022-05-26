@@ -6,93 +6,132 @@
         "firstRound": {
             "registered": 64847,
             "voted": 50999,
-            "whites": 864,
-            "expressed": 49667,
-            "void": 468,
+            "whites": 887,
+            "expressed": 49671,
+            "void": 441,
             "candidates": {
                 "Nathalie Arthaud": 351,
                 "Fabien Roussel": 1160,
                 "Emmanuel Macron": 12750,
                 "Jean Lasalle": 2105,
-                "Marine Le Pen": 12616,
-                "Jean-Luc Mélenchon": 10057,
+                "Marine Le Pen": 12618,
+                "Jean-Luc Mélenchon": 10058,
                 "Anne Hidalgo": 956,
                 "Yannick Jadot": 2176,
-                "Valérie Pécresse": 2391,
+                "Valérie Pécresse": 2392,
                 "Phillipe Poutou": 444,
                 "Nicolas Dupont-Aignan": 1440,
                 "Eric Zemmour": 3221
             }
+        },
+        "secondRound": {
+            "registered": 64863,
+            "voted": 49696,
+            "whites": 3890,
+            "expressed": 44309,
+            "void": 1497,
+            "candidates": {
+                "Emmanuel Macron": 23976,
+                "Marine Le Pen": 20333
+            }
         }
+    },
+    "current": {
+        "id": "719890",
+        "lastname": "Brulebois",
+        "firstname": "Danielle",
+        "slug": "danielle-brulebois",
+        "gender": "F",
+        "birthday": "1947-07-04",
+        "birthplace": "Longwy sur le Doubs (Jura)",
+        "county": "Jura",
+        "countyId": 39,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraitée de l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 89,
+            "amendments": 728,
+            "amendmentsSupported": 5344,
+            "amendmentsAdopted": 1409,
+            "commissionsAttended": 333,
+            "commissionInterventions": 261,
+            "hemicycleInterventions": 427,
+            "hemicycleShortInterventions": 1103,
+            "questionsWritten": 155,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Thomas",
             "lastname": "Bouhali",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 1
         },
         {
             "firstname": "Anthony",
             "lastname": "Brondel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 1
         },
         {
-            "id": "719890",
-            "lastname": "Brulebois",
             "firstname": "Danielle",
-            "slug": "danielle-brulebois",
+            "lastname": "Brulebois",
             "gender": "F",
-            "birthday": "1947-07-04",
-            "birthplace": "Longwy sur le Doubs (Jura)",
-            "county": "Jura",
-            "countyId": "39",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Retraitée de l'enseignement",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 164,
-                "reports": 2,
-                "proposals": 1,
-                "proposalsSupported": 89,
-                "amendments": 728,
-                "amendmentsSupported": 5344,
-                "amendmentsAdopted": 1409,
-                "commissionsAttended": 333,
-                "commissionInterventions": 261,
-                "hemicycleInterventions": 427,
-                "hemicycleShortInterventions": 1103,
-                "questionsWritten": 155,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 1
         },
         {
             "firstname": "Benjamin",
             "lastname": "Marraud des Grottes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 1
         },
         {
             "firstname": "Johanne",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 1
         }
     ]
 }

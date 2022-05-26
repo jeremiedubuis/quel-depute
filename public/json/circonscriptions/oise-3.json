@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 73605,
             "voted": 53542,
-            "whites": 748,
-            "expressed": 52448,
-            "void": 346,
+            "whites": 744,
+            "expressed": 52295,
+            "void": 503,
             "candidates": {
                 "Nathalie Arthaud": 328,
-                "Fabien Roussel": 1305,
-                "Emmanuel Macron": 10974,
-                "Jean Lasalle": 1026,
-                "Marine Le Pen": 15457,
-                "Jean-Luc Mélenchon": 14980,
+                "Fabien Roussel": 1300,
+                "Emmanuel Macron": 10940,
+                "Jean Lasalle": 1021,
+                "Marine Le Pen": 15387,
+                "Jean-Luc Mélenchon": 14969,
                 "Anne Hidalgo": 529,
-                "Yannick Jadot": 1387,
-                "Valérie Pécresse": 1648,
+                "Yannick Jadot": 1382,
+                "Valérie Pécresse": 1645,
                 "Phillipe Poutou": 386,
-                "Nicolas Dupont-Aignan": 1113,
-                "Eric Zemmour": 3315
+                "Nicolas Dupont-Aignan": 1112,
+                "Eric Zemmour": 3296
+            }
+        },
+        "secondRound": {
+            "registered": 73635,
+            "voted": 51209,
+            "whites": 3083,
+            "expressed": 46961,
+            "void": 1165,
+            "candidates": {
+                "Emmanuel Macron": 23194,
+                "Marine Le Pen": 23767
             }
         }
     },
+    "current": {
+        "id": "720576",
+        "lastname": "Bois",
+        "firstname": "Pascal",
+        "slug": "pascal-bois",
+        "gender": "H",
+        "birthday": "1959-12-03",
+        "birthplace": "Paris (Paris)",
+        "county": "Oise",
+        "countyId": 60,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 2,
+            "proposals": 1,
+            "proposalsSupported": 69,
+            "amendments": 113,
+            "amendmentsSupported": 2628,
+            "amendmentsAdopted": 1108,
+            "commissionsAttended": 184,
+            "commissionInterventions": 176,
+            "hemicycleInterventions": 105,
+            "hemicycleShortInterventions": 37,
+            "questionsWritten": 11,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "720576",
-            "lastname": "Bois",
             "firstname": "Pascal",
-            "slug": "pascal-bois",
+            "lastname": "Bois",
             "gender": "H",
-            "birthday": "1959-12-03",
-            "birthplace": "Paris (Paris)",
-            "county": "Oise",
-            "countyId": "60",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 151,
-                "reports": 2,
-                "proposals": 1,
-                "proposalsSupported": 69,
-                "amendments": 113,
-                "amendmentsSupported": 2628,
-                "amendmentsAdopted": 1108,
-                "commissionsAttended": 184,
-                "commissionInterventions": 176,
-                "hemicycleInterventions": 105,
-                "hemicycleShortInterventions": 37,
-                "questionsWritten": 11,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Maxime",
             "lastname": "Bouilly Geronimi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Christophe",
             "lastname": "Dietrich",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Valérie",
             "lastname": "Labatut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Alexandre",
             "lastname": "Sabatou",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Roland",
             "lastname": "Szpirko",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 3
         }
     ]
 }

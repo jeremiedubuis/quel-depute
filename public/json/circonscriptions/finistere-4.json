@@ -4,7 +4,7 @@
     "name": "Finistère",
     "results": {
         "firstRound": {
-            "registered": 83770,
+            "registered": 83766,
             "voted": 66199,
             "whites": 929,
             "expressed": 64842,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 958,
                 "Eric Zemmour": 2562
             }
+        },
+        "secondRound": {
+            "registered": 83764,
+            "voted": 65080,
+            "whites": 5041,
+            "expressed": 58313,
+            "void": 1726,
+            "candidates": {
+                "Emmanuel Macron": 39791,
+                "Marine Le Pen": 18522
+            }
         }
+    },
+    "current": {
+        "id": "719412",
+        "lastname": "Le Feur",
+        "firstname": "Sandrine",
+        "slug": "sandrine-le-feur",
+        "gender": "F",
+        "birthday": "1991-03-18",
+        "birthplace": "Saint Brieuc (Côtes-d'Armor)",
+        "county": "Finistère",
+        "countyId": 29,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Agriculteur-propriétaire exploitant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 103,
+            "amendments": 326,
+            "amendmentsSupported": 3639,
+            "amendmentsAdopted": 1243,
+            "commissionsAttended": 239,
+            "commissionInterventions": 181,
+            "hemicycleInterventions": 73,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 53,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Michel",
             "lastname": "Beaupré",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Tony",
             "lastname": "Bihouee",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Patricia",
             "lastname": "Blosse",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Guillaume",
             "lastname": "Enfroy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Marie-Claire",
             "lastname": "Hénaff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
-            "id": "719412",
-            "lastname": "Le Feur",
             "firstname": "Sandrine",
-            "slug": "sandrine-le-feur",
+            "lastname": "Le Feur",
             "gender": "F",
-            "birthday": "1991-03-18",
-            "birthplace": "Saint Brieuc (Côtes-d'Armor)",
-            "county": "Finistère",
-            "countyId": "29",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Agriculteur-propriétaire exploitant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 103,
-                "amendments": 326,
-                "amendmentsSupported": 3639,
-                "amendmentsAdopted": 1243,
-                "commissionsAttended": 239,
-                "commissionInterventions": 181,
-                "hemicycleInterventions": 73,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 53,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Jean-François",
             "lastname": "Leménicier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         },
         {
             "firstname": "Sylvaine",
             "lastname": "Vulpiani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 4
         }
     ]
 }

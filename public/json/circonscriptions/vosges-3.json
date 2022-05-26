@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1593,
                 "Eric Zemmour": 2893
             }
+        },
+        "secondRound": {
+            "registered": 63772,
+            "voted": 48501,
+            "whites": 3245,
+            "expressed": 43982,
+            "void": 1274,
+            "candidates": {
+                "Emmanuel Macron": 22730,
+                "Marine Le Pen": 21252
+            }
         }
+    },
+    "current": {
+        "id": "721486",
+        "lastname": "Naegelen",
+        "firstname": "Christophe",
+        "slug": "christophe-naegelen",
+        "gender": "H",
+        "birthday": "1983-12-30",
+        "birthplace": "Remiremont (Vosges)",
+        "county": "Vosges",
+        "countyId": 88,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 171,
+            "reports": 11,
+            "proposals": 49,
+            "proposalsSupported": 273,
+            "amendments": 800,
+            "amendmentsSupported": 7428,
+            "amendmentsAdopted": 360,
+            "commissionsAttended": 245,
+            "commissionInterventions": 416,
+            "hemicycleInterventions": 622,
+            "hemicycleShortInterventions": 188,
+            "questionsWritten": 226,
+            "questionsOral": 42
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Stéphanie",
             "lastname": "Bailly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         },
         {
             "firstname": "Anne-Caroline",
             "lastname": "Erb",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         },
         {
             "firstname": "Pierre",
             "lastname": "Francois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         },
         {
-            "id": "721486",
-            "lastname": "Naegelen",
             "firstname": "Christophe",
-            "slug": "christophe-naegelen",
+            "lastname": "Naegelen",
             "gender": "H",
-            "birthday": "1983-12-30",
-            "birthplace": "Remiremont (Vosges)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "DVD",
+            "groupShort": "DVD",
+            "countyId": 88,
             "county": "Vosges",
-            "countyId": "88",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
-            "groupShort": "UDI",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 171,
-                "reports": 11,
-                "proposals": 49,
-                "proposalsSupported": 273,
-                "amendments": 800,
-                "amendmentsSupported": 7428,
-                "amendmentsAdopted": 360,
-                "commissionsAttended": 245,
-                "commissionInterventions": 416,
-                "hemicycleInterventions": 622,
-                "hemicycleShortInterventions": 188,
-                "questionsWritten": 225,
-                "questionsOral": 42
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Béatrice",
             "lastname": "Pierrat",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         },
         {
             "firstname": "Astrid",
             "lastname": "Prévost",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Villemin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 88,
+            "county": "Vosges",
+            "circumscription": 3
         }
     ]
 }

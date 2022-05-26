@@ -4,7 +4,7 @@
     "name": "Bouches-du-Rhône",
     "results": {
         "firstRound": {
-            "registered": 109055,
+            "registered": 109062,
             "voted": 85084,
             "whites": 1197,
             "expressed": 83333,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2184,
                 "Eric Zemmour": 8963
             }
+        },
+        "secondRound": {
+            "registered": 109079,
+            "voted": 84624,
+            "whites": 5145,
+            "expressed": 77699,
+            "void": 1780,
+            "candidates": {
+                "Emmanuel Macron": 35688,
+                "Marine Le Pen": 42011
+            }
         }
+    },
+    "current": {
+        "id": "330788",
+        "lastname": "Reynès",
+        "firstname": "Bernard",
+        "slug": "bernard-reynes",
+        "gender": "H",
+        "birthday": "1953-10-18",
+        "birthplace": "Meknès (Maroc)",
+        "county": "Bouches-du-Rhône",
+        "countyId": 13,
+        "circumscription": 15,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Chirurgien-Dentiste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 83,
+            "reports": 0,
+            "proposals": 8,
+            "proposalsSupported": 258,
+            "amendments": 7,
+            "amendmentsSupported": 2067,
+            "amendmentsAdopted": 70,
+            "commissionsAttended": 75,
+            "commissionInterventions": 0,
+            "hemicycleInterventions": 12,
+            "hemicycleShortInterventions": 5,
+            "questionsWritten": 16,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Laurence",
             "lastname": "Anzalone",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 15
         },
         {
             "firstname": "Romain",
             "lastname": "Baubry",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 15
         },
         {
             "firstname": "Michèle",
             "lastname": "Jung",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 15
         },
         {
             "firstname": "Sandrine",
             "lastname": "Klein",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 15
         },
         {
-            "id": "330788",
-            "lastname": "Reynès",
             "firstname": "Bernard",
-            "slug": "bernard-reynes",
+            "lastname": "Reynès",
             "gender": "H",
-            "birthday": "1953-10-18",
-            "birthplace": "Meknès (Maroc)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 13,
             "county": "Bouches-du-Rhône",
-            "countyId": "13",
-            "circumscription": 15,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Chirurgien-Dentiste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 83,
-                "reports": 0,
-                "proposals": 8,
-                "proposalsSupported": 258,
-                "amendments": 7,
-                "amendmentsSupported": 2067,
-                "amendmentsAdopted": 70,
-                "commissionsAttended": 75,
-                "commissionInterventions": 0,
-                "hemicycleInterventions": 12,
-                "hemicycleShortInterventions": 5,
-                "questionsWritten": 16,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 15
         },
         {
             "firstname": "Anne",
             "lastname": "Testut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 15
         }
     ]
 }

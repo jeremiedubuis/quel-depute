@@ -4,59 +4,122 @@
     "name": "Isère",
     "results": {
         "firstRound": {
-            "registered": 95705,
+            "registered": 95707,
             "voted": 74883,
-            "whites": 1410,
-            "expressed": 73049,
-            "void": 424,
+            "whites": 1405,
+            "expressed": 72857,
+            "void": 621,
             "candidates": {
                 "Nathalie Arthaud": 449,
-                "Fabien Roussel": 1615,
-                "Emmanuel Macron": 18186,
-                "Jean Lasalle": 2489,
-                "Marine Le Pen": 22194,
-                "Jean-Luc Mélenchon": 12640,
-                "Anne Hidalgo": 1202,
-                "Yannick Jadot": 2861,
-                "Valérie Pécresse": 3382,
-                "Phillipe Poutou": 511,
-                "Nicolas Dupont-Aignan": 2010,
-                "Eric Zemmour": 5510
+                "Fabien Roussel": 1610,
+                "Emmanuel Macron": 18166,
+                "Jean Lasalle": 2483,
+                "Marine Le Pen": 22104,
+                "Jean-Luc Mélenchon": 12608,
+                "Anne Hidalgo": 1201,
+                "Yannick Jadot": 2852,
+                "Valérie Pécresse": 3376,
+                "Phillipe Poutou": 506,
+                "Nicolas Dupont-Aignan": 2005,
+                "Eric Zemmour": 5497
+            }
+        },
+        "secondRound": {
+            "registered": 95735,
+            "voted": 73034,
+            "whites": 4796,
+            "expressed": 66798,
+            "void": 1440,
+            "candidates": {
+                "Emmanuel Macron": 32719,
+                "Marine Le Pen": 34079
             }
         }
+    },
+    "current": {
+        "id": "719858",
+        "lastname": "Limon",
+        "firstname": "Monique",
+        "slug": "monique-limon",
+        "gender": "F",
+        "birthday": "1953-12-05",
+        "birthplace": "Paris (Paris)",
+        "county": "Isère",
+        "countyId": 38,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraitée Fonction publique territoriale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 15,
+            "proposals": 2,
+            "proposalsSupported": 82,
+            "amendments": 281,
+            "amendmentsSupported": 2574,
+            "amendmentsAdopted": 1461,
+            "commissionsAttended": 460,
+            "commissionInterventions": 439,
+            "hemicycleInterventions": 340,
+            "hemicycleShortInterventions": 137,
+            "questionsWritten": 14,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dominique",
             "lastname": "Dichard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 7
         },
         {
             "firstname": "Alexandre",
             "lastname": "Moulin-Comte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 7
         },
         {
             "firstname": "Bruno",
             "lastname": "Perrodin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 7
         },
         {
             "firstname": "Pascale",
             "lastname": "Pruvost",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 7
         }
     ]
 }

@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1820,
                 "Eric Zemmour": 4834
             }
+        },
+        "secondRound": {
+            "registered": 81519,
+            "voted": 58381,
+            "whites": 3478,
+            "expressed": 54023,
+            "void": 880,
+            "candidates": {
+                "Emmanuel Macron": 33838,
+                "Marine Le Pen": 20185
+            }
         }
+    },
+    "current": {
+        "id": "718674",
+        "lastname": "Givernet",
+        "firstname": "Olga",
+        "slug": "olga-givernet",
+        "gender": "F",
+        "birthday": "1981-10-17",
+        "birthplace": "Saint-Germain-en-Laye (Yvelines)",
+        "county": "Ain",
+        "countyId": 1,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieure aéronautique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 64,
+            "amendments": 78,
+            "amendmentsSupported": 1693,
+            "amendmentsAdopted": 992,
+            "commissionsAttended": 238,
+            "commissionInterventions": 124,
+            "hemicycleInterventions": 53,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 22,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Véronique",
             "lastname": "Baude",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
             "firstname": "Frank",
             "lastname": "Bisetti",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
             "firstname": "Fréderic",
             "lastname": "Franck",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
-            "id": "718674",
-            "lastname": "Givernet",
             "firstname": "Olga",
-            "slug": "olga-givernet",
+            "lastname": "Givernet",
             "gender": "F",
-            "birthday": "1981-10-17",
-            "birthplace": "Saint-Germain-en-Laye (Yvelines)",
-            "county": "Ain",
-            "countyId": "01",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieure aéronautique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 64,
-                "amendments": 78,
-                "amendmentsSupported": 1693,
-                "amendmentsAdopted": 992,
-                "commissionsAttended": 238,
-                "commissionInterventions": 124,
-                "hemicycleInterventions": 53,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 22,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
             "firstname": "Christian",
             "lastname": "Jolie",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
             "firstname": "Cécile",
             "lastname": "Maisonnette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         },
         {
             "firstname": "Marine",
             "lastname": "Morvan Lembert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 3
         }
     ]
 }

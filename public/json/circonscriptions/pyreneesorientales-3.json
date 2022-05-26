@@ -6,8 +6,8 @@
         "firstRound": {
             "registered": 84783,
             "voted": 63764,
-            "whites": 934,
-            "expressed": 62293,
+            "whites": 933,
+            "expressed": 62294,
             "void": 537,
             "candidates": {
                 "Nathalie Arthaud": 348,
@@ -17,62 +17,133 @@
                 "Marine Le Pen": 18781,
                 "Jean-Luc Mélenchon": 13383,
                 "Anne Hidalgo": 1360,
-                "Yannick Jadot": 2216,
+                "Yannick Jadot": 2217,
                 "Valérie Pécresse": 1981,
                 "Phillipe Poutou": 550,
                 "Nicolas Dupont-Aignan": 1148,
                 "Eric Zemmour": 5207
             }
+        },
+        "secondRound": {
+            "registered": 84781,
+            "voted": 61930,
+            "whites": 4541,
+            "expressed": 55396,
+            "void": 1993,
+            "candidates": {
+                "Emmanuel Macron": 25333,
+                "Marine Le Pen": 30063
+            }
         }
+    },
+    "current": {
+        "id": "720806",
+        "lastname": "Gayte",
+        "firstname": "Laurence",
+        "slug": "laurence-gayte",
+        "gender": "F",
+        "birthday": "1965-09-25",
+        "birthplace": "Paris 13ème (Paris)",
+        "county": "Pyrénées-Orientales",
+        "countyId": 66,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 86,
+            "amendments": 69,
+            "amendmentsSupported": 2510,
+            "amendmentsAdopted": 1199,
+            "commissionsAttended": 286,
+            "commissionInterventions": 101,
+            "hemicycleInterventions": 42,
+            "hemicycleShortInterventions": 12,
+            "questionsWritten": 19,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Pierre",
             "lastname": "Bataille",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         },
         {
             "firstname": "Nathalie",
             "lastname": "Cullel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         },
         {
             "firstname": "Sandrine",
             "lastname": "Dogor",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         },
         {
             "firstname": "Blaise",
             "lastname": "Madeline",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         },
         {
             "firstname": "Laurence",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         },
         {
             "firstname": "Anna-Maria",
             "lastname": "Urroz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 3
         }
     ]
 }

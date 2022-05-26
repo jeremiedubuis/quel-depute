@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1567,
                 "Eric Zemmour": 3705
             }
+        },
+        "secondRound": {
+            "registered": 83498,
+            "voted": 63251,
+            "whites": 4068,
+            "expressed": 57552,
+            "void": 1631,
+            "candidates": {
+                "Emmanuel Macron": 30426,
+                "Marine Le Pen": 27126
+            }
         }
+    },
+    "current": {
+        "id": "719080",
+        "lastname": "Marsaud",
+        "firstname": "Sandra",
+        "slug": "sandra-marsaud",
+        "gender": "F",
+        "birthday": "1974-01-02",
+        "birthplace": "Périgueux (Dordogne)",
+        "county": "Charente",
+        "countyId": 16,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 139,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 65,
+            "amendments": 146,
+            "amendmentsSupported": 2702,
+            "amendmentsAdopted": 1186,
+            "commissionsAttended": 196,
+            "commissionInterventions": 192,
+            "hemicycleInterventions": 67,
+            "hemicycleShortInterventions": 78,
+            "questionsWritten": 28,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Françoise",
             "lastname": "Bessas",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         },
         {
             "firstname": "Quentin",
             "lastname": "Caulliez",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         },
         {
             "firstname": "Chloé",
             "lastname": "Chevalier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-Hubert",
             "lastname": "Lelièvre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         },
         {
-            "id": "719080",
-            "lastname": "Marsaud",
             "firstname": "Sandra",
-            "slug": "sandra-marsaud",
+            "lastname": "Marsaud",
             "gender": "F",
-            "birthday": "1974-01-02",
-            "birthplace": "Périgueux (Dordogne)",
-            "county": "Charente",
-            "countyId": "16",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre (entreprises publiques)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 139,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 65,
-                "amendments": 146,
-                "amendmentsSupported": 2702,
-                "amendmentsAdopted": 1186,
-                "commissionsAttended": 196,
-                "commissionInterventions": 192,
-                "hemicycleInterventions": 67,
-                "hemicycleShortInterventions": 78,
-                "questionsWritten": 28,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         },
         {
             "firstname": "Marceau",
             "lastname": "Rappasse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 2
         }
     ]
 }

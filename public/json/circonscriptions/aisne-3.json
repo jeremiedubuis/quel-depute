@@ -23,60 +23,91 @@
                 "Nicolas Dupont-Aignan": 1089,
                 "Eric Zemmour": 3078
             }
+        },
+        "secondRound": {
+            "registered": 66577,
+            "voted": 50271,
+            "whites": 2112,
+            "expressed": 47123,
+            "void": 1036,
+            "candidates": {
+                "Emmanuel Macron": 16281,
+                "Marine Le Pen": 30842
+            }
         }
+    },
+    "current": {
+        "id": "605069",
+        "lastname": "Bricout",
+        "firstname": "Jean-Louis",
+        "slug": "jeanlouis-bricout",
+        "gender": "H",
+        "birthday": "1957-12-27",
+        "birthplace": "Busigny (Nord)",
+        "county": "Aisne",
+        "countyId": 2,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 1,
+            "proposals": 4,
+            "proposalsSupported": 90,
+            "amendments": 423,
+            "amendmentsSupported": 15236,
+            "amendmentsAdopted": 800,
+            "commissionsAttended": 383,
+            "commissionInterventions": 844,
+            "hemicycleInterventions": 1103,
+            "hemicycleShortInterventions": 1131,
+            "questionsWritten": 58,
+            "questionsOral": 28
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "605069",
-            "lastname": "Bricout",
             "firstname": "Jean-Louis",
-            "slug": "jeanlouis-bricout",
+            "lastname": "Bricout",
             "gender": "H",
-            "birthday": "1957-12-27",
-            "birthplace": "Busigny (Nord)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 2,
             "county": "Aisne",
-            "countyId": "02",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 181,
-                "reports": 1,
-                "proposals": 4,
-                "proposalsSupported": 90,
-                "amendments": 423,
-                "amendmentsSupported": 15236,
-                "amendmentsAdopted": 800,
-                "commissionsAttended": 383,
-                "commissionInterventions": 844,
-                "hemicycleInterventions": 1103,
-                "hemicycleShortInterventions": 1131,
-                "questionsWritten": 58,
-                "questionsOral": 28
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Paul-Henry",
             "lastname": "Hansen-Catta",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 3
         },
         {
             "firstname": "Laetitia",
             "lastname": "Voisin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 2,
+            "county": "Aisne",
+            "circumscription": 3
         }
     ]
 }

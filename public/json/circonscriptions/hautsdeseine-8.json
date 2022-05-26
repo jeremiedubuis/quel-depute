@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 745,
                 "Eric Zemmour": 4528
             }
+        },
+        "secondRound": {
+            "registered": 67817,
+            "voted": 52954,
+            "whites": 3125,
+            "expressed": 49398,
+            "void": 431,
+            "candidates": {
+                "Emmanuel Macron": 39982,
+                "Marine Le Pen": 9416
+            }
         }
+    },
+    "current": {
+        "id": "722178",
+        "lastname": "Maire",
+        "firstname": "Jacques",
+        "slug": "jacques-maire",
+        "gender": "H",
+        "birthday": "1962-04-04",
+        "birthplace": "Enghien Les Bains (Val-d'Oise)",
+        "county": "Hauts-de-Seine",
+        "countyId": 92,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 10,
+            "proposals": 3,
+            "proposalsSupported": 85,
+            "amendments": 48,
+            "amendmentsSupported": 2762,
+            "amendmentsAdopted": 1014,
+            "commissionsAttended": 261,
+            "commissionInterventions": 355,
+            "hemicycleInterventions": 185,
+            "hemicycleShortInterventions": 102,
+            "questionsWritten": 14,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Annie",
             "lastname": "Comoy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Olivier",
             "lastname": "Guillard-Bentejac",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Sarena",
             "lastname": "Habib",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Philippe",
             "lastname": "Hénique",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Laurence",
             "lastname": "Labbé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Cécile",
             "lastname": "Richez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Frédéric",
             "lastname": "Schneider",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         },
         {
             "firstname": "Prisca",
             "lastname": "Thévenot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 8
         }
     ]
 }

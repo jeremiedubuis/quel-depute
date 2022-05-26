@@ -4,11 +4,11 @@
     "name": "Hérault",
     "results": {
         "firstRound": {
-            "registered": 93608,
+            "registered": 93616,
             "voted": 71833,
-            "whites": 992,
+            "whites": 999,
             "expressed": 70342,
-            "void": 499,
+            "void": 492,
             "candidates": {
                 "Nathalie Arthaud": 294,
                 "Fabien Roussel": 1600,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1282,
                 "Eric Zemmour": 6243
             }
+        },
+        "secondRound": {
+            "registered": 93646,
+            "voted": 68287,
+            "whites": 4506,
+            "expressed": 62176,
+            "void": 1605,
+            "candidates": {
+                "Emmanuel Macron": 33035,
+                "Marine Le Pen": 29141
+            }
         }
+    },
+    "current": {
+        "id": "719830",
+        "lastname": "Démoulin",
+        "firstname": "Nicolas",
+        "slug": "nicolas-demoulin",
+        "gender": "H",
+        "birthday": "1972-07-22",
+        "birthplace": "Bordeaux (Gironde)",
+        "county": "Hérault",
+        "countyId": 34,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Gérant d'une agence de communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 161,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 128,
+            "amendmentsSupported": 1829,
+            "amendmentsAdopted": 1119,
+            "commissionsAttended": 249,
+            "commissionInterventions": 177,
+            "hemicycleInterventions": 78,
+            "hemicycleShortInterventions": 49,
+            "questionsWritten": 27,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-François",
             "lastname": "Audrin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         },
         {
             "firstname": "Sylvain",
             "lastname": "Carrière",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         },
         {
             "firstname": "Elsa",
             "lastname": "Cesari",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         },
         {
             "firstname": "Cédric",
             "lastname": "Delapierre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         },
         {
             "firstname": "Thomas",
             "lastname": "Garnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         },
         {
             "firstname": "Nathalie",
             "lastname": "Lefeuvre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 8
         }
     ]
 }

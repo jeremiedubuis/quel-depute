@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1142,
                 "Eric Zemmour": 3255
             }
+        },
+        "secondRound": {
+            "registered": 80008,
+            "voted": 60886,
+            "whites": 2904,
+            "expressed": 56508,
+            "void": 1474,
+            "candidates": {
+                "Emmanuel Macron": 25915,
+                "Marine Le Pen": 30593
+            }
         }
+    },
+    "current": {
+        "id": "720598",
+        "lastname": "Deprez-Audebert",
+        "firstname": "Marguerite",
+        "slug": "marguerite-deprezaudebert",
+        "gender": "F",
+        "birthday": "1952-05-17",
+        "birthplace": "Béthune (Pas-de-Calais)",
+        "county": "Pas-de-Calais",
+        "countyId": 62,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Retraitée salariée (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 182,
+            "reports": 6,
+            "proposals": 2,
+            "proposalsSupported": 70,
+            "amendments": 77,
+            "amendmentsSupported": 3688,
+            "amendmentsAdopted": 763,
+            "commissionsAttended": 429,
+            "commissionInterventions": 322,
+            "hemicycleInterventions": 99,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 21,
+            "questionsOral": 25
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Amandine",
             "lastname": "Bonifacio",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 9
         },
         {
             "firstname": "Valentin",
             "lastname": "Brasseur",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 9
         },
         {
             "firstname": "Anne-Marie",
             "lastname": "Deflandre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 9
         },
         {
-            "id": "720598",
-            "lastname": "Deprez-Audebert",
             "firstname": "Marguerite",
-            "slug": "marguerite-deprezaudebert",
+            "lastname": "Deprez-Audebert",
             "gender": "F",
-            "birthday": "1952-05-17",
-            "birthplace": "Béthune (Pas-de-Calais)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 62,
             "county": "Pas-de-Calais",
-            "countyId": "62",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Retraitée salariée (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 182,
-                "reports": 6,
-                "proposals": 2,
-                "proposalsSupported": 70,
-                "amendments": 77,
-                "amendmentsSupported": 3688,
-                "amendmentsAdopted": 763,
-                "commissionsAttended": 429,
-                "commissionInterventions": 322,
-                "hemicycleInterventions": 99,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 21,
-                "questionsOral": 25
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         },
         {
             "firstname": "Clément",
             "lastname": "Huchette",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 9
         },
         {
             "firstname": "Caroline",
             "lastname": "Parmentier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 62,
+            "county": "Pas-de-Calais",
+            "circumscription": 9
         }
     ]
 }

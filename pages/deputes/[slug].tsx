@@ -22,11 +22,13 @@ export async function getStaticPaths() {
         fs.readdir(deputeJSONPath, (err, files) => resolve(files))
     );
     return {
-        paths: files.map((f) => ({
-            params: {
-                slug: f.replace('.json', '')
-            }
-        })),
+        paths: files
+            .filter((f) => f !== 'deputes.json')
+            .map((f) => ({
+                params: {
+                    slug: f.replace('.json', '')
+                }
+            })),
         fallback: false
     };
 }

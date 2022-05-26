@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1247,
                 "Eric Zemmour": 3832
             }
+        },
+        "secondRound": {
+            "registered": 91080,
+            "voted": 60044,
+            "whites": 3703,
+            "expressed": 55368,
+            "void": 973,
+            "candidates": {
+                "Emmanuel Macron": 26474,
+                "Marine Le Pen": 28894
+            }
         }
+    },
+    "current": {
+        "id": "720326",
+        "lastname": "Hammouche",
+        "firstname": "Brahim",
+        "slug": "brahim-hammouche",
+        "gender": "H",
+        "birthday": "1971-05-17",
+        "birthplace": "Smaoun (Algérie)",
+        "county": "Moselle",
+        "countyId": 57,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 286,
+            "amendmentsSupported": 4200,
+            "amendmentsAdopted": 756,
+            "commissionsAttended": 371,
+            "commissionInterventions": 377,
+            "hemicycleInterventions": 316,
+            "hemicycleShortInterventions": 137,
+            "questionsWritten": 82,
+            "questionsOral": 21
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720326",
-            "lastname": "Hammouche",
             "firstname": "Brahim",
-            "slug": "brahim-hammouche",
+            "lastname": "Hammouche",
             "gender": "H",
-            "birthday": "1971-05-17",
-            "birthplace": "Smaoun (Algérie)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 57,
             "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 286,
-                "amendmentsSupported": 4200,
-                "amendmentsAdopted": 756,
-                "commissionsAttended": 371,
-                "commissionInterventions": 377,
-                "hemicycleInterventions": 316,
-                "hemicycleShortInterventions": 137,
-                "questionsWritten": 82,
-                "questionsOral": 21
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Laurent",
             "lastname": "Jacobelli",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 8
         },
         {
             "firstname": "Annick",
             "lastname": "Jolivet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 8
         },
         {
             "firstname": "Céline",
             "lastname": "Léger",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 8
         },
         {
             "firstname": "Raphaëlle",
             "lastname": "Rosa",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 8
         }
     ]
 }

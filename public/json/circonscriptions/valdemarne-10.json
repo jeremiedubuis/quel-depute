@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 602,
                 "Eric Zemmour": 2246
             }
+        },
+        "secondRound": {
+            "registered": 66544,
+            "voted": 43663,
+            "whites": 3043,
+            "expressed": 39608,
+            "void": 1012,
+            "candidates": {
+                "Emmanuel Macron": 30688,
+                "Marine Le Pen": 8920
+            }
         }
+    },
+    "current": {
+        "id": "720892",
+        "lastname": "Panot",
+        "firstname": "Mathilde",
+        "slug": "mathilde-panot",
+        "gender": "F",
+        "birthday": "1989-01-15",
+        "birthplace": "Tours (Indre-et-Loire)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Coordinatrice de projets associatifs",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 189,
+            "reports": 4,
+            "proposals": 19,
+            "proposalsSupported": 204,
+            "amendments": 3640,
+            "amendmentsSupported": 18892,
+            "amendmentsAdopted": 220,
+            "commissionsAttended": 346,
+            "commissionInterventions": 1545,
+            "hemicycleInterventions": 1725,
+            "hemicycleShortInterventions": 1225,
+            "questionsWritten": 84,
+            "questionsOral": 53
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Yamina",
             "lastname": "Amzal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         },
         {
             "firstname": "César",
             "lastname": "Courant",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         },
         {
             "firstname": "Philippe",
             "lastname": "Hardouin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         },
         {
             "firstname": "Christine",
             "lastname": "Lichtenauer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         },
         {
-            "id": "720892",
-            "lastname": "Panot",
             "firstname": "Mathilde",
-            "slug": "mathilde-panot",
+            "lastname": "Panot",
             "gender": "F",
-            "birthday": "1989-01-15",
-            "birthplace": "Tours (Indre-et-Loire)",
-            "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Coordinatrice de projets associatifs",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 189,
-                "reports": 4,
-                "proposals": 19,
-                "proposalsSupported": 204,
-                "amendments": 3640,
-                "amendmentsSupported": 18892,
-                "amendmentsAdopted": 220,
-                "commissionsAttended": 346,
-                "commissionInterventions": 1545,
-                "hemicycleInterventions": 1725,
-                "hemicycleShortInterventions": 1225,
-                "questionsWritten": 84,
-                "questionsOral": 53
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         },
         {
             "firstname": "Elise",
             "lastname": "Yang",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 10
         }
     ]
 }

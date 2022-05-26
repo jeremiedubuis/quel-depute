@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 72832,
             "voted": 58753,
-            "whites": 584,
+            "whites": 582,
             "expressed": 57972,
-            "void": 197,
+            "void": 199,
             "candidates": {
                 "Nathalie Arthaud": 153,
                 "Fabien Roussel": 1065,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 518,
                 "Eric Zemmour": 4363
             }
+        },
+        "secondRound": {
+            "registered": 72863,
+            "voted": 56575,
+            "whites": 2730,
+            "expressed": 53095,
+            "void": 750,
+            "candidates": {
+                "Emmanuel Macron": 45892,
+                "Marine Le Pen": 7203
+            }
         }
+    },
+    "current": {
+        "id": "721760",
+        "lastname": "Gatel",
+        "firstname": "Maud",
+        "slug": "maud-gatel",
+        "gender": "F",
+        "birthday": "1979-04-06",
+        "birthplace": "Saint-Maur-des-Fossés (Val-de-Marne)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 11,
+        "mandateStart": "2021-01-13",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Directrice générale adjointe d'une agence de communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 43,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 22,
+            "amendments": 2,
+            "amendmentsSupported": 967,
+            "amendmentsAdopted": 279,
+            "commissionsAttended": 80,
+            "commissionInterventions": 40,
+            "hemicycleInterventions": 31,
+            "hemicycleShortInterventions": 1,
+            "questionsWritten": 7,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Claire",
             "lastname": "Carrère-Gée",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
             "firstname": "Saddia",
             "lastname": "Cousin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
-            "id": "721760",
-            "lastname": "Gatel",
             "firstname": "Maud",
-            "slug": "maud-gatel",
+            "lastname": "Gatel",
             "gender": "F",
-            "birthday": "1979-04-06",
-            "birthplace": "Saint-Maur-des-Fossés (Val-de-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 75,
             "county": "Paris",
-            "countyId": "75",
-            "circumscription": 11,
-            "mandateStart": "2021-01-13",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Directrice générale adjointe d'une agence de communication",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 43,
-                "reports": 1,
-                "proposals": 1,
-                "proposalsSupported": 22,
-                "amendments": 2,
-                "amendmentsSupported": 967,
-                "amendmentsAdopted": 279,
-                "commissionsAttended": 80,
-                "commissionInterventions": 40,
-                "hemicycleInterventions": 31,
-                "hemicycleShortInterventions": 1,
-                "questionsWritten": 7,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 11
         },
         {
             "firstname": "Valentine",
             "lastname": "Labourdette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
             "firstname": "Franck",
             "lastname": "Layré-Cassou",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
             "firstname": "Nolwenn",
             "lastname": "Le Gac",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
             "firstname": "Olivia",
             "lastname": "Polski",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         },
         {
             "firstname": "Laurent",
             "lastname": "Vinciguerra",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 11
         }
     ]
 }

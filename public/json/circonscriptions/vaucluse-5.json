@@ -6,101 +6,144 @@
         "firstRound": {
             "registered": 84102,
             "voted": 63922,
-            "whites": 852,
-            "expressed": 62695,
-            "void": 375,
+            "whites": 845,
+            "expressed": 62697,
+            "void": 380,
             "candidates": {
                 "Nathalie Arthaud": 274,
                 "Fabien Roussel": 1285,
                 "Emmanuel Macron": 14703,
                 "Jean Lasalle": 2287,
-                "Marine Le Pen": 17487,
+                "Marine Le Pen": 17488,
                 "Jean-Luc Mélenchon": 12415,
                 "Anne Hidalgo": 854,
                 "Yannick Jadot": 2710,
                 "Valérie Pécresse": 2545,
                 "Phillipe Poutou": 476,
-                "Nicolas Dupont-Aignan": 1622,
+                "Nicolas Dupont-Aignan": 1623,
                 "Eric Zemmour": 6037
+            }
+        },
+        "secondRound": {
+            "registered": 84124,
+            "voted": 63220,
+            "whites": 4080,
+            "expressed": 57796,
+            "void": 1344,
+            "candidates": {
+                "Emmanuel Macron": 28466,
+                "Marine Le Pen": 29330
             }
         }
     },
+    "current": {
+        "id": "609726",
+        "lastname": "Aubert",
+        "firstname": "Julien",
+        "slug": "julien-aubert",
+        "gender": "H",
+        "birthday": "1978-06-11",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Vaucluse",
+        "countyId": 84,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Magistrat à la Cour des Comptes",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 11,
+            "proposals": 29,
+            "proposalsSupported": 420,
+            "amendments": 1195,
+            "amendmentsSupported": 10235,
+            "amendmentsAdopted": 227,
+            "commissionsAttended": 343,
+            "commissionInterventions": 2120,
+            "hemicycleInterventions": 1912,
+            "hemicycleShortInterventions": 1211,
+            "questionsWritten": 113,
+            "questionsOral": 24
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "609726",
-            "lastname": "Aubert",
             "firstname": "Julien",
-            "slug": "julien-aubert",
+            "lastname": "Aubert",
             "gender": "H",
-            "birthday": "1978-06-11",
-            "birthplace": "Marseille (Bouches-du-Rhône)",
-            "county": "Vaucluse",
-            "countyId": "84",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "job": "Magistrat à la Cour des Comptes",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 11,
-                "proposals": 29,
-                "proposalsSupported": 420,
-                "amendments": 1195,
-                "amendmentsSupported": 10235,
-                "amendmentsAdopted": 227,
-                "commissionsAttended": 343,
-                "commissionInterventions": 2120,
-                "hemicycleInterventions": 1912,
-                "hemicycleShortInterventions": 1211,
-                "questionsWritten": 113,
-                "questionsOral": 24
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         },
         {
             "firstname": "Céline",
             "lastname": "Celce",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         },
         {
             "firstname": "Marie",
             "lastname": "De Maleville",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         },
         {
             "firstname": "Jean-François",
             "lastname": "Lovisolo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         },
         {
             "firstname": "Jean-Paul",
             "lastname": "Pinon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         },
         {
             "firstname": "Claudine",
             "lastname": "Rodinson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 84,
+            "county": "Vaucluse",
+            "circumscription": 5
         }
     ]
 }

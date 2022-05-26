@@ -1,7 +1,7 @@
 {
-    "countyId": "ZP",
+    "countyId": 987,
     "number": 2,
-    "name": "Polynésie Française",
+    "name": "Polynésie française",
     "results": {
         "firstRound": {
             "registered": 67010,
@@ -23,7 +23,91 @@
                 "Nicolas Dupont-Aignan": 596,
                 "Eric Zemmour": 923
             }
+        },
+        "secondRound": {
+            "registered": 67056,
+            "voted": 26280,
+            "whites": 650,
+            "expressed": 25062,
+            "void": 568,
+            "candidates": {
+                "Emmanuel Macron": 12348,
+                "Marine Le Pen": 12714
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "721110",
+        "lastname": "Sanquer",
+        "firstname": "Nicole",
+        "slug": "nicole-sanquer",
+        "gender": "F",
+        "birthday": "1972-06-16",
+        "birthplace": "Papeete (Polynésie française)",
+        "county": "Polynésie Française",
+        "countyId": 987,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 63,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 100,
+            "amendments": 112,
+            "amendmentsSupported": 7474,
+            "amendmentsAdopted": 347,
+            "commissionsAttended": 77,
+            "commissionInterventions": 41,
+            "hemicycleInterventions": 113,
+            "hemicycleShortInterventions": 34,
+            "questionsWritten": 17,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Charles",
+            "lastname": "Atger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 987,
+            "county": "Polynésie française",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Nicole",
+            "lastname": "Sanquer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 987,
+            "county": "Polynésie française",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Tepuaraurii",
+            "lastname": "Teriitahi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 987,
+            "county": "Polynésie française",
+            "circumscription": 2
+        }
+    ]
 }

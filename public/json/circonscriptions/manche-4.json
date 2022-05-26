@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1296,
                 "Eric Zemmour": 3165
             }
+        },
+        "secondRound": {
+            "registered": 89280,
+            "voted": 65159,
+            "whites": 5026,
+            "expressed": 58590,
+            "void": 1543,
+            "candidates": {
+                "Emmanuel Macron": 35522,
+                "Marine Le Pen": 23068
+            }
         }
+    },
+    "current": {
+        "id": "720202",
+        "lastname": "Krimi",
+        "firstname": "Sonia",
+        "slug": "sonia-krimi",
+        "gender": "F",
+        "birthday": "1982-12-20",
+        "birthplace": "Tunis (Tunisie)",
+        "county": "Manche",
+        "countyId": 50,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 137,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 121,
+            "amendments": 142,
+            "amendmentsSupported": 3546,
+            "amendmentsAdopted": 1090,
+            "commissionsAttended": 244,
+            "commissionInterventions": 259,
+            "hemicycleInterventions": 117,
+            "hemicycleShortInterventions": 94,
+            "questionsWritten": 157,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Abdelkader",
             "lastname": "Benramdane",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 4
         },
         {
             "firstname": "Eric",
             "lastname": "Fouace",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 4
         },
         {
             "firstname": "Laure",
             "lastname": "Jean",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 4
         },
         {
-            "id": "720202",
-            "lastname": "Krimi",
             "firstname": "Sonia",
-            "slug": "sonia-krimi",
+            "lastname": "Krimi",
             "gender": "F",
-            "birthday": "1982-12-20",
-            "birthplace": "Tunis (Tunisie)",
-            "county": "Manche",
-            "countyId": "50",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 137,
-                "reports": 3,
-                "proposals": 0,
-                "proposalsSupported": 121,
-                "amendments": 142,
-                "amendmentsSupported": 3546,
-                "amendmentsAdopted": 1090,
-                "commissionsAttended": 244,
-                "commissionInterventions": 259,
-                "hemicycleInterventions": 117,
-                "hemicycleShortInterventions": 94,
-                "questionsWritten": 156,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 4
         },
         {
             "firstname": "Anna",
             "lastname": "Pic",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 50,
+            "county": "Manche",
+            "circumscription": 4
         }
     ]
 }

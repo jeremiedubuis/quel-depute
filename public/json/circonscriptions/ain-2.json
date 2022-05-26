@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1883,
                 "Eric Zemmour": 6722
             }
+        },
+        "secondRound": {
+            "registered": 99419,
+            "voted": 76183,
+            "whites": 4430,
+            "expressed": 70564,
+            "void": 1189,
+            "candidates": {
+                "Emmanuel Macron": 38957,
+                "Marine Le Pen": 31607
+            }
         }
+    },
+    "current": {
+        "id": "1012",
+        "lastname": "la Verpillière (de)",
+        "firstname": "Charles",
+        "slug": "charles-de-la-verpilliere",
+        "gender": "H",
+        "birthday": "1954-05-31",
+        "birthplace": "Bourg-en-Bresse (Ain)",
+        "county": "Ain",
+        "countyId": 1,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Conseiller d'État",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 4,
+            "proposals": 5,
+            "proposalsSupported": 330,
+            "amendments": 121,
+            "amendmentsSupported": 9022,
+            "amendmentsAdopted": 242,
+            "commissionsAttended": 263,
+            "commissionInterventions": 276,
+            "hemicycleInterventions": 222,
+            "hemicycleShortInterventions": 258,
+            "questionsWritten": 159,
+            "questionsOral": 13
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Romain",
             "lastname": "Daubie",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         },
         {
             "firstname": "Olivier",
             "lastname": "Eyraud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         },
         {
             "firstname": "Vincent",
             "lastname": "Goutagny",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         },
         {
             "firstname": "Thomas",
             "lastname": "Iglésis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         },
         {
             "firstname": "Lumir",
             "lastname": "Lapray",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         },
         {
             "firstname": "Alexandre",
             "lastname": "Nanchi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 1,
+            "county": "Ain",
+            "circumscription": 2
         }
     ]
 }

@@ -7,14 +7,14 @@
             "registered": 95068,
             "voted": 71410,
             "whites": 1079,
-            "expressed": 69976,
-            "void": 355,
+            "expressed": 69978,
+            "void": 353,
             "candidates": {
                 "Nathalie Arthaud": 448,
                 "Fabien Roussel": 809,
-                "Emmanuel Macron": 22465,
+                "Emmanuel Macron": 22466,
                 "Jean Lasalle": 1714,
-                "Marine Le Pen": 20632,
+                "Marine Le Pen": 20633,
                 "Jean-Luc Mélenchon": 9031,
                 "Anne Hidalgo": 860,
                 "Yannick Jadot": 2786,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 2112,
                 "Eric Zemmour": 5384
             }
+        },
+        "secondRound": {
+            "registered": 95105,
+            "voted": 71637,
+            "whites": 3313,
+            "expressed": 67265,
+            "void": 1059,
+            "candidates": {
+                "Emmanuel Macron": 36881,
+                "Marine Le Pen": 30384
+            }
         }
+    },
+    "current": {
+        "id": "722336",
+        "lastname": "Thiébaut",
+        "firstname": "Vincent",
+        "slug": "vincent-thiebaut",
+        "gender": "H",
+        "birthday": "1972-05-23",
+        "birthplace": "Toulouse (Haute-Garonne)",
+        "county": "Bas-Rhin",
+        "countyId": 67,
+        "circumscription": 9,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 3,
+            "proposals": 1,
+            "proposalsSupported": 71,
+            "amendments": 419,
+            "amendmentsSupported": 3744,
+            "amendmentsAdopted": 1345,
+            "commissionsAttended": 384,
+            "commissionInterventions": 600,
+            "hemicycleInterventions": 376,
+            "hemicycleShortInterventions": 192,
+            "questionsWritten": 34,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Laurent",
             "lastname": "Gnaedig",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 9
         },
         {
             "firstname": "Yann",
             "lastname": "Lucas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 9
         },
         {
-            "id": "722336",
-            "lastname": "Thiébaut",
             "firstname": "Vincent",
-            "slug": "vincent-thiebaut",
+            "lastname": "Thiébaut",
             "gender": "H",
-            "birthday": "1972-05-23",
-            "birthplace": "Toulouse (Haute-Garonne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 67,
             "county": "Bas-Rhin",
-            "countyId": "67",
-            "circumscription": 9,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 180,
-                "reports": 3,
-                "proposals": 1,
-                "proposalsSupported": 71,
-                "amendments": 419,
-                "amendmentsSupported": 3744,
-                "amendmentsAdopted": 1345,
-                "commissionsAttended": 384,
-                "commissionInterventions": 600,
-                "hemicycleInterventions": 376,
-                "hemicycleShortInterventions": 192,
-                "questionsWritten": 34,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 9
         },
         {
             "firstname": "Leilla",
             "lastname": "Witzman",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 67,
+            "county": "Bas-Rhin",
+            "circumscription": 9
         }
     ]
 }

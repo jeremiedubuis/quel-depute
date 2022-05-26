@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1288,
                 "Eric Zemmour": 4234
             }
+        },
+        "secondRound": {
+            "registered": 77457,
+            "voted": 55499,
+            "whites": 3587,
+            "expressed": 50717,
+            "void": 1195,
+            "candidates": {
+                "Emmanuel Macron": 31454,
+                "Marine Le Pen": 19263
+            }
         }
+    },
+    "current": {
+        "id": "719294",
+        "lastname": "Clapot",
+        "firstname": "Mireille",
+        "slug": "mireille-clapot",
+        "gender": "F",
+        "birthday": "1963-10-14",
+        "birthplace": "Belley (Ain)",
+        "county": "Drôme",
+        "countyId": 26,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 5,
+            "proposals": 1,
+            "proposalsSupported": 75,
+            "amendments": 89,
+            "amendmentsSupported": 2382,
+            "amendmentsAdopted": 1022,
+            "commissionsAttended": 280,
+            "commissionInterventions": 217,
+            "hemicycleInterventions": 80,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 37,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Charles",
             "lastname": "Barjonet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         },
         {
             "firstname": "Karim",
             "lastname": "Chkeri",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         },
         {
-            "id": "719294",
-            "lastname": "Clapot",
             "firstname": "Mireille",
-            "slug": "mireille-clapot",
+            "lastname": "Clapot",
             "gender": "F",
-            "birthday": "1963-10-14",
-            "birthplace": "Belley (Ain)",
-            "county": "Drôme",
-            "countyId": "26",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (entreprises publiques)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 5,
-                "proposals": 1,
-                "proposalsSupported": 75,
-                "amendments": 89,
-                "amendmentsSupported": 2382,
-                "amendmentsAdopted": 1022,
-                "commissionsAttended": 280,
-                "commissionInterventions": 217,
-                "hemicycleInterventions": 80,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 37,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         },
         {
             "firstname": "Adèle",
             "lastname": "Kopff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         },
         {
             "firstname": "Samantha",
             "lastname": "Rose",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         },
         {
             "firstname": "Philippe",
             "lastname": "Tosello-Pace",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 1
         }
     ]
 }

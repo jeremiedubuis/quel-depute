@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1146,
                 "Eric Zemmour": 3555
             }
+        },
+        "secondRound": {
+            "registered": 83785,
+            "voted": 64313,
+            "whites": 5498,
+            "expressed": 56458,
+            "void": 2357,
+            "candidates": {
+                "Emmanuel Macron": 32428,
+                "Marine Le Pen": 24030
+            }
         }
+    },
+    "current": {
+        "id": "1592",
+        "lastname": "Habib",
+        "firstname": "David",
+        "slug": "david-habib",
+        "gender": "H",
+        "birthday": "1961-03-16",
+        "birthplace": "Paris (Paris)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 176,
+            "reports": 0,
+            "proposals": 3,
+            "proposalsSupported": 80,
+            "amendments": 269,
+            "amendmentsSupported": 14085,
+            "amendmentsAdopted": 718,
+            "commissionsAttended": 298,
+            "commissionInterventions": 174,
+            "hemicycleInterventions": 5087,
+            "hemicycleShortInterventions": 16279,
+            "questionsWritten": 125,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Katrine",
             "lastname": "Bordenave",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 3
         },
         {
             "firstname": "Fabienne",
             "lastname": "Costedoat-Diu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 3
         },
         {
             "firstname": "Nicolas",
             "lastname": "Cresson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 3
         },
         {
             "firstname": "Joëlle",
             "lastname": "Losson",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 3
         },
         {
             "firstname": "Antoine",
             "lastname": "Missier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 3
         }
     ]
 }

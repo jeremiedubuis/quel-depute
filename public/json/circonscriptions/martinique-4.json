@@ -1,5 +1,5 @@
 {
-    "countyId": "ZB",
+    "countyId": 972,
     "number": 4,
     "name": "Martinique",
     "results": {
@@ -23,7 +23,115 @@
                 "Nicolas Dupont-Aignan": 792,
                 "Eric Zemmour": 816
             }
+        },
+        "secondRound": {
+            "registered": 84015,
+            "voted": 36925,
+            "whites": 2815,
+            "expressed": 32026,
+            "void": 2084,
+            "candidates": {
+                "Emmanuel Macron": 12234,
+                "Marine Le Pen": 19792
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "610654",
+        "lastname": "Nilor",
+        "firstname": "Jean-Philippe",
+        "slug": "jeanphilippe-nilor",
+        "gender": "H",
+        "birthday": "1965-05-15",
+        "birthplace": "Fort-de-France (Martinique)",
+        "county": "Martinique",
+        "countyId": 972,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Collaborateur parlementaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 60,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 126,
+            "amendments": 1147,
+            "amendmentsSupported": 9490,
+            "amendmentsAdopted": 312,
+            "commissionsAttended": 70,
+            "commissionInterventions": 65,
+            "hemicycleInterventions": 330,
+            "hemicycleShortInterventions": 88,
+            "questionsWritten": 33,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Jean-Marc",
+            "lastname": "Lusbec",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Jean-Philippe",
+            "lastname": "Nilor",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Nicolas",
+            "lastname": "Occolier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Melanie",
+            "lastname": "Sulio",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Laurence",
+            "lastname": "Tiberinus",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 4
+        }
+    ]
 }

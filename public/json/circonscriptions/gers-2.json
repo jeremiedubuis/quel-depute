@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 73682,
             "voted": 59637,
-            "whites": 861,
+            "whites": 874,
             "expressed": 58342,
-            "void": 434,
+            "void": 421,
             "candidates": {
                 "Nathalie Arthaud": 269,
                 "Fabien Roussel": 1432,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1241,
                 "Eric Zemmour": 4668
             }
+        },
+        "secondRound": {
+            "registered": 73678,
+            "voted": 58510,
+            "whites": 4542,
+            "expressed": 51996,
+            "void": 1972,
+            "candidates": {
+                "Emmanuel Macron": 28321,
+                "Marine Le Pen": 23675
+            }
         }
+    },
+    "current": {
+        "id": "508",
+        "lastname": "Biémouret",
+        "firstname": "Gisèle",
+        "slug": "gisele-biemouret",
+        "gender": "F",
+        "birthday": "1952-06-16",
+        "birthplace": "Fleurance (Gers)",
+        "county": "Gers",
+        "countyId": 32,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Assistante parlementaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 117,
+            "reports": 1,
+            "proposals": 1,
+            "proposalsSupported": 76,
+            "amendments": 289,
+            "amendmentsSupported": 15096,
+            "amendmentsAdopted": 807,
+            "commissionsAttended": 167,
+            "commissionInterventions": 229,
+            "hemicycleInterventions": 374,
+            "hemicycleShortInterventions": 112,
+            "questionsWritten": 119,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Maëva",
             "lastname": "Bourcier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "Alice",
             "lastname": "Cendré",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "Michel",
             "lastname": "Gabas",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "Merima",
             "lastname": "Huseinbasic",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "Michèle",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "Gérard",
             "lastname": "Paul",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         },
         {
             "firstname": "David",
             "lastname": "Taupiac",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 32,
+            "county": "Gers",
+            "circumscription": 2
         }
     ]
 }

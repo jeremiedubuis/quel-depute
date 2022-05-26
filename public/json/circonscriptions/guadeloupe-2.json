@@ -1,5 +1,5 @@
 {
-    "countyId": "ZA",
+    "countyId": 971,
     "number": 2,
     "name": "Guadeloupe",
     "results": {
@@ -23,7 +23,103 @@
                 "Nicolas Dupont-Aignan": 609,
                 "Eric Zemmour": 1023
             }
+        },
+        "secondRound": {
+            "registered": 87594,
+            "voted": 41739,
+            "whites": 2273,
+            "expressed": 37362,
+            "void": 2104,
+            "candidates": {
+                "Emmanuel Macron": 11509,
+                "Marine Le Pen": 25853
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "720968",
+        "lastname": "Benin",
+        "firstname": "Justine",
+        "slug": "justine-benin",
+        "gender": "F",
+        "birthday": "1975-03-12",
+        "birthplace": "Abymes (Guadeloupe)",
+        "county": "Guadeloupe",
+        "countyId": 971,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Fonctionnaire de catégorie B",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 103,
+            "reports": 3,
+            "proposals": 2,
+            "proposalsSupported": 58,
+            "amendments": 368,
+            "amendmentsSupported": 4593,
+            "amendmentsAdopted": 828,
+            "commissionsAttended": 196,
+            "commissionInterventions": 431,
+            "hemicycleInterventions": 165,
+            "hemicycleShortInterventions": 62,
+            "questionsWritten": 64,
+            "questionsOral": 17
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Justine",
+            "lastname": "Benin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "GUSR,LRM",
+            "groupShort": "GUSR,LRM",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Aline",
+            "lastname": "Céril",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Dun",
+            "lastname": "Ferus",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Michel",
+            "lastname": "Ramssamy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 2
+        }
+    ]
 }

@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1312,
                 "Eric Zemmour": 3746
             }
+        },
+        "secondRound": {
+            "registered": 91981,
+            "voted": 71370,
+            "whites": 7069,
+            "expressed": 60257,
+            "void": 4044,
+            "candidates": {
+                "Emmanuel Macron": 33272,
+                "Marine Le Pen": 26985
+            }
         }
+    },
+    "current": {
+        "id": "719060",
+        "lastname": "Jerretie",
+        "firstname": "Christophe",
+        "slug": "christophe-jerretie",
+        "gender": "H",
+        "birthday": "1979-08-31",
+        "birthplace": "Tulle (Corrèze)",
+        "county": "Corrèze",
+        "countyId": 19,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 182,
+            "reports": 14,
+            "proposals": 0,
+            "proposalsSupported": 67,
+            "amendments": 159,
+            "amendmentsSupported": 2798,
+            "amendmentsAdopted": 1092,
+            "commissionsAttended": 472,
+            "commissionInterventions": 445,
+            "hemicycleInterventions": 412,
+            "hemicycleShortInterventions": 245,
+            "questionsWritten": 114,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Thérèse",
             "lastname": "Coinaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 1
         },
         {
-            "id": "719060",
-            "lastname": "Jerretie",
             "firstname": "Christophe",
-            "slug": "christophe-jerretie",
+            "lastname": "Jerretie",
             "gender": "H",
-            "birthday": "1979-08-31",
-            "birthplace": "Tulle (Corrèze)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 19,
             "county": "Corrèze",
-            "countyId": "19",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Profession libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 182,
-                "reports": 14,
-                "proposals": 0,
-                "proposalsSupported": 67,
-                "amendments": 159,
-                "amendmentsSupported": 2798,
-                "amendmentsAdopted": 1092,
-                "commissionsAttended": 472,
-                "commissionInterventions": 445,
-                "hemicycleInterventions": 412,
-                "hemicycleShortInterventions": 245,
-                "questionsWritten": 114,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Jocelyne",
             "lastname": "Pouget",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 1
         },
         {
             "firstname": "Valérie",
             "lastname": "Roussel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 19,
+            "county": "Corrèze",
+            "circumscription": 1
         }
     ]
 }

@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 134805,
-            "voted": 103885,
-            "whites": 1457,
-            "expressed": 101754,
-            "void": 674,
+            "voted": 103907,
+            "whites": 1455,
+            "expressed": 101776,
+            "void": 676,
             "candidates": {
                 "Nathalie Arthaud": 570,
                 "Fabien Roussel": 2072,
@@ -17,74 +17,109 @@
                 "Marine Le Pen": 24450,
                 "Jean-Luc Mélenchon": 13488,
                 "Anne Hidalgo": 1371,
-                "Yannick Jadot": 4511,
+                "Yannick Jadot": 4533,
                 "Valérie Pécresse": 6059,
                 "Phillipe Poutou": 697,
                 "Nicolas Dupont-Aignan": 2410,
                 "Eric Zemmour": 8116
             }
+        },
+        "secondRound": {
+            "registered": 134914,
+            "voted": 103673,
+            "whites": 5863,
+            "expressed": 95399,
+            "void": 2411,
+            "candidates": {
+                "Emmanuel Macron": 56978,
+                "Marine Le Pen": 38421
+            }
         }
+    },
+    "current": {
+        "id": "722000",
+        "lastname": "Buchou",
+        "firstname": "Stéphane",
+        "slug": "stephane-buchou",
+        "gender": "H",
+        "birthday": "1974-03-14",
+        "birthplace": "Strasbourg (Bas-Rhin)",
+        "county": "Vendée",
+        "countyId": 85,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 79,
+            "amendments": 120,
+            "amendmentsSupported": 3610,
+            "amendmentsAdopted": 1280,
+            "commissionsAttended": 165,
+            "commissionInterventions": 44,
+            "hemicycleInterventions": 44,
+            "hemicycleShortInterventions": 10,
+            "questionsWritten": 51,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722000",
-            "lastname": "Buchou",
             "firstname": "Stéphane",
-            "slug": "stephane-buchou",
+            "lastname": "Buchou",
             "gender": "H",
-            "birthday": "1974-03-14",
-            "birthplace": "Strasbourg (Bas-Rhin)",
-            "county": "Vendée",
-            "countyId": "85",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 79,
-                "amendments": 120,
-                "amendmentsSupported": 3610,
-                "amendmentsAdopted": 1280,
-                "commissionsAttended": 165,
-                "commissionInterventions": 44,
-                "hemicycleInterventions": 44,
-                "hemicycleShortInterventions": 10,
-                "questionsWritten": 51,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 3
         },
         {
             "firstname": "Philippe",
             "lastname": "Festien",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 3
         },
         {
             "firstname": "Corinne",
             "lastname": "Fillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 3
         },
         {
             "firstname": "Aurélien",
             "lastname": "Mauger",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 3
         }
     ]
 }

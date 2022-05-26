@@ -11,7 +11,7 @@ export const createThumbnail = async (depute: Depute) => {
 fs.readdir(deputeJSONPath, (err, files) => {
     if (err) console.log(err);
     else {
-        Promise.all(files.map((file) => createThumbnail(require(deputeJSONPath + file)))).then(
+        Promise.all(files.filter(f => f !== 'deputes.json').map((file) => createThumbnail(require(deputeJSONPath + file)))).then(
             () => {
                 process.exit(0);
             }

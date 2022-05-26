@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 956,
                 "Eric Zemmour": 3392
             }
+        },
+        "secondRound": {
+            "registered": 79467,
+            "voted": 59129,
+            "whites": 4336,
+            "expressed": 53433,
+            "void": 1360,
+            "candidates": {
+                "Emmanuel Macron": 38558,
+                "Marine Le Pen": 14875
+            }
         }
+    },
+    "current": {
+        "id": "719624",
+        "lastname": "Couillard",
+        "firstname": "Bérangère",
+        "slug": "berangere-couillard",
+        "gender": "F",
+        "birthday": "1986-07-24",
+        "birthplace": "Rennes (Ille-et-Vilaine)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 147,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 67,
+            "amendments": 297,
+            "amendmentsSupported": 2358,
+            "amendmentsAdopted": 1371,
+            "commissionsAttended": 215,
+            "commissionInterventions": 297,
+            "hemicycleInterventions": 274,
+            "hemicycleShortInterventions": 87,
+            "questionsWritten": 54,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719624",
-            "lastname": "Couillard",
             "firstname": "Bérangère",
-            "slug": "berangere-couillard",
+            "lastname": "Couillard",
             "gender": "F",
-            "birthday": "1986-07-24",
-            "birthplace": "Rennes (Ille-et-Vilaine)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 147,
-                "reports": 5,
-                "proposals": 4,
-                "proposalsSupported": 67,
-                "amendments": 297,
-                "amendmentsSupported": 2358,
-                "amendmentsAdopted": 1371,
-                "commissionsAttended": 215,
-                "commissionInterventions": 297,
-                "hemicycleInterventions": 274,
-                "hemicycleShortInterventions": 87,
-                "questionsWritten": 54,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         },
         {
             "firstname": "Francine",
             "lastname": "Erb",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         },
         {
             "firstname": "Jean-Renaud",
             "lastname": "Ferran",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         },
         {
             "firstname": "Anne Marie",
             "lastname": "Franchiset",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         },
         {
             "firstname": "Monique",
             "lastname": "Oratto",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         },
         {
             "firstname": "Benoît",
             "lastname": "Rautureau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 7
         }
     ]
 }

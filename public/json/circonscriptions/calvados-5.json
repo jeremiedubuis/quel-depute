@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1432,
                 "Eric Zemmour": 4208
             }
+        },
+        "secondRound": {
+            "registered": 92354,
+            "voted": 72793,
+            "whites": 4341,
+            "expressed": 66903,
+            "void": 1549,
+            "candidates": {
+                "Emmanuel Macron": 40557,
+                "Marine Le Pen": 26346
+            }
         }
+    },
+    "current": {
+        "id": "719032",
+        "lastname": "Bouyx",
+        "firstname": "Bertrand",
+        "slug": "bertrand-bouyx",
+        "gender": "H",
+        "birthday": "1970-05-26",
+        "birthplace": "Juvisy-sur-Orge (Essonne)",
+        "county": "Calvados",
+        "countyId": 14,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Pharmacien",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 159,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 81,
+            "amendments": 196,
+            "amendmentsSupported": 2524,
+            "amendmentsAdopted": 1074,
+            "commissionsAttended": 300,
+            "commissionInterventions": 175,
+            "hemicycleInterventions": 75,
+            "hemicycleShortInterventions": 37,
+            "questionsWritten": 27,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719032",
-            "lastname": "Bouyx",
             "firstname": "Bertrand",
-            "slug": "bertrand-bouyx",
+            "lastname": "Bouyx",
             "gender": "H",
-            "birthday": "1970-05-26",
-            "birthplace": "Juvisy-sur-Orge (Essonne)",
-            "county": "Calvados",
-            "countyId": "14",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Pharmacien",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 159,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 81,
-                "amendments": 196,
-                "amendmentsSupported": 2524,
-                "amendmentsAdopted": 1074,
-                "commissionsAttended": 300,
-                "commissionInterventions": 175,
-                "hemicycleInterventions": 75,
-                "hemicycleShortInterventions": 37,
-                "questionsWritten": 27,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 5
         },
         {
             "firstname": "Philippe",
             "lastname": "Chapron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 5
         },
         {
             "firstname": "Michaël",
             "lastname": "Friquet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 5
         },
         {
             "firstname": "Valérie",
             "lastname": "Harel",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 5
         },
         {
             "firstname": "Isabelle",
             "lastname": "Peltre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 14,
+            "county": "Calvados",
+            "circumscription": 5
         }
     ]
 }

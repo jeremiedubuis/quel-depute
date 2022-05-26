@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1494,
                 "Eric Zemmour": 3781
             }
+        },
+        "secondRound": {
+            "registered": 83909,
+            "voted": 65029,
+            "whites": 4067,
+            "expressed": 59283,
+            "void": 1679,
+            "candidates": {
+                "Emmanuel Macron": 32781,
+                "Marine Le Pen": 26502
+            }
         }
+    },
+    "current": {
+        "id": "722070",
+        "lastname": "Henriet",
+        "firstname": "Pierre",
+        "slug": "pierre-henriet",
+        "gender": "H",
+        "birthday": "1991-11-26",
+        "birthplace": "Fontenay-le-Comte (Vendée)",
+        "county": "Vendée",
+        "countyId": 85,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 6,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 48,
+            "amendmentsSupported": 1822,
+            "amendmentsAdopted": 1031,
+            "commissionsAttended": 183,
+            "commissionInterventions": 82,
+            "hemicycleInterventions": 32,
+            "hemicycleShortInterventions": 82,
+            "questionsWritten": 40,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Benjamin",
             "lastname": "Debout",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         },
         {
-            "id": "722070",
-            "lastname": "Henriet",
             "firstname": "Pierre",
-            "slug": "pierre-henriet",
+            "lastname": "Henriet",
             "gender": "H",
-            "birthday": "1991-11-26",
-            "birthplace": "Fontenay-le-Comte (Vendée)",
-            "county": "Vendée",
-            "countyId": "85",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur du secondaire et technique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 6,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 48,
-                "amendmentsSupported": 1822,
-                "amendmentsAdopted": 1031,
-                "commissionsAttended": 183,
-                "commissionInterventions": 82,
-                "hemicycleInterventions": 32,
-                "hemicycleShortInterventions": 82,
-                "questionsWritten": 40,
-                "questionsOral": 3
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         },
         {
             "firstname": "Isabelle",
             "lastname": "Magnin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         },
         {
             "firstname": "Béatrice",
             "lastname": "Ruault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         },
         {
             "firstname": "Yveline",
             "lastname": "Thibaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         },
         {
             "firstname": "Timothée",
             "lastname": "Thibaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 85,
+            "county": "Vendée",
+            "circumscription": 5
         }
     ]
 }

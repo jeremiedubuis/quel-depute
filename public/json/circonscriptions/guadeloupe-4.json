@@ -1,5 +1,5 @@
 {
-    "countyId": "ZA",
+    "countyId": 971,
     "number": 4,
     "name": "Guadeloupe",
     "results": {
@@ -23,7 +23,91 @@
                 "Nicolas Dupont-Aignan": 462,
                 "Eric Zemmour": 563
             }
+        },
+        "secondRound": {
+            "registered": 68163,
+            "voted": 31882,
+            "whites": 1664,
+            "expressed": 28289,
+            "void": 1929,
+            "candidates": {
+                "Emmanuel Macron": 8734,
+                "Marine Le Pen": 19555
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "643145",
+        "lastname": "Vainqueur-Christophe",
+        "firstname": "Hélène",
+        "slug": "helene-vainqueurchristophe",
+        "gender": "F",
+        "birthday": "1956-05-06",
+        "birthplace": "Trois-Rivières (Guadeloupe)",
+        "county": "Guadeloupe",
+        "countyId": 971,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Parti progressiste martiniquais",
+        "groupShort": "SOC",
+        "job": "Pharmacienne",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 76,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 74,
+            "amendments": 372,
+            "amendmentsSupported": 15336,
+            "amendmentsAdopted": 792,
+            "commissionsAttended": 116,
+            "commissionInterventions": 186,
+            "hemicycleInterventions": 111,
+            "hemicycleShortInterventions": 20,
+            "questionsWritten": 0,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Elie",
+            "lastname": "Califer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Jordan",
+            "lastname": "Coudret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 4
+        },
+        {
+            "firstname": "Germain",
+            "lastname": "Paran",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 971,
+            "county": "Guadeloupe",
+            "circumscription": 4
+        }
+    ]
 }

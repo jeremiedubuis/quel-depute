@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1067,
                 "Eric Zemmour": 4144
             }
+        },
+        "secondRound": {
+            "registered": 76128,
+            "voted": 54889,
+            "whites": 3289,
+            "expressed": 50814,
+            "void": 786,
+            "candidates": {
+                "Emmanuel Macron": 30085,
+                "Marine Le Pen": 20729
+            }
         }
+    },
+    "current": {
+        "id": "720370",
+        "lastname": "Mendes",
+        "firstname": "Ludovic",
+        "slug": "ludovic-mendes",
+        "gender": "H",
+        "birthday": "1987-04-11",
+        "birthplace": "Metz (Moselle)",
+        "county": "Moselle",
+        "countyId": 57,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 156,
+            "amendmentsSupported": 2101,
+            "amendmentsAdopted": 1153,
+            "commissionsAttended": 268,
+            "commissionInterventions": 260,
+            "hemicycleInterventions": 169,
+            "hemicycleShortInterventions": 97,
+            "questionsWritten": 9,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Olivier",
             "lastname": "Bauchat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Thierry",
             "lastname": "Hory",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Lisa",
             "lastname": "Lahore",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         },
         {
-            "id": "720370",
-            "lastname": "Mendes",
             "firstname": "Ludovic",
-            "slug": "ludovic-mendes",
+            "lastname": "Mendes",
             "gender": "H",
-            "birthday": "1987-04-11",
-            "birthplace": "Metz (Moselle)",
-            "county": "Moselle",
-            "countyId": "57",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 152,
-                "reports": 4,
-                "proposals": 1,
-                "proposalsSupported": 73,
-                "amendments": 156,
-                "amendmentsSupported": 2101,
-                "amendmentsAdopted": 1153,
-                "commissionsAttended": 268,
-                "commissionInterventions": 260,
-                "hemicycleInterventions": 169,
-                "hemicycleShortInterventions": 97,
-                "questionsWritten": 9,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Mario",
             "lastname": "Rinaldi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Quentin",
             "lastname": "Teixeira",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 57,
+            "county": "Moselle",
+            "circumscription": 2
         }
     ]
 }

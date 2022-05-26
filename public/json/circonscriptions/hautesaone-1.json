@@ -7,80 +7,155 @@
             "registered": 88119,
             "voted": 69401,
             "whites": 1206,
-            "expressed": 67423,
-            "void": 772,
+            "expressed": 67427,
+            "void": 768,
             "candidates": {
                 "Nathalie Arthaud": 567,
                 "Fabien Roussel": 1348,
                 "Emmanuel Macron": 16010,
-                "Jean Lasalle": 2393,
-                "Marine Le Pen": 22579,
+                "Jean Lasalle": 2394,
+                "Marine Le Pen": 22581,
                 "Jean-Luc Mélenchon": 10332,
                 "Anne Hidalgo": 1098,
                 "Yannick Jadot": 2274,
                 "Valérie Pécresse": 3602,
                 "Phillipe Poutou": 645,
                 "Nicolas Dupont-Aignan": 1770,
-                "Eric Zemmour": 4805
+                "Eric Zemmour": 4806
+            }
+        },
+        "secondRound": {
+            "registered": 88123,
+            "voted": 68463,
+            "whites": 4314,
+            "expressed": 61980,
+            "void": 2169,
+            "candidates": {
+                "Emmanuel Macron": 27901,
+                "Marine Le Pen": 34079
             }
         }
+    },
+    "current": {
+        "id": "722312",
+        "lastname": "Bessot Ballot",
+        "firstname": "Barbara",
+        "slug": "barbara-bessot-ballot",
+        "gender": "F",
+        "birthday": "1972-04-13",
+        "birthplace": "Besançon (Doubs)",
+        "county": "Haute-Saône",
+        "countyId": 70,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 8,
+            "proposals": 4,
+            "proposalsSupported": 105,
+            "amendments": 393,
+            "amendmentsSupported": 2861,
+            "amendmentsAdopted": 1162,
+            "commissionsAttended": 291,
+            "commissionInterventions": 278,
+            "hemicycleInterventions": 155,
+            "hemicycleShortInterventions": 34,
+            "questionsWritten": 104,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Barbara",
             "lastname": "Bessot-Ballot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Dimitri",
             "lastname": "Doussot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Karine",
             "lastname": "Erard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Cédric",
             "lastname": "Fischer",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Philippe",
             "lastname": "Ghiles",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Sandra",
             "lastname": "Girardot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         },
         {
             "firstname": "Antoine",
             "lastname": "Villedieu",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 70,
+            "county": "Haute-Saône",
+            "circumscription": 1
         }
     ]
 }

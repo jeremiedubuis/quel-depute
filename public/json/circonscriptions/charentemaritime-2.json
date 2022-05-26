@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 111596,
             "voted": 88133,
-            "whites": 1397,
+            "whites": 1386,
             "expressed": 86176,
-            "void": 560,
+            "void": 571,
             "candidates": {
                 "Nathalie Arthaud": 526,
                 "Fabien Roussel": 2223,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 2080,
                 "Eric Zemmour": 4631
             }
+        },
+        "secondRound": {
+            "registered": 111616,
+            "voted": 85397,
+            "whites": 6123,
+            "expressed": 77191,
+            "void": 2083,
+            "candidates": {
+                "Emmanuel Macron": 44590,
+                "Marine Le Pen": 32601
+            }
         }
+    },
+    "current": {
+        "id": "719092",
+        "lastname": "Tuffnell",
+        "firstname": "Frédérique",
+        "slug": "frederique-tuffnell",
+        "gender": "F",
+        "birthday": "1956-06-29",
+        "birthplace": "Châtellerault (Vienne)",
+        "county": "Charente-Maritime",
+        "countyId": 17,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Cadre (entreprises publiques)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 149,
+            "reports": 2,
+            "proposals": 5,
+            "proposalsSupported": 123,
+            "amendments": 289,
+            "amendmentsSupported": 5025,
+            "amendmentsAdopted": 1111,
+            "commissionsAttended": 228,
+            "commissionInterventions": 265,
+            "hemicycleInterventions": 141,
+            "hemicycleShortInterventions": 25,
+            "questionsWritten": 96,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Laure",
             "lastname": "Babault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Frédéric",
             "lastname": "Castello",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Bertrand",
             "lastname": "Giraud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Richard",
             "lastname": "Guerit",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Adrien",
             "lastname": "Larcher",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         },
         {
             "firstname": "Nordine",
             "lastname": "Raymond",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 17,
+            "county": "Charente-Maritime",
+            "circumscription": 2
         }
     ]
 }

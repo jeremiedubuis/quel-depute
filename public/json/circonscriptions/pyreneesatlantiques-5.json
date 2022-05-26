@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1203,
                 "Eric Zemmour": 5562
             }
+        },
+        "secondRound": {
+            "registered": 98915,
+            "voted": 73765,
+            "whites": 6127,
+            "expressed": 65726,
+            "void": 1912,
+            "candidates": {
+                "Emmanuel Macron": 42530,
+                "Marine Le Pen": 23196
+            }
         }
+    },
+    "current": {
+        "id": "720764",
+        "lastname": "Lasserre",
+        "firstname": "Florence",
+        "slug": "florence-lasserre",
+        "gender": "F",
+        "birthday": "1974-06-29",
+        "birthplace": "Bayonne (Pyrénées-Atlantiques)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Employée du secteur privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 50,
+            "amendments": 225,
+            "amendmentsSupported": 3847,
+            "amendmentsAdopted": 776,
+            "commissionsAttended": 188,
+            "commissionInterventions": 138,
+            "hemicycleInterventions": 104,
+            "hemicycleShortInterventions": 28,
+            "questionsWritten": 113,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Philippe",
             "lastname": "Bardanouve",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 5
         },
         {
             "firstname": "Sylvie",
             "lastname": "Durruty",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 5
         },
         {
-            "id": "720764",
-            "lastname": "Lasserre",
             "firstname": "Florence",
-            "slug": "florence-lasserre",
-            "gender": "F",
-            "birthday": "1974-06-29",
-            "birthplace": "Bayonne (Pyrénées-Atlantiques)",
+            "lastname": "Lasserre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 64,
             "county": "Pyrénées-Atlantiques",
-            "countyId": "64",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Employée du secteur privé",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 143,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 50,
-                "amendments": 225,
-                "amendmentsSupported": 3847,
-                "amendmentsAdopted": 776,
-                "commissionsAttended": 188,
-                "commissionInterventions": 138,
-                "hemicycleInterventions": 104,
-                "hemicycleShortInterventions": 28,
-                "questionsWritten": 113,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         },
         {
             "firstname": "Pascal",
             "lastname": "Lesellier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 5
         },
         {
             "firstname": "Sandra",
             "lastname": "Pereira-Ostanel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 5
         }
     ]
 }

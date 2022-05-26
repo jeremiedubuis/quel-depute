@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 88484,
             "voted": 63966,
-            "whites": 869,
+            "whites": 873,
             "expressed": 62836,
-            "void": 261,
+            "void": 257,
             "candidates": {
                 "Nathalie Arthaud": 265,
                 "Fabien Roussel": 1201,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 829,
                 "Eric Zemmour": 4381
             }
+        },
+        "secondRound": {
+            "registered": 88520,
+            "voted": 57672,
+            "whites": 3611,
+            "expressed": 53138,
+            "void": 923,
+            "candidates": {
+                "Emmanuel Macron": 40375,
+                "Marine Le Pen": 12763
+            }
         }
+    },
+    "current": {
+        "id": "721344",
+        "lastname": "Bonnell",
+        "firstname": "Bruno",
+        "slug": "bruno-bonnell",
+        "gender": "H",
+        "birthday": "1958-10-06",
+        "birthplace": "Alger (Algérie)",
+        "county": "Rhône",
+        "countyId": 69,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 112,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 17,
+            "amendmentsSupported": 1665,
+            "amendmentsAdopted": 1008,
+            "commissionsAttended": 103,
+            "commissionInterventions": 34,
+            "hemicycleInterventions": 58,
+            "hemicycleShortInterventions": 32,
+            "questionsWritten": 1,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gabriel",
             "lastname": "Amard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Nadia",
             "lastname": "Bouhami",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Haziza",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Michèle",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 6
         },
         {
             "firstname": "Ingrid",
             "lastname": "Roche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 6
         }
     ]
 }

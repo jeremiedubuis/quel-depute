@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1568,
                 "Eric Zemmour": 4140
             }
+        },
+        "secondRound": {
+            "registered": 74219,
+            "voted": 56607,
+            "whites": 4171,
+            "expressed": 51083,
+            "void": 1353,
+            "candidates": {
+                "Emmanuel Macron": 27406,
+                "Marine Le Pen": 23677
+            }
         }
+    },
+    "current": {
+        "id": "721410",
+        "lastname": "Bonnivard",
+        "firstname": "Émilie",
+        "slug": "emilie-bonnivard",
+        "gender": "F",
+        "birthday": "1980-08-02",
+        "birthplace": "Chambéry (Savoie)",
+        "county": "Savoie",
+        "countyId": 73,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre à la Caisse des Dépôts et Consignations",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 10,
+            "proposals": 6,
+            "proposalsSupported": 466,
+            "amendments": 1575,
+            "amendmentsSupported": 11048,
+            "amendmentsAdopted": 336,
+            "commissionsAttended": 280,
+            "commissionInterventions": 284,
+            "hemicycleInterventions": 532,
+            "hemicycleShortInterventions": 1114,
+            "questionsWritten": 185,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "721410",
-            "lastname": "Bonnivard",
             "firstname": "Émilie",
-            "slug": "emilie-bonnivard",
+            "lastname": "Bonnivard",
             "gender": "F",
-            "birthday": "1980-08-02",
-            "birthplace": "Chambéry (Savoie)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 73,
             "county": "Savoie",
-            "countyId": "73",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre à la Caisse des Dépôts et Consignations",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 10,
-                "proposals": 6,
-                "proposalsSupported": 466,
-                "amendments": 1575,
-                "amendmentsSupported": 11048,
-                "amendmentsAdopted": 336,
-                "commissionsAttended": 280,
-                "commissionInterventions": 284,
-                "hemicycleInterventions": 532,
-                "hemicycleShortInterventions": 1114,
-                "questionsWritten": 185,
-                "questionsOral": 15
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Marie",
             "lastname": "Dauchy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Nathalie",
             "lastname": "Krawezynski",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Xavier",
             "lastname": "Trosset",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 3
         },
         {
             "firstname": "Pascale",
             "lastname": "Trouvé",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 73,
+            "county": "Savoie",
+            "circumscription": 3
         }
     ]
 }

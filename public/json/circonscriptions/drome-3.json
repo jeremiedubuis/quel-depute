@@ -7,15 +7,15 @@
             "registered": 110419,
             "voted": 89504,
             "whites": 1328,
-            "expressed": 87631,
-            "void": 545,
+            "expressed": 87632,
+            "void": 544,
             "candidates": {
                 "Nathalie Arthaud": 492,
                 "Fabien Roussel": 2188,
                 "Emmanuel Macron": 20554,
                 "Jean Lasalle": 3692,
                 "Marine Le Pen": 18229,
-                "Jean-Luc Mélenchon": 22941,
+                "Jean-Luc Mélenchon": 22942,
                 "Anne Hidalgo": 1621,
                 "Yannick Jadot": 4798,
                 "Valérie Pécresse": 4039,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 2332,
                 "Eric Zemmour": 6027
             }
+        },
+        "secondRound": {
+            "registered": 110433,
+            "voted": 85262,
+            "whites": 7835,
+            "expressed": 75158,
+            "void": 2269,
+            "candidates": {
+                "Emmanuel Macron": 43821,
+                "Marine Le Pen": 31337
+            }
         }
+    },
+    "current": {
+        "id": "719310",
+        "lastname": "Lavergne (de)",
+        "firstname": "Célia",
+        "slug": "celia-de-lavergne",
+        "gender": "F",
+        "birthday": "1979-11-21",
+        "birthplace": "Clamart (Hauts-de-Seine)",
+        "county": "Drôme",
+        "countyId": 26,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 148,
+            "reports": 12,
+            "proposals": 0,
+            "proposalsSupported": 63,
+            "amendments": 203,
+            "amendmentsSupported": 2018,
+            "amendmentsAdopted": 1282,
+            "commissionsAttended": 251,
+            "commissionInterventions": 368,
+            "hemicycleInterventions": 245,
+            "hemicycleShortInterventions": 36,
+            "questionsWritten": 11,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Charly",
             "lastname": "Champmartin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 3
         },
         {
-            "id": "719310",
-            "lastname": "Lavergne (de)",
             "firstname": "Célia",
-            "slug": "celia-de-lavergne",
+            "lastname": "de Lavergne",
             "gender": "F",
-            "birthday": "1979-11-21",
-            "birthplace": "Clamart (Hauts-de-Seine)",
-            "county": "Drôme",
-            "countyId": "26",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 148,
-                "reports": 12,
-                "proposals": 0,
-                "proposalsSupported": 63,
-                "amendments": 203,
-                "amendmentsSupported": 2018,
-                "amendmentsAdopted": 1282,
-                "commissionsAttended": 251,
-                "commissionInterventions": 368,
-                "hemicycleInterventions": 245,
-                "hemicycleShortInterventions": 36,
-                "questionsWritten": 11,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 3
         },
         {
             "firstname": "Philippe",
             "lastname": "Dos Reis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 3
         },
         {
             "firstname": "Marie",
             "lastname": "Pochon",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 26,
+            "county": "Drôme",
+            "circumscription": 3
         }
     ]
 }

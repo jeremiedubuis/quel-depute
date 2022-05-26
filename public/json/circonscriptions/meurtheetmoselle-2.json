@@ -5,15 +5,15 @@
     "results": {
         "firstRound": {
             "registered": 67282,
-            "voted": 49649,
+            "voted": 49648,
             "whites": 671,
-            "expressed": 48731,
+            "expressed": 48730,
             "void": 247,
             "candidates": {
                 "Nathalie Arthaud": 231,
                 "Fabien Roussel": 906,
                 "Emmanuel Macron": 16388,
-                "Jean Lasalle": 891,
+                "Jean Lasalle": 890,
                 "Marine Le Pen": 7320,
                 "Jean-Luc Mélenchon": 12152,
                 "Anne Hidalgo": 1079,
@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 799,
                 "Eric Zemmour": 3286
             }
+        },
+        "secondRound": {
+            "registered": 67369,
+            "voted": 48771,
+            "whites": 3116,
+            "expressed": 44794,
+            "void": 861,
+            "candidates": {
+                "Emmanuel Macron": 32149,
+                "Marine Le Pen": 12645
+            }
         }
+    },
+    "current": {
+        "id": "720178",
+        "lastname": "Garcia",
+        "firstname": "Laurent",
+        "slug": "laurent-garcia",
+        "gender": "H",
+        "birthday": "1970-05-31",
+        "birthplace": "Paris (16e) (Paris)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": 54,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Ingénieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 135,
+            "reports": 4,
+            "proposals": 4,
+            "proposalsSupported": 76,
+            "amendments": 73,
+            "amendmentsSupported": 3675,
+            "amendmentsAdopted": 776,
+            "commissionsAttended": 177,
+            "commissionInterventions": 212,
+            "hemicycleInterventions": 98,
+            "hemicycleShortInterventions": 17,
+            "questionsWritten": 161,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anselme",
             "lastname": "Boussuge",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Eric",
             "lastname": "Damamme",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Mouvement Hommes Animaux Nature",
             "groupShort": "Mouvement Hommes Animaux Nature",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Stéphane",
             "lastname": "Hablot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Lacresse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Jacques",
             "lastname": "Lacreuse",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Olivier",
             "lastname": "Maillot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         },
         {
             "firstname": "Patrick",
             "lastname": "Pezzetta",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 2
         }
     ]
 }

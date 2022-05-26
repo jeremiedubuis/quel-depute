@@ -4,7 +4,7 @@
     "name": "Isère",
     "results": {
         "firstRound": {
-            "registered": 105570,
+            "registered": 105572,
             "voted": 84364,
             "whites": 1353,
             "expressed": 82639,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1724,
                 "Eric Zemmour": 5337
             }
+        },
+        "secondRound": {
+            "registered": 105603,
+            "voted": 80467,
+            "whites": 5733,
+            "expressed": 73357,
+            "void": 1377,
+            "candidates": {
+                "Emmanuel Macron": 46623,
+                "Marine Le Pen": 26734
+            }
         }
+    },
+    "current": {
+        "id": "719994",
+        "lastname": "Kamowski",
+        "firstname": "Catherine",
+        "slug": "catherine-kamowski",
+        "gender": "F",
+        "birthday": "1958-04-08",
+        "birthplace": "Valenciennes (Nord)",
+        "county": "Isère",
+        "countyId": 38,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 156,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 71,
+            "amendments": 48,
+            "amendmentsSupported": 2216,
+            "amendmentsAdopted": 1239,
+            "commissionsAttended": 317,
+            "commissionInterventions": 172,
+            "hemicycleInterventions": 140,
+            "hemicycleShortInterventions": 82,
+            "questionsWritten": 8,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nathalie",
             "lastname": "Heller",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 5
         },
         {
             "firstname": "Jérémie",
             "lastname": "Iordanoff",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 5
         },
         {
             "firstname": "Florence",
             "lastname": "Jay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 5
         },
         {
             "firstname": "Jérôme",
             "lastname": "Santana",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 5
         },
         {
             "firstname": "Christine",
             "lastname": "Tulipe",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 5
         }
     ]
 }

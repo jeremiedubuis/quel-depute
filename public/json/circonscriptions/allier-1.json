@@ -4,16 +4,16 @@
     "name": "Allier",
     "results": {
         "firstRound": {
-            "registered": 89192,
+            "registered": 89193,
             "voted": 68596,
-            "whites": 1319,
-            "expressed": 66666,
-            "void": 611,
+            "whites": 1330,
+            "expressed": 66667,
+            "void": 599,
             "candidates": {
                 "Nathalie Arthaud": 528,
                 "Fabien Roussel": 3498,
                 "Emmanuel Macron": 17748,
-                "Jean Lasalle": 2739,
+                "Jean Lasalle": 2740,
                 "Marine Le Pen": 18198,
                 "Jean-Luc Mélenchon": 10848,
                 "Anne Hidalgo": 1227,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1427,
                 "Eric Zemmour": 4143
             }
+        },
+        "secondRound": {
+            "registered": 89176,
+            "voted": 67400,
+            "whites": 5000,
+            "expressed": 59956,
+            "void": 2444,
+            "candidates": {
+                "Emmanuel Macron": 31443,
+                "Marine Le Pen": 28513
+            }
         }
+    },
+    "current": {
+        "id": "718720",
+        "lastname": "Dufrègne",
+        "firstname": "Jean-Paul",
+        "slug": "jeanpaul-dufregne",
+        "gender": "H",
+        "birthday": "1958-03-28",
+        "birthplace": "Saint-Menoux (Allier)",
+        "county": "Allier",
+        "countyId": 3,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Conseiller d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 9,
+            "proposals": 7,
+            "proposalsSupported": 187,
+            "amendments": 1505,
+            "amendmentsSupported": 9614,
+            "amendmentsAdopted": 325,
+            "commissionsAttended": 362,
+            "commissionInterventions": 658,
+            "hemicycleInterventions": 1085,
+            "hemicycleShortInterventions": 2023,
+            "questionsWritten": 131,
+            "questionsOral": 41
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Michel",
             "lastname": "Barbarin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Marc",
             "lastname": "Collot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         },
         {
             "firstname": "Viviane",
             "lastname": "Monnay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         },
         {
             "firstname": "Yannick",
             "lastname": "Monnet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         },
         {
             "firstname": "Pierre-André",
             "lastname": "Pérrissol",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         },
         {
             "firstname": "Marion",
             "lastname": "Sennepin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 3,
+            "county": "Allier",
+            "circumscription": 1
         }
     ]
 }

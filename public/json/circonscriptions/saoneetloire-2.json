@@ -7,12 +7,12 @@
             "registered": 77096,
             "voted": 59638,
             "whites": 1233,
-            "expressed": 57909,
-            "void": 496,
+            "expressed": 57910,
+            "void": 495,
             "candidates": {
                 "Nathalie Arthaud": 385,
                 "Fabien Roussel": 1519,
-                "Emmanuel Macron": 16282,
+                "Emmanuel Macron": 16283,
                 "Jean Lasalle": 2414,
                 "Marine Le Pen": 15917,
                 "Jean-Luc Mélenchon": 9003,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1841,
                 "Eric Zemmour": 3961
             }
+        },
+        "secondRound": {
+            "registered": 77064,
+            "voted": 58790,
+            "whites": 4093,
+            "expressed": 53059,
+            "void": 1638,
+            "candidates": {
+                "Emmanuel Macron": 27776,
+                "Marine Le Pen": 25283
+            }
         }
+    },
+    "current": {
+        "id": "722390",
+        "lastname": "Corneloup",
+        "firstname": "Josiane",
+        "slug": "josiane-corneloup",
+        "gender": "F",
+        "birthday": "1959-09-30",
+        "birthplace": "Creusot (Saône-et-Loire)",
+        "county": "Saône-et-Loire",
+        "countyId": 71,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Pharmacienne",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 2,
+            "proposals": 15,
+            "proposalsSupported": 492,
+            "amendments": 871,
+            "amendmentsSupported": 22664,
+            "amendmentsAdopted": 514,
+            "commissionsAttended": 303,
+            "commissionInterventions": 242,
+            "hemicycleInterventions": 196,
+            "hemicycleShortInterventions": 44,
+            "questionsWritten": 202,
+            "questionsOral": 18
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722390",
-            "lastname": "Corneloup",
             "firstname": "Josiane",
-            "slug": "josiane-corneloup",
+            "lastname": "Corneloup",
             "gender": "F",
-            "birthday": "1959-09-30",
-            "birthplace": "Creusot (Saône-et-Loire)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 71,
             "county": "Saône-et-Loire",
-            "countyId": "71",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Pharmacienne",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 2,
-                "proposals": 15,
-                "proposalsSupported": 492,
-                "amendments": 871,
-                "amendmentsSupported": 22664,
-                "amendmentsAdopted": 514,
-                "commissionsAttended": 303,
-                "commissionInterventions": 242,
-                "hemicycleInterventions": 196,
-                "hemicycleShortInterventions": 44,
-                "questionsWritten": 202,
-                "questionsOral": 18
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Olivier",
             "lastname": "Damien",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Pascal",
             "lastname": "Dussauge",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Laurence",
             "lastname": "Gauthier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Maud",
             "lastname": "Sicard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 2
         },
         {
             "firstname": "Céline",
             "lastname": "Vinauger",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 2
         }
     ]
 }

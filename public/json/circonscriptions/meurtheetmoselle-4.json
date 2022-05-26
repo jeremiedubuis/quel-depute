@@ -4,111 +4,158 @@
     "name": "Meurthe-et-Moselle",
     "results": {
         "firstRound": {
-            "registered": 97310,
-            "voted": 72714,
-            "whites": 1050,
-            "expressed": 71157,
-            "void": 507,
+            "registered": 97301,
+            "voted": 72713,
+            "whites": 1058,
+            "expressed": 71161,
+            "void": 494,
             "candidates": {
                 "Nathalie Arthaud": 571,
-                "Fabien Roussel": 1519,
-                "Emmanuel Macron": 17788,
+                "Fabien Roussel": 1520,
+                "Emmanuel Macron": 17789,
                 "Jean Lasalle": 2071,
-                "Marine Le Pen": 24204,
+                "Marine Le Pen": 24205,
                 "Jean-Luc Mélenchon": 11596,
                 "Anne Hidalgo": 1085,
                 "Yannick Jadot": 2455,
                 "Valérie Pécresse": 2960,
                 "Phillipe Poutou": 652,
                 "Nicolas Dupont-Aignan": 1646,
-                "Eric Zemmour": 4610
+                "Eric Zemmour": 4611
+            }
+        },
+        "secondRound": {
+            "registered": 97329,
+            "voted": 73182,
+            "whites": 4354,
+            "expressed": 67285,
+            "void": 1543,
+            "candidates": {
+                "Emmanuel Macron": 31500,
+                "Marine Le Pen": 35785
             }
         }
     },
+    "current": {
+        "id": "642847",
+        "lastname": "Bazin",
+        "firstname": "Thibault",
+        "slug": "thibault-bazin",
+        "gender": "H",
+        "birthday": "1984-10-27",
+        "birthplace": "Nancy (Meurthe-et-Moselle)",
+        "county": "Meurthe-et-Moselle",
+        "countyId": 54,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 194,
+            "reports": 3,
+            "proposals": 25,
+            "proposalsSupported": 674,
+            "amendments": 4584,
+            "amendmentsSupported": 23257,
+            "amendmentsAdopted": 588,
+            "commissionsAttended": 644,
+            "commissionInterventions": 2104,
+            "hemicycleInterventions": 2993,
+            "hemicycleShortInterventions": 4193,
+            "questionsWritten": 251,
+            "questionsOral": 23
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
     "candidates": [
         {
-            "id": "642847",
-            "lastname": "Bazin",
             "firstname": "Thibault",
-            "slug": "thibault-bazin",
+            "lastname": "Bazin",
             "gender": "H",
-            "birthday": "1984-10-27",
-            "birthplace": "Nancy (Meurthe-et-Moselle)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 54,
             "county": "Meurthe-et-Moselle",
-            "countyId": "54",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 194,
-                "reports": 3,
-                "proposals": 25,
-                "proposalsSupported": 674,
-                "amendments": 4584,
-                "amendmentsSupported": 23257,
-                "amendmentsAdopted": 588,
-                "commissionsAttended": 644,
-                "commissionInterventions": 2104,
-                "hemicycleInterventions": 2993,
-                "hemicycleShortInterventions": 4193,
-                "questionsWritten": 250,
-                "questionsOral": 23
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Barbara",
             "lastname": "Bertozzi Bievelot",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         },
         {
             "firstname": "Dominique",
             "lastname": "Bilde",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         },
         {
             "firstname": "Lucy",
             "lastname": "Georges",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         },
         {
             "firstname": "Geneviève",
             "lastname": "Heilliette",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         },
         {
             "firstname": "Corinne",
             "lastname": "Maillot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         },
         {
             "firstname": "Rachel",
             "lastname": "Thomas",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 54,
+            "county": "Meurthe-et-Moselle",
+            "circumscription": 4
         }
     ]
 }

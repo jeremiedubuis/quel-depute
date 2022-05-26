@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 862,
                 "Eric Zemmour": 3376
             }
+        },
+        "secondRound": {
+            "registered": 68199,
+            "voted": 51923,
+            "whites": 2907,
+            "expressed": 48229,
+            "void": 787,
+            "candidates": {
+                "Emmanuel Macron": 38343,
+                "Marine Le Pen": 9886
+            }
         }
+    },
+    "current": {
+        "id": "722260",
+        "lastname": "Villani",
+        "firstname": "Cédric",
+        "slug": "cedric-villani",
+        "gender": "H",
+        "birthday": "1973-10-05",
+        "birthplace": "Brive (Corrèze)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "Europe Écologie Les Verts",
+        "groupShort": "NI",
+        "job": "Professeur de faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 18,
+            "proposals": 3,
+            "proposalsSupported": 89,
+            "amendments": 233,
+            "amendmentsSupported": 3681,
+            "amendmentsAdopted": 663,
+            "commissionsAttended": 265,
+            "commissionInterventions": 1870,
+            "hemicycleInterventions": 176,
+            "hemicycleShortInterventions": 22,
+            "questionsWritten": 35,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Christophe",
             "lastname": "Debon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 5
         },
         {
             "firstname": "Paul",
             "lastname": "Midy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 5
         },
         {
             "firstname": "Didier",
             "lastname": "Paxion",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 5
         },
         {
-            "id": "722260",
-            "lastname": "Villani",
             "firstname": "Cédric",
-            "slug": "cedric-villani",
+            "lastname": "Villani",
             "gender": "H",
-            "birthday": "1973-10-05",
-            "birthplace": "Brive (Corrèze)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Génération écologie",
+            "groupShort": "GE",
+            "countyId": 91,
             "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "NI",
-            "job": "Professeur de faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 18,
-                "proposals": 3,
-                "proposalsSupported": 89,
-                "amendments": 233,
-                "amendmentsSupported": 3681,
-                "amendmentsAdopted": 663,
-                "commissionsAttended": 265,
-                "commissionInterventions": 1870,
-                "hemicycleInterventions": 176,
-                "hemicycleShortInterventions": 22,
-                "questionsWritten": 35,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 5
         }
     ]
 }

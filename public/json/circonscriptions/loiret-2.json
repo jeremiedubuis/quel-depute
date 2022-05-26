@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 86510,
             "voted": 64389,
-            "whites": 1071,
+            "whites": 1076,
             "expressed": 62937,
-            "void": 381,
+            "void": 376,
             "candidates": {
                 "Nathalie Arthaud": 355,
                 "Fabien Roussel": 1498,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1289,
                 "Eric Zemmour": 4387
             }
+        },
+        "secondRound": {
+            "registered": 86583,
+            "voted": 63843,
+            "whites": 3959,
+            "expressed": 58489,
+            "void": 1395,
+            "candidates": {
+                "Emmanuel Macron": 36057,
+                "Marine Le Pen": 22432
+            }
         }
+    },
+    "current": {
+        "id": "720074",
+        "lastname": "Janvier",
+        "firstname": "Caroline",
+        "slug": "caroline-janvier",
+        "gender": "F",
+        "birthday": "1982-03-09",
+        "birthplace": "Nantes (Loire-Atlantique)",
+        "county": "Loiret",
+        "countyId": 45,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 16,
+            "proposals": 1,
+            "proposalsSupported": 81,
+            "amendments": 253,
+            "amendmentsSupported": 3119,
+            "amendmentsAdopted": 1410,
+            "commissionsAttended": 347,
+            "commissionInterventions": 257,
+            "hemicycleInterventions": 162,
+            "hemicycleShortInterventions": 78,
+            "questionsWritten": 153,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Elodie",
             "lastname": "Babin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         },
         {
             "firstname": "Anaïs",
             "lastname": "Boyer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         },
         {
             "firstname": "Emmanuel",
             "lastname": "Duplessy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         },
         {
-            "id": "720074",
-            "lastname": "Janvier",
             "firstname": "Caroline",
-            "slug": "caroline-janvier",
+            "lastname": "Janvier",
             "gender": "F",
-            "birthday": "1982-03-09",
-            "birthplace": "Nantes (Loire-Atlantique)",
-            "county": "Loiret",
-            "countyId": "45",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 16,
-                "proposals": 1,
-                "proposalsSupported": 81,
-                "amendments": 253,
-                "amendmentsSupported": 3119,
-                "amendmentsAdopted": 1410,
-                "commissionsAttended": 347,
-                "commissionInterventions": 257,
-                "hemicycleInterventions": 162,
-                "hemicycleShortInterventions": 78,
-                "questionsWritten": 153,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         },
         {
             "firstname": "François",
             "lastname": "Lagarde",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         },
         {
             "firstname": "Farida",
             "lastname": "Megdoud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 45,
+            "county": "Loiret",
+            "circumscription": 2
         }
     ]
 }

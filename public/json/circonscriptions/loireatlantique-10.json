@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1831,
                 "Eric Zemmour": 4629
             }
+        },
+        "secondRound": {
+            "registered": 123363,
+            "voted": 98661,
+            "whites": 6628,
+            "expressed": 89824,
+            "void": 2209,
+            "candidates": {
+                "Emmanuel Macron": 63510,
+                "Marine Le Pen": 26314
+            }
         }
+    },
+    "current": {
+        "id": "607193",
+        "lastname": "Errante",
+        "firstname": "Sophie",
+        "slug": "sophie-errante",
+        "gender": "F",
+        "birthday": "1971-07-22",
+        "birthplace": "Nantes (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": 44,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 101,
+            "reports": 1,
+            "proposals": 0,
+            "proposalsSupported": 62,
+            "amendments": 12,
+            "amendmentsSupported": 1661,
+            "amendmentsAdopted": 1035,
+            "commissionsAttended": 106,
+            "commissionInterventions": 84,
+            "hemicycleInterventions": 9,
+            "hemicycleShortInterventions": 21,
+            "questionsWritten": 5,
+            "questionsOral": 1
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Genevieve",
             "lastname": "Bannwarth",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
             "firstname": "Bruno",
             "lastname": "Cailleteau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
             "firstname": "Maxime",
             "lastname": "Chéneau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
-            "id": "607193",
-            "lastname": "Errante",
             "firstname": "Sophie",
-            "slug": "sophie-errante",
+            "lastname": "Errante",
             "gender": "F",
-            "birthday": "1971-07-22",
-            "birthplace": "Nantes (Loire-Atlantique)",
-            "county": "Loire-Atlantique",
-            "countyId": "44",
-            "circumscription": 10,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 101,
-                "reports": 1,
-                "proposals": 0,
-                "proposalsSupported": 62,
-                "amendments": 12,
-                "amendmentsSupported": 1661,
-                "amendmentsAdopted": 1035,
-                "commissionsAttended": 106,
-                "commissionInterventions": 84,
-                "hemicycleInterventions": 9,
-                "hemicycleShortInterventions": 21,
-                "questionsWritten": 5,
-                "questionsOral": 1
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
             "firstname": "Emmanuèle",
             "lastname": "Gardair",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
             "firstname": "Charlotte",
             "lastname": "Luquiau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         },
         {
             "firstname": "Malika",
             "lastname": "Saiche",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 10
         }
     ]
 }

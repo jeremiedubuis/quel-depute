@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1168,
                 "Eric Zemmour": 3386
             }
+        },
+        "secondRound": {
+            "registered": 92903,
+            "voted": 72513,
+            "whites": 5506,
+            "expressed": 65900,
+            "void": 1107,
+            "candidates": {
+                "Emmanuel Macron": 44582,
+                "Marine Le Pen": 21318
+            }
         }
+    },
+    "current": {
+        "id": "719404",
+        "lastname": "Le Gac",
+        "firstname": "Didier",
+        "slug": "didier-le-gac",
+        "gender": "H",
+        "birthday": "1965-07-19",
+        "birthplace": "Castres (Tarn)",
+        "county": "Finistère",
+        "countyId": 29,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 164,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 77,
+            "amendments": 195,
+            "amendmentsSupported": 2277,
+            "amendmentsAdopted": 1012,
+            "commissionsAttended": 295,
+            "commissionInterventions": 227,
+            "hemicycleInterventions": 110,
+            "hemicycleShortInterventions": 83,
+            "questionsWritten": 207,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Roger",
             "lastname": "Abasq",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 3
         },
         {
             "firstname": "Loic",
             "lastname": "Duprat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 3
         },
         {
-            "id": "719404",
-            "lastname": "Le Gac",
             "firstname": "Didier",
-            "slug": "didier-le-gac",
+            "lastname": "Le Gac",
             "gender": "H",
-            "birthday": "1965-07-19",
-            "birthplace": "Castres (Tarn)",
-            "county": "Finistère",
-            "countyId": "29",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Profession rattachée à l'enseignement",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 164,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 77,
-                "amendments": 195,
-                "amendmentsSupported": 2277,
-                "amendmentsAdopted": 1012,
-                "commissionsAttended": 295,
-                "commissionInterventions": 227,
-                "hemicycleInterventions": 110,
-                "hemicycleShortInterventions": 83,
-                "questionsWritten": 207,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 3
         },
         {
             "firstname": "Matthieu",
             "lastname": "Muller",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 3
         },
         {
             "firstname": "Pierre",
             "lastname": "Smolarz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 29,
+            "county": "Finistère",
+            "circumscription": 3
         }
     ]
 }

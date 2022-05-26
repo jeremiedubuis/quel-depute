@@ -1,0 +1,21 @@
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb li {
+    display: inline-block;
+}
+
+.breadcrumb li + li:before {
+    content: ">";
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.breadcrumb a {
+    color: var(--color-primary)
+}
+
+.breadcrumb span {
+    color: var(--color-low)
+}

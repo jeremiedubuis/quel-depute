@@ -1,7 +1,8 @@
 import {loadFile} from "$helpers/loadFIle";
 import path from "path";
-import {circonscriptionJSONPath} from "../../scripts/config";
+import {circonscriptionJSONPath, deputeJSONPath} from "../../scripts/config";
 import fs from "fs";
+import {slugifyNames} from "$helpers/slugify";
 
 export { ViewCircumscription as default } from '$views/ViewCircumscription/ViewCircumscription';
 
@@ -10,9 +11,12 @@ export async function getStaticProps ({ params }) {
         path.join(circonscriptionJSONPath, `${params.slug}.json`),
         'utf-8'
     )) as string;
+    const circumscription = JSON.parse(file);
+    const deputeFile = await loadFile(path.join(deputeJSONPath, `${slugifyNames(circumscription.current.firstname,circumscription.current.lastname)}.json`)) as string;
     return {
         props: {
-            circumscription: JSON.parse(file)
+            circumscription,
+            depute: JSON.parse(deputeFile)
         }
     };
 }

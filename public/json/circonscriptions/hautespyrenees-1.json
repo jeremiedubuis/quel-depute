@@ -4,11 +4,11 @@
     "name": "Hautes-Pyrénées",
     "results": {
         "firstRound": {
-            "registered": 87884,
-            "voted": 68005,
-            "whites": 974,
+            "registered": 87881,
+            "voted": 68004,
+            "whites": 1018,
             "expressed": 66551,
-            "void": 480,
+            "void": 435,
             "candidates": {
                 "Nathalie Arthaud": 329,
                 "Fabien Roussel": 2377,
@@ -17,90 +17,133 @@
                 "Marine Le Pen": 14333,
                 "Jean-Luc Mélenchon": 14029,
                 "Anne Hidalgo": 1819,
-                "Yannick Jadot": 2405,
-                "Valérie Pécresse": 2122,
+                "Yannick Jadot": 2407,
+                "Valérie Pécresse": 2120,
                 "Phillipe Poutou": 520,
                 "Nicolas Dupont-Aignan": 1178,
                 "Eric Zemmour": 4012
             }
+        },
+        "secondRound": {
+            "registered": 87905,
+            "voted": 65877,
+            "whites": 6248,
+            "expressed": 57011,
+            "void": 2618,
+            "candidates": {
+                "Emmanuel Macron": 31927,
+                "Marine Le Pen": 25084
+            }
         }
+    },
+    "current": {
+        "id": "720780",
+        "lastname": "Sempastous",
+        "firstname": "Jean-Bernard",
+        "slug": "jeanbernard-sempastous",
+        "gender": "H",
+        "birthday": "1964-08-05",
+        "birthplace": "Bagnères-de-Bigorre (Hautes-Pyrénées)",
+        "county": "Hautes-Pyrénées",
+        "countyId": 65,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur du secondaire et technique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 9,
+            "proposals": 1,
+            "proposalsSupported": 70,
+            "amendments": 179,
+            "amendmentsSupported": 2417,
+            "amendmentsAdopted": 1159,
+            "commissionsAttended": 211,
+            "commissionInterventions": 176,
+            "hemicycleInterventions": 131,
+            "hemicycleShortInterventions": 37,
+            "questionsWritten": 43,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sylvie",
             "lastname": "Ferrer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         },
         {
             "firstname": "Romain",
             "lastname": "Giral",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         },
         {
             "firstname": "Maria",
             "lastname": "Saez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         },
         {
-            "id": "720780",
-            "lastname": "Sempastous",
             "firstname": "Jean-Bernard",
-            "slug": "jeanbernard-sempastous",
+            "lastname": "Sempastous",
             "gender": "H",
-            "birthday": "1964-08-05",
-            "birthplace": "Bagnères-de-Bigorre (Hautes-Pyrénées)",
-            "county": "Hautes-Pyrénées",
-            "countyId": "65",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Professeur du secondaire et technique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 9,
-                "proposals": 1,
-                "proposalsSupported": 70,
-                "amendments": 179,
-                "amendmentsSupported": 2417,
-                "amendmentsAdopted": 1159,
-                "commissionsAttended": 211,
-                "commissionInterventions": 176,
-                "hemicycleInterventions": 131,
-                "hemicycleShortInterventions": 37,
-                "questionsWritten": 43,
-                "questionsOral": 8
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         },
         {
             "firstname": "Marie-Christine",
             "lastname": "Sorin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         },
         {
             "firstname": "Alexis",
             "lastname": "Villanueva",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 1
         }
     ]
 }

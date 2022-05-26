@@ -5,16 +5,16 @@
     "results": {
         "firstRound": {
             "registered": 90922,
-            "voted": 70502,
+            "voted": 70501,
             "whites": 1252,
-            "expressed": 68482,
-            "void": 768,
+            "expressed": 68485,
+            "void": 764,
             "candidates": {
                 "Nathalie Arthaud": 541,
                 "Fabien Roussel": 2136,
-                "Emmanuel Macron": 17662,
+                "Emmanuel Macron": 17663,
                 "Jean Lasalle": 3672,
-                "Marine Le Pen": 19946,
+                "Marine Le Pen": 19948,
                 "Jean-Luc Mélenchon": 12158,
                 "Anne Hidalgo": 1430,
                 "Yannick Jadot": 2200,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1667,
                 "Eric Zemmour": 3489
             }
+        },
+        "secondRound": {
+            "registered": 90809,
+            "voted": 69357,
+            "whites": 4671,
+            "expressed": 62017,
+            "void": 2669,
+            "candidates": {
+                "Emmanuel Macron": 31421,
+                "Marine Le Pen": 30596
+            }
         }
+    },
+    "current": {
+        "id": "1809",
+        "lastname": "Lambert",
+        "firstname": "Jérôme",
+        "slug": "jerome-lambert",
+        "gender": "H",
+        "birthday": "1957-06-07",
+        "birthplace": "Vincennes (Val-de-Marne)",
+        "county": "Charente",
+        "countyId": 16,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre de l'industrie",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 133,
+            "reports": 1,
+            "proposals": 2,
+            "proposalsSupported": 81,
+            "amendments": 49,
+            "amendmentsSupported": 14339,
+            "amendmentsAdopted": 740,
+            "commissionsAttended": 189,
+            "commissionInterventions": 223,
+            "hemicycleInterventions": 76,
+            "hemicycleShortInterventions": 226,
+            "questionsWritten": 90,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Caroline",
             "lastname": "Colombier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 3
         },
         {
             "firstname": "Patrick",
             "lastname": "Curgali",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 3
         },
         {
-            "id": "1809",
-            "lastname": "Lambert",
             "firstname": "Jérôme",
-            "slug": "jerome-lambert",
+            "lastname": "Lambert",
             "gender": "H",
-            "birthday": "1957-06-07",
-            "birthplace": "Vincennes (Val-de-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 16,
             "county": "Charente",
-            "countyId": "16",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre de l'industrie",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 133,
-                "reports": 1,
-                "proposals": 2,
-                "proposalsSupported": 81,
-                "amendments": 49,
-                "amendmentsSupported": 14339,
-                "amendmentsAdopted": 740,
-                "commissionsAttended": 189,
-                "commissionInterventions": 223,
-                "hemicycleInterventions": 76,
-                "hemicycleShortInterventions": 226,
-                "questionsWritten": 90,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Sylvie",
             "lastname": "Mocoeur",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 16,
+            "county": "Charente",
+            "circumscription": 3
         }
     ]
 }

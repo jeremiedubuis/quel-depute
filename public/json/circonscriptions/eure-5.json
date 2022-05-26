@@ -6,16 +6,16 @@
         "firstRound": {
             "registered": 89264,
             "voted": 67346,
-            "whites": 1069,
-            "expressed": 65903,
-            "void": 374,
+            "whites": 1073,
+            "expressed": 65904,
+            "void": 369,
             "candidates": {
                 "Nathalie Arthaud": 425,
                 "Fabien Roussel": 1457,
                 "Emmanuel Macron": 16654,
                 "Jean Lasalle": 1472,
                 "Marine Le Pen": 21230,
-                "Jean-Luc Mélenchon": 11779,
+                "Jean-Luc Mélenchon": 11780,
                 "Anne Hidalgo": 793,
                 "Yannick Jadot": 2325,
                 "Valérie Pécresse": 2945,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1519,
                 "Eric Zemmour": 4750
             }
+        },
+        "secondRound": {
+            "registered": 89261,
+            "voted": 67423,
+            "whites": 4013,
+            "expressed": 62170,
+            "void": 1240,
+            "candidates": {
+                "Emmanuel Macron": 29948,
+                "Marine Le Pen": 32222
+            }
         }
+    },
+    "current": {
+        "id": "719364",
+        "lastname": "O'Petit",
+        "firstname": "Claire",
+        "slug": "claire-opetit",
+        "gender": "F",
+        "birthday": "1949-10-15",
+        "birthplace": "Epinay-sur-Seine (Seine-Saint-Denis)",
+        "county": "Eure",
+        "countyId": 27,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Retraitée artisan, commerçant, chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 143,
+            "reports": 0,
+            "proposals": 5,
+            "proposalsSupported": 83,
+            "amendments": 75,
+            "amendmentsSupported": 2992,
+            "amendmentsAdopted": 1129,
+            "commissionsAttended": 86,
+            "commissionInterventions": 75,
+            "hemicycleInterventions": 31,
+            "hemicycleShortInterventions": 23,
+            "questionsWritten": 189,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Delphine",
             "lastname": "Blitman",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         },
         {
             "firstname": "David",
             "lastname": "Daverton",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         },
         {
             "firstname": "Timothée",
             "lastname": "Houssin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         },
         {
             "firstname": "Pierre-Yves",
             "lastname": "Jourdain",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         },
         {
             "firstname": "François",
             "lastname": "Ouzilleau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         },
         {
             "firstname": "Martine",
             "lastname": "Rabier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 27,
+            "county": "Eure",
+            "circumscription": 5
         }
     ]
 }

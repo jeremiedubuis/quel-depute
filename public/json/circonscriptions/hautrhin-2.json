@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2704,
                 "Eric Zemmour": 4728
             }
+        },
+        "secondRound": {
+            "registered": 92482,
+            "voted": 70600,
+            "whites": 3988,
+            "expressed": 65364,
+            "void": 1248,
+            "candidates": {
+                "Emmanuel Macron": 35352,
+                "Marine Le Pen": 30012
+            }
         }
+    },
+    "current": {
+        "id": "767",
+        "lastname": "Cattin",
+        "firstname": "Jacques",
+        "slug": "jacques-cattin",
+        "gender": "H",
+        "birthday": "1958-06-04",
+        "birthplace": "Colmar (Haut-Rhin)",
+        "county": "Haut-Rhin",
+        "countyId": 68,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Viticulteur négociant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 148,
+            "reports": 0,
+            "proposals": 4,
+            "proposalsSupported": 614,
+            "amendments": 282,
+            "amendmentsSupported": 14337,
+            "amendmentsAdopted": 328,
+            "commissionsAttended": 152,
+            "commissionInterventions": 53,
+            "hemicycleInterventions": 100,
+            "hemicycleShortInterventions": 208,
+            "questionsWritten": 146,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nathalie",
             "lastname": "Aubert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 2
         },
         {
             "firstname": "Lilian",
             "lastname": "Bourgeois",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 2
         },
         {
-            "id": "767",
-            "lastname": "Cattin",
             "firstname": "Jacques",
-            "slug": "jacques-cattin",
+            "lastname": "Cattin",
             "gender": "H",
-            "birthday": "1958-06-04",
-            "birthplace": "Colmar (Haut-Rhin)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 68,
             "county": "Haut-Rhin",
-            "countyId": "68",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Viticulteur négociant",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 148,
-                "reports": 0,
-                "proposals": 4,
-                "proposalsSupported": 614,
-                "amendments": 282,
-                "amendmentsSupported": 14337,
-                "amendmentsAdopted": 328,
-                "commissionsAttended": 152,
-                "commissionInterventions": 53,
-                "hemicycleInterventions": 100,
-                "hemicycleShortInterventions": 208,
-                "questionsWritten": 146,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Anne",
             "lastname": "Deffarges",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 2
         },
         {
             "firstname": "Abel",
             "lastname": "Moreau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 2
         },
         {
             "firstname": "Hubert",
             "lastname": "Ott",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 68,
+            "county": "Haut-Rhin",
+            "circumscription": 2
         }
     ]
 }

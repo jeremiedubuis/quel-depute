@@ -6,15 +6,15 @@
         "firstRound": {
             "registered": 72691,
             "voted": 58078,
-            "whites": 758,
-            "expressed": 56837,
-            "void": 483,
+            "whites": 784,
+            "expressed": 56838,
+            "void": 456,
             "candidates": {
                 "Nathalie Arthaud": 308,
                 "Fabien Roussel": 1855,
                 "Emmanuel Macron": 13963,
                 "Jean Lasalle": 3658,
-                "Marine Le Pen": 11515,
+                "Marine Le Pen": 11516,
                 "Jean-Luc Mélenchon": 13301,
                 "Anne Hidalgo": 1381,
                 "Yannick Jadot": 2496,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1286,
                 "Eric Zemmour": 3452
             }
+        },
+        "secondRound": {
+            "registered": 72673,
+            "voted": 55946,
+            "whites": 5056,
+            "expressed": 48568,
+            "void": 2322,
+            "candidates": {
+                "Emmanuel Macron": 28188,
+                "Marine Le Pen": 20380
+            }
         }
+    },
+    "current": {
+        "id": "720100",
+        "lastname": "Pradié",
+        "firstname": "Aurélien",
+        "slug": "aurelien-pradie",
+        "gender": "H",
+        "birthday": "1986-03-14",
+        "birthplace": "Cahors (Lot)",
+        "county": "Lot",
+        "countyId": 46,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre supérieur (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 146,
+            "reports": 6,
+            "proposals": 7,
+            "proposalsSupported": 114,
+            "amendments": 367,
+            "amendmentsSupported": 3422,
+            "amendmentsAdopted": 136,
+            "commissionsAttended": 95,
+            "commissionInterventions": 240,
+            "hemicycleInterventions": 649,
+            "hemicycleShortInterventions": 1062,
+            "questionsWritten": 105,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Elsa",
             "lastname": "Bougeard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 1
         },
         {
             "firstname": "Cendrine",
             "lastname": "Couturier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 1
         },
         {
             "firstname": "Frédéric",
             "lastname": "Descremps",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 1
         },
         {
             "firstname": "Ghislain",
             "lastname": "Domenech",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 1
         },
         {
-            "id": "720100",
-            "lastname": "Pradié",
             "firstname": "Aurélien",
-            "slug": "aurelien-pradie",
+            "lastname": "Pradié",
             "gender": "H",
-            "birthday": "1986-03-14",
-            "birthplace": "Cahors (Lot)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 46,
             "county": "Lot",
-            "countyId": "46",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre supérieur (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 146,
-                "reports": 6,
-                "proposals": 7,
-                "proposalsSupported": 114,
-                "amendments": 367,
-                "amendmentsSupported": 3422,
-                "amendmentsAdopted": 136,
-                "commissionsAttended": 95,
-                "commissionInterventions": 240,
-                "hemicycleInterventions": 649,
-                "hemicycleShortInterventions": 1062,
-                "questionsWritten": 105,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Frédérique",
             "lastname": "Sallinen",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 1
         }
     ]
 }

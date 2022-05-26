@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1273,
                 "Eric Zemmour": 4399
             }
+        },
+        "secondRound": {
+            "registered": 87729,
+            "voted": 68375,
+            "whites": 5257,
+            "expressed": 61359,
+            "void": 1759,
+            "candidates": {
+                "Emmanuel Macron": 33828,
+                "Marine Le Pen": 27531
+            }
         }
+    },
+    "current": {
+        "id": "719660",
+        "lastname": "Dubos",
+        "firstname": "Christelle",
+        "slug": "christelle-dubos",
+        "gender": "F",
+        "birthday": "1976-03-26",
+        "birthplace": "Coteau (Loire)",
+        "county": "Gironde",
+        "countyId": 33,
+        "circumscription": 12,
+        "mandateStart": "2020-08-04",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directrice d'un service emploi et solidarités",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 92,
+            "reports": 3,
+            "proposals": 0,
+            "proposalsSupported": 31,
+            "amendments": 137,
+            "amendmentsSupported": 1187,
+            "amendmentsAdopted": 797,
+            "commissionsAttended": 137,
+            "commissionInterventions": 475,
+            "hemicycleInterventions": 441,
+            "hemicycleShortInterventions": 263,
+            "questionsWritten": 6,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Mathilde",
             "lastname": "Feld",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         },
         {
             "firstname": "Hager",
             "lastname": "Jacquemin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         },
         {
-            "id": "719664",
-            "lastname": "Lavergne",
             "firstname": "Pascal",
-            "slug": "pascal-lavergne",
+            "lastname": "Lavergne",
             "gender": "H",
-            "birthday": "1967-08-28",
-            "birthplace": "Limoges (Haute-Vienne)",
-            "county": "Gironde",
-            "countyId": "33",
-            "circumscription": 12,
-            "mandateStart": "2018-11-17",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Ingénieur-Agriculteur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 58,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 29,
-                "amendments": 27,
-                "amendmentsSupported": 996,
-                "amendmentsAdopted": 328,
-                "commissionsAttended": 81,
-                "commissionInterventions": 26,
-                "hemicycleInterventions": 53,
-                "hemicycleShortInterventions": 60,
-                "questionsWritten": 10,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         },
         {
             "firstname": "Richard",
             "lastname": "Lavin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         },
         {
             "firstname": "François-Xavier",
             "lastname": "Marques",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         },
         {
             "firstname": "Bastien",
             "lastname": "Mercier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 33,
+            "county": "Gironde",
+            "circumscription": 12
         }
     ]
 }

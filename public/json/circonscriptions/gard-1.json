@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 88975,
             "voted": 64040,
-            "whites": 825,
+            "whites": 824,
             "expressed": 62858,
-            "void": 357,
+            "void": 358,
             "candidates": {
                 "Nathalie Arthaud": 207,
                 "Fabien Roussel": 1485,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1111,
                 "Eric Zemmour": 6141
             }
+        },
+        "secondRound": {
+            "registered": 89018,
+            "voted": 61476,
+            "whites": 3460,
+            "expressed": 56806,
+            "void": 1210,
+            "candidates": {
+                "Emmanuel Macron": 29358,
+                "Marine Le Pen": 27448
+            }
         }
+    },
+    "current": {
+        "id": "606202",
+        "lastname": "Dumas",
+        "firstname": "Françoise",
+        "slug": "francoise-dumas",
+        "gender": "F",
+        "birthday": "1960-04-12",
+        "birthplace": "Alès (Gard)",
+        "county": "Gard",
+        "countyId": 30,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur de la fonction publique, directeur territorial",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 7,
+            "proposals": 3,
+            "proposalsSupported": 85,
+            "amendments": 100,
+            "amendmentsSupported": 2581,
+            "amendmentsAdopted": 1014,
+            "commissionsAttended": 422,
+            "commissionInterventions": 681,
+            "hemicycleInterventions": 63,
+            "hemicycleShortInterventions": 28,
+            "questionsWritten": 95,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Yannick",
             "lastname": "Cogo",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         },
         {
-            "id": "606202",
-            "lastname": "Dumas",
             "firstname": "Françoise",
-            "slug": "francoise-dumas",
+            "lastname": "Dumas",
             "gender": "F",
-            "birthday": "1960-04-12",
-            "birthplace": "Alès (Gard)",
-            "county": "Gard",
-            "countyId": "30",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Cadre supérieur de la fonction publique, directeur territorial",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 7,
-                "proposals": 3,
-                "proposalsSupported": 85,
-                "amendments": 100,
-                "amendmentsSupported": 2581,
-                "amendmentsAdopted": 1014,
-                "commissionsAttended": 422,
-                "commissionInterventions": 681,
-                "hemicycleInterventions": 63,
-                "hemicycleShortInterventions": 28,
-                "questionsWritten": 95,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         },
         {
             "firstname": "Véronique",
             "lastname": "Gardeur-Bancel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         },
         {
             "firstname": "Yoann",
             "lastname": "Gillet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         },
         {
             "firstname": "Isabelle",
             "lastname": "Leclerc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         },
         {
             "firstname": "Charles",
             "lastname": "Ménard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 1
         }
     ]
 }

@@ -4,18 +4,18 @@
     "name": "Gard",
     "results": {
         "firstRound": {
-            "registered": 94578,
+            "registered": 94576,
             "voted": 73622,
-            "whites": 1045,
-            "expressed": 72138,
-            "void": 439,
+            "whites": 1047,
+            "expressed": 72139,
+            "void": 436,
             "candidates": {
                 "Nathalie Arthaud": 290,
                 "Fabien Roussel": 1540,
                 "Emmanuel Macron": 15266,
                 "Jean Lasalle": 2670,
                 "Marine Le Pen": 24414,
-                "Jean-Luc Mélenchon": 13248,
+                "Jean-Luc Mélenchon": 13249,
                 "Anne Hidalgo": 983,
                 "Yannick Jadot": 2349,
                 "Valérie Pécresse": 2544,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1415,
                 "Eric Zemmour": 7014
             }
+        },
+        "secondRound": {
+            "registered": 94624,
+            "voted": 71939,
+            "whites": 4305,
+            "expressed": 66098,
+            "void": 1536,
+            "candidates": {
+                "Emmanuel Macron": 28698,
+                "Marine Le Pen": 37400
+            }
         }
+    },
+    "current": {
+        "id": "606212",
+        "lastname": "Collard",
+        "firstname": "Gilbert",
+        "slug": "gilbert-collard",
+        "gender": "H",
+        "birthday": "1948-02-03",
+        "birthplace": "Marseille (Bouches-du-Rhône)",
+        "county": "Gard",
+        "countyId": 30,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "NI",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 52,
+            "reports": 0,
+            "proposals": 13,
+            "proposalsSupported": 38,
+            "amendments": 92,
+            "amendmentsSupported": 762,
+            "amendmentsAdopted": 2,
+            "commissionsAttended": 39,
+            "commissionInterventions": 9,
+            "hemicycleInterventions": 117,
+            "hemicycleShortInterventions": 157,
+            "questionsWritten": 57,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Coralie",
             "lastname": "Ghirardi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         },
         {
             "firstname": "Yvan",
             "lastname": "Lachaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "H",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         },
         {
             "firstname": "Christophe",
             "lastname": "Lefebvre",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         },
         {
             "firstname": "Stéphane",
             "lastname": "Manson",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         },
         {
-            "id": "719436",
-            "lastname": "Meizonnet",
             "firstname": "Nicolas",
-            "slug": "nicolas-meizonnet",
+            "lastname": "Meizonnet",
             "gender": "H",
-            "birthday": "1983-12-22",
-            "birthplace": "Nîmes (Gard)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 30,
             "county": "Gard",
-            "countyId": "30",
-            "circumscription": 2,
-            "mandateStart": "2020-02-01",
-            "group": "Rassemblement national",
-            "groupShort": "NI",
-            "job": "Ingénieur en informatique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 62,
-                "reports": 0,
-                "proposals": 6,
-                "proposalsSupported": 53,
-                "amendments": 189,
-                "amendmentsSupported": 889,
-                "amendmentsAdopted": 4,
-                "commissionsAttended": 54,
-                "commissionInterventions": 17,
-                "hemicycleInterventions": 125,
-                "hemicycleShortInterventions": 20,
-                "questionsWritten": 61,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Frédéric",
             "lastname": "Touzelier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         },
         {
             "firstname": "Julien",
             "lastname": "Voiron",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 30,
+            "county": "Gard",
+            "circumscription": 2
         }
     ]
 }

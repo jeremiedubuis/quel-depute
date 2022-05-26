@@ -4,17 +4,17 @@
     "name": "Seine-Maritime",
     "results": {
         "firstRound": {
-            "registered": 109737,
+            "registered": 109738,
             "voted": 83062,
-            "whites": 1235,
-            "expressed": 81319,
-            "void": 508,
+            "whites": 1273,
+            "expressed": 81323,
+            "void": 466,
             "candidates": {
                 "Nathalie Arthaud": 644,
                 "Fabien Roussel": 2702,
-                "Emmanuel Macron": 21513,
+                "Emmanuel Macron": 21515,
                 "Jean Lasalle": 1961,
-                "Marine Le Pen": 28831,
+                "Marine Le Pen": 28833,
                 "Jean-Luc Mélenchon": 12645,
                 "Anne Hidalgo": 1015,
                 "Yannick Jadot": 2064,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1726,
                 "Eric Zemmour": 4265
             }
+        },
+        "secondRound": {
+            "registered": 109775,
+            "voted": 84673,
+            "whites": 4749,
+            "expressed": 78264,
+            "void": 1660,
+            "candidates": {
+                "Emmanuel Macron": 35605,
+                "Marine Le Pen": 42659
+            }
         }
+    },
+    "current": {
+        "id": "722202",
+        "lastname": "Jumel",
+        "firstname": "Sébastien",
+        "slug": "sebastien-jumel",
+        "gender": "H",
+        "birthday": "1971-12-20",
+        "birthplace": "Saint-Adresse (Seine-Maritime)",
+        "county": "Seine-Maritime",
+        "countyId": 76,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Permanent politique",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 174,
+            "reports": 8,
+            "proposals": 12,
+            "proposalsSupported": 196,
+            "amendments": 1878,
+            "amendmentsSupported": 9647,
+            "amendmentsAdopted": 312,
+            "commissionsAttended": 271,
+            "commissionInterventions": 1207,
+            "hemicycleInterventions": 2521,
+            "hemicycleShortInterventions": 3475,
+            "questionsWritten": 68,
+            "questionsOral": 52
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Lisa",
             "lastname": "Brouté",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         },
         {
             "firstname": "Claire",
             "lastname": "Coppin",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         },
         {
             "firstname": "Robin",
             "lastname": "Devogelaere",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les centristes",
             "groupShort": "LC",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         },
         {
-            "id": "722202",
-            "lastname": "Jumel",
             "firstname": "Sébastien",
-            "slug": "sebastien-jumel",
+            "lastname": "Jumel",
             "gender": "H",
-            "birthday": "1971-12-20",
-            "birthplace": "Saint-Adresse (Seine-Maritime)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 76,
             "county": "Seine-Maritime",
-            "countyId": "76",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Permanent politique",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 174,
-                "reports": 8,
-                "proposals": 12,
-                "proposalsSupported": 196,
-                "amendments": 1878,
-                "amendmentsSupported": 9647,
-                "amendmentsAdopted": 312,
-                "commissionsAttended": 271,
-                "commissionInterventions": 1207,
-                "hemicycleInterventions": 2521,
-                "hemicycleShortInterventions": 3475,
-                "questionsWritten": 68,
-                "questionsOral": 52
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         },
         {
             "firstname": "Patrice",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         },
         {
             "firstname": "Michelle",
             "lastname": "Petiteville",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         },
         {
             "firstname": "Nathalie",
             "lastname": "Spriet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 76,
+            "county": "Seine-Maritime",
+            "circumscription": 6
         }
     ]
 }

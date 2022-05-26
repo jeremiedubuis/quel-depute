@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 74018,
             "voted": 58948,
-            "whites": 503,
-            "expressed": 58271,
-            "void": 174,
+            "whites": 504,
+            "expressed": 58273,
+            "void": 171,
             "candidates": {
                 "Nathalie Arthaud": 55,
                 "Fabien Roussel": 371,
@@ -21,58 +21,129 @@
                 "Valérie Pécresse": 6982,
                 "Phillipe Poutou": 121,
                 "Nicolas Dupont-Aignan": 506,
-                "Eric Zemmour": 9791
+                "Eric Zemmour": 9793
+            }
+        },
+        "secondRound": {
+            "registered": 74053,
+            "voted": 56017,
+            "whites": 2148,
+            "expressed": 53291,
+            "void": 578,
+            "candidates": {
+                "Emmanuel Macron": 44402,
+                "Marine Le Pen": 8889
             }
         }
+    },
+    "current": {
+        "id": "721506",
+        "lastname": "Kuster",
+        "firstname": "Brigitte",
+        "slug": "brigitte-kuster",
+        "gender": "F",
+        "birthday": "1959-04-12",
+        "birthplace": "Saint-Cloud (Hauts-de-Seine)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": 0,
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 177,
+            "reports": 4,
+            "proposals": 19,
+            "proposalsSupported": 497,
+            "amendments": 564,
+            "amendmentsSupported": 12461,
+            "amendmentsAdopted": 326,
+            "commissionsAttended": 170,
+            "commissionInterventions": 253,
+            "hemicycleInterventions": 863,
+            "hemicycleShortInterventions": 429,
+            "questionsWritten": 168,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Dayana",
             "lastname": "Bonilla",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         },
         {
             "firstname": "Natalie",
             "lastname": "Depraz",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         },
         {
             "firstname": "Annie",
             "lastname": "Lavenier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         },
         {
             "firstname": "Pierre",
             "lastname": "Lévenard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         },
         {
             "firstname": "Astrid",
             "lastname": "Panosyan",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         },
         {
             "firstname": "Adrien",
             "lastname": "Touati",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 4
         }
     ]
 }

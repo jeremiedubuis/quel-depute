@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1197,
                 "Eric Zemmour": 4217
             }
+        },
+        "secondRound": {
+            "registered": 82787,
+            "voted": 64719,
+            "whites": 5226,
+            "expressed": 57608,
+            "void": 1885,
+            "candidates": {
+                "Emmanuel Macron": 36067,
+                "Marine Le Pen": 21541
+            }
         }
+    },
+    "current": {
+        "id": "720728",
+        "lastname": "Mattei",
+        "firstname": "Jean-Paul",
+        "slug": "jeanpaul-mattei",
+        "gender": "H",
+        "birthday": "1954-03-21",
+        "birthplace": "SAARBURG (ALLEMAGNE)",
+        "county": "Pyrénées-Atlantiques",
+        "countyId": 64,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Notaire",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 14,
+            "proposals": 2,
+            "proposalsSupported": 53,
+            "amendments": 489,
+            "amendmentsSupported": 3896,
+            "amendmentsAdopted": 793,
+            "commissionsAttended": 441,
+            "commissionInterventions": 726,
+            "hemicycleInterventions": 707,
+            "hemicycleShortInterventions": 245,
+            "questionsWritten": 12,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patric",
             "lastname": "Cescau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 2
         },
         {
             "firstname": "Frédérique",
             "lastname": "Joint",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 2
         },
         {
             "firstname": "Cyrille",
             "lastname": "Marconi",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 2
         },
         {
-            "id": "720728",
-            "lastname": "Mattei",
             "firstname": "Jean-Paul",
-            "slug": "jeanpaul-mattei",
+            "lastname": "Mattei",
             "gender": "H",
-            "birthday": "1954-03-21",
-            "birthplace": "SAARBURG (ALLEMAGNE)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 64,
             "county": "Pyrénées-Atlantiques",
-            "countyId": "64",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Notaire",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 14,
-                "proposals": 2,
-                "proposalsSupported": 53,
-                "amendments": 489,
-                "amendmentsSupported": 3896,
-                "amendmentsAdopted": 793,
-                "commissionsAttended": 441,
-                "commissionInterventions": 726,
-                "hemicycleInterventions": 707,
-                "hemicycleShortInterventions": 245,
-                "questionsWritten": 12,
-                "questionsOral": 11
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Eric",
             "lastname": "Saubatte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 2
         },
         {
             "firstname": "Tiphanie",
             "lastname": "Senmartin Laurent",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 64,
+            "county": "Pyrénées-Atlantiques",
+            "circumscription": 2
         }
     ]
 }

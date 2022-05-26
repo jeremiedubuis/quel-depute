@@ -59,7 +59,7 @@ const consolidate = async (scrutinNumber?: number) => {
     if (typeof scrutinNumber === 'undefined') await emptyDir(scrutinJSONPath);
 
     const listOutput = [];
-    const deputes = require('../../public/json/deputes.json');
+    const deputes = require('../data/deputes.json');
     const missing = new Set();
     for (let i = 0, iLength = scrutins.length; i < iLength; i++) {
         const s: Scrutin = scrutins[i];
@@ -75,6 +75,8 @@ const consolidate = async (scrutinNumber?: number) => {
             number: s['N° Scrutin'],
             title: s['Titre loi'],
             category: s['Catégorie'],
+            description: s['Description (optionnelle)'],
+            sources: s['Source'].split('\n'),
             href,
             scrutinHref: `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s['N° Scrutin']}`,
             slug,

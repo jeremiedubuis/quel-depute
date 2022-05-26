@@ -5,86 +5,121 @@
     "results": {
         "firstRound": {
             "registered": 62978,
-            "voted": 42887,
-            "whites": 603,
-            "expressed": 41967,
-            "void": 317,
+            "voted": 42884,
+            "whites": 605,
+            "expressed": 41970,
+            "void": 309,
             "candidates": {
                 "Nathalie Arthaud": 175,
                 "Fabien Roussel": 844,
                 "Emmanuel Macron": 7686,
                 "Jean Lasalle": 522,
                 "Marine Le Pen": 5770,
-                "Jean-Luc Mélenchon": 22186,
+                "Jean-Luc Mélenchon": 22188,
                 "Anne Hidalgo": 295,
                 "Yannick Jadot": 763,
                 "Valérie Pécresse": 1197,
-                "Phillipe Poutou": 246,
+                "Phillipe Poutou": 247,
                 "Nicolas Dupont-Aignan": 476,
                 "Eric Zemmour": 1807
             }
+        },
+        "secondRound": {
+            "registered": 63017,
+            "voted": 36148,
+            "whites": 2565,
+            "expressed": 32781,
+            "void": 802,
+            "candidates": {
+                "Emmanuel Macron": 22772,
+                "Marine Le Pen": 10009
+            }
         }
+    },
+    "current": {
+        "id": "588884",
+        "lastname": "Autain",
+        "firstname": "Clémentine",
+        "slug": "clementine-autain",
+        "gender": "F",
+        "birthday": "1973-05-26",
+        "birthplace": "Saint-Cloud (Hauts-de-Seine)",
+        "county": "Seine-Saint-Denis",
+        "countyId": 93,
+        "circumscription": 11,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Journaliste et autre média",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 158,
+            "reports": 5,
+            "proposals": 6,
+            "proposalsSupported": 182,
+            "amendments": 2738,
+            "amendmentsSupported": 18854,
+            "amendmentsAdopted": 220,
+            "commissionsAttended": 165,
+            "commissionInterventions": 496,
+            "hemicycleInterventions": 1096,
+            "hemicycleShortInterventions": 413,
+            "questionsWritten": 166,
+            "questionsOral": 33
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "588884",
-            "lastname": "Autain",
             "firstname": "Clémentine",
-            "slug": "clementine-autain",
+            "lastname": "Autain",
             "gender": "F",
-            "birthday": "1973-05-26",
-            "birthplace": "Saint-Cloud (Hauts-de-Seine)",
-            "county": "Seine-Saint-Denis",
-            "countyId": "93",
-            "circumscription": 11,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Journaliste et autre média",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 158,
-                "reports": 5,
-                "proposals": 6,
-                "proposalsSupported": 182,
-                "amendments": 2738,
-                "amendmentsSupported": 18854,
-                "amendmentsAdopted": 220,
-                "commissionsAttended": 165,
-                "commissionInterventions": 496,
-                "hemicycleInterventions": 1096,
-                "hemicycleShortInterventions": 413,
-                "questionsWritten": 166,
-                "questionsOral": 33
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 11
         },
         {
             "firstname": "Isabelle",
             "lastname": "Couffin-Guérin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 11
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Leverrier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 11
         },
         {
             "firstname": "Hakima",
             "lastname": "Ouaret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 93,
+            "county": "Seine-Saint-Denis",
+            "circumscription": 11
         }
     ]
 }

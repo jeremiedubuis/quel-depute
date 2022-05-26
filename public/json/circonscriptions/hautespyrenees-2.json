@@ -4,11 +4,11 @@
     "name": "Hautes-Pyrénées",
     "results": {
         "firstRound": {
-            "registered": 89560,
+            "registered": 89562,
             "voted": 69844,
-            "whites": 984,
+            "whites": 1046,
             "expressed": 68337,
-            "void": 523,
+            "void": 461,
             "candidates": {
                 "Nathalie Arthaud": 307,
                 "Fabien Roussel": 2162,
@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 1231,
                 "Eric Zemmour": 4702
             }
+        },
+        "secondRound": {
+            "registered": 89539,
+            "voted": 68144,
+            "whites": 5342,
+            "expressed": 60256,
+            "void": 2546,
+            "candidates": {
+                "Emmanuel Macron": 33158,
+                "Marine Le Pen": 27098
+            }
         }
+    },
+    "current": {
+        "id": "608292",
+        "lastname": "Dubié",
+        "firstname": "Jeanine",
+        "slug": "jeanine-dubie",
+        "gender": "F",
+        "birthday": "1958-01-03",
+        "birthplace": "Lourdes (Hautes-Pyrénées)",
+        "county": "Hautes-Pyrénées",
+        "countyId": 65,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti radical de gauche",
+        "groupShort": "LT",
+        "job": "Fonctionnaire de catégorie A",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 171,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 70,
+            "amendments": 909,
+            "amendmentsSupported": 8330,
+            "amendmentsAdopted": 303,
+            "commissionsAttended": 318,
+            "commissionInterventions": 596,
+            "hemicycleInterventions": 687,
+            "hemicycleShortInterventions": 129,
+            "questionsWritten": 124,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Delphine",
             "lastname": "Beaudry",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Jérome",
             "lastname": "Crampes",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Serge",
             "lastname": "Dumanoir",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Véronique",
             "lastname": "Dutrey",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Gregory",
             "lastname": "Korn",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "François",
             "lastname": "Meunier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Benoît",
             "lastname": "Mournet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         },
         {
             "firstname": "Antoine",
             "lastname": "Rigollet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 65,
+            "county": "Hautes-Pyrénées",
+            "circumscription": 2
         }
     ]
 }

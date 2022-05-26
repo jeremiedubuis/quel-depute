@@ -1,5 +1,5 @@
 {
-    "countyId": "ZB",
+    "countyId": 972,
     "number": 2,
     "name": "Martinique",
     "results": {
@@ -23,7 +23,103 @@
                 "Nicolas Dupont-Aignan": 766,
                 "Eric Zemmour": 685
             }
+        },
+        "secondRound": {
+            "registered": 80285,
+            "voted": 37782,
+            "whites": 2863,
+            "expressed": 32985,
+            "void": 1934,
+            "candidates": {
+                "Emmanuel Macron": 13252,
+                "Marine Le Pen": 19733
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "610634",
+        "lastname": "Azerot",
+        "firstname": "Bruno Nestor",
+        "slug": "bruno-nestor-azerot",
+        "gender": "H",
+        "birthday": "1961-07-22",
+        "birthplace": "Trinité (Martinique)",
+        "county": "Martinique",
+        "countyId": 972,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste Français",
+        "groupShort": "GDR",
+        "job": "Commerçant",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 6,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 11,
+            "amendments": 0,
+            "amendmentsSupported": 896,
+            "amendmentsAdopted": 37,
+            "commissionsAttended": 4,
+            "commissionInterventions": 0,
+            "hemicycleInterventions": 0,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 17,
+            "questionsOral": 0
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Gaëtan Alex",
+            "lastname": "Dufeal",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Max",
+            "lastname": "Ferraty",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Manuéla",
+            "lastname": "Kéclard-Mondésir",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Nausica",
+            "lastname": "Niasme",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 2
+        }
+    ]
 }

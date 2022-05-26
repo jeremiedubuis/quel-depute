@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1728,
                 "Eric Zemmour": 6058
             }
+        },
+        "secondRound": {
+            "registered": 106191,
+            "voted": 82577,
+            "whites": 5792,
+            "expressed": 74576,
+            "void": 2209,
+            "candidates": {
+                "Emmanuel Macron": 41422,
+                "Marine Le Pen": 33154
+            }
         }
+    },
+    "current": {
+        "id": "719528",
+        "lastname": "Portarrieu",
+        "firstname": "Jean-François",
+        "slug": "jeanfrancois-portarrieu",
+        "gender": "H",
+        "birthday": "1965-10-14",
+        "birthplace": "Toulouse (Haute-Garonne)",
+        "county": "Haute-Garonne",
+        "countyId": 31,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Journaliste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 142,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 59,
+            "amendments": 13,
+            "amendmentsSupported": 1624,
+            "amendmentsAdopted": 933,
+            "commissionsAttended": 158,
+            "commissionInterventions": 68,
+            "hemicycleInterventions": 18,
+            "hemicycleShortInterventions": 0,
+            "questionsWritten": 101,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Christophe",
             "lastname": "Cheronnet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Sylvie",
             "lastname": "Espagnolle",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Anne",
             "lastname": "Grieu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Michel",
             "lastname": "Laserge",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Julien",
             "lastname": "Leonardelli",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Alizée",
             "lastname": "Mosdier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Radical de Gauche",
             "groupShort": "PRG",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
-            "id": "719528",
-            "lastname": "Portarrieu",
             "firstname": "Jean-François",
-            "slug": "jeanfrancois-portarrieu",
+            "lastname": "Portarrieu",
             "gender": "H",
-            "birthday": "1965-10-14",
-            "birthplace": "Toulouse (Haute-Garonne)",
-            "county": "Haute-Garonne",
-            "countyId": "31",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Journaliste",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 142,
-                "reports": 2,
-                "proposals": 0,
-                "proposalsSupported": 59,
-                "amendments": 13,
-                "amendmentsSupported": 1624,
-                "amendmentsAdopted": 933,
-                "commissionsAttended": 158,
-                "commissionInterventions": 68,
-                "hemicycleInterventions": 18,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 100,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         },
         {
             "firstname": "Johanna",
             "lastname": "Velo",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 31,
+            "county": "Haute-Garonne",
+            "circumscription": 5
         }
     ]
 }

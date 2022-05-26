@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1348,
                 "Eric Zemmour": 3581
             }
+        },
+        "secondRound": {
+            "registered": 83024,
+            "voted": 62423,
+            "whites": 3288,
+            "expressed": 57742,
+            "void": 1393,
+            "candidates": {
+                "Emmanuel Macron": 24934,
+                "Marine Le Pen": 32808
+            }
         }
+    },
+    "current": {
+        "id": "998",
+        "lastname": "Dassault",
+        "firstname": "Olivier",
+        "slug": "olivier-dassault",
+        "gender": "H",
+        "birthday": "1951-06-01",
+        "birthplace": "Boulogne-Billancourt (Hauts-de-Seine)",
+        "county": "Oise",
+        "countyId": 60,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Président de sociétés",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 65,
+            "reports": 1,
+            "proposals": 18,
+            "proposalsSupported": 263,
+            "amendments": 6,
+            "amendmentsSupported": 2755,
+            "amendmentsAdopted": 86,
+            "commissionsAttended": 56,
+            "commissionInterventions": 19,
+            "hemicycleInterventions": 34,
+            "hemicycleShortInterventions": 9,
+            "questionsWritten": 189,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Lucien",
             "lastname": "Cavelier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 1
         },
         {
             "firstname": "Jean-Philippe",
             "lastname": "Fruitier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 1
         },
         {
-            "id": "783457",
-            "lastname": "Habert-Dassault",
             "firstname": "Victor",
-            "slug": "victor-habertdassault",
+            "lastname": "Habert-Dassault",
             "gender": "H",
-            "birthday": "1992-07-12",
-            "birthplace": "Paris (France)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 60,
             "county": "Oise",
-            "countyId": "60",
-            "circumscription": 1,
-            "mandateStart": "2021-06-07",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Avocat",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 22,
-                "reports": 0,
-                "proposals": 8,
-                "proposalsSupported": 38,
-                "amendments": 16,
-                "amendmentsSupported": 486,
-                "amendmentsAdopted": 6,
-                "commissionsAttended": 46,
-                "commissionInterventions": 7,
-                "hemicycleInterventions": 13,
-                "hemicycleShortInterventions": 0,
-                "questionsWritten": 46,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Aurélie",
             "lastname": "Joly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 1
         },
         {
             "firstname": "Roxane",
             "lastname": "Lundy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération·s",
             "groupShort": "G",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 1
         },
         {
             "firstname": "David",
             "lastname": "Magnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 60,
+            "county": "Oise",
+            "circumscription": 1
         }
     ]
 }

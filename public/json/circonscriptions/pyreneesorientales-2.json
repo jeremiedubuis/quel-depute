@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1461,
                 "Eric Zemmour": 7565
             }
+        },
+        "secondRound": {
+            "registered": 103348,
+            "voted": 77175,
+            "whites": 4365,
+            "expressed": 70853,
+            "void": 1957,
+            "candidates": {
+                "Emmanuel Macron": 27900,
+                "Marine Le Pen": 42953
+            }
         }
+    },
+    "current": {
+        "id": "720798",
+        "lastname": "Aliot",
+        "firstname": "Louis",
+        "slug": "louis-aliot",
+        "gender": "H",
+        "birthday": "1969-09-04",
+        "birthplace": "Toulouse (Haute-Garonne)",
+        "county": "Pyrénées-Orientales",
+        "countyId": 66,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Rassemblement national",
+        "groupShort": "NI",
+        "job": "Autre profession",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 85,
+            "reports": 0,
+            "proposals": 9,
+            "proposalsSupported": 65,
+            "amendments": 111,
+            "amendmentsSupported": 1106,
+            "amendmentsAdopted": 2,
+            "commissionsAttended": 78,
+            "commissionInterventions": 41,
+            "hemicycleInterventions": 66,
+            "hemicycleShortInterventions": 32,
+            "questionsWritten": 114,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "David",
             "lastname": "Berrué",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         },
         {
             "firstname": "Cyril",
             "lastname": "Blanc",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         },
         {
             "firstname": "David",
             "lastname": "Bret",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         },
         {
             "firstname": "Philippe",
             "lastname": "Goiset",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         },
         {
             "firstname": "Frédérique",
             "lastname": "Lis",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         },
         {
             "firstname": "Anaïs",
             "lastname": "Sabatini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 66,
+            "county": "Pyrénées-Orientales",
+            "circumscription": 2
         }
     ]
 }

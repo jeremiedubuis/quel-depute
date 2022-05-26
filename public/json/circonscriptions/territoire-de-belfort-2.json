@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 46318,
             "voted": 35569,
-            "whites": 601,
+            "whites": 602,
             "expressed": 34636,
-            "void": 332,
+            "void": 331,
             "candidates": {
                 "Nathalie Arthaud": 283,
                 "Fabien Roussel": 730,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 915,
                 "Eric Zemmour": 2718
             }
+        },
+        "secondRound": {
+            "registered": 46343,
+            "voted": 33979,
+            "whites": 2366,
+            "expressed": 30572,
+            "void": 1041,
+            "candidates": {
+                "Emmanuel Macron": 16244,
+                "Marine Le Pen": 14328
+            }
         }
+    },
+    "current": {
+        "id": "267330",
+        "lastname": "Zumkeller",
+        "firstname": "Michel",
+        "slug": "michel-zumkeller",
+        "gender": "H",
+        "birthday": "1966-01-21",
+        "birthplace": "Belfort (Territoire de Belfort)",
+        "county": "Territoire de Belfort",
+        "countyId": 90,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Union des démocrates, radicaux et libéraux",
+        "groupShort": "UDI",
+        "job": "Comptable",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 154,
+            "reports": 2,
+            "proposals": 8,
+            "proposalsSupported": 156,
+            "amendments": 383,
+            "amendmentsSupported": 7934,
+            "amendmentsAdopted": 345,
+            "commissionsAttended": 198,
+            "commissionInterventions": 271,
+            "hemicycleInterventions": 486,
+            "hemicycleShortInterventions": 118,
+            "questionsWritten": 124,
+            "questionsOral": 14
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sophie",
             "lastname": "Carnicer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         },
         {
             "firstname": "Florian",
             "lastname": "Chauche",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         },
         {
             "firstname": "Marc",
             "lastname": "Felemez",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         },
         {
             "firstname": "Baptiste",
             "lastname": "Petitjean",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         },
         {
             "firstname": "Simon",
             "lastname": "Pheulpin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         },
         {
-            "id": "267330",
-            "lastname": "Zumkeller",
             "firstname": "Michel",
-            "slug": "michel-zumkeller",
+            "lastname": "Zumkeller",
             "gender": "H",
-            "birthday": "1966-01-21",
-            "birthplace": "Belfort (Territoire de Belfort)",
-            "county": "Territoire de Belfort",
-            "countyId": "90",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Union des démocrates, radicaux et libéraux",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
             "groupShort": "UDI",
-            "job": "Comptable",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 154,
-                "reports": 2,
-                "proposals": 8,
-                "proposalsSupported": 156,
-                "amendments": 383,
-                "amendmentsSupported": 7934,
-                "amendmentsAdopted": 345,
-                "commissionsAttended": 198,
-                "commissionInterventions": 271,
-                "hemicycleInterventions": 486,
-                "hemicycleShortInterventions": 118,
-                "questionsWritten": 124,
-                "questionsOral": 14
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 90,
+            "county": "Territoire de Belfort",
+            "circumscription": 2
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 70176,
             "voted": 55047,
-            "whites": 906,
+            "whites": 926,
             "expressed": 53736,
-            "void": 405,
+            "void": 385,
             "candidates": {
                 "Nathalie Arthaud": 418,
                 "Fabien Roussel": 1206,
@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 1292,
                 "Eric Zemmour": 3542
             }
+        },
+        "secondRound": {
+            "registered": 70183,
+            "voted": 53364,
+            "whites": 3817,
+            "expressed": 47953,
+            "void": 1594,
+            "candidates": {
+                "Emmanuel Macron": 24041,
+                "Marine Le Pen": 23912
+            }
         }
+    },
+    "current": {
+        "id": "267204",
+        "lastname": "Sermier",
+        "firstname": "Jean-Marie",
+        "slug": "jeanmarie-sermier",
+        "gender": "H",
+        "birthday": "1961-03-05",
+        "birthplace": "Nozeroy (Jura)",
+        "county": "Jura",
+        "countyId": 39,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Ancien viticulteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 182,
+            "reports": 3,
+            "proposals": 3,
+            "proposalsSupported": 684,
+            "amendments": 596,
+            "amendmentsSupported": 22044,
+            "amendmentsAdopted": 530,
+            "commissionsAttended": 318,
+            "commissionInterventions": 779,
+            "hemicycleInterventions": 844,
+            "hemicycleShortInterventions": 811,
+            "questionsWritten": 187,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Justine",
             "lastname": "Gruet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         },
         {
             "firstname": "Hervé",
             "lastname": "Prat",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         },
         {
             "firstname": "Anne",
             "lastname": "Prost-Grosjean",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         },
         {
             "firstname": "Dominique",
             "lastname": "Revoy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         },
         {
             "firstname": "Célia",
             "lastname": "Vallet",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         },
         {
             "firstname": "Aurore",
             "lastname": "Vuillemin-Plançon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 39,
+            "county": "Jura",
+            "circumscription": 3
         }
     ]
 }

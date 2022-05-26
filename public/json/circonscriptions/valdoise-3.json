@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1326,
                 "Eric Zemmour": 4775
             }
+        },
+        "secondRound": {
+            "registered": 94006,
+            "voted": 66482,
+            "whites": 4313,
+            "expressed": 60949,
+            "void": 1220,
+            "candidates": {
+                "Emmanuel Macron": 40261,
+                "Marine Le Pen": 20688
+            }
         }
+    },
+    "current": {
+        "id": "720900",
+        "lastname": "Rilhac",
+        "firstname": "Cécile",
+        "slug": "cecile-rilhac",
+        "gender": "F",
+        "birthday": "1974-04-21",
+        "birthplace": "paris 15 (Paris)",
+        "county": "Val-d'Oise",
+        "countyId": 95,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Profession rattachée à l'enseignement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 168,
+            "reports": 8,
+            "proposals": 2,
+            "proposalsSupported": 92,
+            "amendments": 138,
+            "amendmentsSupported": 3298,
+            "amendmentsAdopted": 1201,
+            "commissionsAttended": 271,
+            "commissionInterventions": 410,
+            "hemicycleInterventions": 335,
+            "hemicycleShortInterventions": 65,
+            "questionsWritten": 41,
+            "questionsOral": 10
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Romana",
             "lastname": "Laurini",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Juan",
             "lastname": "Munoz",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Sarah",
             "lastname": "Nerozzi-Banfi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Carine",
             "lastname": "Pelegrin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Génération écologie",
             "groupShort": "GE",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         },
         {
-            "id": "720900",
-            "lastname": "Rilhac",
             "firstname": "Cécile",
-            "slug": "cecile-rilhac",
+            "lastname": "Rilhac",
             "gender": "F",
-            "birthday": "1974-04-21",
-            "birthplace": "paris 15 (Paris)",
-            "county": "Val-d'Oise",
-            "countyId": "95",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Profession rattachée à l'enseignement",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 168,
-                "reports": 8,
-                "proposals": 2,
-                "proposalsSupported": 92,
-                "amendments": 138,
-                "amendmentsSupported": 3298,
-                "amendmentsAdopted": 1201,
-                "commissionsAttended": 271,
-                "commissionInterventions": 410,
-                "hemicycleInterventions": 335,
-                "hemicycleShortInterventions": 65,
-                "questionsWritten": 41,
-                "questionsOral": 10
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         },
         {
             "firstname": "Veronique",
             "lastname": "Rodas-Pawloff",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 95,
+            "county": "Val-d'Oise",
+            "circumscription": 3
         }
     ]
 }

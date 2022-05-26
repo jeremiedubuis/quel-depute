@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 832,
                 "Eric Zemmour": 5833
             }
+        },
+        "secondRound": {
+            "registered": 81773,
+            "voted": 60237,
+            "whites": 3323,
+            "expressed": 55957,
+            "void": 957,
+            "candidates": {
+                "Emmanuel Macron": 46053,
+                "Marine Le Pen": 9904
+            }
         }
+    },
+    "current": {
+        "id": "721296",
+        "lastname": "Gouffier-Cha",
+        "firstname": "Guillaume",
+        "slug": "guillaume-gouffiercha",
+        "gender": "H",
+        "birthday": "1986-02-01",
+        "birthplace": "Beauvais (Oise)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Manager public",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 183,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 70,
+            "amendments": 347,
+            "amendmentsSupported": 2523,
+            "amendmentsAdopted": 1311,
+            "commissionsAttended": 385,
+            "commissionInterventions": 291,
+            "hemicycleInterventions": 514,
+            "hemicycleShortInterventions": 124,
+            "questionsWritten": 39,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Catherine",
             "lastname": "Chaput",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Xavier",
             "lastname": "Cornet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Anne-Françoise",
             "lastname": "Gabrielli",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
-            "id": "721296",
-            "lastname": "Gouffier-Cha",
             "firstname": "Guillaume",
-            "slug": "guillaume-gouffiercha",
+            "lastname": "Gouffier-Cha",
             "gender": "H",
-            "birthday": "1986-02-01",
-            "birthplace": "Beauvais (Oise)",
-            "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Manager public",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 183,
-                "reports": 9,
-                "proposals": 0,
-                "proposalsSupported": 70,
-                "amendments": 347,
-                "amendmentsSupported": 2523,
-                "amendmentsAdopted": 1311,
-                "commissionsAttended": 385,
-                "commissionInterventions": 291,
-                "hemicycleInterventions": 514,
-                "hemicycleShortInterventions": 124,
-                "questionsWritten": 39,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Véronique",
             "lastname": "Hunaut",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "Céline",
             "lastname": "Martin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         },
         {
             "firstname": "François",
             "lastname": "Massot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 6
         }
     ]
 }

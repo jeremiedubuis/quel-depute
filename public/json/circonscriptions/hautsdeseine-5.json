@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 618,
                 "Eric Zemmour": 5776
             }
+        },
+        "secondRound": {
+            "registered": 75251,
+            "voted": 54977,
+            "whites": 3028,
+            "expressed": 51133,
+            "void": 816,
+            "candidates": {
+                "Emmanuel Macron": 41643,
+                "Marine Le Pen": 9490
+            }
         }
+    },
+    "current": {
+        "id": "721750",
+        "lastname": "Calvez",
+        "firstname": "Céline",
+        "slug": "celine-calvez",
+        "gender": "F",
+        "birthday": "1979-07-24",
+        "birthplace": "Rennes (Ille-et-Vilaine)",
+        "county": "Hauts-de-Seine",
+        "countyId": 92,
+        "circumscription": 5,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Consultante communication",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 180,
+            "reports": 11,
+            "proposals": 1,
+            "proposalsSupported": 73,
+            "amendments": 224,
+            "amendmentsSupported": 2302,
+            "amendmentsAdopted": 1139,
+            "commissionsAttended": 357,
+            "commissionInterventions": 469,
+            "hemicycleInterventions": 221,
+            "hemicycleShortInterventions": 42,
+            "questionsWritten": 25,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "721750",
-            "lastname": "Calvez",
             "firstname": "Céline",
-            "slug": "celine-calvez",
+            "lastname": "Calvez",
             "gender": "F",
-            "birthday": "1979-07-24",
-            "birthplace": "Rennes (Ille-et-Vilaine)",
-            "county": "Hauts-de-Seine",
-            "countyId": "92",
-            "circumscription": 5,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Consultante communication",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 180,
-                "reports": 11,
-                "proposals": 1,
-                "proposalsSupported": 73,
-                "amendments": 224,
-                "amendmentsSupported": 2302,
-                "amendmentsAdopted": 1139,
-                "commissionsAttended": 357,
-                "commissionInterventions": 469,
-                "hemicycleInterventions": 221,
-                "hemicycleShortInterventions": 42,
-                "questionsWritten": 25,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Pierre",
             "lastname": "Chassat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Cyril",
             "lastname": "Crosnier Leconte",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Léa",
             "lastname": "Druet-Faivre",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Mireille",
             "lastname": "Lambert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Liliane",
             "lastname": "Pradier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         },
         {
             "firstname": "Alexandre",
             "lastname": "Rousset",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 5
         }
     ]
 }

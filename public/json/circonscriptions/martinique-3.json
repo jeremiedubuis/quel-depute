@@ -1,5 +1,5 @@
 {
-    "countyId": "ZB",
+    "countyId": 972,
     "number": 3,
     "name": "Martinique",
     "results": {
@@ -23,7 +23,103 @@
                 "Nicolas Dupont-Aignan": 644,
                 "Eric Zemmour": 619
             }
+        },
+        "secondRound": {
+            "registered": 60299,
+            "voted": 26477,
+            "whites": 2522,
+            "expressed": 22591,
+            "void": 1364,
+            "candidates": {
+                "Emmanuel Macron": 9533,
+                "Marine Le Pen": 13058
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "337483",
+        "lastname": "Letchimy",
+        "firstname": "Serge",
+        "slug": "serge-letchimy",
+        "gender": "H",
+        "birthday": "1953-01-13",
+        "birthplace": "Gros Morne (Martinique)",
+        "county": "Martinique",
+        "countyId": 972,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "SOC",
+        "job": "Urbaniste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 84,
+            "reports": 6,
+            "proposals": 2,
+            "proposalsSupported": 63,
+            "amendments": 142,
+            "amendmentsSupported": 13619,
+            "amendmentsAdopted": 780,
+            "commissionsAttended": 130,
+            "commissionInterventions": 973,
+            "hemicycleInterventions": 484,
+            "hemicycleShortInterventions": 343,
+            "questionsWritten": 13,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Corine",
+            "lastname": "Charles",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Cédric",
+            "lastname": "Crampon",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Audrey",
+            "lastname": "Giraud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 3
+        },
+        {
+            "firstname": "Gabriel",
+            "lastname": "Jean-Marie",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "CO",
+            "groupShort": "CO",
+            "countyId": 972,
+            "county": "Martinique",
+            "circumscription": 3
+        }
+    ]
 }

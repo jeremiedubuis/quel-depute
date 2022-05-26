@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 74159,
             "voted": 57112,
-            "whites": 1095,
+            "whites": 1109,
             "expressed": 55655,
-            "void": 362,
+            "void": 348,
             "candidates": {
                 "Nathalie Arthaud": 299,
                 "Fabien Roussel": 1240,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1398,
                 "Eric Zemmour": 3878
             }
+        },
+        "secondRound": {
+            "registered": 74171,
+            "voted": 55329,
+            "whites": 4075,
+            "expressed": 50184,
+            "void": 1070,
+            "candidates": {
+                "Emmanuel Macron": 30458,
+                "Marine Le Pen": 19726
+            }
         }
+    },
+    "current": {
+        "id": "722382",
+        "lastname": "Dirx",
+        "firstname": "Benjamin",
+        "slug": "benjamin-dirx",
+        "gender": "H",
+        "birthday": "1979-01-25",
+        "birthplace": "Villefranche-sur-Saone (Rhône)",
+        "county": "Saône-et-Loire",
+        "countyId": 71,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Industriel-Chef d'entreprise",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 147,
+            "reports": 9,
+            "proposals": 0,
+            "proposalsSupported": 62,
+            "amendments": 105,
+            "amendmentsSupported": 1516,
+            "amendmentsAdopted": 933,
+            "commissionsAttended": 222,
+            "commissionInterventions": 81,
+            "hemicycleInterventions": 83,
+            "hemicycleShortInterventions": 24,
+            "questionsWritten": 46,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "722382",
-            "lastname": "Dirx",
             "firstname": "Benjamin",
-            "slug": "benjamin-dirx",
+            "lastname": "Dirx",
             "gender": "H",
-            "birthday": "1979-01-25",
-            "birthplace": "Villefranche-sur-Saone (Rhône)",
-            "county": "Saône-et-Loire",
-            "countyId": "71",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Industriel-Chef d'entreprise",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 147,
-                "reports": 9,
-                "proposals": 0,
-                "proposalsSupported": 62,
-                "amendments": 105,
-                "amendmentsSupported": 1516,
-                "amendmentsAdopted": 933,
-                "commissionsAttended": 222,
-                "commissionInterventions": 81,
-                "hemicycleInterventions": 83,
-                "hemicycleShortInterventions": 24,
-                "questionsWritten": 46,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Aurélien",
             "lastname": "Dutremble",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Odile",
             "lastname": "Koller",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Patrick",
             "lastname": "Monin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 71,
+            "county": "Saône-et-Loire",
+            "circumscription": 1
         }
     ]
 }

@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 81648,
             "voted": 65250,
-            "whites": 810,
+            "whites": 816,
             "expressed": 64183,
-            "void": 257,
+            "void": 251,
             "candidates": {
                 "Nathalie Arthaud": 278,
                 "Fabien Roussel": 1278,
@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1172,
                 "Eric Zemmour": 5781
             }
+        },
+        "secondRound": {
+            "registered": 81666,
+            "voted": 61758,
+            "whites": 3388,
+            "expressed": 57453,
+            "void": 917,
+            "candidates": {
+                "Emmanuel Macron": 40726,
+                "Marine Le Pen": 16727
+            }
         }
+    },
+    "current": {
+        "id": "722374",
+        "lastname": "Isaac-Sibille",
+        "firstname": "Cyrille",
+        "slug": "cyrille-isaacsibille",
+        "gender": "H",
+        "birthday": "1958-04-30",
+        "birthplace": "Lyon 6 (Rhône)",
+        "county": "Rhône",
+        "countyId": 69,
+        "circumscription": 12,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 19,
+            "proposals": 5,
+            "proposalsSupported": 59,
+            "amendments": 611,
+            "amendmentsSupported": 3902,
+            "amendmentsAdopted": 766,
+            "commissionsAttended": 342,
+            "commissionInterventions": 643,
+            "hemicycleInterventions": 408,
+            "hemicycleShortInterventions": 187,
+            "questionsWritten": 45,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Elodie",
             "lastname": "Annani",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         },
         {
             "firstname": "Jean-François",
             "lastname": "Baudin",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         },
         {
             "firstname": "Céline",
             "lastname": "Beuzit",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         },
         {
             "firstname": "Cécile",
             "lastname": "Faurite",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         },
         {
             "firstname": "Antoine",
             "lastname": "Heurtel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         },
         {
-            "id": "722374",
-            "lastname": "Isaac-Sibille",
             "firstname": "Cyrille",
-            "slug": "cyrille-isaacsibille",
+            "lastname": "Isaac-Sibille",
             "gender": "H",
-            "birthday": "1958-04-30",
-            "birthplace": "Lyon 6 (Rhône)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 69,
             "county": "Rhône",
-            "countyId": "69",
-            "circumscription": 12,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 19,
-                "proposals": 5,
-                "proposalsSupported": 59,
-                "amendments": 611,
-                "amendmentsSupported": 3902,
-                "amendmentsAdopted": 766,
-                "commissionsAttended": 342,
-                "commissionInterventions": 643,
-                "hemicycleInterventions": 408,
-                "hemicycleShortInterventions": 187,
-                "questionsWritten": 45,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 12
         },
         {
             "firstname": "Jérôme",
             "lastname": "Moroge",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 69,
+            "county": "Rhône",
+            "circumscription": 12
         }
     ]
 }

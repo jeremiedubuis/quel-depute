@@ -7,8 +7,8 @@
             "registered": 84506,
             "voted": 62536,
             "whites": 1214,
-            "expressed": 60867,
-            "void": 455,
+            "expressed": 60871,
+            "void": 451,
             "candidates": {
                 "Nathalie Arthaud": 471,
                 "Fabien Roussel": 1981,
@@ -19,88 +19,131 @@
                 "Anne Hidalgo": 977,
                 "Yannick Jadot": 1763,
                 "Valérie Pécresse": 3019,
-                "Phillipe Poutou": 589,
+                "Phillipe Poutou": 593,
                 "Nicolas Dupont-Aignan": 1511,
                 "Eric Zemmour": 4245
             }
+        },
+        "secondRound": {
+            "registered": 84402,
+            "voted": 62699,
+            "whites": 4634,
+            "expressed": 56611,
+            "void": 1454,
+            "candidates": {
+                "Emmanuel Macron": 27950,
+                "Marine Le Pen": 28661
+            }
         }
+    },
+    "current": {
+        "id": "719052",
+        "lastname": "Kervran",
+        "firstname": "Loïc",
+        "slug": "loic-kervran",
+        "gender": "H",
+        "birthday": "1984-02-11",
+        "birthplace": "Moulins (Allier)",
+        "county": "Cher",
+        "countyId": 18,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "AE",
+        "job": "Autre cadre (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 154,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 66,
+            "amendments": 91,
+            "amendmentsSupported": 1527,
+            "amendmentsAdopted": 773,
+            "commissionsAttended": 219,
+            "commissionInterventions": 125,
+            "hemicycleInterventions": 89,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 111,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Eric",
             "lastname": "Bellet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Bénédicte",
             "lastname": "de Choulot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Thibaut",
             "lastname": "De La Tocnaye",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Aliénor",
             "lastname": "Garcia Bosch De Morales",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         },
         {
-            "id": "719052",
-            "lastname": "Kervran",
             "firstname": "Loïc",
-            "slug": "loic-kervran",
+            "lastname": "Kervran",
             "gender": "H",
-            "birthday": "1984-02-11",
-            "birthplace": "Moulins (Allier)",
-            "county": "Cher",
-            "countyId": "18",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
-            "groupShort": "AE",
-            "job": "Autre cadre (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 154,
-                "reports": 5,
-                "proposals": 0,
-                "proposalsSupported": 66,
-                "amendments": 91,
-                "amendmentsSupported": 1527,
-                "amendmentsAdopted": 773,
-                "commissionsAttended": 219,
-                "commissionInterventions": 125,
-                "hemicycleInterventions": 89,
-                "hemicycleShortInterventions": 6,
-                "questionsWritten": 111,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "groupShort": "LREM",
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         },
         {
             "firstname": "Karine",
             "lastname": "Tissier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 18,
+            "county": "Cher",
+            "circumscription": 3
         }
     ]
 }

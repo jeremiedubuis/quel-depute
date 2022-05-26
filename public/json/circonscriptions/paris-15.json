@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 78647,
-            "voted": 60098,
-            "whites": 672,
+            "voted": 60096,
+            "whites": 682,
             "expressed": 59162,
-            "void": 264,
+            "void": 252,
             "candidates": {
                 "Nathalie Arthaud": 227,
                 "Fabien Roussel": 1352,
@@ -23,108 +23,163 @@
                 "Nicolas Dupont-Aignan": 555,
                 "Eric Zemmour": 3124
             }
+        },
+        "secondRound": {
+            "registered": 78675,
+            "voted": 54858,
+            "whites": 3265,
+            "expressed": 50683,
+            "void": 910,
+            "candidates": {
+                "Emmanuel Macron": 43237,
+                "Marine Le Pen": 7446
+            }
         }
+    },
+    "current": {
+        "id": "783468",
+        "lastname": "El Aaraje",
+        "firstname": "Lamia",
+        "slug": "lamia-el-aaraje",
+        "gender": "F",
+        "birthday": "1986-11-22",
+        "birthplace": "Rabat (Maroc)",
+        "county": "Paris",
+        "countyId": 75,
+        "circumscription": 15,
+        "mandateStart": "2021-06-07",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Docteure en pharmacie",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 20,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 8,
+            "amendments": 196,
+            "amendmentsSupported": 2168,
+            "amendmentsAdopted": 92,
+            "commissionsAttended": 15,
+            "commissionInterventions": 67,
+            "hemicycleInterventions": 256,
+            "hemicycleShortInterventions": 99,
+            "questionsWritten": 5,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sandrine",
             "lastname": "Adobati",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "Marie-Josee",
             "lastname": "Boulaire",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "Arnaud",
             "lastname": "Charvillat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "François-Marie",
             "lastname": "Didier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
-            "id": "783468",
-            "lastname": "El Aaraje",
             "firstname": "Lamia",
-            "slug": "lamia-el-aaraje",
+            "lastname": "El Aaraje",
             "gender": "F",
-            "birthday": "1986-11-22",
-            "birthplace": "Rabat (Maroc)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 75,
             "county": "Paris",
-            "countyId": "75",
-            "circumscription": 15,
-            "mandateStart": "2021-06-07",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Docteure en pharmacie",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 20,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 8,
-                "amendments": 196,
-                "amendmentsSupported": 2168,
-                "amendmentsAdopted": 92,
-                "commissionsAttended": 15,
-                "commissionInterventions": 67,
-                "hemicycleInterventions": 256,
-                "hemicycleShortInterventions": 99,
-                "questionsWritten": 5,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 15
         },
         {
             "firstname": "Mohamad-Lamine",
             "lastname": "Gassama",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "Philippe",
             "lastname": "Houplain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Reconquête,CNIP",
             "groupShort": "Reconquête,CNIP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "Danielle",
             "lastname": "Simonnet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         },
         {
             "firstname": "Apolline",
             "lastname": "Tyburczy",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 75,
+            "county": "Paris",
+            "circumscription": 15
         }
     ]
 }

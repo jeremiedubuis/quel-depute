@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 76045,
             "voted": 58626,
-            "whites": 978,
+            "whites": 1014,
             "expressed": 57220,
-            "void": 428,
+            "void": 392,
             "candidates": {
                 "Nathalie Arthaud": 402,
                 "Fabien Roussel": 1010,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1313,
                 "Eric Zemmour": 3186
             }
+        },
+        "secondRound": {
+            "registered": 76068,
+            "voted": 58987,
+            "whites": 3537,
+            "expressed": 54263,
+            "void": 1187,
+            "candidates": {
+                "Emmanuel Macron": 32466,
+                "Marine Le Pen": 21797
+            }
         }
+    },
+    "current": {
+        "id": "720138",
+        "lastname": "Saint-Paul",
+        "firstname": "Laetitia",
+        "slug": "laetitia-saintpaul",
+        "gender": "F",
+        "birthday": "1981-01-21",
+        "birthplace": "Chartres (Eure-et-Loir)",
+        "county": "Maine-et-Loire",
+        "countyId": 49,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Officier de l'armée de Terre",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 162,
+            "reports": 5,
+            "proposals": 0,
+            "proposalsSupported": 57,
+            "amendments": 13,
+            "amendmentsSupported": 1527,
+            "amendmentsAdopted": 918,
+            "commissionsAttended": 216,
+            "commissionInterventions": 191,
+            "hemicycleInterventions": 3539,
+            "hemicycleShortInterventions": 15750,
+            "questionsWritten": 83,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Régine",
             "lastname": "Catin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Sylvie",
             "lastname": "Geret",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Patrick",
             "lastname": "Morineau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 4
         },
         {
             "firstname": "Caroline",
             "lastname": "Rabault",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 4
         },
         {
-            "id": "720138",
+            "firstname": "Laëtitia",
             "lastname": "Saint-Paul",
-            "firstname": "Laetitia",
-            "slug": "laetitia-saintpaul",
             "gender": "F",
-            "birthday": "1981-01-21",
-            "birthplace": "Chartres (Eure-et-Loir)",
-            "county": "Maine-et-Loire",
-            "countyId": "49",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Officier de l'armée de Terre",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 162,
-                "reports": 5,
-                "proposals": 0,
-                "proposalsSupported": 57,
-                "amendments": 13,
-                "amendmentsSupported": 1527,
-                "amendmentsAdopted": 918,
-                "commissionsAttended": 216,
-                "commissionInterventions": 191,
-                "hemicycleInterventions": 3539,
-                "hemicycleShortInterventions": 15750,
-                "questionsWritten": 83,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 49,
+            "county": "Maine-et-Loire",
+            "circumscription": 4
         }
     ]
 }

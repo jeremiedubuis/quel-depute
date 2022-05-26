@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 990,
                 "Eric Zemmour": 5979
             }
+        },
+        "secondRound": {
+            "registered": 78042,
+            "voted": 57243,
+            "whites": 3638,
+            "expressed": 52523,
+            "void": 1082,
+            "candidates": {
+                "Emmanuel Macron": 39844,
+                "Marine Le Pen": 12679
+            }
         }
+    },
+    "current": {
+        "id": "1630",
+        "lastname": "Herbillon",
+        "firstname": "Michel",
+        "slug": "michel-herbillon",
+        "gender": "H",
+        "birthday": "1951-03-06",
+        "birthplace": "Saint-Mandé (Val-de-Marne)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Cadre supérieur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 155,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 592,
+            "amendments": 19,
+            "amendmentsSupported": 2696,
+            "amendmentsAdopted": 90,
+            "commissionsAttended": 245,
+            "commissionInterventions": 379,
+            "hemicycleInterventions": 136,
+            "hemicycleShortInterventions": 646,
+            "questionsWritten": 37,
+            "questionsOral": 12
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Amandine",
             "lastname": "Cheyns",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         },
         {
             "firstname": "Benjamin",
             "lastname": "Dupalut",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         },
         {
-            "id": "1630",
-            "lastname": "Herbillon",
             "firstname": "Michel",
-            "slug": "michel-herbillon",
+            "lastname": "Herbillon",
             "gender": "H",
-            "birthday": "1951-03-06",
-            "birthplace": "Saint-Mandé (Val-de-Marne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 94,
             "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Cadre supérieur",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 155,
-                "reports": 4,
-                "proposals": 2,
-                "proposalsSupported": 592,
-                "amendments": 19,
-                "amendmentsSupported": 2696,
-                "amendmentsAdopted": 90,
-                "commissionsAttended": 245,
-                "commissionInterventions": 379,
-                "hemicycleInterventions": 136,
-                "hemicycleShortInterventions": 646,
-                "questionsWritten": 37,
-                "questionsOral": 12
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Erik",
             "lastname": "Pages",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         },
         {
             "firstname": "Alexandra",
             "lastname": "Scotto De Coulanges",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         },
         {
             "firstname": "Elisabeth",
             "lastname": "Vuillard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         },
         {
             "firstname": "Emmanuelle",
             "lastname": "Wargon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 8
         }
     ]
 }

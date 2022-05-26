@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 848,
                 "Eric Zemmour": 2539
             }
+        },
+        "secondRound": {
+            "registered": 61531,
+            "voted": 40197,
+            "whites": 2609,
+            "expressed": 36648,
+            "void": 940,
+            "candidates": {
+                "Emmanuel Macron": 23616,
+                "Marine Le Pen": 13032
+            }
         }
+    },
+    "current": {
+        "id": "721888",
+        "lastname": "Raphan",
+        "firstname": "Pierre-Alain",
+        "slug": "pierrealain-raphan",
+        "gender": "H",
+        "birthday": "1983-04-06",
+        "birthplace": "Choisy-le-Roi (Val-de-Marne)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 10,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directeur d'un cabinet de conseil",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 8,
+            "proposals": 10,
+            "proposalsSupported": 99,
+            "amendments": 278,
+            "amendmentsSupported": 2950,
+            "amendmentsAdopted": 1289,
+            "commissionsAttended": 212,
+            "commissionInterventions": 213,
+            "hemicycleInterventions": 259,
+            "hemicycleShortInterventions": 195,
+            "questionsWritten": 9,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nadia",
             "lastname": "Carcasset",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         },
         {
             "firstname": "Claudine",
             "lastname": "Cormier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         },
         {
             "firstname": "Nicolas",
             "lastname": "de Boishue",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         },
         {
             "firstname": "Marie",
             "lastname": "Godier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         },
         {
             "firstname": "Antoine",
             "lastname": "Léaument",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         },
         {
             "firstname": "Monique",
             "lastname": "Leclerc",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 10
         }
     ]
 }

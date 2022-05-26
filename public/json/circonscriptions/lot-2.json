@@ -6,14 +6,14 @@
         "firstRound": {
             "registered": 66587,
             "voted": 54036,
-            "whites": 958,
-            "expressed": 52548,
-            "void": 530,
+            "whites": 983,
+            "expressed": 52552,
+            "void": 501,
             "candidates": {
                 "Nathalie Arthaud": 310,
                 "Fabien Roussel": 1704,
-                "Emmanuel Macron": 13345,
-                "Jean Lasalle": 4373,
+                "Emmanuel Macron": 13348,
+                "Jean Lasalle": 4374,
                 "Marine Le Pen": 9906,
                 "Jean-Luc Mélenchon": 12631,
                 "Anne Hidalgo": 1385,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1114,
                 "Eric Zemmour": 2671
             }
+        },
+        "secondRound": {
+            "registered": 66565,
+            "voted": 51886,
+            "whites": 4981,
+            "expressed": 44593,
+            "void": 2312,
+            "candidates": {
+                "Emmanuel Macron": 26942,
+                "Marine Le Pen": 17651
+            }
         }
+    },
+    "current": {
+        "id": "720014",
+        "lastname": "Tiegna",
+        "firstname": "Huguette",
+        "slug": "huguette-tiegna",
+        "gender": "F",
+        "birthday": "1982-04-01",
+        "birthplace": "Bangassogo (Burkina Faso)",
+        "county": "Lot",
+        "countyId": 46,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Docteur, Ingénieur Recherche et Dévelopement",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 152,
+            "reports": 6,
+            "proposals": 2,
+            "proposalsSupported": 86,
+            "amendments": 216,
+            "amendmentsSupported": 3489,
+            "amendmentsAdopted": 1290,
+            "commissionsAttended": 251,
+            "commissionInterventions": 302,
+            "hemicycleInterventions": 102,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 18,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Louis",
             "lastname": "Bontemps",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 2
         },
         {
             "firstname": "Thierry",
             "lastname": "Grossemy",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 2
         },
         {
             "firstname": "Armelle",
             "lastname": "Le Gloannec",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 2
         },
         {
-            "id": "720014",
-            "lastname": "Tiegna",
             "firstname": "Huguette",
-            "slug": "huguette-tiegna",
+            "lastname": "Tiegna",
             "gender": "F",
-            "birthday": "1982-04-01",
-            "birthplace": "Bangassogo (Burkina Faso)",
-            "county": "Lot",
-            "countyId": "46",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Docteur, Ingénieur Recherche et Dévelopement",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 152,
-                "reports": 6,
-                "proposals": 2,
-                "proposalsSupported": 86,
-                "amendments": 216,
-                "amendmentsSupported": 3489,
-                "amendmentsAdopted": 1290,
-                "commissionsAttended": 251,
-                "commissionInterventions": 302,
-                "hemicycleInterventions": 102,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 18,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 2
         },
         {
             "firstname": "Marie-Michèle",
             "lastname": "Viau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 46,
+            "county": "Lot",
+            "circumscription": 2
         }
     ]
 }

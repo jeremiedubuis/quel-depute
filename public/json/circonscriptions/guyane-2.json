@@ -1,5 +1,5 @@
 {
-    "countyId": "ZC",
+    "countyId": 973,
     "number": 2,
     "name": "Guyane",
     "results": {
@@ -23,7 +23,91 @@
                 "Nicolas Dupont-Aignan": 257,
                 "Eric Zemmour": 565
             }
+        },
+        "secondRound": {
+            "registered": 46384,
+            "voted": 14953,
+            "whites": 1027,
+            "expressed": 13457,
+            "void": 469,
+            "candidates": {
+                "Emmanuel Macron": 5587,
+                "Marine Le Pen": 7870
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "721036",
+        "lastname": "Adam",
+        "firstname": "Lénaïck",
+        "slug": "lenaick-adam",
+        "gender": "H",
+        "birthday": "1992-02-19",
+        "birthplace": "Saint Laurent du Maroni (Guyane)",
+        "county": "Guyane",
+        "countyId": 973,
+        "circumscription": 2,
+        "mandateStart": "2018-03-12",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Cadre supérieur (entreprises privée)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 71,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 59,
+            "amendments": 108,
+            "amendmentsSupported": 2128,
+            "amendmentsAdopted": 977,
+            "commissionsAttended": 65,
+            "commissionInterventions": 102,
+            "hemicycleInterventions": 28,
+            "hemicycleShortInterventions": 6,
+            "questionsWritten": 6,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Lénaïck",
+            "lastname": "Adam",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 973,
+            "county": "Guyane",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Jean-Philippe",
+            "lastname": "Dolor",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 973,
+            "county": "Guyane",
+            "circumscription": 2
+        },
+        {
+            "firstname": "Annecie",
+            "lastname": "Lartin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Rassemblement National",
+            "groupShort": "RN",
+            "countyId": 973,
+            "county": "Guyane",
+            "circumscription": 2
+        }
+    ]
 }

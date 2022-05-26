@@ -4,15 +4,15 @@
     "name": "Côtes-d'Armor",
     "results": {
         "firstRound": {
-            "registered": 88708,
+            "registered": 88709,
             "voted": 71155,
             "whites": 1189,
-            "expressed": 69319,
-            "void": 647,
+            "expressed": 69321,
+            "void": 645,
             "candidates": {
                 "Nathalie Arthaud": 521,
                 "Fabien Roussel": 1888,
-                "Emmanuel Macron": 22194,
+                "Emmanuel Macron": 22196,
                 "Jean Lasalle": 2617,
                 "Marine Le Pen": 17490,
                 "Jean-Luc Mélenchon": 11803,
@@ -23,100 +23,151 @@
                 "Nicolas Dupont-Aignan": 1367,
                 "Eric Zemmour": 2806
             }
+        },
+        "secondRound": {
+            "registered": 88722,
+            "voted": 71293,
+            "whites": 4612,
+            "expressed": 64631,
+            "void": 2050,
+            "candidates": {
+                "Emmanuel Macron": 38386,
+                "Marine Le Pen": 26245
+            }
         }
+    },
+    "current": {
+        "id": "1874",
+        "lastname": "Le Fur",
+        "firstname": "Marc",
+        "slug": "marc-le-fur",
+        "gender": "H",
+        "birthday": "1956-11-28",
+        "birthplace": "Dakar (Sénégal)",
+        "county": "Côtes-d'Armor",
+        "countyId": 22,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Sous-préfet",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 10,
+            "proposals": 53,
+            "proposalsSupported": 688,
+            "amendments": 4833,
+            "amendmentsSupported": 17189,
+            "amendmentsAdopted": 390,
+            "commissionsAttended": 335,
+            "commissionInterventions": 412,
+            "hemicycleInterventions": 8671,
+            "hemicycleShortInterventions": 33122,
+            "questionsWritten": 191,
+            "questionsOral": 16
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Olivier",
             "lastname": "Allain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
             "firstname": "Odile",
             "lastname": "De Mellon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
             "firstname": "Jean-Pierre",
             "lastname": "Lamour",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
-            "id": "1874",
-            "lastname": "Le Fur",
             "firstname": "Marc",
-            "slug": "marc-le-fur",
+            "lastname": "Le Fur",
             "gender": "H",
-            "birthday": "1956-11-28",
-            "birthplace": "Dakar (Sénégal)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 22,
             "county": "Côtes-d'Armor",
-            "countyId": "22",
-            "circumscription": 3,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Sous-préfet",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 10,
-                "proposals": 53,
-                "proposalsSupported": 688,
-                "amendments": 4833,
-                "amendmentsSupported": 17189,
-                "amendmentsAdopted": 390,
-                "commissionsAttended": 335,
-                "commissionInterventions": 412,
-                "hemicycleInterventions": 8671,
-                "hemicycleShortInterventions": 33122,
-                "questionsWritten": 191,
-                "questionsOral": 16
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 3
         },
         {
             "firstname": "Florence",
             "lastname": "Nivet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
             "firstname": "Antoine",
             "lastname": "Ravard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
             "firstname": "Émilie",
             "lastname": "Roch",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         },
         {
             "firstname": "Bryan",
             "lastname": "Tyli",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 22,
+            "county": "Côtes-d'Armor",
+            "circumscription": 3
         }
     ]
 }

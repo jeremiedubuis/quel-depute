@@ -6,13 +6,13 @@
         "firstRound": {
             "registered": 78338,
             "voted": 61957,
-            "whites": 955,
-            "expressed": 60575,
-            "void": 427,
+            "whites": 961,
+            "expressed": 60576,
+            "void": 420,
             "candidates": {
                 "Nathalie Arthaud": 429,
                 "Fabien Roussel": 1288,
-                "Emmanuel Macron": 17616,
+                "Emmanuel Macron": 17617,
                 "Jean Lasalle": 1530,
                 "Marine Le Pen": 11450,
                 "Jean-Luc Mélenchon": 14230,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1320,
                 "Eric Zemmour": 4167
             }
+        },
+        "secondRound": {
+            "registered": 78342,
+            "voted": 58667,
+            "whites": 4293,
+            "expressed": 53036,
+            "void": 1338,
+            "candidates": {
+                "Emmanuel Macron": 34137,
+                "Marine Le Pen": 18899
+            }
         }
+    },
+    "current": {
+        "id": "605963",
+        "lastname": "Alauzet",
+        "firstname": "Éric",
+        "slug": "eric-alauzet",
+        "gender": "H",
+        "birthday": "1958-06-07",
+        "birthplace": "Nancy (Meurthe-et-Moselle)",
+        "county": "Doubs",
+        "countyId": 25,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 167,
+            "reports": 7,
+            "proposals": 0,
+            "proposalsSupported": 79,
+            "amendments": 450,
+            "amendmentsSupported": 2855,
+            "amendmentsAdopted": 1138,
+            "commissionsAttended": 311,
+            "commissionInterventions": 380,
+            "hemicycleInterventions": 204,
+            "hemicycleShortInterventions": 113,
+            "questionsWritten": 111,
+            "questionsOral": 4
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "605963",
-            "lastname": "Alauzet",
             "firstname": "Éric",
-            "slug": "eric-alauzet",
+            "lastname": "Alauzet",
             "gender": "H",
-            "birthday": "1958-06-07",
-            "birthplace": "Nancy (Meurthe-et-Moselle)",
-            "county": "Doubs",
-            "countyId": "25",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 167,
-                "reports": 7,
-                "proposals": 0,
-                "proposalsSupported": 79,
-                "amendments": 450,
-                "amendmentsSupported": 2855,
-                "amendmentsAdopted": 1138,
-                "commissionsAttended": 311,
-                "commissionInterventions": 380,
-                "hemicycleInterventions": 204,
-                "hemicycleShortInterventions": 113,
-                "questionsWritten": 111,
-                "questionsOral": 4
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         },
         {
             "firstname": "Eric",
             "lastname": "Fusis",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         },
         {
             "firstname": "Chafia",
             "lastname": "Kaoulal",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         },
         {
             "firstname": "Stéphane",
             "lastname": "Ravacley",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         },
         {
             "firstname": "Geoffrey",
             "lastname": "Thomassin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         },
         {
             "firstname": "Brigitte",
             "lastname": "Vuitton",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 25,
+            "county": "Doubs",
+            "circumscription": 2
         }
     ]
 }

@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 636,
                 "Eric Zemmour": 3966
             }
+        },
+        "secondRound": {
+            "registered": 69164,
+            "voted": 52229,
+            "whites": 3118,
+            "expressed": 48569,
+            "void": 542,
+            "candidates": {
+                "Emmanuel Macron": 40144,
+                "Marine Le Pen": 8425
+            }
         }
+    },
+    "current": {
+        "id": "722090",
+        "lastname": "Pételle",
+        "firstname": "Bénédicte",
+        "slug": "benedicte-petelle",
+        "gender": "F",
+        "birthday": "1971-06-04",
+        "birthplace": "Bourg-en-Bresse (Ain)",
+        "county": "Hauts-de-Seine",
+        "countyId": 92,
+        "circumscription": 2,
+        "mandateStart": "2019-02-26",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Professeur des écoles (spécialité français langue étrangère)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 115,
+            "reports": 2,
+            "proposals": 0,
+            "proposalsSupported": 61,
+            "amendments": 87,
+            "amendmentsSupported": 1871,
+            "amendmentsAdopted": 915,
+            "commissionsAttended": 237,
+            "commissionInterventions": 231,
+            "hemicycleInterventions": 151,
+            "hemicycleShortInterventions": 67,
+            "questionsWritten": 3,
+            "questionsOral": 3
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Baï-Audrey",
             "lastname": "Achidi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Marie-Dominique",
             "lastname": "Aeschlimann",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Emilia",
             "lastname": "Denoo",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Michel",
             "lastname": "Fabre",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Frédérique",
             "lastname": "Faure",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Philippe",
             "lastname": "Millot",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Francesca",
             "lastname": "Pasquini",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         },
         {
             "firstname": "Elionor",
             "lastname": "Savary Dangas",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 92,
+            "county": "Hauts-de-Seine",
+            "circumscription": 2
         }
     ]
 }

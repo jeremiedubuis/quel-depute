@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1698,
                 "Eric Zemmour": 5200
             }
+        },
+        "secondRound": {
+            "registered": 88502,
+            "voted": 65167,
+            "whites": 4058,
+            "expressed": 59826,
+            "void": 1283,
+            "candidates": {
+                "Emmanuel Macron": 26053,
+                "Marine Le Pen": 33773
+            }
         }
+    },
+    "current": {
+        "id": "1695",
+        "lastname": "Jacob",
+        "firstname": "Christian",
+        "slug": "christian-jacob",
+        "gender": "H",
+        "birthday": "1959-12-04",
+        "birthplace": "Rozay-en-Brie (Seine-et-Marne)",
+        "county": "Seine-et-Marne",
+        "countyId": 77,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Agriculteur",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 124,
+            "reports": 0,
+            "proposals": 4,
+            "proposalsSupported": 33,
+            "amendments": 27,
+            "amendmentsSupported": 1837,
+            "amendmentsAdopted": 68,
+            "commissionsAttended": 98,
+            "commissionInterventions": 2,
+            "hemicycleInterventions": 630,
+            "hemicycleShortInterventions": 982,
+            "questionsWritten": 8,
+            "questionsOral": 15
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Jean-Philippe",
             "lastname": "Delvaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Aymeric",
             "lastname": "Durox",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Mathieu",
             "lastname": "Garnier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Jean-Yves",
             "lastname": "Gaudey",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Gabrielle",
             "lastname": "Huot",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 77,
+            "county": "Seine-et-Marne",
+            "circumscription": 4
         }
     ]
 }

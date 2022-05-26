@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 108511,
             "voted": 81811,
-            "whites": 1007,
+            "whites": 1006,
             "expressed": 80173,
-            "void": 631,
+            "void": 632,
             "candidates": {
                 "Nathalie Arthaud": 351,
                 "Fabien Roussel": 2108,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1478,
                 "Eric Zemmour": 8516
             }
+        },
+        "secondRound": {
+            "registered": 108477,
+            "voted": 79503,
+            "whites": 4785,
+            "expressed": 72569,
+            "void": 2149,
+            "candidates": {
+                "Emmanuel Macron": 31839,
+                "Marine Le Pen": 40730
+            }
         }
+    },
+    "current": {
+        "id": "719616",
+        "lastname": "Euzet",
+        "firstname": "Christophe",
+        "slug": "christophe-euzet",
+        "gender": "H",
+        "birthday": "1967-04-02",
+        "birthplace": "Perpignan (Pyrénées-Orientales)",
+        "county": "Hérault",
+        "countyId": 34,
+        "circumscription": 7,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Maître de conférences en droit public à l'Université",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 153,
+            "reports": 9,
+            "proposals": 3,
+            "proposalsSupported": 75,
+            "amendments": 125,
+            "amendmentsSupported": 2057,
+            "amendmentsAdopted": 793,
+            "commissionsAttended": 233,
+            "commissionInterventions": 234,
+            "hemicycleInterventions": 206,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 59,
+            "questionsOral": 5
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Gabriel",
             "lastname": "Blasco",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Communiste Français",
             "groupShort": "PCF",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 7
         },
         {
-            "id": "719616",
-            "lastname": "Euzet",
             "firstname": "Christophe",
-            "slug": "christophe-euzet",
+            "lastname": "Euzet",
             "gender": "H",
-            "birthday": "1967-04-02",
-            "birthplace": "Perpignan (Pyrénées-Orientales)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 34,
             "county": "Hérault",
-            "countyId": "34",
-            "circumscription": 7,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "AE",
-            "job": "Maître de conférences en droit public à l'Université",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 153,
-                "reports": 9,
-                "proposals": 3,
-                "proposalsSupported": 75,
-                "amendments": 125,
-                "amendmentsSupported": 2057,
-                "amendmentsAdopted": 793,
-                "commissionsAttended": 233,
-                "commissionInterventions": 234,
-                "hemicycleInterventions": 206,
-                "hemicycleShortInterventions": 27,
-                "questionsWritten": 59,
-                "questionsOral": 5
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 7
         },
         {
             "firstname": "Aurélien",
             "lastname": "Lopez Liguori",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 7
         },
         {
             "firstname": "Yves",
             "lastname": "Michel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 7
         },
         {
             "firstname": "Daniel",
             "lastname": "Pilaudeau",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 7
         },
         {
             "firstname": "Magali",
             "lastname": "Richaud",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 34,
+            "county": "Hérault",
+            "circumscription": 7
         }
     ]
 }

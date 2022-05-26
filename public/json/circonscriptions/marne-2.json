@@ -4,17 +4,17 @@
     "name": "Marne",
     "results": {
         "firstRound": {
-            "registered": 74348,
+            "registered": 74347,
             "voted": 54185,
-            "whites": 671,
-            "expressed": 53205,
+            "whites": 669,
+            "expressed": 53207,
             "void": 309,
             "candidates": {
                 "Nathalie Arthaud": 314,
                 "Fabien Roussel": 975,
-                "Emmanuel Macron": 16867,
+                "Emmanuel Macron": 16868,
                 "Jean Lasalle": 1095,
-                "Marine Le Pen": 13380,
+                "Marine Le Pen": 13381,
                 "Jean-Luc Mélenchon": 9484,
                 "Anne Hidalgo": 780,
                 "Yannick Jadot": 2275,
@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 948,
                 "Eric Zemmour": 3924
             }
+        },
+        "secondRound": {
+            "registered": 74372,
+            "voted": 54388,
+            "whites": 2789,
+            "expressed": 50592,
+            "void": 1007,
+            "candidates": {
+                "Emmanuel Macron": 30097,
+                "Marine Le Pen": 20495
+            }
         }
+    },
+    "current": {
+        "id": "720214",
+        "lastname": "Kuric",
+        "firstname": "Aina",
+        "slug": "aina-kuric",
+        "gender": "F",
+        "birthday": "1987-05-15",
+        "birthplace": "Creil (Oise)",
+        "county": "Marne",
+        "countyId": 51,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "AE",
+        "job": "Chef d'entreprise dans l'œnologie",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 166,
+            "reports": 5,
+            "proposals": 4,
+            "proposalsSupported": 89,
+            "amendments": 177,
+            "amendmentsSupported": 2284,
+            "amendmentsAdopted": 701,
+            "commissionsAttended": 197,
+            "commissionInterventions": 100,
+            "hemicycleInterventions": 159,
+            "hemicycleShortInterventions": 14,
+            "questionsWritten": 59,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Anne-Sophie",
             "lastname": "Frigout",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Sébastien",
             "lastname": "Lelaurain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Lynda",
             "lastname": "Meguenine",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Laure",
             "lastname": "Miller",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Thomas",
             "lastname": "Rose",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 51,
+            "county": "Marne",
+            "circumscription": 2
         }
     ]
 }

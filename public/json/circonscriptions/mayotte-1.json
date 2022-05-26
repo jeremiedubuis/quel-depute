@@ -1,14 +1,14 @@
 {
-    "countyId": "ZM",
+    "countyId": 976,
     "number": 1,
     "name": "Mayotte",
     "results": {
         "firstRound": {
             "registered": 42446,
             "voted": 16749,
-            "whites": 428,
+            "whites": 427,
             "expressed": 15767,
-            "void": 554,
+            "void": 555,
             "candidates": {
                 "Nathalie Arthaud": 195,
                 "Fabien Roussel": 87,
@@ -23,7 +23,79 @@
                 "Nicolas Dupont-Aignan": 242,
                 "Eric Zemmour": 285
             }
+        },
+        "secondRound": {
+            "registered": 42650,
+            "voted": 18736,
+            "whites": 802,
+            "expressed": 17007,
+            "void": 927,
+            "candidates": {
+                "Emmanuel Macron": 7709,
+                "Marine Le Pen": 9298
+            }
         }
     },
-    "candidates": []
+    "current": {
+        "id": "724827",
+        "lastname": "Ali",
+        "firstname": "Ramlati",
+        "slug": "ramlati-ali",
+        "gender": "F",
+        "birthday": "1961-05-28",
+        "birthplace": "Pamandzi (Mayotte)",
+        "county": "Mayotte",
+        "countyId": 976,
+        "circumscription": 1,
+        "mandateStart": "2018-03-26",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 114,
+            "reports": 7,
+            "proposals": 1,
+            "proposalsSupported": 63,
+            "amendments": 120,
+            "amendmentsSupported": 2364,
+            "amendmentsAdopted": 1004,
+            "commissionsAttended": 162,
+            "commissionInterventions": 351,
+            "hemicycleInterventions": 85,
+            "hemicycleShortInterventions": 20,
+            "questionsWritten": 18,
+            "questionsOral": 8
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
+    },
+    "candidates": [
+        {
+            "firstname": "Issihaka",
+            "lastname": "Abdillah",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "countyId": 976,
+            "county": "Mayotte",
+            "circumscription": 1
+        },
+        {
+            "firstname": "Ramlati",
+            "lastname": "Ali",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 976,
+            "county": "Mayotte",
+            "circumscription": 1
+        }
+    ]
 }

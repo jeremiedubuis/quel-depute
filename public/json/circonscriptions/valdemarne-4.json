@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 1113,
                 "Eric Zemmour": 4221
             }
+        },
+        "secondRound": {
+            "registered": 73450,
+            "voted": 52666,
+            "whites": 3381,
+            "expressed": 48331,
+            "void": 954,
+            "candidates": {
+                "Emmanuel Macron": 33002,
+                "Marine Le Pen": 15329
+            }
         }
+    },
+    "current": {
+        "id": "721234",
+        "lastname": "Petit",
+        "firstname": "Maud",
+        "slug": "maud-petit",
+        "gender": "F",
+        "birthday": "1971-11-15",
+        "birthplace": "Paris (Paris)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "Mouvement Démocrate",
+        "groupShort": "MODEM",
+        "job": "Employée (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 112,
+            "amendments": 186,
+            "amendmentsSupported": 4009,
+            "amendmentsAdopted": 775,
+            "commissionsAttended": 227,
+            "commissionInterventions": 194,
+            "hemicycleInterventions": 252,
+            "hemicycleShortInterventions": 76,
+            "questionsWritten": 45,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Marie-Carole",
             "lastname": "Ciuntu",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Mirabelle",
             "lastname": "Lemaire",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Brigitte",
             "lastname": "Moulin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 4
         },
         {
-            "id": "721234",
-            "lastname": "Petit",
             "firstname": "Maud",
-            "slug": "maud-petit",
+            "lastname": "Petit",
             "gender": "F",
-            "birthday": "1971-11-15",
-            "birthplace": "Paris (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "La République en Marche",
+            "groupShort": "LREM",
+            "countyId": 94,
             "county": "Val-de-Marne",
-            "countyId": "94",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
-            "group": "Mouvement Démocrate",
-            "groupShort": "MODEM",
-            "job": "Employée (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 169,
-                "reports": 4,
-                "proposals": 2,
-                "proposalsSupported": 112,
-                "amendments": 186,
-                "amendmentsSupported": 4009,
-                "amendmentsAdopted": 775,
-                "commissionsAttended": 227,
-                "commissionInterventions": 194,
-                "hemicycleInterventions": 252,
-                "hemicycleShortInterventions": 76,
-                "questionsWritten": 45,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 4
         },
         {
             "firstname": "Alain",
             "lastname": "Philippet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 4
         },
         {
             "firstname": "Isabelle",
             "lastname": "Yvos",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 4
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 859,
                 "Eric Zemmour": 3000
             }
+        },
+        "secondRound": {
+            "registered": 83630,
+            "voted": 59648,
+            "whites": 3157,
+            "expressed": 55204,
+            "void": 1287,
+            "candidates": {
+                "Emmanuel Macron": 20667,
+                "Marine Le Pen": 34537
+            }
         }
+    },
+    "current": {
+        "id": "720546",
+        "lastname": "Bruneel",
+        "firstname": "Alain",
+        "slug": "alain-bruneel",
+        "gender": "H",
+        "birthday": "1952-03-07",
+        "birthplace": "Tourcoing (Nord)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 16,
+        "mandateStart": "2017-06-21",
+        "group": "Parti communiste français",
+        "groupShort": "GDR",
+        "job": "Retraité salarié privé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 3,
+            "proposals": 10,
+            "proposalsSupported": 183,
+            "amendments": 983,
+            "amendmentsSupported": 9362,
+            "amendmentsAdopted": 308,
+            "commissionsAttended": 145,
+            "commissionInterventions": 251,
+            "hemicycleInterventions": 809,
+            "hemicycleShortInterventions": 560,
+            "questionsWritten": 117,
+            "questionsOral": 44
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "720546",
-            "lastname": "Bruneel",
             "firstname": "Alain",
-            "slug": "alain-bruneel",
+            "lastname": "Bruneel",
             "gender": "H",
-            "birthday": "1952-03-07",
-            "birthplace": "Tourcoing (Nord)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Communiste Français",
+            "groupShort": "PCF",
+            "countyId": 59,
             "county": "Nord",
-            "countyId": "59",
-            "circumscription": 16,
-            "mandateStart": "2017-06-21",
-            "group": "Parti communiste français",
-            "groupShort": "GDR",
-            "job": "Retraité salarié privé",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 144,
-                "reports": 3,
-                "proposals": 10,
-                "proposalsSupported": 183,
-                "amendments": 983,
-                "amendmentsSupported": 9362,
-                "amendmentsAdopted": 308,
-                "commissionsAttended": 145,
-                "commissionInterventions": 251,
-                "hemicycleInterventions": 809,
-                "hemicycleShortInterventions": 560,
-                "questionsWritten": 117,
-                "questionsOral": 44
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 16
         },
         {
             "firstname": "Mady",
             "lastname": "Dorchies-Brillon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 16
         },
         {
             "firstname": "Matthieu",
             "lastname": "Marchio",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 16
         },
         {
             "firstname": "Éric",
             "lastname": "Pecqueur",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 16
         },
         {
             "firstname": "Chantal",
             "lastname": "Rybak",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 16
         },
         {
             "firstname": "Antoine",
             "lastname": "Stathoulias",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 16
         }
     ]
 }

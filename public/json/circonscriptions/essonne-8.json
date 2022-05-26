@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 3540,
                 "Eric Zemmour": 3845
             }
+        },
+        "secondRound": {
+            "registered": 75816,
+            "voted": 52170,
+            "whites": 3580,
+            "expressed": 47508,
+            "void": 1082,
+            "candidates": {
+                "Emmanuel Macron": 31328,
+                "Marine Le Pen": 16180
+            }
         }
+    },
+    "current": {
+        "id": "1206",
+        "lastname": "Dupont-Aignan",
+        "firstname": "Nicolas",
+        "slug": "nicolas-dupontaignan",
+        "gender": "H",
+        "birthday": "1961-03-07",
+        "birthplace": "Paris (Paris)",
+        "county": "Essonne",
+        "countyId": 91,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "Debout la France",
+        "groupShort": "NI",
+        "job": "Administrateur civil",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 148,
+            "reports": 1,
+            "proposals": 35,
+            "proposalsSupported": 87,
+            "amendments": 207,
+            "amendmentsSupported": 232,
+            "amendmentsAdopted": 0,
+            "commissionsAttended": 126,
+            "commissionInterventions": 120,
+            "hemicycleInterventions": 628,
+            "hemicycleShortInterventions": 435,
+            "questionsWritten": 224,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Mohamed",
             "lastname": "Bida",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 8
         },
         {
             "firstname": "Emilie",
             "lastname": "Chazette-Guillet",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 8
         },
         {
             "firstname": "Chantal",
             "lastname": "Duboulay",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 8
         },
         {
-            "id": "1206",
-            "lastname": "Dupont-Aignan",
             "firstname": "Nicolas",
-            "slug": "nicolas-dupontaignan",
+            "lastname": "Dupont-Aignan",
             "gender": "H",
-            "birthday": "1961-03-07",
-            "birthplace": "Paris (Paris)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "DLF",
+            "groupShort": "DLF",
+            "countyId": 91,
             "county": "Essonne",
-            "countyId": "91",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
-            "group": "Debout la France",
-            "groupShort": "NI",
-            "job": "Administrateur civil",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 148,
-                "reports": 1,
-                "proposals": 35,
-                "proposalsSupported": 87,
-                "amendments": 207,
-                "amendmentsSupported": 232,
-                "amendmentsAdopted": 0,
-                "commissionsAttended": 126,
-                "commissionInterventions": 120,
-                "hemicycleInterventions": 628,
-                "hemicycleShortInterventions": 435,
-                "questionsWritten": 223,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 8
         },
         {
             "firstname": "Daniel",
             "lastname": "Jacob",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 91,
+            "county": "Essonne",
+            "circumscription": 8
         }
     ]
 }

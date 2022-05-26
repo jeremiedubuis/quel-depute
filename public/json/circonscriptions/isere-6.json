@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 88676,
             "voted": 68317,
-            "whites": 1199,
+            "whites": 1195,
             "expressed": 66793,
-            "void": 325,
+            "void": 329,
             "candidates": {
                 "Nathalie Arthaud": 348,
                 "Fabien Roussel": 1233,
@@ -23,68 +23,103 @@
                 "Nicolas Dupont-Aignan": 1676,
                 "Eric Zemmour": 5946
             }
+        },
+        "secondRound": {
+            "registered": 88713,
+            "voted": 66174,
+            "whites": 3805,
+            "expressed": 61384,
+            "void": 985,
+            "candidates": {
+                "Emmanuel Macron": 30143,
+                "Marine Le Pen": 31241
+            }
         }
+    },
+    "current": {
+        "id": "719850",
+        "lastname": "Motin",
+        "firstname": "Cendra",
+        "slug": "cendra-motin",
+        "gender": "F",
+        "birthday": "1975-01-29",
+        "birthplace": "Bagnols-sur-Cèze (Gard)",
+        "county": "Isère",
+        "countyId": 38,
+        "circumscription": 6,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Autre profession libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 190,
+            "reports": 16,
+            "proposals": 1,
+            "proposalsSupported": 74,
+            "amendments": 444,
+            "amendmentsSupported": 2432,
+            "amendmentsAdopted": 1222,
+            "commissionsAttended": 563,
+            "commissionInterventions": 829,
+            "hemicycleInterventions": 1278,
+            "hemicycleShortInterventions": 2553,
+            "questionsWritten": 19,
+            "questionsOral": 7
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Nicole",
             "lastname": "Fillon",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 6
         },
         {
             "firstname": "Denise",
             "lastname": "Gomez",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 6
         },
         {
             "firstname": "Alexis",
             "lastname": "Jolly",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 38,
+            "county": "Isère",
+            "circumscription": 6
         },
         {
-            "id": "719850",
-            "lastname": "Motin",
             "firstname": "Cendra",
-            "slug": "cendra-motin",
+            "lastname": "Motin",
             "gender": "F",
-            "birthday": "1975-01-29",
-            "birthplace": "Bagnols-sur-Cèze (Gard)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Horizons",
+            "groupShort": "H",
+            "countyId": 38,
             "county": "Isère",
-            "countyId": "38",
-            "circumscription": 6,
-            "mandateStart": "2017-06-21",
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "job": "Autre profession libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 190,
-                "reports": 16,
-                "proposals": 1,
-                "proposalsSupported": 74,
-                "amendments": 444,
-                "amendmentsSupported": 2432,
-                "amendmentsAdopted": 1222,
-                "commissionsAttended": 563,
-                "commissionInterventions": 829,
-                "hemicycleInterventions": 1278,
-                "hemicycleShortInterventions": 2553,
-                "questionsWritten": 19,
-                "questionsOral": 7
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 6
         }
     ]
 }

@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2212,
                 "Eric Zemmour": 11888
             }
+        },
+        "secondRound": {
+            "registered": 112055,
+            "voted": 82572,
+            "whites": 4058,
+            "expressed": 77095,
+            "void": 1419,
+            "candidates": {
+                "Emmanuel Macron": 33056,
+                "Marine Le Pen": 44039
+            }
         }
+    },
+    "current": {
+        "id": "721726",
+        "lastname": "Mauborgne",
+        "firstname": "Sereine",
+        "slug": "sereine-mauborgne",
+        "gender": "F",
+        "birthday": "1972-05-03",
+        "birthplace": "Mans (Sarthe)",
+        "county": "Var",
+        "countyId": 83,
+        "circumscription": 4,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Infirmière libérale",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 175,
+            "reports": 4,
+            "proposals": 1,
+            "proposalsSupported": 122,
+            "amendments": 216,
+            "amendmentsSupported": 3528,
+            "amendmentsAdopted": 1147,
+            "commissionsAttended": 381,
+            "commissionInterventions": 342,
+            "hemicycleInterventions": 199,
+            "hemicycleShortInterventions": 57,
+            "questionsWritten": 55,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sabine",
             "lastname": "Cristofani-Viglione",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         },
         {
             "firstname": "Philippe",
             "lastname": "Lottiaux",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         },
         {
-            "id": "721726",
-            "lastname": "Mauborgne",
             "firstname": "Sereine",
-            "slug": "sereine-mauborgne",
+            "lastname": "Mauborgne",
             "gender": "F",
-            "birthday": "1972-05-03",
-            "birthplace": "Mans (Sarthe)",
-            "county": "Var",
-            "countyId": "83",
-            "circumscription": 4,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Infirmière libérale",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 175,
-                "reports": 4,
-                "proposals": 1,
-                "proposalsSupported": 122,
-                "amendments": 216,
-                "amendmentsSupported": 3528,
-                "amendmentsAdopted": 1147,
-                "commissionsAttended": 381,
-                "commissionInterventions": 342,
-                "hemicycleInterventions": 199,
-                "hemicycleShortInterventions": 57,
-                "questionsWritten": 55,
-                "questionsOral": 9
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         },
         {
             "firstname": "Pascale",
             "lastname": "Morel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         },
         {
             "firstname": "Sabrina",
             "lastname": "Ribeiro Teixeira",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         },
         {
             "firstname": "Eric",
             "lastname": "Zemmour",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 4
         }
     ]
 }

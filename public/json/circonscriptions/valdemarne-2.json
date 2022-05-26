@@ -23,56 +23,127 @@
                 "Nicolas Dupont-Aignan": 630,
                 "Eric Zemmour": 2857
             }
+        },
+        "secondRound": {
+            "registered": 65155,
+            "voted": 41896,
+            "whites": 3075,
+            "expressed": 37906,
+            "void": 915,
+            "candidates": {
+                "Emmanuel Macron": 27823,
+                "Marine Le Pen": 10083
+            }
         }
+    },
+    "current": {
+        "id": "720870",
+        "lastname": "Mbaye",
+        "firstname": "Jean François",
+        "slug": "jean-francois-mbaye",
+        "gender": "H",
+        "birthday": "1979-01-01",
+        "birthplace": "Dakar (Senegal)",
+        "county": "Val-de-Marne",
+        "countyId": 94,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Juriste",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 169,
+            "reports": 6,
+            "proposals": 3,
+            "proposalsSupported": 87,
+            "amendments": 316,
+            "amendmentsSupported": 2535,
+            "amendmentsAdopted": 1030,
+            "commissionsAttended": 331,
+            "commissionInterventions": 290,
+            "hemicycleInterventions": 264,
+            "hemicycleShortInterventions": 80,
+            "questionsWritten": 42,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Antoine",
             "lastname": "Ghaye",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Clémence",
             "lastname": "Guetté",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Thierry",
             "lastname": "Hebbrecht",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Jean-François",
             "lastname": "Mbaye",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Céline",
             "lastname": "Suin",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         },
         {
             "firstname": "Josefa",
             "lastname": "Torres",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 94,
+            "county": "Val-de-Marne",
+            "circumscription": 2
         }
     ]
 }

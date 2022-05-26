@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1133,
                 "Eric Zemmour": 2841
             }
+        },
+        "secondRound": {
+            "registered": 73609,
+            "voted": 56340,
+            "whites": 3482,
+            "expressed": 51482,
+            "void": 1376,
+            "candidates": {
+                "Emmanuel Macron": 33730,
+                "Marine Le Pen": 17752
+            }
         }
+    },
+    "current": {
+        "id": "333285",
+        "lastname": "Garot",
+        "firstname": "Guillaume",
+        "slug": "guillaume-garot",
+        "gender": "H",
+        "birthday": "1966-05-29",
+        "birthplace": "Laval (Mayenne)",
+        "county": "Mayenne",
+        "countyId": 53,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Parti socialiste",
+        "groupShort": "SOC",
+        "job": "Cadre administratif",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 151,
+            "reports": 8,
+            "proposals": 5,
+            "proposalsSupported": 85,
+            "amendments": 630,
+            "amendmentsSupported": 15177,
+            "amendmentsAdopted": 817,
+            "commissionsAttended": 215,
+            "commissionInterventions": 439,
+            "hemicycleInterventions": 512,
+            "hemicycleShortInterventions": 548,
+            "questionsWritten": 92,
+            "questionsOral": 20
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Fabrice",
             "lastname": "Cormier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         },
         {
-            "id": "333285",
-            "lastname": "Garot",
             "firstname": "Guillaume",
-            "slug": "guillaume-garot",
+            "lastname": "Garot",
             "gender": "H",
-            "birthday": "1966-05-29",
-            "birthplace": "Laval (Mayenne)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Parti Socialiste",
+            "groupShort": "PS",
+            "countyId": 53,
             "county": "Mayenne",
-            "countyId": "53",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
-            "group": "Parti socialiste",
-            "groupShort": "SOC",
-            "job": "Cadre administratif",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 151,
-                "reports": 8,
-                "proposals": 5,
-                "proposalsSupported": 85,
-                "amendments": 630,
-                "amendmentsSupported": 15177,
-                "amendmentsAdopted": 817,
-                "commissionsAttended": 215,
-                "commissionInterventions": 439,
-                "hemicycleInterventions": 512,
-                "hemicycleShortInterventions": 548,
-                "questionsWritten": 91,
-                "questionsOral": 20
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 1
         },
         {
             "firstname": "Alexandre",
             "lastname": "Maillard",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         },
         {
             "firstname": "Béatrice",
             "lastname": "Mottier",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         },
         {
             "firstname": "Sandra",
             "lastname": "Rocton",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         },
         {
             "firstname": "Fabrice",
             "lastname": "Romier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         },
         {
             "firstname": "Hugues",
             "lastname": "Schlienger",
-            "group": "Reconquête",
-            "groupShort": "R",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Reconquête",
+            "groupShort": "RC",
+            "countyId": 53,
+            "county": "Mayenne",
+            "circumscription": 1
         }
     ]
 }

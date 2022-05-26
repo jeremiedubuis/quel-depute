@@ -23,72 +23,151 @@
                 "Nicolas Dupont-Aignan": 1268,
                 "Eric Zemmour": 3017
             }
+        },
+        "secondRound": {
+            "registered": 89718,
+            "voted": 65016,
+            "whites": 5197,
+            "expressed": 58190,
+            "void": 1629,
+            "candidates": {
+                "Emmanuel Macron": 36711,
+                "Marine Le Pen": 21479
+            }
         }
+    },
+    "current": {
+        "id": "720046",
+        "lastname": "Dufeu",
+        "firstname": "Audrey",
+        "slug": "audrey-dufeu",
+        "gender": "F",
+        "birthday": "1980-06-03",
+        "birthplace": "Saint-Nazaire (Loire-Atlantique)",
+        "county": "Loire-Atlantique",
+        "countyId": 44,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Directrice établissement de santé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 123,
+            "reports": 2,
+            "proposals": 2,
+            "proposalsSupported": 69,
+            "amendments": 120,
+            "amendmentsSupported": 2327,
+            "amendmentsAdopted": 1314,
+            "commissionsAttended": 176,
+            "commissionInterventions": 159,
+            "hemicycleInterventions": 130,
+            "hemicycleShortInterventions": 27,
+            "questionsWritten": 77,
+            "questionsOral": 9
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Cécilia",
             "lastname": "Bossard",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Gauthier",
             "lastname": "Bouchet",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Hervé",
             "lastname": "Carro",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "UDB",
             "groupShort": "UDB",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Evelyne",
             "lastname": "Desmarie",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Breton",
             "groupShort": "Parti Breton",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Audrey",
             "lastname": "Dufeu-Schubert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Eddy",
             "lastname": "Le Beller",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Andréa",
             "lastname": "Porcher",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         },
         {
             "firstname": "Matthias",
             "lastname": "Tavel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 44,
+            "county": "Loire-Atlantique",
+            "circumscription": 8
         }
     ]
 }

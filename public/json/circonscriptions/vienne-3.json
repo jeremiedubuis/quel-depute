@@ -23,48 +23,115 @@
                 "Nicolas Dupont-Aignan": 1339,
                 "Eric Zemmour": 2993
             }
+        },
+        "secondRound": {
+            "registered": 72874,
+            "voted": 55908,
+            "whites": 3773,
+            "expressed": 50465,
+            "void": 1670,
+            "candidates": {
+                "Emmanuel Macron": 26965,
+                "Marine Le Pen": 23500
+            }
         }
+    },
+    "current": {
+        "id": "336439",
+        "lastname": "Clément",
+        "firstname": "Jean-Michel",
+        "slug": "jeanmichel-clement",
+        "gender": "H",
+        "birthday": "1954-10-31",
+        "birthplace": "Mauprevoir (Vienne)",
+        "county": "Vienne",
+        "countyId": 86,
+        "circumscription": 3,
+        "mandateStart": "2017-06-21",
+        "group": "Régions et peuples solidaires",
+        "groupShort": "LT",
+        "job": "Avocat",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 146,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 47,
+            "amendments": 233,
+            "amendmentsSupported": 7876,
+            "amendmentsAdopted": 314,
+            "commissionsAttended": 188,
+            "commissionInterventions": 180,
+            "hemicycleInterventions": 221,
+            "hemicycleShortInterventions": 23,
+            "questionsWritten": 37,
+            "questionsOral": 22
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Soizic",
             "lastname": "Jouan",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Pascal",
             "lastname": "Lecamp",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Eric",
             "lastname": "Soulat",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Jason",
             "lastname": "Valente",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 3
         },
         {
             "firstname": "Léonard",
             "lastname": "Zerbib",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 86,
+            "county": "Vienne",
+            "circumscription": 3
         }
     ]
 }

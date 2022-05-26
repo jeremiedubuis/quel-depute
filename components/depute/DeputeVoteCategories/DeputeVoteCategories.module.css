@@ -28,7 +28,7 @@
     background: var(--color-alert);
 }
 
-.warning {
+div.warning {
     position: absolute;
     top: -8px;
     right: -10px;
@@ -39,4 +39,11 @@
 
 .warning svg {
     fill: var(--color);
+}
+
+.details a {
+    float: left;
+    clear: left;
+    margin-top: 20px;
+    text-decoration: none;
 }

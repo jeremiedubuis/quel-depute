@@ -5,10 +5,10 @@
     "results": {
         "firstRound": {
             "registered": 70550,
-            "voted": 50150,
-            "whites": 637,
+            "voted": 50151,
+            "whites": 639,
             "expressed": 49284,
-            "void": 229,
+            "void": 228,
             "candidates": {
                 "Nathalie Arthaud": 230,
                 "Fabien Roussel": 990,
@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 713,
                 "Eric Zemmour": 3332
             }
+        },
+        "secondRound": {
+            "registered": 70575,
+            "voted": 48283,
+            "whites": 3338,
+            "expressed": 43965,
+            "void": 980,
+            "candidates": {
+                "Emmanuel Macron": 32777,
+                "Marine Le Pen": 11188
+            }
         }
+    },
+    "current": {
+        "id": "719790",
+        "lastname": "Chalumeau",
+        "firstname": "Philippe",
+        "slug": "philippe-chalumeau",
+        "gender": "H",
+        "birthday": "1963-11-08",
+        "birthplace": "Rochefort (Charente-Maritime)",
+        "county": "Indre-et-Loire",
+        "countyId": 37,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 170,
+            "reports": 0,
+            "proposals": 0,
+            "proposalsSupported": 92,
+            "amendments": 172,
+            "amendmentsSupported": 3317,
+            "amendmentsAdopted": 1236,
+            "commissionsAttended": 237,
+            "commissionInterventions": 113,
+            "hemicycleInterventions": 97,
+            "hemicycleShortInterventions": 31,
+            "questionsWritten": 48,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
-            "id": "719790",
-            "lastname": "Chalumeau",
             "firstname": "Philippe",
-            "slug": "philippe-chalumeau",
+            "lastname": "Chalumeau",
             "gender": "H",
-            "birthday": "1963-11-08",
-            "birthplace": "Rochefort (Charente-Maritime)",
-            "county": "Indre-et-Loire",
-            "countyId": "37",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 170,
-                "reports": 0,
-                "proposals": 0,
-                "proposalsSupported": 92,
-                "amendments": 172,
-                "amendmentsSupported": 3317,
-                "amendmentsAdopted": 1236,
-                "commissionsAttended": 237,
-                "commissionInterventions": 113,
-                "hemicycleInterventions": 97,
-                "hemicycleShortInterventions": 31,
-                "questionsWritten": 48,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "François",
             "lastname": "Ducamp",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Charles",
             "lastname": "Fournier",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "H",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Thomas",
             "lastname": "Jouhannaud",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Olivier",
             "lastname": "Lebreton",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         },
         {
             "firstname": "Stéphanie",
             "lastname": "Moreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 37,
+            "county": "Indre-et-Loire",
+            "circumscription": 1
         }
     ]
 }

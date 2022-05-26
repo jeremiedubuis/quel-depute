@@ -23,84 +23,127 @@
                 "Nicolas Dupont-Aignan": 2336,
                 "Eric Zemmour": 9739
             }
+        },
+        "secondRound": {
+            "registered": 108768,
+            "voted": 82011,
+            "whites": 4705,
+            "expressed": 75746,
+            "void": 1560,
+            "candidates": {
+                "Emmanuel Macron": 31308,
+                "Marine Le Pen": 44438
+            }
         }
+    },
+    "current": {
+        "id": "721800",
+        "lastname": "Matras",
+        "firstname": "Fabien",
+        "slug": "fabien-matras",
+        "gender": "H",
+        "birthday": "1984-09-12",
+        "birthplace": "Grenoble (Isère)",
+        "county": "Var",
+        "countyId": 83,
+        "circumscription": 8,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Enseignant vacataire Faculté",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 144,
+            "reports": 4,
+            "proposals": 2,
+            "proposalsSupported": 66,
+            "amendments": 173,
+            "amendmentsSupported": 2519,
+            "amendmentsAdopted": 1302,
+            "commissionsAttended": 197,
+            "commissionInterventions": 201,
+            "hemicycleInterventions": 134,
+            "hemicycleShortInterventions": 43,
+            "questionsWritten": 102,
+            "questionsOral": 2
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Virginie",
             "lastname": "Bourreau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         },
         {
             "firstname": "Marie-Claire",
             "lastname": "Carbonnel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Occitan",
             "groupShort": "PO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         },
         {
             "firstname": "Catherine",
             "lastname": "Jouanneau",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         },
         {
             "firstname": "Ludovic",
             "lastname": "Martin",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         },
         {
-            "id": "721800",
-            "lastname": "Matras",
             "firstname": "Fabien",
-            "slug": "fabien-matras",
+            "lastname": "Matras",
             "gender": "H",
-            "birthday": "1984-09-12",
-            "birthplace": "Grenoble (Isère)",
-            "county": "Var",
-            "countyId": "83",
-            "circumscription": 8,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Enseignant vacataire Faculté",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 144,
-                "reports": 4,
-                "proposals": 2,
-                "proposalsSupported": 66,
-                "amendments": 173,
-                "amendmentsSupported": 2519,
-                "amendmentsAdopted": 1302,
-                "commissionsAttended": 197,
-                "commissionInterventions": 201,
-                "hemicycleInterventions": 134,
-                "hemicycleShortInterventions": 43,
-                "questionsWritten": 102,
-                "questionsOral": 2
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         },
         {
             "firstname": "Philippe",
             "lastname": "Schreck",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 83,
+            "county": "Var",
+            "circumscription": 8
         }
     ]
 }

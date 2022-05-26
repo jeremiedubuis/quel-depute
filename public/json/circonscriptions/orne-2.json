@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 1295,
                 "Eric Zemmour": 3232
             }
+        },
+        "secondRound": {
+            "registered": 66027,
+            "voted": 50619,
+            "whites": 2921,
+            "expressed": 46664,
+            "void": 1034,
+            "candidates": {
+                "Emmanuel Macron": 23424,
+                "Marine Le Pen": 23240
+            }
         }
+    },
+    "current": {
+        "id": "608016",
+        "lastname": "Louwagie",
+        "firstname": "Véronique",
+        "slug": "veronique-louwagie",
+        "gender": "F",
+        "birthday": "1961-03-20",
+        "birthplace": "Buis sur Damville (Eure)",
+        "county": "Orne",
+        "countyId": 61,
+        "circumscription": 2,
+        "mandateStart": "2017-06-21",
+        "group": "Les Républicains",
+        "groupShort": "LR",
+        "job": "Expert-comptable",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 181,
+            "reports": 11,
+            "proposals": 22,
+            "proposalsSupported": 736,
+            "amendments": 3190,
+            "amendmentsSupported": 23692,
+            "amendmentsAdopted": 641,
+            "commissionsAttended": 446,
+            "commissionInterventions": 1407,
+            "hemicycleInterventions": 2046,
+            "hemicycleShortInterventions": 1659,
+            "questionsWritten": 238,
+            "questionsOral": 19
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Patricia",
             "lastname": "Ansquer",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         },
         {
             "firstname": "Cécile",
             "lastname": "Bussiere",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         },
         {
             "firstname": "Amal",
             "lastname": "El Khaledi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         },
         {
             "firstname": "Amale",
             "lastname": "El-Khaledi",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Horizons",
             "groupShort": "Horizons",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         },
         {
-            "id": "608016",
-            "lastname": "Louwagie",
             "firstname": "Véronique",
-            "slug": "veronique-louwagie",
+            "lastname": "Louwagie",
             "gender": "F",
-            "birthday": "1961-03-20",
-            "birthplace": "Buis sur Damville (Eure)",
+            "noPicture": true,
+            "candidate": true,
+            "group": "Union des Démocrates et Indépendants",
+            "groupShort": "UDI",
+            "countyId": 61,
             "county": "Orne",
-            "countyId": "61",
-            "circumscription": 2,
-            "mandateStart": "2017-06-21",
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "job": "Expert-comptable",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 181,
-                "reports": 11,
-                "proposals": 22,
-                "proposalsSupported": 736,
-                "amendments": 3190,
-                "amendmentsSupported": 23692,
-                "amendmentsAdopted": 641,
-                "commissionsAttended": 446,
-                "commissionInterventions": 1407,
-                "hemicycleInterventions": 2046,
-                "hemicycleShortInterventions": 1659,
-                "questionsWritten": 237,
-                "questionsOral": 19
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "circumscription": 2
         },
         {
             "firstname": "Alexandre",
             "lastname": "Morel",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         },
         {
             "firstname": "Bernadette",
             "lastname": "Velly",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 61,
+            "county": "Orne",
+            "circumscription": 2
         }
     ]
 }

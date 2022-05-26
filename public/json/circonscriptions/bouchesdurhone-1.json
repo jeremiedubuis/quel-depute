@@ -23,64 +23,139 @@
                 "Nicolas Dupont-Aignan": 1069,
                 "Eric Zemmour": 7378
             }
+        },
+        "secondRound": {
+            "registered": 80890,
+            "voted": 55997,
+            "whites": 2857,
+            "expressed": 52326,
+            "void": 814,
+            "candidates": {
+                "Emmanuel Macron": 26139,
+                "Marine Le Pen": 26187
+            }
         }
+    },
+    "current": {
+        "id": "330684",
+        "lastname": "Boyer",
+        "firstname": "Valérie",
+        "slug": "valerie-boyer",
+        "gender": "F",
+        "birthday": "1962-06-11",
+        "birthplace": "Bourges (Cher)",
+        "county": "Bouches-du-Rhône",
+        "countyId": 13,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "Non rattaché",
+        "groupShort": "LR",
+        "job": "Cadre du secteur de la santé",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 103,
+            "reports": 3,
+            "proposals": 22,
+            "proposalsSupported": 234,
+            "amendments": 281,
+            "amendmentsSupported": 7446,
+            "amendmentsAdopted": 187,
+            "commissionsAttended": 137,
+            "commissionInterventions": 241,
+            "hemicycleInterventions": 330,
+            "hemicycleShortInterventions": 461,
+            "questionsWritten": 70,
+            "questionsOral": 11
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Sabrina",
             "lastname": "Agresti-Dubache",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Julien",
             "lastname": "Avril",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Sarah",
             "lastname": "Boualem",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Marc",
             "lastname": "Cecone",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Monique",
             "lastname": "Griseti",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Flora",
             "lastname": "Jabes",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         },
         {
             "firstname": "Thibaud",
             "lastname": "Rosique",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti Socialiste",
             "groupShort": "PS",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 13,
+            "county": "Bouches-du-Rhône",
+            "circumscription": 1
         }
     ]
 }

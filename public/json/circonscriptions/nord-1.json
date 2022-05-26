@@ -23,92 +23,139 @@
                 "Nicolas Dupont-Aignan": 449,
                 "Eric Zemmour": 1942
             }
+        },
+        "secondRound": {
+            "registered": 63583,
+            "voted": 42565,
+            "whites": 2409,
+            "expressed": 39281,
+            "void": 875,
+            "candidates": {
+                "Emmanuel Macron": 29279,
+                "Marine Le Pen": 10002
+            }
         }
+    },
+    "current": {
+        "id": "720422",
+        "lastname": "Quatennens",
+        "firstname": "Adrien",
+        "slug": "adrien-quatennens",
+        "gender": "H",
+        "birthday": "1990-05-23",
+        "birthplace": "Lille (Nord)",
+        "county": "Nord",
+        "countyId": 59,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La France Insoumise",
+        "groupShort": "LFI",
+        "job": "Employé (secteur privé)",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 163,
+            "reports": 0,
+            "proposals": 2,
+            "proposalsSupported": 177,
+            "amendments": 3424,
+            "amendmentsSupported": 18866,
+            "amendmentsAdopted": 219,
+            "commissionsAttended": 204,
+            "commissionInterventions": 703,
+            "hemicycleInterventions": 994,
+            "hemicycleShortInterventions": 470,
+            "questionsWritten": 147,
+            "questionsOral": 40
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Hugo",
             "lastname": "Desmarchelier",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti pirate",
             "groupShort": "PP",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
             "firstname": "Vanessa",
             "lastname": "Duhamel",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
             "firstname": "Constance",
             "lastname": "Godest",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
             "firstname": "Pierre",
             "lastname": "Madelain",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
-            "id": "720422",
-            "lastname": "Quatennens",
             "firstname": "Adrien",
-            "slug": "adrien-quatennens",
+            "lastname": "Quatennens",
             "gender": "H",
-            "birthday": "1990-05-23",
-            "birthplace": "Lille (Nord)",
-            "county": "Nord",
-            "countyId": "59",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La France Insoumise",
             "groupShort": "LFI",
-            "job": "Employé (secteur privé)",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 163,
-                "reports": 0,
-                "proposals": 2,
-                "proposalsSupported": 177,
-                "amendments": 3424,
-                "amendmentsSupported": 18866,
-                "amendmentsAdopted": 219,
-                "commissionsAttended": 204,
-                "commissionInterventions": 703,
-                "hemicycleInterventions": 994,
-                "hemicycleShortInterventions": 470,
-                "questionsWritten": 147,
-                "questionsOral": 40
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
             "firstname": "Guy-Noël",
             "lastname": "Sellière",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Les Républicains",
             "groupShort": "LR",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         },
         {
             "firstname": "Valérie",
             "lastname": "Talpaert",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 59,
+            "county": "Nord",
+            "circumscription": 1
         }
     ]
 }

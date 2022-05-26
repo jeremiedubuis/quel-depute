@@ -6,9 +6,9 @@
         "firstRound": {
             "registered": 88161,
             "voted": 69599,
-            "whites": 1061,
+            "whites": 1059,
             "expressed": 68038,
-            "void": 500,
+            "void": 502,
             "candidates": {
                 "Nathalie Arthaud": 347,
                 "Fabien Roussel": 1881,
@@ -23,76 +23,115 @@
                 "Nicolas Dupont-Aignan": 1282,
                 "Eric Zemmour": 5839
             }
+        },
+        "secondRound": {
+            "registered": 88171,
+            "voted": 67170,
+            "whites": 4852,
+            "expressed": 60210,
+            "void": 2108,
+            "candidates": {
+                "Emmanuel Macron": 31859,
+                "Marine Le Pen": 28351
+            }
         }
+    },
+    "current": {
+        "id": "720022",
+        "lastname": "Lauzzana",
+        "firstname": "Michel",
+        "slug": "michel-lauzzana",
+        "gender": "H",
+        "birthday": "1957-03-20",
+        "birthplace": "Castelsarrasin (Tarn-et-Garonne)",
+        "county": "Lot-et-Garonne",
+        "countyId": 47,
+        "circumscription": 1,
+        "mandateStart": "2017-06-21",
+        "group": "La République en Marche",
+        "groupShort": "LREM",
+        "job": "Médecin",
+        "votes": [],
+        "scandals": [],
+        "presence": {
+            "weeksActive": 160,
+            "reports": 9,
+            "proposals": 1,
+            "proposalsSupported": 88,
+            "amendments": 110,
+            "amendmentsSupported": 2024,
+            "amendmentsAdopted": 1226,
+            "commissionsAttended": 378,
+            "commissionInterventions": 191,
+            "hemicycleInterventions": 112,
+            "hemicycleShortInterventions": 47,
+            "questionsWritten": 48,
+            "questionsOral": 6
+        },
+        "opposedGovernment": 0,
+        "supportedGovernment": 0,
+        "governmentLaws": 0
     },
     "candidates": [
         {
             "firstname": "Maryse",
             "lastname": "Combres",
-            "group": "Europe, Ecologie, les Verts",
-            "groupShort": "EELV",
             "gender": "F",
-            "noPicture": true
+            "noPicture": true,
+            "candidate": true,
+            "group": "Europe Écologie Les Verts",
+            "groupShort": "EELV",
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 1
         },
         {
             "firstname": "Sébastien",
             "lastname": "Delbosq",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Rassemblement National",
             "groupShort": "RN",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 1
         },
         {
             "firstname": "Mohamed",
             "lastname": "El Marbati",
+            "gender": "H",
+            "noPicture": true,
+            "candidate": true,
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "gender": "H",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 1
         },
         {
-            "id": "720022",
-            "lastname": "Lauzzana",
             "firstname": "Michel",
-            "slug": "michel-lauzzana",
+            "lastname": "Lauzzana",
             "gender": "H",
-            "birthday": "1957-03-20",
-            "birthplace": "Castelsarrasin (Tarn-et-Garonne)",
-            "county": "Lot-et-Garonne",
-            "countyId": "47",
-            "circumscription": 1,
-            "mandateStart": "2017-06-21",
+            "noPicture": true,
+            "candidate": true,
             "group": "La République en Marche",
             "groupShort": "LREM",
-            "job": "Médecin",
-            "votes": [],
-            "scandals": [],
-            "presence": {
-                "weeksActive": 160,
-                "reports": 9,
-                "proposals": 1,
-                "proposalsSupported": 88,
-                "amendments": 110,
-                "amendmentsSupported": 2024,
-                "amendmentsAdopted": 1226,
-                "commissionsAttended": 378,
-                "commissionInterventions": 191,
-                "hemicycleInterventions": 112,
-                "hemicycleShortInterventions": 47,
-                "questionsWritten": 48,
-                "questionsOral": 6
-            },
-            "opposedGovernment": 0,
-            "supportedGovernment": 0,
-            "governmentLaws": 0
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 1
         },
         {
             "firstname": "Sophie",
             "lastname": "Rambourg",
+            "gender": "F",
+            "noPicture": true,
+            "candidate": true,
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "gender": "F",
-            "noPicture": true
+            "countyId": 47,
+            "county": "Lot-et-Garonne",
+            "circumscription": 1
         }
     ]
 }
