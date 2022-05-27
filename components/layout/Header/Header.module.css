@@ -6,13 +6,22 @@
     justify-content: space-between;
 }
 
+.header>  a {
+    flex: 1;
+}
+
+.header > button {
+    margin: 0 10px;
+}
+
+.header > button svg {
+    width: 20px;
+    height: 20px;
+}
+
 .header img {
     display: block;
     width: 150px;
-}
-
-.nav {
-    display: none;
 }
 
 .nav.open {
@@ -20,9 +29,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .nav {
-        display: block;
-    }
 
     .header img {
         display: block;

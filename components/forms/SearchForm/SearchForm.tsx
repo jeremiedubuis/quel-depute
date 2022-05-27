@@ -1,15 +1,17 @@
 import styles from './SearchForm.module.css';
-import React, { SyntheticEvent, useState } from 'react';
+import React, {SyntheticEvent, useEffect, useState} from 'react';
 import { AutoComplete } from '$components/forms/AutoComplete/AutoComplete';
 import { Button } from '$components/buttons/Button/Button';
 import { FiMapPin } from 'react-icons/fi';
 import { slugify, slugifyNames } from '$helpers/slugify';
 import debounce from 'lodash/debounce';
-import { useRecoilValue } from 'recoil';
+import {useRecoilState, useRecoilValue, useSetRecoilState} from 'recoil';
 import { deputesListState } from '../../../atoms/deputesListState';
 import { useRouter } from 'next/router';
 import { ModalCityCircumscriptions } from '$components/modals/ModalCityCircumscriptions';
 import {cn} from "$helpers/cn";
+import {screenSizeState} from "../../../atoms/screeSizeState";
+import {mobileSearchOpenState} from "../../../atoms/mobileSearchOpenState";
 
 export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
 
@@ -17,10 +19,18 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
     const [cities, setCities] = useState([]);
     const [deputeMatches, setDeputeMatches] = useState([]);
     const { push } = useRouter();
+    const screenSize = useRecoilValue(screenSizeState);
+    const [mobileSearchOpen, setMobileSearchOpen] = useRecoilState(mobileSearchOpenState);
 
     const [villageCircumscriptions, setVillageCircumscriptions] = useState<
         { countyId: number; countyName: string; circumscriptionNumber: number }[] | null
     >(null);
+
+    useEffect(() => {
+        setMobileSearchOpen(false)
+    }, [])
+
+    if (small && screenSize < 1024 && !mobileSearchOpen) return null;
 
     const selectVillage = async (county: string, village: string) => {
         const countySlug = slugify(county);

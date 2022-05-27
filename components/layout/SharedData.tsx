@@ -3,6 +3,7 @@ import { useRecoilState, useSetRecoilState } from 'recoil';
 import { deputesListState } from '../../atoms/deputesListState';
 import { groupsListState } from '../../atoms/groupsListState';
 import { screenSizeState } from '../../atoms/screeSizeState';
+import {mobileSearchOpenState} from "../../atoms/mobileSearchOpenState";
 
 export const SharedData = () => {
     const [deputes, setDeputes] = useRecoilState(deputesListState);

@@ -11,7 +11,7 @@ const entries = [
 
 export const Nav: React.FC<{ primary?: boolean; className?: string }> = ({
     primary,
-    className
+    className,
 }) => {
     return (
         <nav className={cn(styles.nav, primary && styles.primary, className)}>

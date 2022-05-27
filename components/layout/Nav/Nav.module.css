@@ -1,12 +1,26 @@
-.nav {
+@media screen and (max-width:1023px) {
+    .nav {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background : rgba(255,255,255,0.9);
+        z-index: 4;
+        box-sizing: border-box;
+        padding: 0 20px 20px;
+        text-align: right;
+    }
 }
 
-.nav ul {
-    display: flex;
-}
+@media screen and (min-width: 1024px) {
 
-.nav li + li {
-    margin-left: 40px;
+    .nav ul {
+        display: flex;
+    }
+
+    .nav li + li {
+        margin-left: 40px;
+    }
 }
 
 .nav a {
