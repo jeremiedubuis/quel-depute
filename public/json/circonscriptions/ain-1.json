@@ -1,5 +1,5 @@
 {
-    "countyId": "01",
+    "countyId": 1,
     "number": 1,
     "name": "Ain",
     "results": {
@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Xavier",
-            "lastname": "Breton",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Brigitte",
-            "lastname": "Giannotti",
+            "lastname": "ARMENJON",
+            "firstname": "Eliane",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 1
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         },
         {
-            "firstname": "Sébastien",
-            "lastname": "Guéraud",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Vincent",
-            "lastname": "Guillermin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 1
-        },
-        {
+            "lastname": "LAHY",
             "firstname": "Éric",
-            "lastname": "Lahy",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "BRETON",
+            "firstname": "Xavier",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "PIROUX GIANNOTTI",
+            "firstname": "Brigitte",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MENDES",
+            "firstname": "Michael",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "BELLON",
+            "firstname": "Julien",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GUÉRAUD",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "GUILLERMIN",
+            "firstname": "Vincent",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         }
     ]
 }

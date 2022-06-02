@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Didier",
-            "lastname": "Brulé",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Dominique",
-            "lastname": "Château-Annaud",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Florence",
-            "lastname": "Dubessy",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
-        },
-        {
+            "lastname": "GOLÉO",
             "firstname": "Valérie",
-            "lastname": "Goléo",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Delphine",
-            "lastname": "Lingemann",
+            "lastname": "SANCHEZ",
+            "firstname": "Pascale",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "François",
-            "lastname": "Marotte",
+            "lastname": "CHAVROCHE",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BRULÉ",
+            "firstname": "Didier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MAROTTE",
+            "firstname": "François",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 63,
-            "county": "Puy-de-Dôme",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "DUBESSY",
+            "firstname": "Florence",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "LINGEMANN",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "HÉNOUX",
+            "firstname": "Béatrice",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PRADIER",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
         }
     ]
 }

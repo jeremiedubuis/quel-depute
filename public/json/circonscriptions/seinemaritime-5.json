@@ -74,88 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Jean",
-            "lastname": "Delalandre",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Alain",
-            "lastname": "Guillotte",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Eddy",
-            "lastname": "Lefaux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
-        },
-        {
+            "lastname": "LESEUL",
             "firstname": "Gérard",
-            "lastname": "Leseul",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Frédéric",
-            "lastname": "Mazier",
+            "lastname": "DELALANDRE",
+            "firstname": "Jean",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Cyril",
-            "lastname": "Montier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
-        },
-        {
+            "lastname": "SULKOWSKI",
             "firstname": "Simon",
-            "lastname": "Sulkowski",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "MONTIER",
+            "firstname": "Jean-Cyril",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MAZIER",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LEFAUX",
+            "firstname": "Eddy",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "GUILLOTTE",
+            "firstname": "Alain",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         }
     ]
 }

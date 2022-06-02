@@ -74,88 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Céline",
-            "lastname": "Calvez",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Pierre",
-            "lastname": "Chassat",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Cyril",
-            "lastname": "Crosnier Leconte",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
-        },
-        {
+            "lastname": "DRUET",
             "firstname": "Léa",
-            "lastname": "Druet-Faivre",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
+            "candidate": true
         },
         {
+            "lastname": "LAMBERT",
             "firstname": "Mireille",
-            "lastname": "Lambert",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Liliane",
-            "lastname": "Pradier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Alexandre",
-            "lastname": "Rousset",
+            "lastname": "CHASSAT",
+            "firstname": "Pierre",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 5
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "GEBARSKA",
+            "firstname": "Agnieszka",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GAROYAN",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "SEHATA",
+            "firstname": "Rezk",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "RABOTOSON",
+            "firstname": "Sonia",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "GACEM",
+            "firstname": "Zaya",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "CROSNIER LECONTE",
+            "firstname": "Cyril",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "KHALIL",
+            "firstname": "Mina",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "MERCIER",
+            "firstname": "Caroline",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "CALVEZ",
+            "firstname": "Céline",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "ROUSSET-LEBLOND",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ADREF",
+            "firstname": "Oussama",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

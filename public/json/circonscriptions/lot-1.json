@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Elsa",
-            "lastname": "Bougeard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Cendrine",
-            "lastname": "Couturier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Frédéric",
-            "lastname": "Descremps",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Ghislain",
-            "lastname": "Domenech",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
-        },
-        {
+            "lastname": "PRADIÉ",
             "firstname": "Aurélien",
-            "lastname": "Pradié",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
+            "lastname": "SALLINEN",
             "firstname": "Frédérique",
-            "lastname": "Sallinen",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 46,
-            "county": "Lot",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "DOMENECH",
+            "firstname": "Ghislain",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUGEARD",
+            "firstname": "Elsa",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "GOUSSU",
+            "firstname": "Monique",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "COUTURIER",
+            "firstname": "Cendrine",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BRANCO",
+            "firstname": "Rémi",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "GERARD",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "MAURY",
+            "firstname": "Patrice",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "STUMM",
+            "firstname": "Florent",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
         }
     ]
 }

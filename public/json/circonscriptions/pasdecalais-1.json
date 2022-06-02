@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Marie",
-            "lastname": "Bernard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Marie",
-            "lastname": "Berthoud",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Emmanuel",
-            "lastname": "Blairy",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Eric",
-            "lastname": "Cagnache",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Bruno",
-            "lastname": "Duvergé",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
-        },
-        {
+            "lastname": "WIELGOSZ",
             "firstname": "Michel",
-            "lastname": "Wielgosz",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "BERTHOUD",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "FLAHAUT",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "BERNARD",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "CAGNACHE",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BLAIRY",
+            "firstname": "Emmanuel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "FOURNIER",
+            "firstname": "Geoffrey",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DUVERGÉ",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "ITEY",
+            "firstname": "Liliane",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
         }
     ]
 }

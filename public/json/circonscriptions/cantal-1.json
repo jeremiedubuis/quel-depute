@@ -74,64 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Rémy",
-            "lastname": "Dauvillier",
+            "lastname": "GALLAIS",
+            "firstname": "Dorothée",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DESCOEUR",
+            "firstname": "Vincent",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "DAUVILLIER",
+            "firstname": "Rémy",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Vincent",
-            "lastname": "Descoeur",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Dorothée",
-            "lastname": "Gallais",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 1
-        },
-        {
+            "lastname": "TEYSSEDOU",
             "firstname": "Michel",
-            "lastname": "Maciazek",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Michel",
-            "lastname": "Teyssedou",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "DE  BALINCOURT",
+            "firstname": "Guillaume",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "MACIAZEK",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "DELPONT",
+            "firstname": "Jean-Pierre",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         }
     ]
 }

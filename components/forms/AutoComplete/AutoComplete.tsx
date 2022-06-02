@@ -99,7 +99,7 @@ export const AutoComplete: React.FC<AutoCompleteProps> = ({
                 ReactDOM.createPortal(
                     <ul className={styles.list} ref={absoluteRef} style={style}>
                         {list.map((v, i) => (
-                            <li key={v} className={selectedValue === v ? styles.selected : null}>
+                            <li key={`${v}-${i}`} className={selectedValue === v ? styles.selected : null}>
                                 <button
                                     type="button"
                                     onClick={(e) => {

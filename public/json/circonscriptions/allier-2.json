@@ -1,5 +1,5 @@
 {
-    "countyId": "03",
+    "countyId": 3,
     "number": 2,
     "name": "Allier",
     "results": {
@@ -74,88 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Jorys",
-            "lastname": "Bovet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Paul",
-            "lastname": "Duché",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Louise",
-            "lastname": "Heritier",
+            "lastname": "LÉGUILLON",
+            "firstname": "Marie-Claude",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Jacques",
-            "lastname": "Kegelart",
+            "lastname": "TRIKI",
+            "firstname": "Samir",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVC",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "KEGELART",
+            "firstname": "Jean-Jacques",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Bernard",
-            "lastname": "Lebel",
+            "lastname": "AFFRAIX",
+            "firstname": "Christophe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "DE NICOLAY",
+            "firstname": "Axelle",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GUILLAUMIN",
+            "firstname": "Jean-Marie",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LEBEL",
+            "firstname": "Bernard",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Luc",
-            "lastname": "Thomas",
+            "lastname": "CHATEL",
+            "firstname": "Philippe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
+            "nuance": "REG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         },
         {
+            "lastname": "BOVET",
+            "firstname": "Jorys",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAS",
+            "firstname": "Luc",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "VANCEUNEBROCK",
             "firstname": "Laurence",
-            "lastname": "Vanceunebrock",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "POZZOLI",
+            "firstname": "Bernard",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "HERITIER",
+            "firstname": "Louise",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
         }
     ]
 }

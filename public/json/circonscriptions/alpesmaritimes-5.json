@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 5,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,64 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Philippe",
-            "lastname": "Benassaya",
+            "lastname": "DELHEZ",
+            "firstname": "Thibault",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 5
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         },
         {
-            "firstname": "Agnès",
-            "lastname": "Benkemoun",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 5
+            "lastname": "VELLA",
+            "firstname": "Cédric",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "BRENIER-OHANESSIAN",
             "firstname": "Marine",
-            "lastname": "Brenier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
             "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 5
+            "groupShort": "horizons",
+            "candidate": true
         },
         {
+            "lastname": "KHALIFA",
+            "firstname": "Frank",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "D'INTORNI",
             "firstname": "Christelle",
-            "lastname": "d’Intorni",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Frank",
-            "lastname": "Khalifa",
+            "lastname": "BENKEMOUN",
+            "firstname": "Agnès",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BENASSAYA",
+            "firstname": "Philippe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 5
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "SOISSON",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "MAIYÉ",
+            "firstname": "Géraldine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "SPACH",
+            "firstname": "J.C Wahid",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

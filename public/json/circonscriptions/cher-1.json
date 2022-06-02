@@ -74,52 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Julie",
-            "lastname": "Apricena",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Sylvie",
-            "lastname": "Cerveau",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 1
-        },
-        {
+            "lastname": "CORMIER BOULIGEON",
             "firstname": "François",
-            "lastname": "Cormier-Bouligeon",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 1
+            "candidate": true
         },
         {
+            "lastname": "APRICENA",
+            "firstname": "Julie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DALLOIS",
             "firstname": "David",
-            "lastname": "Dallois",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "CERVEAU",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BÉRINGER",
+            "firstname": "Karine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BERNELLE",
+            "firstname": "Adrien-Laurent",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "CHARPENTIER",
+            "firstname": "Alex",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
         }
     ]
 }

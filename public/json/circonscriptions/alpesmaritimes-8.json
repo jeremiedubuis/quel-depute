@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 8,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,64 +74,124 @@
     },
     "candidates": [
         {
+            "lastname": "MARTINS",
+            "firstname": "Adelia",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "DESENS",
             "firstname": "Jean-Valéry",
-            "lastname": "Desens",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
             "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 8
+            "groupShort": "horizons",
+            "candidate": true
         },
         {
-            "firstname": "Dorette",
-            "lastname": "Landerer",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 8
+            "lastname": "GROSJEAN",
+            "firstname": "Adrien",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Alexandra",
-            "lastname": "Martin",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 8
-        },
-        {
+            "lastname": "PEREIRA",
             "firstname": "Marie-José",
-            "lastname": "Pereira",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Lucia",
-            "lastname": "Soudant",
+            "lastname": "MARTIN",
+            "firstname": "Alexandra",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "SOUDANT",
+            "firstname": "Lucia",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 8
+            "candidate": true
+        },
+        {
+            "lastname": "DUBOIS",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "FONTANESI",
+            "firstname": "Chantal",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BIBIANO",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "CLAUDEL",
+            "firstname": "Bernard",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "HAMONET",
+            "firstname": "Chantal",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "LANDERER",
+            "firstname": "Dorette",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

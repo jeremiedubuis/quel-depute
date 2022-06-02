@@ -1,5 +1,5 @@
 {
-    "countyId": "09",
+    "countyId": 9,
     "number": 2,
     "name": "Ariège",
     "results": {
@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
+            "lastname": "CARRIE",
             "firstname": "Bérengère",
-            "lastname": "Carrié",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "CHAROY",
             "firstname": "Quentin",
-            "lastname": "Charoy",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Rémi",
-            "lastname": "Dutrenois",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Michel",
-            "lastname": "Larive",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
-        },
-        {
+            "lastname": "TARRIEUX-ANTRANIKIAN",
             "firstname": "Alexandra",
-            "lastname": "Tarrieux-Antranikian",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "PANIFOUS",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "LARIVE",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "TESTARD",
             "firstname": "Théodora",
-            "lastname": "Testard",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "GARCIA",
+            "firstname": "Enzo",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "LAFFONT",
+            "firstname": "Patrick",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "DUTRENOIS",
+            "firstname": "Rémi",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "DE KERIMEL",
+            "firstname": "Yann",
+            "gender": "H",
+            "nuance": "DXD",
+            "nuanceComputed": "ext. d.",
+            "group": "divers extrême droite",
+            "groupShort": "divers extrême droite",
+            "candidate": true
+        },
+        {
+            "lastname": "AFONSO",
+            "firstname": "Paul",
+            "gender": "H",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
         }
     ]
 }

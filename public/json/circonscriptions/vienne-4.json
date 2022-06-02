@@ -74,88 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Anne-Laurence",
-            "lastname": "Bourat",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les centristes",
-            "groupShort": "LC",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Flavien",
-            "lastname": "Cartier",
+            "lastname": "LIEUTET",
+            "firstname": "Gerard",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Marion",
-            "lastname": "Latus",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Gérard",
-            "lastname": "Lieutet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
+            "nuance": "REG",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
             "groupShort": "PP",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "PIMOT",
             "firstname": "Sylvie",
-            "lastname": "Pimot",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Nicolas",
-            "lastname": "Turquois",
+            "lastname": "GUICHARD",
+            "firstname": "Patrick",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         },
         {
+            "lastname": "VILLERET",
             "firstname": "Patrice",
-            "lastname": "Villeret",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 86,
-            "county": "Vienne",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "LATUS",
+            "firstname": "Marion",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CARTIER",
+            "firstname": "Flavien",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "VERDIN",
+            "firstname": "Alain",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "TURQUOIS",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "AUGER",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

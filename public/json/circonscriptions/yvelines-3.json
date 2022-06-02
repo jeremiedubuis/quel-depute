@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Olivier",
-            "lastname": "Augustin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Louise",
-            "lastname": "Brody",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
-        },
-        {
+            "lastname": "COQUARD",
             "firstname": "Bertrand",
-            "lastname": "Coquard",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
             "groupShort": "UDI",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Jean-François",
-            "lastname": "Cuignet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
-        },
-        {
+            "lastname": "DESCHAMPS",
             "firstname": "Lionel",
-            "lastname": "Deschamps",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Pierre-Yves",
-            "lastname": "Pinchaux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Béatrice",
-            "lastname": "Piron",
+            "lastname": "ASLAN",
+            "firstname": "Ayse",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "PIRON",
+            "firstname": "Béatrice",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 78,
-            "county": "Yvelines",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "NIEBEL",
+            "firstname": "Caroline",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "GUIGARD",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "CUIGNET",
+            "firstname": "Jean-François",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PINCHAUX",
+            "firstname": "Pierre-Yves",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "AUGUSTIN",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BRODY",
+            "firstname": "Louise",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
         }
     ]
 }

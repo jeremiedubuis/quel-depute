@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 1,
     "name": "Alpes-Maritimes",
     "results": {
@@ -55,7 +55,7 @@
         "scandals": [],
         "presence": {
             "weeksActive": 189,
-            "reports": 4,
+            "reports": 5,
             "proposals": 33,
             "proposalsSupported": 248,
             "amendments": 1220,
@@ -74,76 +74,124 @@
     },
     "candidates": [
         {
-            "firstname": "Anne-Laure",
-            "lastname": "Chaintron",
+            "lastname": "BEAUDET",
+            "firstname": "Chantal",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         },
         {
-            "firstname": "Eric",
-            "lastname": "Ciotti",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
-        },
-        {
+            "lastname": "IMBERT",
             "firstname": "Florent",
-            "lastname": "Imbert",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Loïc",
-            "lastname": "Lalande",
+            "lastname": "CIOTTI",
+            "firstname": "Eric",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "VITETTI",
+            "firstname": "Muriel",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ZAKRZEWSKI",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "MONETTI",
+            "firstname": "Graig",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAINTRON",
+            "firstname": "Anne-Laure",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BEN MOULAY",
+            "firstname": "Lalla-Chama Gabrielle",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "DLOUSSKY",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "LALANDE",
+            "firstname": "LoÏc",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Graig",
-            "lastname": "Monetti",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Muriel",
-            "lastname": "Vitetti",
+            "lastname": "ATHANASOPOULOS",
+            "firstname": "Kenza",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 1
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "RAZEAU",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

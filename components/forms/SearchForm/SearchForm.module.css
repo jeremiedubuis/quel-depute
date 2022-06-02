@@ -56,6 +56,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+
+.nameResult span {
+    display: block;
+    color: var(--color-low)
+}
+
 @media screen and (min-width: 768px) {
     .form .field {
         display: inline-block;

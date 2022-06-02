@@ -65,7 +65,7 @@
             "commissionInterventions": 14,
             "hemicycleInterventions": 15,
             "hemicycleShortInterventions": 8,
-            "questionsWritten": 70,
+            "questionsWritten": 72,
             "questionsOral": 4
         },
         "opposedGovernment": 0,
@@ -74,112 +74,174 @@
     },
     "candidates": [
         {
-            "firstname": "Jean-Luc",
-            "lastname": "Bourgeaux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Julien",
-            "lastname": "Delcourt",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
-        },
-        {
+            "lastname": "DESCOTTES",
             "firstname": "Edouard",
-            "lastname": "Descottes",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
+            "candidate": true
         },
         {
-            "firstname": "Marie-Thérèse",
-            "lastname": "Drelon",
+            "lastname": "GUIVARC'H",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BÉQUIGNON",
+            "firstname": "Claude",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "LEMOINE",
+            "firstname": "Dylan",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DRELON",
+            "firstname": "Marie-Thérèse",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
+            "candidate": true
         },
         {
-            "firstname": "Etienne",
-            "lastname": "Gruenais",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Nicolas",
-            "lastname": "Guivarc'h",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
-        },
-        {
+            "lastname": "LE GAGNE",
             "firstname": "Anne",
-            "lastname": "Le Gagne",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         },
         {
-            "firstname": "Éliane",
-            "lastname": "Leclercq",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Dylan",
-            "lastname": "Lemoine",
+            "lastname": "GRUENAIS",
+            "firstname": "Étienne",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 7
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "GROISIER",
+            "firstname": "Jean-Michel",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "LECLERCQ",
+            "firstname": "Eliane",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "FERRIAULT",
+            "firstname": "Nelly",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "BEN LAHCEN",
+            "firstname": "IsmaÏl",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "ROSENSTECH",
+            "firstname": "LeÏla",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOURGEAUX",
+            "firstname": "Jean-Luc",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "PÉAN",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "DELCOURT",
+            "firstname": "Julien",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "FICHET",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "KUCZYK",
+            "firstname": "Raoul",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

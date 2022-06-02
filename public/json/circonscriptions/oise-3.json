@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
+            "lastname": "LUCAS",
+            "firstname": "Johann",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "BOIS",
             "firstname": "Pascal",
-            "lastname": "Bois",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Maxime",
-            "lastname": "Bouilly Geronimi",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "lastname": "ROUSSEL",
+            "firstname": "Julie",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "DIETRICH",
             "firstname": "Christophe",
-            "lastname": "Dietrich",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Valérie",
-            "lastname": "Labatut",
+            "lastname": "GRELA",
+            "firstname": "Viridiana",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         },
         {
-            "firstname": "Alexandre",
-            "lastname": "Sabatou",
+            "lastname": "BOUILLY GERONIMI",
+            "firstname": "Maxime",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         },
         {
+            "lastname": "SZPIRKO",
             "firstname": "Roland",
-            "lastname": "Szpirko",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "SABATOU",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "LABATUT",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
         }
     ]
 }

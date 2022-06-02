@@ -1,5 +1,5 @@
 {
-    "countyId": "999",
+    "countyId": 999,
     "number": 4,
     "name": "Français établis hors de France",
     "results": {
@@ -74,124 +74,104 @@
     },
     "candidates": [
         {
+            "lastname": "ANGLADE",
             "firstname": "Pieyre-Alexandre",
-            "lastname": "Anglade",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Catherine",
-            "lastname": "Coutard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Gaëlle",
-            "lastname": "Cronel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
+            "lastname": "CUIGNET",
             "firstname": "Emmanuelle",
-            "lastname": "Cuignet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         },
         {
-            "firstname": "Cédric",
-            "lastname": "Deverchere",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Anne-Catherine",
-            "lastname": "Girard",
+            "lastname": "MACHICOTE",
+            "firstname": "Genevieve",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Cécilia",
-            "lastname": "Gondard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Marie-Josée",
-            "lastname": "Mabasi",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Geneviève",
-            "lastname": "Machicote",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "THEVENOT",
             "firstname": "Valentin",
-            "lastname": "Thevenot",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "CRONEL",
+            "firstname": "Gaëlle",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "GONDARD",
+            "firstname": "Cécilia",
+            "gender": "F",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "DEVERCHERE",
+            "firstname": "Cédric",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "COUTARD",
+            "firstname": "Catherine",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "MABASI",
+            "firstname": "Marie-Josée",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "GIRARD",
+            "firstname": "Anne-Catherine",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         }
     ]
 }

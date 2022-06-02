@@ -74,100 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Damien",
-            "lastname": "Adam",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Olivier",
-            "lastname": "Cleland",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Melanie",
-            "lastname": "Crosnier",
+            "lastname": "CROSNIER",
+            "firstname": "Mélanie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Maxime",
-            "lastname": "Da Silva",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Christine",
-            "lastname": "de Cintré",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Valérie",
-            "lastname": "Foissey",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Pierre-Alexandre",
-            "lastname": "Guesdon",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
-        },
-        {
+            "lastname": "ROUX",
             "firstname": "Marie-Hélène",
-            "lastname": "Roux",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "DA SILVA",
+            "firstname": "Maxime",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "DE CINTRÉ",
+            "firstname": "Christine",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "ADAM",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "FOISSEY",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "CLELAND",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BESSON",
+            "firstname": "Pierre-Alexandre",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "VITARD",
+            "firstname": "Céline",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "VACQUER",
+            "firstname": "Richard",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "GUESDON",
+            "firstname": "Pierre-Alexandre",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         }
     ]
 }

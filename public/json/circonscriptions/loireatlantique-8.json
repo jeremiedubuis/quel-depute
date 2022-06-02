@@ -74,100 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Cécilia",
-            "lastname": "Bossard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Gauthier",
-            "lastname": "Bouchet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Hervé",
-            "lastname": "Carro",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Evelyne",
-            "lastname": "Desmarie",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Audrey",
-            "lastname": "Dufeu-Schubert",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Eddy",
-            "lastname": "Le Beller",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
-        },
-        {
+            "lastname": "PORCHER",
             "firstname": "Andréa",
-            "lastname": "Porcher",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Matthias",
-            "lastname": "Tavel",
+            "lastname": "BOSSARD",
+            "firstname": "Cécilia",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "LE BELLER",
+            "firstname": "Eddy",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "PETREAU",
+            "firstname": "Bénédicte",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "TAVEL",
+            "firstname": "Matthias",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 44,
-            "county": "Loire-Atlantique",
-            "circumscription": 8
+            "candidate": true
+        },
+        {
+            "lastname": "DUVILLIER",
+            "firstname": "Frédérica",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DUFEU",
+            "firstname": "Audrey",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "PERRIN",
+            "firstname": "Xavier",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUCHET",
+            "firstname": "Gauthier",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CARRO",
+            "firstname": "Hervé",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "UDB",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "DESMARIE",
+            "firstname": "Evelyne",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUCHEZ",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "MASSON",
+            "firstname": "Edith",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         }
     ]
 }

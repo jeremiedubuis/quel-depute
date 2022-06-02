@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Gabriel",
-            "lastname": "Blasco",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Christophe",
-            "lastname": "Euzet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Aurélien",
-            "lastname": "Lopez Liguori",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Yves",
-            "lastname": "Michel",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Daniel",
-            "lastname": "Pilaudeau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Magali",
-            "lastname": "Richaud",
+            "lastname": "GARCIN-SAUDO",
+            "firstname": "Julie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RDG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "LOPEZ LIGUORI",
+            "firstname": "Aurélien",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "RICHAUD",
+            "firstname": "Magali",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 7
+            "candidate": true
+        },
+        {
+            "lastname": "BLASCO",
+            "firstname": "Gabriel",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "PILAUDEAU",
+            "firstname": "Daniel",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "CAVAILLÉ",
+            "firstname": "Audrey",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GALLERAND",
+            "firstname": "Georges",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "EUZET",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MICHEL",
+            "firstname": "Yves",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "GONZALES",
+            "firstname": "Jacqueline",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "SULTANI",
+            "firstname": "Guillaume",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

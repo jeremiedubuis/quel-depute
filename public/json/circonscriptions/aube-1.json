@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Grégory",
-            "lastname": "Besson-Moreau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 10,
-            "county": "Aube",
-            "circumscription": 1
-        },
-        {
+            "lastname": "FRAENKEL",
             "firstname": "Stéphanie",
-            "lastname": "Fraenkel",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 10,
-            "county": "Aube",
-            "circumscription": 1
+            "candidate": true
         },
         {
+            "lastname": "BESSON-MOREAU",
+            "firstname": "Grégory",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GUITTON",
             "firstname": "Jordan",
-            "lastname": "Guitton",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 10,
-            "county": "Aube",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Lionel",
-            "lastname": "Paillard",
+            "lastname": "GIACOMONI",
+            "firstname": "Hervé",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PIEPLU",
+            "firstname": "Lydie",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "SPAGNESI",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "PAILLARD",
+            "firstname": "Lionel",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 10,
-            "county": "Aube",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Laurent",
-            "lastname": "Spagnesi",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 10,
-            "county": "Aube",
-            "circumscription": 1
+            "lastname": "CANAUD",
+            "firstname": "Marie-Elisabeth",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

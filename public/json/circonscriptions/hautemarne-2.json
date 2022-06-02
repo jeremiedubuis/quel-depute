@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
+            "lastname": "CORNUT-GENTILLE",
             "firstname": "François",
-            "lastname": "Cornut-Gentille",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 52,
-            "county": "Haute-Marne",
-            "circumscription": 2
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
+            "lastname": "DAVAL",
             "firstname": "Déborah",
-            "lastname": "Daval",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 52,
-            "county": "Haute-Marne",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Justin",
-            "lastname": "Prum",
+            "lastname": "NOVAC",
+            "firstname": "Philippe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LETTRÉE",
+            "firstname": "Anne",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "VIOT",
+            "firstname": "Ingrid",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "ROBERT-DEHAULT",
+            "firstname": "Laurence",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "VALLÉE",
+            "firstname": "Marie-Agnès",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "PRUM",
+            "firstname": "Justin",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 52,
-            "county": "Haute-Marne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Laurence",
-            "lastname": "Robert-Dehault",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 52,
-            "county": "Haute-Marne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Ingrid",
-            "lastname": "Viot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 52,
-            "county": "Haute-Marne",
-            "circumscription": 2
+            "candidate": true
         }
     ]
 }

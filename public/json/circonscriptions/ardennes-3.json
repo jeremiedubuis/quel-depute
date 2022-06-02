@@ -1,5 +1,5 @@
 {
-    "countyId": "08",
+    "countyId": 8,
     "number": 3,
     "name": "Ardennes",
     "results": {
@@ -74,52 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Laure",
-            "lastname": "Augier",
+            "lastname": "NORTH",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DRION",
+            "firstname": "Estelle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "PERRIN",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "AUGIER",
+            "firstname": "Laure",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Estelle",
-            "lastname": "Drion",
+            "lastname": "PELTRIAUX",
+            "firstname": "Monique",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 3
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         },
         {
+            "lastname": "LEMOINE",
             "firstname": "David",
-            "lastname": "Lemoine",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Sophie",
-            "lastname": "Perrin",
+            "lastname": "WARSMANN",
+            "firstname": "Jean-Luc",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "BATISSE",
+            "firstname": "Stella",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 3
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         }
     ]
 }

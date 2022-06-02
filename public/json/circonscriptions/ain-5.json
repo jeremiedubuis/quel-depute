@@ -1,5 +1,5 @@
 {
-    "countyId": "01",
+    "countyId": 1,
     "number": 5,
     "name": "Ain",
     "results": {
@@ -74,64 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Damien",
-            "lastname": "Abad",
+            "lastname": "TOURNIER-BILLON",
+            "firstname": "Philippe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 5
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Sylvie",
-            "lastname": "Crozet",
+            "lastname": "FABRIS",
+            "firstname": "Grégory",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "NAMBOTIN",
+            "firstname": "Joëlle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CROZET",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Joëlle",
-            "lastname": "Nambotin Gobbi",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Florence",
-            "lastname": "Pisani",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Philippe",
-            "lastname": "Tournier-Billon",
+            "lastname": "MARTINEZ",
+            "firstname": "Julien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 5
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "YILMAZ",
+            "firstname": "Celil",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "ABAD",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "PARIS",
+            "firstname": "Stéphanie",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "BOULMÉ",
+            "firstname": "Jean-Michel",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "PISANI",
+            "firstname": "Florence",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
         }
     ]
 }

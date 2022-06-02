@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Olivier",
-            "lastname": "Beslier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Angeline",
-            "lastname": "Furet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Thomas",
-            "lastname": "Hubert",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Marietta",
-            "lastname": "Karamanli",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
-        },
-        {
+            "lastname": "LE FORESTIER",
             "firstname": "François",
-            "lastname": "Le Forestier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "MONET",
             "firstname": "Alexandra",
-            "lastname": "Monet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons,LRM",
-            "groupShort": "Horizons,LRM",
-            "countyId": 72,
-            "county": "Sarthe",
-            "circumscription": 2
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "BESLIER",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "CABARET",
+            "firstname": "Muriel",
+            "gender": "F",
+            "nuance": "SOC",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "KARAMANLI",
+            "firstname": "Marietta",
+            "gender": "F",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "TROCHON",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "FURET",
+            "firstname": "Angéline",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "HUBERT",
+            "firstname": "Thomas",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "PICAVEZ",
+            "firstname": "Vincent",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "ext. g.",
+            "group": "autres extrême gauche",
+            "groupShort": "autres extrême gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "JOVER",
+            "firstname": "Serge",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "ZBIROU",
+            "firstname": "Marylin",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
         }
     ]
 }

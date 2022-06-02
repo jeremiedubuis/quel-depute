@@ -74,64 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Diane",
-            "lastname": "Bousset",
+            "lastname": "HOCQUET",
+            "firstname": "Hervé",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "GALANTE",
+            "firstname": "Clément",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ZANNIER",
+            "firstname": "Hélène",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MULLER",
+            "firstname": "Luc",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUCHER",
+            "firstname": "Anne",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUSSET",
+            "firstname": "Diane",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 7
+            "candidate": true
         },
         {
-            "firstname": "Clément",
-            "lastname": "Galante",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 7
-        },
-        {
+            "lastname": "LOUBET",
             "firstname": "Alexandre",
-            "lastname": "Loubet",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Luc",
-            "lastname": "Muller",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Hélène",
-            "lastname": "Zannier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 7
+            "candidate": true
         }
     ]
 }

@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Géraldine",
-            "lastname": "Bannier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Grégory",
-            "lastname": "Boisseau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Jean-Michel",
-            "lastname": "Cadenas",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 2
-        },
-        {
+            "lastname": "D'HERBAIS",
             "firstname": "Pierre",
-            "lastname": "d'Herbais",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 2
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Luc",
-            "lastname": "Placé",
+            "lastname": "BOISSEAU",
+            "firstname": "Grégory",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "PLACE",
+            "firstname": "Jean-Luc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "BAYLE DE JESSE",
+            "firstname": "Jean",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "CADENAS",
+            "firstname": "Jean-Michel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DIRSON",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "LANGOUET",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "LRM dis.",
+            "group": "dissident La République en marche",
+            "groupShort": "dissident la république en marche",
+            "candidate": true
+        },
+        {
+            "lastname": "BANNIER",
+            "firstname": "Géraldine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         }
     ]
 }

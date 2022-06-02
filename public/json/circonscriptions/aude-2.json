@@ -74,88 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Cyril",
-            "lastname": "Cambon",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Quentin",
-            "lastname": "Estrade",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les centristes",
-            "groupShort": "LC",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Frédéric",
-            "lastname": "Falcon",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Alain",
-            "lastname": "Perea",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Edouard",
-            "lastname": "Rocher",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Radical de Gauche",
-            "groupShort": "PRG",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Viviane",
-            "lastname": "Thivent",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
-        },
-        {
+            "lastname": "VIGIER",
             "firstname": "Annette",
-            "lastname": "Vigier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 11,
-            "county": "Aude",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "ESTRADE",
+            "firstname": "Quentin",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "ROCHER",
+            "firstname": "Edouard",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "FALCON",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "LENFANT",
+            "firstname": "Gérard",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAS",
+            "firstname": "Francis",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "THIVENT",
+            "firstname": "Viviane",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "CAMBON",
+            "firstname": "Cyril",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "VASSEUR",
+            "firstname": "Baptiste",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "MONTERO-VALLE",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "CALGARO",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "DARAUD",
+            "firstname": "Jean-François",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PEREA",
+            "firstname": "Alain",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MIRABILE",
+            "firstname": "Fabien",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Adrien",
-            "lastname": "Baert",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Emma",
-            "lastname": "Debeugny",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Nadia",
-            "lastname": "Essayan",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
-        },
-        {
+            "lastname": "POLY",
             "firstname": "Christine",
-            "lastname": "Poly",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "FLORENT",
+            "firstname": "Monique",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "PATTE-SUCHETET",
+            "firstname": "Mathilde",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ROBIN",
             "firstname": "Régis",
-            "lastname": "Robin",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Nicolas",
-            "lastname": "Sansu",
+            "lastname": "DEBEUGNY",
+            "firstname": "Emma",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BAERT",
+            "firstname": "Adrien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "SANSU",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
             "groupShort": "PCF",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "ESSAYAN",
+            "firstname": "Nadia",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "MERLIN",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

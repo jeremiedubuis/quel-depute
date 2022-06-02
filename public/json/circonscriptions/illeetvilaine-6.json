@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Adrien",
-            "lastname": "Aubrée",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Thierry",
-            "lastname": "Benoit",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
-        },
-        {
+            "lastname": "FLOCH",
             "firstname": "Nolwenn",
-            "lastname": "Floch",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
             "groupShort": "PP",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Ludovic",
-            "lastname": "Hubert",
+            "lastname": "BENOIT",
+            "firstname": "Thierry",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "HUBERT",
+            "firstname": "Ludovic",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
+            "candidate": true
         },
         {
+            "lastname": "MOCQUARD",
             "firstname": "Hélène",
-            "lastname": "Mocquard",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Maricela",
-            "lastname": "Murgeanu",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Gilles",
-            "lastname": "Pennelle",
+            "lastname": "AUBRÉE",
+            "firstname": "Adrien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "MURGEANU",
+            "firstname": "Maricela",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "MARION",
+            "firstname": "Tangi",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BECHADERGUE",
+            "firstname": "Emilie",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PENNELLE",
+            "firstname": "Gilles",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "ANDRÉ",
+            "firstname": "Dominique",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         }
     ]
 }

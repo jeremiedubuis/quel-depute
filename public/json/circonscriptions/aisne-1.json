@@ -1,5 +1,5 @@
 {
-    "countyId": "02",
+    "countyId": 2,
     "number": 1,
     "name": "Aisne",
     "results": {
@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Aude",
-            "lastname": "Bono-Vandorme",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Benjamin",
-            "lastname": "Cauchy",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Nicolas",
-            "lastname": "Dragon",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
-        },
-        {
+            "lastname": "FENIOUX",
             "firstname": "Olivier",
-            "lastname": "Fenioux",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Paul",
-            "lastname": "Mougenot",
+            "lastname": "BONO-VANDORME",
+            "firstname": "Aude",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CAUCHY",
+            "firstname": "Benjamin",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "PERNELLE",
             "firstname": "Jean-Loup",
-            "lastname": "Pernelle",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "DEGOUY",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "DRAGON",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MOUGENOT",
+            "firstname": "Paul",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "RIBEIRO",
+            "firstname": "Carole",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         }
     ]
 }

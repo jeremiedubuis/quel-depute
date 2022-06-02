@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 7,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,100 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Tanguy",
-            "lastname": "Cornec",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
-        },
-        {
+            "lastname": "DELCASSE",
             "firstname": "Arnaud",
-            "lastname": "Delcasse",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Fédération de la Gauche Républicaine",
-            "groupShort": "FGR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
+            "nuance": "DVG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         },
         {
-            "firstname": "Stanislas",
-            "lastname": "Maréchal",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
-        },
-        {
+            "lastname": "PAUGET",
             "firstname": "Eric",
-            "lastname": "Mele",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Arthur",
-            "lastname": "Meyer Abatucci",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Mégane",
-            "lastname": "Pargaud",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Eric",
-            "lastname": "Pauget",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
+            "candidate": true
         },
         {
-            "firstname": "Christian",
-            "lastname": "Petard",
+            "lastname": "MEYER-ABBATUCCI",
+            "firstname": "Arthur",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "MELE",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MARIUS",
+            "firstname": "Audrey",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "CORNEC",
+            "firstname": "Tanguy",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "HUMBERT",
+            "firstname": "Bérengère",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "MARECHAL",
+            "firstname": "Stanislas",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "PETARD",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 7
+            "candidate": true
+        },
+        {
+            "lastname": "VALLADE",
+            "firstname": "Marie-José",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BELGUECHI",
+            "firstname": "Yassin-FaÏsal",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "HVIDSTEN",
+            "firstname": "Axel",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "PARGAUD",
+            "firstname": "Megane",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "FEBVAY",
+            "firstname": "Laurie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         }
     ]
 }

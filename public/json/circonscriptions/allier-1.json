@@ -1,5 +1,5 @@
 {
-    "countyId": "03",
+    "countyId": 3,
     "number": 1,
     "name": "Allier",
     "results": {
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Michel",
-            "lastname": "Barbarin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Jean-Marc",
-            "lastname": "Collot",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Viviane",
-            "lastname": "Monnay",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Yannick",
-            "lastname": "Monnet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Pierre-André",
-            "lastname": "Pérrissol",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
-        },
-        {
+            "lastname": "SENNEPIN",
             "firstname": "Marion",
-            "lastname": "Sennepin",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 3,
-            "county": "Allier",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "CIBERT",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BARBARIN",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MALLOT",
+            "firstname": "Jean",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "COLLOT",
+            "firstname": "Jean-Marc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "DE NICOLAY",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "MALAVAUD",
+            "firstname": "Fabien",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LITAUDON",
+            "firstname": "Roger",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "MONNET",
+            "firstname": "Yannick",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
         }
     ]
 }

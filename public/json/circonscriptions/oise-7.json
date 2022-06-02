@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Agnès",
-            "lastname": "Boillet",
+            "lastname": "ITALIANI",
+            "firstname": "Florence",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOILLET",
+            "firstname": "Agnès",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
+            "candidate": true
         },
         {
+            "lastname": "MINOT",
+            "firstname": "Maxime",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "DINGIVAL",
             "firstname": "Agnès",
-            "lastname": "Dingival",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
+            "candidate": true
         },
         {
-            "firstname": "Maxime",
-            "lastname": "Minot",
+            "lastname": "ROUL",
+            "firstname": "Daniel",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         },
         {
-            "firstname": "Loïc",
-            "lastname": "Pen",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
-        },
-        {
-            "firstname": "Tristan",
-            "lastname": "Szyszka",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
-        },
-        {
+            "lastname": "VAN ELSUWE",
             "firstname": "Ophélie",
-            "lastname": "Van Elsuwe",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
             "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 7
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "PEN",
+            "firstname": "LoÏc",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "SZYSZKA",
+            "firstname": "Tristan",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

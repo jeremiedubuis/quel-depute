@@ -5,14 +5,16 @@ import { JSDOM } from 'jsdom';
 import { writeFile } from '$helpers/writeFile';
 import path from 'path';
 import { testNameAndVariation } from '../helpers/variableNames';
-const scrutins = require('../data/scrutins2.json');
+const scrutins = require('../data/scrutins3.json');
 
 export type Scrutin = {
-    'N° Scrutin': number;
-    'Titre loi': string;
-    Catégorie: 'Écologie' | 'Droits humains' | 'Éducation' | 'Pauvreté';
-    'Description (optionnelle)': string;
-    Impact: string;
+    number: number;
+    title: string;
+    category: 'Écologie' | 'Droits humains' | 'Éducation' | 'Pauvreté';
+    description?: string;
+    sources?: string;
+    text?: string;
+    impact: 'Positif' | 'Négatif'
 };
 
 const scrapQueue = new ScrapQueue(100);
@@ -63,29 +65,27 @@ const consolidate = async (scrutinNumber?: number) => {
     const missing = new Set();
     for (let i = 0, iLength = scrutins.length; i < iLength; i++) {
         const s: Scrutin = scrutins[i];
-        if (typeof scrutinNumber !== 'undefined' && s['N° Scrutin'] !== scrutinNumber) continue;
-        if (typeof s['N° Scrutin'] !== 'number') continue;
-        console.log('Scrap ', s['N° Scrutin'], '-', s['Titre loi'], i, '/', iLength);
-        const { authors, href, slug } = await parseDosierLegislatif(s['N° Scrutin']);
+        if (typeof scrutinNumber !== 'undefined' && s.number !== scrutinNumber) continue;
+        if (typeof s.number !== 'number') continue;
+        console.log('Scrap ', s.number, '-', s.title, i, '/', iLength);
+        const { authors, href, slug } = await parseDosierLegislatif(s.number);
         const _authors = authors.map((a) =>
             deputes.find((d) => d.lastname === a.lastname && d.firstname === a.firstname)
         );
 
         const base = {
-            number: s['N° Scrutin'],
-            title: s['Titre loi'],
-            category: s['Catégorie'],
-            description: s['Description (optionnelle)'],
-            sources: s['Source'].split('\n'),
+            number: s.number,
+            title: s.title,
+            category: s.category,
+            description: s.description,
+            sources: s.sources?.split('\n'),
             href,
-            scrutinHref: `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s['N° Scrutin']}`,
+            scrutinHref: `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s.number}`,
             slug,
             impactModifier:
-                s['Impact'] === 'Positif'
+                s.impact === 'Positif'
                     ? 1
-                    : s['Impact'] === 'Négatif'
-                    ? -1
-                    : parseInt(s['Impact']),
+                    : -1,
             initiative: _authors.find((a) => a.groupShort)?.groupShort || 'Gouvernement',
             notes: null
         };

@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Delphine",
-            "lastname": "Alexandre",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
-        },
-        {
-            "firstname": "Guillaume",
-            "lastname": "Florquin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
-        },
-        {
-            "firstname": "Isabelle",
-            "lastname": "Lecoeuvre",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
-        },
-        {
-            "firstname": "Dimitri",
-            "lastname": "Mozdzierz",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
-        },
-        {
+            "lastname": "PATEL",
             "firstname": "Rudy",
-            "lastname": "Patel",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
+            "candidate": true
         },
         {
-            "firstname": "Fabien",
-            "lastname": "Roussel",
+            "lastname": "LASSERRE",
+            "firstname": "Béatrice",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HUON",
+            "firstname": "Monique",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "FLORQUIN",
+            "firstname": "Guillaume",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ROUSSEL",
+            "firstname": "Fabien",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
             "groupShort": "PCF",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 20
+            "candidate": true
+        },
+        {
+            "lastname": "MOZDZIERZ",
+            "firstname": "Dimitri",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "ALEXANDRE",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "DUQUESNE",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "RENAUD",
+            "firstname": "Éric",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "LFI dis.",
+            "group": "dissident LFI hors accord Nupes",
+            "groupShort": "dissident lfi hors accord nupes",
+            "candidate": true
         }
     ]
 }

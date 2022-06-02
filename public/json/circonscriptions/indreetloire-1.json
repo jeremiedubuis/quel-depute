@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Philippe",
-            "lastname": "Chalumeau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
-        },
-        {
-            "firstname": "François",
-            "lastname": "Ducamp",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Charles",
-            "lastname": "Fournier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Thomas",
-            "lastname": "Jouhannaud",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
-        },
-        {
+            "lastname": "LEBRETON",
             "firstname": "Olivier",
-            "lastname": "Lebreton",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Stéphanie",
-            "lastname": "Moreau",
+            "lastname": "DUCAMP",
+            "firstname": "François",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CHALUMEAU",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "ROUZIER",
+            "firstname": "Bertrand",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "JOUHANNAUD",
+            "firstname": "Thomas",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "DE LANOUVELLE",
+            "firstname": "Sophie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "FOURNIER",
+            "firstname": "Charles",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "MOREAU",
+            "firstname": "Stéphanie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "LAURENT",
+            "firstname": "Inès",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
         }
     ]
 }

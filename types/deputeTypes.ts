@@ -9,18 +9,22 @@ export type BaseDepute = {
     circumscription: number;
     slug: string;
     noPicture?: boolean;
+    nuance?: string;
 };
 
 export type Candidate = {
     firstname: string;
     lastname: string;
-    group: string;
-    groupShort: string;
+    group?: string;
+    groupShort?: string;
+    nuance: string;
+    nuanceComputed: string;
     gender: 'H' | 'F' | 'N';
     noPicture?: boolean;
     countyId: string;
     county: string;
     circumscription: number;
+    candidate: boolean;
 };
 
 export type VoteValue = 'Absent' | 'Pour' | 'Contre' | 'Abstention' | 'Non-votant';

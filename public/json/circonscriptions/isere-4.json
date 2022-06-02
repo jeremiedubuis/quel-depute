@@ -74,52 +74,94 @@
     },
     "candidates": [
         {
+            "lastname": "JEULIN",
+            "firstname": "Quentin",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BATTISTEL",
             "firstname": "Marie-Noëlle",
-            "lastname": "Battistel",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 38,
-            "county": "Isère",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Olivier",
-            "lastname": "Guyot",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 38,
-            "county": "Isère",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Fanny",
-            "lastname": "Lacroix",
+            "lastname": "OLIVIER",
+            "firstname": "Isabelle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 38,
-            "county": "Isère",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Alain",
-            "lastname": "Ziegler",
+            "lastname": "KRAEMER",
+            "firstname": "Michaël",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVD",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "GUYOT",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ZIEGLER",
+            "firstname": "Jean-Alain",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 38,
-            "county": "Isère",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "GERIN-MOMBRUN",
+            "firstname": "Yves",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "LACROIX",
+            "firstname": "Fanny",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "HIREL",
+            "firstname": "Josiane",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

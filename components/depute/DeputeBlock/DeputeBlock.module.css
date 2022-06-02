@@ -54,3 +54,22 @@
 .group {
     margin-top: 30px;
 }
+
+.grouping {
+    display: inline-block;
+    border-radius: 4px;
+    mix-blend-mode: difference;
+    padding: 5px;
+    background: rgba(0,0,0,0.1)
+}
+
+.parti {
+    color: white;
+    mix-blend-mode: difference;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

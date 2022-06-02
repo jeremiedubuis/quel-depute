@@ -43,6 +43,7 @@ export const ViewCircumscription: React.FC<{
     circumscription: CircumscriptionType;
     depute: Depute;
 }> = ({ circumscription, depute }) => {
+
     return (
         <main className={styles.view}>
             <SearchForm small />
@@ -66,7 +67,7 @@ export const ViewCircumscription: React.FC<{
                         .sort((a, b) => a.lastname.localeCompare(b.lastname))
                         .map((c) => (
                             <li key={c.lastname}>
-                                <DeputeBlock depute={c} noCounty isLink={!c.noPicture} />
+                                <DeputeBlock depute={c} noCounty isLink={false} noPicture />
                             </li>
                         ))}
                 </ul>

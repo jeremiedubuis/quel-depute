@@ -65,7 +65,7 @@
             "commissionInterventions": 216,
             "hemicycleInterventions": 168,
             "hemicycleShortInterventions": 31,
-            "questionsWritten": 65,
+            "questionsWritten": 66,
             "questionsOral": 14
         },
         "opposedGovernment": 0,
@@ -74,64 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Belkhir",
-            "lastname": "Belhaddad",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Didier",
-            "lastname": "Georget",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Marie-Louise",
-            "lastname": "Kuntz",
+            "lastname": "KUNTZ",
+            "firstname": "Malou",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Grégoire",
-            "lastname": "Laloux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 1
-        },
-        {
+            "lastname": "LEICK",
             "firstname": "Esther",
-            "lastname": "Leick",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "LALOUX",
+            "firstname": "Grégoire",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ROUSSE",
+            "firstname": "Christèle",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BELHADDAD",
+            "firstname": "Belkhir",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GEORGET",
+            "firstname": "Didier",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "HADADI",
+            "firstname": "Yoan",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "KONARSKI",
+            "firstname": "Rebecca",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUHENNA",
+            "firstname": "Abderrahemane",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "KADRI",
+            "firstname": "Camal",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "FRICHETEAU",
+            "firstname": "Jessy",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

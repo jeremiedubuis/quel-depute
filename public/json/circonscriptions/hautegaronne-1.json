@@ -74,100 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Pierre-Nicolas",
-            "lastname": "Bapt",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Radical de Gauche",
-            "groupShort": "PRG",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Pierre",
-            "lastname": "Baudis",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Maxime",
-            "lastname": "Boyer",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
-        },
-        {
+            "lastname": "CLOUET",
             "firstname": "Hadrien",
-            "lastname": "Clouet",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Benjamin",
-            "lastname": "Combes",
+            "lastname": "BAUDIS",
+            "firstname": "Pierre",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "COMBES",
+            "firstname": "Benjamin",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
+            "candidate": true
         },
         {
+            "lastname": "LE PENVEN",
             "firstname": "Olivier",
-            "lastname": "Le Penven",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Cathy Béatrice Rose",
-            "lastname": "Marsal",
+            "lastname": "MARSAL",
+            "firstname": "Cathy",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Laetitia",
-            "lastname": "Sauwala",
+            "lastname": "CASTILLO-MENDEGRIS",
+            "firstname": "Oscar",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BAPT",
+            "firstname": "Pierre Nicolas",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "BATTISTELLA",
+            "firstname": "Aude",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 1
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ROCCA",
+            "firstname": "Jacques",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUJAT",
+            "firstname": "Evelyne",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "PICARD",
+            "firstname": "Georges",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

@@ -65,7 +65,7 @@
             "commissionInterventions": 60,
             "hemicycleInterventions": 42,
             "hemicycleShortInterventions": 10,
-            "questionsWritten": 81,
+            "questionsWritten": 82,
             "questionsOral": 5
         },
         "opposedGovernment": 0,
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Xavier",
-            "lastname": "Batut",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
-        },
-        {
+            "lastname": "BÉRÉGOVOY",
             "firstname": "Véronique",
-            "lastname": "Bérégovoy",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
             "groupShort": "EELV",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
+            "candidate": true
         },
         {
+            "lastname": "BAUDET",
+            "firstname": "Véronique",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "CRAMBES",
             "firstname": "Nicolas",
-            "lastname": "Crambes",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
+            "candidate": true
         },
         {
-            "firstname": "Pascal",
-            "lastname": "Houbron",
+            "lastname": "DUMAS",
+            "firstname": "Nicolas",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les centristes",
-            "groupShort": "LC",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Marine",
-            "lastname": "Lercier",
+            "lastname": "BATUT",
+            "firstname": "Xavier",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAS",
+            "firstname": "AnaÏs",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "KÉRADEC-DUJARDIN",
+            "firstname": "Pascale",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "LERCIER",
+            "firstname": "Marine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
+            "candidate": true
         },
         {
-            "firstname": "Anaïs",
-            "lastname": "Thomas",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 76,
-            "county": "Seine-Maritime",
-            "circumscription": 10
+            "lastname": "HUVEY",
+            "firstname": "Jérôme",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

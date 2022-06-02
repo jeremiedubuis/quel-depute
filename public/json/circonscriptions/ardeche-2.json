@@ -1,5 +1,5 @@
 {
-    "countyId": "07",
+    "countyId": 7,
     "number": 2,
     "name": "Ardèche",
     "results": {
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Martin",
-            "lastname": "Chaize",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Olivier",
-            "lastname": "Dussopt",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Michèle",
-            "lastname": "Gaillard",
+            "lastname": "GUILMIN",
+            "firstname": "Claire",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "GAILLARD",
+            "firstname": "Michèle",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Christophe",
-            "lastname": "Goulouzelle",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
-        },
-        {
+            "lastname": "GRANGIER",
             "firstname": "Cyrille",
-            "lastname": "Grangier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "QUENETTE",
             "firstname": "Marc-Antoine",
-            "lastname": "Quenette",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "GOULOUZELLE",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BORY",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DUSSOPT",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GLADIEUX",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAIZE",
+            "firstname": "Martin",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "Agir",
+            "group": "Agir",
+            "groupShort": "agir",
+            "candidate": true
         }
     ]
 }

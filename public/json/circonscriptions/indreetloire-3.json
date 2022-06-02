@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Henri",
-            "lastname": "Alfandari",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons,LRM",
-            "groupShort": "Horizons,LRM",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Morgane",
-            "lastname": "Lechevalier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
-        },
-        {
+            "lastname": "LEGENDRE",
             "firstname": "Christophe",
-            "lastname": "Legendre",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Sophie",
-            "lastname": "Métadier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Sylvie",
-            "lastname": "Patte",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
-        },
-        {
+            "lastname": "PROTIN",
             "firstname": "Irène",
-            "lastname": "Protin",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Roxane",
-            "lastname": "Sirven",
+            "lastname": "MÉTADIER",
+            "firstname": "Sophie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
+        },
+        {
+            "lastname": "SCHULTZ",
+            "firstname": "Naima",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "LOIRE",
+            "firstname": "Maria",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PATTE",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "SIRVEN",
+            "firstname": "Roxane",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "ALFANDARI",
+            "firstname": "Henri",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "LECHEVALIER",
+            "firstname": "Morgane",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "DELORE",
+            "firstname": "Claire",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
         }
     ]
 }

@@ -74,76 +74,154 @@
     },
     "candidates": [
         {
-            "firstname": "Manon",
-            "lastname": "Bouquin",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Jean-François",
-            "lastname": "Eliaou",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Michel",
-            "lastname": "Garcia",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Sébastien",
-            "lastname": "Giai Gianetto",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
-        },
-        {
+            "lastname": "LARUE",
             "firstname": "Florence",
-            "lastname": "Larue",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Sébastien",
-            "lastname": "Rome",
+            "lastname": "DUCAMP",
+            "firstname": "Roger",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "FLEURY",
+            "firstname": "Jean-Noël",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "ELIAOU",
+            "firstname": "Jean-François",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "ROME",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "PUGENS",
+            "firstname": "Jean-Pierre",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "FRANCIS",
+            "firstname": "Joseph",
+            "gender": "H",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
+        },
+        {
+            "lastname": "GIAI GIANETTO",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUQUIN",
+            "firstname": "Manon",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CASSARINI",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PÉRÉA",
+            "firstname": "Julie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "GARCIA",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "BASTIDE D'IZARD",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "LE ROMAIN",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "ARGUEL",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         }
     ]
 }

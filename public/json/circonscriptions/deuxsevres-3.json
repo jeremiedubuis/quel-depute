@@ -74,52 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Jean-Marie",
-            "lastname": "Fiévet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 79,
-            "county": "Deux-Sèvres",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Olivier",
-            "lastname": "Guibert",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 79,
-            "county": "Deux-Sèvres",
-            "circumscription": 3
-        },
-        {
+            "lastname": "VALLÉE",
             "firstname": "Maryse",
-            "lastname": "Vallée",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 79,
-            "county": "Deux-Sèvres",
-            "circumscription": 3
+            "candidate": true
         },
         {
+            "lastname": "FAIVRE",
+            "firstname": "Gerard",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "WOILLEZ",
             "firstname": "Juliette",
-            "lastname": "Woillez",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 79,
-            "county": "Deux-Sèvres",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "GUIBERT",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "FIÉVET",
+            "firstname": "Jean-Marie",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "ROBIN",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BARBOT",
+            "firstname": "Alexis",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

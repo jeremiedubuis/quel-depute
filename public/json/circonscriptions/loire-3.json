@@ -74,76 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Vincent",
-            "lastname": "Bony",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Axel",
-            "lastname": "Dugua",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Pauline",
-            "lastname": "Husseini",
+            "lastname": "LEGLISE",
+            "firstname": "Sandrine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "CAILLON",
+            "firstname": "Louis",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "BONY",
+            "firstname": "Vincent",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "ASSAOUNE",
+            "firstname": "Mariam",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "SURPLY",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HUSSEINI",
+            "firstname": "Pauline",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Angélina",
-            "lastname": "La Marca",
+            "lastname": "LA MARCA",
+            "firstname": "Angelina",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Emmanuel",
-            "lastname": "Mandon",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
-        },
-        {
+            "lastname": "MARTIN",
             "firstname": "Catherine",
-            "lastname": "Martin",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 42,
-            "county": "Loire",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "DUGUA",
+            "firstname": "Axel",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "MANDON",
+            "firstname": "Emmanuel",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "MOREL",
+            "firstname": "Nina",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "LE JAOUEN",
+            "firstname": "Éric",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "BESSON",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "VIDAL",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
         }
     ]
 }

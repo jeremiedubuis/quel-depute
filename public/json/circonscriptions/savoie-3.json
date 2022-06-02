@@ -74,64 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Émilie",
-            "lastname": "Bonnivard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 73,
-            "county": "Savoie",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Marie",
-            "lastname": "Dauchy",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 73,
-            "county": "Savoie",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Nathalie",
-            "lastname": "Krawezynski",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 73,
-            "county": "Savoie",
-            "circumscription": 3
-        },
-        {
+            "lastname": "TROSSET",
             "firstname": "Xavier",
-            "lastname": "Trosset",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 73,
-            "county": "Savoie",
-            "circumscription": 3
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         },
         {
-            "firstname": "Pascale",
-            "lastname": "Trouvé",
+            "lastname": "FLORIO",
+            "firstname": "Mikaël",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BONNIVARD",
+            "firstname": "Emilie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAZO",
+            "firstname": "Vincent",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "NOWAK",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "SOCQUET-JUGLARD",
+            "firstname": "Ghislaine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "KRAWEZYNSKI",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "TROUVÉ",
+            "firstname": "Pascale",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 73,
-            "county": "Savoie",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "DAUCHY",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

@@ -74,88 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Bruno",
-            "lastname": "Attal",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Benjamin",
-            "lastname": "Badouard",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Lionel",
-            "lastname": "Bazzo",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Pascal",
-            "lastname": "Blache",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Anne",
-            "lastname": "Brugnera",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
-        },
-        {
+            "lastname": "LAURENT",
             "firstname": "Coralie",
-            "lastname": "Laurent",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Jacqueline",
-            "lastname": "Vitau",
+            "lastname": "DARBON",
+            "firstname": "Florence",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BLACHE",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "COULAIS",
+            "firstname": "Véronique",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "BRUGNERA",
+            "firstname": "Anne",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "BADOUARD",
+            "firstname": "Benjamin",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "KEBIR",
+            "firstname": "Nadia",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "VEL",
+            "firstname": "Juliette",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "BENRAMDANE",
+            "firstname": "Malik",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

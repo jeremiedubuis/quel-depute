@@ -1,5 +1,5 @@
 {
-    "countyId": "999",
+    "countyId": 999,
     "number": 11,
     "name": "Français établis hors de France",
     "results": {
@@ -74,100 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Olivier",
-            "lastname": "Burlotte",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
-        },
-        {
+            "lastname": "GENETET",
             "firstname": "Anne",
-            "lastname": "Genetet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
+            "candidate": true
         },
         {
+            "lastname": "GENTIL",
             "firstname": "Pascal",
-            "lastname": "Gentil",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVC",
+            "nuanceComputed": "",
             "group": "",
             "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
+            "candidate": true
         },
         {
+            "lastname": "GUYON",
             "firstname": "Marc",
-            "lastname": "Guyon",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Catya",
-            "lastname": "Martin",
+            "lastname": "TAPAYEVA",
+            "firstname": "Tamila",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "MARTIN",
+            "firstname": "Catya",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
+            "candidate": true
         },
         {
-            "firstname": "Tamila",
-            "lastname": "Tapayeva",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
-        },
-        {
-            "firstname": "Christine",
-            "lastname": "Vial Kayser",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
-        },
-        {
+            "lastname": "VIDAL",
             "firstname": "Dominique",
-            "lastname": "Vidal",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
             "groupShort": "PCF",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 11
+            "candidate": true
+        },
+        {
+            "lastname": "BURLOTTE",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "VIAL KAYSER",
+            "firstname": "Christine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         }
     ]
 }

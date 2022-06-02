@@ -74,100 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Gael",
-            "lastname": "Briand",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Damien",
-            "lastname": "Girard",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
-            "firstname": "David",
-            "lastname": "Megel",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Lysiane",
-            "lastname": "Metayer-Noël",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Ghislaine",
-            "lastname": "Paoli",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Thibault",
-            "lastname": "Perrin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
-        },
-        {
+            "lastname": "PIERRON",
             "firstname": "Blandine",
-            "lastname": "Pierron",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Jean-Louis",
-            "lastname": "Questiaux",
+            "lastname": "MEGEL",
+            "firstname": "David",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 56,
-            "county": "Morbihan",
-            "circumscription": 5
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GIRARD",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "PERRIN",
+            "firstname": "Thibault",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LOAS",
+            "firstname": "Ronan",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "Hor. Dis.",
+            "group": "dissident Horizons",
+            "groupShort": "dissident horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "QUESTIAUX",
+            "firstname": "Jean-Louis",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "MÉTAYER",
+            "firstname": "Lysiane",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "BRIAND",
+            "firstname": "Gael",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "PAOLI",
+            "firstname": "Ghislaine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         }
     ]
 }

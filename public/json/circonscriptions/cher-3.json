@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Eric",
-            "lastname": "Bellet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Bénédicte",
-            "lastname": "de Choulot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Thibaut",
-            "lastname": "De La Tocnaye",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Aliénor",
-            "lastname": "Garcia Bosch De Morales",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Loïc",
-            "lastname": "Kervran",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
-        },
-        {
+            "lastname": "TISSIER",
             "firstname": "Karine",
-            "lastname": "Tissier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 18,
-            "county": "Cher",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "DE LA TOCNAYE",
+            "firstname": "Thibaut",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DUMAY",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "MARTEEL",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GARCIA-BOSCH-DE MORALES",
+            "firstname": "Aliénor",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BELLET",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "DE CHOULOT",
+            "firstname": "Bénédicte",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "KERVRAN",
+            "firstname": "LoÏc",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
         }
     ]
 }

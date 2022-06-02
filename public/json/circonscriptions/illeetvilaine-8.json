@@ -74,100 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Florian",
-            "lastname": "Bachelier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
-        },
-        {
+            "lastname": "BOULOUX",
             "firstname": "Mickaël",
-            "lastname": "Bouloux",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Karol",
-            "lastname": "Dolu",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Guillaume",
-            "lastname": "Gomez",
+            "lastname": "NICOLAS",
+            "firstname": "Jean-Pierre",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BARBIÉ DE PRÉAUDEAU",
+            "firstname": "Régis",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GOMEZ",
+            "firstname": "Guillaume",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Joël",
-            "lastname": "Le Gall",
+            "lastname": "TOURNADE",
+            "firstname": "Maël",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
-            "firstname": "Rodolphe",
-            "lastname": "Llavori",
+            "lastname": "BACHELIER",
+            "firstname": "Florian",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Fédération de la Gauche Républicaine",
-            "groupShort": "FGR",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         },
         {
+            "lastname": "LOOTEN",
             "firstname": "Marianne",
-            "lastname": "Looten",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Fabrice",
-            "lastname": "Lucas",
+            "lastname": "LLAVORI",
+            "firstname": "Rodolphe",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "ALLIX",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "DOLU",
+            "firstname": "Karol",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "LEROUX",
+            "firstname": "Marvin",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "ELAHIAR",
+            "firstname": "Kamel",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "LE GALL",
+            "firstname": "Joël",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "LUCAS",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 8
+            "candidate": true
         }
     ]
 }

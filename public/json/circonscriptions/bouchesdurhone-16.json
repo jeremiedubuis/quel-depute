@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Christelle",
-            "lastname": "Aillet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
-        },
-        {
-            "firstname": "Mariana",
-            "lastname": "Caillaud",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
-        },
-        {
-            "firstname": "Christophe",
-            "lastname": "Caillaud",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
-        },
-        {
-            "firstname": "Cédric",
-            "lastname": "Cesari",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
-        },
-        {
+            "lastname": "DUBOST",
             "firstname": "Guy",
-            "lastname": "Dubost",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
+            "candidate": true
         },
         {
+            "lastname": "LAUPIES",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "TACHE DE LA PAGERIE",
             "firstname": "Emmanuel",
-            "lastname": "Taché de la Pagerie",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 16
+            "candidate": true
+        },
+        {
+            "lastname": "CESARI",
+            "firstname": "Cédric",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "REMISE",
+            "firstname": "Jean-Guillaume",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "CAILLAULT",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "SANCHEZ",
+            "firstname": "Grégory",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "MELONI",
+            "firstname": "Jean-Baptiste",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "CAILLAUD",
+            "firstname": "Mariana",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "PASQUINI",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "NPA",
+            "group": "Nouveau Parti anticapitaliste",
+            "groupShort": "nouveau parti anticapitaliste",
+            "candidate": true
         }
     ]
 }

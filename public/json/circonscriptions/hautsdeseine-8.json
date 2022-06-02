@@ -56,8 +56,8 @@
         "presence": {
             "weeksActive": 159,
             "reports": 10,
-            "proposals": 3,
-            "proposalsSupported": 85,
+            "proposals": 4,
+            "proposalsSupported": 86,
             "amendments": 48,
             "amendmentsSupported": 2762,
             "amendmentsAdopted": 1014,
@@ -74,100 +74,104 @@
     },
     "candidates": [
         {
+            "lastname": "SCHNEIDER",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "LARROQUE-COMOY",
             "firstname": "Annie",
-            "lastname": "Comoy",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Olivier",
-            "lastname": "Guillard-Bentejac",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Sarena",
-            "lastname": "Habib",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Philippe",
-            "lastname": "Hénique",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
-        },
-        {
+            "lastname": "LABBÉ",
             "firstname": "Laurence",
-            "lastname": "Labbé",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Cécile",
-            "lastname": "Richez",
+            "lastname": "TARANNE",
+            "firstname": "Chantal",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PITTONI",
+            "firstname": "Olivier Mario Michel",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "THEVENOT",
+            "firstname": "Prisca",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "HENIQUE",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "RICHEZ",
+            "firstname": "Cécile",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Frédéric",
-            "lastname": "Schneider",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Prisca",
-            "lastname": "Thévenot",
+            "lastname": "HABIB",
+            "firstname": "Sarena",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 8
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CUSA",
+            "firstname": "Miron",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         }
     ]
 }

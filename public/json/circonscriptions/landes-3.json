@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Marion",
-            "lastname": "Berginiat",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Jean-François",
-            "lastname": "Broqueres",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Véronique",
-            "lastname": "Fossey",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Matèu",
-            "lastname": "Richard",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
-        },
-        {
+            "lastname": "VALLAUD",
             "firstname": "Boris",
-            "lastname": "Vallaud",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
+            "candidate": true
         },
         {
+            "lastname": "VOUTAZ",
             "firstname": "Carole",
-            "lastname": "Voutaz",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 40,
-            "county": "Landes",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "BROQUÈRES",
+            "firstname": "Jean-Francois",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "FRANCESCHINI",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DU BREUIL HELION DE LA GUÉRONNIÈRE",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BERGINIAT",
+            "firstname": "Marion",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "LASSORT",
+            "firstname": "Christelle",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "HURIEZ",
+            "firstname": "Daniel",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "RICHARD",
+            "firstname": "Matèu",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "PO",
+            "group": "Parti occitan",
+            "groupShort": "parti occitan",
+            "candidate": true
         }
     ]
 }

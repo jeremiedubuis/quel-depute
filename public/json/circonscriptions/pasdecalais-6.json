@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Vanessa",
-            "lastname": "Bourel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Laure",
-            "lastname": "Bourel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Brigitte",
-            "lastname": "Bourguignon",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
-        },
-        {
+            "lastname": "ENGRAND",
             "firstname": "Christine",
-            "lastname": "Deloison",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Pascal",
-            "lastname": "Lebecq",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Faustine",
-            "lastname": "Maliar",
+            "lastname": "BOURGUIGNON",
+            "firstname": "Brigitte",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "LEBECQ",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "MALIAR",
+            "firstname": "Faustine",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "JUDEK",
+            "firstname": "Jérôme",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUREL",
+            "firstname": "Vanessa",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUREL",
+            "firstname": "Laure",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BLAUWART",
+            "firstname": "Claudine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "LOIRE-RÉNIER",
+            "firstname": "Terry",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "ERCKELBOUDT",
+            "firstname": "Simon",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "DUVIEUBOURG",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "PCF dis.",
+            "group": "dissident PCF hors accord Nupes",
+            "groupShort": "dissident pcf hors accord nupes",
+            "candidate": true
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "countyId": "04",
+    "countyId": 4,
     "number": 2,
     "name": "Alpes-de-Haute-Provence",
     "results": {
@@ -74,76 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Aurélie",
-            "lastname": "Abeille",
+            "lastname": "DAUX",
+            "firstname": "Danièle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         },
         {
-            "firstname": "Thierry",
-            "lastname": "Begnis",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Christophe",
-            "lastname": "Castaner",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
-        },
-        {
+            "lastname": "GUERRERA",
             "firstname": "Hervé",
-            "lastname": "Guerrera",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
         },
         {
+            "lastname": "FERREIRA",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
+        },
+        {
+            "lastname": "RAZEAU",
+            "firstname": "Clémence",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "CADENEL",
+            "firstname": "Myriam",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "KECHRA",
             "firstname": "Frédéric",
-            "lastname": "Kechra",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Léo",
-            "lastname": "Walter",
+            "lastname": "ABEILLE",
+            "firstname": "Aurélie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "VICENTE",
+            "firstname": "Laurent",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "DXG",
+            "nuanceComputed": "ext. g.",
+            "group": "autres extrême gauche",
+            "groupShort": "autres extrême gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "SOLER",
+            "firstname": "Jean-Luc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "ext. g.",
+            "group": "autres extrême gauche",
+            "groupShort": "autres extrême gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "CASTANER",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "WALTER",
+            "firstname": "Léo",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "BEGNIS",
+            "firstname": "Thierry",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "HUE-COURTIN",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
         }
     ]
 }

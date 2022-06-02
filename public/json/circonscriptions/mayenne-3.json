@@ -74,76 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Martine",
-            "lastname": "Amelin",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Annie-Claire",
-            "lastname": "Bell",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
-        },
-        {
+            "lastname": "DE GRANDMAISON",
             "firstname": "Amélie",
-            "lastname": "de Grandmaison",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "DETAIS",
             "firstname": "Marion",
-            "lastname": "Détais",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Yannick",
-            "lastname": "Favennec-Bécot",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Sonia",
-            "lastname": "Garnier",
+            "lastname": "BELL",
+            "firstname": "Annie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GARNIER",
+            "firstname": "Sonia",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 53,
-            "county": "Mayenne",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "AMELIN",
+            "firstname": "Martine",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "FAVENNEC",
+            "firstname": "Yannick",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "CHARTIER",
+            "firstname": "Claudine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         }
     ]
 }

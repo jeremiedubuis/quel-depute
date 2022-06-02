@@ -1,5 +1,5 @@
 {
-    "countyId": "07",
+    "countyId": 7,
     "number": 1,
     "name": "Ardèche",
     "results": {
@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Séverine",
-            "lastname": "Gineys",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Clara",
-            "lastname": "Madeira",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Céline",
-            "lastname": "Porquet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Hervé",
-            "lastname": "Saulignac",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Boris",
-            "lastname": "Tzaprenko",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
-        },
-        {
+            "lastname": "VALLA",
             "firstname": "Michel",
-            "lastname": "Valla",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         },
         {
-            "firstname": "Muriel",
-            "lastname": "Vander Donckt",
+            "lastname": "FLACH",
+            "firstname": "Marie Élisabeth",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LE LOHER",
+            "firstname": "Erick",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "GINEYS",
+            "firstname": "Severine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "Ensemble",
+            "group": "MoDem",
+            "groupShort": "modem",
+            "candidate": true
+        },
+        {
+            "lastname": "VANDER DONCKT",
+            "firstname": "Muriel",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 7,
-            "county": "Ardèche",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "TZAPRENKO",
+            "firstname": "Boris",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAMBONNET",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "MADEIRA",
+            "firstname": "Clara",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "SAULIGNAC",
+            "firstname": "Hervé",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "PORQUET",
+            "firstname": "Céline",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

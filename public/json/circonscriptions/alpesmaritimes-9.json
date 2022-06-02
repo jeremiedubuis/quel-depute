@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 9,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Nicolas",
-            "lastname": "Boulay",
+            "lastname": "PAUCHET",
+            "firstname": "David",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         },
         {
-            "firstname": "Chantal",
-            "lastname": "Chasseriaud",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Franck",
-            "lastname": "Galbert",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Liliane",
-            "lastname": "Pécout",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
-        },
-        {
+            "lastname": "TABAROT",
             "firstname": "Michèle",
-            "lastname": "Tabarot",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
+            "candidate": true
         },
         {
-            "firstname": "Mayaa-Patience",
-            "lastname": "Tudiesche",
+            "lastname": "NGUYEN",
+            "firstname": "Xuan Truong",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOULAY",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "CHASSERIAUD",
+            "firstname": "Chantal",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "PÉCOUT",
+            "firstname": "Liliane",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "GALBERT",
+            "firstname": "Franck",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CAMERANO",
+            "firstname": "Jean-Paul",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "LRM dis.",
+            "group": "dissident La République en marche",
+            "groupShort": "dissident la république en marche",
+            "candidate": true
+        },
+        {
+            "lastname": "BARROERO",
+            "firstname": "Evelyne",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "TUDIESCHE",
+            "firstname": "Mayaa",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 9
+            "candidate": true
+        },
+        {
+            "lastname": "MATUSZEWSKI",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

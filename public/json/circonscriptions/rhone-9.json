@@ -74,64 +74,104 @@
     },
     "candidates": [
         {
+            "lastname": "BERTHOUX",
             "firstname": "Rémi",
-            "lastname": "Berthoux",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 9
+            "candidate": true
         },
         {
-            "firstname": "Mylène",
-            "lastname": "Dune",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Chantal",
-            "lastname": "Helly",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Ambroise",
-            "lastname": "Méjean",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 9
-        },
-        {
+            "lastname": "PORTIER",
             "firstname": "Alexandre",
-            "lastname": "Portier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 9
+            "candidate": true
+        },
+        {
+            "lastname": "DUNE",
+            "firstname": "Mylène",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "MÉJEAN",
+            "firstname": "Ambroise",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAVANNE",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "HELLY",
+            "firstname": "Chantal",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "DE GUERNON",
+            "firstname": "Claire",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GIRERD",
+            "firstname": "Maguy",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "BAÏDA",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "PERRICHON",
+            "firstname": "Elodie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

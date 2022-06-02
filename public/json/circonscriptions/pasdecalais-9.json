@@ -74,76 +74,154 @@
     },
     "candidates": [
         {
-            "firstname": "Amandine",
-            "lastname": "Bonifacio",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Valentin",
-            "lastname": "Brasseur",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
-        },
-        {
+            "lastname": "DEFLANDRE",
             "firstname": "Anne-Marie",
-            "lastname": "Deflandre",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
+            "candidate": true
         },
         {
-            "firstname": "Marguerite",
-            "lastname": "Deprez-Audebert",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
-        },
-        {
-            "firstname": "Clément",
-            "lastname": "Huchette",
+            "lastname": "ELAZOUZI",
+            "firstname": "Hakim",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
         },
         {
-            "firstname": "Caroline",
-            "lastname": "Parmentier",
+            "lastname": "JUDEK",
+            "firstname": "Fanny",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "MATTON",
+            "firstname": "Charlotte",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "BAÏK",
+            "firstname": "Abdellah",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BRASSEUR",
+            "firstname": "Valentin",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "BONIFACIO",
+            "firstname": "Amandine",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "MARTIN",
+            "firstname": "Corinne",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "DEPREZ-AUDEBERT",
+            "firstname": "Marguerite",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "FELLAHA",
+            "firstname": "ZaÏna",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "DELAIRE",
+            "firstname": "Jacques",
+            "gender": "H",
+            "nuance": "DXD",
+            "nuanceComputed": "ext. d.",
+            "group": "divers extrême droite",
+            "groupShort": "divers extrême droite",
+            "candidate": true
+        },
+        {
+            "lastname": "GUAQUIER",
+            "firstname": "Julien",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "PARMENTIER",
+            "firstname": "Caroline",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 9
+            "candidate": true
+        },
+        {
+            "lastname": "PINCHON",
+            "firstname": "Matthieu",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "SAINT-ANDRÉ",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
         }
     ]
 }

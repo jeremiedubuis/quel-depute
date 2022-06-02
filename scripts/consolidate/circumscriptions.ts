@@ -1,16 +1,63 @@
 import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
 import circumscriptionsSecondRound from '../data/circumscription_results_2nd_round.json';
-import candidates from '../data/candidates.json';
+import candidates from '../data/candidates3.json';
 import { writeFile } from '$helpers/writeFile';
 import { circonscriptionJSONPath, deputeJSONPath } from '../config';
 import path from 'path';
 import { slugify, slugifyNames } from '$helpers/slugify';
 import { mapNosDeputes } from '../helpers/mapNosDeputes';
 import { ScrapQueue } from '../helpers/scrapQueue';
-import { mapCandidate } from '../helpers/mapCandidate';
 import {emptyDir} from "$helpers/emptyDir";
+import {pad} from "../helpers/pad";
 
 const scrapQueue = new ScrapQueue(500);
+
+const groupToGroupShort = (group: string) => {
+    group = group.replace(/\s/g, ' ').toLowerCase();
+    switch(group) {
+        case 'la france insoumise':
+            return 'LFI';
+        case 'parti socialiste':
+            return 'PS';
+        case 'parti communiste français':
+            return 'PCF';
+        case 'les républicains':
+            return 'LR';
+        case 'reconquête !':
+            return 'REC';
+        case 'la république en marche':
+            return 'LREM';
+        case 'rassemblement national':
+            return 'RN';
+        case 'lutte ouvrière':
+            return 'LO';
+        case 'nouveau Parti anticapitaliste':
+            return 'NPA';
+        case 'mouvement démocrate':
+            return 'MoDem';
+        case 'les centristes':
+            return 'LC';
+        case 'debout la france':
+            return 'DF';
+        case 'parti animaliste':
+            return 'PA';
+        case 'parti radical de gauche':
+            return 'PRG';
+        case 'génération.s':
+            return 'GS';
+        case 'europe ecologie-les verts':
+            return 'EELV';
+        case 'les patriotes':
+            return 'LP';
+        case 'union des démocrates et indépendants':
+            return 'UDI';
+        case 'parti pirate':
+            return 'PP';
+        default:
+            console.log(group);
+            return group;
+    }
+}
 
 const mapCircumscriptionResults = (c) => ({
     registered: c.Inscrits,
@@ -37,19 +84,25 @@ const mapCircumscriptionResults = (c) => ({
 const consolidate = async () => {
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
     const deputes = mapNosDeputes(raw);
-    const mappedCandidates = candidates.map(mapCandidate);
     await emptyDir(circonscriptionJSONPath);
 
     for (let i = 0, iLength = circumscriptionsFirstRound.length; i < iLength; i++) {
         const c = circumscriptionsFirstRound[i];
         let _countyId: number = parseInt(c.countyId.toString());
         let _circumscription: number = parseInt(c.circumscription.toString());
+        const paddedCounty = pad(_countyId === 999 ? 99 : _countyId, 3);
+        const paddedCircumscription = pad(_circumscription, 2);
+        let _candidates = candidates[paddedCounty+'_'+paddedCircumscription]
+        if (!_candidates) {
+            console.log(paddedCounty+'_'+paddedCircumscription);
+            _candidates = []
+        }
 
         const number = parseInt(c.circumscription.toString());
         const slug = slugify(`${c.county} ${number}`);
 
         const circumscription = {
-            countyId: c.countyId,
+            countyId: _countyId,
             number,
             name: c.county,
             results: {
@@ -61,9 +114,7 @@ const consolidate = async () => {
                     parseInt(d.countyId) === parseInt(c.countyId.toString()) &&
                     parseInt(d.circumscription) === number
             ),
-            candidates: mappedCandidates.filter(
-                (c) => c.countyId === _countyId && c.circumscription === _circumscription
-            )
+            candidates: _candidates.map(({ p, ...c}) =>  ({ ...c, groupShort: groupToGroupShort(c.group), candidate: true}))
         };
 
         await writeFile(

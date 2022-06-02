@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Anne-Laure",
-            "lastname": "Blin",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Simon",
-            "lastname": "Holley",
+            "lastname": "BABINET",
+            "firstname": "Charles",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 3
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "BAVERET",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "LAHONDÈS",
             "firstname": "Bernard",
-            "lastname": "Lahondès",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Patricia",
-            "lastname": "Peillon",
+            "lastname": "ROUDÉVITCH",
+            "firstname": "Véronique",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "ROBERT",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "PEILLON",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Véronique",
-            "lastname": "Roudévitch",
+            "lastname": "BLIN",
+            "firstname": "Anne-Laure",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 3
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "HOLLEY",
+            "firstname": "Simon",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         }
     ]
 }

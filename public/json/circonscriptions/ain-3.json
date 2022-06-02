@@ -1,5 +1,5 @@
 {
-    "countyId": "01",
+    "countyId": 1,
     "number": 3,
     "name": "Ain",
     "results": {
@@ -65,7 +65,7 @@
             "commissionInterventions": 124,
             "hemicycleInterventions": 53,
             "hemicycleShortInterventions": 6,
-            "questionsWritten": 22,
+            "questionsWritten": 23,
             "questionsOral": 8
         },
         "opposedGovernment": 0,
@@ -74,88 +74,124 @@
     },
     "candidates": [
         {
-            "firstname": "Véronique",
-            "lastname": "Baude",
+            "lastname": "KOUASSI",
+            "firstname": "Fulgence",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "DUBARRY",
+            "firstname": "Karine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "VERGNAS",
+            "firstname": "Thierry",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "GIVERNET",
+            "firstname": "Olga",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "FRANCK",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "JOLIE",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BAUDE",
+            "firstname": "Véronique",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Frank",
-            "lastname": "Bisetti",
+            "lastname": "KASTLER",
+            "firstname": "Jean-Loup",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         },
         {
-            "firstname": "Fréderic",
-            "lastname": "Franck",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Olga",
-            "lastname": "Givernet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Christian",
-            "lastname": "Jolie",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
-        },
-        {
+            "lastname": "MAISONNETTE",
             "firstname": "Cécile",
-            "lastname": "Maisonnette",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
+            "candidate": true
         },
         {
+            "lastname": "MORVAN LEMBERT",
             "firstname": "Marine",
-            "lastname": "Morvan Lembert",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "BISETTI",
+            "firstname": "Frank",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "FERTE",
+            "firstname": "Maxence",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

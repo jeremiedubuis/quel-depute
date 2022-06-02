@@ -74,64 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Sylvie",
-            "lastname": "Bilde",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 23,
-            "county": "Creuse",
-            "circumscription": 1
-        },
-        {
+            "lastname": "COUTURIER",
             "firstname": "Catherine",
-            "lastname": "Couturier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 23,
-            "county": "Creuse",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Catherine",
-            "lastname": "Dumon",
+            "lastname": "MOREAU",
+            "firstname": "Jean-Baptiste",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "BILDE",
+            "firstname": "Sylvie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GIROIX",
+            "firstname": "Grégory",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DURENGUE",
+            "firstname": "Elisabeth",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "MIRAN",
+            "firstname": "Françoise",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "JOSSET",
+            "firstname": "Hélène",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "AUCLAIR",
+            "firstname": "Jean",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "KENNEDY",
+            "firstname": "Roubiali",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "DEFEMME",
+            "firstname": "Catherine",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "DUMON",
+            "firstname": "Catherine",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 23,
-            "county": "Creuse",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Jean-Baptiste",
-            "lastname": "Moreau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 23,
-            "county": "Creuse",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Cyril",
-            "lastname": "Victor",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 23,
-            "county": "Creuse",
-            "circumscription": 1
+            "candidate": true
         }
     ]
 }

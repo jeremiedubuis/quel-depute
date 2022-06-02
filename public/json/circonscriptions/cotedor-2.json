@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Benoît",
-            "lastname": "Bordat",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 21,
-            "county": "Côte-d'Or",
-            "circumscription": 2
-        },
-        {
+            "lastname": "FORTIER",
             "firstname": "Mélanie",
-            "lastname": "Fortier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 21,
-            "county": "Côte-d'Or",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Catherine",
-            "lastname": "Hervieu",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 21,
-            "county": "Côte-d'Or",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Adrien",
-            "lastname": "Huguet",
+            "lastname": "GAILLARD",
+            "firstname": "Franck",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BORDAT",
+            "firstname": "Benoît",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "HERVIEU",
+            "firstname": "Catherine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "HUGUET",
+            "firstname": "Adrien",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 21,
-            "county": "Côte-d'Or",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "ROCHER",
             "firstname": "Claire",
-            "lastname": "Rocher",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 21,
-            "county": "Côte-d'Or",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "SALINAS",
+            "firstname": "Amélia",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "DAVID",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "LR dis.",
+            "group": "dissident Les Républicains",
+            "groupShort": "dissident les républicains",
+            "candidate": true
         }
     ]
 }

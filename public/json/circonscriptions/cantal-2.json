@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
+            "lastname": "BONY",
             "firstname": "Jean-Yves",
-            "lastname": "Bony",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 2
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
+            "lastname": "CHEIKHI",
             "firstname": "Mona",
-            "lastname": "Cheikhi",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Martine",
-            "lastname": "Guibert",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 2
-        },
-        {
+            "lastname": "LACROIX",
             "firstname": "Gilles",
-            "lastname": "Lacroix",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Melody",
-            "lastname": "Morille",
+            "lastname": "CHEYROL",
+            "firstname": "Antoine",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "MORILLE",
+            "firstname": "Mélody",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 15,
-            "county": "Cantal",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "DELMOURE",
+            "firstname": "Jean-René",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "TOTY",
+            "firstname": "Louis",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "GUIBERT",
+            "firstname": "Martine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         }
     ]
 }

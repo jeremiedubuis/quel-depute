@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Sophie",
-            "lastname": "Beaudoin-Hubière",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Élisabeth",
-            "lastname": "Faucon",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
-        },
-        {
+            "lastname": "GÉDOUX",
             "firstname": "Christiane",
-            "lastname": "Gedoux",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Damien",
-            "lastname": "Maudet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
+            "lastname": "MARQUET",
+            "firstname": "Fabienne",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "David",
-            "lastname": "Provost",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
-        },
-        {
+            "lastname": "VALIERE-VIALEIX",
             "firstname": "Jean",
-            "lastname": "Valière-Vialex",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 87,
-            "county": "Haute-Vienne",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "PROVOST",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "FAUCON",
+            "firstname": "Elisabeth",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "MAUDET",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "TAMBO",
+            "firstname": "Stéphanie",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "BEAUDOUIN HUBIERE",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         }
     ]
 }

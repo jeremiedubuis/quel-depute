@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 4,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "David",
-            "lastname": "Bieder",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Sophie",
-            "lastname": "Bournot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
-        },
-        {
+            "lastname": "MARKIEL",
             "firstname": "Joseph",
-            "lastname": "Markiel",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "VALETTA-ARDISSON",
             "firstname": "Alexandra",
-            "lastname": "Masson",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         },
         {
-            "firstname": "Damien",
-            "lastname": "Rieu",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
+            "lastname": "BOURNOT-POULET",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
         },
         {
+            "lastname": "ROUX",
             "firstname": "Roger",
-            "lastname": "Roux",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Alexandre",
-            "lastname": "Valetta Ardisson",
+            "lastname": "MASSON",
+            "firstname": "Alexandra",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "RIEU",
+            "firstname": "Damien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BIEDER",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BEYL",
+            "firstname": "Christine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "DUCREUX",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "CARBONEL",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         }
     ]
 }

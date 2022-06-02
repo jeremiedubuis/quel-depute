@@ -74,100 +74,124 @@
     },
     "candidates": [
         {
-            "firstname": "Laurent",
-            "lastname": "Croizier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Nicole",
-            "lastname": "Friess",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Fabrice",
-            "lastname": "Galpin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
-        },
-        {
+            "lastname": "LUTZ",
             "firstname": "Thomas",
-            "lastname": "Lutz",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Candice",
-            "lastname": "Mallol",
+            "lastname": "TOURNIER",
+            "firstname": "Pauline",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "MALLOL",
+            "firstname": "Candice",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Pauline",
-            "lastname": "Tournier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Séverine",
-            "lastname": "Vezies",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Michel",
-            "lastname": "Vienet",
+            "lastname": "GALPIN",
+            "firstname": "Fabrice",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "VEZIES",
+            "firstname": "Séverine",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "INEZARÈNE",
+            "firstname": "Salima",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "FRIESS",
+            "firstname": "Nicole",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "VIENET",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "COURBARON",
+            "firstname": "DoÏna",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "ext. g.",
+            "group": "autres extrême gauche",
+            "groupShort": "autres extrême gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "CROIZIER",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "PERNIN",
+            "firstname": "Marielle",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "KECK",
+            "firstname": "Célia",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.-RPS",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
         }
     ]
 }

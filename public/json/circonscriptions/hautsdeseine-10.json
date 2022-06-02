@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Gabriel",
-            "lastname": "Attal",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Sandrine",
-            "lastname": "Bourg",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Alexis",
-            "lastname": "Escale",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Hadrien",
-            "lastname": "Petit",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
-        },
-        {
+            "lastname": "SOUBELET",
             "firstname": "Cécile",
-            "lastname": "Soubelet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
+            "candidate": true
         },
         {
+            "lastname": "VIGUIÉ",
             "firstname": "Laurence",
-            "lastname": "Viguié",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 92,
-            "county": "Hauts-de-Seine",
-            "circumscription": 10
+            "candidate": true
+        },
+        {
+            "lastname": "CABERAS",
+            "firstname": "Edith",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "PETIT",
+            "firstname": "Hadrien",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ESCALE",
+            "firstname": "Alexis",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "ATTAL",
+            "firstname": "Gabriel",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "EL BOUZAIDI",
+            "firstname": "Azedine",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "BESSIÈRES",
+            "firstname": "Léa",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "RONCHINI",
+            "firstname": "Vanessa",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "NPA",
+            "group": "Nouveau Parti anticapitaliste",
+            "groupShort": "nouveau parti anticapitaliste",
+            "candidate": true
+        },
+        {
+            "lastname": "AMRANI",
+            "firstname": "Samir",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

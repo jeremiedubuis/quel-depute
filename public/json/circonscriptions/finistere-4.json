@@ -74,100 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Michel",
-            "lastname": "Beaupré",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Tony",
-            "lastname": "Bihouee",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Patricia",
-            "lastname": "Blosse",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Guillaume",
-            "lastname": "Enfroy",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
-        },
-        {
+            "lastname": "HÉNAFF",
             "firstname": "Marie-Claire",
-            "lastname": "Hénaff",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Sandrine",
-            "lastname": "Le Feur",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Jean-François",
-            "lastname": "Leménicier",
+            "lastname": "ENFROY",
+            "firstname": "Guillaume",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "LEMÉNICIER",
+            "firstname": "Jean-François",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Sylvaine",
-            "lastname": "Vulpiani",
+            "lastname": "RENOU",
+            "firstname": "Monique",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Génération·s",
-            "groupShort": "G",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 4
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "LE FEUR",
+            "firstname": "Sandrine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "BIHOUEE",
+            "firstname": "Tony",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BLOSSE",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BEAUPRÉ",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "VULPIANI",
+            "firstname": "Sylvaine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Gen.-Nupes",
+            "group": "Génération.s",
+            "groupShort": "GS",
+            "candidate": true
+        },
+        {
+            "lastname": "PAYRAUD",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "BERGAMI",
+            "firstname": "Jérôme",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         }
     ]
 }

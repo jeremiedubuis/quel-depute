@@ -1,5 +1,5 @@
 {
-    "countyId": "01",
+    "countyId": 1,
     "number": 2,
     "name": "Ain",
     "results": {
@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
+            "lastname": "DAUBIÉ",
             "firstname": "Romain",
-            "lastname": "Daubie",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         },
         {
-            "firstname": "Olivier",
-            "lastname": "Eyraud",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
+            "lastname": "LAPRAY",
+            "firstname": "Lumir",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
         },
         {
+            "lastname": "GOUTAGNY",
             "firstname": "Vincent",
-            "lastname": "Goutagny",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Thomas",
-            "lastname": "Iglésis",
+            "lastname": "BARATAY",
+            "firstname": "Denis",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
         },
         {
-            "firstname": "Lumir",
-            "lastname": "Lapray",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
-        },
-        {
+            "lastname": "NANCHI",
             "firstname": "Alexandre",
-            "lastname": "Nanchi",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 1,
-            "county": "Ain",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "IGLÉSIS",
+            "firstname": "Thomas",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "EYRAUD",
+            "firstname": "Olivier",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CARRIER",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "MARTET",
+            "firstname": "Colin",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "COSTA",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         }
     ]
 }

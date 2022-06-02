@@ -12,6 +12,7 @@ import { ModalCityCircumscriptions } from '$components/modals/ModalCityCircumscr
 import {cn} from "$helpers/cn";
 import {screenSizeState} from "../../../atoms/screeSizeState";
 import {mobileSearchOpenState} from "../../../atoms/mobileSearchOpenState";
+import { SearchResultName } from './SearchResultName';
 
 export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
 
@@ -72,6 +73,7 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
     };
 
     const onNameInput = (e) => {
+        if (e.currentTarget.value.length < 3) return setDeputeMatches([])
         setDeputeMatches(
             deputes.filter(({ firstname, lastname }) => {
                 const f = slugify(firstname);
@@ -118,23 +120,8 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
                         onInput={onNameInput}
                         list={deputeMatches}
                         renderValue={({ firstname, lastname }) => `${firstname} ${lastname}`}
-                        renderResult={({
-                            firstname,
-                            lastname,
-                            current,
-                            candidate,
-                            county,
-                            circumscription
-                        }) =>
-                            `${firstname} ${lastname} ${
-                                candidate
-                                    ? `Candidat${
-                                          current ? ' et député sortant' : ''
-                                      } de la criconscription ${county} (${circumscription})`
-                                    : current
-                                    ? `Député sortant de la circonscription ${county} (${circumscription})`
-                                    : ''
-                            }`
+                        renderResult={(result) =>
+                            <SearchResultName result={result} />
                         }
                         onListClick={(e, value) => {
                             push(

@@ -1,5 +1,5 @@
 {
-    "countyId": "999",
+    "countyId": 999,
     "number": 8,
     "name": "Français établis hors de France",
     "results": {
@@ -74,160 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Déborah",
-            "lastname": "Abisror-De Lieme",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Marie-Françoise",
-            "lastname": "Carbonne",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Florence",
-            "lastname": "Collet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Milad",
-            "lastname": "Ezabadi",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "José",
-            "lastname": "Garson",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
+            "lastname": "HABIB",
             "firstname": "Meyer",
-            "lastname": "Habib",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
             "groupShort": "UDI",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
+            "candidate": true
         },
         {
+            "lastname": "HETZ",
             "firstname": "Léa Agathe",
-            "lastname": "Hetz",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "",
             "group": "",
             "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Hélène",
-            "lastname": "Lehmann",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Florian",
-            "lastname": "Picod",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Isabelle",
-            "lastname": "Rivolet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Margaux",
-            "lastname": "Serbat",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "",
-            "groupShort": "",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
-        },
-        {
+            "lastname": "SIKSIK",
             "firstname": "Serge",
-            "lastname": "Siksik",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Rachel",
-            "lastname": "Touitou",
+            "lastname": "EZABADI",
+            "firstname": "Milad Nathanaël",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "COLLET",
+            "firstname": "Florence",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "ABISROR - DE LIEME",
+            "firstname": "Deborah",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "PICOD",
+            "firstname": "Florian",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LEHMANN",
+            "firstname": "Hélène",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "SERBAT",
+            "firstname": "Margaux",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "GARSON",
+            "firstname": "José",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "CARBONNE",
+            "firstname": "Marie-Françoise",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "TOUITOU",
+            "firstname": "Rachel",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 999,
-            "county": "Français établis hors de France",
-            "circumscription": 8
+            "candidate": true
+        },
+        {
+            "lastname": "RIVOLET",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
         }
     ]
 }

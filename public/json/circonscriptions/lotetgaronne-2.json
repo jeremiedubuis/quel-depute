@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Martine",
-            "lastname": "Calzavara",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Christophe",
-            "lastname": "Courrègelongue",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Alexandre",
-            "lastname": "Freschi",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Hélène",
-            "lastname": "Laporte",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Laetitia",
-            "lastname": "Redoulez",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
-        },
-        {
+            "lastname": "VENDÈGE",
             "firstname": "Michel",
-            "lastname": "Vendège",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 47,
-            "county": "Lot-et-Garonne",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "FRESCHI",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CALZAVARA",
+            "firstname": "Martine",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "LAPORTE",
+            "firstname": "Hélène",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "COURREGELONGUE",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "REDOULEZ",
+            "firstname": "Laetitia",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "HÉNAFF",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "MAURIN",
+            "firstname": "Patrick",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
         }
     ]
 }

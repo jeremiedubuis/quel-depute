@@ -74,112 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Philippe",
-            "lastname": "Cordier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
-        },
-        {
+            "lastname": "FABRE",
             "firstname": "Valérie",
-            "lastname": "Fabre",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
             "groupShort": "PP",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Bernard",
-            "lastname": "Fehringer",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Richard",
-            "lastname": "Ferrand",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
-        },
-        {
+            "lastname": "LE FUR",
             "firstname": "Patrick",
-            "lastname": "Le Fur",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Gaëlle",
-            "lastname": "Nicolas",
+            "lastname": "BROUSTAUT",
+            "firstname": "Sophie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMIN",
+            "firstname": "Mélanie",
+            "gender": "F",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "FERRAND",
+            "firstname": "Richard",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "NICOLAS",
+            "firstname": "Gaëlle",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Alan",
-            "lastname": "Pasquet",
+            "lastname": "FEHRINGER",
+            "firstname": "Bernard",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
         },
         {
+            "lastname": "CORDIER",
             "firstname": "Philippe",
-            "lastname": "Plouzané",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
         },
         {
-            "firstname": "Mélanie",
-            "lastname": "Thomin",
+            "lastname": "BEAULIEU",
+            "firstname": "Tiphaine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 29,
-            "county": "Finistère",
-            "circumscription": 6
+            "nuance": "DIV",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "PLOUZANÉ",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "PASQUET",
+            "firstname": "Alan",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PFLIEGER",
+            "firstname": "Mathilde Maria",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "PERENNEC",
+            "firstname": "Tugdual",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

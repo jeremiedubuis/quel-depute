@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Laurent",
-            "lastname": "Baumel",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Jean-François",
-            "lastname": "Bellanger",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Fabienne",
-            "lastname": "Colboc",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
-        },
-        {
+            "lastname": "DE LA FERTÉ",
             "firstname": "Olivier",
-            "lastname": "de la Ferté",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Kévin",
-            "lastname": "Gardeau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
-        },
-        {
+            "lastname": "LAGRÉE",
             "firstname": "Sophie",
-            "lastname": "Lagrée",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Jacques",
-            "lastname": "Masset",
+            "lastname": "DEFORGE",
+            "firstname": "Caroline",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAMBERS",
+            "firstname": "Francis",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "BAUMEL",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "BELLANGER",
+            "firstname": "Jean-François",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MASSET",
+            "firstname": "Jacques",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 37,
-            "county": "Indre-et-Loire",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "BEN LAHCEN",
+            "firstname": "Nesrine",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "GARDEAU",
+            "firstname": "Kévin",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "COLBOC",
+            "firstname": "Fabienne",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
         }
     ]
 }

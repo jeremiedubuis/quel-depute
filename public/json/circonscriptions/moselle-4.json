@@ -65,7 +65,7 @@
             "commissionInterventions": 431,
             "hemicycleInterventions": 1199,
             "hemicycleShortInterventions": 5440,
-            "questionsWritten": 201,
+            "questionsWritten": 202,
             "questionsOral": 11
         },
         "opposedGovernment": 0,
@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Marc",
-            "lastname": "Baud-Berthier",
+            "lastname": "CRENNER",
+            "firstname": "Emilie",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "GIRARDOT",
+            "firstname": "Hélène",
+            "gender": "F",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "VILAIN",
+            "firstname": "Eric",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BAUD-BERTHIER",
+            "firstname": "Marc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Émilie",
-            "lastname": "Crenner",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Fabien",
-            "lastname": "Di Filippo",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Hélène",
-            "lastname": "Girardot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
-        },
-        {
+            "lastname": "KONARSKI",
             "firstname": "Chloé",
-            "lastname": "Konarski",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Michel",
-            "lastname": "Rambour",
+            "lastname": "DI FILIPPO",
+            "firstname": "Fabien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "VAN DER STRAETEN",
+            "firstname": "Antonin",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "RAMBOUR",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 57,
-            "county": "Moselle",
-            "circumscription": 4
+            "candidate": true
         }
     ]
 }

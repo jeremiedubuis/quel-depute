@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Philippe",
-            "lastname": "Berta",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Nicolas",
-            "lastname": "Cadène",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
-        },
-        {
-            "firstname": "François",
-            "lastname": "Courdil",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
-        },
-        {
+            "lastname": "GARDET",
             "firstname": "Laurence",
-            "lastname": "Gardet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Stéphane",
-            "lastname": "Guillemin",
+            "lastname": "CADÈNE",
+            "firstname": "Nicolas",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
         },
         {
-            "firstname": "Aïcha",
-            "lastname": "Terbeche",
+            "lastname": "TERBECHE",
+            "firstname": "AÏcha",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 30,
-            "county": "Gard",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "STIVAL",
+            "firstname": "Nicolas",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "GUILLEMIN",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "COURDIL",
+            "firstname": "François",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "GUILLOT",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "MAURIN",
+            "firstname": "Jean-Claude",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "GILLI",
+            "firstname": "Stephane",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BERTA",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "BENSLIMA",
+            "firstname": "Mounir",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

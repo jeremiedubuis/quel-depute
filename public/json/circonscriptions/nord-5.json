@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
+            "lastname": "CATTEAU",
             "firstname": "Victor",
-            "lastname": "Catteau",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Frédéric",
-            "lastname": "Cauderlier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Ophélie",
-            "lastname": "Delneste",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Luc",
-            "lastname": "Dubois",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Sébastien",
-            "lastname": "Huyghe",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
-        },
-        {
+            "lastname": "STOFFEL",
             "firstname": "Manon",
-            "lastname": "Stoffel",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "CAUDERLIER",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "DELNESTE",
+            "firstname": "Ophélie",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "DENNEQUIN",
+            "firstname": "Pierrick",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "SION",
+            "firstname": "Hugues",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HUYGHE",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "DUBOIS",
+            "firstname": "Luc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
         }
     ]
 }

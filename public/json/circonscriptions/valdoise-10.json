@@ -74,88 +74,174 @@
     },
     "candidates": [
         {
-            "firstname": "Augustin",
-            "lastname": "Belloc",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Fédération de la Gauche Républicaine",
-            "groupShort": "FGR",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Richard",
-            "lastname": "Durand",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Christophe",
-            "lastname": "Flaux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
-        },
-        {
+            "lastname": "FIDI",
             "firstname": "Patricia",
-            "lastname": "José",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "LACHAS",
+            "firstname": "Victorien",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GRANVORKA PUISARD",
+            "firstname": "Princesse",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LOULENDOT",
+            "firstname": "Joseline Sylvie",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "JOSÉ",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
+            "candidate": true
         },
         {
-            "firstname": "Victorien",
-            "lastname": "Lachas",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
-        },
-        {
-            "firstname": "Evelyne",
-            "lastname": "Ollivier",
+            "lastname": "RIGOUSTE",
+            "firstname": "Sabine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "FLAUX",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "OLLIVIER",
+            "firstname": "Evelyne",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
+            "candidate": true
         },
         {
-            "firstname": "Aurélien",
-            "lastname": "Taché",
+            "lastname": "BELLOC",
+            "firstname": "Augustin",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Nouveaux démocrates",
-            "groupShort": "ND",
-            "countyId": 95,
-            "county": "Val-d'Oise",
-            "circumscription": 10
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "TACHÉ",
+            "firstname": "Aurélien",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "div. g.-Nupes",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "ARRAR",
+            "firstname": "Najet",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "ZIABAT",
+            "firstname": "Karim",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "SAITOULI",
+            "firstname": "Sanaa",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "DURAND",
+            "firstname": "Richard",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BINET",
+            "firstname": "Matthieu",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "MADI",
+            "firstname": "Prabagarane",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "BENSEDDIK",
+            "firstname": "Malek",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
         }
     ]
 }

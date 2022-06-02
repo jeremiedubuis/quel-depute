@@ -74,88 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Abdellah",
-            "lastname": "Aksas",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
-            "firstname": "Kolia",
-            "lastname": "Benié",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
-            "firstname": "Clément",
-            "lastname": "Fiquet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
-            "firstname": "Angélique",
-            "lastname": "Michel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
-            "firstname": "Danièle",
-            "lastname": "Obono",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
-            "firstname": "Catherine",
-            "lastname": "Paulus",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
-        },
-        {
+            "lastname": "SIGLER",
             "firstname": "Pierre",
-            "lastname": "Sigler",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 75,
-            "county": "Paris",
-            "circumscription": 17
+            "candidate": true
+        },
+        {
+            "lastname": "YAFFA",
+            "firstname": "Mams",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "OBONO",
+            "firstname": "Danièle",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "FAILLÈS",
+            "firstname": "Béatrice",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "AKSAS",
+            "firstname": "Abdellah",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "TÉCHER",
+            "firstname": "Marianna",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "FALICON",
+            "firstname": "Marie",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HADBI",
+            "firstname": "Youcef",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "FIQUET",
+            "firstname": "Clement",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "MICHEL",
+            "firstname": "Angélique",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BÉNIÉ",
+            "firstname": "Kolia",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CLEMENT",
+            "firstname": "Annie",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LARGUECH",
+            "firstname": "Siwar",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "BACHIR",
+            "firstname": "Fatah",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

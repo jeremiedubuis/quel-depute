@@ -74,100 +74,134 @@
     },
     "candidates": [
         {
+            "lastname": "TAILLADE",
             "firstname": "Florence",
-            "lastname": "Brutus",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Radical de Gauche",
-            "groupShort": "PRG",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Magali",
-            "lastname": "Crozier",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Henri",
-            "lastname": "Fabre-Luce",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Sylvie",
-            "lastname": "Ferrand",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Laurent",
-            "lastname": "Gilhodes",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Stéphane",
-            "lastname": "Karges",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Florence",
-            "lastname": "Taillade",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Mathilde",
-            "lastname": "Tastavy",
+            "lastname": "FERRAND",
+            "firstname": "Sylvie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "TASTAVY",
+            "firstname": "Mathilde",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 34,
-            "county": "Hérault",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "CROZIER-DANIEL",
+            "firstname": "Magali",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BRUTUS",
+            "firstname": "Florence",
+            "gender": "F",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "GILHODES",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "FABRE-LUCE",
+            "firstname": "Henri",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ESSOMBA",
+            "firstname": "Oscar",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "NOEL",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BERNARDI",
+            "firstname": "Samantha",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "ROSSARD",
+            "firstname": "Solène",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "MÉNARD",
+            "firstname": "Emmanuelle",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "ext. d.",
+            "group": "divers extrême droite",
+            "groupShort": "divers extrême droite",
+            "candidate": true
+        },
+        {
+            "lastname": "KARGES",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
         }
     ]
 }

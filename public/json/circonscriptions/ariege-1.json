@@ -1,5 +1,5 @@
 {
-    "countyId": "09",
+    "countyId": 9,
     "number": 1,
     "name": "Ariège",
     "results": {
@@ -74,64 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Renaud",
-            "lastname": "Fabart",
+            "lastname": "JOSSINET",
+            "firstname": "François-Xavier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GARNIER",
+            "firstname": "Jean-Marc",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "TAURINE",
+            "firstname": "Bénédicte",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "FABART",
+            "firstname": "Renaud",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Jean-Marc",
-            "lastname": "Garnier",
+            "lastname": "LOMRÉ",
+            "firstname": "Yannick",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 1
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         },
         {
-            "firstname": "Gisèle",
-            "lastname": "Lapeyre",
+            "lastname": "TRIBOUT",
+            "firstname": "Anne-Sophie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "LAPEYRE",
+            "firstname": "Gisèle",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Bénédicte",
-            "lastname": "Taurine",
+            "lastname": "FROGER",
+            "firstname": "Martine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 1
+            "nuance": "SOC",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
         },
         {
-            "firstname": "Anne-Sophie",
-            "lastname": "Tribout",
+            "lastname": "COULY",
+            "firstname": "Claire",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 9,
-            "county": "Ariège",
-            "circumscription": 1
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "SALVAT",
+            "firstname": "Jean-Pierre",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
         }
     ]
 }

@@ -55,7 +55,7 @@
         "scandals": [],
         "presence": {
             "weeksActive": 175,
-            "reports": 4,
+            "reports": 5,
             "proposals": 1,
             "proposalsSupported": 122,
             "amendments": 216,
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Sabine",
-            "lastname": "Cristofani-Viglione",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Philippe",
-            "lastname": "Lottiaux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
-        },
-        {
+            "lastname": "MAUBORGNE",
             "firstname": "Sereine",
-            "lastname": "Mauborgne",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Pascale",
-            "lastname": "Morel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
-        },
-        {
+            "lastname": "RIBEIRO TEIXEIRA",
             "firstname": "Sabrina",
-            "lastname": "Ribeiro Teixeira",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "CRISTOFANI-VIGLIONE",
+            "firstname": "Sabine",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "HAMEL",
+            "firstname": "Marie-Christine",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "MOREL",
+            "firstname": "Pascale",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "TERRAZZONI",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "SARRUT",
+            "firstname": "Chantal",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "ZEMMOUR",
             "firstname": "Eric",
-            "lastname": "Zemmour",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 83,
-            "county": "Var",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LOTTIAUX",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

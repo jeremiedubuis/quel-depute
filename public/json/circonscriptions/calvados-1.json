@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Pierre",
-            "lastname": "Casevitz",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Emma",
-            "lastname": "Fourreau",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Jérémy",
-            "lastname": "Gallois",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Josseline",
-            "lastname": "Gerszkourez",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Fabrice",
-            "lastname": "Le Vigoureux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
-        },
-        {
+            "lastname": "THOMAS",
             "firstname": "Florent",
-            "lastname": "Thomas",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 14,
-            "county": "Calvados",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "CASEVITZ",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAHINE",
+            "firstname": "Anne-Laure",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "SIMONNET",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "LIBAN",
+            "firstname": "Josseline",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BLOUIN",
+            "firstname": "Marlène",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "LE VIGOUREUX",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GALLOIS",
+            "firstname": "Jérémy",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "FOURREAU",
+            "firstname": "Emma",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "CORBERY",
+            "firstname": "Blaise",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
         }
     ]
 }

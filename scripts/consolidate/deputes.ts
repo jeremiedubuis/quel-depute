@@ -6,20 +6,13 @@ import { emptyDir } from '$helpers/emptyDir';
 import path from 'path';
 import { ScrapQueue } from '../helpers/scrapQueue';
 import { ScrutinType } from '$types/scrutinTypes';
-const scrutins = require('../data/scrutins2.json');
+const scrutins = require('../data/scrutins3.json');
 const scandals = require('../data/scandals.json');
-import candidates from '../data/candidates.json';
-import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
+import candidates from '../data/candidates3.json';
+import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json'
 import { mapNosDeputes } from '../helpers/mapNosDeputes';
-import { mapCandidate } from '../helpers/mapCandidate';
+import type { Scrutin } from "./scrutins";
 
-export type Scrutin = {
-    'N° Scrutin': number;
-    'Titre loi': string;
-    Catégorie: 'Écologie' | 'Droits humains' | 'Éducation' | 'Pauvreté';
-    'Description (optionnelle)': string;
-    Impact: 'Positif' | 'Négatif';
-};
 const scrapQueue = new ScrapQueue(500);
 const skip = {
     image: true
@@ -31,10 +24,16 @@ const consolidate = async () => {
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
     const parsed = mapNosDeputes(raw);
 
-    const mappedCandidates = candidates.map(mapCandidate);
+    const flatCandidates = Object.keys(candidates).reduce((acc, circ) =>  [...acc, ...candidates[circ].map(c => {
+        let [countyId, circumscription] = circ.split('_').map(n => parseInt(n));
+        if (countyId === 99) countyId = 999;
+        const county = circumscriptionsFirstRound.find(c => parseInt(c.countyId.toString()) === countyId)?.county;
+        return {...c, countyId, circumscription, county}
+    })], [])
+
 
     parsed.forEach((d) => {
-        const _candidate = mappedCandidates.find(
+        const _candidate = flatCandidates.find(
             ({ firstname, lastname }: any) => firstname === d.firstname && lastname === d.lastname
         );
         if (!_candidate) d.candidate = false;
@@ -59,8 +58,9 @@ const consolidate = async () => {
         return { ...r, current: true };
     });
 
+    console.log(flatCandidates)
     list.push(
-        ...mappedCandidates.filter(
+        ...flatCandidates.filter(
             (c) => !list.find((l) => l.firstname === c.firstname && l.lastname === c.lastname)
         )
     );
@@ -70,7 +70,7 @@ const consolidate = async () => {
         JSON.stringify(
             list.map((l) => ({
                 ...l,
-                candidate: !!mappedCandidates.find(
+                candidate: !!flatCandidates.find(
                     (c) => c.firstname === l.firstname && c.lastname === l.lastname
                 )
             })),
@@ -93,8 +93,8 @@ const consolidate = async () => {
     }, {});
 
     scrutins.forEach((s: Scrutin) => {
-        if (typeof s['N° Scrutin'] !== 'number') return;
-        const scrutin: ScrutinType = require(path.join(scrutinJSONPath, s['N° Scrutin'] + '.json'));
+        if (typeof s.number !== 'number') return;
+        const scrutin: ScrutinType = require(path.join(scrutinJSONPath, s.number + '.json'));
         parsed.forEach((d) => {
             const vote = scrutin.votes.find(
                 ({ firstname, lastname }) => d.firstname === firstname && d.lastname === lastname

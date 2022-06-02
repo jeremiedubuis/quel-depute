@@ -74,88 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Virginie",
-            "lastname": "Dayet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Nathalie",
-            "lastname": "Fritsch",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
-        },
-        {
+            "lastname": "FROPPIER",
             "firstname": "Christophe",
-            "lastname": "Froppier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Nicolas",
-            "lastname": "Pacquot",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Christine",
-            "lastname": "Pastor",
+            "lastname": "DAYET",
+            "firstname": "Virgnie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Résistons",
-            "groupShort": "Résistons",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
         },
         {
-            "firstname": "Franck",
-            "lastname": "Plain",
+            "lastname": "PACQUOT",
+            "firstname": "Nicolas",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "TAPONNOT",
+            "firstname": "Romane",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PLAIN",
+            "firstname": "Franck",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
+            "candidate": true
         },
         {
-            "firstname": "Romane",
-            "lastname": "Taponnot",
+            "lastname": "MAHÉ",
+            "firstname": "Dominique",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 25,
-            "county": "Doubs",
-            "circumscription": 3
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "FRITSCH",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "NEDEY",
+            "firstname": "Valère",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "LR dis.",
+            "group": "dissident Les Républicains",
+            "groupShort": "dissident les républicains",
+            "candidate": true
+        },
+        {
+            "lastname": "PASTOR",
+            "firstname": "Christine",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
         }
     ]
 }

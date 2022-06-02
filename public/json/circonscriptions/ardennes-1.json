@@ -1,5 +1,5 @@
 {
-    "countyId": "08",
+    "countyId": 8,
     "number": 1,
     "name": "Ardennes",
     "results": {
@@ -74,52 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Julien",
-            "lastname": "Duruisseau",
+            "lastname": "RICHARD",
+            "firstname": "Laurent",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 1
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         },
         {
+            "lastname": "DURUISSEAU",
+            "firstname": "Julien",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "RENNESSON",
+            "firstname": "Arnaud",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "KALMES",
+            "firstname": "Patrick",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "OCTAVE",
             "firstname": "Nadia",
-            "lastname": "Octave",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Laurent",
-            "lastname": "Richard",
+            "lastname": "MARECHAL",
+            "firstname": "Guillaume",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 1
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
+            "lastname": "DE CAUSANS",
+            "firstname": "Juliette",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LAURENT",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "VUIBERT",
             "firstname": "Lionel",
-            "lastname": "Vuibert",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 1
+            "nuance": "ENS",
+            "nuanceComputed": "Agir-Ensemble",
+            "group": "Agir",
+            "groupShort": "agir",
+            "candidate": true
         }
     ]
 }

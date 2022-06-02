@@ -74,64 +74,84 @@
     },
     "candidates": [
         {
-            "firstname": "Roch",
-            "lastname": "Brancour",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Gabriel",
-            "lastname": "De Chabot",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 1
-        },
-        {
+            "lastname": "DUPAS",
             "firstname": "Marie-Louise",
-            "lastname": "Dupas",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "François",
-            "lastname": "Gernigon",
+            "lastname": "BOVIER-LAPIERRE",
+            "firstname": "Tristan",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 1
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "SAEIDI",
             "firstname": "Arash",
-            "lastname": "Saeidi",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Génération·s",
-            "groupShort": "G",
-            "countyId": 49,
-            "county": "Maine-et-Loire",
-            "circumscription": 1
+            "nuance": "ECO",
+            "nuanceComputed": "Gen.-Nupes",
+            "group": "Génération.s",
+            "groupShort": "GS",
+            "candidate": true
+        },
+        {
+            "lastname": "DE CHABOT",
+            "firstname": "Gabriel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BENOIT",
+            "firstname": "Sulyvan",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BRANCOUR",
+            "firstname": "Roch",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "GERNIGON",
+            "firstname": "François",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "CAYLA",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
         }
     ]
 }

@@ -74,76 +74,154 @@
     },
     "candidates": [
         {
-            "firstname": "Antoine",
-            "lastname": "Armand",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Loris",
-            "lastname": "Fontana",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Fabienne",
-            "lastname": "Nanche",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
-        },
-        {
+            "lastname": "TARDY",
             "firstname": "Lionel",
-            "lastname": "Tardy",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Paul",
-            "lastname": "Vigarie",
+            "lastname": "COLLOMB-PATTON",
+            "firstname": "Willy",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REG",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "CORNU",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "souv.",
+            "group": "divers souverainistes",
+            "groupShort": "divers souverainistes",
+            "candidate": true
+        },
+        {
+            "lastname": "NANCHE",
+            "firstname": "Anaîs",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "PACORET",
+            "firstname": "Catherine",
+            "gender": "F",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
+        },
+        {
+            "lastname": "BRANCALEONE",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUSSA",
+            "firstname": "Oujdi",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "VIGARIÉ",
+            "firstname": "Jean-Paul",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
+            "candidate": true
         },
         {
+            "lastname": "YILDIRIM",
             "firstname": "Naci",
-            "lastname": "Yildirim",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 74,
-            "county": "Haute-Savoie",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "HIPPOMÈNE",
+            "firstname": "San",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PERALDI",
+            "firstname": "Timothée",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "ARMAND",
+            "firstname": "Antoine",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "FONTANA",
+            "firstname": "Loris",
+            "gender": "F",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "SCIABBARRASI",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV dis.",
+            "group": "dissident EELV hors accord Nupes",
+            "groupShort": "dissident eelv hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "CURDY",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

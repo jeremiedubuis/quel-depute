@@ -1,5 +1,5 @@
 {
-    "countyId": "06",
+    "countyId": 6,
     "number": 6,
     "name": "Alpes-Maritimes",
     "results": {
@@ -74,88 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Danièle",
-            "lastname": "Bartoli",
+            "lastname": "BARTOLI",
+            "firstname": "Daniele",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Dénis",
-            "lastname": "Cieslik",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Guillaume",
-            "lastname": "Julien",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Bryan",
-            "lastname": "Masson",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Nicole",
-            "lastname": "Mazella",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Jean-Bernard",
-            "lastname": "Mion",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
-        },
-        {
+            "lastname": "TRASTOUR-ISNART",
             "firstname": "Laurence",
-            "lastname": "Trastour-Isnart",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 6,
-            "county": "Alpes-Maritimes",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "MAZZELLA",
+            "firstname": "Nicole",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "LOUVEZ",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "MION",
+            "firstname": "Jean-Bernard",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "MASSON",
+            "firstname": "Bryan",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "CIESLIK",
+            "firstname": "Denis",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ROBIONY",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PIACENTINI",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "JULIEN",
+            "firstname": "Guillaume",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "TOUZEAU-MENONI",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
         }
     ]
 }

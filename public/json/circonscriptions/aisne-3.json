@@ -1,5 +1,5 @@
 {
-    "countyId": "02",
+    "countyId": 2,
     "number": 3,
     "name": "Aisne",
     "results": {
@@ -74,40 +74,64 @@
     },
     "candidates": [
         {
-            "firstname": "Jean-Louis",
-            "lastname": "Bricout",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 3
-        },
-        {
-            "firstname": "Paul-Henry",
-            "lastname": "Hansen-Catta",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 3
-        },
-        {
+            "lastname": "VOISIN",
             "firstname": "Laetitia",
-            "lastname": "Voisin",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 3
+            "candidate": true
+        },
+        {
+            "lastname": "BERNARDEAU",
+            "firstname": "Hervé",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HANSEN-CATTA",
+            "firstname": "Paul-Henry",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MOINEUSE",
+            "firstname": "Jérome",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "BRICOUT",
+            "firstname": "Jean-Louis",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "CHOTIN",
+            "firstname": "Agnès",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         }
     ]
 }

@@ -74,100 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Céline",
-            "lastname": "Blatéron",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Sandra",
-            "lastname": "Chirazi",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Jocelyne",
-            "lastname": "Devriendt",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Ludovic",
-            "lastname": "Hautier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
-        },
-        {
+            "lastname": "HIGNET",
             "firstname": "Mathilde",
-            "lastname": "Hignet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Gabriel",
-            "lastname": "Orain",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Anne",
-            "lastname": "Patault",
+            "lastname": "OLIVIÉRO",
+            "firstname": "Valérie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         },
         {
+            "lastname": "TETAUD",
             "firstname": "Sarah",
-            "lastname": "Tetaud",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 35,
-            "county": "Ille-et-Vilaine",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "ORAIN",
+            "firstname": "Gabriel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "PATAULT",
+            "firstname": "Anne",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CHIRAZI",
+            "firstname": "Sandra",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BLEIVAS",
+            "firstname": "Mireille",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "HAUTIER",
+            "firstname": "Ludovic",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "FRANÇOIS",
+            "firstname": "Jacques",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "DEVRIENDT",
+            "firstname": "Jocelyne",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "LOHYN",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "ext. g.",
+            "group": "autres extrême gauche",
+            "groupShort": "autres extrême gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "DESMOULIN",
+            "firstname": "Gil",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "BLATERON",
+            "firstname": "Céline",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
         }
     ]
 }

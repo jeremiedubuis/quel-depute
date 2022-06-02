@@ -74,76 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Frédéric",
-            "lastname": "Descrozaille",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Thierry",
-            "lastname": "Guintrand",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Laurent",
-            "lastname": "Jolly",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Almash",
-            "lastname": "Patel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
-        },
-        {
+            "lastname": "ROBIN",
             "firstname": "Pierre",
-            "lastname": "Robin",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Germain",
-            "lastname": "Roesch",
+            "lastname": "JOLLY",
+            "firstname": "Laurent",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "DESCROZAILLE",
+            "firstname": "Frédéric",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "BRATULESCU",
+            "firstname": "Mirela",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GUINTRAND",
+            "firstname": "Thierry",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "PATEL",
+            "firstname": "Almash",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "LE PARC",
+            "firstname": "Françoise",
+            "gender": "F",
+            "nuance": "COM",
+            "nuanceComputed": "PCF dis.",
+            "group": "dissident PCF hors accord Nupes",
+            "groupShort": "dissident pcf hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "ROESCH",
+            "firstname": "Germain",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 94,
-            "county": "Val-de-Marne",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "TELLE",
+            "firstname": "Géraldine",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "LAUZET",
+            "firstname": "Pierre-Louis",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUATLAOUI",
+            "firstname": "Amina",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

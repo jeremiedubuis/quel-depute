@@ -74,76 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Carole",
-            "lastname": "Bureau-Bonnard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
-        },
-        {
+            "lastname": "DUMOULIN",
             "firstname": "Florian",
-            "lastname": "Dumoulin",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Anne-Sophie",
-            "lastname": "Fontaine",
+            "lastname": "ROGEZ",
+            "firstname": "Véronique",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "ESCHERICH",
+            "firstname": "Elisa",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "FONTAINE",
+            "firstname": "Anne-Sophie",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Michel",
-            "lastname": "Guiniot",
+            "lastname": "IMBERT",
+            "firstname": "Guy-Eric",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Jean-Marc",
-            "lastname": "Iskin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
-        },
-        {
+            "lastname": "IUNG",
             "firstname": "Nicole",
-            "lastname": "Iung",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 60,
-            "county": "Oise",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "GUINIOT",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "ISKIN",
+            "firstname": "Jean-Marc",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BUREAU-BONNARD",
+            "firstname": "Carole",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "MAB-BREKIESZ",
+            "firstname": "Marc-Antoine",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
         }
     ]
 }

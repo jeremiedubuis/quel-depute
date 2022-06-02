@@ -74,76 +74,174 @@
     },
     "candidates": [
         {
-            "firstname": "Maryline",
-            "lastname": "Antoine",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Hendrik",
-            "lastname": "Davi",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Celine",
-            "lastname": "Durand",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Sandrine",
-            "lastname": "Lambert",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
-        },
-        {
+            "lastname": "MALHOLE",
             "firstname": "Nathalie",
-            "lastname": "Malhole",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Cathy",
-            "lastname": "Racon-Bouzon",
+            "lastname": "PAGANINI",
+            "firstname": "Vannina",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "ANTOINE",
+            "firstname": "Maryline",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "RACON-BOUZON",
+            "firstname": "Cathy",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 13,
-            "county": "Bouches-du-Rhône",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "MANIVET",
+            "firstname": "Marine",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "DURAND",
+            "firstname": "Céline",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "DAVI",
+            "firstname": "Hendrik",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "LAMBERT",
+            "firstname": "Sandrine",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "RUSSO",
+            "firstname": "Joséphine",
+            "gender": "F",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "MONFERRINI",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "DE BENSASON",
+            "firstname": "Marc",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "NGUYÊN-VAN",
+            "firstname": "Mai",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "BELAÏD",
+            "firstname": "Mourad",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "MoDem dis.",
+            "group": "dissident MoDem",
+            "groupShort": "dissident modem",
+            "candidate": true
+        },
+        {
+            "lastname": "DIDOUNE",
+            "firstname": "Djamel",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
+        },
+        {
+            "lastname": "VINAPON",
+            "firstname": "Georges",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "CHAMAYOU",
+            "firstname": "Anne",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "VINCETTI",
+            "firstname": "Quentin",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
         }
     ]
 }

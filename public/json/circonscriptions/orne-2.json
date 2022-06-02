@@ -74,88 +74,104 @@
     },
     "candidates": [
         {
-            "firstname": "Patricia",
-            "lastname": "Ansquer",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Cécile",
-            "lastname": "Bussiere",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Amal",
-            "lastname": "El Khaledi",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
-        },
-        {
+            "lastname": "EL KHALEDI",
             "firstname": "Amale",
-            "lastname": "El-Khaledi",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
             "group": "Horizons",
-            "groupShort": "Horizons",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
+            "groupShort": "horizons",
+            "candidate": true
         },
         {
+            "lastname": "LOUWAGIE",
             "firstname": "Véronique",
-            "lastname": "Louwagie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         },
         {
-            "firstname": "Alexandre",
-            "lastname": "Morel",
+            "lastname": "DE BOURBON PARME",
+            "firstname": "Amaury",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Bernadette",
-            "lastname": "Velly",
+            "lastname": "MOUSSET",
+            "firstname": "Denis",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "MdR",
+            "group": "Mouvement de la ruralité",
+            "groupShort": "mouvement de la ruralité",
+            "candidate": true
+        },
+        {
+            "lastname": "BUSSIÈRE",
+            "firstname": "Cécile",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "MARIE",
+            "firstname": "Sandrine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "VELLY",
+            "firstname": "Bernadette",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 61,
-            "county": "Orne",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "ANSQUER",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "JOSEPH",
+            "firstname": "Christophe",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "MOREL",
+            "firstname": "Alexandre",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

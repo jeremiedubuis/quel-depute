@@ -74,88 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Blandine",
-            "lastname": "Brocard",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Amaël",
-            "lastname": "Doux",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
-        },
-        {
+            "lastname": "DUIGOU",
             "firstname": "Yves",
-            "lastname": "Duigou",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
+            "candidate": true
         },
         {
+            "lastname": "JOINT",
             "firstname": "Bastien",
-            "lastname": "Joint",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Julie",
-            "lastname": "Kabil",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Fabrice",
-            "lastname": "Mateucci",
+            "lastname": "LE BEL",
+            "firstname": "Cédric",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "MATTEUCCI",
+            "firstname": "Fabrice",
+            "gender": "H",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "RIVIÈRE",
             "firstname": "Hélène",
-            "lastname": "Rivière",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 69,
-            "county": "Rhône",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "KABIL",
+            "firstname": "Julie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "BROCARD",
+            "firstname": "Blandine",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUARD",
+            "firstname": "Stéphanie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "SLIMANI",
+            "firstname": "Mohamed",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }

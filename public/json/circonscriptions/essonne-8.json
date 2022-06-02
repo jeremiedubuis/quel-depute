@@ -74,64 +74,74 @@
     },
     "candidates": [
         {
+            "lastname": "BIDA",
             "firstname": "Mohamed",
-            "lastname": "Bida",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 91,
-            "county": "Essonne",
-            "circumscription": 8
+            "candidate": true
         },
         {
-            "firstname": "Emilie",
-            "lastname": "Chazette-Guillet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 91,
-            "county": "Essonne",
-            "circumscription": 8
-        },
-        {
-            "firstname": "Chantal",
-            "lastname": "Duboulay",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 91,
-            "county": "Essonne",
-            "circumscription": 8
-        },
-        {
+            "lastname": "DUPONT-AIGNAN",
             "firstname": "Nicolas",
-            "lastname": "Dupont-Aignan",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "DLF",
-            "groupShort": "DLF",
-            "countyId": 91,
-            "county": "Essonne",
-            "circumscription": 8
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         },
         {
-            "firstname": "Daniel",
-            "lastname": "Jacob",
+            "lastname": "CHAZETTE-GUILLET",
+            "firstname": "Emilie",
+            "gender": "F",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "DOHIN",
+            "firstname": "Nicolas",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "GUIGUET",
+            "firstname": "Jean-Claude",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "JACOB",
+            "firstname": "Daniel",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 91,
-            "county": "Essonne",
-            "circumscription": 8
+            "candidate": true
+        },
+        {
+            "lastname": "DUBOULAY",
+            "firstname": "Chantal",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
         }
     ]
 }

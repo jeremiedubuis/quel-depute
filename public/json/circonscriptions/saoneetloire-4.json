@@ -65,7 +65,7 @@
             "commissionInterventions": 1228,
             "hemicycleInterventions": 1036,
             "hemicycleShortInterventions": 791,
-            "questionsWritten": 198,
+            "questionsWritten": 199,
             "questionsOral": 33
         },
         "opposedGovernment": 0,
@@ -74,52 +74,74 @@
     },
     "candidates": [
         {
-            "firstname": "Claude",
-            "lastname": "Couratier",
+            "lastname": "ROBLOT",
+            "firstname": "Elisabeth",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "Hor.-Ensemble",
+            "group": "Horizons",
+            "groupShort": "horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "RAFFA",
+            "firstname": "Jean",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "SZYCH",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "MICHOUX",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "LCen.",
+            "group": "Les Centristes",
+            "groupShort": "LC",
+            "candidate": true
+        },
+        {
+            "lastname": "DELOGE",
+            "firstname": "Valérie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "COURATIER",
+            "firstname": "Claude",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 71,
-            "county": "Saône-et-Loire",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Valérie",
-            "lastname": "Deloge",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 71,
-            "county": "Saône-et-Loire",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Élisabeth",
-            "lastname": "Roblot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Horizons",
-            "groupShort": "H",
-            "countyId": 71,
-            "county": "Saône-et-Loire",
-            "circumscription": 4
-        },
-        {
+            "lastname": "UNTERMAIER",
             "firstname": "Cécile",
-            "lastname": "Untermaier",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
             "groupShort": "PS",
-            "countyId": 71,
-            "county": "Saône-et-Loire",
-            "circumscription": 4
+            "candidate": true
         }
     ]
 }

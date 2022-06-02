@@ -74,88 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "Lydia",
-            "lastname": "Aiello",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
-        },
-        {
+            "lastname": "ALVES",
             "firstname": "Christophe",
-            "lastname": "Alves",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Monique",
-            "lastname": "Iborra",
+            "lastname": "PUEL",
+            "firstname": "Michele",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Fabien",
-            "lastname": "Jouvé",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Socialiste",
-            "groupShort": "PS",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Servane",
-            "lastname": "Pater",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
-        },
-        {
-            "firstname": "Michèle",
-            "lastname": "Puel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
+            "candidate": true
         },
         {
-            "firstname": "Marc",
-            "lastname": "Quinton",
+            "lastname": "JOUVE",
+            "firstname": "Fabien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
+            "nuance": "SOC",
+            "nuanceComputed": "PS-Nupes",
+            "group": "Parti socialiste",
+            "groupShort": "PS",
+            "candidate": true
+        },
+        {
+            "lastname": "PIUSSAN",
+            "firstname": "Dominique",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "IBORRA",
+            "firstname": "Monique",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "QUINTON",
+            "firstname": "Marc",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
             "groupShort": "PP",
-            "countyId": 31,
-            "county": "Haute-Garonne",
-            "circumscription": 6
+            "candidate": true
+        },
+        {
+            "lastname": "BONNEMAISON",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "Rés.",
+            "group": "Résistons !",
+            "groupShort": "résistons !",
+            "candidate": true
+        },
+        {
+            "lastname": "HELMAN",
+            "firstname": "Christelle",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "TARANTO",
+            "firstname": "Thierry",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
+        },
+        {
+            "lastname": "MARTIN",
+            "firstname": "Tristan",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "LAPORTE",
+            "firstname": "Sandra",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "PATER",
+            "firstname": "Servane",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
+            "group": "Parti animaliste",
+            "groupShort": "PA",
+            "candidate": true
+        },
+        {
+            "lastname": "LANOIX",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "AIELLO",
+            "firstname": "Lydia",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

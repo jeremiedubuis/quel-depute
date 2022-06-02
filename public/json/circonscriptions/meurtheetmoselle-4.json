@@ -65,7 +65,7 @@
             "commissionInterventions": 2104,
             "hemicycleInterventions": 2993,
             "hemicycleShortInterventions": 4193,
-            "questionsWritten": 251,
+            "questionsWritten": 252,
             "questionsOral": 23
         },
         "opposedGovernment": 0,
@@ -74,88 +74,114 @@
     },
     "candidates": [
         {
-            "firstname": "Thibault",
-            "lastname": "Bazin",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Barbara",
-            "lastname": "Bertozzi Bievelot",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
-        },
-        {
-            "firstname": "Dominique",
-            "lastname": "Bilde",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
-        },
-        {
+            "lastname": "GEORGES",
             "firstname": "Lucy",
-            "lastname": "Georges",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Geneviève",
-            "lastname": "Heilliette",
+            "lastname": "BERTOZZI BIEVELOT",
+            "firstname": "Barbara",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
         },
         {
+            "lastname": "THIRIET",
+            "firstname": "Rémi",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "BILDE",
+            "firstname": "Dominique",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "MAILLOT",
             "firstname": "Corinne",
-            "lastname": "Maillot",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "BAZIN",
+            "firstname": "Thibault",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAS",
             "firstname": "Rachel",
-            "lastname": "Thomas",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 54,
-            "county": "Meurthe-et-Moselle",
-            "circumscription": 4
+            "candidate": true
+        },
+        {
+            "lastname": "HEILLIETTE",
+            "firstname": "Geneviève",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "BIHAKI",
+            "firstname": "Gregory",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUGUERRA",
+            "firstname": "Monir",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
+        },
+        {
+            "lastname": "RAVAILLER",
+            "firstname": "Bertrand",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
         }
     ]
 }

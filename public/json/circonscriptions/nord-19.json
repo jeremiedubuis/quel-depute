@@ -65,7 +65,7 @@
             "commissionInterventions": 45,
             "hemicycleInterventions": 510,
             "hemicycleShortInterventions": 404,
-            "questionsWritten": 147,
+            "questionsWritten": 149,
             "questionsOral": 12
         },
         "opposedGovernment": 0,
@@ -74,76 +74,84 @@
     },
     "candidates": [
         {
+            "lastname": "SOLOCH",
+            "firstname": "Patrick",
+            "gender": "H",
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "BOURLET",
             "firstname": "Cécile",
-            "lastname": "Bourlet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "candidate": true
         },
         {
-            "firstname": "Sebastien",
-            "lastname": "Chenu",
+            "lastname": "TROIA",
+            "firstname": "Christine",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "RACZKIEWICZ",
+            "firstname": "Bruno",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
         },
         {
+            "lastname": "CHERRIER",
             "firstname": "Emmanuel",
-            "lastname": "Cherrier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "candidate": true
         },
         {
+            "lastname": "DUQUENNE",
             "firstname": "Vincent",
-            "lastname": "Duquenne",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "candidate": true
         },
         {
-            "firstname": "Cédric",
-            "lastname": "Noulin",
+            "lastname": "DRICI",
+            "firstname": "Djemi",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "nuance": "DVC",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         },
         {
-            "firstname": "Patrick",
-            "lastname": "Soloch",
+            "lastname": "CHENU",
+            "firstname": "Sébastien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 59,
-            "county": "Nord",
-            "circumscription": 19
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         }
     ]
 }

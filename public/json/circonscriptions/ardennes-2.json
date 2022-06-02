@@ -1,5 +1,5 @@
 {
-    "countyId": "08",
+    "countyId": 8,
     "number": 2,
     "name": "Ardennes",
     "results": {
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Polina",
-            "lastname": "Beddelem",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Pierre",
-            "lastname": "Cordier",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Christelle",
-            "lastname": "Gallet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
-        },
-        {
+            "lastname": "LOYEZ",
             "firstname": "Gilles",
-            "lastname": "Loyez",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Baptiste",
-            "lastname": "Philippo",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Mink",
-            "lastname": "Takawé",
+            "lastname": "JACQUEMART",
+            "firstname": "Nadège",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "GALLET",
+            "firstname": "Christelle",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "TAKAWÉ",
+            "firstname": "Mink",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 8,
-            "county": "Ardennes",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "BENYOUCEF",
+            "firstname": "Patrick",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "BELLAY",
+            "firstname": "Christelle",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "PHILIPPO",
+            "firstname": "Baptiste",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "BEDDELEM",
+            "firstname": "Polina",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "CORDIER",
+            "firstname": "Pierre",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         }
     ]
 }

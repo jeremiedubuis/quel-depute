@@ -74,76 +74,154 @@
     },
     "candidates": [
         {
-            "firstname": "Thomas",
-            "lastname": "Cazenave",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Pierre",
-            "lastname": "de Gaétan Njikam",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Esther",
-            "lastname": "Dufaure",
+            "lastname": "CESTARI",
+            "firstname": "Catherine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "DUFAURE",
+            "firstname": "Esther",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
+            "candidate": true
         },
         {
-            "firstname": "Francis",
-            "lastname": "Feytout",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Europe Écologie Les Verts",
-            "groupShort": "EELV",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Bruno",
-            "lastname": "Paluteau",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Fanny",
-            "lastname": "Quandalle",
+            "lastname": "LARROQUET",
+            "firstname": "Isabelle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "NPA",
+            "group": "Nouveau Parti anticapitaliste",
+            "groupShort": "nouveau parti anticapitaliste",
+            "candidate": true
+        },
+        {
+            "lastname": "CAZENAVE",
+            "firstname": "Thomas",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "PALUTEAU",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GRATTEPANCHE",
+            "firstname": "Jean-Louis",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "NJIKAM",
+            "firstname": "Pierre De Gaetan",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
+        },
+        {
+            "lastname": "QUANDALLE",
+            "firstname": "Fanny",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 33,
-            "county": "Gironde",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "LOUSTAUNAU",
+            "firstname": "Xavier",
+            "gender": "H",
+            "nuance": "DVD",
+            "nuanceComputed": "Hor. Dis.",
+            "group": "dissident Horizons",
+            "groupShort": "dissident horizons",
+            "candidate": true
+        },
+        {
+            "lastname": "CHARTIER GRIMAUD",
+            "firstname": "Claire",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
+        },
+        {
+            "lastname": "THOMAS",
+            "firstname": "Damien",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div. g.",
+            "group": "Divers gauche",
+            "groupShort": "divers gauche",
+            "candidate": true
+        },
+        {
+            "lastname": "VISAGE",
+            "firstname": "Kylian",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "SABOULARD",
+            "firstname": "Medhi",
+            "gender": "H",
+            "nuance": "DVG",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "BLANCHARD",
+            "firstname": "Laurent",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "ROCHE",
+            "firstname": "Jean-Pierre",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
         }
     ]
 }

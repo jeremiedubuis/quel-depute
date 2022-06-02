@@ -1,5 +1,5 @@
 {
-    "countyId": "02",
+    "countyId": 2,
     "number": 4,
     "name": "Aisne",
     "results": {
@@ -74,64 +74,74 @@
     },
     "candidates": [
         {
+            "lastname": "BEAURAIN",
             "firstname": "José",
-            "lastname": "Beaurain",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "David",
-            "lastname": "Bobin",
+            "lastname": "GALL",
+            "firstname": "Aurélien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "COM",
+            "nuanceComputed": "PCF-Nupes",
+            "group": "Parti communiste français",
+            "groupShort": "PCF",
+            "candidate": true
+        },
+        {
+            "lastname": "BOBIN",
+            "firstname": "David",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Flora",
-            "lastname": "Bouillaguet",
+            "lastname": "VICENTE",
+            "firstname": "Vanessa",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "BOUILLAGUET",
+            "firstname": "Flora",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 4
+            "candidate": true
         },
         {
+            "lastname": "DELATTE",
             "firstname": "Marc",
-            "lastname": "Delatte",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 4
+            "candidate": true
         },
         {
-            "firstname": "Aurélien",
-            "lastname": "Gall",
+            "lastname": "CRÉON",
+            "firstname": "Damien",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Communiste Français",
-            "groupShort": "PCF",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 4
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
         }
     ]
 }

@@ -74,100 +74,144 @@
     },
     "candidates": [
         {
-            "firstname": "David",
-            "lastname": "Bey Sliman",
+            "lastname": "BOTHOREL",
+            "firstname": "Eric",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti animaliste",
-            "groupShort": "PA",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Éric",
-            "lastname": "Bothorel",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
             "groupShort": "LREM",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "candidate": true
         },
         {
+            "lastname": "CASTEK",
             "firstname": "Sandrine",
-            "lastname": "Castex",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
             "groupShort": "RN",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "candidate": true
         },
         {
+            "lastname": "GUÉGUEN",
             "firstname": "Yann",
-            "lastname": "Guéguen",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Yves",
-            "lastname": "Jézéquel",
+            "lastname": "LE MEAUX",
+            "firstname": "Vincent",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DVG",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
+        },
+        {
+            "lastname": "JEZEQUEL",
+            "firstname": "Yves",
+            "gender": "H",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Trefina",
-            "lastname": "Kerrain",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "UDB",
-            "groupShort": "UDB",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Eric",
-            "lastname": "Poder",
+            "lastname": "PIEPERS",
+            "firstname": "Mael",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Breton",
-            "groupShort": "Parti Breton",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "nuance": "ECO",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         },
         {
+            "lastname": "TROADEC",
             "firstname": "Marie-Amélie",
-            "lastname": "Troadec",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 22,
-            "county": "Côtes-d'Armor",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "GERMAIN",
+            "firstname": "Bernard",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "LECLERC",
+            "firstname": "Erwann",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "PODER",
+            "firstname": "Eric",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "GIOUX",
+            "firstname": "Sylvie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "VICET",
+            "firstname": "Marielle",
+            "gender": "F",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "KERRAIN",
+            "firstname": "Trefina",
+            "gender": "F",
+            "nuance": "REG",
+            "nuanceComputed": "UDB-RPS",
+            "group": "Union démocratique bretonne",
+            "groupShort": "union démocratique bretonne",
+            "candidate": true
+        },
+        {
+            "lastname": "WEBER",
+            "firstname": "Carine",
+            "gender": "F",
+            "nuance": "DXG",
+            "nuanceComputed": "POID",
+            "group": "Parti ouvrier indépendant démocratique",
+            "groupShort": "parti ouvrier indépendant démocratique",
+            "candidate": true
         }
     ]
 }

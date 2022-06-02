@@ -55,9 +55,9 @@
         "scandals": [],
         "presence": {
             "weeksActive": 154,
-            "reports": 2,
-            "proposals": 8,
-            "proposalsSupported": 156,
+            "reports": 3,
+            "proposals": 7,
+            "proposalsSupported": 155,
             "amendments": 383,
             "amendmentsSupported": 7934,
             "amendmentsAdopted": 345,
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Sophie",
-            "lastname": "Carnicer",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
-        },
-        {
+            "lastname": "CHAUCHE",
             "firstname": "Florian",
-            "lastname": "Chauche",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Marc",
-            "lastname": "Felemez",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Reconquête",
-            "groupShort": "RC",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Baptiste",
-            "lastname": "Petitjean",
+            "lastname": "VALLVERDU",
+            "firstname": "Didier",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
+            "nuance": "DVD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
         },
         {
-            "firstname": "Simon",
-            "lastname": "Pheulpin",
+            "lastname": "HANNA",
+            "firstname": "Christelle",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "ARCHAMBAULT",
+            "firstname": "Marc",
+            "gender": "H",
+            "nuance": "DXD",
+            "nuanceComputed": "",
+            "group": "",
+            "groupShort": "",
+            "candidate": true
+        },
+        {
+            "lastname": "FELEMEZ",
+            "firstname": "Marc",
+            "gender": "H",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "ZUMKELLER",
+            "firstname": "Michel",
+            "gender": "H",
+            "nuance": "UDI",
+            "nuanceComputed": "UDI",
+            "group": "Union des démocrates et indépendants",
+            "groupShort": "UDI",
+            "candidate": true
+        },
+        {
+            "lastname": "CARNICER",
+            "firstname": "Sophie",
+            "gender": "F",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "PHEULPIN",
+            "firstname": "Simon",
+            "gender": "H",
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Michel",
-            "lastname": "Zumkeller",
+            "lastname": "PETITJEAN",
+            "firstname": "Baptiste",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Union des Démocrates et Indépendants",
-            "groupShort": "UDI",
-            "countyId": 90,
-            "county": "Territoire de Belfort",
-            "circumscription": 2
+            "nuance": "ENS",
+            "nuanceComputed": "MoDem-Ensemble",
+            "group": "Mouvement démocrate",
+            "groupShort": "MoDem",
+            "candidate": true
         }
     ]
 }

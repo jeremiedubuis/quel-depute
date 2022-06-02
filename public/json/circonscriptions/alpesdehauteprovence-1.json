@@ -1,5 +1,5 @@
 {
-    "countyId": "04",
+    "countyId": 4,
     "number": 1,
     "name": "Alpes-de-Haute-Provence",
     "results": {
@@ -74,76 +74,124 @@
     },
     "candidates": [
         {
-            "firstname": "Paul",
-            "lastname": "Audan",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Delphine",
-            "lastname": "Bagarry",
+            "lastname": "LYONS",
+            "firstname": "Sylvie",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Nouveaux démocrates",
-            "groupShort": "ND",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
+            "nuance": "SOC",
+            "nuanceComputed": "PS dis.",
+            "group": "dissident PS hors accord Nupes",
+            "groupShort": "dissident ps hors accord nupes",
+            "candidate": true
         },
         {
-            "firstname": "Christian",
-            "lastname": "Girard",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
-        },
-        {
-            "firstname": "Sandra",
-            "lastname": "Raponi",
+            "lastname": "MIFFRED",
+            "firstname": "Laurine",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
-            "firstname": "Pascal",
-            "lastname": "Recotillet",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti Occitan",
-            "groupShort": "PO",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
+            "lastname": "BLANC",
+            "firstname": "Dominique",
+            "gender": "F",
+            "nuance": "DVD",
+            "nuanceComputed": "div. d.",
+            "group": "divers droite",
+            "groupShort": "divers droite",
+            "candidate": true
         },
         {
+            "lastname": "VAN HEESBEKE",
+            "firstname": "Nicole",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "ROS",
             "firstname": "Annabel",
-            "lastname": "Ros",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 4,
-            "county": "Alpes-de-Haute-Provence",
-            "circumscription": 1
+            "candidate": true
+        },
+        {
+            "lastname": "POTIE",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "div.",
+            "group": "divers inclassable",
+            "groupShort": "divers inclassable",
+            "candidate": true
+        },
+        {
+            "lastname": "AUDAN",
+            "firstname": "Paul",
+            "gender": "H",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "RECOTILLET",
+            "firstname": "Pascal",
+            "gender": "H",
+            "nuance": "REG",
+            "nuanceComputed": "rég.",
+            "group": "régionalistes",
+            "groupShort": "régionalistes",
+            "candidate": true
+        },
+        {
+            "lastname": "BAGARRY",
+            "firstname": "Delphine",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EELV-Nupes",
+            "group": "Europe Ecologie-Les Verts",
+            "groupShort": "EELV",
+            "candidate": true
+        },
+        {
+            "lastname": "GIRARD",
+            "firstname": "Christian",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "GIACOMINO",
+            "firstname": "Romaric",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "ROLLAND",
+            "firstname": "Patricia",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "EAC",
+            "group": "Ecologie au centre",
+            "groupShort": "ecologie au centre",
+            "candidate": true
         }
     ]
 }

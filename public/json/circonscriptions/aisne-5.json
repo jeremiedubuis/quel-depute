@@ -1,5 +1,5 @@
 {
-    "countyId": "02",
+    "countyId": 2,
     "number": 5,
     "name": "Aisne",
     "results": {
@@ -74,76 +74,94 @@
     },
     "candidates": [
         {
-            "firstname": "Jocelyn",
-            "lastname": "Dessigny",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Jeanne",
-            "lastname": "Doyez-Roussel",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
-        },
-        {
-            "firstname": "Stéphane",
-            "lastname": "Frère",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
-            "groupShort": "LFI",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
-        },
-        {
+            "lastname": "GARCIA",
             "firstname": "Francis",
-            "lastname": "Garcia",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
             "group": "Lutte ouvrière",
             "groupShort": "LO",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
+            "candidate": true
         },
         {
-            "firstname": "Jade",
-            "lastname": "Gilquin",
+            "lastname": "DESSIGNY",
+            "firstname": "Jocelyn",
+            "gender": "H",
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
+        },
+        {
+            "lastname": "TRIBOULET",
+            "firstname": "Florence",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Les Républicains",
-            "groupShort": "LR",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
         },
         {
+            "lastname": "VACCA",
             "firstname": "Françoise",
-            "lastname": "Vacca",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 2,
-            "county": "Aisne",
-            "circumscription": 5
+            "candidate": true
+        },
+        {
+            "lastname": "FRERE",
+            "firstname": "Stéphane",
+            "gender": "H",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
+            "groupShort": "LFI",
+            "candidate": true
+        },
+        {
+            "lastname": "BOLLÉE",
+            "firstname": "Joffrey",
+            "gender": "H",
+            "nuance": "DSV",
+            "nuanceComputed": "Pat.",
+            "group": "Les Patriotes",
+            "groupShort": "LP",
+            "candidate": true
+        },
+        {
+            "lastname": "EUGÈNE",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "DVC",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "ROUSSEL",
+            "firstname": "Jeanne",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "GILQUIN",
+            "firstname": "Jade",
+            "gender": "F",
+            "nuance": "LR",
+            "nuanceComputed": "LR",
+            "group": "Les Républicains",
+            "groupShort": "LR",
+            "candidate": true
         }
     ]
 }

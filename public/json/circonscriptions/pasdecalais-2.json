@@ -74,88 +74,134 @@
     },
     "candidates": [
         {
-            "firstname": "Béatrice",
-            "lastname": "Bouffart",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Alban",
-            "lastname": "Heusèle",
-            "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Rassemblement National",
-            "groupShort": "RN",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
-        },
-        {
+            "lastname": "LAPOUILLE",
             "firstname": "Emmanuelle",
-            "lastname": "Lapouille-Flajolet",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "LR",
+            "nuanceComputed": "LR",
             "group": "Les Républicains",
             "groupShort": "LR",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Jacqueline",
-            "lastname": "Maquet",
-            "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La République en Marche",
-            "groupShort": "LREM",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
-        },
-        {
-            "firstname": "Sebastien",
-            "lastname": "Peugnet",
+            "lastname": "HEUSÈLE",
+            "firstname": "Alban",
             "gender": "H",
-            "noPicture": true,
-            "candidate": true,
-            "group": "Parti pirate",
-            "groupShort": "PP",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
+            "nuance": "RN",
+            "nuanceComputed": "RN",
+            "group": "Rassemblement national",
+            "groupShort": "RN",
+            "candidate": true
         },
         {
-            "firstname": "Morgane-Dolorès",
-            "lastname": "Rengard",
+            "lastname": "RENGARD",
+            "firstname": "Morgane",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
-            "group": "La France Insoumise",
+            "nuance": "FI",
+            "nuanceComputed": "LFI-Nupes",
+            "group": "La France insoumise",
             "groupShort": "LFI",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
+            "candidate": true
         },
         {
-            "firstname": "Nathalie",
-            "lastname": "Zayonnet",
+            "lastname": "BOUFFART",
+            "firstname": "Béatrice",
             "gender": "F",
-            "noPicture": true,
-            "candidate": true,
+            "nuance": "DXG",
+            "nuanceComputed": "LO",
+            "group": "Lutte ouvrière",
+            "groupShort": "LO",
+            "candidate": true
+        },
+        {
+            "lastname": "LOIR",
+            "firstname": "Véronique",
+            "gender": "F",
+            "nuance": "DSV",
+            "nuanceComputed": "DLF",
+            "group": "Debout la France",
+            "groupShort": "DF",
+            "candidate": true
+        },
+        {
+            "lastname": "GEORGET",
+            "firstname": "Isabelle",
+            "gender": "F",
+            "nuance": "REC",
+            "nuanceComputed": "Rec.",
+            "group": "Reconquête !",
+            "groupShort": "REC",
+            "candidate": true
+        },
+        {
+            "lastname": "PEUGNET",
+            "firstname": "Sébastien",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "Pirate",
+            "group": "Parti Pirate",
+            "groupShort": "PP",
+            "candidate": true
+        },
+        {
+            "lastname": "ZAYONNET",
+            "firstname": "Nathalie",
+            "gender": "F",
+            "nuance": "ECO",
+            "nuanceComputed": "Anim.",
             "group": "Parti animaliste",
             "groupShort": "PA",
-            "countyId": 62,
-            "county": "Pas-de-Calais",
-            "circumscription": 2
+            "candidate": true
+        },
+        {
+            "lastname": "LA GRANGE",
+            "firstname": "Philippe",
+            "gender": "H",
+            "nuance": "RDG",
+            "nuanceComputed": "PRG",
+            "group": "Parti radical de gauche",
+            "groupShort": "PRG",
+            "candidate": true
+        },
+        {
+            "lastname": "MAQUET",
+            "firstname": "Jacqueline",
+            "gender": "F",
+            "nuance": "ENS",
+            "nuanceComputed": "LRM-Ensemble",
+            "group": "La République en marche",
+            "groupShort": "LREM",
+            "candidate": true
+        },
+        {
+            "lastname": "LADSOUS",
+            "firstname": "Bruno",
+            "gender": "H",
+            "nuance": "ECO",
+            "nuanceComputed": "écol.",
+            "group": "divers écologistes",
+            "groupShort": "divers écologistes",
+            "candidate": true
+        },
+        {
+            "lastname": "NAYET",
+            "firstname": "Pauline",
+            "gender": "F",
+            "nuance": "DVG",
+            "nuanceComputed": "div. c.",
+            "group": "divers centre",
+            "groupShort": "divers centre",
+            "candidate": true
+        },
+        {
+            "lastname": "KOSBUR",
+            "firstname": "Arnaud",
+            "gender": "H",
+            "nuance": "DIV",
+            "nuanceComputed": "UDMF",
+            "group": "Union des démocrates musulmans français",
+            "groupShort": "union des démocrates musulmans français",
+            "candidate": true
         }
     ]
 }
