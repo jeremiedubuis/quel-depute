@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 10,
     "governmentLaws": 12,
-    "candidate": false,
+    "candidate": {
+        "countyId": 50,
+        "county": "Manche",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

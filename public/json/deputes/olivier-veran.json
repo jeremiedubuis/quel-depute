@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 14,
     "governmentLaws": 15,
-    "candidate": false,
+    "candidate": {
+        "countyId": 38,
+        "county": "Isère",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

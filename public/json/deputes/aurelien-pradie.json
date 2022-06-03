@@ -394,7 +394,11 @@
     "opposedGovernment": 9,
     "supportedGovernment": 1,
     "governmentLaws": 15,
-    "candidate": false,
+    "candidate": {
+        "countyId": 46,
+        "county": "Lot",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

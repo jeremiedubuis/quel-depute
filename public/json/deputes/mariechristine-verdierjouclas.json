@@ -394,7 +394,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 21,
     "governmentLaws": 25,
-    "candidate": false,
+    "candidate": {
+        "countyId": 81,
+        "county": "Tarn",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

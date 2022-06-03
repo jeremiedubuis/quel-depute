@@ -407,7 +407,11 @@
     "opposedGovernment": 16,
     "supportedGovernment": 2,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 93,
+        "county": "Seine-Saint-Denis",
+        "circumscription": 7
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

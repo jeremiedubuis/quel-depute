@@ -394,7 +394,11 @@
     "opposedGovernment": 6,
     "supportedGovernment": 4,
     "governmentLaws": 13,
-    "candidate": false,
+    "candidate": {
+        "countyId": 91,
+        "county": "Essonne",
+        "circumscription": 7
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

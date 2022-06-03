@@ -394,7 +394,11 @@
     "opposedGovernment": 5,
     "supportedGovernment": 17,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 5,
+        "county": "Hautes-Alpes",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

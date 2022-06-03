@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 18,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 24,
+        "county": "Dordogne",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

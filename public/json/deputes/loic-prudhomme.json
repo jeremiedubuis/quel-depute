@@ -394,7 +394,11 @@
     "opposedGovernment": 16,
     "supportedGovernment": 3,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 33,
+        "county": "Gironde",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -2,6 +2,10 @@
 
 }
 
+.candidate {
+    padding: 0 0 20px;
+}
+
 .candidates {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

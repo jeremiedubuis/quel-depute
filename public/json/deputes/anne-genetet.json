@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 16,
     "governmentLaws": 17,
-    "candidate": false,
+    "candidate": {
+        "countyId": 999,
+        "county": "Français établis hors de France",
+        "circumscription": 11
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

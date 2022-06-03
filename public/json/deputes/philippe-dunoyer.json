@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 10,
     "governmentLaws": 15,
-    "candidate": false,
+    "candidate": {
+        "countyId": 988,
+        "county": "Nouvelle-Calédonie",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

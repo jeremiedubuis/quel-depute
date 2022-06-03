@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 18,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 47,
+        "county": "Lot-et-Garonne",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

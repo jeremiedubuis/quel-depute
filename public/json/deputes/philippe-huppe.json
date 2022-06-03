@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 15,
     "governmentLaws": 16,
-    "candidate": false,
+    "candidate": {
+        "countyId": 34,
+        "county": "Hérault",
+        "circumscription": 5
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

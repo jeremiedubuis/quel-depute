@@ -394,7 +394,11 @@
     "opposedGovernment": 9,
     "supportedGovernment": 1,
     "governmentLaws": 14,
-    "candidate": false,
+    "candidate": {
+        "countyId": 2,
+        "county": "Aisne",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

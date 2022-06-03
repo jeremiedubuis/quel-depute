@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 15,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 56,
+        "county": "Morbihan",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

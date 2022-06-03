@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 11,
     "governmentLaws": 14,
-    "candidate": false,
+    "candidate": {
+        "countyId": 52,
+        "county": "Haute-Marne",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

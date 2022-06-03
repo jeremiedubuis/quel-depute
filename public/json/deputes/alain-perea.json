@@ -394,7 +394,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 15,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 11,
+        "county": "Aude",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

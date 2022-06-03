@@ -34,7 +34,7 @@ const consolidate = async () => {
 
     parsed.forEach((d) => {
         const _candidate = flatCandidates.find(
-            ({ firstname, lastname }: any) => firstname === d.firstname && lastname === d.lastname
+            ({ firstname, lastname }: any) => firstname.toLowerCase() === d.firstname.toLowerCase() && lastname.toLowerCase() === d.lastname.toLowerCase()
         );
         if (!_candidate) d.candidate = false;
         else {
@@ -61,7 +61,7 @@ const consolidate = async () => {
     console.log(flatCandidates)
     list.push(
         ...flatCandidates.filter(
-            (c) => !list.find((l) => l.firstname === c.firstname && l.lastname === c.lastname)
+            (c) => !list.find((l) => l.firstname.toLowerCase() === c.firstname.toLowerCase() && l.lastname.toLowerCase() === c.lastname.toLowerCase())
         )
     );
 

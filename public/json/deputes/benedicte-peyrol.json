@@ -394,7 +394,11 @@
     "opposedGovernment": 2,
     "supportedGovernment": 18,
     "governmentLaws": 21,
-    "candidate": false,
+    "candidate": {
+        "countyId": 3,
+        "county": "Allier",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

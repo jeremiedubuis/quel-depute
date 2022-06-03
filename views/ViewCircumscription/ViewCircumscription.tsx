@@ -67,7 +67,7 @@ export const ViewCircumscription: React.FC<{
                         .sort((a, b) => a.lastname.localeCompare(b.lastname))
                         .map((c) => (
                             <li key={c.lastname}>
-                                <DeputeBlock depute={c} noCounty isLink={false} noPicture />
+                                <DeputeBlock className={styles.candidate} depute={c} noCounty isLink={false} noPicture />
                             </li>
                         ))}
                 </ul>

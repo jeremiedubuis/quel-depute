@@ -401,7 +401,11 @@
     "opposedGovernment": 17,
     "supportedGovernment": 5,
     "governmentLaws": 23,
-    "candidate": false,
+    "candidate": {
+        "countyId": 54,
+        "county": "Meurthe-et-Moselle",
+        "circumscription": 6
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

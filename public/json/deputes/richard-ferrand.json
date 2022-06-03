@@ -415,7 +415,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 8,
     "governmentLaws": 9,
-    "candidate": false,
+    "candidate": {
+        "countyId": 29,
+        "county": "Finistère",
+        "circumscription": 6
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

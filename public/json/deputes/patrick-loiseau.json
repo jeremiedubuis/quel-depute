@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 7,
     "governmentLaws": 7,
-    "candidate": false,
+    "candidate": {
+        "countyId": 85,
+        "county": "Vendée",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

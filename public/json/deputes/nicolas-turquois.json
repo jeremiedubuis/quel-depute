@@ -401,7 +401,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 17,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 86,
+        "county": "Vienne",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

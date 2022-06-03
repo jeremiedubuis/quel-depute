@@ -394,7 +394,11 @@
     "opposedGovernment": 17,
     "supportedGovernment": 1,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 92,
+        "county": "Hauts-de-Seine",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

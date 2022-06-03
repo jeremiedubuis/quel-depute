@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 5,
     "governmentLaws": 5,
-    "candidate": false,
+    "candidate": {
+        "countyId": 44,
+        "county": "Loire-Atlantique",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

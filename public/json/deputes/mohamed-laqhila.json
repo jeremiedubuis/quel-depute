@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 17,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 13,
+        "county": "Bouches-du-Rhône",
+        "circumscription": 11
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

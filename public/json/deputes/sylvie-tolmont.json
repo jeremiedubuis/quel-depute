@@ -394,7 +394,11 @@
     "opposedGovernment": 8,
     "supportedGovernment": 2,
     "governmentLaws": 11,
-    "candidate": false,
+    "candidate": {
+        "countyId": 72,
+        "county": "Sarthe",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

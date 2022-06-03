@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 3,
     "governmentLaws": 3,
-    "candidate": false,
+    "candidate": {
+        "countyId": 28,
+        "county": "Eure-et-Loir",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

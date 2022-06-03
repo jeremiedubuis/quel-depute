@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 17,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 12,
+        "county": "Aveyron",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

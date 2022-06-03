@@ -394,7 +394,11 @@
     "opposedGovernment": 5,
     "supportedGovernment": 8,
     "governmentLaws": 16,
-    "candidate": false,
+    "candidate": {
+        "countyId": 88,
+        "county": "Vosges",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -394,7 +394,11 @@
     "opposedGovernment": 11,
     "supportedGovernment": 6,
     "governmentLaws": 17,
-    "candidate": false,
+    "candidate": {
+        "countyId": 80,
+        "county": "Somme",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 19,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 57,
+        "county": "Moselle",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

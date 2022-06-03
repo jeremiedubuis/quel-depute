@@ -394,7 +394,11 @@
     "opposedGovernment": 14,
     "supportedGovernment": 5,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 40,
+        "county": "Landes",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

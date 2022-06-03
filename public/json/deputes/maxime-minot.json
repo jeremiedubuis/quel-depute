@@ -394,7 +394,11 @@
     "opposedGovernment": 13,
     "supportedGovernment": 9,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 60,
+        "county": "Oise",
+        "circumscription": 7
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

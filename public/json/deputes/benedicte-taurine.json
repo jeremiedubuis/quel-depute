@@ -394,7 +394,11 @@
     "opposedGovernment": 16,
     "supportedGovernment": 2,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 9,
+        "county": "Ariège",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

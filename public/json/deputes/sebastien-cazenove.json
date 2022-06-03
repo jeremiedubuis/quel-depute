@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 14,
     "governmentLaws": 17,
-    "candidate": false,
+    "candidate": {
+        "countyId": 66,
+        "county": "Pyrénées-Orientales",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

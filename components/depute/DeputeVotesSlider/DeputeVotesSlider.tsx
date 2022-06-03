@@ -7,6 +7,7 @@ import { cn } from '$helpers/cn';
 import { getVoteImpact } from '$helpers/getVoteImpact';
 import { useRecoilValue } from 'recoil';
 import { screenSizeState } from '../../../atoms/screeSizeState';
+import {Button} from "$components/buttons/Button/Button";
 
 export const DeputeVotesSlider: React.FC<{ depute: Depute }> = ({ depute }) => {
     const votes = depute.votes.filter((vote) => vote.vote !== 'Absent');
@@ -36,6 +37,7 @@ export const DeputeVotesSlider: React.FC<{ depute: Depute }> = ({ depute }) => {
                             {vote.vote}
                         </header>
                         <h3>{vote.name}</h3>
+                        <Button href={`/votes/${vote.number}`}>En savoir plus</Button>
                     </div>
                 );
             })}

@@ -401,7 +401,11 @@
     "opposedGovernment": 2,
     "supportedGovernment": 16,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 30,
+        "county": "Gard",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

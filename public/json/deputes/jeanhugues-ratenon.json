@@ -401,7 +401,11 @@
     "opposedGovernment": 16,
     "supportedGovernment": 1,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 974,
+        "county": "La Réunion",
+        "circumscription": 5
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

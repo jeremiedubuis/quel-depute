@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 18,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 58,
+        "county": "Nièvre",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

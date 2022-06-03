@@ -407,7 +407,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 11,
     "governmentLaws": 11,
-    "candidate": false,
+    "candidate": {
+        "countyId": 95,
+        "county": "Val-d'Oise",
+        "circumscription": 6
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -394,7 +394,11 @@
     "opposedGovernment": 12,
     "supportedGovernment": 5,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 43,
+        "county": "Haute-Loire",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

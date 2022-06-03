@@ -394,7 +394,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 3,
     "governmentLaws": 7,
-    "candidate": false,
+    "candidate": {
+        "countyId": 77,
+        "county": "Seine-et-Marne",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

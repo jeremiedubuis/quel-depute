@@ -407,7 +407,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 13,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 67,
+        "county": "Bas-Rhin",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

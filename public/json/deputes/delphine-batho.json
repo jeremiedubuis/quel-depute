@@ -394,7 +394,11 @@
     "opposedGovernment": 10,
     "supportedGovernment": 7,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 79,
+        "county": "Deux-Sèvres",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

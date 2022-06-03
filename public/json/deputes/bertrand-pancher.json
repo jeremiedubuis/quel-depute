@@ -394,7 +394,11 @@
     "opposedGovernment": 6,
     "supportedGovernment": 7,
     "governmentLaws": 16,
-    "candidate": false,
+    "candidate": {
+        "countyId": 55,
+        "county": "Meuse",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 11,
     "governmentLaws": 13,
-    "candidate": false,
+    "candidate": {
+        "countyId": 8,
+        "county": "Ardennes",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

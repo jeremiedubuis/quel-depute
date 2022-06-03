@@ -401,7 +401,11 @@
     "opposedGovernment": 8,
     "supportedGovernment": 3,
     "governmentLaws": 13,
-    "candidate": false,
+    "candidate": {
+        "countyId": 68,
+        "county": "Haut-Rhin",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

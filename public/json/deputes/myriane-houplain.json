@@ -394,7 +394,11 @@
     "opposedGovernment": 2,
     "supportedGovernment": 0,
     "governmentLaws": 2,
-    "candidate": false,
+    "candidate": {
+        "countyId": 62,
+        "county": "Pas-de-Calais",
+        "circumscription": 10
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

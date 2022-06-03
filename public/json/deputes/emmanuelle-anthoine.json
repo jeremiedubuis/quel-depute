@@ -394,7 +394,11 @@
     "opposedGovernment": 12,
     "supportedGovernment": 9,
     "governmentLaws": 21,
-    "candidate": false,
+    "candidate": {
+        "countyId": 26,
+        "county": "Drôme",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

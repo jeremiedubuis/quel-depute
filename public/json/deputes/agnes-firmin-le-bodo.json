@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 16,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 76,
+        "county": "Seine-Maritime",
+        "circumscription": 7
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

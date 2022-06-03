@@ -394,7 +394,11 @@
     "opposedGovernment": 9,
     "supportedGovernment": 10,
     "governmentLaws": 21,
-    "candidate": false,
+    "candidate": {
+        "countyId": 61,
+        "county": "Orne",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

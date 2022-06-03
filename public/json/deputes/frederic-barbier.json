@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 13,
     "governmentLaws": 15,
-    "candidate": false,
+    "candidate": {
+        "countyId": 25,
+        "county": "Doubs",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -407,7 +407,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 17,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 27,
+        "county": "Eure",
+        "circumscription": 4
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

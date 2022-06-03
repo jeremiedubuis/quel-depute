@@ -401,7 +401,11 @@
     "opposedGovernment": 8,
     "supportedGovernment": 4,
     "governmentLaws": 14,
-    "candidate": false,
+    "candidate": {
+        "countyId": 94,
+        "county": "Val-de-Marne",
+        "circumscription": 8
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

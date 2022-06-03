@@ -394,7 +394,11 @@
     "opposedGovernment": 2,
     "supportedGovernment": 17,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 21,
+        "county": "Côte-d'Or",
+        "circumscription": 5
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

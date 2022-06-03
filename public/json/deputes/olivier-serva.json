@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 10,
     "governmentLaws": 12,
-    "candidate": false,
+    "candidate": {
+        "countyId": 971,
+        "county": "Guadeloupe",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

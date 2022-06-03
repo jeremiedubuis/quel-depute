@@ -394,7 +394,11 @@
     "opposedGovernment": 2,
     "supportedGovernment": 2,
     "governmentLaws": 4,
-    "candidate": false,
+    "candidate": {
+        "countyId": 6,
+        "county": "Alpes-Maritimes",
+        "circumscription": 5
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

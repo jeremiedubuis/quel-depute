@@ -394,7 +394,11 @@
     "opposedGovernment": 12,
     "supportedGovernment": 6,
     "governmentLaws": 19,
-    "candidate": false,
+    "candidate": {
+        "countyId": 64,
+        "county": "Pyrénées-Atlantiques",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

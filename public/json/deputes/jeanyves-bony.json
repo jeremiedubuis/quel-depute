@@ -394,7 +394,11 @@
     "opposedGovernment": 15,
     "supportedGovernment": 6,
     "governmentLaws": 23,
-    "candidate": false,
+    "candidate": {
+        "countyId": 15,
+        "county": "Cantal",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

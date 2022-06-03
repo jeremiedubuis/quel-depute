@@ -394,7 +394,11 @@
     "opposedGovernment": 5,
     "supportedGovernment": 13,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 35,
+        "county": "Ille-et-Vilaine",
+        "circumscription": 6
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

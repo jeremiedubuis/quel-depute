@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 8,
     "governmentLaws": 12,
-    "candidate": false,
+    "candidate": {
+        "countyId": 987,
+        "county": "Polynésie française",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

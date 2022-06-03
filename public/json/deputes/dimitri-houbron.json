@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 17,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 59,
+        "county": "Nord",
+        "circumscription": 17
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

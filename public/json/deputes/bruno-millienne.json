@@ -394,7 +394,11 @@
     "opposedGovernment": 6,
     "supportedGovernment": 18,
     "governmentLaws": 26,
-    "candidate": false,
+    "candidate": {
+        "countyId": 78,
+        "county": "Yvelines",
+        "circumscription": 9
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

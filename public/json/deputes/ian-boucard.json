@@ -401,7 +401,11 @@
     "opposedGovernment": 10,
     "supportedGovernment": 3,
     "governmentLaws": 15,
-    "candidate": false,
+    "candidate": {
+        "countyId": 90,
+        "county": "Territoire de Belfort",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

@@ -394,7 +394,11 @@
     "opposedGovernment": 4,
     "supportedGovernment": 0,
     "governmentLaws": 7,
-    "candidate": false,
+    "candidate": {
+        "countyId": 41,
+        "county": "Loir-et-Cher",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

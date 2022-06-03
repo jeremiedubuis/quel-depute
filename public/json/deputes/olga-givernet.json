@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 16,
     "governmentLaws": 16,
-    "candidate": false,
+    "candidate": {
+        "countyId": 1,
+        "county": "Ain",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

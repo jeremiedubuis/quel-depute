@@ -394,7 +394,11 @@
     "opposedGovernment": 14,
     "supportedGovernment": 7,
     "governmentLaws": 25,
-    "candidate": false,
+    "candidate": {
+        "countyId": 63,
+        "county": "Puy-de-Dôme",
+        "circumscription": 5
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

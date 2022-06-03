@@ -401,7 +401,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 3,
     "governmentLaws": 4,
-    "candidate": false,
+    "candidate": {
+        "countyId": 75,
+        "county": "Paris",
+        "circumscription": 11
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

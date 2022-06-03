@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 2,
     "governmentLaws": 5,
-    "candidate": false,
+    "candidate": {
+        "countyId": 14,
+        "county": "Calvados",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

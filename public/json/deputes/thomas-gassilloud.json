@@ -394,7 +394,11 @@
     "opposedGovernment": 0,
     "supportedGovernment": 12,
     "governmentLaws": 13,
-    "candidate": false,
+    "candidate": {
+        "countyId": 69,
+        "county": "Rhône",
+        "circumscription": 10
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

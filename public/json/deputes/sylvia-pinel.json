@@ -394,7 +394,11 @@
     "opposedGovernment": 12,
     "supportedGovernment": 7,
     "governmentLaws": 24,
-    "candidate": false,
+    "candidate": {
+        "countyId": 82,
+        "county": "Tarn-et-Garonne",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

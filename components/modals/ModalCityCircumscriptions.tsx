@@ -1,9 +1,11 @@
 import React from 'react';
 import { Modal } from '$components/modals/Modal';
-import { slugify } from '$helpers/slugify';
-import Link from 'next/link';
 import { BaseDepute } from '$types/deputeTypes';
 import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
+import { ReactISlider } from 'react-i-slider';
+import {cn} from "$helpers/cn";
+import styles from "$components/depute/DeputeVotesSlider/DeputeVotesSlider.module.css";
+import {FiChevronLeft, FiChevronRight} from "react-icons/fi";
 
 export const ModalCityCircumscriptions: React.FC<{
     circumscriptions: any[];
@@ -14,18 +16,27 @@ export const ModalCityCircumscriptions: React.FC<{
     return (
         <Modal isVisible={isVisible} close={close}>
             <h2>Circonscriptions de {circumscriptions[0].villageName}</h2>
-            <ul>
-                {circumscriptions.map((c) => {
+            <p>{circumscriptions[0].villageName} compte {circumscriptions.length} circonscriptions:</p>
+            <ReactISlider
+                maxSlides={1}
+                className={cn(styles.votes, styles.arrows)}
+                prev={<FiChevronLeft />}
+                next={<FiChevronRight />}
+                arrows
+                infinite={false}
+            >
+                {circumscriptions.map((c,i) => {
                     const depute = deputes.find(
                         (d) => d.circumscription === c.circumscriptionNumber
                     );
                     return (
-                        <li>
+                        <>
                             <DeputeBlock depute={depute} isLinkToCircumscription />
-                        </li>
+                            <div>{i+1}/{circumscriptions.length}</div>
+                        </>
                     );
                 })}
-            </ul>
+            </ReactISlider>
         </Modal>
     );
 };

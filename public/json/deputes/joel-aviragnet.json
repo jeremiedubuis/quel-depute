@@ -394,7 +394,11 @@
     "opposedGovernment": 14,
     "supportedGovernment": 5,
     "governmentLaws": 21,
-    "candidate": false,
+    "candidate": {
+        "countyId": 31,
+        "county": "Haute-Garonne",
+        "circumscription": 8
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

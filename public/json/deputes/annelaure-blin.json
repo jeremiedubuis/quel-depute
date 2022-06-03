@@ -394,7 +394,11 @@
     "opposedGovernment": 3,
     "supportedGovernment": 1,
     "governmentLaws": 4,
-    "candidate": false,
+    "candidate": {
+        "countyId": 49,
+        "county": "Maine-et-Loire",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

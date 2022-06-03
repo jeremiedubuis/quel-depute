@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 14,
     "governmentLaws": 16,
-    "candidate": false,
+    "candidate": {
+        "countyId": 70,
+        "county": "Haute-Saône",
+        "circumscription": 2
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

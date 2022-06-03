@@ -394,7 +394,11 @@
     "opposedGovernment": 1,
     "supportedGovernment": 16,
     "governmentLaws": 18,
-    "candidate": false,
+    "candidate": {
+        "countyId": 17,
+        "county": "Charente-Maritime",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

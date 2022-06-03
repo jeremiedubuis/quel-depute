@@ -394,7 +394,11 @@
     "opposedGovernment": 6,
     "supportedGovernment": 16,
     "governmentLaws": 22,
-    "candidate": false,
+    "candidate": {
+        "countyId": 74,
+        "county": "Haute-Savoie",
+        "circumscription": 1
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,

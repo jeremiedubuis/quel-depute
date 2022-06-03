@@ -401,7 +401,11 @@
     "opposedGovernment": 13,
     "supportedGovernment": 6,
     "governmentLaws": 20,
-    "candidate": false,
+    "candidate": {
+        "countyId": 22,
+        "county": "Côtes-d'Armor",
+        "circumscription": 3
+    },
     "presenceAverages": {
         "weeksActive": 138,
         "reports": 5,
