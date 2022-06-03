@@ -1,0 +1,32 @@
+
+
+
+.groups button:hover {
+    font-weight: bold;
+}
+
+.groups li + li {
+    margin-top: 20px;
+}
+
+
+.group button {
+    padding: 10px;
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+
+}
+.deputes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .deputes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -9,9 +9,9 @@ import { ScrutinType } from '$types/scrutinTypes';
 const scrutins = require('../data/scrutins3.json');
 const scandals = require('../data/scandals.json');
 import candidates from '../data/candidates3.json';
-import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json'
+import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
 import { mapNosDeputes } from '../helpers/mapNosDeputes';
-import type { Scrutin } from "./scrutins";
+import type { Scrutin } from './scrutins';
 
 const scrapQueue = new ScrapQueue(500);
 const skip = {
@@ -24,17 +24,26 @@ const consolidate = async () => {
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
     const parsed = mapNosDeputes(raw);
 
-    const flatCandidates = Object.keys(candidates).reduce((acc, circ) =>  [...acc, ...candidates[circ].map(c => {
-        let [countyId, circumscription] = circ.split('_').map(n => parseInt(n));
-        if (countyId === 99) countyId = 999;
-        const county = circumscriptionsFirstRound.find(c => parseInt(c.countyId.toString()) === countyId)?.county;
-        return {...c, countyId, circumscription, county}
-    })], [])
-
+    const flatCandidates = Object.keys(candidates).reduce(
+        (acc, circ) => [
+            ...acc,
+            ...candidates[circ].map((c) => {
+                let [countyId, circumscription] = circ.split('_').map((n) => parseInt(n));
+                if (countyId === 99) countyId = 999;
+                const county = circumscriptionsFirstRound.find(
+                    (c) => parseInt(c.countyId.toString()) === countyId
+                )?.county;
+                return { ...c, countyId, circumscription, county };
+            })
+        ],
+        []
+    );
 
     parsed.forEach((d) => {
         const _candidate = flatCandidates.find(
-            ({ firstname, lastname }: any) => firstname.toLowerCase() === d.firstname.toLowerCase() && lastname.toLowerCase() === d.lastname.toLowerCase()
+            ({ firstname, lastname }: any) =>
+                firstname.toLowerCase() === d.firstname.toLowerCase() &&
+                lastname.toLowerCase() === d.lastname.toLowerCase()
         );
         if (!_candidate) d.candidate = false;
         else {
@@ -52,16 +61,20 @@ const consolidate = async () => {
             'county',
             'circumscription',
             'group',
-            'groupShort'
+            'groupShort',
+            'current'
         ])(c);
-        r.current = true;
-        return { ...r, current: true };
+        return r;
     });
 
-    console.log(flatCandidates)
     list.push(
         ...flatCandidates.filter(
-            (c) => !list.find((l) => l.firstname.toLowerCase() === c.firstname.toLowerCase() && l.lastname.toLowerCase() === c.lastname.toLowerCase())
+            (c) =>
+                !list.find(
+                    (l) =>
+                        l.firstname.toLowerCase() === c.firstname.toLowerCase() &&
+                        l.lastname.toLowerCase() === c.lastname.toLowerCase()
+                )
         )
     );
 

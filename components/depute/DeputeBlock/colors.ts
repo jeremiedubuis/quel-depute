@@ -12,9 +12,25 @@ export const assemblyColors = {
     'Gauche démocrate et républicaine': '#DA679E',
     'Non inscrits': '#cccccc',
     'La France insoumise': '#FF3333',
+    'La France Insoumise': '#FF3333',
     'Nouvelle Gauche': '#DA679E',
     'Agir ensemble': '#E1B000',
-    'Agir Ensemble': '#E1B000'
+    'Agir Ensemble': '#E1B000',
+    'Parti socialiste': '#FF7999',
+    'Union des démocrates, radicaux et libéraux': '#6387A8',
+    'Parti communiste français': '#FF3333',
+    'Régions et peuples solidaires': '#6387A8',
+    'Europe Écologie Les Verts': '#85D693',
+    'Rassemblement national': '#8D6026',
+    'Parti radical de gauche': '#DA679E',
+    'Calédonie Ensemble': '#6EB3E9',
+    'Debout la France': '#654519',
+    'Parti progressiste martiniquais': '#DA679E',
+    'Non déclaré(s)': '#cccccc',
+    'Non rattachée': '#cccccc',
+    "Tavini Huiraatira No Te Ao Ma'ohi - Front de libération de Polynésie": '#FF3333',
+    "Cap sur l'avenir": '#E1B000',
+    'Tapura Huiraatira': '#0890C5'
 };
 
 export const colors = {

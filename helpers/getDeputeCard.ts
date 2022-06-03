@@ -1,8 +1,10 @@
 import { CanvasRenderingContext2D, createCanvas, Image, registerFont } from 'canvas';
-import type { Depute } from '../types/deputeTypes';
+import type { Depute, DeputeVote } from '../types/deputeTypes';
 import path from 'path';
 import { loadFile } from './loadFIle';
 import { deputePicturePath } from '../scripts/config';
+import { canvasRoundRect } from '$helpers/canvasRoundRect';
+import { getVoteImpact } from '$helpers/getVoteImpact';
 
 const width = 1200;
 const halfWidth = width * 0.5;
@@ -34,31 +36,60 @@ export const circularImage = (img: Image) => {
     return canvas;
 };
 
+export const renderSquare = (
+    ctx: CanvasRenderingContext2D,
+    color: string,
+    offset: [number, number]
+) => {
+    ctx.fillStyle = color;
+    canvasRoundRect(ctx, offset, 40, 40);
+};
+
 const numberToSuffix = (number: number) => (number === 1 ? 'ère' : 'ème');
 
-const colors = { blue: '#1d3058', red: '#f34235', green: '#6dbe70', yellow: '#ff7e00' };
+const colors = {
+    blue: '#1d3058',
+    red: '#f34235',
+    green: '#00B241',
+    yellow: '#ff7e00',
+    grey: '#707070'
+};
 
 const drawScore = (
     type: string,
+    votes: DeputeVote[],
     ctx: CanvasRenderingContext2D,
-    value: number,
-    offset: number = 0,
-    inverse?: boolean
+    offset: number = 0
 ) => {
-    const scoreLeft = 350;
+    const scoreLeft = 300;
     const scoreTop = 160 + offset * 50;
     const scoreBarLeft = 620;
-    const scoreWidth = 500;
-    const scoreHeight = 30;
 
     ctx.fillStyle = colors.blue;
     ctx.fillText(type, scoreLeft, scoreTop + 25);
 
-    ctx.fillRect(scoreBarLeft, scoreTop, scoreWidth, scoreHeight);
-    const success = inverse ? colors.red : colors.green;
-    const failure = inverse ? colors.green : colors.red;
-    ctx.fillStyle = value >= 75 ? success : value < 25 ? failure : colors.yellow;
-    ctx.fillRect(scoreBarLeft, scoreTop, scoreWidth * (value / 100), scoreHeight);
+    const positives: DeputeVote[] = [];
+    const negatives: DeputeVote[] = [];
+    const neutrals: DeputeVote[] = [];
+    votes.forEach((v) => {
+        const impact = getVoteImpact(v);
+        if (impact === 1) return positives.push(v);
+        if (impact === -1) return negatives.push(v);
+        return neutrals.push(v);
+    });
+
+    positives.forEach((v, i) => {
+        renderSquare(ctx, colors.green, [scoreBarLeft + i * 50, scoreTop]);
+    });
+    neutrals.forEach((v, i) => {
+        renderSquare(ctx, colors.grey, [scoreBarLeft + (i + positives.length) * 50, scoreTop]);
+    });
+    negatives.forEach((v, i) => {
+        renderSquare(ctx, colors.red, [
+            scoreBarLeft + (i + positives.length + neutrals.length) * 50,
+            scoreTop
+        ]);
+    });
 };
 
 export const getDeputeCard = async (depute: Depute) => {
@@ -109,7 +140,7 @@ export const getDeputeCard = async (depute: Depute) => {
         const picture = await loadPicture(deputePicturePath + depute.slug + '.jpg');
         ctx.drawImage(
             circularImage(picture),
-            pictureX - pictureSize * 0.5,
+            60,
             pictureY - pictureSize * 0.5,
             pictureSize,
             pictureSize
@@ -117,7 +148,7 @@ export const getDeputeCard = async (depute: Depute) => {
         ctx.beginPath();
         ctx.strokeStyle = colors.blue;
         ctx.lineWidth = 3;
-        ctx.arc(pictureX, pictureY, pictureSize * 0.5, 0, 2 * Math.PI, true);
+        ctx.arc(60 + pictureSize * 0.5, pictureY, pictureSize * 0.5, 0, 2 * Math.PI, true);
         ctx.stroke();
 
         const nameLeft = 40;
@@ -132,20 +163,39 @@ export const getDeputeCard = async (depute: Depute) => {
 
         //title
         ctx.font = 'light 30px Montserrat ';
-        ctx.fillText(depute.county, nameLeft, nameTop + 100);
+        ctx.fillText(depute.county, nameLeft, nameTop + 120);
         ctx.fillText(
             `Député(e) de la ${depute.circumscription}${numberToSuffix(
                 depute.circumscription
             )} cirsconscription`,
             nameLeft,
-            nameTop + 130
+            nameTop + 150
         );
+        const categories = depute.votes.reduce((acc, curr) => {
+            const category =
+                acc.find((c) => c.name === curr?.category) ||
+                acc[acc.push({ name: curr.category, votes: [] }) - 1];
 
-        drawScore('Ecologie', ctx, 10, 0);
-        drawScore('Etat autoritaire', ctx, 50, 1, true);
-        drawScore('Etat social', ctx, 35, 2);
-        drawScore('Justice', ctx, 50, 3);
-        drawScore('A soutenu Macron', ctx, 75, 4, true);
+            category.votes.push(curr);
+
+            return acc;
+        }, []);
+
+        categories.forEach(({ name, votes }, i) => {
+            drawScore(name, votes, ctx, i);
+        });
+
+        const ctaSize = [500, 120];
+        ctx.beginPath();
+        ctx.rect(width - ctaSize[0] - 40, height - ctaSize[1] - 40, ctaSize[0], ctaSize[1]);
+        ctx.fillStyle = colors.blue;
+        ctx.fill();
+
+        ctx.fillStyle = 'white';
+        ctx.fillText('Retrouvez votre député', width - ctaSize[0] - 10, height - ctaSize[1] - 5);
+        ctx.fillText('sur', width - ctaSize[0] - 10, height - ctaSize[1] + 45);
+        ctx.font = 'bold 50px Montserrat ';
+        ctx.fillText('quel-depute.fr', width - ctaSize[0] + 45, height - ctaSize[1] + 45);
 
         return canvas.toBuffer('image/jpeg');
     } catch (e) {

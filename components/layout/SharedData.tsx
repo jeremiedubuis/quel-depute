@@ -3,7 +3,7 @@ import { useRecoilState, useSetRecoilState } from 'recoil';
 import { deputesListState } from '../../atoms/deputesListState';
 import { groupsListState } from '../../atoms/groupsListState';
 import { screenSizeState } from '../../atoms/screeSizeState';
-import {mobileSearchOpenState} from "../../atoms/mobileSearchOpenState";
+import { mobileSearchOpenState } from '../../atoms/mobileSearchOpenState';
 
 export const SharedData = () => {
     const [deputes, setDeputes] = useRecoilState(deputesListState);
@@ -17,10 +17,12 @@ export const SharedData = () => {
                 .then((d) => {
                     setDeputes(d);
                     setGroups(
-                        d.reduce((acc, curr) => {
-                            if (!acc.includes(curr.group)) acc.push(curr.group);
-                            return acc;
-                        }, [])
+                        d
+                            .filter((d) => d.current)
+                            .reduce((acc, curr) => {
+                                if (!acc.includes(curr.group)) acc.push(curr.group);
+                                return acc;
+                            }, [])
                     );
                 });
         }
