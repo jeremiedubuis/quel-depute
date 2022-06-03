@@ -13,6 +13,8 @@ import { cn } from '$helpers/cn';
 import { screenSizeState } from '../../../atoms/screeSizeState';
 import { mobileSearchOpenState } from '../../../atoms/mobileSearchOpenState';
 import { SearchResultName } from './SearchResultName';
+import { Tooltip } from '$components/text/Tooltip/Tooltip';
+import { AiFillWarning } from 'react-icons/ai';
 
 export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
     const deputes = useRecoilValue(deputesListState);
@@ -21,6 +23,7 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
     const { push } = useRouter();
     const screenSize = useRecoilValue(screenSizeState);
     const [mobileSearchOpen, setMobileSearchOpen] = useRecoilState(mobileSearchOpenState);
+    const [geoLocationError, setGeoLocationError] = useState(null);
 
     const [villageCircumscriptions, setVillageCircumscriptions] = useState<
         { countyId: number; countyName: string; circumscriptionNumber: number }[] | null
@@ -53,21 +56,45 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
         else setVillageCircumscriptions(circumscriptions);
     };
 
+    const onGranted = () => {
+        navigator.geolocation.getCurrentPosition(
+            ({ coords }) => {
+                fetch(
+                    `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${coords.latitude}&longitude=${coords.longitude}&localityLanguage=fr`
+                )
+                    .then((r) => r.json())
+                    .then(async (r) => {
+                        const county = r.localityInfo.administrative.find(
+                            ({ adminLevel }) => adminLevel === 6
+                        ).name;
+                        const village = r.localityInfo.administrative.find(
+                            ({ adminLevel }) => adminLevel === 8
+                        ).name;
+                        return selectVillage(county, village);
+                    });
+            },
+            () => {
+                setGeoLocationError(true);
+            }
+        );
+    };
+
     const getCity = () => {
-        navigator.geolocation.getCurrentPosition(({ coords }) => {
-            fetch(
-                `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${coords.latitude}&longitude=${coords.longitude}&localityLanguage=fr`
-            )
-                .then((r) => r.json())
-                .then(async (r) => {
-                    const county = r.localityInfo.administrative.find(
-                        ({ adminLevel }) => adminLevel === 6
-                    ).name;
-                    const village = r.localityInfo.administrative.find(
-                        ({ adminLevel }) => adminLevel === 8
-                    ).name;
-                    return selectVillage(county, village);
-                });
+        navigator.permissions.query({ name: 'geolocation' }).then((result) => {
+            result.onchange = (e) => {
+                if (result.state === 'granted') onGranted();
+            };
+
+            console.log(result.state);
+
+            if (result.state === 'granted') {
+                onGranted();
+            } else if (result.state === 'prompt') {
+                onGranted();
+            } else if (result.state === 'denied') {
+                return setGeoLocationError(true);
+            }
+            setGeoLocationError(null);
         });
     };
 
@@ -145,7 +172,14 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                         onListClick={(e, city) => selectVillage(city.departement.nom, city.nom)}
                     />
                     <Button icon={FiMapPin} onClick={() => getCity()} type="button">
-                        Gélocalisez moi !
+                        {geoLocationError ? (
+                            <Tooltip content="Veuillez autoriser la géolocalisation">
+                                Gélocalisez moi !
+                                <AiFillWarning />
+                            </Tooltip>
+                        ) : (
+                            'Gélocalisez moi !'
+                        )}
                     </Button>
                 </fieldset>
             </form>
