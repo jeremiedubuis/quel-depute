@@ -1,6 +1,4 @@
-.view {
 
-}
 
 .candidate {
     padding: 0 0 20px;
@@ -10,6 +8,28 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+
+.header {
+    position: sticky;
+    background: var(--color-background);
+    border-bottom: 1px solid var(--color-primary);
+    top: 0;
+    z-index: 3;
+}
+
+.header nav {
+    margin-bottom: 20px;
+}
+
+.header nav li {
+    display: inline-block;
+}
+
+.header nav li + li {
+    margin-left: 25px;
+}
+
+
 @media screen and (min-width: 768px) {
 
 

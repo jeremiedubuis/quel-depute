@@ -6,3 +6,30 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.group {
+}
+
+.group svg {
+    margin: 0 10px;
+}
+
+.group button {
+    padding: 10px;
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+}
+
+
+.tooltip {
+    margin-left: 20px;
+}
+
+a.external {
+    height: 45px;
+}
+
+a.external svg {
+    margin: 0;
+}

@@ -1,21 +1,20 @@
 import styles from './SearchForm.module.css';
-import React, {SyntheticEvent, useEffect, useState} from 'react';
+import React, { SyntheticEvent, useEffect, useState } from 'react';
 import { AutoComplete } from '$components/forms/AutoComplete/AutoComplete';
 import { Button } from '$components/buttons/Button/Button';
 import { FiMapPin } from 'react-icons/fi';
 import { slugify, slugifyNames } from '$helpers/slugify';
 import debounce from 'lodash/debounce';
-import {useRecoilState, useRecoilValue, useSetRecoilState} from 'recoil';
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { deputesListState } from '../../../atoms/deputesListState';
 import { useRouter } from 'next/router';
 import { ModalCityCircumscriptions } from '$components/modals/ModalCityCircumscriptions';
-import {cn} from "$helpers/cn";
-import {screenSizeState} from "../../../atoms/screeSizeState";
-import {mobileSearchOpenState} from "../../../atoms/mobileSearchOpenState";
+import { cn } from '$helpers/cn';
+import { screenSizeState } from '../../../atoms/screeSizeState';
+import { mobileSearchOpenState } from '../../../atoms/mobileSearchOpenState';
 import { SearchResultName } from './SearchResultName';
 
-export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
-
+export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
     const deputes = useRecoilValue(deputesListState);
     const [cities, setCities] = useState([]);
     const [deputeMatches, setDeputeMatches] = useState([]);
@@ -28,8 +27,8 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
     >(null);
 
     useEffect(() => {
-        setMobileSearchOpen(false)
-    }, [])
+        setMobileSearchOpen(false);
+    }, []);
 
     if (small && screenSize < 1024 && !mobileSearchOpen) return null;
 
@@ -73,7 +72,7 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
     };
 
     const onNameInput = (e) => {
-        if (e.currentTarget.value.length < 3) return setDeputeMatches([])
+        if (e.currentTarget.value.length < 3) return setDeputeMatches([]);
         setDeputeMatches(
             deputes.filter(({ firstname, lastname }) => {
                 const f = slugify(firstname);
@@ -110,25 +109,26 @@ export const SearchForm: React.FC<{small?: boolean}> = ({ small }) => {
         <>
             <form className={cn(styles.form, small && styles.small)}>
                 <fieldset>
-                    {!small && <legend>
-                        Quel député lorem ipsum ?<br />
-                        Dolor sit amet, consectetuer
-                    </legend>}
+                    {!small && (
+                        <legend>
+                            Quel député lorem ipsum ?<br />
+                            Dolor sit amet, consectetuer
+                        </legend>
+                    )}
 
                     <AutoComplete
                         className={styles.field}
                         onInput={onNameInput}
                         list={deputeMatches}
                         renderValue={({ firstname, lastname }) => `${firstname} ${lastname}`}
-                        renderResult={(result) =>
-                            <SearchResultName result={result} />
-                        }
-                        onListClick={(e, value) => {
-                            push(
+                        renderResult={(result) => <SearchResultName result={result} />}
+                        onListClick={async (e, value) => {
+                            await push(
                                 `/circonscriptions/${slugify(
-                                    `${value.county} ${value.circumscription}`
+                                    `${value.county} ${value.circumscription}/`
                                 )}`
                             );
+                            window.location.hash = value.current ? '#depute' : '#candidats';
                         }}
                         id="form-name"
                         label="Nom"

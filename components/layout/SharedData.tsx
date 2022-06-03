@@ -26,6 +26,7 @@ export const SharedData = () => {
         }
         const resize = () => setSize(window.innerWidth);
         window.addEventListener('resize', resize);
+        resize();
         return () => {
             window.removeEventListener('resize', resize);
         };

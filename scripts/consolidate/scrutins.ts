@@ -14,7 +14,7 @@ export type Scrutin = {
     description?: string;
     sources?: string;
     text?: string;
-    impact: 'Positif' | 'Négatif'
+    impact: 'Positif' | 'Négatif';
 };
 
 const scrapQueue = new ScrapQueue(100);
@@ -82,10 +82,7 @@ const consolidate = async (scrutinNumber?: number) => {
             href,
             scrutinHref: `https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/${s.number}`,
             slug,
-            impactModifier:
-                s.impact === 'Positif'
-                    ? 1
-                    : -1,
+            impactModifier: s.impact === 'Positif' ? 1 : -1,
             initiative: _authors.find((a) => a.groupShort)?.groupShort || 'Gouvernement',
             notes: null
         };
@@ -108,14 +105,16 @@ const consolidate = async (scrutinNumber?: number) => {
             let depute = deputes.find((d) =>
                 testNameAndVariation(text, d.firstname + ' ' + d.lastname)
             );
+            const group = li
+                .closest('.TTgroupe')
+                .querySelector('.nomgroupe')
+                .textContent?.replace(/Groupe (?:du )?(?:de la )?/, '')
+                ?.replace(/ \(.*/, '')
+                .replace('&nbsp;', ' ');
+            const groupShort = deputes.find((d) => d.group === group)?.groupShort;
+
             if (!depute) {
                 const [firstname, lastname] = text.split(/\s/);
-                const group = li
-                    .closest('.TTgroupe')
-                    .querySelector('.nomgroupe')
-                    .textContent?.replace(/Groupe (?:du )?/, '')
-                    ?.replace(/ \(.*/, '');
-                const groupShort = deputes.find((d) => d.group === group)?.groupShort;
                 depute = {
                     firstname,
                     lastname,
@@ -123,7 +122,11 @@ const consolidate = async (scrutinNumber?: number) => {
                     groupShort
                 };
                 missing.add(text);
+            } else {
+                depute.group = group;
+                depute.groupShort = groupShort;
             }
+
             output.votes.push({
                 firstname: depute.firstname,
                 lastname: depute.lastname,

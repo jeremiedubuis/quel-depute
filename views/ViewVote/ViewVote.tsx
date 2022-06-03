@@ -5,22 +5,43 @@ import { Title } from '$components/text/Title/Title';
 import { slugifyNames } from '$helpers/slugify';
 import { HiThumbUp, HiThumbDown } from 'react-icons/hi';
 import { BsDashLg } from 'react-icons/bs';
-import {VoteCount} from "$views/ViewVote/VoteCount";
+import { VoteCount } from '$views/ViewVote/VoteCount';
+import { DropDown } from '$components/text/DropDown/DropDown';
+import { assemblyColors } from '$components/depute/DeputeBlock/colors';
+import { Tooltip } from '$components/text/Tooltip/Tooltip';
+import { Button } from '$components/buttons/Button/Button';
+import { FiExternalLink } from 'react-icons/fi';
 
 export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
     const groups = [];
     scrutin.votes.forEach((v) => {
         const group =
-            groups.find((g) => (g.name === v.group)) || groups[groups.push({ name: v.group, votes: [] }) - 1];
+            groups.find((g) => g.name === v.group) ||
+            groups[groups.push({ name: v.group, votes: [] }) - 1];
         group.votes.push(v);
     });
 
-    console.log(groups)
+    console.log(groups);
 
     return (
         <main className={styles.view}>
             <Title size={'big'} TitleTag="h1">
                 {scrutin.title}
+                <Tooltip
+                    content={"Voir le scrutin sur le site de l'assemblée nationale"}
+                    className={styles.tooltip}
+                >
+                    <Button
+                        href={
+                            'https://www2.assemblee-nationale.fr/scrutins/detail/(legislature)/15/(num)/' +
+                            scrutin.number
+                        }
+                        className={styles.external}
+                        target="_blank"
+                    >
+                        <FiExternalLink />
+                    </Button>
+                </Tooltip>
             </Title>
 
             {scrutin.description && <p>{scrutin.description}</p>}
@@ -56,27 +77,36 @@ export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
                     Votes <VoteCount votes={scrutin.votes} />
                 </Title>
                 <ul>
-                    {groups.map(g => <li key={g.name}>
-                        <h3>{g.name} <VoteCount votes={g.votes} /></h3>
-
-                        <ul className={styles.votes}>
-                            {g.votes.map((v) => {
-                                const slug = slugifyNames(v.firstname, v.lastname);
-                                return (
-                                    <li key={slug}>
-                                        {v.lastname} {v.firstname} :{' '}
-                                        {v.vote === 'Pour' ? (
-                                            <HiThumbUp />
-                                        ) : v.vote === 'Contre' ? (
-                                            <HiThumbDown />
-                                        ) : (
-                                            <BsDashLg />
-                                        )}
-                                    </li>
-                                );
-                            })}
-                        </ul>
-                    </li>)}
+                    {groups.map((g) => (
+                        <li key={g.name}>
+                            <DropDown
+                                buttonStyle={{ background: assemblyColors[g.name] }}
+                                className={styles.group}
+                                content={
+                                    <ul className={styles.votes}>
+                                        {g.votes.map((v) => {
+                                            const slug = slugifyNames(v.firstname, v.lastname);
+                                            return (
+                                                <li key={slug}>
+                                                    {v.lastname} {v.firstname} :{' '}
+                                                    {v.vote === 'Pour' ? (
+                                                        <HiThumbUp />
+                                                    ) : v.vote === 'Contre' ? (
+                                                        <HiThumbDown />
+                                                    ) : (
+                                                        <BsDashLg />
+                                                    )}
+                                                </li>
+                                            );
+                                        })}
+                                    </ul>
+                                }
+                            >
+                                {g.name} <VoteCount votes={g.votes} />
+                            </DropDown>
+                            <h3></h3>
+                        </li>
+                    ))}
                 </ul>
             </section>
         </main>
