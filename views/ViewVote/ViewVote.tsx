@@ -87,7 +87,16 @@ export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
                                         {g.votes.map((v) => {
                                             const slug = slugifyNames(v.firstname, v.lastname);
                                             return (
-                                                <li key={slug}>
+                                                <li
+                                                    key={slug}
+                                                    className={
+                                                        v.vote === 'Pour'
+                                                            ? styles.for
+                                                            : v.vote === 'Contre'
+                                                            ? styles.against
+                                                            : null
+                                                    }
+                                                >
                                                     {v.lastname} {v.firstname} :{' '}
                                                     {v.vote === 'Pour' ? (
                                                         <HiThumbUp />

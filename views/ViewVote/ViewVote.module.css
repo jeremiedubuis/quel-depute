@@ -5,6 +5,7 @@
 .votes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
 }
 
 .group {
@@ -18,7 +19,8 @@
     padding: 10px;
     font-size: var(--font-size-medium);
     font-weight: bold;
-
+    color: white;
+    mix-blend-mode: difference;
 }
 
 
@@ -32,4 +34,12 @@ a.external {
 
 a.external svg {
     margin: 0;
+}
+
+.for svg {
+    fill: var(--color-success);
+}
+
+.against svg {
+    fill: var(--color-alert);
 }
