@@ -169,9 +169,11 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                         onInput={onCityInput}
                         id="form-commune"
                         label="Commune"
-                        renderResult={(city) => `${city.nom} (${city.departement.code})`}
+                        renderResult={(city) => {
+                            return `${city.nom} (${city.departement?.code})`;
+                        }}
                         renderValue={({ nom }) => nom}
-                        list={cities}
+                        list={cities.filter((c) => c.department)}
                         onListClick={(e, city) => selectVillage(city.departement.nom, city.nom)}
                     />
                     <Button icon={FiMapPin} onClick={() => getCity()} type="button">
