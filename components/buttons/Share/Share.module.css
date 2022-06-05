@@ -1,0 +1,31 @@
+
+.share, .shareMenu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.share svg{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+.shareMenu {
+    right: 90px;
+    background: var(--color-background);
+    box-shadow: 0 0 10px var(--color-shadow);
+    border-radius: var(--radius);
+    padding: 10px 20px 10px 10px;
+    z-index: 2;
+}
+
+.shareMenu svg {
+    width: 50px;
+    height: 50px;
+}
+
+.button {
+    background: var(--color-background);
+    color: var(--color-primary)
+}
