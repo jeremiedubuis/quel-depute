@@ -63,7 +63,7 @@ const drawScore = (
 ) => {
     const scoreLeft = 295;
     const scoreTop = 160 + offset * 50;
-    const scoreBarLeft = 630;
+    const scoreBarLeft = 660;
 
     ctx.fillStyle = colors.blue;
     ctx.fillText(type, scoreLeft, scoreTop + 25);
