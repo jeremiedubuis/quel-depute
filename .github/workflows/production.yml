@@ -3,10 +3,10 @@ on:
     tags:
       - *
 env:
-  GCP_BUCKET: ${{ secrets.GCP_BUCKET}}
+  GCP_BUCKET: ${{ secrets.GCP_BUCKET }}
   GCP_SA_JSON: ${{ secrets.GCP_SA_JSON }}
 jobs:
-  production:
+  staging:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
