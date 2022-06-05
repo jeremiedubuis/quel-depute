@@ -14,7 +14,7 @@ export const Metas: React.FC<{
             {description && <meta name="description" content={description} />}
             {image && (
                 <>
-                    <meta property="twitter:image" content={image.src} />
+                    <meta property="twitter:image" content={image.src + '?' + Date.now()} />
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta property="og:image" content={image.src} />
                     {image.width && <meta property="og:image:width" content={image.width} />}
