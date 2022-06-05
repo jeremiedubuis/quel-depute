@@ -8,7 +8,7 @@ export const ViewHomePage: React.FC = () => {
     return (
         <main className={styles.view}>
             <Metas
-                title={`Quel député ? Comment votre député à voté ?`}
+                title={`Quel député ? Comment votre député a voté ?`}
                 description={`Sur quel-depute.fr vous découvrirez comment les députés ont voté sur des scutins représentatifs sur les thèmes clés des inégalités, de l'environnement, des libertés et des services publics. Vous pourrez consulter la liste des candidats de votre circonscription et la comparer aux résultats des élections précédentes.`}
             />
 
