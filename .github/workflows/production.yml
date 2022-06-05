@@ -31,4 +31,4 @@ jobs:
         run: npm run build
       - name: Deploy to GCP
         run: |-
-          gsutil -m rsync -R out gs://$GCP_BUCKET
+          gsutil -h content-encoding:gzip rsync -R out gs://$GCP_BUCKET

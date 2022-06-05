@@ -10,9 +10,11 @@
     "thumbnails": "ts-node -r tsconfig-paths/register --project tsconfig.json scripts/thumbnails.ts",
     "dev": "next dev",
     "build": "npm run thumbnails && next build && next export",
+    "_build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "npx prettier --write **/*.tsx **/*.ts"
+    "prettier": "npx prettier --write **/*.tsx **/*.ts",
+    "postbuild": "next-sitemap"
   },
   "author": "Jérémie Dubuis",
   "license": "ISC",
@@ -22,6 +24,7 @@
     "canvas": "^2.9.1",
     "lodash": "^4.17.21",
     "next": "^12.1.5",
+    "next-sitemap": "^3.0.5",
     "polka": "^0.5.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
