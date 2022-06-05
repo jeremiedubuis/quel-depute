@@ -38,7 +38,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 ]}
             />
 
-            <DeputeTop className={styles.depute} depute={depute} noCounty={false} />
+            <DeputeTop className={styles.depute} depute={depute} noCounty={false} TitleTag="h1" />
             <section>
                 <Title size="big">Position sur des scrutins importants</Title>
                 <DeputeVotesSlider depute={depute} />

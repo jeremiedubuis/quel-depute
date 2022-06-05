@@ -6,8 +6,6 @@ import { DeputeDetails } from '$components/depute/DeputeDetails/DeputeDetails';
 import React, { ReactNode, useState } from 'react';
 import { Depute } from '$types/deputeTypes';
 import { cn } from '$helpers/cn';
-import { AiFillFacebook, AiFillTwitterCircle, AiOutlineShareAlt } from 'react-icons/ai';
-import { Button } from '$components/buttons/Button/Button';
 import { Share } from '$components/buttons/Share/Share';
 
 export const DeputeTop: React.FC<{
@@ -17,11 +15,18 @@ export const DeputeTop: React.FC<{
     children?: ReactNode | ReactNode[];
     className?: string;
     noCounty?: boolean;
-}> = ({ id, title, depute, children, className, noCounty }) => {
+    TitleTag?: keyof JSX.IntrinsicElements;
+}> = ({ id, title, TitleTag, depute, children, className, noCounty }) => {
     return (
         <section id={id} className={cn(className, styles.top)}>
             {title && <Title size={'big'}>{title}</Title>}
-            <DeputeBlock className={styles.depute} depute={depute} noCounty={noCounty} showGroup />
+            <DeputeBlock
+                TitleTag={TitleTag}
+                className={styles.depute}
+                depute={depute}
+                noCounty={noCounty}
+                showGroup
+            />
             <Share url={process.env.NEXT_PUBLIC_HOST + '/deputes/' + depute.slug} />
             <DeputeVoteCategories className={styles.votes} depute={depute} />
             <DeputeDetails className={styles.details} depute={depute}>

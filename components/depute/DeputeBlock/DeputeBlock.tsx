@@ -21,6 +21,7 @@ export const DeputeBlock: React.FC<{
     className?: string;
     noPicture?: boolean;
     showGroup?: boolean;
+    isTitle?: boolean;
 }> = ({
     depute,
     isLink,
@@ -30,7 +31,8 @@ export const DeputeBlock: React.FC<{
     isLinkToCircumscription,
     className,
     noPicture,
-    showGroup
+    showGroup,
+    isTitle
 }) => {
     const content = (
         <>
