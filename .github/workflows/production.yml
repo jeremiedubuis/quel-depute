@@ -31,4 +31,4 @@ jobs:
         run: npm run build
       - name: Deploy to GCP
         run: |-
-          gsutil -m rsync -R out gs://$GCP_BUCKET
+          gsutil -m -h 'Cache-Control: max-age=31536000' rsync -R out gs://$GCP_BUCKET
