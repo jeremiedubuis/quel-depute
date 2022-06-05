@@ -40,13 +40,14 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
         const villages = await fetch(`/json/villages/${countySlug}.json`).then((r) => r.json());
 
         const circumscriptions = villages
-            .filter(({ villageName }) => villageName === village)
+            .filter(({ villageName }) => slugify(villageName) === slugify(village))
             .reduce((acc, curr) => {
                 if (acc.find((v) => v.circumscriptionNumber === curr.circumscriptionNumber))
                     return acc;
                 acc.push(curr);
                 return acc;
             }, []);
+
         if (circumscriptions.length === 1)
             push(
                 `/circonscriptions/${slugify(
