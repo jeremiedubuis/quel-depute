@@ -40,6 +40,7 @@
         "id": "720178",
         "lastname": "Garcia",
         "firstname": "Laurent",
+        "current": false,
         "slug": "laurent-garcia",
         "gender": "H",
         "birthday": "1970-05-31",
@@ -48,8 +49,9 @@
         "countyId": 54,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Mouvement Démocrate",
         "groupShort": "MODEM",
+        "party": "Mouvement Démocrate",
+        "partyShort": "MODEM",
         "job": "Ingénieur",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "UDMF",
-            "group": "Union des démocrates musulmans français",
-            "groupShort": "union des démocrates musulmans français",
+            "party": "Union des démocrates musulmans français",
+            "partyShort": "Union des démocrates musulmans français",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -139,8 +144,8 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -149,8 +154,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -159,8 +164,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +175,9 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "LCen.",
-            "group": "Les Centristes",
-            "groupShort": "LC",
+            "party": "Les Centristes",
+            "partyShort": "Les Centristes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

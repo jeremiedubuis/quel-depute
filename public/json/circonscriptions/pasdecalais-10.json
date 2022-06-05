@@ -40,6 +40,7 @@
         "id": "720610",
         "lastname": "Houplain",
         "firstname": "Myriane",
+        "current": true,
         "slug": "myriane-houplain",
         "gender": "F",
         "birthday": "1946-06-05",
@@ -48,8 +49,9 @@
         "countyId": 62,
         "circumscription": 10,
         "mandateStart": "2021-04-22",
-        "group": "Rassemblement national",
         "groupShort": "NI",
+        "party": "Rassemblement national",
+        "partyShort": "RN",
         "job": 0,
         "votes": [],
         "scandals": [],
@@ -65,7 +67,7 @@
             "commissionInterventions": 0,
             "hemicycleInterventions": 13,
             "hemicycleShortInterventions": 1,
-            "questionsWritten": 21,
+            "questionsWritten": 22,
             "questionsOral": 2
         },
         "opposedGovernment": 0,
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -139,8 +142,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +153,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "MdR",
-            "group": "Mouvement de la ruralité",
-            "groupShort": "mouvement de la ruralité",
+            "party": "Mouvement de la ruralité",
+            "partyShort": "Mouvement de la ruralité",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +164,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +175,9 @@
             "gender": "F",
             "nuance": "RDG",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +186,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "souv.",
-            "group": "divers souverainistes",
-            "groupShort": "divers souverainistes",
+            "party": "divers souverainistes",
+            "partyShort": "divers souverainistes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

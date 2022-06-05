@@ -40,6 +40,7 @@
         "id": "718978",
         "lastname": "Laqhila",
         "firstname": "Mohamed",
+        "current": true,
         "slug": "mohamed-laqhila",
         "gender": "H",
         "birthday": "1959-08-03",
@@ -48,8 +49,9 @@
         "countyId": 13,
         "circumscription": 11,
         "mandateStart": "2017-06-21",
-        "group": "Mouvement Démocrate",
         "groupShort": "MODEM",
+        "party": "Mouvement Démocrate",
+        "partyShort": "MODEM",
         "job": "Expert-Comptable-Commissaire aux Comptes",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Gen.-Nupes",
-            "group": "Génération.s",
-            "groupShort": "GS",
+            "party": "Génération.s",
+            "partyShort": "Génération.s",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +114,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +125,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +135,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -139,8 +145,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -149,8 +155,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -159,8 +165,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "EAC",
-            "group": "Ecologie au centre",
-            "groupShort": "ecologie au centre",
+            "party": "Ecologie au centre",
+            "partyShort": "Ecologie au centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +176,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "PO-RPS",
-            "group": "Parti occitan",
-            "groupShort": "parti occitan",
+            "party": "Parti occitan",
+            "partyShort": "Parti occitan",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +198,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -199,8 +208,9 @@
             "gender": "F",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

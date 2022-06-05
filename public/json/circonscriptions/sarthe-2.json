@@ -40,6 +40,7 @@
         "id": "335054",
         "lastname": "Karamanli",
         "firstname": "Marietta",
+        "current": true,
         "slug": "marietta-karamanli",
         "gender": "F",
         "birthday": "1964-12-18",
@@ -48,8 +49,9 @@
         "countyId": 72,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Parti socialiste",
         "groupShort": "SOC",
+        "party": "Parti socialiste",
+        "partyShort": "PS",
         "job": "Professeur dans l'enseignement supérieur",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "Hor.-Ensemble",
-            "group": "Horizons",
-            "groupShort": "horizons",
+            "party": "Horizons",
+            "partyShort": "Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS dis.",
-            "group": "dissident PS hors accord Nupes",
-            "groupShort": "dissident ps hors accord nupes",
+            "party": "dissident PS hors accord Nupes",
+            "partyShort": "dissident PS hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -129,8 +133,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +144,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "ext. g.",
-            "group": "autres extrême gauche",
-            "groupShort": "autres extrême gauche",
+            "party": "autres extrême gauche",
+            "partyShort": "autres extrême gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +176,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "POID",
-            "group": "Parti ouvrier indépendant démocratique",
-            "groupShort": "parti ouvrier indépendant démocratique",
+            "party": "Parti ouvrier indépendant démocratique",
+            "partyShort": "Parti ouvrier indépendant démocratique",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "EAC",
-            "group": "Ecologie au centre",
-            "groupShort": "ecologie au centre",
+            "party": "Ecologie au centre",
+            "partyShort": "Ecologie au centre",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

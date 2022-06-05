@@ -40,6 +40,7 @@
         "id": "720170",
         "lastname": "Grandjean",
         "firstname": "Carole",
+        "current": true,
         "slug": "carole-grandjean",
         "gender": "F",
         "birthday": "1983-05-18",
@@ -48,8 +49,9 @@
         "countyId": 54,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Cadre supérieur (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -99,8 +101,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -109,8 +111,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +122,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +133,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -169,8 +176,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -179,8 +186,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -189,8 +196,9 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "UDMF",
-            "group": "Union des démocrates musulmans français",
-            "groupShort": "union des démocrates musulmans français",
+            "party": "Union des démocrates musulmans français",
+            "partyShort": "Union des démocrates musulmans français",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

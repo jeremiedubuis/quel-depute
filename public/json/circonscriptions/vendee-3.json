@@ -40,6 +40,7 @@
         "id": "722000",
         "lastname": "Buchou",
         "firstname": "Stéphane",
+        "current": true,
         "slug": "stephane-buchou",
         "gender": "H",
         "birthday": "1974-03-14",
@@ -48,8 +49,9 @@
         "countyId": 85,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Cadre supérieur (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "div. d.",
-            "group": "divers droite",
-            "groupShort": "divers droite",
+            "party": "divers droite",
+            "partyShort": "divers droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         }
     ]

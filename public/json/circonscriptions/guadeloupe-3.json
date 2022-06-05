@@ -40,6 +40,7 @@
         "id": "720976",
         "lastname": "Mathiasin",
         "firstname": "Max",
+        "current": true,
         "slug": "max-mathiasin",
         "gender": "H",
         "birthday": "1956-02-24",
@@ -48,8 +49,9 @@
         "countyId": 971,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "Mouvement Démocrate",
         "groupShort": "MODEM",
+        "party": "Mouvement Démocrate",
+        "partyShort": "MODEM",
         "job": "Fonction publique territoriale",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "ext. g.",
-            "group": "autres extrême gauche",
-            "groupShort": "autres extrême gauche",
+            "party": "autres extrême gauche",
+            "partyShort": "autres extrême gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +143,8 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -149,8 +153,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -159,8 +163,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +174,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +185,9 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "GUSR-Ensemble",
-            "group": "Guadeloupe unie, responsable et solidaire",
-            "groupShort": "guadeloupe unie, responsable et solidaire",
+            "party": "Guadeloupe unie, responsable et solidaire",
+            "partyShort": "Guadeloupe unie, responsable et solidaire",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +196,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "aut.",
-            "group": "autonomistes",
-            "groupShort": "autonomistes",
+            "party": "autonomistes",
+            "partyShort": "autonomistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +207,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -209,8 +218,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -219,8 +229,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -229,8 +240,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -239,8 +251,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -249,8 +262,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -259,8 +273,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -269,8 +284,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

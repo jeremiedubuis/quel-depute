@@ -5,7 +5,7 @@ import { writeFile } from '$helpers/writeFile';
 import { circonscriptionJSONPath, deputeJSONPath } from '../config';
 import path from 'path';
 import { slugify, slugifyNames } from '$helpers/slugify';
-import { mapNosDeputes } from '../helpers/mapNosDeputes';
+import { mapNosDeputes, partyToPartyShortAndImage } from '../helpers/mapNosDeputes';
 import { ScrapQueue } from '../helpers/scrapQueue';
 import { emptyDir } from '$helpers/emptyDir';
 import { pad } from '../helpers/pad';
@@ -30,6 +30,8 @@ const groupToGroupShort = (group: string) => {
         case 'rassemblement national':
             return 'RN';
         case 'lutte ouvrière':
+        case 'Lutte ouvrière':
+        case 'Lutte Ouvrière':
             return 'LO';
         case 'nouveau Parti anticapitaliste':
             return 'NPA';
@@ -83,7 +85,10 @@ const mapCircumscriptionResults = (c) => ({
 
 const consolidate = async () => {
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
-    const deputes = mapNosDeputes(raw);
+    const groups = (
+        await scrapQueue.fetch('https://www.nosdeputes.fr/organismes/groupe/json')
+    ).organismes.filter(({ type }) => type === 'groupe');
+    const deputes = mapNosDeputes(raw, groups);
     await emptyDir(circonscriptionJSONPath);
 
     for (let i = 0, iLength = circumscriptionsFirstRound.length; i < iLength; i++) {
@@ -116,7 +121,7 @@ const consolidate = async () => {
             ),
             candidates: _candidates.map(({ p, ...c }) => ({
                 ...c,
-                groupShort: groupToGroupShort(c.group),
+                ...partyToPartyShortAndImage(c.party),
                 candidate: true
             }))
         };

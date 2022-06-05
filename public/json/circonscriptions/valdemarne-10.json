@@ -40,6 +40,7 @@
         "id": "720892",
         "lastname": "Panot",
         "firstname": "Mathilde",
+        "current": true,
         "slug": "mathilde-panot",
         "gender": "F",
         "birthday": "1989-01-15",
@@ -48,8 +49,9 @@
         "countyId": 94,
         "circumscription": 10,
         "mandateStart": "2017-06-21",
-        "group": "La France Insoumise",
         "groupShort": "LFI",
+        "party": "La France Insoumise",
+        "partyShort": "LFI",
         "job": "Coordinatrice de projets associatifs",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -139,8 +142,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -149,8 +152,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

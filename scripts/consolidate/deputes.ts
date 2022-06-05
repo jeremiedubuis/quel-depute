@@ -10,7 +10,7 @@ const scrutins = require('../data/scrutins.json');
 const scandals = require('../data/scandals.json');
 import candidates from '../data/candidates.json';
 import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
-import { mapNosDeputes } from '../helpers/mapNosDeputes';
+import { mapNosDeputes, partyToPartyShortAndImage } from '../helpers/mapNosDeputes';
 import type { Scrutin } from './scrutins';
 
 const scrapQueue = new ScrapQueue(500);
@@ -22,7 +22,10 @@ const consolidate = async () => {
     await emptyDir(deputeJSONPath);
     if (!skip.image) await emptyDir(deputePicturePath);
     const raw = (await scrapQueue.fetch('https://www.nosdeputes.fr/synthese/data/json')).deputes;
-    const parsed = mapNosDeputes(raw);
+    const groups = (
+        await scrapQueue.fetch('https://www.nosdeputes.fr/organismes/groupe/json')
+    ).organismes.filter(({ type }) => type === 'groupe');
+    const parsed = mapNosDeputes(raw, groups);
 
     const flatCandidates = Object.keys(candidates).reduce(
         (acc, circ) => [
@@ -33,7 +36,13 @@ const consolidate = async () => {
                 const county = circumscriptionsFirstRound.find(
                     (c) => parseInt(c.countyId.toString()) === countyId
                 )?.county;
-                return { ...c, countyId, circumscription, county };
+                return {
+                    ...c,
+                    countyId,
+                    circumscription,
+                    county,
+                    ...partyToPartyShortAndImage(c.party)
+                };
             })
         ],
         []
@@ -62,6 +71,9 @@ const consolidate = async () => {
             'circumscription',
             'group',
             'groupShort',
+            'party',
+            'partyShort',
+            'noPartyImage',
             'current'
         ])(c);
         return r;

@@ -40,6 +40,7 @@
         "id": "604",
         "lastname": "Bouley",
         "firstname": "Bernard",
+        "current": true,
         "slug": "bernard-bouley",
         "gender": "H",
         "birthday": "1950-07-11",
@@ -48,8 +49,9 @@
         "countyId": 91,
         "circumscription": 2,
         "mandateStart": "2020-08-05",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Chef d'entreprise",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "Hor.-Ensemble",
-            "group": "Horizons",
-            "groupShort": "horizons",
+            "party": "Horizons",
+            "partyShort": "Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -139,8 +144,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -169,8 +175,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +186,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

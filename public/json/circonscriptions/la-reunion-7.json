@@ -40,6 +40,7 @@
         "id": "759192",
         "lastname": "Poudroux",
         "firstname": "Jean-Luc",
+        "current": true,
         "slug": "jeanluc-poudroux",
         "gender": "H",
         "birthday": "1950-08-29",
@@ -48,8 +49,9 @@
         "countyId": 974,
         "circumscription": 7,
         "mandateStart": "2018-10-01",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Retraité de l'éducation nationale",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "COM",
             "nuanceComputed": "PCR",
-            "group": "Parti communiste réunionnais",
-            "groupShort": "parti communiste réunionnais",
+            "party": "Parti communiste réunionnais",
+            "partyShort": "Parti communiste réunionnais",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,9 @@
             "gender": "H",
             "nuance": "RDG",
             "nuanceComputed": "PRG",
-            "group": "Parti radical de gauche",
-            "groupShort": "PRG",
+            "party": "Parti radical de gauche",
+            "partyShort": "PRG",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +135,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +146,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +157,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -159,8 +167,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +178,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +189,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +200,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +211,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -209,8 +222,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "div. d.",
-            "group": "divers droite",
-            "groupShort": "divers droite",
+            "party": "divers droite",
+            "partyShort": "divers droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -219,8 +233,8 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         }
     ]

@@ -40,6 +40,7 @@
         "id": "267801",
         "lastname": "Jégo",
         "firstname": "Yves",
+        "current": false,
         "slug": "yves-jego",
         "gender": "H",
         "birthday": "1961-04-17",
@@ -48,8 +49,10 @@
         "countyId": 77,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "Union des démocrates, radicaux et libéraux",
         "groupShort": "UAI",
+        "party": "Union des démocrates, radicaux et libéraux",
+        "partyShort": "UDRL",
+        "noPartyImage": true,
         "job": "Avocat",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +135,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "POI",
-            "group": "Parti ouvrier indépendant",
-            "groupShort": "parti ouvrier indépendant",
+            "party": "Parti ouvrier indépendant",
+            "partyShort": "Parti ouvrier indépendant",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +146,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +157,8 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -159,8 +167,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -169,8 +177,9 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "UDMF",
-            "group": "Union des démocrates musulmans français",
-            "groupShort": "union des démocrates musulmans français",
+            "party": "Union des démocrates musulmans français",
+            "partyShort": "Union des démocrates musulmans français",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +188,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -189,8 +198,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +209,8 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         }
     ]

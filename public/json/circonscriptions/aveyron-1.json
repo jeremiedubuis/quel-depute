@@ -40,6 +40,7 @@
         "id": "677483",
         "lastname": "Mazars",
         "firstname": "Stéphane",
+        "current": true,
         "slug": "stephane-mazars",
         "gender": "H",
         "birthday": "1969-03-25",
@@ -48,8 +49,9 @@
         "countyId": 12,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Avocat",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +143,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EELV-Nupes",
-            "group": "Europe Ecologie-Les Verts",
-            "groupShort": "EELV",
+            "party": "Europe Ecologie-Les Verts",
+            "partyShort": "EELV",
             "candidate": true
         },
         {
@@ -149,8 +153,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +164,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

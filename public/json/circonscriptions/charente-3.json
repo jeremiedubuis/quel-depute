@@ -40,6 +40,7 @@
         "id": "1809",
         "lastname": "Lambert",
         "firstname": "Jérôme",
+        "current": true,
         "slug": "jerome-lambert",
         "gender": "H",
         "birthday": "1957-06-07",
@@ -48,8 +49,9 @@
         "countyId": 16,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "Parti socialiste",
         "groupShort": "SOC",
+        "party": "Parti socialiste",
+        "partyShort": "PS",
         "job": "Cadre de l'industrie",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "NPA",
-            "group": "Nouveau Parti anticapitaliste",
-            "groupShort": "nouveau parti anticapitaliste",
+            "party": "Nouveau Parti anticapitaliste",
+            "partyShort": "Nouveau Parti anticapitaliste",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -159,8 +164,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -169,8 +174,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "PS dis.",
-            "group": "dissident PS hors accord Nupes",
-            "groupShort": "dissident ps hors accord nupes",
+            "party": "dissident PS hors accord Nupes",
+            "partyShort": "dissident PS hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +185,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +196,9 @@
             "gender": "F",
             "nuance": "DVC",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +207,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

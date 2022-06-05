@@ -40,6 +40,7 @@
         "id": "267204",
         "lastname": "Sermier",
         "firstname": "Jean-Marie",
+        "current": true,
         "slug": "jeanmarie-sermier",
         "gender": "H",
         "birthday": "1961-03-05",
@@ -48,8 +49,9 @@
         "countyId": 39,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Ancien viticulteur",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EELV-Nupes",
-            "group": "Europe Ecologie-Les Verts",
-            "groupShort": "EELV",
+            "party": "Europe Ecologie-Les Verts",
+            "partyShort": "EELV",
             "candidate": true
         },
         {
@@ -99,8 +101,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +122,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "PS dis.",
-            "group": "dissident PS hors accord Nupes",
-            "groupShort": "dissident ps hors accord nupes",
+            "party": "dissident PS hors accord Nupes",
+            "partyShort": "dissident PS hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         }
     ]

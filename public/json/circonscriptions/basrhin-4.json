@@ -40,6 +40,7 @@
         "id": "722268",
         "lastname": "Wonner",
         "firstname": "Martine",
+        "current": true,
         "slug": "martine-wonner",
         "gender": "F",
         "birthday": "1964-03-27",
@@ -48,8 +49,10 @@
         "countyId": 67,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "Régions et peuples solidaires",
         "groupShort": "NI",
+        "party": "Régions et peuples solidaires",
+        "partyShort": "RPS",
+        "noPartyImage": true,
         "job": "Directrice médicale et directrice de développement en entreprise",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "Unser-RPS",
-            "group": "Unser Land",
-            "groupShort": "unser land",
+            "party": "Unser Land",
+            "partyShort": "Unser Land",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +93,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +104,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -109,8 +114,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -119,8 +124,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -139,8 +144,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,8 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -169,8 +175,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +186,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EAC",
-            "group": "Ecologie au centre",
-            "groupShort": "ecologie au centre",
+            "party": "Ecologie au centre",
+            "partyShort": "Ecologie au centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +197,9 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

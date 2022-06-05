@@ -40,6 +40,7 @@
         "id": "721584",
         "lastname": "Terlier",
         "firstname": "Jean",
+        "current": true,
         "slug": "jean-terlier",
         "gender": "H",
         "birthday": "1977-03-02",
@@ -48,8 +49,9 @@
         "countyId": 81,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Avocat",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -99,8 +101,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +111,9 @@
             "gender": "F",
             "nuance": "RDG",
             "nuanceComputed": "PRG",
-            "group": "Parti radical de gauche",
-            "groupShort": "PRG",
+            "party": "Parti radical de gauche",
+            "partyShort": "PRG",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -139,8 +142,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +153,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -159,8 +163,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -169,8 +173,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +184,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "rég.",
-            "group": "régionalistes",
-            "groupShort": "régionalistes",
+            "party": "régionalistes",
+            "partyShort": "régionalistes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

@@ -40,6 +40,7 @@
         "id": "721036",
         "lastname": "Adam",
         "firstname": "Lénaïck",
+        "current": true,
         "slug": "lenaick-adam",
         "gender": "H",
         "birthday": "1992-02-19",
@@ -48,8 +49,9 @@
         "countyId": 973,
         "circumscription": 2,
         "mandateStart": "2018-03-12",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Cadre supérieur (entreprises privée)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "NPA",
-            "group": "Nouveau Parti anticapitaliste",
-            "groupShort": "nouveau parti anticapitaliste",
+            "party": "Nouveau Parti anticapitaliste",
+            "partyShort": "Nouveau Parti anticapitaliste",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,8 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         }
     ]

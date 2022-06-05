@@ -40,6 +40,7 @@
         "id": "719146",
         "lastname": "Acquaviva",
         "firstname": "Jean-Félix",
+        "current": true,
         "slug": "jeanfelix-acquaviva",
         "gender": "H",
         "birthday": "1973-03-19",
@@ -48,8 +49,10 @@
         "countyId": 2,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Régions et peuples solidaires",
         "groupShort": "LT",
+        "party": "Régions et peuples solidaires",
+        "partyShort": "RPS",
+        "noPartyImage": true,
         "job": "Cadre",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +123,9 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "Hor.-Ensemble",
-            "group": "Horizons",
-            "groupShort": "horizons",
+            "party": "Horizons",
+            "partyShort": "Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "PCF dis.",
-            "group": "dissident PCF hors accord Nupes",
-            "groupShort": "dissident pcf hors accord nupes",
+            "party": "dissident PCF hors accord Nupes",
+            "partyShort": "dissident PCF hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

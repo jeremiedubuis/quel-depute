@@ -40,6 +40,7 @@
         "id": "720968",
         "lastname": "Benin",
         "firstname": "Justine",
+        "current": true,
         "slug": "justine-benin",
         "gender": "F",
         "birthday": "1975-03-12",
@@ -48,8 +49,9 @@
         "countyId": 971,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Mouvement Démocrate",
         "groupShort": "MODEM",
+        "party": "Mouvement Démocrate",
+        "partyShort": "MODEM",
         "job": "Fonctionnaire de catégorie B",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +132,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "LCen.",
-            "group": "Les Centristes",
-            "groupShort": "LC",
+            "party": "Les Centristes",
+            "partyShort": "Les Centristes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +143,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -149,8 +153,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +164,8 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "EELV",
-            "group": "Europe Ecologie-Les Verts",
-            "groupShort": "EELV",
+            "party": "Europe Ecologie-Les Verts",
+            "partyShort": "EELV",
             "candidate": true
         },
         {
@@ -169,8 +174,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "rég.",
-            "group": "régionalistes",
-            "groupShort": "régionalistes",
+            "party": "régionalistes",
+            "partyShort": "régionalistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +185,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +196,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +207,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -209,8 +218,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -219,8 +229,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

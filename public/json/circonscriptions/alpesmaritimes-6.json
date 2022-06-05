@@ -40,6 +40,7 @@
         "id": "718780",
         "lastname": "Trastour-Isnart",
         "firstname": "Laurence",
+        "current": true,
         "slug": "laurence-trastourisnart",
         "gender": "F",
         "birthday": "1972-03-06",
@@ -48,8 +49,9 @@
         "countyId": 6,
         "circumscription": 6,
         "mandateStart": "2017-06-21",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Rédacteur territorial",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,9 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "Hor.-Ensemble",
-            "group": "Horizons",
-            "groupShort": "horizons",
+            "party": "Horizons",
+            "partyShort": "Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "Reconquête !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EAC",
-            "group": "Ecologie au centre",
-            "groupShort": "ecologie au centre",
+            "party": "Ecologie au centre",
+            "partyShort": "Ecologie au centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +177,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

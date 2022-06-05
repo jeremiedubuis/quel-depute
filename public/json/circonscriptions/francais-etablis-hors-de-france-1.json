@@ -40,6 +40,7 @@
         "id": "721134",
         "lastname": "Lescure",
         "firstname": "Roland",
+        "current": true,
         "slug": "roland-lescure",
         "gender": "H",
         "birthday": "1966-11-26",
@@ -48,8 +49,9 @@
         "countyId": 999,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Cadre supérieur (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LCen.",
-            "group": "Les Centristes",
-            "groupShort": "LC",
+            "party": "Les Centristes",
+            "partyShort": "Les Centristes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +114,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +124,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +135,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +146,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +157,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -159,8 +167,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -169,8 +177,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +198,9 @@
             "gender": "F",
             "nuance": "RDG",
             "nuanceComputed": "PRG",
-            "group": "Parti radical de gauche",
-            "groupShort": "PRG",
+            "party": "Parti radical de gauche",
+            "partyShort": "PRG",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

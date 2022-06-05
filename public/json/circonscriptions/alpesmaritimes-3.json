@@ -40,6 +40,7 @@
         "id": "718902",
         "lastname": "Roussel",
         "firstname": "Cédric",
+        "current": true,
         "slug": "cedric-roussel",
         "gender": "H",
         "birthday": "1972-10-10",
@@ -48,8 +49,9 @@
         "countyId": 6,
         "circumscription": 3,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Conseiller en gestion de patrimoine indépendant",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -119,8 +122,9 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "Hor.-Ensemble",
-            "group": "Horizons",
-            "groupShort": "horizons",
+            "party": "Horizons",
+            "partyShort": "Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "F",
             "nuance": "RDG",
             "nuanceComputed": "PRG",
-            "group": "Parti radical de gauche",
-            "groupShort": "PRG",
+            "party": "Parti radical de gauche",
+            "partyShort": "PRG",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +176,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "EAC",
-            "group": "Ecologie au centre",
-            "groupShort": "ecologie au centre",
+            "party": "Ecologie au centre",
+            "partyShort": "Ecologie au centre",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +198,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "EELV dis.",
-            "group": "dissident EELV hors accord Nupes",
-            "groupShort": "dissident eelv hors accord nupes",
+            "party": "dissident EELV hors accord Nupes",
+            "partyShort": "dissident EELV hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +209,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         }
     ]

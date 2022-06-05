@@ -40,6 +40,7 @@
         "id": "1008",
         "lastname": "David",
         "firstname": "Alain",
+        "current": true,
         "slug": "alain-david",
         "gender": "H",
         "birthday": "1949-06-02",
@@ -48,8 +49,9 @@
         "countyId": 33,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "Parti socialiste",
         "groupShort": "SOC",
+        "party": "Parti socialiste",
+        "partyShort": "PS",
         "job": "Ingénieur",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "MdR",
-            "group": "Mouvement de la ruralité",
-            "groupShort": "mouvement de la ruralité",
+            "party": "Mouvement de la ruralité",
+            "partyShort": "Mouvement de la ruralité",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "LCen.",
-            "group": "Les Centristes",
-            "groupShort": "LC",
+            "party": "Les Centristes",
+            "partyShort": "Les Centristes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +114,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +125,8 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -129,8 +135,8 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -139,8 +145,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "NPA",
-            "group": "Nouveau Parti anticapitaliste",
-            "groupShort": "nouveau parti anticapitaliste",
+            "party": "Nouveau Parti anticapitaliste",
+            "partyShort": "Nouveau Parti anticapitaliste",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "div. d.",
-            "group": "divers droite",
-            "groupShort": "divers droite",
+            "party": "divers droite",
+            "partyShort": "divers droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +177,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -179,8 +187,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         }
     ]

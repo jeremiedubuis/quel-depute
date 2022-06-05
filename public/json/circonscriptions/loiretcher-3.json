@@ -40,6 +40,7 @@
         "id": "342601",
         "lastname": "Brindeau",
         "firstname": "Pascal",
+        "current": true,
         "slug": "pascal-brindeau",
         "gender": "H",
         "birthday": "1974-06-20",
@@ -48,8 +49,10 @@
         "countyId": 41,
         "circumscription": 3,
         "mandateStart": "2019-01-10",
-        "group": "Union des démocrates, radicaux et libéraux",
         "groupShort": "UDI",
+        "party": "Union des démocrates, radicaux et libéraux",
+        "partyShort": "UDRL",
+        "noPartyImage": true,
         "job": "Juriste consultant",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "MdR",
-            "group": "Mouvement de la ruralité",
-            "groupShort": "mouvement de la ruralité",
+            "party": "Mouvement de la ruralité",
+            "partyShort": "Mouvement de la ruralité",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +93,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -119,8 +123,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +134,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +145,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "DVC",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EELV-Nupes",
-            "group": "Europe Ecologie-Les Verts",
-            "groupShort": "EELV",
+            "party": "Europe Ecologie-Les Verts",
+            "partyShort": "EELV",
             "candidate": true
         }
     ]

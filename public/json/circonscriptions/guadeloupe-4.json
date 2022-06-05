@@ -40,6 +40,7 @@
         "id": "643145",
         "lastname": "Vainqueur-Christophe",
         "firstname": "Hélène",
+        "current": true,
         "slug": "helene-vainqueurchristophe",
         "gender": "F",
         "birthday": "1956-05-06",
@@ -48,8 +49,10 @@
         "countyId": 971,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "Parti progressiste martiniquais",
         "groupShort": "SOC",
+        "party": "Parti progressiste martiniquais",
+        "partyShort": "PPM",
+        "noPartyImage": true,
         "job": "Pharmacienne",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,8 @@
             "gender": "F",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -89,8 +92,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +103,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "H",
             "nuance": "DXD",
             "nuanceComputed": "ext. d.",
-            "group": "divers extrême droite",
-            "groupShort": "divers extrême droite",
+            "party": "divers extrême droite",
+            "partyShort": "divers extrême droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +176,9 @@
             "gender": "F",
             "nuance": "DVC",
             "nuanceComputed": "GUSR-Ensemble",
-            "group": "Guadeloupe unie, responsable et solidaire",
-            "groupShort": "guadeloupe unie, responsable et solidaire",
+            "party": "Guadeloupe unie, responsable et solidaire",
+            "partyShort": "Guadeloupe unie, responsable et solidaire",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +187,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "EELV",
-            "group": "Europe Ecologie-Les Verts",
-            "groupShort": "EELV",
+            "party": "Europe Ecologie-Les Verts",
+            "partyShort": "EELV",
             "candidate": true
         },
         {
@@ -189,8 +197,9 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "div. c.",
-            "group": "divers centre",
-            "groupShort": "divers centre",
+            "party": "divers centre",
+            "partyShort": "divers centre",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

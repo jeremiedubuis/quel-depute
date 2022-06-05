@@ -40,6 +40,7 @@
         "id": "721158",
         "lastname": "Anglade",
         "firstname": "Pieyre-Alexandre",
+        "current": true,
         "slug": "pieyrealexandre-anglade",
         "gender": "H",
         "birthday": "1986-11-02",
@@ -48,8 +49,9 @@
         "countyId": 999,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Agent contractuel au Parlement européen",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -99,8 +101,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -109,8 +111,8 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -119,8 +121,8 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -129,8 +131,8 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -139,8 +141,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +152,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +163,9 @@
             "gender": "F",
             "nuance": "DVC",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +174,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         }
     ]

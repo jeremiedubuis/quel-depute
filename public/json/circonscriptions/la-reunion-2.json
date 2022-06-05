@@ -40,6 +40,7 @@
         "id": "441",
         "lastname": "Bello",
         "firstname": "Huguette",
+        "current": false,
         "slug": "huguette-bello",
         "gender": "F",
         "birthday": "1950-08-24",
@@ -48,8 +49,10 @@
         "countyId": 974,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Non rattaché",
         "groupShort": "GDR",
+        "party": "Non rattaché",
+        "partyShort": "NR",
+        "noPartyImage": true,
         "job": "Directrice d'école maternelle",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +93,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +104,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -109,8 +114,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +125,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +135,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +146,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +157,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +168,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +179,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +190,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "ext. g.",
-            "group": "autres extrême gauche",
-            "groupShort": "autres extrême gauche",
+            "party": "autres extrême gauche",
+            "partyShort": "autres extrême gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +201,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "PLR",
-            "group": "Pour la Réunion",
-            "groupShort": "pour la réunion",
+            "party": "Pour la Réunion",
+            "partyShort": "Pour la Réunion",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +212,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "GE",
-            "group": "Génération écologie",
-            "groupShort": "génération écologie",
+            "party": "Génération écologie",
+            "partyShort": "Génération écologie",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -209,8 +223,8 @@
             "gender": "F",
             "nuance": "UDI",
             "nuanceComputed": "UDI-Ensemble",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         }
     ]

@@ -40,6 +40,7 @@
         "id": "720386",
         "lastname": "Di Filippo",
         "firstname": "Fabien",
+        "current": true,
         "slug": "fabien-di-filippo",
         "gender": "H",
         "birthday": "1986-08-23",
@@ -48,8 +49,9 @@
         "countyId": 57,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Cadre du secteur privé",
         "votes": [],
         "scandals": [],
@@ -65,7 +67,7 @@
             "commissionInterventions": 431,
             "hemicycleInterventions": 1199,
             "hemicycleShortInterventions": 5440,
-            "questionsWritten": 202,
+            "questionsWritten": 205,
             "questionsOral": 11
         },
         "opposedGovernment": 0,
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "F",
             "nuance": "COM",
             "nuanceComputed": "PCF-Nupes",
-            "group": "Parti communiste français",
-            "groupShort": "PCF",
+            "party": "Parti communiste français",
+            "partyShort": "PCF",
             "candidate": true
         },
         {
@@ -99,8 +101,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +133,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "souv.",
-            "group": "divers souverainistes",
-            "groupShort": "divers souverainistes",
+            "party": "divers souverainistes",
+            "partyShort": "divers souverainistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         }
     ]

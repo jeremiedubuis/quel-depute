@@ -40,6 +40,7 @@
         "id": "722236",
         "lastname": "Djebbari",
         "firstname": "Jean-Baptiste",
+        "current": false,
         "slug": "jeanbaptiste-djebbari",
         "gender": "H",
         "birthday": "1982-02-26",
@@ -48,8 +49,9 @@
         "countyId": 87,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Industriel-Chef d'entreprise",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +101,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +132,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "PO-RPS",
-            "group": "Parti occitan",
-            "groupShort": "parti occitan",
+            "party": "Parti occitan",
+            "partyShort": "Parti occitan",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +143,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "LRM dis.",
-            "group": "dissident La République en marche",
-            "groupShort": "dissident la république en marche",
+            "party": "dissident La République en marche",
+            "partyShort": "dissident La République en marche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         }
     ]

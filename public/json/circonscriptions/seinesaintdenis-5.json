@@ -40,6 +40,7 @@
         "id": "268019",
         "lastname": "Lagarde",
         "firstname": "Jean-Christophe",
+        "current": true,
         "slug": "jeanchristophe-lagarde",
         "gender": "H",
         "birthday": "1967-10-24",
@@ -48,8 +49,10 @@
         "countyId": 93,
         "circumscription": 5,
         "mandateStart": "2017-06-21",
-        "group": "Union des démocrates, radicaux et libéraux",
         "groupShort": "UDI",
+        "party": "Union des démocrates, radicaux et libéraux",
+        "partyShort": "UDRL",
+        "noPartyImage": true,
         "job": "Attaché de direction",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +135,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -139,8 +145,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "Rés.",
-            "group": "Résistons !",
-            "groupShort": "résistons !",
+            "party": "Résistons !",
+            "partyShort": "Résistons !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -169,8 +176,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +187,9 @@
             "gender": "F",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +198,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -199,8 +209,8 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         }
     ]

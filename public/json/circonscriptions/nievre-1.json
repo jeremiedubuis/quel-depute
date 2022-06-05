@@ -40,6 +40,7 @@
         "id": "720560",
         "lastname": "Goulet",
         "firstname": "Perrine",
+        "current": true,
         "slug": "perrine-goulet",
         "gender": "F",
         "birthday": "1978-03-19",
@@ -48,8 +49,9 @@
         "countyId": 58,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "Mouvement Démocrate",
         "groupShort": "MODEM",
+        "party": "Mouvement Démocrate",
+        "partyShort": "MODEM",
         "job": "Autre cadre (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +124,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -139,8 +144,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -149,8 +154,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "souv.",
-            "group": "divers souverainistes",
-            "groupShort": "divers souverainistes",
+            "party": "divers souverainistes",
+            "partyShort": "divers souverainistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +165,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         }
     ]

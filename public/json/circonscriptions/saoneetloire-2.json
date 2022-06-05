@@ -40,6 +40,7 @@
         "id": "722390",
         "lastname": "Corneloup",
         "firstname": "Josiane",
+        "current": true,
         "slug": "josiane-corneloup",
         "gender": "F",
         "birthday": "1959-09-30",
@@ -48,8 +49,9 @@
         "countyId": 71,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Pharmacienne",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -99,8 +101,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +111,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -119,8 +121,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "DLF",
-            "group": "Debout la France",
-            "groupShort": "DF",
+            "party": "Debout la France",
+            "partyShort": "DLF",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "F",
             "nuance": "COM",
             "nuanceComputed": "PCF-Nupes",
-            "group": "Parti communiste français",
-            "groupShort": "PCF",
+            "party": "Parti communiste français",
+            "partyShort": "PCF",
             "candidate": true
         },
         {
@@ -139,8 +142,8 @@
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -149,8 +152,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

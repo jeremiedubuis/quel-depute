@@ -40,6 +40,7 @@
         "id": "720054",
         "lastname": "Haury",
         "firstname": "Yannick",
+        "current": true,
         "slug": "yannick-haury",
         "gender": "H",
         "birthday": "1954-06-12",
@@ -48,8 +49,9 @@
         "countyId": 44,
         "circumscription": 9,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Pharmacien",
         "votes": [],
         "scandals": [],
@@ -65,7 +67,7 @@
             "commissionInterventions": 185,
             "hemicycleInterventions": 45,
             "hemicycleShortInterventions": 2,
-            "questionsWritten": 129,
+            "questionsWritten": 130,
             "questionsOral": 10
         },
         "opposedGovernment": 0,
@@ -79,8 +81,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "rég.",
-            "group": "régionalistes",
-            "groupShort": "régionalistes",
+            "party": "régionalistes",
+            "partyShort": "régionalistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "H",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -139,8 +142,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -149,8 +152,8 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -159,8 +162,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +173,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +184,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "MdR",
-            "group": "Mouvement de la ruralité",
-            "groupShort": "mouvement de la ruralité",
+            "party": "Mouvement de la ruralité",
+            "partyShort": "Mouvement de la ruralité",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -189,8 +195,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "Hor. Dis.",
-            "group": "dissident Horizons",
-            "groupShort": "dissident horizons",
+            "party": "dissident Horizons",
+            "partyShort": "dissident Horizons",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

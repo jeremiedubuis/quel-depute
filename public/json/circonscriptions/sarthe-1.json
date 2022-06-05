@@ -40,6 +40,7 @@
         "id": "721372",
         "lastname": "Pichereau",
         "firstname": "Damien",
+        "current": true,
         "slug": "damien-pichereau",
         "gender": "H",
         "birthday": "1988-01-28",
@@ -48,8 +49,9 @@
         "countyId": 72,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Employé (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "F",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -109,8 +112,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -119,8 +122,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +132,8 @@
             "gender": "F",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -139,8 +142,9 @@
             "gender": "H",
             "nuance": "SOC",
             "nuanceComputed": "PS dis.",
-            "group": "dissident PS hors accord Nupes",
-            "groupShort": "dissident ps hors accord nupes",
+            "party": "dissident PS hors accord Nupes",
+            "partyShort": "dissident PS hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +153,9 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "div. d.",
-            "group": "divers droite",
-            "groupShort": "divers droite",
+            "party": "divers droite",
+            "partyShort": "divers droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +164,9 @@
             "gender": "H",
             "nuance": "DVG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +175,9 @@
             "gender": "F",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

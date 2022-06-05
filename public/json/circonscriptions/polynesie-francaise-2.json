@@ -40,6 +40,7 @@
         "id": "721110",
         "lastname": "Sanquer",
         "firstname": "Nicole",
+        "current": true,
         "slug": "nicole-sanquer",
         "gender": "F",
         "birthday": "1972-06-16",
@@ -48,8 +49,10 @@
         "countyId": 987,
         "circumscription": 2,
         "mandateStart": "2017-06-21",
-        "group": "Union des démocrates, radicaux et libéraux",
         "groupShort": "UDI",
+        "party": "Union des démocrates, radicaux et libéraux",
+        "partyShort": "UDRL",
+        "noPartyImage": true,
         "job": "Professeur du secondaire et technique",
         "votes": [],
         "scandals": [],
@@ -79,8 +82,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +93,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -99,8 +103,9 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "Tapura-Ensemble",
-            "group": "Tapura huiraatira",
-            "groupShort": "tapura huiraatira",
+            "party": "Tapura huiraatira",
+            "partyShort": "TH",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +114,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "Amuitahira'a",
-            "group": "Amuitahira'a o te Nuna'a Ma'ohi",
-            "groupShort": "amuitahira'a o te nuna'a ma'ohi",
+            "party": "Amuitahira'a o te Nuna'a Ma'ohi",
+            "partyShort": "Amuitahira'a o te Nuna'a Ma'ohi",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +125,9 @@
             "gender": "F",
             "nuance": "DVD",
             "nuanceComputed": "ext. d.",
-            "group": "divers extrême droite",
-            "groupShort": "divers extrême droite",
+            "party": "divers extrême droite",
+            "partyShort": "divers extrême droite",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +136,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "div.",
-            "group": "divers inclassable",
-            "groupShort": "divers inclassable",
+            "party": "divers inclassable",
+            "partyShort": "divers inclassable",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +147,9 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +158,9 @@
             "gender": "F",
             "nuance": "REG",
             "nuanceComputed": "ind.",
-            "group": "indépendantistes",
-            "groupShort": "indépendantistes",
+            "party": "indépendantistes",
+            "partyShort": "indépendantistes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +169,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "div. g.",
-            "group": "Divers gauche",
-            "groupShort": "divers gauche",
+            "party": "Divers gauche",
+            "partyShort": "Divers gauche",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +180,9 @@
             "gender": "H",
             "nuance": "REG",
             "nuanceComputed": "Tavini-Nupes",
-            "group": "Tavini Huira'atira",
-            "groupShort": "tavini huira'atira",
+            "party": "Tavini Huira'atira",
+            "partyShort": "FLP",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

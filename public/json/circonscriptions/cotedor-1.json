@@ -40,6 +40,7 @@
         "id": "719154",
         "lastname": "Martin",
         "firstname": "Didier",
+        "current": true,
         "slug": "didier-martin",
         "gender": "H",
         "birthday": "1956-08-20",
@@ -48,8 +49,9 @@
         "countyId": 21,
         "circumscription": 1,
         "mandateStart": "2017-06-21",
-        "group": "La République en Marche",
         "groupShort": "LREM",
+        "party": "La République en Marche",
+        "partyShort": "LREM",
         "job": "Neuroradiologue",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "UDI",
             "nuanceComputed": "UDI",
-            "group": "Union des démocrates et indépendants",
-            "groupShort": "UDI",
+            "party": "Union des démocrates et indépendants",
+            "partyShort": "UDI",
             "candidate": true
         },
         {
@@ -89,8 +91,8 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "LRM-Ensemble",
-            "group": "La République en marche",
-            "groupShort": "LREM",
+            "party": "La République en marche",
+            "partyShort": "LREM",
             "candidate": true
         },
         {
@@ -99,8 +101,8 @@
             "gender": "H",
             "nuance": "FI",
             "nuanceComputed": "LFI-Nupes",
-            "group": "La France insoumise",
-            "groupShort": "LFI",
+            "party": "La France insoumise",
+            "partyShort": "LFI",
             "candidate": true
         },
         {
@@ -109,8 +111,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -119,8 +121,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -129,8 +131,9 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS dis.",
-            "group": "dissident PS hors accord Nupes",
-            "groupShort": "dissident ps hors accord nupes",
+            "party": "dissident PS hors accord Nupes",
+            "partyShort": "dissident PS hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +142,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +153,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -159,8 +163,9 @@
             "gender": "F",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +174,9 @@
             "gender": "H",
             "nuance": "DVC",
             "nuanceComputed": "Hor. Dis.",
-            "group": "dissident Horizons",
-            "groupShort": "dissident horizons",
+            "party": "dissident Horizons",
+            "partyShort": "dissident Horizons",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -179,8 +185,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "POID",
-            "group": "Parti ouvrier indépendant démocratique",
-            "groupShort": "parti ouvrier indépendant démocratique",
+            "party": "Parti ouvrier indépendant démocratique",
+            "partyShort": "Parti ouvrier indépendant démocratique",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

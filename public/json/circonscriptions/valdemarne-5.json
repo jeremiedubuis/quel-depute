@@ -40,6 +40,7 @@
         "id": "746",
         "lastname": "Carrez",
         "firstname": "Gilles",
+        "current": true,
         "slug": "gilles-carrez",
         "gender": "H",
         "birthday": "1948-08-29",
@@ -48,8 +49,9 @@
         "countyId": 94,
         "circumscription": 5,
         "mandateStart": "2017-06-21",
-        "group": "Les Républicains",
         "groupShort": "LR",
+        "party": "Les Républicains",
+        "partyShort": "LR",
         "job": "Fonctionnaire de l'État retraité",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,8 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
-            "group": "Parti Pirate",
-            "groupShort": "PP",
+            "party": "Parti Pirate",
+            "partyShort": "pp",
             "candidate": true
         },
         {
@@ -89,8 +91,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -99,8 +102,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "POID",
-            "group": "Parti ouvrier indépendant démocratique",
-            "groupShort": "parti ouvrier indépendant démocratique",
+            "party": "Parti ouvrier indépendant démocratique",
+            "partyShort": "Parti ouvrier indépendant démocratique",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -109,8 +113,8 @@
             "gender": "H",
             "nuance": "LR",
             "nuanceComputed": "LR",
-            "group": "Les Républicains",
-            "groupShort": "LR",
+            "party": "Les Républicains",
+            "partyShort": "LR",
             "candidate": true
         },
         {
@@ -119,8 +123,9 @@
             "gender": "H",
             "nuance": "COM",
             "nuanceComputed": "PCF dis.",
-            "group": "dissident PCF hors accord Nupes",
-            "groupShort": "dissident pcf hors accord nupes",
+            "party": "dissident PCF hors accord Nupes",
+            "partyShort": "dissident PCF hors accord Nupes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -129,8 +134,8 @@
             "gender": "H",
             "nuance": "ECO",
             "nuanceComputed": "Anim.",
-            "group": "Parti animaliste",
-            "groupShort": "PA",
+            "party": "Parti animaliste",
+            "partyShort": "PA",
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "Reconquête !",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,9 @@
             "gender": "H",
             "nuance": "DIV",
             "nuanceComputed": "",
-            "group": "",
-            "groupShort": "",
+            "party": "",
+            "partyShort": "",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -159,8 +166,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -169,8 +177,8 @@
             "gender": "H",
             "nuance": "COM",
             "nuanceComputed": "PCF-Nupes",
-            "group": "Parti communiste français",
-            "groupShort": "PCF",
+            "party": "Parti communiste français",
+            "partyShort": "PCF",
             "candidate": true
         },
         {
@@ -179,8 +187,8 @@
             "gender": "F",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -189,8 +197,9 @@
             "gender": "H",
             "nuance": "ENS",
             "nuanceComputed": "Ensemble",
-            "group": "Ensemble",
-            "groupShort": "ensemble",
+            "party": "Ensemble",
+            "partyShort": "Ensemble",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

@@ -40,6 +40,7 @@
         "id": "342415",
         "lastname": "Battistel",
         "firstname": "Marie-Noëlle",
+        "current": true,
         "slug": "marienoelle-battistel",
         "gender": "F",
         "birthday": "1956-08-20",
@@ -48,8 +49,9 @@
         "countyId": 38,
         "circumscription": 4,
         "mandateStart": "2017-06-21",
-        "group": "Parti socialiste",
         "groupShort": "SOC",
+        "party": "Parti socialiste",
+        "partyShort": "PS",
         "job": "Autre cadre (secteur privé)",
         "votes": [],
         "scandals": [],
@@ -79,8 +81,9 @@
             "gender": "H",
             "nuance": "DSV",
             "nuanceComputed": "Pat.",
-            "group": "Les Patriotes",
-            "groupShort": "LP",
+            "party": "Les Patriotes",
+            "partyShort": "Les Patriotes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -89,8 +92,8 @@
             "gender": "F",
             "nuance": "SOC",
             "nuanceComputed": "PS-Nupes",
-            "group": "Parti socialiste",
-            "groupShort": "PS",
+            "party": "Parti socialiste",
+            "partyShort": "PS",
             "candidate": true
         },
         {
@@ -99,8 +102,8 @@
             "gender": "F",
             "nuance": "REC",
             "nuanceComputed": "Rec.",
-            "group": "Reconquête !",
-            "groupShort": "REC",
+            "party": "Reconquête !",
+            "partyShort": "REC",
             "candidate": true
         },
         {
@@ -109,8 +112,9 @@
             "gender": "H",
             "nuance": "DVD",
             "nuanceComputed": "LCen.",
-            "group": "Les Centristes",
-            "groupShort": "LC",
+            "party": "Les Centristes",
+            "partyShort": "Les Centristes",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -119,8 +123,8 @@
             "gender": "H",
             "nuance": "RN",
             "nuanceComputed": "RN",
-            "group": "Rassemblement national",
-            "groupShort": "RN",
+            "party": "Rassemblement national",
+            "partyShort": "RN",
             "candidate": true
         },
         {
@@ -129,8 +133,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "LO",
-            "group": "Lutte ouvrière",
-            "groupShort": "LO",
+            "party": "Lutte ouvrière",
+            "partyShort": "Lutte ouvrière",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -139,8 +144,9 @@
             "gender": "H",
             "nuance": "DXG",
             "nuanceComputed": "POID",
-            "group": "Parti ouvrier indépendant démocratique",
-            "groupShort": "parti ouvrier indépendant démocratique",
+            "party": "Parti ouvrier indépendant démocratique",
+            "partyShort": "Parti ouvrier indépendant démocratique",
+            "noPartyImage": true,
             "candidate": true
         },
         {
@@ -149,8 +155,8 @@
             "gender": "F",
             "nuance": "ENS",
             "nuanceComputed": "MoDem-Ensemble",
-            "group": "Mouvement démocrate",
-            "groupShort": "MoDem",
+            "party": "Mouvement démocrate",
+            "partyShort": "MODEM",
             "candidate": true
         },
         {
@@ -159,8 +165,9 @@
             "gender": "F",
             "nuance": "ECO",
             "nuanceComputed": "écol.",
-            "group": "divers écologistes",
-            "groupShort": "divers écologistes",
+            "party": "divers écologistes",
+            "partyShort": "divers écologistes",
+            "noPartyImage": true,
             "candidate": true
         }
     ]

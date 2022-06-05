@@ -4,6 +4,9 @@ export type BaseDepute = {
     lastname: string;
     group: string;
     groupShort: string;
+    party?: string;
+    partyShort?: string;
+    noPartyImage?: boolean;
     county: string;
     countyId: number;
     circumscription: number;
@@ -15,8 +18,9 @@ export type BaseDepute = {
 export type Candidate = {
     firstname: string;
     lastname: string;
-    group?: string;
-    groupShort?: string;
+    party: string;
+    partyShort: string;
+    noPartyImage?: boolean;
     nuance: string;
     nuanceComputed: string;
     gender: 'H' | 'F' | 'N';

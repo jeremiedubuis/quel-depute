@@ -32,12 +32,6 @@ export const DeputeBlock: React.FC<{
     noPicture,
     showGroup
 }) => {
-    if (depute.lastname === 'BOMPARD') {
-        useEffect(() => {
-            console.log('here', depute.group, depute.groupShort);
-        }, [depute]);
-        console.log(JSON.stringify(depute), depute, depute.groupShort);
-    }
     const content = (
         <>
             {!noPicture && (
@@ -57,7 +51,7 @@ export const DeputeBlock: React.FC<{
             {!noCounty && <DeputeBlockCircumscription depute={depute as BaseDepute} />}
             {isCandidate(depute) && !showGroup ? (
                 <>
-                    {depute.group && (
+                    {depute.party && (
                         <>
                             {groups[depute.nuanceComputed] && (
                                 <div className={styles.grouping}>
@@ -69,16 +63,20 @@ export const DeputeBlock: React.FC<{
                                 style={{ background: colors[depute.nuanceComputed] }}
                             >
                                 {' '}
-                                {depute.group}
+                                {depute.party}
                             </div>
                         </>
                     )}
                 </>
+            ) : depute.noPartyImage ? (
+                <div className={styles.parti} style={{ background: colors[depute.party] }}>
+                    {depute.party}
+                </div>
             ) : (
                 <>
                     <img
                         className={styles.group}
-                        src={`/img/groups/${depute.groupShort}.svg`}
+                        src={`/img/groups/${depute.partyShort}.svg`}
                         alt=""
                     />
                 </>

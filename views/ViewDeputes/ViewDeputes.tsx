@@ -19,8 +19,8 @@ export const ViewDeputes: React.FC = () => {
         .filter((d) => d.current)
         .reduce((acc, d) => {
             const g =
-                acc.find((a) => a.name === d.group) ||
-                acc[acc.push({ name: d.group, deputes: [] }) - 1];
+                acc.find((a) => a.name === d.party) ||
+                acc[acc.push({ name: d.party, deputes: [] }) - 1];
             g.deputes.push(d);
             return acc;
         }, [])
