@@ -5,7 +5,7 @@ import { JSDOM } from 'jsdom';
 import { writeFile } from '$helpers/writeFile';
 import path from 'path';
 import { testNameAndVariation } from '../helpers/variableNames';
-const scrutins = require('../data/scrutins3.json');
+const scrutins = require('../data/scrutins.json');
 
 export type Scrutin = {
     number: number;

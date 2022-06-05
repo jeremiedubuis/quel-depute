@@ -1,7 +1,6 @@
 import styles from './ViewDepute.module.css';
 import React from 'react';
 import { Depute } from '$types/deputeTypes';
-import Head from 'next/head';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
 import { SearchForm } from '$components/forms/SearchForm/SearchForm';
 import { DeputeVotesSlider } from '$components/depute/DeputeVotesSlider/DeputeVotesSlider';
@@ -10,29 +9,20 @@ import { DeputeGroupBehavior } from '$components/depute/DeputeGroupBehavior/Depu
 import { DeputeTop } from '$components/depute/DeputeTop/DeputeTop';
 import { Breadcrumb } from '$components/text/Breadcrumb/Breadcrumb';
 import { slugify } from '$helpers/slugify';
+import { Metas } from '$components/layout/Metas';
 
 export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     const title = `${depute.firstname} ${depute.lastname}`;
-    const meta = {
-        image: {
-            src: `${process.env.HOST}/${depute.slug}?img=1`,
-            width: '1200px',
-            height: '630px'
-        },
-        title
-    };
-
     return (
         <main className={styles.view}>
-            <Head>
-                <title>{title}</title>
-                <meta property="og:title" content={title} />
-                <meta property="twitter:title" content={title} />
-                <meta property="twitter:image" content={meta.image.src} />
-                <meta property="og:image" content={meta.image.src} />
-                <meta property="og:image:width" content={meta.image.width} />
-                <meta property="og:image:height" content={meta.image.height} />
-            </Head>
+            <Metas
+                title={title}
+                image={{
+                    src: `${process.env.HOST}/${depute.slug}?img=1`,
+                    width: '1200px',
+                    height: '630px'
+                }}
+            />
             <SearchForm small />
             <Breadcrumb
                 items={[

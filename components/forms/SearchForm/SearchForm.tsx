@@ -138,8 +138,10 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                 <fieldset>
                     {!small && (
                         <legend>
-                            Quel député lorem ipsum ?<br />
-                            Dolor sit amet, consectetuer
+                            Qui sont nos député ? <br />
+                            Environnement, inégalités, libertés. <br />
+                            Comment ont-ils voté ?
+                            <br />
                         </legend>
                     )}
 

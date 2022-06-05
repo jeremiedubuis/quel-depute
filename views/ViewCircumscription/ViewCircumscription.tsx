@@ -5,28 +5,15 @@ import { Title } from '$components/text/Title/Title';
 import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
 import { Button } from '$components/buttons/Button/Button';
-import { slugify, slugifyNames } from '$helpers/slugify';
+import { slugifyNames } from '$helpers/slugify';
 import { Depute } from '$types/deputeTypes';
 import { DeputeTop } from '$components/depute/DeputeTop/DeputeTop';
 import { SearchForm } from '$components/forms/SearchForm/SearchForm';
 import { Breadcrumb } from '$components/text/Breadcrumb/Breadcrumb';
 import { offset } from '$helpers/dom/offset';
 import Link from 'next/link';
+import { Metas } from '$components/layout/Metas';
 
-const keys = [
-    'MACRON',
-    'MÉLENCHON',
-    'LE PEN',
-    'ZEMMOUR',
-    'JADOT',
-    'PÉCRESSE',
-    'ARTHAUD',
-    'POUTOU',
-    'DUPONT-AIGNAN',
-    'HIDALGO',
-    'LASSALLE',
-    'ROUSSEL'
-];
 const colors = {
     'Emmanuel Macron': 'orange',
     'Jean-Luc Mélenchon': 'red',
@@ -66,8 +53,12 @@ export const ViewCircumscription: React.FC<{
             }, 500);
         }
     }, []);
+
     return (
         <main className={styles.view}>
+            <Metas
+                title={`Circonscription ${circumscription.number} (${circumscription.name}) | Quel député ?`}
+            />
             <SearchForm small />
             <Breadcrumb
                 items={[
@@ -149,7 +140,7 @@ export const ViewCircumscription: React.FC<{
                     )}
                     tooltip
                 />
-                <Title size={'big'}>Resultats du 1nd tour des présidentielles</Title>
+                <Title size={'big'}>Resultats du 2nd tour des présidentielles</Title>
 
                 <HorizontalBars
                     lines={Object.keys(circumscription.results.secondRound.candidates).map(

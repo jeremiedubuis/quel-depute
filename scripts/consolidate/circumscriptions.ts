@@ -1,20 +1,20 @@
 import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
 import circumscriptionsSecondRound from '../data/circumscription_results_2nd_round.json';
-import candidates from '../data/candidates3.json';
+import candidates from '../data/candidates.json';
 import { writeFile } from '$helpers/writeFile';
 import { circonscriptionJSONPath, deputeJSONPath } from '../config';
 import path from 'path';
 import { slugify, slugifyNames } from '$helpers/slugify';
 import { mapNosDeputes } from '../helpers/mapNosDeputes';
 import { ScrapQueue } from '../helpers/scrapQueue';
-import {emptyDir} from "$helpers/emptyDir";
-import {pad} from "../helpers/pad";
+import { emptyDir } from '$helpers/emptyDir';
+import { pad } from '../helpers/pad';
 
 const scrapQueue = new ScrapQueue(500);
 
 const groupToGroupShort = (group: string) => {
     group = group.replace(/\s/g, ' ').toLowerCase();
-    switch(group) {
+    switch (group) {
         case 'la france insoumise':
             return 'LFI';
         case 'parti socialiste':
@@ -57,7 +57,7 @@ const groupToGroupShort = (group: string) => {
             console.log(group);
             return group;
     }
-}
+};
 
 const mapCircumscriptionResults = (c) => ({
     registered: c.Inscrits,
@@ -92,10 +92,10 @@ const consolidate = async () => {
         let _circumscription: number = parseInt(c.circumscription.toString());
         const paddedCounty = pad(_countyId === 999 ? 99 : _countyId, 3);
         const paddedCircumscription = pad(_circumscription, 2);
-        let _candidates = candidates[paddedCounty+'_'+paddedCircumscription]
+        let _candidates = candidates[paddedCounty + '_' + paddedCircumscription];
         if (!_candidates) {
-            console.log(paddedCounty+'_'+paddedCircumscription);
-            _candidates = []
+            console.log(paddedCounty + '_' + paddedCircumscription);
+            _candidates = [];
         }
 
         const number = parseInt(c.circumscription.toString());
@@ -114,7 +114,11 @@ const consolidate = async () => {
                     parseInt(d.countyId) === parseInt(c.countyId.toString()) &&
                     parseInt(d.circumscription) === number
             ),
-            candidates: _candidates.map(({ p, ...c}) =>  ({ ...c, groupShort: groupToGroupShort(c.group), candidate: true}))
+            candidates: _candidates.map(({ p, ...c }) => ({
+                ...c,
+                groupShort: groupToGroupShort(c.group),
+                candidate: true
+            }))
         };
 
         await writeFile(
