@@ -1,7 +1,7 @@
 on:
-  push:
+  create:
     tags:
-      - *
+      - v*
 env:
   GCP_BUCKET: ${{ secrets.GCP_BUCKET }}
   GCP_SA_JSON: ${{ secrets.GCP_SA_JSON }}
