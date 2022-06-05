@@ -27,6 +27,8 @@ jobs:
 
             - name: Install dependencies
               run: npm install
+            - name: Setup .env
+              run: rm .env.production && mv .env.staging .env.production
             - name: Build Next.js
               run: npm run build
             - name: Deploy to GCP

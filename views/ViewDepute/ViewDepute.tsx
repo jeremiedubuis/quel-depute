@@ -19,7 +19,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 title={title + ' | Quel député ?'}
                 description={`Comment ${title} a-t-il/elle défendu l'environnement, les services publics, le plus précaires et les libertés individuelles ? Est-il/elle la cible d'affaires judiciaires ? Découvrez tout sur votre député sur quel-depute.fr `}
                 image={{
-                    src: `${process.env.HOST}/${depute.slug}?img=1`,
+                    src: `${process.env.NEXT_PUBLIC_HOST}/${depute.slug}?img=1`,
                     width: '1200px',
                     height: '630px'
                 }}
