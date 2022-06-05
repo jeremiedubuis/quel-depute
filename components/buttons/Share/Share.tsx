@@ -3,6 +3,7 @@ import { Button } from '$components/buttons/Button/Button';
 import styles from './Share.module.css';
 import { AiFillFacebook, AiFillTwitterCircle, AiOutlineShareAlt } from 'react-icons/ai';
 import { FiX } from 'react-icons/fi';
+import { isTouchDevice } from '$helpers/isToucheDevice';
 
 export const Share: React.FC<{ url: string }> = ({ url }) => {
     const [shareOpen, setShareOpen] = useState(false);
@@ -22,7 +23,14 @@ export const Share: React.FC<{ url: string }> = ({ url }) => {
 
     return (
         <div>
-            <Button className={styles.share} onClick={() => setShareOpen(!shareOpen)}>
+            <Button
+                className={styles.share}
+                onClick={() =>
+                    typeof window.navigator.share !== 'undefined' && isTouchDevice()
+                        ? window.navigator.share({ url })
+                        : setShareOpen(!shareOpen)
+                }
+            >
                 {shareOpen ? <FiX /> : <AiOutlineShareAlt />}
             </Button>
             {shareOpen && (
