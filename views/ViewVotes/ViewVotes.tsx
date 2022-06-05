@@ -2,6 +2,7 @@ import React from 'react';
 import { Title } from '$components/text/Title/Title';
 import { BaseScrutin } from '$types/scrutinTypes';
 import Link from 'next/link';
+import { Metas } from '$components/layout/Metas';
 
 export const ViewVotes: React.FC<{ scrutins: BaseScrutin[] }> = ({ scrutins }) => {
     const groups = scrutins.reduce((acc, curr) => {
@@ -9,17 +10,18 @@ export const ViewVotes: React.FC<{ scrutins: BaseScrutin[] }> = ({ scrutins }) =
         acc[curr.category].push(curr);
         return acc;
     }, {});
+
+    const desc = `L'équipe de quel-depute.fr a analysé une liste de scrutins de la 15ème législature
+                pour aider à cerner le profil des députés sortants dans le contexte des élections
+                législatives de 2022. Vous trouverez ici la liste des scrutins analysés.`;
     return (
         <main>
+            <Metas title={`Liste des scrutins analysés | Quel député ?`} description={desc} />
             <Title size="biggest" TitleTag="h1">
                 Votes
             </Title>
 
-            <p>
-                L'équipe de quel-depute.fr a analysé une liste de scrutins de la 15ème législature
-                pour aider à cerner le profil des députés sortants dans le contexte des élections
-                législatives de 2022. Vous trouverez ici la liste des scrutins analysés.
-            </p>
+            <p>{desc}</p>
 
             <Title size="big" TitleTag="h2">
                 Méthodologie

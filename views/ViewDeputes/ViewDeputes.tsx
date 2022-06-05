@@ -38,7 +38,10 @@ export const ViewDeputes: React.FC = () => {
 
     return (
         <main>
-            <Metas title={`Liste des députés par parti/département | Quel député ?`} />
+            <Metas
+                title={`Liste des députés par parti/département | Quel député ?`}
+                description={`Voici la liste des députés sortants analysé par l'équipe de quel-depute.fr. Ces députés ont été analysée en fonction de leurs votes sur des scrutins représentatifs sur différents thèmes.`}
+            />
             <SearchForm small />
             <Title size="big" TitleTag="h1">
                 Députés de la XVème législature
@@ -76,7 +79,7 @@ export const ViewDeputes: React.FC = () => {
                                     <ul className={styles.deputes}>
                                         {g.deputes.map((d) => (
                                             <li key={d.id}>
-                                                <DeputeBlock isLink depute={d} />
+                                                <DeputeBlock isLink depute={d} showGroup />
                                             </li>
                                         ))}
                                     </ul>
@@ -100,7 +103,7 @@ export const ViewDeputes: React.FC = () => {
                                             .sort((a, b) => a.circumscription - b.circumscription)
                                             .map((d) => (
                                                 <li key={d.id}>
-                                                    <DeputeBlock isLink depute={d} />
+                                                    <DeputeBlock isLink depute={d} showGroup />
                                                 </li>
                                             ))}
                                     </ul>

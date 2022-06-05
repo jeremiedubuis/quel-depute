@@ -58,6 +58,7 @@ export const ViewCircumscription: React.FC<{
         <main className={styles.view}>
             <Metas
                 title={`Circonscription ${circumscription.number} (${circumscription.name}) | Quel député ?`}
+                description={`Qui se présente dans la circonscription ${circumscription.number} (${circumscription.name}) ? Qui est le député sortant ? Comment a-il-voté ? Découvrez le sur quel-depute.fr !`}
             />
             <SearchForm small />
             <Breadcrumb
@@ -98,6 +99,7 @@ export const ViewCircumscription: React.FC<{
                 title="Député sortant"
                 depute={depute}
                 className={styles.previous}
+                noCounty={true}
             >
                 <Button
                     className={styles.detailsButton}

@@ -13,11 +13,12 @@ export const DeputeTop: React.FC<{
     depute: Depute;
     children?: ReactNode | ReactNode[];
     className?: string;
-}> = ({ id, title, depute, children, className }) => {
+    noCounty?: boolean;
+}> = ({ id, title, depute, children, className, noCounty }) => {
     return (
         <section id={id} className={cn(className, styles.top)}>
             {title && <Title size={'big'}>{title}</Title>}
-            <DeputeBlock className={styles.depute} depute={depute} noCounty />
+            <DeputeBlock className={styles.depute} depute={depute} noCounty={noCounty} showGroup />
             <DeputeVoteCategories className={styles.votes} depute={depute} />
             <DeputeDetails className={styles.details} depute={depute}>
                 {children}

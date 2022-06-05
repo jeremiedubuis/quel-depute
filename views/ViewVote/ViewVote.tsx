@@ -11,6 +11,7 @@ import { assemblyColors } from '$components/depute/DeputeBlock/colors';
 import { Tooltip } from '$components/text/Tooltip/Tooltip';
 import { Button } from '$components/buttons/Button/Button';
 import { FiExternalLink } from 'react-icons/fi';
+import { Metas } from '$components/layout/Metas';
 
 export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
     const groups = [];
@@ -25,6 +26,7 @@ export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
 
     return (
         <main className={styles.view}>
+            <Metas title={`Analyse de scrutin: ${scrutin.title} | Quel député ?`} />
             <Title size={'big'} TitleTag="h1">
                 {scrutin.title}
                 <Tooltip

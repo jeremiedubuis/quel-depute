@@ -16,7 +16,8 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
     return (
         <main className={styles.view}>
             <Metas
-                title={title}
+                title={title + ' | Quel député ?'}
+                description={`Comment ${title} a-t-il/elle défendu l'environnement, les services publics, le plus précaires et les libertés individuelles ? Est-il/elle la cible d'affaires judiciaires ? Découvrez tout sur votre député sur quel-depute.fr `}
                 image={{
                     src: `${process.env.HOST}/${depute.slug}?img=1`,
                     width: '1200px',
@@ -37,7 +38,7 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                 ]}
             />
 
-            <DeputeTop className={styles.depute} depute={depute} />
+            <DeputeTop className={styles.depute} depute={depute} noCounty={false} />
             <section>
                 <Title size="big">Position sur des scrutins importants</Title>
                 <DeputeVotesSlider depute={depute} />

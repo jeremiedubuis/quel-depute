@@ -1,16 +1,15 @@
 import styles from './DeputeBlock.module.css';
-import React, {MouseEventHandler, useEffect} from 'react';
+import React, { MouseEventHandler, useEffect } from 'react';
 import Link from 'next/link';
 import { slugify, slugifyNames } from '$helpers/slugify';
 import { BaseDepute, Candidate, Depute } from '$types/deputeTypes';
 import { DeputeBlockCircumscription } from '$components/depute/DeputeBlock/DeputeBlockCircumscription';
 import { cn } from '$helpers/cn';
-import {colors, groups} from "$components/depute/DeputeBlock/colors";
+import { colors, groups } from '$components/depute/DeputeBlock/colors';
 
-
-const isCandidate = (d: Candidate | BaseDepute | Depute) : d is Candidate => {
+const isCandidate = (d: Candidate | BaseDepute | Depute): d is Candidate => {
     return !!(d as Candidate).candidate;
-}
+};
 
 export const DeputeBlock: React.FC<{
     depute: Candidate | BaseDepute | Depute;
@@ -21,6 +20,7 @@ export const DeputeBlock: React.FC<{
     noCounty?: boolean;
     className?: string;
     noPicture?: boolean;
+    showGroup?: boolean;
 }> = ({
     depute,
     isLink,
@@ -29,13 +29,14 @@ export const DeputeBlock: React.FC<{
     noCounty,
     isLinkToCircumscription,
     className,
-                                    noPicture
+    noPicture,
+    showGroup
 }) => {
-    if( depute.lastname === 'BOMPARD') {
+    if (depute.lastname === 'BOMPARD') {
         useEffect(() => {
-            console.log('here',depute.group, depute.groupShort)
-        }, [depute])
-        console.log(JSON.stringify(depute), depute, depute.groupShort)
+            console.log('here', depute.group, depute.groupShort);
+        }, [depute]);
+        console.log(JSON.stringify(depute), depute, depute.groupShort);
     }
     const content = (
         <>
@@ -54,11 +55,34 @@ export const DeputeBlock: React.FC<{
                 <span>{depute.firstname}</span> <span>{depute.lastname}</span>
             </TitleTag>
             {!noCounty && <DeputeBlockCircumscription depute={depute as BaseDepute} />}
-            { isCandidate(depute) ?  <>
-
-                { depute.group && <>{groups[depute.nuanceComputed] && <div className={styles.grouping}>{groups[depute.nuanceComputed]}</div>}<div className={styles.parti} style={{ background: colors[depute.nuanceComputed]}}>   {depute.group}</div></>}
-            </> : <><img className={styles.group} src={ `/img/groups/${depute.groupShort}.svg` } alt="" /></>}
-
+            {isCandidate(depute) && !showGroup ? (
+                <>
+                    {depute.group && (
+                        <>
+                            {groups[depute.nuanceComputed] && (
+                                <div className={styles.grouping}>
+                                    {groups[depute.nuanceComputed]}
+                                </div>
+                            )}
+                            <div
+                                className={styles.parti}
+                                style={{ background: colors[depute.nuanceComputed] }}
+                            >
+                                {' '}
+                                {depute.group}
+                            </div>
+                        </>
+                    )}
+                </>
+            ) : (
+                <>
+                    <img
+                        className={styles.group}
+                        src={`/img/groups/${depute.groupShort}.svg`}
+                        alt=""
+                    />
+                </>
+            )}
         </>
     );
 
@@ -84,7 +108,6 @@ export const DeputeBlock: React.FC<{
                     {content}
                 </div>
             )}
-
         </>
     );
 };
