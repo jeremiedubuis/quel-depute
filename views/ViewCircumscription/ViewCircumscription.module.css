@@ -26,12 +26,16 @@ div.candidate {
 }
 
 .header nav li + li {
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 
 @media screen and (min-width: 768px) {
 
+
+    .header nav li + li {
+        margin-left: 25px;
+    }
 
     .candidates {
         grid-template-columns: repeat(2, 1fr);
