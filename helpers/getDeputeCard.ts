@@ -61,9 +61,9 @@ const drawScore = (
     ctx: CanvasRenderingContext2D,
     offset: number = 0
 ) => {
-    const scoreLeft = 300;
+    const scoreLeft = 295;
     const scoreTop = 160 + offset * 50;
-    const scoreBarLeft = 620;
+    const scoreBarLeft = 630;
 
     ctx.fillStyle = colors.blue;
     ctx.fillText(type, scoreLeft, scoreTop + 25);

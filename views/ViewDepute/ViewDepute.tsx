@@ -86,14 +86,16 @@ export const ViewDepute: React.FC<{ depute: Depute }> = ({ depute }) => {
                     />
                 </>
             )}
-            {/*<img
-                src={
-                    process.env.NODE_ENV === 'production'
-                        ? `/card/deputes/${depute.slug}.jpg`
-                        : `/api/card/${depute.slug}`
-                }
-                width={504}
-            />*/}
+            {
+                <img
+                    src={
+                        process.env.NODE_ENV === 'production'
+                            ? `/card/deputes/${depute.slug}.jpg`
+                            : `/api/card/${depute.slug}`
+                    }
+                    width={504}
+                />
+            }
         </main>
     );
 };
