@@ -11,10 +11,7 @@ export const Footer: React.FC = () => {
                     <img src="/img/logo-dark.svg" alt="" />
                 </a>
             </Link>
-            <p>
-                A falsis, lamia castus pes.Gallus moris, tanquam bi-color hydra.A falsis, demissio
-                bassus barcas.Fermium de bi-color turpis, perdere lura!
-            </p>
+            <p></p>
             <Nav primary className={styles.nav} />
         </footer>
     );

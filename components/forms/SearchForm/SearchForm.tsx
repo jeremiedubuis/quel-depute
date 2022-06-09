@@ -139,7 +139,7 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                 <fieldset>
                     {!small && (
                         <legend>
-                            Qui sont nos député ? <br />
+                            Qui sont nos députés ? <br />
                             Environnement, inégalités, libertés. <br />
                             Comment ont-ils voté ?
                             <br />
@@ -179,7 +179,7 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                     <Button icon={FiMapPin} onClick={() => getCity()} type="button">
                         {geoLocationError ? (
                             <Tooltip content="Veuillez autoriser la géolocalisation">
-                                Gélocalisez moi !
+                                Géolocalisez moi !
                                 <AiFillWarning />
                             </Tooltip>
                         ) : (
