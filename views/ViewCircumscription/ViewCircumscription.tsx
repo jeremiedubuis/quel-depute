@@ -59,6 +59,11 @@ export const ViewCircumscription: React.FC<{
             <Metas
                 title={`Circonscription ${circumscription.number} (${circumscription.name}) | Quel député ?`}
                 description={`Qui se présente dans la circonscription ${circumscription.number} (${circumscription.name}) ? Qui est le député sortant ? Comment a-il-voté ? Découvrez le sur quel-depute.fr !`}
+                image={{
+                    src: `${process.env.NEXT_PUBLIC_HOST}/card/deputes/${depute.slug}.jpg`,
+                    width: '1200px',
+                    height: '630px'
+                }}
             />
             <SearchForm small />
             <Breadcrumb
