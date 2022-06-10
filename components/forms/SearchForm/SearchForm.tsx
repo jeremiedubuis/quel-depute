@@ -186,7 +186,7 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                                 <AiFillWarning />
                             </Tooltip>
                         ) : (
-                            'Gélocalisez moi !'
+                            'Géolocalisez moi !'
                         )}
                     </Button>
                 </fieldset>
