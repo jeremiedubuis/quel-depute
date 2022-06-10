@@ -31,14 +31,14 @@ const consolidate = async () => {
         (acc, circ) => [
             ...acc,
             ...candidates[circ].map((c) => {
-                let [countyId, circumscription] = circ.split('_').map((n) => parseInt(n));
-                if (countyId === 99) countyId = 999;
+                let [countyId, circumscription] = circ.split('_');
+                if (countyId === '99') countyId = '999';
                 const county = circumscriptionsFirstRound.find(
-                    (c) => parseInt(c.countyId.toString()) === countyId
+                    (c) => c.countyId.toString() === countyId
                 )?.county;
                 return {
                     ...c,
-                    countyId,
+                    countyId: countyId.replace(/^0+/, ''),
                     circumscription,
                     county,
                     ...partyToPartyShortAndImage(c.party)

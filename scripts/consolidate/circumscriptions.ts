@@ -93,9 +93,9 @@ const consolidate = async () => {
 
     for (let i = 0, iLength = circumscriptionsFirstRound.length; i < iLength; i++) {
         const c = circumscriptionsFirstRound[i];
-        let _countyId: number = parseInt(c.countyId.toString());
+        let _countyId: string = c.countyId.toString().replace(/^0+/, '');
         let _circumscription: number = parseInt(c.circumscription.toString());
-        const paddedCounty = pad(_countyId === 999 ? 99 : _countyId, 3);
+        const paddedCounty = pad(_countyId === '999' ? '99' : _countyId, 3);
         const paddedCircumscription = pad(_circumscription, 2);
         let _candidates = candidates[paddedCounty + '_' + paddedCircumscription];
         if (!_candidates) {
@@ -116,7 +116,8 @@ const consolidate = async () => {
             },
             current: deputes.find(
                 (d) =>
-                    parseInt(d.countyId) === parseInt(c.countyId.toString()) &&
+                    d.countyId.toString().replace(/^0+/, '') ===
+                        c.countyId.toString().replace(/^0+/, '') &&
                     parseInt(d.circumscription) === number
             ),
             candidates: _candidates.map(({ p, ...c }) => ({

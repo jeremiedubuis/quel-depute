@@ -8,7 +8,7 @@
     "birthday": "1983-12-22",
     "birthplace": "Nîmes (Gard)",
     "county": "Gard",
-    "countyId": 30,
+    "countyId": "30",
     "circumscription": 2,
     "mandateStart": "2020-02-01",
     "groupShort": "NI",
@@ -379,9 +379,8 @@
     "supportedGovernment": 1,
     "governmentLaws": 4,
     "candidate": {
-        "countyId": 30,
-        "county": "Gard",
-        "circumscription": 2
+        "countyId": "30",
+        "circumscription": "02"
     },
     "presenceAverages": {
         "weeksActive": 138,
@@ -398,5 +397,5 @@
         "questionsWritten": 71,
         "questionsOral": 11
     },
-    "votedAsGroup": 40
+    "votedAsGroup": 20
 }

@@ -101,7 +101,7 @@ export const scrapAll = async () => {
                 ...deputes[i],
                 countyId: (circumscriptionResults1stRound.find(
                     (c) => c.county === deputes[i].county
-                )?.countyId || 99) as number,
+                )?.countyId || 99) as string,
                 slug
             };
             depute.firstRoundResults = computeFirstRoundResults(depute);

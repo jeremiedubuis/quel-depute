@@ -110,7 +110,7 @@ export const mapNosDeputes = (data: any, groups: any) => {
             birthday: date_naissance,
             birthplace: lieu_naissance,
             county: nom_circo,
-            countyId: parseInt(num_deptmt),
+            countyId: num_deptmt.replace(/^0+/, ''),
             circumscription: parseInt(num_circo),
             mandateStart: mandat_debut,
             group: groups.find((g) => g.acronyme === groupe_sigle)?.nom,

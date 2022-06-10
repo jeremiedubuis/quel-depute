@@ -8,7 +8,7 @@ export type BaseDepute = {
     partyShort?: string;
     noPartyImage?: boolean;
     county: string;
-    countyId: number;
+    countyId: string;
     circumscription: number;
     slug: string;
     noPicture?: boolean;

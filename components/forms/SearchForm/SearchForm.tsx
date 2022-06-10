@@ -24,14 +24,19 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
     const screenSize = useRecoilValue(screenSizeState);
     const [mobileSearchOpen, setMobileSearchOpen] = useRecoilState(mobileSearchOpenState);
     const [geoLocationError, setGeoLocationError] = useState(null);
+    const router = useRouter();
 
     const [villageCircumscriptions, setVillageCircumscriptions] = useState<
-        { countyId: number; countyName: string; circumscriptionNumber: number }[] | null
+        { countyId: string; countyName: string; circumscriptionNumber: number }[] | null
     >(null);
 
     useEffect(() => {
         setMobileSearchOpen(false);
     }, []);
+
+    useEffect(() => {
+        setVillageCircumscriptions(null);
+    }, [router.asPath]);
 
     if (small && screenSize < 1024 && !mobileSearchOpen) return null;
 
@@ -44,7 +49,7 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
             .reduce((acc, curr) => {
                 if (acc.find((v) => v.circumscriptionNumber === curr.circumscriptionNumber))
                     return acc;
-                acc.push(curr);
+                acc.push({ ...curr, countyId: curr.countyId.toString() });
                 return acc;
             }, []);
 
@@ -85,8 +90,6 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
             result.onchange = (e) => {
                 if (result.state === 'granted') onGranted();
             };
-
-            console.log(result.state);
 
             if (result.state === 'granted') {
                 onGranted();

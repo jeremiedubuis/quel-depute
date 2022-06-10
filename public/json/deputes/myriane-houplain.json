@@ -8,7 +8,7 @@
     "birthday": "1946-06-05",
     "birthplace": "Beuvry (Pas-de-Calais)",
     "county": "Pas-de-Calais",
-    "countyId": 62,
+    "countyId": "62",
     "circumscription": 10,
     "mandateStart": "2021-04-22",
     "groupShort": "NI",
@@ -379,9 +379,8 @@
     "supportedGovernment": 0,
     "governmentLaws": 2,
     "candidate": {
-        "countyId": 62,
-        "county": "Pas-de-Calais",
-        "circumscription": 10
+        "countyId": "62",
+        "circumscription": "10"
     },
     "presenceAverages": {
         "weeksActive": 138,
@@ -398,5 +397,5 @@
         "questionsWritten": 71,
         "questionsOral": 11
     },
-    "votedAsGroup": 100
+    "votedAsGroup": 50
 }

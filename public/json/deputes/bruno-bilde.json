@@ -8,7 +8,7 @@
     "birthday": "1976-09-22",
     "birthplace": "Laxou (Meurthe-et-Moselle)",
     "county": "Pas-de-Calais",
-    "countyId": 62,
+    "countyId": "62",
     "circumscription": 12,
     "mandateStart": "2017-06-21",
     "groupShort": "NI",
@@ -392,9 +392,8 @@
     "supportedGovernment": 1,
     "governmentLaws": 14,
     "candidate": {
-        "countyId": 62,
-        "county": "Pas-de-Calais",
-        "circumscription": 12
+        "countyId": "62",
+        "circumscription": "12"
     },
     "presenceAverages": {
         "weeksActive": 138,
@@ -411,5 +410,5 @@
         "questionsWritten": 71,
         "questionsOral": 11
     },
-    "votedAsGroup": 33.33333333333333
+    "votedAsGroup": 40
 }
