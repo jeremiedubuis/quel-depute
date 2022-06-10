@@ -5,13 +5,13 @@ import { cn } from '$helpers/cn';
 
 const entries = [
     { label: 'Les Députés', href: '/deputes' },
-    { label: 'Votes', href: '/votes' }
+    { label: 'Les Votes', href: '/votes' }
     //{ label: 'Législatives', href: '/legislatives' }
 ];
 
 export const Nav: React.FC<{ primary?: boolean; className?: string }> = ({
     primary,
-    className,
+    className
 }) => {
     return (
         <nav className={cn(styles.nav, primary && styles.primary, className)}>
