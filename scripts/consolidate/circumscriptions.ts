@@ -116,8 +116,7 @@ const consolidate = async () => {
             },
             current: deputes.find(
                 (d) =>
-                    d.countyId.toString().replace(/^0+/, '') ===
-                        c.countyId.toString().replace(/^0+/, '') &&
+                    d.countyId.toString().replace(/^0+/, '') === _countyId &&
                     parseInt(d.circumscription) === number
             ),
             candidates: _candidates.map(({ p, ...c }) => ({

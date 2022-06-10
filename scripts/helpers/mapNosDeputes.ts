@@ -63,7 +63,7 @@ export const partyToPartyShortAndImage = (party: string) => {
         case 'Union des démocrates et indépendants':
             return { partyShort: 'UDI' };
         default:
-            console.log(party);
+            // console.log(party);
             return { partyShort: party, noPartyImage: true };
     }
 };

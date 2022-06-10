@@ -33,13 +33,15 @@ const consolidate = async () => {
             ...candidates[circ].map((c) => {
                 let [countyId, circumscription] = circ.split('_');
                 if (countyId === '99') countyId = '999';
+                countyId = countyId.replace(/^0+/, '');
+                if (countyId === '2A') console.log(countyId);
                 const county = circumscriptionsFirstRound.find(
-                    (c) => c.countyId.toString() === countyId
+                    (c) => c.countyId.toString().replace(/^0+/, '') === countyId
                 )?.county;
                 return {
                     ...c,
                     countyId: countyId.replace(/^0+/, ''),
-                    circumscription,
+                    circumscription: parseInt(circumscription),
                     county,
                     ...partyToPartyShortAndImage(c.party)
                 };
