@@ -33,7 +33,7 @@ export const ViewVotes: React.FC<{ scrutins: BaseScrutin[] }> = ({ scrutins }) =
                 <br />
                 Ces choix sont justifiés par des sources lorsque l'effet des mesures n'est pas
                 évident. Des associations comme la Fondation Abbé Pierre, Greenpeace, la Ligue des
-                Droits de l'Homme ou encore France Nature Environnement... Où même le défeuser des
+                Droits de l'Homme ou encore France Nature Environnement... Où même le défenseur des
                 droits quand il émet un avis défavorable envers une mesure du gouvernement qui l'a
                 nommé.
             </p>
@@ -42,14 +42,14 @@ export const ViewVotes: React.FC<{ scrutins: BaseScrutin[] }> = ({ scrutins }) =
             </Title>
 
             <p>
-                La difficulté de cet exercice réside dans propension du gouvernement à recourir aux
-                ordonnances et à la procédure accélérée sur les scrutins ce qui ne permet pas de
+                La difficulté de cet exercice réside dans la propension du gouvernement à recourir
+                aux ordonnances et à la procédure accélérée sur les scrutins ce qui ne permet pas de
                 distinguer les articles et ammendements d'un texte.
                 <br />
                 Ainsi certains textes portent des articles positifs et d'autres négatifs, mais nous
-                sommes contraint de les traiter en bloc. Ceci est également vrai pour les députés
-                eux mêmes qui sont parfois contraints de voter des textes portant des articles
-                qu'ils ne soutiennent pas ou à l'inverse de votrer contre des projets portant des
+                sommes contraints de les traiter en blocs. Ceci est également vrai pour les députés
+                eux-mêmes qui sont parfois contraints de voter des textes portant des articles
+                qu'ils ne soutiennent pas ou à l'inverse de voter contre des projets portant des
                 articles qu'ils défendent.
             </p>
             <ul>
