@@ -91,6 +91,7 @@ const consolidate = async () => {
     ).organismes.filter(({ type }) => type === 'groupe');
     const deputes = mapNosDeputes(raw, groups);
     await emptyDir(circonscriptionJSONPath);
+    let compiled: any = {};
 
     for (let i = 0, iLength = circumscriptionsFirstRound.length; i < iLength; i++) {
         const c = circumscriptionsFirstRound[i];
@@ -108,12 +109,21 @@ const consolidate = async () => {
         const slug = slugify(`${c.county} ${number}`);
 
         const resultsFirstRound = circumscriptionsFirstRound2022.find((r) => {
-            return r.countyId.toString().replace(/^0+/, '') === (_countyId === '999' ? '99' : _countyId) && r.circumscription === _circumscription
+            return (
+                r.countyId.toString().replace(/^0+/, '') ===
+                    (_countyId === '999' ? '99' : _countyId) &&
+                r.circumscription === _circumscription
+            );
         });
 
-        if (!resultsFirstRound) console.log(_countyId, _circumscription)
-
-
+        if (!resultsFirstRound) console.log(_countyId, _circumscription);
+        const firstRound = {
+            registered: resultsFirstRound.Inscrits,
+            voted: resultsFirstRound.Votants,
+            whites: resultsFirstRound.Blancs,
+            void: resultsFirstRound.Nuls,
+            expressed: resultsFirstRound.Exprimes
+        };
 
         const circumscription = {
             countyId: _countyId,
@@ -122,16 +132,10 @@ const consolidate = async () => {
             results: {
                 '2017': {
                     firstRound: mapCircumscriptionResults(c),
-                    secondRound: mapCircumscriptionResults(circumscriptionsSecondRound[i]),
+                    secondRound: mapCircumscriptionResults(circumscriptionsSecondRound[i])
                 },
                 '2022': {
-                    firstRound: {
-                        registered: resultsFirstRound.Inscrits,
-                        voted: resultsFirstRound.Votants,
-                        whites: resultsFirstRound.Blancs,
-                        void: resultsFirstRound.Nuls,
-                        expressed: resultsFirstRound.Exprimes
-                    },
+                    firstRound
                 }
             },
             current: deputes.find(
@@ -140,23 +144,89 @@ const consolidate = async () => {
                     parseInt(d.circumscription) === number
             ),
             candidates: _candidates.map(({ p, ...c }) => {
-                const _results = resultsFirstRound.votes.find(r => slugifyNames(r.firstname, r.lastname) === slugifyNames(c.firstname, c.lastname));
+                const _results = resultsFirstRound.votes.find(
+                    (r) =>
+                        slugifyNames(r.firstname, r.lastname) ===
+                        slugifyNames(c.firstname, c.lastname)
+                );
 
-                return ({
+                return {
                     ...c,
                     ...partyToPartyShortAndImage(c.party),
                     candidate: true,
                     firstRound: _results?.NbVoix
-                })
+                };
             })
         };
 
+        let qualified = circumscription.candidates.filter((c) => {
+            return (c.firstRound / firstRound.registered) * 100 > 12.5;
+        });
+        const electedFirstRound = qualified.find(
+            (c) =>
+                (c.firstRound / firstRound.expressed) * 100 > 50 &&
+                (c.firstRound / firstRound.registered) * 100 >= 25
+        );
+        if (_countyId === '93' && _circumscription === 7)
+            if (electedFirstRound) {
+                qualified = [electedFirstRound];
+            } else if (qualified.length === 1) {
+                qualified.push(
+                    circumscription.candidates
+                        .filter(
+                            (c) =>
+                                c.lastname !== qualified[0].lastname &&
+                                c.firstname !== qualified[0].firstname
+                        )
+                        .reduce((acc, c) => {
+                            if (!acc || c.firstRound > acc.firstRound) return c;
+                            return acc;
+                        }, null)
+                );
+            }
+
+        circumscription.candidates.forEach((c) => {
+            if (qualified.find((q) => c.firstname === q.firstname && q.lastname === c.lastname))
+                c.qualified = true;
+        });
+
+        const winner = circumscription.candidates.reduce((acc, c) => {
+            if (!acc || c.firstRound > acc.firstRound) return c;
+            return acc;
+        }, null);
+        if (!compiled[winner.nuanceComputed]) compiled[winner.nuanceComputed] = 1;
+        else compiled[winner.nuanceComputed]++;
 
         await writeFile(
             path.join(circonscriptionJSONPath, slug + '.json'),
             JSON.stringify(circumscription, null, 4)
         );
     }
+
+    extrapolate(compiled);
+};
+
+const extrapolate = (compiled: any) => {
+    compiled = Object.keys(compiled).reduce(
+        (acc, k) => {
+            if (k.endsWith('Nupes') || /PCF|PS|LFI/.test(k)) acc.NUPES += compiled[k];
+            else if (k.endsWith('Ensemble')) acc.Ensemble += compiled[k];
+            else {
+                acc[k] = compiled[k];
+            }
+            return acc;
+        },
+        { NUPES: 0, Ensemble: 0 }
+    );
+
+    console.log(
+        Object.keys(compiled).reduce((acc, k) => acc + compiled[k], 0),
+        compiled,
+        Object.keys(compiled).reduce((acc, k) => {
+            acc[k] = (compiled[k] / 577) * 100;
+            return acc;
+        }, {})
+    );
 };
 
 consolidate();

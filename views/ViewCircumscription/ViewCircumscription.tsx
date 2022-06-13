@@ -6,16 +6,16 @@ import { DeputeBlock } from '$components/depute/DeputeBlock/DeputeBlock';
 import { HorizontalBars } from '$components/graphs/HorizontalBars/HorizontalBars';
 import { Button } from '$components/buttons/Button/Button';
 import { slugifyNames } from '$helpers/slugify';
-import {Candidate, Depute} from '$types/deputeTypes';
+import { Candidate, Depute } from '$types/deputeTypes';
 import { DeputeTop } from '$components/depute/DeputeTop/DeputeTop';
 import { SearchForm } from '$components/forms/SearchForm/SearchForm';
 import { Breadcrumb } from '$components/text/Breadcrumb/Breadcrumb';
 import { offset } from '$helpers/dom/offset';
 import Link from 'next/link';
 import { Metas } from '$components/layout/Metas';
-import {colors, groups} from "$components/depute/DeputeBlock/colors";
-import {NuanceBlock} from "$components/depute/DeputeBlock/NuanceBlock";
-import {cn} from "$helpers/cn";
+import { colors, groups } from '$components/depute/DeputeBlock/colors';
+import { NuanceBlock } from '$components/depute/DeputeBlock/NuanceBlock';
+import { cn } from '$helpers/cn';
 
 const presColors = {
     'Emmanuel Macron': 'orange',
@@ -57,26 +57,10 @@ export const ViewCircumscription: React.FC<{
         }
     }, []);
 
-    const firstRound = circumscription.results["2022"].firstRound;
-    let qualified = circumscription.candidates.filter((c) => {
-        return c.firstRound / firstRound.registered * 100 > 12.5
-    });
-
-    const electedFirstRound = qualified.find(c => c.firstRound / firstRound.registered * 100 > 50);
-    if (electedFirstRound) qualified = [electedFirstRound];
-    else if(qualified.length === 1) {
-        qualified.push(
-            circumscription.candidates.filter(c => c.lastname !== qualified[0].lastname && c.firstname !== qualified[0].firstname).reduce((acc, c) => {
-                if (!acc || c.firstRound > acc.firstRound) return c;
-                return acc;
-            }, null)
-        )
-    }
-
-    qualified = qualified.sort((a, b) => b.firstRound - a.firstRound)
-
-
-
+    const firstRound = circumscription.results['2022'].firstRound;
+    const qualified = circumscription.candidates
+        .filter((c) => c.qualified)
+        .sort((a, b) => a.lastname.localeCompare(b.lastname));
     return (
         <main className={styles.view}>
             <Metas
@@ -137,70 +121,91 @@ export const ViewCircumscription: React.FC<{
                 </Button>
             </DeputeTop>
             <section id="first-round">
-                <Title size={'big'} className={styles.title}>Premier tour</Title>
+                <Title size={'big'} className={styles.title}>
+                    Premier tour
+                </Title>
                 <ul className={styles.stats}>
-                    <li>Abstention: {(100 - firstRound.expressed / firstRound.registered * 100).toFixed(2)}% <span>({firstRound.expressed} suffrages exprimés / {firstRound.registered} inscrits)</span> </li>
-                    <li>Votes blancs: {(firstRound.whites / firstRound.expressed * 100).toFixed(2)}% <span>({firstRound.whites})</span></li>
-                    <li>Votes nuls: {(firstRound.void / firstRound.expressed * 100).toFixed(2)}% <span>({firstRound.void})</span></li>
                     <li>
-
-                        <HorizontalBars className={styles.results}
-                            lines={circumscription.candidates.sort((a,b) => a.firstRound - b.firstRound).map(
-                                (c, i) => ({
-                                    title: <div><div className={styles.name}>{c.firstname} {c.lastname} <span>{(c.firstRound/firstRound.expressed * 100).toFixed(2)}%</span></div>
-                                        <NuanceBlock candidate={c} />
-                                        </div>,
+                        Abstention:{' '}
+                        {(100 - (firstRound.expressed / firstRound.registered) * 100).toFixed(2)}%{' '}
+                        <span>
+                            ({firstRound.expressed} suffrages exprimés / {firstRound.registered}{' '}
+                            inscrits)
+                        </span>{' '}
+                    </li>
+                    <li>
+                        Votes blancs:{' '}
+                        {((firstRound.whites / firstRound.expressed) * 100).toFixed(2)}%{' '}
+                        <span>({firstRound.whites})</span>
+                    </li>
+                    <li>
+                        Votes nuls: {((firstRound.void / firstRound.expressed) * 100).toFixed(2)}%{' '}
+                        <span>({firstRound.void})</span>
+                    </li>
+                    <li>
+                        <HorizontalBars
+                            className={styles.results}
+                            lines={circumscription.candidates
+                                .sort((a, b) => a.firstRound - b.firstRound)
+                                .map((c, i) => ({
+                                    title: (
+                                        <div>
+                                            <div className={styles.name}>
+                                                {c.firstname} {c.lastname}{' '}
+                                                <span>
+                                                    {(
+                                                        (c.firstRound / firstRound.expressed) *
+                                                        100
+                                                    ).toFixed(2)}
+                                                    %
+                                                </span>
+                                            </div>
+                                            <NuanceBlock candidate={c} />
+                                        </div>
+                                    ),
                                     amounts: [c.firstRound],
                                     total: firstRound.expressed,
-                                    colors: [colors[c.nuanceComputed]],
-
-                                })
-                            )}
+                                    colors: [colors[c.nuanceComputed]]
+                                }))}
                             tooltip
                         />
                     </li>
                 </ul>
-
             </section>
 
             <section id="candidats">
-                <Title size={'big'} className={styles.title}>Candidats qualifiés pour le second tour</Title>
+                <Title size={'big'} className={styles.title}>
+                    {qualified.length > 1
+                        ? 'Candidat(e)s qualifié(e)s pour le second tour'
+                        : 'Candidat(e) élu(e) au premier tour'}
+                </Title>
                 <ul className={styles.candidates}>
-                    {circumscription.candidates
-                        .filter(c =>
-                            qualified.find(q => q.firstname === c.firstname && q.lastname === c.lastname)
-                        )
-                        .sort((a, b) =>
-                            a.lastname.localeCompare(b.lastname)
-                        )
-                        .map((c) => (
-                            <li key={c.lastname}>
-                                <DeputeBlock
-                                    className={cn(styles.candidate, !qualified.find(q => q.firstname === c.firstname && q.lastname === c.lastname) && styles.disqualified)}
-                                    depute={c}
-                                    noCounty
-                                    isLink={false}
-                                    noPicture
-                                />
-                            </li>
-                        ))}
+                    {qualified.map((c) => (
+                        <li key={c.lastname}>
+                            <DeputeBlock
+                                className={cn(styles.candidate)}
+                                depute={c}
+                                noCounty
+                                isLink={false}
+                                noPicture
+                            />
+                        </li>
+                    ))}
                 </ul>
             </section>
 
             <section id="candidats">
-                <Title size={'big'} className={styles.title}>Candidats éliminés</Title>
+                <Title size={'big'} className={styles.title}>
+                    Candidats éliminés
+                </Title>
                 <ul className={styles.candidates}>
                     {circumscription.candidates
-                        .filter(c =>
-                            !qualified.find(q => q.firstname === c.firstname && q.lastname === c.lastname)
-                        )
-                        .sort((a, b) =>
-                            a.lastname.localeCompare(b.lastname)
-                        )
+                        .filter((c) => !c.qualified)
+                        .sort((a, b) => a.lastname.localeCompare(b.lastname))
                         .map((c) => (
                             <li key={c.lastname}>
                                 <DeputeBlock
-                                    className={cn(styles.candidate, !qualified.find(q => q.firstname === c.firstname && q.lastname === c.lastname) && styles.disqualified)}
+                                    className={cn(styles.candidate, styles.disqualified)}
                                     depute={c}
                                     noCounty
                                     isLink={false}
@@ -231,7 +236,9 @@ export const ViewCircumscription: React.FC<{
                     lines={Object.keys(circumscription.results['2017'].secondRound.candidates).map(
                         (title, i) => ({
                             title,
-                            amounts: [circumscription.results['2017'].secondRound.candidates[title]],
+                            amounts: [
+                                circumscription.results['2017'].secondRound.candidates[title]
+                            ],
                             total: circumscription.results['2017'].secondRound.expressed,
                             colors: [presColors[title]]
                         })

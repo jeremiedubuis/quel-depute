@@ -30,6 +30,7 @@ export type Candidate = {
     circumscription: number;
     candidate: boolean;
     firstRound: number;
+    qualified?: boolean;
 };
 
 export type VoteValue = 'Absent' | 'Pour' | 'Contre' | 'Abstention' | 'Non-votant';
