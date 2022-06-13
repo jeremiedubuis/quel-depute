@@ -3,36 +3,47 @@
     "number": 8,
     "name": "Ille-et-Vilaine",
     "results": {
-        "firstRound": {
-            "registered": 90268,
-            "voted": 70881,
-            "whites": 908,
-            "expressed": 69677,
-            "void": 296,
-            "candidates": {
-                "Nathalie Arthaud": 291,
-                "Fabien Roussel": 1455,
-                "Emmanuel Macron": 22319,
-                "Jean Lasalle": 1038,
-                "Marine Le Pen": 6537,
-                "Jean-Luc Mélenchon": 22299,
-                "Anne Hidalgo": 2044,
-                "Yannick Jadot": 6503,
-                "Valérie Pécresse": 2652,
-                "Phillipe Poutou": 631,
-                "Nicolas Dupont-Aignan": 798,
-                "Eric Zemmour": 3110
+        "2017": {
+            "firstRound": {
+                "registered": 90268,
+                "voted": 70881,
+                "whites": 908,
+                "expressed": 69677,
+                "void": 296,
+                "candidates": {
+                    "Nathalie Arthaud": 291,
+                    "Fabien Roussel": 1455,
+                    "Emmanuel Macron": 22319,
+                    "Jean Lasalle": 1038,
+                    "Marine Le Pen": 6537,
+                    "Jean-Luc Mélenchon": 22299,
+                    "Anne Hidalgo": 2044,
+                    "Yannick Jadot": 6503,
+                    "Valérie Pécresse": 2652,
+                    "Phillipe Poutou": 631,
+                    "Nicolas Dupont-Aignan": 798,
+                    "Eric Zemmour": 3110
+                }
+            },
+            "secondRound": {
+                "registered": 90283,
+                "voted": 68511,
+                "whites": 4497,
+                "expressed": 62737,
+                "void": 1277,
+                "candidates": {
+                    "Emmanuel Macron": 51230,
+                    "Marine Le Pen": 11507
+                }
             }
         },
-        "secondRound": {
-            "registered": 90283,
-            "voted": 68511,
-            "whites": 4497,
-            "expressed": 62737,
-            "void": 1277,
-            "candidates": {
-                "Emmanuel Macron": 51230,
-                "Marine Le Pen": 11507
+        "2022": {
+            "firstRound": {
+                "registered": 90991,
+                "voted": 50331,
+                "whites": 657,
+                "void": 226,
+                "expressed": 49448
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 22610
         },
         {
             "lastname": "NICOLAS",
@@ -94,7 +106,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 531
         },
         {
             "lastname": "BARBIÉ DE PRÉAUDEAU",
@@ -104,7 +117,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1412
         },
         {
             "lastname": "GOMEZ",
@@ -114,7 +128,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 552
         },
         {
             "lastname": "TOURNADE",
@@ -124,7 +139,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1088
         },
         {
             "lastname": "BACHELIER",
@@ -134,7 +150,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 15950
         },
         {
             "lastname": "LOOTEN",
@@ -144,7 +161,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3399
         },
         {
             "lastname": "LLAVORI",
@@ -155,7 +173,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2065
         },
         {
             "lastname": "ALLIX",
@@ -166,7 +185,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 145
         },
         {
             "lastname": "DOLU",
@@ -177,7 +197,8 @@
             "party": "régionalistes",
             "partyShort": "régionalistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 270
         },
         {
             "lastname": "LEROUX",
@@ -188,7 +209,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 83
         },
         {
             "lastname": "ELAHIAR",
@@ -199,7 +221,8 @@
             "party": "Union des démocrates musulmans français",
             "partyShort": "Union des démocrates musulmans français",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 111
         },
         {
             "lastname": "LE GALL",
@@ -210,7 +233,8 @@
             "party": "Union démocratique bretonne",
             "partyShort": "Union démocratique bretonne",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 863
         },
         {
             "lastname": "LUCAS",
@@ -221,7 +245,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 369
         }
     ]
 }

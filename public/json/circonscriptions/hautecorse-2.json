@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Haute-Corse",
     "results": {
-        "firstRound": {
-            "registered": 67844,
-            "voted": 41672,
-            "whites": 822,
-            "expressed": 40382,
-            "void": 468,
-            "candidates": {
-                "Nathalie Arthaud": 130,
-                "Fabien Roussel": 1304,
-                "Emmanuel Macron": 7164,
-                "Jean Lasalle": 5024,
-                "Marine Le Pen": 11035,
-                "Jean-Luc Mélenchon": 4918,
-                "Anne Hidalgo": 470,
-                "Yannick Jadot": 1203,
-                "Valérie Pécresse": 2855,
-                "Phillipe Poutou": 385,
-                "Nicolas Dupont-Aignan": 733,
-                "Eric Zemmour": 5161
+        "2017": {
+            "firstRound": {
+                "registered": 67844,
+                "voted": 41672,
+                "whites": 822,
+                "expressed": 40382,
+                "void": 468,
+                "candidates": {
+                    "Nathalie Arthaud": 130,
+                    "Fabien Roussel": 1304,
+                    "Emmanuel Macron": 7164,
+                    "Jean Lasalle": 5024,
+                    "Marine Le Pen": 11035,
+                    "Jean-Luc Mélenchon": 4918,
+                    "Anne Hidalgo": 470,
+                    "Yannick Jadot": 1203,
+                    "Valérie Pécresse": 2855,
+                    "Phillipe Poutou": 385,
+                    "Nicolas Dupont-Aignan": 733,
+                    "Eric Zemmour": 5161
+                }
+            },
+            "secondRound": {
+                "registered": 67828,
+                "voted": 40642,
+                "whites": 2837,
+                "expressed": 36509,
+                "void": 1296,
+                "candidates": {
+                    "Emmanuel Macron": 15089,
+                    "Marine Le Pen": 21420
+                }
             }
         },
-        "secondRound": {
-            "registered": 67828,
-            "voted": 40642,
-            "whites": 2837,
-            "expressed": 36509,
-            "void": 1296,
-            "candidates": {
-                "Emmanuel Macron": 15089,
-                "Marine Le Pen": 21420
+        "2022": {
+            "firstRound": {
+                "registered": 67935,
+                "voted": 32740,
+                "whites": 582,
+                "void": 267,
+                "expressed": 31891
             }
         }
     },
@@ -85,7 +96,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10670
         },
         {
             "lastname": "CECCOLI",
@@ -96,7 +108,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9267
         },
         {
             "lastname": "SALDUCCI",
@@ -107,7 +120,8 @@
             "party": "Debout la France",
             "partyShort": "DLF",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 391
         },
         {
             "lastname": "RAFFAELLI - FRANCESCHI",
@@ -117,17 +131,19 @@
             "nuanceComputed": "PCF",
             "party": "Parti communiste français",
             "partyShort": "PCF",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1879
         },
         {
-            "lastname": "BARONNE ML MARIANI",
-            "firstname": ".",
+            "lastname": "ML MARIANI",
+            "firstname": "Baronne",
             "gender": "F",
             "nuance": "DIV",
             "nuanceComputed": "Pirate",
             "party": "Parti Pirate",
             "partyShort": "pp",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 75
         },
         {
             "lastname": "MORTINI",
@@ -138,7 +154,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 5736
         },
         {
             "lastname": "RONGIONE",
@@ -149,7 +166,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 215
         },
         {
             "lastname": "CARDI",
@@ -159,7 +177,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3658
         }
     ]
 }

@@ -3,36 +3,47 @@
     "number": 3,
     "name": "Ille-et-Vilaine",
     "results": {
-        "firstRound": {
-            "registered": 91520,
-            "voted": 72978,
-            "whites": 1248,
-            "expressed": 71242,
-            "void": 488,
-            "candidates": {
-                "Nathalie Arthaud": 536,
-                "Fabien Roussel": 1520,
-                "Emmanuel Macron": 24226,
-                "Jean Lasalle": 1745,
-                "Marine Le Pen": 13830,
-                "Jean-Luc Mélenchon": 15269,
-                "Anne Hidalgo": 1666,
-                "Yannick Jadot": 4591,
-                "Valérie Pécresse": 2849,
-                "Phillipe Poutou": 707,
-                "Nicolas Dupont-Aignan": 1283,
-                "Eric Zemmour": 3020
+        "2017": {
+            "firstRound": {
+                "registered": 91520,
+                "voted": 72978,
+                "whites": 1248,
+                "expressed": 71242,
+                "void": 488,
+                "candidates": {
+                    "Nathalie Arthaud": 536,
+                    "Fabien Roussel": 1520,
+                    "Emmanuel Macron": 24226,
+                    "Jean Lasalle": 1745,
+                    "Marine Le Pen": 13830,
+                    "Jean-Luc Mélenchon": 15269,
+                    "Anne Hidalgo": 1666,
+                    "Yannick Jadot": 4591,
+                    "Valérie Pécresse": 2849,
+                    "Phillipe Poutou": 707,
+                    "Nicolas Dupont-Aignan": 1283,
+                    "Eric Zemmour": 3020
+                }
+            },
+            "secondRound": {
+                "registered": 91540,
+                "voted": 72332,
+                "whites": 4962,
+                "expressed": 65754,
+                "void": 1616,
+                "candidates": {
+                    "Emmanuel Macron": 44647,
+                    "Marine Le Pen": 21107
+                }
             }
         },
-        "secondRound": {
-            "registered": 91540,
-            "voted": 72332,
-            "whites": 4962,
-            "expressed": 65754,
-            "void": 1616,
-            "candidates": {
-                "Emmanuel Macron": 44647,
-                "Marine Le Pen": 21107
+        "2022": {
+            "firstRound": {
+                "registered": 91835,
+                "voted": 48166,
+                "whites": 768,
+                "void": 308,
+                "expressed": 47090
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "Pirate",
             "party": "Parti Pirate",
             "partyShort": "pp",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 580
         },
         {
             "lastname": "PRUNIER",
@@ -93,7 +105,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6998
         },
         {
             "lastname": "MERLIERE",
@@ -103,7 +116,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1350
         },
         {
             "lastname": "PARMENTIER",
@@ -113,7 +127,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4015
         },
         {
             "lastname": "AMISSE",
@@ -124,7 +139,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 587
         },
         {
             "lastname": "FARAH",
@@ -135,7 +151,8 @@
             "party": "Union des démocrates musulmans français",
             "partyShort": "Union des démocrates musulmans français",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 82
         },
         {
             "lastname": "MARTINS",
@@ -146,7 +163,8 @@
             "party": "Parti radical valoisien",
             "partyShort": "Parti radical valoisien",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 15317
         },
         {
             "lastname": "ROUAUX",
@@ -156,7 +174,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 16822
         },
         {
             "lastname": "BRETEL",
@@ -166,7 +185,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 746
         },
         {
             "lastname": "GUIHARD",
@@ -177,7 +197,8 @@
             "party": "régionalistes",
             "partyShort": "régionalistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 593
         }
     ]
 }

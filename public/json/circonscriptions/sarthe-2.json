@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Sarthe",
     "results": {
-        "firstRound": {
-            "registered": 83014,
-            "voted": 60115,
-            "whites": 1501,
-            "expressed": 58330,
-            "void": 284,
-            "candidates": {
-                "Nathalie Arthaud": 453,
-                "Fabien Roussel": 1533,
-                "Emmanuel Macron": 15991,
-                "Jean Lasalle": 1291,
-                "Marine Le Pen": 15496,
-                "Jean-Luc Mélenchon": 12637,
-                "Anne Hidalgo": 1165,
-                "Yannick Jadot": 2677,
-                "Valérie Pécresse": 2608,
-                "Phillipe Poutou": 503,
-                "Nicolas Dupont-Aignan": 1107,
-                "Eric Zemmour": 2869
+        "2017": {
+            "firstRound": {
+                "registered": 83014,
+                "voted": 60115,
+                "whites": 1501,
+                "expressed": 58330,
+                "void": 284,
+                "candidates": {
+                    "Nathalie Arthaud": 453,
+                    "Fabien Roussel": 1533,
+                    "Emmanuel Macron": 15991,
+                    "Jean Lasalle": 1291,
+                    "Marine Le Pen": 15496,
+                    "Jean-Luc Mélenchon": 12637,
+                    "Anne Hidalgo": 1165,
+                    "Yannick Jadot": 2677,
+                    "Valérie Pécresse": 2608,
+                    "Phillipe Poutou": 503,
+                    "Nicolas Dupont-Aignan": 1107,
+                    "Eric Zemmour": 2869
+                }
+            },
+            "secondRound": {
+                "registered": 83012,
+                "voted": 60021,
+                "whites": 5009,
+                "expressed": 54117,
+                "void": 895,
+                "candidates": {
+                    "Emmanuel Macron": 30866,
+                    "Marine Le Pen": 23251
+                }
             }
         },
-        "secondRound": {
-            "registered": 83012,
-            "voted": 60021,
-            "whites": 5009,
-            "expressed": 54117,
-            "void": 895,
-            "candidates": {
-                "Emmanuel Macron": 30866,
-                "Marine Le Pen": 23251
+        "2022": {
+            "firstRound": {
+                "registered": 83265,
+                "voted": 35682,
+                "whites": 870,
+                "void": 137,
+                "expressed": 34675
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2985
         },
         {
             "lastname": "MONET",
@@ -94,7 +106,8 @@
             "party": "Horizons",
             "partyShort": "Horizons",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6517
         },
         {
             "lastname": "BESLIER",
@@ -104,7 +117,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 987
         },
         {
             "lastname": "CABARET",
@@ -115,7 +129,8 @@
             "party": "dissident PS hors accord Nupes",
             "partyShort": "dissident PS hors accord Nupes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2323
         },
         {
             "lastname": "KARAMANLI",
@@ -125,7 +140,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12667
         },
         {
             "lastname": "TROCHON",
@@ -136,7 +152,8 @@
             "party": "Debout la France",
             "partyShort": "DLF",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 480
         },
         {
             "lastname": "FURET",
@@ -146,7 +163,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7261
         },
         {
             "lastname": "HUBERT",
@@ -157,7 +175,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 304
         },
         {
             "lastname": "PICAVEZ",
@@ -168,7 +187,8 @@
             "party": "autres extrême gauche",
             "partyShort": "autres extrême gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 88
         },
         {
             "lastname": "JOVER",
@@ -179,7 +199,8 @@
             "party": "Parti ouvrier indépendant démocratique",
             "partyShort": "Parti ouvrier indépendant démocratique",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 189
         },
         {
             "lastname": "ZBIROU",
@@ -190,7 +211,8 @@
             "party": "Ecologie au centre",
             "partyShort": "Ecologie au centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 874
         }
     ]
 }

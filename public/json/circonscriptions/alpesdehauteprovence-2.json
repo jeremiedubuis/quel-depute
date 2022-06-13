@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Alpes-de-Haute-Provence",
     "results": {
-        "firstRound": {
-            "registered": 66383,
-            "voted": 50843,
-            "whites": 787,
-            "expressed": 49747,
-            "void": 309,
-            "candidates": {
-                "Nathalie Arthaud": 230,
-                "Fabien Roussel": 1347,
-                "Emmanuel Macron": 11099,
-                "Jean Lasalle": 2149,
-                "Marine Le Pen": 12753,
-                "Jean-Luc Mélenchon": 11633,
-                "Anne Hidalgo": 684,
-                "Yannick Jadot": 2174,
-                "Valérie Pécresse": 2047,
-                "Phillipe Poutou": 426,
-                "Nicolas Dupont-Aignan": 1299,
-                "Eric Zemmour": 3906
+        "2017": {
+            "firstRound": {
+                "registered": 66383,
+                "voted": 50843,
+                "whites": 787,
+                "expressed": 49747,
+                "void": 309,
+                "candidates": {
+                    "Nathalie Arthaud": 230,
+                    "Fabien Roussel": 1347,
+                    "Emmanuel Macron": 11099,
+                    "Jean Lasalle": 2149,
+                    "Marine Le Pen": 12753,
+                    "Jean-Luc Mélenchon": 11633,
+                    "Anne Hidalgo": 684,
+                    "Yannick Jadot": 2174,
+                    "Valérie Pécresse": 2047,
+                    "Phillipe Poutou": 426,
+                    "Nicolas Dupont-Aignan": 1299,
+                    "Eric Zemmour": 3906
+                }
+            },
+            "secondRound": {
+                "registered": 66390,
+                "voted": 49386,
+                "whites": 3850,
+                "expressed": 44200,
+                "void": 1336,
+                "candidates": {
+                    "Emmanuel Macron": 22395,
+                    "Marine Le Pen": 21805
+                }
             }
         },
-        "secondRound": {
-            "registered": 66390,
-            "voted": 49386,
-            "whites": 3850,
-            "expressed": 44200,
-            "void": 1336,
-            "candidates": {
-                "Emmanuel Macron": 22395,
-                "Marine Le Pen": 21805
+        "2022": {
+            "firstRound": {
+                "registered": 66661,
+                "voted": 34807,
+                "whites": 607,
+                "void": 277,
+                "expressed": 33923
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 559
         },
         {
             "lastname": "GUERRERA",
@@ -95,7 +107,8 @@
             "party": "régionalistes",
             "partyShort": "régionalistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 299
         },
         {
             "lastname": "FERREIRA",
@@ -105,7 +118,8 @@
             "nuanceComputed": "UDI",
             "party": "Union des démocrates et indépendants",
             "partyShort": "UDI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1288
         },
         {
             "lastname": "RAZEAU",
@@ -116,7 +130,8 @@
             "party": "divers écologistes",
             "partyShort": "divers écologistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 781
         },
         {
             "lastname": "CADENEL",
@@ -126,7 +141,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1433
         },
         {
             "lastname": "KECHRA",
@@ -137,7 +153,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 254
         },
         {
             "lastname": "ABEILLE",
@@ -147,7 +164,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7905
         },
         {
             "lastname": "VICENTE",
@@ -158,7 +176,8 @@
             "party": "autres extrême gauche",
             "partyShort": "autres extrême gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 174
         },
         {
             "lastname": "SOLER",
@@ -169,7 +188,8 @@
             "party": "autres extrême gauche",
             "partyShort": "autres extrême gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 160
         },
         {
             "lastname": "CASTANER",
@@ -179,7 +199,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10232
         },
         {
             "lastname": "WALTER",
@@ -189,7 +210,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9940
         },
         {
             "lastname": "BEGNIS",
@@ -199,7 +221,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 343
         },
         {
             "lastname": "HUE-COURTIN",
@@ -210,7 +233,8 @@
             "party": "Ecologie au centre",
             "partyShort": "Ecologie au centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 555
         }
     ]
 }

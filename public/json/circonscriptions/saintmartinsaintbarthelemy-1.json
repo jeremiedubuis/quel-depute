@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Saint-Martin/Saint-Barthélemy",
     "results": {
-        "firstRound": {
-            "registered": 24414,
-            "voted": 8602,
-            "whites": 150,
-            "expressed": 8368,
-            "void": 84,
-            "candidates": {
-                "Nathalie Arthaud": 41,
-                "Fabien Roussel": 48,
-                "Emmanuel Macron": 2070,
-                "Jean Lasalle": 208,
-                "Marine Le Pen": 1445,
-                "Jean-Luc Mélenchon": 2354,
-                "Anne Hidalgo": 92,
-                "Yannick Jadot": 247,
-                "Valérie Pécresse": 354,
-                "Phillipe Poutou": 63,
-                "Nicolas Dupont-Aignan": 339,
-                "Eric Zemmour": 1107
+        "2017": {
+            "firstRound": {
+                "registered": 24414,
+                "voted": 8602,
+                "whites": 150,
+                "expressed": 8368,
+                "void": 84,
+                "candidates": {
+                    "Nathalie Arthaud": 41,
+                    "Fabien Roussel": 48,
+                    "Emmanuel Macron": 2070,
+                    "Jean Lasalle": 208,
+                    "Marine Le Pen": 1445,
+                    "Jean-Luc Mélenchon": 2354,
+                    "Anne Hidalgo": 92,
+                    "Yannick Jadot": 247,
+                    "Valérie Pécresse": 354,
+                    "Phillipe Poutou": 63,
+                    "Nicolas Dupont-Aignan": 339,
+                    "Eric Zemmour": 1107
+                }
+            },
+            "secondRound": {
+                "registered": 24435,
+                "voted": 9328,
+                "whites": 471,
+                "expressed": 8637,
+                "void": 220,
+                "candidates": {
+                    "Emmanuel Macron": 3850,
+                    "Marine Le Pen": 4787
+                }
             }
         },
-        "secondRound": {
-            "registered": 24435,
-            "voted": 9328,
-            "whites": 471,
-            "expressed": 8637,
-            "void": 220,
-            "candidates": {
-                "Emmanuel Macron": 3850,
-                "Marine Le Pen": 4787
+        "2022": {
+            "firstRound": {
+                "registered": 24563,
+                "voted": 5219,
+                "whites": 107,
+                "void": 51,
+                "expressed": 5061
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 330
         },
         {
             "lastname": "CAZE",
@@ -93,7 +105,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 447
         },
         {
             "lastname": "PAINES STEPHEN",
@@ -104,7 +117,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 199
         },
         {
             "lastname": "RIVERE BONZOM",
@@ -115,7 +129,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 304
         },
         {
             "lastname": "GUMBS",
@@ -125,7 +140,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2383
         },
         {
             "lastname": "GIBBS",
@@ -136,7 +152,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1398
         }
     ]
 }

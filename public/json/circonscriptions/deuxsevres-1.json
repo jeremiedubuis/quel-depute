@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Deux-Sèvres",
     "results": {
-        "firstRound": {
-            "registered": 90470,
-            "voted": 71167,
-            "whites": 1272,
-            "expressed": 69333,
-            "void": 562,
-            "candidates": {
-                "Nathalie Arthaud": 475,
-                "Fabien Roussel": 1642,
-                "Emmanuel Macron": 24096,
-                "Jean Lasalle": 1994,
-                "Marine Le Pen": 12630,
-                "Jean-Luc Mélenchon": 14910,
-                "Anne Hidalgo": 1699,
-                "Yannick Jadot": 4210,
-                "Valérie Pécresse": 2827,
-                "Phillipe Poutou": 683,
-                "Nicolas Dupont-Aignan": 1315,
-                "Eric Zemmour": 2852
+        "2017": {
+            "firstRound": {
+                "registered": 90470,
+                "voted": 71167,
+                "whites": 1272,
+                "expressed": 69333,
+                "void": 562,
+                "candidates": {
+                    "Nathalie Arthaud": 475,
+                    "Fabien Roussel": 1642,
+                    "Emmanuel Macron": 24096,
+                    "Jean Lasalle": 1994,
+                    "Marine Le Pen": 12630,
+                    "Jean-Luc Mélenchon": 14910,
+                    "Anne Hidalgo": 1699,
+                    "Yannick Jadot": 4210,
+                    "Valérie Pécresse": 2827,
+                    "Phillipe Poutou": 683,
+                    "Nicolas Dupont-Aignan": 1315,
+                    "Eric Zemmour": 2852
+                }
+            },
+            "secondRound": {
+                "registered": 90487,
+                "voted": 68842,
+                "whites": 4803,
+                "expressed": 62140,
+                "void": 1899,
+                "candidates": {
+                    "Emmanuel Macron": 42609,
+                    "Marine Le Pen": 19531
+                }
             }
         },
-        "secondRound": {
-            "registered": 90487,
-            "voted": 68842,
-            "whites": 4803,
-            "expressed": 62140,
-            "void": 1899,
-            "candidates": {
-                "Emmanuel Macron": 42609,
-                "Marine Le Pen": 19531
+        "2022": {
+            "firstRound": {
+                "registered": 90920,
+                "voted": 46474,
+                "whites": 661,
+                "void": 309,
+                "expressed": 45504
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1345
         },
         {
             "lastname": "VAUZELLE",
@@ -94,7 +106,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 505
         },
         {
             "lastname": "CHAMPEAU",
@@ -104,7 +117,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 5869
         },
         {
             "lastname": "CHARRON",
@@ -114,7 +128,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12939
         },
         {
             "lastname": "GANIVET",
@@ -124,7 +139,8 @@
             "nuanceComputed": "UDI",
             "party": "Union des démocrates et indépendants",
             "partyShort": "UDI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1704
         },
         {
             "lastname": "MARCHIVE",
@@ -135,7 +151,8 @@
             "party": "Parti radical valoisien",
             "partyShort": "Parti radical valoisien",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13741
         },
         {
             "lastname": "MASSON",
@@ -146,7 +163,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1517
         },
         {
             "lastname": "CHICHE",
@@ -157,7 +175,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7884
         }
     ]
 }

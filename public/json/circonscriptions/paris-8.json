@@ -3,36 +3,47 @@
     "number": 8,
     "name": "Paris",
     "results": {
-        "firstRound": {
-            "registered": 83848,
-            "voted": 65577,
-            "whites": 765,
-            "expressed": 63271,
-            "void": 1541,
-            "candidates": {
-                "Nathalie Arthaud": 196,
-                "Fabien Roussel": 1261,
-                "Emmanuel Macron": 20151,
-                "Jean Lasalle": 797,
-                "Marine Le Pen": 4074,
-                "Jean-Luc Mélenchon": 20603,
-                "Anne Hidalgo": 1691,
-                "Yannick Jadot": 5156,
-                "Valérie Pécresse": 3663,
-                "Phillipe Poutou": 415,
-                "Nicolas Dupont-Aignan": 670,
-                "Eric Zemmour": 4594
+        "2017": {
+            "firstRound": {
+                "registered": 83848,
+                "voted": 65577,
+                "whites": 765,
+                "expressed": 63271,
+                "void": 1541,
+                "candidates": {
+                    "Nathalie Arthaud": 196,
+                    "Fabien Roussel": 1261,
+                    "Emmanuel Macron": 20151,
+                    "Jean Lasalle": 797,
+                    "Marine Le Pen": 4074,
+                    "Jean-Luc Mélenchon": 20603,
+                    "Anne Hidalgo": 1691,
+                    "Yannick Jadot": 5156,
+                    "Valérie Pécresse": 3663,
+                    "Phillipe Poutou": 415,
+                    "Nicolas Dupont-Aignan": 670,
+                    "Eric Zemmour": 4594
+                }
+            },
+            "secondRound": {
+                "registered": 83884,
+                "voted": 61407,
+                "whites": 3507,
+                "expressed": 56877,
+                "void": 1023,
+                "candidates": {
+                    "Emmanuel Macron": 47743,
+                    "Marine Le Pen": 9134
+                }
             }
         },
-        "secondRound": {
-            "registered": 83884,
-            "voted": 61407,
-            "whites": 3507,
-            "expressed": 56877,
-            "void": 1023,
-            "candidates": {
-                "Emmanuel Macron": 47743,
-                "Marine Le Pen": 9134
+        "2022": {
+            "firstRound": {
+                "registered": 85265,
+                "voted": 47438,
+                "whites": 504,
+                "void": 194,
+                "expressed": 46740
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "Pirate",
             "party": "Parti Pirate",
             "partyShort": "pp",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 404
         },
         {
             "lastname": "BLONDEL",
@@ -94,7 +106,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 367
         },
         {
             "lastname": "VOLBART",
@@ -104,7 +117,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 758
         },
         {
             "lastname": "DUPONCEL",
@@ -115,7 +129,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 405
         },
         {
             "lastname": "LANCELOT",
@@ -125,7 +140,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2165
         },
         {
             "lastname": "KOBBI",
@@ -136,7 +152,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 976
         },
         {
             "lastname": "LUTZ",
@@ -147,7 +164,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 83
         },
         {
             "lastname": "MONTANDON",
@@ -157,7 +175,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 5282
         },
         {
             "lastname": "GIRAUD",
@@ -168,7 +187,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1441
         },
         {
             "lastname": "BERNON",
@@ -179,7 +199,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 259
         },
         {
             "lastname": "TRUNKENWALD",
@@ -190,7 +211,8 @@
             "party": "Reconquête !",
             "partyShort": "Reconquête !",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2051
         },
         {
             "lastname": "AVIA",
@@ -200,7 +222,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13059
         },
         {
             "lastname": "SAS",
@@ -210,7 +233,8 @@
             "nuanceComputed": "EELV-Nupes",
             "party": "Europe Ecologie-Les Verts",
             "partyShort": "EELV",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 19490
         }
     ]
 }

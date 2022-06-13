@@ -3,36 +3,47 @@
     "number": 3,
     "name": "Polynésie française",
     "results": {
-        "firstRound": {
-            "registered": 66609,
-            "voted": 19435,
-            "whites": 482,
-            "expressed": 18647,
-            "void": 306,
-            "candidates": {
-                "Nathalie Arthaud": 261,
-                "Fabien Roussel": 140,
-                "Emmanuel Macron": 6487,
-                "Jean Lasalle": 210,
-                "Marine Le Pen": 3647,
-                "Jean-Luc Mélenchon": 2775,
-                "Anne Hidalgo": 283,
-                "Yannick Jadot": 746,
-                "Valérie Pécresse": 1654,
-                "Phillipe Poutou": 143,
-                "Nicolas Dupont-Aignan": 651,
-                "Eric Zemmour": 1650
+        "2017": {
+            "firstRound": {
+                "registered": 66609,
+                "voted": 19435,
+                "whites": 482,
+                "expressed": 18647,
+                "void": 306,
+                "candidates": {
+                    "Nathalie Arthaud": 261,
+                    "Fabien Roussel": 140,
+                    "Emmanuel Macron": 6487,
+                    "Jean Lasalle": 210,
+                    "Marine Le Pen": 3647,
+                    "Jean-Luc Mélenchon": 2775,
+                    "Anne Hidalgo": 283,
+                    "Yannick Jadot": 746,
+                    "Valérie Pécresse": 1654,
+                    "Phillipe Poutou": 143,
+                    "Nicolas Dupont-Aignan": 651,
+                    "Eric Zemmour": 1650
+                }
+            },
+            "secondRound": {
+                "registered": 66632,
+                "voted": 26674,
+                "whites": 858,
+                "expressed": 25292,
+                "void": 524,
+                "candidates": {
+                    "Emmanuel Macron": 12273,
+                    "Marine Le Pen": 13019
+                }
             }
         },
-        "secondRound": {
-            "registered": 66632,
-            "voted": 26674,
-            "whites": 858,
-            "expressed": 25292,
-            "void": 524,
-            "candidates": {
-                "Emmanuel Macron": 12273,
-                "Marine Le Pen": 13019
+        "2022": {
+            "firstRound": {
+                "registered": 66895,
+                "voted": 28987,
+                "whites": 280,
+                "void": 216,
+                "expressed": 28491
             }
         }
     },
@@ -85,7 +96,8 @@
             "party": "Tapura huiraatira",
             "partyShort": "TH",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9128
         },
         {
             "lastname": "TEFAN",
@@ -96,7 +108,8 @@
             "party": "divers extrême droite",
             "partyShort": "divers extrême droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 319
         },
         {
             "lastname": "TERIITAHI",
@@ -107,7 +120,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 238
         },
         {
             "lastname": "LAUREY",
@@ -118,7 +132,8 @@
             "party": "divers extrême droite",
             "partyShort": "divers extrême droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4140
         },
         {
             "lastname": "HAUATA",
@@ -129,7 +144,8 @@
             "party": "divers écologistes",
             "partyShort": "divers écologistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 586
         },
         {
             "lastname": "BROTHERSON",
@@ -140,7 +156,8 @@
             "party": "Tavini Huira'atira",
             "partyShort": "FLP",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9761
         },
         {
             "lastname": "TEROOATEA",
@@ -151,7 +168,8 @@
             "party": "Amuitahira'a o te Nuna'a Ma'ohi",
             "partyShort": "Amuitahira'a o te Nuna'a Ma'ohi",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3987
         },
         {
             "lastname": "TAUTU",
@@ -162,7 +180,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 332
         }
     ]
 }

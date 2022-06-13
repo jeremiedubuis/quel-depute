@@ -53,7 +53,7 @@ export const ViewVote: React.FC<{ scrutin: ScrutinType }> = ({ scrutin }) => {
                     Impact
                 </Title>
                 <p>
-                    Ce projet à été jugé{' '}
+                    Ce projet a été jugé{' '}
                     {scrutin.impactModifier > 0
                         ? 'positif'
                         : scrutin.impactModifier < 0

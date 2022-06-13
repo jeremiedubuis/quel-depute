@@ -3,36 +3,47 @@
     "number": 4,
     "name": "Guadeloupe",
     "results": {
-        "firstRound": {
-            "registered": 68156,
-            "voted": 29624,
-            "whites": 614,
-            "expressed": 28188,
-            "void": 822,
-            "candidates": {
-                "Nathalie Arthaud": 232,
-                "Fabien Roussel": 149,
-                "Emmanuel Macron": 3785,
-                "Jean Lasalle": 209,
-                "Marine Le Pen": 5171,
-                "Jean-Luc Mélenchon": 15566,
-                "Anne Hidalgo": 697,
-                "Yannick Jadot": 373,
-                "Valérie Pécresse": 852,
-                "Phillipe Poutou": 129,
-                "Nicolas Dupont-Aignan": 462,
-                "Eric Zemmour": 563
+        "2017": {
+            "firstRound": {
+                "registered": 68156,
+                "voted": 29624,
+                "whites": 614,
+                "expressed": 28188,
+                "void": 822,
+                "candidates": {
+                    "Nathalie Arthaud": 232,
+                    "Fabien Roussel": 149,
+                    "Emmanuel Macron": 3785,
+                    "Jean Lasalle": 209,
+                    "Marine Le Pen": 5171,
+                    "Jean-Luc Mélenchon": 15566,
+                    "Anne Hidalgo": 697,
+                    "Yannick Jadot": 373,
+                    "Valérie Pécresse": 852,
+                    "Phillipe Poutou": 129,
+                    "Nicolas Dupont-Aignan": 462,
+                    "Eric Zemmour": 563
+                }
+            },
+            "secondRound": {
+                "registered": 68163,
+                "voted": 31882,
+                "whites": 1664,
+                "expressed": 28289,
+                "void": 1929,
+                "candidates": {
+                    "Emmanuel Macron": 8734,
+                    "Marine Le Pen": 19555
+                }
             }
         },
-        "secondRound": {
-            "registered": 68163,
-            "voted": 31882,
-            "whites": 1664,
-            "expressed": 28289,
-            "void": 1929,
-            "candidates": {
-                "Emmanuel Macron": 8734,
-                "Marine Le Pen": 19555
+        "2022": {
+            "firstRound": {
+                "registered": 68262,
+                "voted": 17035,
+                "whites": 523,
+                "void": 647,
+                "expressed": 15865
             }
         }
     },
@@ -84,7 +95,8 @@
             "nuanceComputed": "UDI",
             "party": "Union des démocrates et indépendants",
             "partyShort": "UDI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 36
         },
         {
             "lastname": "COUDRET",
@@ -95,7 +107,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 287
         },
         {
             "lastname": "LOUPADIERE",
@@ -105,7 +118,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 268
         },
         {
             "lastname": "ZOZIO",
@@ -115,7 +129,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 222
         },
         {
             "lastname": "PAISLEY",
@@ -125,7 +140,8 @@
             "nuanceComputed": "LFI",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2389
         },
         {
             "lastname": "CALIFER",
@@ -135,7 +151,8 @@
             "nuanceComputed": "PS",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6126
         },
         {
             "lastname": "PARAN",
@@ -146,7 +163,8 @@
             "party": "divers extrême droite",
             "partyShort": "divers extrême droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 935
         },
         {
             "lastname": "CIVIS",
@@ -157,7 +175,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 625
         },
         {
             "lastname": "RAMASSAMY",
@@ -168,7 +187,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1324
         },
         {
             "lastname": "PENCHARD",
@@ -179,7 +199,8 @@
             "party": "Guadeloupe unie, responsable et solidaire",
             "partyShort": "Guadeloupe unie, responsable et solidaire",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3154
         },
         {
             "lastname": "AVRIL",
@@ -189,7 +210,8 @@
             "nuanceComputed": "EELV",
             "party": "Europe Ecologie-Les Verts",
             "partyShort": "EELV",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 314
         },
         {
             "lastname": "HOUBLON",
@@ -200,7 +222,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 185
         }
     ]
 }

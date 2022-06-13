@@ -3,36 +3,47 @@
     "number": 8,
     "name": "Seine-Maritime",
     "results": {
-        "firstRound": {
-            "registered": 65385,
-            "voted": 43629,
-            "whites": 931,
-            "expressed": 42653,
-            "void": 45,
-            "candidates": {
-                "Nathalie Arthaud": 250,
-                "Fabien Roussel": 2198,
-                "Emmanuel Macron": 9378,
-                "Jean Lasalle": 726,
-                "Marine Le Pen": 10764,
-                "Jean-Luc Mélenchon": 13577,
-                "Anne Hidalgo": 565,
-                "Yannick Jadot": 1367,
-                "Valérie Pécresse": 986,
-                "Phillipe Poutou": 379,
-                "Nicolas Dupont-Aignan": 650,
-                "Eric Zemmour": 1813
+        "2017": {
+            "firstRound": {
+                "registered": 65385,
+                "voted": 43629,
+                "whites": 931,
+                "expressed": 42653,
+                "void": 45,
+                "candidates": {
+                    "Nathalie Arthaud": 250,
+                    "Fabien Roussel": 2198,
+                    "Emmanuel Macron": 9378,
+                    "Jean Lasalle": 726,
+                    "Marine Le Pen": 10764,
+                    "Jean-Luc Mélenchon": 13577,
+                    "Anne Hidalgo": 565,
+                    "Yannick Jadot": 1367,
+                    "Valérie Pécresse": 986,
+                    "Phillipe Poutou": 379,
+                    "Nicolas Dupont-Aignan": 650,
+                    "Eric Zemmour": 1813
+                }
+            },
+            "secondRound": {
+                "registered": 65418,
+                "voted": 41923,
+                "whites": 3981,
+                "expressed": 37698,
+                "void": 244,
+                "candidates": {
+                    "Emmanuel Macron": 21065,
+                    "Marine Le Pen": 16633
+                }
             }
         },
-        "secondRound": {
-            "registered": 65418,
-            "voted": 41923,
-            "whites": 3981,
-            "expressed": 37698,
-            "void": 244,
-            "candidates": {
-                "Emmanuel Macron": 21065,
-                "Marine Le Pen": 16633
+        "2022": {
+            "firstRound": {
+                "registered": 65773,
+                "voted": 25879,
+                "whites": 775,
+                "void": 23,
+                "expressed": 25081
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "PCF-Nupes",
             "party": "Parti communiste français",
             "partyShort": "PCF",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12227
         },
         {
             "lastname": "LE COZ",
@@ -93,7 +105,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4636
         },
         {
             "lastname": "CAUCHOIS",
@@ -104,7 +117,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 319
         },
         {
             "lastname": "ECHCHENNA",
@@ -115,7 +129,8 @@
             "party": "Horizons",
             "partyShort": "Horizons",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6120
         },
         {
             "lastname": "LEPRÊTRE",
@@ -126,7 +141,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 372
         },
         {
             "lastname": "DUCOEURJOLY",
@@ -136,7 +152,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 854
         },
         {
             "lastname": "LEGENDRE",
@@ -146,7 +163,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 553
         }
     ]
 }

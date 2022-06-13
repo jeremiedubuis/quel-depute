@@ -3,36 +3,47 @@
     "number": 7,
     "name": "Seine-et-Marne",
     "results": {
-        "firstRound": {
-            "registered": 87147,
-            "voted": 66615,
-            "whites": 1023,
-            "expressed": 65280,
-            "void": 312,
-            "candidates": {
-                "Nathalie Arthaud": 288,
-                "Fabien Roussel": 1567,
-                "Emmanuel Macron": 15585,
-                "Jean Lasalle": 1275,
-                "Marine Le Pen": 15602,
-                "Jean-Luc Mélenchon": 18244,
-                "Anne Hidalgo": 716,
-                "Yannick Jadot": 2349,
-                "Valérie Pécresse": 3112,
-                "Phillipe Poutou": 415,
-                "Nicolas Dupont-Aignan": 1230,
-                "Eric Zemmour": 4897
+        "2017": {
+            "firstRound": {
+                "registered": 87147,
+                "voted": 66615,
+                "whites": 1023,
+                "expressed": 65280,
+                "void": 312,
+                "candidates": {
+                    "Nathalie Arthaud": 288,
+                    "Fabien Roussel": 1567,
+                    "Emmanuel Macron": 15585,
+                    "Jean Lasalle": 1275,
+                    "Marine Le Pen": 15602,
+                    "Jean-Luc Mélenchon": 18244,
+                    "Anne Hidalgo": 716,
+                    "Yannick Jadot": 2349,
+                    "Valérie Pécresse": 3112,
+                    "Phillipe Poutou": 415,
+                    "Nicolas Dupont-Aignan": 1230,
+                    "Eric Zemmour": 4897
+                }
+            },
+            "secondRound": {
+                "registered": 87185,
+                "voted": 61645,
+                "whites": 4071,
+                "expressed": 56460,
+                "void": 1114,
+                "candidates": {
+                    "Emmanuel Macron": 32075,
+                    "Marine Le Pen": 24385
+                }
             }
         },
-        "secondRound": {
-            "registered": 87185,
-            "voted": 61645,
-            "whites": 4071,
-            "expressed": 56460,
-            "void": 1114,
-            "candidates": {
-                "Emmanuel Macron": 32075,
-                "Marine Le Pen": 24385
+        "2022": {
+            "firstRound": {
+                "registered": 87842,
+                "voted": 37588,
+                "whites": 685,
+                "void": 176,
+                "expressed": 36727
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "divers souverainistes",
             "partyShort": "divers souverainistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 188
         },
         {
             "lastname": "JAHIER",
@@ -94,7 +106,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3509
         },
         {
             "lastname": "KOKOUENDO",
@@ -104,7 +117,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 8823
         },
         {
             "lastname": "DAILLY",
@@ -115,7 +129,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 684
         },
         {
             "lastname": "BERNARD",
@@ -125,7 +140,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 8917
         },
         {
             "lastname": "FRIJA",
@@ -136,7 +152,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 564
         },
         {
             "lastname": "SOUDAIS",
@@ -146,7 +163,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 11338
         },
         {
             "lastname": "TROUSSARD",
@@ -156,7 +174,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1759
         },
         {
             "lastname": "GUILLARD",
@@ -166,7 +185,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 847
         },
         {
             "lastname": "BAKU MANDEDIBA",
@@ -177,7 +197,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 98
         }
     ]
 }

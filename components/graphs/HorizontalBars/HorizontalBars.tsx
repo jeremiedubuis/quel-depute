@@ -2,7 +2,7 @@ import styles from './HorizontalBars.module.css';
 import React, { ReactNode } from 'react';
 import { cn } from '$helpers/cn';
 
-type Line = { title: string; amounts: number[]; total: number; colors?: string[] };
+type Line = { title: ReactNode; amounts: number[]; total: number; colors?: string[] };
 type HorizontalBarsProps = {
     lines: Line[];
     className?: string;
@@ -30,7 +30,7 @@ export const HorizontalBars: React.FC<HorizontalBarsProps> = ({
                     const { title, amounts, total, colors: lineColors } = line;
                     const percentages = amounts.map((amount) => (amount / total) * 100);
                     return (
-                        <li key={title || i}>
+                        <li key={typeof title === 'string' ? title : i}>
                             {title && <div className={styles.title}>{title}</div>}
                             <div
                                 className={cn(

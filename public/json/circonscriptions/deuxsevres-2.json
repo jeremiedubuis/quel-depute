@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Deux-Sèvres",
     "results": {
-        "firstRound": {
-            "registered": 98007,
-            "voted": 76894,
-            "whites": 1359,
-            "expressed": 74597,
-            "void": 938,
-            "candidates": {
-                "Nathalie Arthaud": 655,
-                "Fabien Roussel": 1696,
-                "Emmanuel Macron": 22692,
-                "Jean Lasalle": 2779,
-                "Marine Le Pen": 18539,
-                "Jean-Luc Mélenchon": 14600,
-                "Anne Hidalgo": 1465,
-                "Yannick Jadot": 3418,
-                "Valérie Pécresse": 3067,
-                "Phillipe Poutou": 831,
-                "Nicolas Dupont-Aignan": 1619,
-                "Eric Zemmour": 3236
+        "2017": {
+            "firstRound": {
+                "registered": 98007,
+                "voted": 76894,
+                "whites": 1359,
+                "expressed": 74597,
+                "void": 938,
+                "candidates": {
+                    "Nathalie Arthaud": 655,
+                    "Fabien Roussel": 1696,
+                    "Emmanuel Macron": 22692,
+                    "Jean Lasalle": 2779,
+                    "Marine Le Pen": 18539,
+                    "Jean-Luc Mélenchon": 14600,
+                    "Anne Hidalgo": 1465,
+                    "Yannick Jadot": 3418,
+                    "Valérie Pécresse": 3067,
+                    "Phillipe Poutou": 831,
+                    "Nicolas Dupont-Aignan": 1619,
+                    "Eric Zemmour": 3236
+                }
+            },
+            "secondRound": {
+                "registered": 98023,
+                "voted": 75070,
+                "whites": 5100,
+                "expressed": 67845,
+                "void": 2125,
+                "candidates": {
+                    "Emmanuel Macron": 39857,
+                    "Marine Le Pen": 27988
+                }
             }
         },
-        "secondRound": {
-            "registered": 98023,
-            "voted": 75070,
-            "whites": 5100,
-            "expressed": 67845,
-            "void": 2125,
-            "candidates": {
-                "Emmanuel Macron": 39857,
-                "Marine Le Pen": 27988
+        "2022": {
+            "firstRound": {
+                "registered": 98306,
+                "voted": 49319,
+                "whites": 856,
+                "void": 425,
+                "expressed": 48038
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 748
         },
         {
             "lastname": "JOSEPH",
@@ -95,7 +107,8 @@
             "party": "dissident PS hors accord Nupes",
             "partyShort": "dissident PS hors accord Nupes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3492
         },
         {
             "lastname": "SAINTY",
@@ -105,7 +118,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1389
         },
         {
             "lastname": "BAUDREZ",
@@ -115,7 +129,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3048
         },
         {
             "lastname": "REVERS",
@@ -125,7 +140,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9328
         },
         {
             "lastname": "GORIZZUTTI",
@@ -136,7 +152,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 507
         },
         {
             "lastname": "BATHO",
@@ -147,7 +164,8 @@
             "party": "Génération écologie",
             "partyShort": "Génération écologie",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 17477
         },
         {
             "lastname": "ROCHEFORT",
@@ -157,7 +175,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12049
         }
     ]
 }

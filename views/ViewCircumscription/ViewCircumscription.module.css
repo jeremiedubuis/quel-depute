@@ -1,5 +1,14 @@
 
 
+h2.title {
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+    padding: 10px 20px;
+    background: var(--color-primary);
+    color: var(--color-primary-text);
+    margin-top: 80px;
+}
+
 div.candidate {
     padding: 0 0 20px;
 }
@@ -29,9 +38,36 @@ div.candidate {
     margin-left: 5px;
 }
 
+.stats span {
+    font-size: var(--font-size-small);
+    color: var(--color-low);
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results .name {
+    font-weight: bold;
+}
+
+.results li div {
+    font-size: var(--font-size-medium)
+}
+
+.results li {
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.results li > div:last-of-type {
+    display: none;
+}
+
+
 
 @media screen and (min-width: 768px) {
-
 
     .header nav li + li {
         margin-left: 25px;
@@ -43,6 +79,11 @@ div.candidate {
 }
 
 @media screen and (min-width: 1024px) {
+
+
+    .results li > div:last-of-type {
+        display: block;
+    }
 
     .detailsButton {
         margin-top: 40px;

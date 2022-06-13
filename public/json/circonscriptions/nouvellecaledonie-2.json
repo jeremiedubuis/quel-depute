@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Nouvelle-Calédonie",
     "results": {
-        "firstRound": {
-            "registered": 122011,
-            "voted": 38036,
-            "whites": 1013,
-            "expressed": 36553,
-            "void": 470,
-            "candidates": {
-                "Nathalie Arthaud": 356,
-                "Fabien Roussel": 205,
-                "Emmanuel Macron": 14367,
-                "Jean Lasalle": 502,
-                "Marine Le Pen": 7561,
-                "Jean-Luc Mélenchon": 5513,
-                "Anne Hidalgo": 492,
-                "Yannick Jadot": 754,
-                "Valérie Pécresse": 2269,
-                "Phillipe Poutou": 333,
-                "Nicolas Dupont-Aignan": 1369,
-                "Eric Zemmour": 2832
+        "2017": {
+            "firstRound": {
+                "registered": 122011,
+                "voted": 38036,
+                "whites": 1013,
+                "expressed": 36553,
+                "void": 470,
+                "candidates": {
+                    "Nathalie Arthaud": 356,
+                    "Fabien Roussel": 205,
+                    "Emmanuel Macron": 14367,
+                    "Jean Lasalle": 502,
+                    "Marine Le Pen": 7561,
+                    "Jean-Luc Mélenchon": 5513,
+                    "Anne Hidalgo": 492,
+                    "Yannick Jadot": 754,
+                    "Valérie Pécresse": 2269,
+                    "Phillipe Poutou": 333,
+                    "Nicolas Dupont-Aignan": 1369,
+                    "Eric Zemmour": 2832
+                }
+            },
+            "secondRound": {
+                "registered": 121965,
+                "voted": 40406,
+                "whites": 1612,
+                "expressed": 37961,
+                "void": 833,
+                "candidates": {
+                    "Emmanuel Macron": 22220,
+                    "Marine Le Pen": 15741
+                }
             }
         },
-        "secondRound": {
-            "registered": 121965,
-            "voted": 40406,
-            "whites": 1612,
-            "expressed": 37961,
-            "void": 833,
-            "candidates": {
-                "Emmanuel Macron": 22220,
-                "Marine Le Pen": 15741
+        "2022": {
+            "firstRound": {
+                "registered": 122234,
+                "voted": 41189,
+                "whites": 653,
+                "void": 334,
+                "expressed": 40202
             }
         }
     },
@@ -85,7 +96,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 192
         },
         {
             "lastname": "MILLAR",
@@ -96,7 +108,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 120
         },
         {
             "lastname": "DESCOMBELS",
@@ -106,7 +119,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1601
         },
         {
             "lastname": "SANTA",
@@ -116,7 +130,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 8760
         },
         {
             "lastname": "HOMBOE",
@@ -127,7 +142,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1014
         },
         {
             "lastname": "PAGAND",
@@ -138,7 +154,8 @@
             "party": "Debout la France",
             "partyShort": "DLF",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 428
         },
         {
             "lastname": "REIGNIER",
@@ -149,7 +166,8 @@
             "party": "Front de libération nationale kanak et socialiste",
             "partyShort": "Front de libération nationale kanak et socialiste",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13175
         },
         {
             "lastname": "HAOCAS",
@@ -160,7 +178,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1362
         },
         {
             "lastname": "METZDORF",
@@ -171,7 +190,8 @@
             "party": "Union loyaliste",
             "partyShort": "Union loyaliste",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13550
         }
     ]
 }

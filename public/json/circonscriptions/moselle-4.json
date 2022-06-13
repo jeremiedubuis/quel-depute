@@ -3,36 +3,47 @@
     "number": 4,
     "name": "Moselle",
     "results": {
-        "firstRound": {
-            "registered": 80854,
-            "voted": 61533,
-            "whites": 936,
-            "expressed": 60164,
-            "void": 433,
-            "candidates": {
-                "Nathalie Arthaud": 482,
-                "Fabien Roussel": 833,
-                "Emmanuel Macron": 14216,
-                "Jean Lasalle": 2229,
-                "Marine Le Pen": 21993,
-                "Jean-Luc Mélenchon": 7709,
-                "Anne Hidalgo": 813,
-                "Yannick Jadot": 1905,
-                "Valérie Pécresse": 2860,
-                "Phillipe Poutou": 500,
-                "Nicolas Dupont-Aignan": 2004,
-                "Eric Zemmour": 4620
+        "2017": {
+            "firstRound": {
+                "registered": 80854,
+                "voted": 61533,
+                "whites": 936,
+                "expressed": 60164,
+                "void": 433,
+                "candidates": {
+                    "Nathalie Arthaud": 482,
+                    "Fabien Roussel": 833,
+                    "Emmanuel Macron": 14216,
+                    "Jean Lasalle": 2229,
+                    "Marine Le Pen": 21993,
+                    "Jean-Luc Mélenchon": 7709,
+                    "Anne Hidalgo": 813,
+                    "Yannick Jadot": 1905,
+                    "Valérie Pécresse": 2860,
+                    "Phillipe Poutou": 500,
+                    "Nicolas Dupont-Aignan": 2004,
+                    "Eric Zemmour": 4620
+                }
+            },
+            "secondRound": {
+                "registered": 80878,
+                "voted": 62081,
+                "whites": 3252,
+                "expressed": 57805,
+                "void": 1024,
+                "candidates": {
+                    "Emmanuel Macron": 24643,
+                    "Marine Le Pen": 33162
+                }
             }
         },
-        "secondRound": {
-            "registered": 80878,
-            "voted": 62081,
-            "whites": 3252,
-            "expressed": 57805,
-            "void": 1024,
-            "candidates": {
-                "Emmanuel Macron": 24643,
-                "Marine Le Pen": 33162
+        "2022": {
+            "firstRound": {
+                "registered": 80994,
+                "voted": 37678,
+                "whites": 537,
+                "void": 140,
+                "expressed": 37001
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4973
         },
         {
             "lastname": "GIRARDOT",
@@ -93,7 +105,8 @@
             "nuanceComputed": "PCF-Nupes",
             "party": "Parti communiste français",
             "partyShort": "PCF",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4912
         },
         {
             "lastname": "VILAIN",
@@ -104,7 +117,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 568
         },
         {
             "lastname": "BAUD-BERTHIER",
@@ -115,7 +129,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 354
         },
         {
             "lastname": "KONARSKI",
@@ -125,7 +140,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1158
         },
         {
             "lastname": "DI FILIPPO",
@@ -135,7 +151,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 17014
         },
         {
             "lastname": "VAN DER STRAETEN",
@@ -146,7 +163,8 @@
             "party": "divers souverainistes",
             "partyShort": "divers souverainistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 169
         },
         {
             "lastname": "RAMBOUR",
@@ -156,7 +174,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7853
         }
     ]
 }

@@ -3,36 +3,47 @@
     "number": 3,
     "name": "Aisne",
     "results": {
-        "firstRound": {
-            "registered": 66580,
-            "voted": 49222,
-            "whites": 699,
-            "expressed": 48125,
-            "void": 398,
-            "candidates": {
-                "Nathalie Arthaud": 358,
-                "Fabien Roussel": 1005,
-                "Emmanuel Macron": 9958,
-                "Jean Lasalle": 1364,
-                "Marine Le Pen": 21462,
-                "Jean-Luc Mélenchon": 6127,
-                "Anne Hidalgo": 597,
-                "Yannick Jadot": 849,
-                "Valérie Pécresse": 1862,
-                "Phillipe Poutou": 376,
-                "Nicolas Dupont-Aignan": 1089,
-                "Eric Zemmour": 3078
+        "2017": {
+            "firstRound": {
+                "registered": 66580,
+                "voted": 49222,
+                "whites": 699,
+                "expressed": 48125,
+                "void": 398,
+                "candidates": {
+                    "Nathalie Arthaud": 358,
+                    "Fabien Roussel": 1005,
+                    "Emmanuel Macron": 9958,
+                    "Jean Lasalle": 1364,
+                    "Marine Le Pen": 21462,
+                    "Jean-Luc Mélenchon": 6127,
+                    "Anne Hidalgo": 597,
+                    "Yannick Jadot": 849,
+                    "Valérie Pécresse": 1862,
+                    "Phillipe Poutou": 376,
+                    "Nicolas Dupont-Aignan": 1089,
+                    "Eric Zemmour": 3078
+                }
+            },
+            "secondRound": {
+                "registered": 66577,
+                "voted": 50271,
+                "whites": 2112,
+                "expressed": 47123,
+                "void": 1036,
+                "candidates": {
+                    "Emmanuel Macron": 16281,
+                    "Marine Le Pen": 30842
+                }
             }
         },
-        "secondRound": {
-            "registered": 66577,
-            "voted": 50271,
-            "whites": 2112,
-            "expressed": 47123,
-            "void": 1036,
-            "candidates": {
-                "Emmanuel Macron": 16281,
-                "Marine Le Pen": 30842
+        "2022": {
+            "firstRound": {
+                "registered": 66709,
+                "voted": 30335,
+                "whites": 626,
+                "void": 248,
+                "expressed": 29461
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 762
         },
         {
             "lastname": "BERNARDEAU",
@@ -94,7 +106,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1617
         },
         {
             "lastname": "HANSEN-CATTA",
@@ -104,7 +117,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9518
         },
         {
             "lastname": "MOINEUSE",
@@ -114,7 +128,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3584
         },
         {
             "lastname": "BRICOUT",
@@ -124,7 +139,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13518
         },
         {
             "lastname": "CHOTIN",
@@ -135,7 +151,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 462
         }
     ]
 }

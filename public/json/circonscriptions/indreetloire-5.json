@@ -3,36 +3,47 @@
     "number": 5,
     "name": "Indre-et-Loire",
     "results": {
-        "firstRound": {
-            "registered": 86732,
-            "voted": 67079,
-            "whites": 1105,
-            "expressed": 65620,
-            "void": 354,
-            "candidates": {
-                "Nathalie Arthaud": 421,
-                "Fabien Roussel": 1454,
-                "Emmanuel Macron": 20621,
-                "Jean Lasalle": 1685,
-                "Marine Le Pen": 15540,
-                "Jean-Luc Mélenchon": 11534,
-                "Anne Hidalgo": 1194,
-                "Yannick Jadot": 3174,
-                "Valérie Pécresse": 3551,
-                "Phillipe Poutou": 501,
-                "Nicolas Dupont-Aignan": 1472,
-                "Eric Zemmour": 4473
+        "2017": {
+            "firstRound": {
+                "registered": 86732,
+                "voted": 67079,
+                "whites": 1105,
+                "expressed": 65620,
+                "void": 354,
+                "candidates": {
+                    "Nathalie Arthaud": 421,
+                    "Fabien Roussel": 1454,
+                    "Emmanuel Macron": 20621,
+                    "Jean Lasalle": 1685,
+                    "Marine Le Pen": 15540,
+                    "Jean-Luc Mélenchon": 11534,
+                    "Anne Hidalgo": 1194,
+                    "Yannick Jadot": 3174,
+                    "Valérie Pécresse": 3551,
+                    "Phillipe Poutou": 501,
+                    "Nicolas Dupont-Aignan": 1472,
+                    "Eric Zemmour": 4473
+                }
+            },
+            "secondRound": {
+                "registered": 86768,
+                "voted": 66890,
+                "whites": 4292,
+                "expressed": 61066,
+                "void": 1532,
+                "candidates": {
+                    "Emmanuel Macron": 36738,
+                    "Marine Le Pen": 24328
+                }
             }
         },
-        "secondRound": {
-            "registered": 86768,
-            "voted": 66890,
-            "whites": 4292,
-            "expressed": 61066,
-            "void": 1532,
-            "candidates": {
-                "Emmanuel Macron": 36738,
-                "Marine Le Pen": 24328
+        "2022": {
+            "firstRound": {
+                "registered": 87110,
+                "voted": 43947,
+                "whites": 639,
+                "void": 276,
+                "expressed": 43032
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 771
         },
         {
             "lastname": "GIRARDIN",
@@ -95,7 +107,8 @@
             "party": "divers écologistes",
             "partyShort": "divers écologistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2771
         },
         {
             "lastname": "BOIGARD",
@@ -105,7 +118,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 5788
         },
         {
             "lastname": "JULIEN",
@@ -115,7 +129,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2191
         },
         {
             "lastname": "COUSIN HAMELAL",
@@ -125,7 +140,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 619
         },
         {
             "lastname": "MARTINEZ",
@@ -136,7 +152,8 @@
             "party": "Mouvement de la ruralité",
             "partyShort": "Mouvement de la ruralité",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 941
         },
         {
             "lastname": "LOUISIN",
@@ -146,7 +163,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9069
         },
         {
             "lastname": "THILLAYE",
@@ -156,7 +174,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12543
         },
         {
             "lastname": "DESMARES LANGLADE",
@@ -166,7 +185,8 @@
             "nuanceComputed": "PCF-Nupes",
             "party": "Parti communiste français",
             "partyShort": "PCF",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 8339
         }
     ]
 }

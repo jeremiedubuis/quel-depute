@@ -1,5 +1,6 @@
 import circumscriptionsFirstRound from '../data/circumscription_results_1st_round.json';
 import circumscriptionsSecondRound from '../data/circumscription_results_2nd_round.json';
+import circumscriptionsFirstRound2022 from '../data/2022_circumscription_results_1st_round.json';
 import candidates from '../data/candidates.json';
 import { writeFile } from '$helpers/writeFile';
 import { circonscriptionJSONPath, deputeJSONPath } from '../config';
@@ -106,25 +107,50 @@ const consolidate = async () => {
         const number = parseInt(c.circumscription.toString());
         const slug = slugify(`${c.county} ${number}`);
 
+        const resultsFirstRound = circumscriptionsFirstRound2022.find((r) => {
+            return r.countyId.toString().replace(/^0+/, '') === (_countyId === '999' ? '99' : _countyId) && r.circumscription === _circumscription
+        });
+
+        if (!resultsFirstRound) console.log(_countyId, _circumscription)
+
+
+
         const circumscription = {
             countyId: _countyId,
             number,
             name: c.county,
             results: {
-                firstRound: mapCircumscriptionResults(c),
-                secondRound: mapCircumscriptionResults(circumscriptionsSecondRound[i])
+                '2017': {
+                    firstRound: mapCircumscriptionResults(c),
+                    secondRound: mapCircumscriptionResults(circumscriptionsSecondRound[i]),
+                },
+                '2022': {
+                    firstRound: {
+                        registered: resultsFirstRound.Inscrits,
+                        voted: resultsFirstRound.Votants,
+                        whites: resultsFirstRound.Blancs,
+                        void: resultsFirstRound.Nuls,
+                        expressed: resultsFirstRound.Exprimes
+                    },
+                }
             },
             current: deputes.find(
                 (d) =>
                     d.countyId.toString().replace(/^0+/, '') === _countyId &&
                     parseInt(d.circumscription) === number
             ),
-            candidates: _candidates.map(({ p, ...c }) => ({
-                ...c,
-                ...partyToPartyShortAndImage(c.party),
-                candidate: true
-            }))
+            candidates: _candidates.map(({ p, ...c }) => {
+                const _results = resultsFirstRound.votes.find(r => slugifyNames(r.firstname, r.lastname) === slugifyNames(c.firstname, c.lastname));
+
+                return ({
+                    ...c,
+                    ...partyToPartyShortAndImage(c.party),
+                    candidate: true,
+                    firstRound: _results?.NbVoix
+                })
+            })
         };
+
 
         await writeFile(
             path.join(circonscriptionJSONPath, slug + '.json'),

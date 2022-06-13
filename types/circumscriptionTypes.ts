@@ -1,4 +1,4 @@
-import { BaseDepute, Depute } from '$types/deputeTypes';
+import { Candidate, Depute} from '$types/deputeTypes';
 
 type ElectionsRound = {
     expressed: number;
@@ -6,17 +6,23 @@ type ElectionsRound = {
     voted: number;
     whites: number;
     void: number;
-    candidates: { [name: string]: number }[];
 };
+
+type ElectionsRound2017 = ElectionsRound & { candidates: { [name: string]: number }[]; }
 
 export type CircumscriptionType = {
     countyId: number;
     number: number;
     name: string;
     current: Depute;
-    candidates: BaseDepute[];
+    candidates: Candidate[];
     results: {
-        firstRound: ElectionsRound;
-        secondRound: ElectionsRound;
+        '2017': {
+            firstRound: ElectionsRound2017;
+            secondRound: ElectionsRound2017;
+        },
+        '2022': {
+            firstRound: ElectionsRound;
+        }
     };
 };

@@ -6,6 +6,7 @@ import { BaseDepute, Candidate, Depute } from '$types/deputeTypes';
 import { DeputeBlockCircumscription } from '$components/depute/DeputeBlock/DeputeBlockCircumscription';
 import { cn } from '$helpers/cn';
 import { colors, groups } from '$components/depute/DeputeBlock/colors';
+import {NuanceBlock} from "$components/depute/DeputeBlock/NuanceBlock";
 
 const isCandidate = (d: Candidate | BaseDepute | Depute): d is Candidate => {
     return !!(d as Candidate).candidate;
@@ -21,7 +22,6 @@ export const DeputeBlock: React.FC<{
     className?: string;
     noPicture?: boolean;
     showGroup?: boolean;
-    isTitle?: boolean;
 }> = ({
     depute,
     isLink,
@@ -31,9 +31,9 @@ export const DeputeBlock: React.FC<{
     isLinkToCircumscription,
     className,
     noPicture,
-    showGroup,
-    isTitle
+    showGroup
 }) => {
+
     const content = (
         <>
             {!noPicture && (
@@ -52,24 +52,7 @@ export const DeputeBlock: React.FC<{
             </TitleTag>
             {!noCounty && <DeputeBlockCircumscription depute={depute as BaseDepute} />}
             {isCandidate(depute) && !showGroup ? (
-                <>
-                    {depute.party && (
-                        <>
-                            {groups[depute.nuanceComputed] && (
-                                <div className={styles.grouping}>
-                                    {groups[depute.nuanceComputed]}
-                                </div>
-                            )}
-                            <div
-                                className={styles.parti}
-                                style={{ background: colors[depute.nuanceComputed] }}
-                            >
-                                {' '}
-                                {depute.party}
-                            </div>
-                        </>
-                    )}
-                </>
+                <NuanceBlock candidate={depute} />
             ) : depute.noPartyImage ? (
                 <div className={styles.parti} style={{ background: colors[depute.party] }}>
                     {depute.party}

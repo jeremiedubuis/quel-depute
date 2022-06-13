@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Polynésie française",
     "results": {
-        "firstRound": {
-            "registered": 71957,
-            "voted": 26264,
-            "whites": 551,
-            "expressed": 24560,
-            "void": 1153,
-            "candidates": {
-                "Nathalie Arthaud": 310,
-                "Fabien Roussel": 125,
-                "Emmanuel Macron": 11014,
-                "Jean Lasalle": 240,
-                "Marine Le Pen": 4397,
-                "Jean-Luc Mélenchon": 2862,
-                "Anne Hidalgo": 317,
-                "Yannick Jadot": 874,
-                "Valérie Pécresse": 1824,
-                "Phillipe Poutou": 165,
-                "Nicolas Dupont-Aignan": 722,
-                "Eric Zemmour": 1710
+        "2017": {
+            "firstRound": {
+                "registered": 71957,
+                "voted": 26264,
+                "whites": 551,
+                "expressed": 24560,
+                "void": 1153,
+                "candidates": {
+                    "Nathalie Arthaud": 310,
+                    "Fabien Roussel": 125,
+                    "Emmanuel Macron": 11014,
+                    "Jean Lasalle": 240,
+                    "Marine Le Pen": 4397,
+                    "Jean-Luc Mélenchon": 2862,
+                    "Anne Hidalgo": 317,
+                    "Yannick Jadot": 874,
+                    "Valérie Pécresse": 1824,
+                    "Phillipe Poutou": 165,
+                    "Nicolas Dupont-Aignan": 722,
+                    "Eric Zemmour": 1710
+                }
+            },
+            "secondRound": {
+                "registered": 71945,
+                "voted": 33965,
+                "whites": 890,
+                "expressed": 32449,
+                "void": 626,
+                "candidates": {
+                    "Emmanuel Macron": 18269,
+                    "Marine Le Pen": 14180
+                }
             }
         },
-        "secondRound": {
-            "registered": 71945,
-            "voted": 33965,
-            "whites": 890,
-            "expressed": 32449,
-            "void": 626,
-            "candidates": {
-                "Emmanuel Macron": 18269,
-                "Marine Le Pen": 14180
+        "2022": {
+            "firstRound": {
+                "registered": 72176,
+                "voted": 31481,
+                "whites": 277,
+                "void": 248,
+                "expressed": 30956
             }
         }
     },
@@ -84,7 +95,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 533
         },
         {
             "lastname": "BOUTEAU",
@@ -95,7 +107,8 @@
             "party": "Tapura huiraatira",
             "partyShort": "TH",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12970
         },
         {
             "lastname": "BRYANT",
@@ -106,7 +119,8 @@
             "party": "divers écologistes",
             "partyShort": "divers écologistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1003
         },
         {
             "lastname": "THERON",
@@ -117,7 +131,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 747
         },
         {
             "lastname": "CADOUSTEAU",
@@ -128,7 +143,8 @@
             "party": "divers souverainistes",
             "partyShort": "divers souverainistes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 85
         },
         {
             "lastname": "TOKORAGI",
@@ -139,7 +155,8 @@
             "party": "divers extrême droite",
             "partyShort": "divers extrême droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2980
         },
         {
             "lastname": "NENA",
@@ -150,7 +167,8 @@
             "party": "divers extrême droite",
             "partyShort": "divers extrême droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1961
         },
         {
             "lastname": "LE GAYIC",
@@ -161,7 +179,8 @@
             "party": "Tavini Huira'atira",
             "partyShort": "FLP",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6223
         },
         {
             "lastname": "HAITI",
@@ -172,7 +191,8 @@
             "party": "Amuitahira'a o te Nuna'a Ma'ohi",
             "partyShort": "Amuitahira'a o te Nuna'a Ma'ohi",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4454
         }
     ]
 }

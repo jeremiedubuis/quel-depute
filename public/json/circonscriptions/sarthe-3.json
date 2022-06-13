@@ -3,36 +3,47 @@
     "number": 3,
     "name": "Sarthe",
     "results": {
-        "firstRound": {
-            "registered": 86479,
-            "voted": 64740,
-            "whites": 1266,
-            "expressed": 62858,
-            "void": 616,
-            "candidates": {
-                "Nathalie Arthaud": 492,
-                "Fabien Roussel": 1450,
-                "Emmanuel Macron": 16542,
-                "Jean Lasalle": 1777,
-                "Marine Le Pen": 20074,
-                "Jean-Luc Mélenchon": 10293,
-                "Anne Hidalgo": 1081,
-                "Yannick Jadot": 2312,
-                "Valérie Pécresse": 3203,
-                "Phillipe Poutou": 571,
-                "Nicolas Dupont-Aignan": 1547,
-                "Eric Zemmour": 3516
+        "2017": {
+            "firstRound": {
+                "registered": 86479,
+                "voted": 64740,
+                "whites": 1266,
+                "expressed": 62858,
+                "void": 616,
+                "candidates": {
+                    "Nathalie Arthaud": 492,
+                    "Fabien Roussel": 1450,
+                    "Emmanuel Macron": 16542,
+                    "Jean Lasalle": 1777,
+                    "Marine Le Pen": 20074,
+                    "Jean-Luc Mélenchon": 10293,
+                    "Anne Hidalgo": 1081,
+                    "Yannick Jadot": 2312,
+                    "Valérie Pécresse": 3203,
+                    "Phillipe Poutou": 571,
+                    "Nicolas Dupont-Aignan": 1547,
+                    "Eric Zemmour": 3516
+                }
+            },
+            "secondRound": {
+                "registered": 86460,
+                "voted": 65404,
+                "whites": 4173,
+                "expressed": 59593,
+                "void": 1638,
+                "candidates": {
+                    "Emmanuel Macron": 29396,
+                    "Marine Le Pen": 30197
+                }
             }
         },
-        "secondRound": {
-            "registered": 86460,
-            "voted": 65404,
-            "whites": 4173,
-            "expressed": 59593,
-            "void": 1638,
-            "candidates": {
-                "Emmanuel Macron": 29396,
-                "Marine Le Pen": 30197
+        "2022": {
+            "firstRound": {
+                "registered": 86562,
+                "voted": 39863,
+                "whites": 838,
+                "void": 365,
+                "expressed": 38660
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1347
         },
         {
             "lastname": "LELOUP",
@@ -93,7 +105,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 8193
         },
         {
             "lastname": "POISSON",
@@ -104,7 +117,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 828
         },
         {
             "lastname": "BRUTOUT",
@@ -115,7 +129,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 669
         },
         {
             "lastname": "LATOUCHE",
@@ -125,7 +140,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4439
         },
         {
             "lastname": "BRANCHU",
@@ -136,7 +152,8 @@
             "party": "dissident PS hors accord Nupes",
             "partyShort": "dissident PS hors accord Nupes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2362
         },
         {
             "lastname": "PINÇON",
@@ -146,7 +163,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10570
         },
         {
             "lastname": "MARTINEAU",
@@ -156,7 +174,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10071
         },
         {
             "lastname": "NOËL",
@@ -167,7 +186,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 181
         }
     ]
 }

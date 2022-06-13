@@ -3,36 +3,47 @@
     "number": 8,
     "name": "Essonne",
     "results": {
-        "firstRound": {
-            "registered": 75803,
-            "voted": 56434,
-            "whites": 797,
-            "expressed": 55318,
-            "void": 319,
-            "candidates": {
-                "Nathalie Arthaud": 223,
-                "Fabien Roussel": 1153,
-                "Emmanuel Macron": 14665,
-                "Jean Lasalle": 928,
-                "Marine Le Pen": 8789,
-                "Jean-Luc Mélenchon": 15459,
-                "Anne Hidalgo": 734,
-                "Yannick Jadot": 2795,
-                "Valérie Pécresse": 2817,
-                "Phillipe Poutou": 370,
-                "Nicolas Dupont-Aignan": 3540,
-                "Eric Zemmour": 3845
+        "2017": {
+            "firstRound": {
+                "registered": 75803,
+                "voted": 56434,
+                "whites": 797,
+                "expressed": 55318,
+                "void": 319,
+                "candidates": {
+                    "Nathalie Arthaud": 223,
+                    "Fabien Roussel": 1153,
+                    "Emmanuel Macron": 14665,
+                    "Jean Lasalle": 928,
+                    "Marine Le Pen": 8789,
+                    "Jean-Luc Mélenchon": 15459,
+                    "Anne Hidalgo": 734,
+                    "Yannick Jadot": 2795,
+                    "Valérie Pécresse": 2817,
+                    "Phillipe Poutou": 370,
+                    "Nicolas Dupont-Aignan": 3540,
+                    "Eric Zemmour": 3845
+                }
+            },
+            "secondRound": {
+                "registered": 75816,
+                "voted": 52170,
+                "whites": 3580,
+                "expressed": 47508,
+                "void": 1082,
+                "candidates": {
+                    "Emmanuel Macron": 31328,
+                    "Marine Le Pen": 16180
+                }
             }
         },
-        "secondRound": {
-            "registered": 75816,
-            "voted": 52170,
-            "whites": 3580,
-            "expressed": 47508,
-            "void": 1082,
-            "candidates": {
-                "Emmanuel Macron": 31328,
-                "Marine Le Pen": 16180
+        "2022": {
+            "firstRound": {
+                "registered": 75975,
+                "voted": 36019,
+                "whites": 452,
+                "void": 161,
+                "expressed": 35406
             }
         }
     },
@@ -84,7 +95,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7929
         },
         {
             "lastname": "DUPONT-AIGNAN",
@@ -95,7 +107,8 @@
             "party": "Debout la France",
             "partyShort": "DLF",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 11803
         },
         {
             "lastname": "CHAZETTE-GUILLET",
@@ -105,7 +118,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10799
         },
         {
             "lastname": "DOHIN",
@@ -115,7 +129,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3551
         },
         {
             "lastname": "GUIGUET",
@@ -126,7 +141,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 228
         },
         {
             "lastname": "JACOB",
@@ -136,7 +152,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 759
         },
         {
             "lastname": "DUBOULAY",
@@ -147,7 +164,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 337
         }
     ]
 }

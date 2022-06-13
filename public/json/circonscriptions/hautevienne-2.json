@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Haute-Vienne",
     "results": {
-        "firstRound": {
-            "registered": 97835,
-            "voted": 78609,
-            "whites": 1464,
-            "expressed": 76146,
-            "void": 999,
-            "candidates": {
-                "Nathalie Arthaud": 531,
-                "Fabien Roussel": 3064,
-                "Emmanuel Macron": 20553,
-                "Jean Lasalle": 4237,
-                "Marine Le Pen": 17561,
-                "Jean-Luc Mélenchon": 15242,
-                "Anne Hidalgo": 2099,
-                "Yannick Jadot": 2912,
-                "Valérie Pécresse": 3859,
-                "Phillipe Poutou": 679,
-                "Nicolas Dupont-Aignan": 1412,
-                "Eric Zemmour": 3997
+        "2017": {
+            "firstRound": {
+                "registered": 97835,
+                "voted": 78609,
+                "whites": 1464,
+                "expressed": 76146,
+                "void": 999,
+                "candidates": {
+                    "Nathalie Arthaud": 531,
+                    "Fabien Roussel": 3064,
+                    "Emmanuel Macron": 20553,
+                    "Jean Lasalle": 4237,
+                    "Marine Le Pen": 17561,
+                    "Jean-Luc Mélenchon": 15242,
+                    "Anne Hidalgo": 2099,
+                    "Yannick Jadot": 2912,
+                    "Valérie Pécresse": 3859,
+                    "Phillipe Poutou": 679,
+                    "Nicolas Dupont-Aignan": 1412,
+                    "Eric Zemmour": 3997
+                }
+            },
+            "secondRound": {
+                "registered": 97833,
+                "voted": 75672,
+                "whites": 6126,
+                "expressed": 66131,
+                "void": 3415,
+                "candidates": {
+                    "Emmanuel Macron": 38286,
+                    "Marine Le Pen": 27845
+                }
             }
         },
-        "secondRound": {
-            "registered": 97833,
-            "voted": 75672,
-            "whites": 6126,
-            "expressed": 66131,
-            "void": 3415,
-            "candidates": {
-                "Emmanuel Macron": 38286,
-                "Marine Le Pen": 27845
+        "2022": {
+            "firstRound": {
+                "registered": 98167,
+                "voted": 53796,
+                "whites": 1303,
+                "void": 830,
+                "expressed": 51663
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 18381
         },
         {
             "lastname": "BOST",
@@ -93,7 +105,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3962
         },
         {
             "lastname": "ROUSSIE",
@@ -104,7 +117,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 962
         },
         {
             "lastname": "MINGUET",
@@ -114,7 +128,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 10244
         },
         {
             "lastname": "CARRE",
@@ -124,7 +139,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1920
         },
         {
             "lastname": "COGNERAS",
@@ -135,7 +151,8 @@
             "party": "Parti occitan",
             "partyShort": "Parti occitan",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 606
         },
         {
             "lastname": "BONNET",
@@ -146,7 +163,8 @@
             "party": "dissident La République en marche",
             "partyShort": "dissident La République en marche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6080
         },
         {
             "lastname": "GENDARME",
@@ -157,7 +175,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1551
         },
         {
             "lastname": "ZAITER",
@@ -167,7 +186,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7957
         }
     ]
 }

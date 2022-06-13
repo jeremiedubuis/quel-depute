@@ -29,6 +29,7 @@ export type Candidate = {
     county: string;
     circumscription: number;
     candidate: boolean;
+    firstRound: number;
 };
 
 export type VoteValue = 'Absent' | 'Pour' | 'Contre' | 'Abstention' | 'Non-votant';

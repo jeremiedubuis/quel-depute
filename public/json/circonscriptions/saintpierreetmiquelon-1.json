@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Saint-Pierre-et-Miquelon",
     "results": {
-        "firstRound": {
-            "registered": 5045,
-            "voted": 2773,
-            "whites": 47,
-            "expressed": 2701,
-            "void": 25,
-            "candidates": {
-                "Nathalie Arthaud": 22,
-                "Fabien Roussel": 19,
-                "Emmanuel Macron": 534,
-                "Jean Lasalle": 108,
-                "Marine Le Pen": 459,
-                "Jean-Luc Mélenchon": 1105,
-                "Anne Hidalgo": 75,
-                "Yannick Jadot": 116,
-                "Valérie Pécresse": 51,
-                "Phillipe Poutou": 50,
-                "Nicolas Dupont-Aignan": 82,
-                "Eric Zemmour": 80
+        "2017": {
+            "firstRound": {
+                "registered": 5045,
+                "voted": 2773,
+                "whites": 47,
+                "expressed": 2701,
+                "void": 25,
+                "candidates": {
+                    "Nathalie Arthaud": 22,
+                    "Fabien Roussel": 19,
+                    "Emmanuel Macron": 534,
+                    "Jean Lasalle": 108,
+                    "Marine Le Pen": 459,
+                    "Jean-Luc Mélenchon": 1105,
+                    "Anne Hidalgo": 75,
+                    "Yannick Jadot": 116,
+                    "Valérie Pécresse": 51,
+                    "Phillipe Poutou": 50,
+                    "Nicolas Dupont-Aignan": 82,
+                    "Eric Zemmour": 80
+                }
+            },
+            "secondRound": {
+                "registered": 5043,
+                "voted": 2879,
+                "whites": 219,
+                "expressed": 2521,
+                "void": 139,
+                "candidates": {
+                    "Emmanuel Macron": 1243,
+                    "Marine Le Pen": 1278
+                }
             }
         },
-        "secondRound": {
-            "registered": 5043,
-            "voted": 2879,
-            "whites": 219,
-            "expressed": 2521,
-            "void": 139,
-            "candidates": {
-                "Emmanuel Macron": 1243,
-                "Marine Le Pen": 1278
+        "2022": {
+            "firstRound": {
+                "registered": 5053,
+                "voted": 2701,
+                "whites": 38,
+                "void": 20,
+                "expressed": 2643
             }
         }
     },
@@ -85,7 +96,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 473
         },
         {
             "lastname": "LEBAILLY",
@@ -96,7 +108,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 532
         },
         {
             "lastname": "GASTON",
@@ -106,7 +119,8 @@
             "nuanceComputed": "LFI",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 782
         },
         {
             "lastname": "LENORMAND",
@@ -117,7 +131,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 856
         }
     ]
 }

@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Corse-du-Sud",
     "results": {
-        "firstRound": {
-            "registered": 61770,
-            "voted": 38922,
-            "whites": 643,
-            "expressed": 37738,
-            "void": 541,
-            "candidates": {
-                "Nathalie Arthaud": 108,
-                "Fabien Roussel": 1004,
-                "Emmanuel Macron": 7004,
-                "Jean Lasalle": 3538,
-                "Marine Le Pen": 11189,
-                "Jean-Luc Mélenchon": 5051,
-                "Anne Hidalgo": 285,
-                "Yannick Jadot": 1162,
-                "Valérie Pécresse": 2269,
-                "Phillipe Poutou": 318,
-                "Nicolas Dupont-Aignan": 685,
-                "Eric Zemmour": 5125
+        "2017": {
+            "firstRound": {
+                "registered": 61770,
+                "voted": 38922,
+                "whites": 643,
+                "expressed": 37738,
+                "void": 541,
+                "candidates": {
+                    "Nathalie Arthaud": 108,
+                    "Fabien Roussel": 1004,
+                    "Emmanuel Macron": 7004,
+                    "Jean Lasalle": 3538,
+                    "Marine Le Pen": 11189,
+                    "Jean-Luc Mélenchon": 5051,
+                    "Anne Hidalgo": 285,
+                    "Yannick Jadot": 1162,
+                    "Valérie Pécresse": 2269,
+                    "Phillipe Poutou": 318,
+                    "Nicolas Dupont-Aignan": 685,
+                    "Eric Zemmour": 5125
+                }
+            },
+            "secondRound": {
+                "registered": 61763,
+                "voted": 37975,
+                "whites": 2172,
+                "expressed": 34486,
+                "void": 1317,
+                "candidates": {
+                    "Emmanuel Macron": 14426,
+                    "Marine Le Pen": 20060
+                }
             }
         },
-        "secondRound": {
-            "registered": 61763,
-            "voted": 37975,
-            "whites": 2172,
-            "expressed": 34486,
-            "void": 1317,
-            "candidates": {
-                "Emmanuel Macron": 14426,
-                "Marine Le Pen": 20060
+        "2022": {
+            "firstRound": {
+                "registered": 61842,
+                "voted": 26512,
+                "whites": 513,
+                "void": 355,
+                "expressed": 25644
             }
         }
     },
@@ -84,7 +95,8 @@
             "nuanceComputed": "PS",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 361
         },
         {
             "lastname": "NICOLAI",
@@ -95,7 +107,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 721
         },
         {
             "lastname": "DAÏEN",
@@ -106,7 +119,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 80
         },
         {
             "lastname": "BATTISTINI",
@@ -116,7 +130,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1202
         },
         {
             "lastname": "COLOMBANI",
@@ -127,7 +142,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9549
         },
         {
             "lastname": "MUSELLI-COLONNA",
@@ -137,7 +153,8 @@
             "nuanceComputed": "PCF",
             "party": "Parti communiste français",
             "partyShort": "PCF",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1104
         },
         {
             "lastname": "FILONI",
@@ -147,7 +164,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3787
         },
         {
             "lastname": "ETTORI",
@@ -158,7 +176,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 374
         },
         {
             "lastname": "CHAMPEAU",
@@ -169,7 +188,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1046
         },
         {
             "lastname": "BOZZI",
@@ -180,7 +200,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7084
         },
         {
             "lastname": "PUCCINELLI",
@@ -191,7 +212,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 336
         }
     ]
 }

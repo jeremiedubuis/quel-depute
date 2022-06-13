@@ -3,36 +3,47 @@
     "number": 2,
     "name": "Var",
     "results": {
-        "firstRound": {
-            "registered": 91773,
-            "voted": 67007,
-            "whites": 938,
-            "expressed": 65755,
-            "void": 314,
-            "candidates": {
-                "Nathalie Arthaud": 226,
-                "Fabien Roussel": 1209,
-                "Emmanuel Macron": 15122,
-                "Jean Lasalle": 2091,
-                "Marine Le Pen": 19997,
-                "Jean-Luc Mélenchon": 11038,
-                "Anne Hidalgo": 715,
-                "Yannick Jadot": 2257,
-                "Valérie Pécresse": 2727,
-                "Phillipe Poutou": 413,
-                "Nicolas Dupont-Aignan": 1622,
-                "Eric Zemmour": 8338
+        "2017": {
+            "firstRound": {
+                "registered": 91773,
+                "voted": 67007,
+                "whites": 938,
+                "expressed": 65755,
+                "void": 314,
+                "candidates": {
+                    "Nathalie Arthaud": 226,
+                    "Fabien Roussel": 1209,
+                    "Emmanuel Macron": 15122,
+                    "Jean Lasalle": 2091,
+                    "Marine Le Pen": 19997,
+                    "Jean-Luc Mélenchon": 11038,
+                    "Anne Hidalgo": 715,
+                    "Yannick Jadot": 2257,
+                    "Valérie Pécresse": 2727,
+                    "Phillipe Poutou": 413,
+                    "Nicolas Dupont-Aignan": 1622,
+                    "Eric Zemmour": 8338
+                }
+            },
+            "secondRound": {
+                "registered": 91822,
+                "voted": 66439,
+                "whites": 3817,
+                "expressed": 61493,
+                "void": 1129,
+                "candidates": {
+                    "Emmanuel Macron": 27654,
+                    "Marine Le Pen": 33839
+                }
             }
         },
-        "secondRound": {
-            "registered": 91822,
-            "voted": 66439,
-            "whites": 3817,
-            "expressed": 61493,
-            "void": 1129,
-            "candidates": {
-                "Emmanuel Macron": 27654,
-                "Marine Le Pen": 33839
+        "2022": {
+            "firstRound": {
+                "registered": 92500,
+                "voted": 41634,
+                "whites": 634,
+                "void": 182,
+                "expressed": 40818
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12595
         },
         {
             "lastname": "CORNIL",
@@ -93,7 +105,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7311
         },
         {
             "lastname": "JUVING-BRUNET",
@@ -104,7 +117,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 484
         },
         {
             "lastname": "PERRETO",
@@ -115,7 +129,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 722
         },
         {
             "lastname": "GAGO-CHIDAINE",
@@ -126,7 +141,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 286
         },
         {
             "lastname": "FOURNIER",
@@ -137,7 +153,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 500
         },
         {
             "lastname": "BERTRAND",
@@ -147,7 +164,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3252
         },
         {
             "lastname": "ARGENTO",
@@ -157,7 +175,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2566
         },
         {
             "lastname": "MUSSO",
@@ -167,7 +186,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 11203
         },
         {
             "lastname": "GONI",
@@ -178,7 +198,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 400
         },
         {
             "lastname": "BOISSIN",
@@ -189,7 +210,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 637
         },
         {
             "lastname": "BLANC",
@@ -199,7 +221,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 599
         },
         {
             "lastname": "GHIOTTO",
@@ -210,7 +233,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 263
         }
     ]
 }

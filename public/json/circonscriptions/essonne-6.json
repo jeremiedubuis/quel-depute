@@ -3,36 +3,47 @@
     "number": 6,
     "name": "Essonne",
     "results": {
-        "firstRound": {
-            "registered": 82748,
-            "voted": 63659,
-            "whites": 849,
-            "expressed": 62473,
-            "void": 337,
-            "candidates": {
-                "Nathalie Arthaud": 274,
-                "Fabien Roussel": 1361,
-                "Emmanuel Macron": 18655,
-                "Jean Lasalle": 1111,
-                "Marine Le Pen": 8469,
-                "Jean-Luc Mélenchon": 19189,
-                "Anne Hidalgo": 943,
-                "Yannick Jadot": 3745,
-                "Valérie Pécresse": 3373,
-                "Phillipe Poutou": 427,
-                "Nicolas Dupont-Aignan": 1084,
-                "Eric Zemmour": 3842
+        "2017": {
+            "firstRound": {
+                "registered": 82748,
+                "voted": 63659,
+                "whites": 849,
+                "expressed": 62473,
+                "void": 337,
+                "candidates": {
+                    "Nathalie Arthaud": 274,
+                    "Fabien Roussel": 1361,
+                    "Emmanuel Macron": 18655,
+                    "Jean Lasalle": 1111,
+                    "Marine Le Pen": 8469,
+                    "Jean-Luc Mélenchon": 19189,
+                    "Anne Hidalgo": 943,
+                    "Yannick Jadot": 3745,
+                    "Valérie Pécresse": 3373,
+                    "Phillipe Poutou": 427,
+                    "Nicolas Dupont-Aignan": 1084,
+                    "Eric Zemmour": 3842
+                }
+            },
+            "secondRound": {
+                "registered": 82770,
+                "voted": 59478,
+                "whites": 3598,
+                "expressed": 54704,
+                "void": 1176,
+                "candidates": {
+                    "Emmanuel Macron": 39975,
+                    "Marine Le Pen": 14729
+                }
             }
         },
-        "secondRound": {
-            "registered": 82770,
-            "voted": 59478,
-            "whites": 3598,
-            "expressed": 54704,
-            "void": 1176,
-            "candidates": {
-                "Emmanuel Macron": 39975,
-                "Marine Le Pen": 14729
+        "2022": {
+            "firstRound": {
+                "registered": 83238,
+                "voted": 41770,
+                "whites": 506,
+                "void": 207,
+                "expressed": 41057
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 407
         },
         {
             "lastname": "HADDAD",
@@ -94,7 +106,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4361
         },
         {
             "lastname": "ROHAULT DE FLEURY",
@@ -105,7 +118,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 253
         },
         {
             "lastname": "CHEN",
@@ -116,7 +130,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 307
         },
         {
             "lastname": "DE MONTCHALIN",
@@ -126,7 +141,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12915
         },
         {
             "lastname": "BARONET",
@@ -137,7 +153,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 127
         },
         {
             "lastname": "GUEDJ",
@@ -147,7 +164,8 @@
             "nuanceComputed": "PS-Nupes",
             "party": "Parti socialiste",
             "partyShort": "PS",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 15730
         },
         {
             "lastname": "BOMMELAER",
@@ -157,7 +175,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 689
         },
         {
             "lastname": "ASKAR",
@@ -168,7 +187,8 @@
             "party": "Les Patriotes",
             "partyShort": "Les Patriotes",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 530
         },
         {
             "lastname": "LONCHAMPT",
@@ -178,7 +198,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1650
         },
         {
             "lastname": "LACARRIERE",
@@ -188,7 +209,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2448
         },
         {
             "lastname": "SAHARI",
@@ -199,7 +221,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1189
         },
         {
             "lastname": "PIOTELAT",
@@ -209,7 +232,8 @@
             "nuanceComputed": "Pirate",
             "party": "Parti Pirate",
             "partyShort": "pp",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 451
         }
     ]
 }

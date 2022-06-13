@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Mayotte",
     "results": {
-        "firstRound": {
-            "registered": 42446,
-            "voted": 16749,
-            "whites": 427,
-            "expressed": 15767,
-            "void": 555,
-            "candidates": {
-                "Nathalie Arthaud": 195,
-                "Fabien Roussel": 87,
-                "Emmanuel Macron": 3091,
-                "Jean Lasalle": 140,
-                "Marine Le Pen": 5925,
-                "Jean-Luc Mélenchon": 4340,
-                "Anne Hidalgo": 167,
-                "Yannick Jadot": 127,
-                "Valérie Pécresse": 1022,
-                "Phillipe Poutou": 146,
-                "Nicolas Dupont-Aignan": 242,
-                "Eric Zemmour": 285
+        "2017": {
+            "firstRound": {
+                "registered": 42446,
+                "voted": 16749,
+                "whites": 427,
+                "expressed": 15767,
+                "void": 555,
+                "candidates": {
+                    "Nathalie Arthaud": 195,
+                    "Fabien Roussel": 87,
+                    "Emmanuel Macron": 3091,
+                    "Jean Lasalle": 140,
+                    "Marine Le Pen": 5925,
+                    "Jean-Luc Mélenchon": 4340,
+                    "Anne Hidalgo": 167,
+                    "Yannick Jadot": 127,
+                    "Valérie Pécresse": 1022,
+                    "Phillipe Poutou": 146,
+                    "Nicolas Dupont-Aignan": 242,
+                    "Eric Zemmour": 285
+                }
+            },
+            "secondRound": {
+                "registered": 42650,
+                "voted": 18736,
+                "whites": 802,
+                "expressed": 17007,
+                "void": 927,
+                "candidates": {
+                    "Emmanuel Macron": 7709,
+                    "Marine Le Pen": 9298
+                }
             }
         },
-        "secondRound": {
-            "registered": 42650,
-            "voted": 18736,
-            "whites": 802,
-            "expressed": 17007,
-            "void": 927,
-            "candidates": {
-                "Emmanuel Macron": 7709,
-                "Marine Le Pen": 9298
+        "2022": {
+            "firstRound": {
+                "registered": 42833,
+                "voted": 17625,
+                "whites": 482,
+                "void": 647,
+                "expressed": 16496
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1194
         },
         {
             "lastname": "NARAYANIN",
@@ -94,7 +106,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2920
         },
         {
             "lastname": "ABDILLAH",
@@ -104,7 +117,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2398
         },
         {
             "lastname": "CHAKRINA",
@@ -115,7 +129,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1178
         },
         {
             "lastname": "BOURA",
@@ -126,7 +141,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2596
         },
         {
             "lastname": "MOINDJIE",
@@ -137,7 +153,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1194
         },
         {
             "lastname": "AOUNY",
@@ -148,7 +165,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1409
         },
         {
             "lastname": "DJAZA",
@@ -159,7 +177,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 124
         },
         {
             "lastname": "AUTRAN",
@@ -170,7 +189,8 @@
             "party": "divers centre",
             "partyShort": "divers centre",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 12
         },
         {
             "lastname": "YOUSSOUFFA",
@@ -181,7 +201,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3471
         }
     ]
 }

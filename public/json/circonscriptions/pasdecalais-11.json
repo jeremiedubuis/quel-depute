@@ -3,36 +3,47 @@
     "number": 11,
     "name": "Pas-de-Calais",
     "results": {
-        "firstRound": {
-            "registered": 93941,
-            "voted": 66937,
-            "whites": 742,
-            "expressed": 65767,
-            "void": 428,
-            "candidates": {
-                "Nathalie Arthaud": 451,
-                "Fabien Roussel": 2343,
-                "Emmanuel Macron": 11527,
-                "Jean Lasalle": 989,
-                "Marine Le Pen": 29691,
-                "Jean-Luc Mélenchon": 13585,
-                "Anne Hidalgo": 720,
-                "Yannick Jadot": 1278,
-                "Valérie Pécresse": 1086,
-                "Phillipe Poutou": 469,
-                "Nicolas Dupont-Aignan": 849,
-                "Eric Zemmour": 2779
+        "2017": {
+            "firstRound": {
+                "registered": 93941,
+                "voted": 66937,
+                "whites": 742,
+                "expressed": 65767,
+                "void": 428,
+                "candidates": {
+                    "Nathalie Arthaud": 451,
+                    "Fabien Roussel": 2343,
+                    "Emmanuel Macron": 11527,
+                    "Jean Lasalle": 989,
+                    "Marine Le Pen": 29691,
+                    "Jean-Luc Mélenchon": 13585,
+                    "Anne Hidalgo": 720,
+                    "Yannick Jadot": 1278,
+                    "Valérie Pécresse": 1086,
+                    "Phillipe Poutou": 469,
+                    "Nicolas Dupont-Aignan": 849,
+                    "Eric Zemmour": 2779
+                }
+            },
+            "secondRound": {
+                "registered": 93974,
+                "voted": 66897,
+                "whites": 2860,
+                "expressed": 62488,
+                "void": 1549,
+                "candidates": {
+                    "Emmanuel Macron": 22866,
+                    "Marine Le Pen": 39622
+                }
             }
         },
-        "secondRound": {
-            "registered": 93974,
-            "voted": 66897,
-            "whites": 2860,
-            "expressed": 62488,
-            "void": 1549,
-            "candidates": {
-                "Emmanuel Macron": 22866,
-                "Marine Le Pen": 39622
+        "2022": {
+            "firstRound": {
+                "registered": 94162,
+                "voted": 40114,
+                "whites": 482,
+                "void": 309,
+                "expressed": 39323
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 700
         },
         {
             "lastname": "GAI",
@@ -94,7 +106,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 592
         },
         {
             "lastname": "LEGRAND",
@@ -105,7 +118,8 @@
             "party": "Parti radical de gauche",
             "partyShort": "PRG",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 542
         },
         {
             "lastname": "LE PEN",
@@ -115,7 +129,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 21219
         },
         {
             "lastname": "TONDELIER",
@@ -125,7 +140,8 @@
             "nuanceComputed": "EELV-Nupes",
             "party": "Europe Ecologie-Les Verts",
             "partyShort": "EELV",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 9213
         },
         {
             "lastname": "TASZAREK",
@@ -135,7 +151,8 @@
             "nuanceComputed": "UDI",
             "party": "Union des démocrates et indépendants",
             "partyShort": "UDI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1382
         },
         {
             "lastname": "PINTUS",
@@ -145,7 +162,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4846
         },
         {
             "lastname": "WEINMANN",
@@ -156,7 +174,8 @@
             "party": "autres extrême gauche",
             "partyShort": "autres extrême gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 274
         },
         {
             "lastname": "RAÏSS",
@@ -167,7 +186,8 @@
             "party": "Union des démocrates musulmans français",
             "partyShort": "Union des démocrates musulmans français",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 555
         }
     ]
 }

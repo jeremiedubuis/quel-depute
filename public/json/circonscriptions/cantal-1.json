@@ -3,36 +3,47 @@
     "number": 1,
     "name": "Cantal",
     "results": {
-        "firstRound": {
-            "registered": 62900,
-            "voted": 49712,
-            "whites": 1045,
-            "expressed": 48188,
-            "void": 479,
-            "candidates": {
-                "Nathalie Arthaud": 282,
-                "Fabien Roussel": 1548,
-                "Emmanuel Macron": 14291,
-                "Jean Lasalle": 3313,
-                "Marine Le Pen": 11118,
-                "Jean-Luc Mélenchon": 7423,
-                "Anne Hidalgo": 1146,
-                "Yannick Jadot": 1740,
-                "Valérie Pécresse": 3431,
-                "Phillipe Poutou": 381,
-                "Nicolas Dupont-Aignan": 797,
-                "Eric Zemmour": 2718
+        "2017": {
+            "firstRound": {
+                "registered": 62900,
+                "voted": 49712,
+                "whites": 1045,
+                "expressed": 48188,
+                "void": 479,
+                "candidates": {
+                    "Nathalie Arthaud": 282,
+                    "Fabien Roussel": 1548,
+                    "Emmanuel Macron": 14291,
+                    "Jean Lasalle": 3313,
+                    "Marine Le Pen": 11118,
+                    "Jean-Luc Mélenchon": 7423,
+                    "Anne Hidalgo": 1146,
+                    "Yannick Jadot": 1740,
+                    "Valérie Pécresse": 3431,
+                    "Phillipe Poutou": 381,
+                    "Nicolas Dupont-Aignan": 797,
+                    "Eric Zemmour": 2718
+                }
+            },
+            "secondRound": {
+                "registered": 62900,
+                "voted": 48915,
+                "whites": 3750,
+                "expressed": 43532,
+                "void": 1633,
+                "candidates": {
+                    "Emmanuel Macron": 25778,
+                    "Marine Le Pen": 17754
+                }
             }
         },
-        "secondRound": {
-            "registered": 62900,
-            "voted": 48915,
-            "whites": 3750,
-            "expressed": 43532,
-            "void": 1633,
-            "candidates": {
-                "Emmanuel Macron": 25778,
-                "Marine Le Pen": 17754
+        "2022": {
+            "firstRound": {
+                "registered": 63112,
+                "voted": 33979,
+                "whites": 692,
+                "void": 313,
+                "expressed": 32974
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3695
         },
         {
             "lastname": "DESCOEUR",
@@ -93,7 +105,8 @@
             "nuanceComputed": "LR",
             "party": "Les Républicains",
             "partyShort": "LR",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13299
         },
         {
             "lastname": "DAUVILLIER",
@@ -104,7 +117,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 437
         },
         {
             "lastname": "TEYSSEDOU",
@@ -114,7 +128,8 @@
             "nuanceComputed": "LRM-Ensemble",
             "party": "La République en marche",
             "partyShort": "LREM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 7338
         },
         {
             "lastname": "DE  BALINCOURT",
@@ -124,7 +139,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1013
         },
         {
             "lastname": "MACIAZEK",
@@ -134,7 +150,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6104
         },
         {
             "lastname": "DELPONT",
@@ -145,7 +162,8 @@
             "party": "divers droite",
             "partyShort": "divers droite",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1088
         }
     ]
 }

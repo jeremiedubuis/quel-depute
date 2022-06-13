@@ -3,36 +3,47 @@
     "number": 8,
     "name": "Val-d'Oise",
     "results": {
-        "firstRound": {
-            "registered": 54208,
-            "voted": 36054,
-            "whites": 510,
-            "expressed": 35259,
-            "void": 285,
-            "candidates": {
-                "Nathalie Arthaud": 174,
-                "Fabien Roussel": 413,
-                "Emmanuel Macron": 6437,
-                "Jean Lasalle": 383,
-                "Marine Le Pen": 4992,
-                "Jean-Luc Mélenchon": 18337,
-                "Anne Hidalgo": 313,
-                "Yannick Jadot": 440,
-                "Valérie Pécresse": 940,
-                "Phillipe Poutou": 197,
-                "Nicolas Dupont-Aignan": 395,
-                "Eric Zemmour": 2238
+        "2017": {
+            "firstRound": {
+                "registered": 54208,
+                "voted": 36054,
+                "whites": 510,
+                "expressed": 35259,
+                "void": 285,
+                "candidates": {
+                    "Nathalie Arthaud": 174,
+                    "Fabien Roussel": 413,
+                    "Emmanuel Macron": 6437,
+                    "Jean Lasalle": 383,
+                    "Marine Le Pen": 4992,
+                    "Jean-Luc Mélenchon": 18337,
+                    "Anne Hidalgo": 313,
+                    "Yannick Jadot": 440,
+                    "Valérie Pécresse": 940,
+                    "Phillipe Poutou": 197,
+                    "Nicolas Dupont-Aignan": 395,
+                    "Eric Zemmour": 2238
+                }
+            },
+            "secondRound": {
+                "registered": 54159,
+                "voted": 31368,
+                "whites": 1949,
+                "expressed": 28782,
+                "void": 637,
+                "candidates": {
+                    "Emmanuel Macron": 19288,
+                    "Marine Le Pen": 9494
+                }
             }
         },
-        "secondRound": {
-            "registered": 54159,
-            "voted": 31368,
-            "whites": 1949,
-            "expressed": 28782,
-            "void": 637,
-            "candidates": {
-                "Emmanuel Macron": 19288,
-                "Marine Le Pen": 9494
+        "2022": {
+            "firstRound": {
+                "registered": 54509,
+                "voted": 17943,
+                "whites": 343,
+                "void": 140,
+                "expressed": 17460
             }
         }
     },
@@ -84,7 +95,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 158
         },
         {
             "lastname": "MÉRIENNE",
@@ -94,7 +106,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1998
         },
         {
             "lastname": "GAUTHERIN",
@@ -104,7 +117,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 574
         },
         {
             "lastname": "BILONGO",
@@ -114,7 +128,8 @@
             "nuanceComputed": "LFI-Nupes",
             "party": "La France insoumise",
             "partyShort": "LFI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 6485
         },
         {
             "lastname": "PRUDHOMME",
@@ -124,7 +139,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 178
         },
         {
             "lastname": "ANGREVIER",
@@ -134,7 +150,8 @@
             "nuanceComputed": "UDI",
             "party": "Union des démocrates et indépendants",
             "partyShort": "UDI",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1499
         },
         {
             "lastname": "AMANI",
@@ -145,7 +162,8 @@
             "party": "Union des démocrates musulmans français",
             "partyShort": "Union des démocrates musulmans français",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 291
         },
         {
             "lastname": "AUGUSTE",
@@ -156,7 +174,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 438
         },
         {
             "lastname": "CAMARA",
@@ -167,7 +186,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 195
         },
         {
             "lastname": "RAJA",
@@ -178,7 +198,8 @@
             "party": "Divers gauche",
             "partyShort": "Divers gauche",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 545
         },
         {
             "lastname": "ZAOUI",
@@ -189,7 +210,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 807
         },
         {
             "lastname": "TOOR",
@@ -200,7 +222,8 @@
             "party": "divers inclassable",
             "partyShort": "divers inclassable",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 29
         },
         {
             "lastname": "PUPPONI",
@@ -210,7 +233,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 4263
         }
     ]
 }

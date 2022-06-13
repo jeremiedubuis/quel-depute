@@ -3,36 +3,47 @@
     "number": 4,
     "name": "Hauts-de-Seine",
     "results": {
-        "firstRound": {
-            "registered": 80000,
-            "voted": 60676,
-            "whites": 959,
-            "expressed": 59550,
-            "void": 167,
-            "candidates": {
-                "Nathalie Arthaud": 204,
-                "Fabien Roussel": 1226,
-                "Emmanuel Macron": 18187,
-                "Jean Lasalle": 800,
-                "Marine Le Pen": 5542,
-                "Jean-Luc Mélenchon": 22248,
-                "Anne Hidalgo": 683,
-                "Yannick Jadot": 3090,
-                "Valérie Pécresse": 3057,
-                "Phillipe Poutou": 304,
-                "Nicolas Dupont-Aignan": 736,
-                "Eric Zemmour": 3473
+        "2017": {
+            "firstRound": {
+                "registered": 80000,
+                "voted": 60676,
+                "whites": 959,
+                "expressed": 59550,
+                "void": 167,
+                "candidates": {
+                    "Nathalie Arthaud": 204,
+                    "Fabien Roussel": 1226,
+                    "Emmanuel Macron": 18187,
+                    "Jean Lasalle": 800,
+                    "Marine Le Pen": 5542,
+                    "Jean-Luc Mélenchon": 22248,
+                    "Anne Hidalgo": 683,
+                    "Yannick Jadot": 3090,
+                    "Valérie Pécresse": 3057,
+                    "Phillipe Poutou": 304,
+                    "Nicolas Dupont-Aignan": 736,
+                    "Eric Zemmour": 3473
+                }
+            },
+            "secondRound": {
+                "registered": 80026,
+                "voted": 54715,
+                "whites": 3887,
+                "expressed": 50253,
+                "void": 575,
+                "candidates": {
+                    "Emmanuel Macron": 39720,
+                    "Marine Le Pen": 10533
+                }
             }
         },
-        "secondRound": {
-            "registered": 80026,
-            "voted": 54715,
-            "whites": 3887,
-            "expressed": 50253,
-            "void": 575,
-            "candidates": {
-                "Emmanuel Macron": 39720,
-                "Marine Le Pen": 10533
+        "2022": {
+            "firstRound": {
+                "registered": 80977,
+                "voted": 37550,
+                "whites": 991,
+                "void": 112,
+                "expressed": 36447
             }
         }
     },
@@ -83,7 +94,8 @@
             "nuanceComputed": "EELV-Nupes",
             "party": "Europe Ecologie-Les Verts",
             "partyShort": "EELV",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13122
         },
         {
             "lastname": "SCHOENHENZ",
@@ -94,7 +106,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 487
         },
         {
             "lastname": "STRUMANNE",
@@ -105,7 +118,8 @@
             "party": "Lutte ouvrière",
             "partyShort": "Lutte ouvrière",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 248
         },
         {
             "lastname": "ALLAIN",
@@ -116,7 +130,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 165
         },
         {
             "lastname": "BIGDADE",
@@ -127,7 +142,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 2055
         },
         {
             "lastname": "MULLER",
@@ -137,7 +153,8 @@
             "nuanceComputed": "Rec.",
             "party": "Reconquête !",
             "partyShort": "REC",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 1925
         },
         {
             "lastname": "COMBAZ",
@@ -148,7 +165,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 182
         },
         {
             "lastname": "BARNY",
@@ -159,7 +177,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 263
         },
         {
             "lastname": "BRAVO",
@@ -169,7 +188,8 @@
             "nuanceComputed": "RN",
             "party": "Rassemblement national",
             "partyShort": "RN",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 3337
         },
         {
             "lastname": "SAHRAOUI BRAHIM",
@@ -180,7 +200,8 @@
             "party": "",
             "partyShort": "",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 16
         },
         {
             "lastname": "EISENBERG",
@@ -191,7 +212,8 @@
             "party": "Nouveau Parti anticapitaliste",
             "partyShort": "Nouveau Parti anticapitaliste",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 164
         },
         {
             "lastname": "SAÏZ",
@@ -201,7 +223,8 @@
             "nuanceComputed": "Anim.",
             "party": "Parti animaliste",
             "partyShort": "PA",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 660
         },
         {
             "lastname": "FLORENNES",
@@ -211,7 +234,8 @@
             "nuanceComputed": "MoDem-Ensemble",
             "party": "Mouvement démocrate",
             "partyShort": "MODEM",
-            "candidate": true
+            "candidate": true,
+            "firstRound": 13472
         },
         {
             "lastname": "AZERGUI",
@@ -222,7 +246,8 @@
             "party": "Union des démocrates musulmans français",
             "partyShort": "Union des démocrates musulmans français",
             "noPartyImage": true,
-            "candidate": true
+            "candidate": true,
+            "firstRound": 351
         }
     ]
 }
