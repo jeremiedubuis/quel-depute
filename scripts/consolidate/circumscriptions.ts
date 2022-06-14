@@ -167,23 +167,22 @@ const consolidate = async () => {
                 (c.firstRound / firstRound.expressed) * 100 > 50 &&
                 (c.firstRound / firstRound.registered) * 100 >= 25
         );
-        if (_countyId === '93' && _circumscription === 7)
-            if (electedFirstRound) {
-                qualified = [electedFirstRound];
-            } else if (qualified.length === 1) {
-                qualified.push(
-                    circumscription.candidates
-                        .filter(
-                            (c) =>
-                                c.lastname !== qualified[0].lastname &&
-                                c.firstname !== qualified[0].firstname
-                        )
-                        .reduce((acc, c) => {
-                            if (!acc || c.firstRound > acc.firstRound) return c;
-                            return acc;
-                        }, null)
-                );
-            }
+        if (electedFirstRound) {
+            qualified = [electedFirstRound];
+        } else if (qualified.length === 1) {
+            qualified.push(
+                circumscription.candidates
+                    .filter(
+                        (c) =>
+                            c.lastname !== qualified[0].lastname &&
+                            c.firstname !== qualified[0].firstname
+                    )
+                    .reduce((acc, c) => {
+                        if (!acc || c.firstRound > acc.firstRound) return c;
+                        return acc;
+                    }, null)
+            );
+        }
 
         circumscription.candidates.forEach((c) => {
             if (qualified.find((q) => c.firstname === q.firstname && q.lastname === c.lastname))
