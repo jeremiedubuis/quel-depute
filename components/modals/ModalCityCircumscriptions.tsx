@@ -30,7 +30,7 @@ export const ModalCityCircumscriptions: React.FC<{
             >
                 {circumscriptions.map((c, i) => {
                     let depute = deputes.find(
-                        (d) => d.current && d.circumscription === c.circumscriptionNumber
+                        (d) => d.current && d.circumscription === c.circumscriptionNumberN
                     );
 
                     if (!depute) {

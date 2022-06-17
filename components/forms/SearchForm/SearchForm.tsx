@@ -161,7 +161,9 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                                     `${value.county} ${value.circumscription}/`
                                 )}`
                             );
-                            window.location.hash = value.current ? '#depute' : '#candidats';
+                            window.location.hash = value.current
+                                ? '#depute'
+                                : '#resultats-1er-tour';
                         }}
                         id="form-name"
                         label="Nom"

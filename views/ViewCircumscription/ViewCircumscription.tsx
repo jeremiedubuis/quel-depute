@@ -41,7 +41,6 @@ const onAnchorClick = (e) => {
 const scrollToAnchor = (targetId: string) => {
     const _offset = document.getElementById('circumscription-header').offsetHeight;
     const { top } = offset(document.getElementById(targetId));
-    console.log(_offset);
     window.location.hash = targetId;
     window.scrollTo(0, top - _offset);
 };
@@ -93,12 +92,12 @@ export const ViewCircumscription: React.FC<{
                             </Link>
                         </li>
                         <li>
-                            <a href="#candidats" onClick={onAnchorClick}>
-                                Candidats
+                            <a href="#resultats-1er-tour" onClick={onAnchorClick}>
+                                Résultats législatives
                             </a>
                         </li>
                         <li>
-                            <a href="#resultats" onClick={onAnchorClick}>
+                            <a href="#resultats-presi" onClick={onAnchorClick}>
                                 Résultats présidentielles
                             </a>
                         </li>
@@ -120,7 +119,8 @@ export const ViewCircumscription: React.FC<{
                     En savoir plus
                 </Button>
             </DeputeTop>
-            <section id="first-round">
+
+            <section id="resultats-1er-tour">
                 <Title size={'big'} className={styles.title}>
                     Premier tour
                 </Title>
@@ -173,7 +173,7 @@ export const ViewCircumscription: React.FC<{
                 </ul>
             </section>
 
-            <section id="candidats">
+            <section id="candidats-quali">
                 <Title size={'big'} className={styles.title}>
                     {qualified.length > 1
                         ? 'Candidat(e)s qualifié(e)s pour le second tour'
@@ -194,7 +194,7 @@ export const ViewCircumscription: React.FC<{
                 </ul>
             </section>
 
-            <section id="candidats">
+            <section id="candidats-eli">
                 <Title size={'big'} className={styles.title}>
                     Candidats éliminés
                 </Title>
@@ -216,7 +216,7 @@ export const ViewCircumscription: React.FC<{
                 </ul>
             </section>
 
-            <section id="resultats">
+            <section id="resultats-presi">
                 <Title size={'big'}>Resultats du 1er tour des présidentielles</Title>
 
                 <HorizontalBars
