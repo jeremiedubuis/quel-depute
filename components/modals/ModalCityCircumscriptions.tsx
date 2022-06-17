@@ -13,6 +13,7 @@ export const ModalCityCircumscriptions: React.FC<{
     close: Function;
     deputes: BaseDepute[];
 }> = ({ isVisible, circumscriptions, close, deputes }) => {
+    console.log(circumscriptions);
     return (
         <Modal isVisible={isVisible} close={close}>
             <h2>Circonscriptions de {circumscriptions[0].villageName}</h2>
@@ -28,9 +29,17 @@ export const ModalCityCircumscriptions: React.FC<{
                 infinite={false}
             >
                 {circumscriptions.map((c, i) => {
-                    const depute = deputes.find(
-                        (d) => d.circumscription === c.circumscriptionNumber
+                    let depute = deputes.find(
+                        (d) => d.current && d.circumscription === c.circumscriptionNumber
                     );
+
+                    if (!depute) {
+                        depute = deputes.find((d) => d.circumscription === c.circumscriptionNumber);
+                        if (!depute) {
+                            console.log(c);
+                            return null;
+                        }
+                    }
                     return (
                         <>
                             <DeputeBlock depute={depute} isLinkToCircumscription />

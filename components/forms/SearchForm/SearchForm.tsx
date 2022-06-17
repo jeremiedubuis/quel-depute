@@ -195,14 +195,12 @@ export const SearchForm: React.FC<{ small?: boolean }> = ({ small }) => {
                 <ModalCityCircumscriptions
                     close={() => setVillageCircumscriptions(null)}
                     circumscriptions={villageCircumscriptions}
-                    deputes={deputes.filter(
-                        (d) =>
-                            d.current &&
-                            villageCircumscriptions.find(
-                                (v) =>
-                                    v.countyId === d.countyId &&
-                                    v.circumscriptionNumber === d.circumscription
-                            )
+                    deputes={deputes.filter((d) =>
+                        villageCircumscriptions.find(
+                            (v) =>
+                                v.countyId === d.countyId &&
+                                v.circumscriptionNumber === d.circumscription
+                        )
                     )}
                     isVisible={true}
                 />

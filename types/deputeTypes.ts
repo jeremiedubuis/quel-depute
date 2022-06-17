@@ -13,6 +13,7 @@ export type BaseDepute = {
     slug: string;
     noPicture?: boolean;
     nuance?: string;
+    current?: boolean;
 };
 
 export type Candidate = {

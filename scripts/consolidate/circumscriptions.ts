@@ -116,7 +116,8 @@ const consolidate = async () => {
             );
         });
 
-        if (!resultsFirstRound) console.log(_countyId, _circumscription);
+        if (!resultsFirstRound) console.log('Missing results', _countyId, _circumscription);
+
         const firstRound = {
             registered: resultsFirstRound.Inscrits,
             voted: resultsFirstRound.Votants,
@@ -144,17 +145,22 @@ const consolidate = async () => {
                     parseInt(d.circumscription) === number
             ),
             candidates: _candidates.map(({ p, ...c }) => {
-                const _results = resultsFirstRound.votes.find(
-                    (r) =>
+                let _results = resultsFirstRound.votes.filter((r) => {
+                    return (
                         slugifyNames(r.firstname, r.lastname) ===
                         slugifyNames(c.firstname, c.lastname)
-                );
+                    );
+                });
+
+                if (_results.length > 1) {
+                    _results = _results.filter((r) => r.CodNua === c.nuance);
+                }
 
                 return {
                     ...c,
                     ...partyToPartyShortAndImage(c.party),
                     candidate: true,
-                    firstRound: _results?.NbVoix
+                    firstRound: _results?.[0]?.NbVoix
                 };
             })
         };
@@ -175,7 +181,8 @@ const consolidate = async () => {
                     .filter(
                         (c) =>
                             c.lastname !== qualified[0].lastname &&
-                            c.firstname !== qualified[0].firstname
+                            c.firstname !== qualified[0].firstname &&
+                            c.nuance !== qualified[0].nuance
                     )
                     .reduce((acc, c) => {
                         if (!acc || c.firstRound > acc.firstRound) return c;
@@ -185,7 +192,14 @@ const consolidate = async () => {
         }
 
         circumscription.candidates.forEach((c) => {
-            if (qualified.find((q) => c.firstname === q.firstname && q.lastname === c.lastname))
+            if (
+                qualified.find(
+                    (q) =>
+                        c.firstname === q.firstname &&
+                        q.lastname === c.lastname &&
+                        c.nuance === q.nuance
+                )
+            )
                 c.qualified = true;
         });
 
