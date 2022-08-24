@@ -2,33 +2,30 @@ on:
   create:
     tags:
       - v*
-env:
-  GCP_BUCKET: ${{ secrets.GCP_BUCKET }}
-  GCP_SA_JSON: ${{ secrets.GCP_SA_JSON }}
+  workflow_dispatch:
+
 jobs:
-  staging:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+        name: Checkout
 
-      - id: auth
-        uses: google-github-actions/auth@v0
-        with:
-          credentials_json: ${{ secrets.GCP_SA_JSON }}
-
-      - name: Setup GCP SDK
-        uses: google-github-actions/setup-gcloud@v0
-
-      - name: Setup - node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install dependencies
-        run: npm install
-      - name: Build Next.js
-        run: npm run build
-      - name: Deploy to GCP
-        run: |-
-          gsutil -m -h 'Cache-Control: max-age=31536000' rsync -R out gs://$GCP_BUCKET
+      - name: Build
+        run: |
+          npm install
+          npm run build
+      - name: Build Image & Push to Docker Registry
+        run: |
+          echo '${{ secrets.DOCKER_PASSWORD }}' | docker login ${{ secrets.DOCKER_REGISTRY }} -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+          docker build -t ${{ secrets.DOCKER_REGISTRY }}/jeremie/quel-depute:${{ github.sha }} . -f devops/Dockerfile
+          docker build -t ${{ secrets.DOCKER_REGISTRY }}/jeremie/quel-depute:latest . -f devops/Dockerfile
+          docker image push --all-tags ${{ secrets.DOCKER_REGISTRY }}/jeremie/quel-depute
+      - name: SSH
+        run: |
+          mkdir ~/.ssh
+          echo "${{ secrets.DEPLOY_RSA }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          ssh debian@${{ secrets.DEPLOY_HOST }}  "bash -s" < devops/deploy.sh ${{ secrets.DOCKER_USERNAME }} ${{ secrets.DOCKER_PASSWORD }} ${{ secrets.DOCKER_REGISTRY }}
